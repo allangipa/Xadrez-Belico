@@ -15,7 +15,7 @@ ordem, nunca um número que a apuração não sustente.
   "num": "02",
   "slug": "montese",
   "batalha": "Montese",
-  "titulo_video": "texto exato do título do YouTube do episódio",
+  "titulo_video": "texto exato do título do YouTube, ou null se o vídeo ainda não tem título",
   "lugar": "Montese, Módena, Itália",
   "data": "14 a 17 de abril de 1945",
   "campanha": "A FEB na Itália",          // fio do episódio

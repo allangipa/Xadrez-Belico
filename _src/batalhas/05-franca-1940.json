@@ -1,0 +1,196 @@
+{
+  "num": "05",
+  "slug": "franca-1940",
+  "batalha": "A queda da França",
+  "titulo_video": null,
+  "lugar": "França, Bélgica, Países Baixos e Luxemburgo; o ponto de decisão em Sedan, no rio Meuse, departamento das Ardenas, França",
+  "data": "10 de maio a 25 de junho de 1940",
+  "campanha": "Segunda Guerra Mundial, 1940",
+  "estreia": "2026-10-22",
+  "pergunta": "Se em setembro de 1939 não havia doutrina nova, o que exatamente a Alemanha aplicou na França em maio de 1940?",
+  "resumo": "A Alemanha atacou com menos tanques e pouco mais da metade da artilharia aliada. Em 1940 não venceu uma doutrina: venceu um plano, e Sedan é a prova.",
+  "abertura": [
+    "Em 10 de maio de 1940, quando a Alemanha ataca no oeste, os Aliados têm 13.974 canhões contra 7.378 alemães. Só a França tem entre 3.383 e 4.071 tanques; a Alemanha entra com 2.445. Seis semanas depois, a França está fora da guerra.",
+    "A campanha da Polônia mostrou que, em 1939, não havia uma doutrina chamada Blitzkrieg: o nome veio dos jornais. Esta página continua a pergunta. Se não era doutrina, o que foi aplicado oito meses depois? A resposta cabe numa distinção: doutrina se ensina a um exército inteiro e serve para qualquer guerra; plano serve para uma guerra, contra um inimigo, num terreno."
+  ],
+  "numeros": [
+    {"valor": "13.974", "rotulo": "canhões aliados em 10 de maio de 1940, contra 7.378 alemães", "conf": "1"},
+    {"valor": "1.222", "rotulo": "tanques no Panzergruppe von Kleist — metade dos 2.445 alemães, num eixo só", "conf": "DIV"},
+    {"valor": "4", "rotulo": "estradas reservadas para o grupo blindado atravessar os Ardenas", "conf": "1"},
+    {"valor": "56", "rotulo": "baixas francesas em 8 horas de bombardeio sobre Sedan; nenhuma casamata destruída por acerto direto", "conf": "1"},
+    {"valor": "07:20", "rotulo": "de 14 de maio: o primeiro tanque alemão cruza o Meuse, mais de 12 horas depois do pânico de Bulson", "conf": "1"},
+    {"valor": "1.756.000", "rotulo": "prisioneiros aliados ao fim da campanha", "conf": "1"}
+  ],
+  "ficha": [
+    {"item": "Forças em 10 de maio", "valor": "Alemanha: 141 divisões e 3.300.000 homens. Aliados: 135 divisões e 3.300.000 homens", "conf": "1", "nota": "Wikipédia em inglês, Battle of France."},
+    {"item": "Artilharia e aviação", "valor": "Alemanha: 7.378 canhões e 5.638 aviões. Aliados: 13.974 canhões e menos de 2.935 aviões", "conf": "1", "nota": "A única superioridade material alemã clara era a aérea."},
+    {"item": "Tanques", "valor": "Alemanha: 2.445. França sozinha: entre 3.383 e 4.071", "conf": "DIV", "nota": "A própria fonte declara a divergência no número de tanques franceses."},
+    {"item": "Panzergruppe von Kleist", "valor": "134.000 homens, 1.222 tanques e 378 veículos, em cinco divisões blindadas: XIX Panzerkorps (3 divisões, eixo Sedan), XLI Panzerkorps (2, eixo Monthermé) e XV Corpo (2, alto Ardenas, guarda de flanco). A Wikipédia em francês, citando Mary (2009) e Frieser (2003), conta 1.250 carros e 350 veículos blindados de reconhecimento", "conf": "DIV", "nota": "São contagens de base diferente; as duas dizem a mesma coisa: cerca de metade dos tanques alemães num grupo só."},
+    {"item": "Comandantes e planejadores", "valor": "Alemanha: Erich von Manstein (autor do plano), Franz Halder (chefe do estado-maior), Walther von Brauchitsch (comandante-em-chefe). França: Maurice Gamelin (comandante-em-chefe), Alphonse Georges", "conf": "1"},
+    {"item": "O avanço aliado na Bélgica", "valor": "7º Exército francês (Giraud), até Breda; Força Expedicionária Britânica (Gort), 9 divisões, no Dyle; 1º Exército francês (Blanchard), 10 divisões, de Wavre a Namur; 9º Exército (Corap), ao sul de Namur, ao longo do Meuse", "conf": "1", "nota": "Wikipédia em inglês, Dyle Plan."},
+    {"item": "Sedan — defesa francesa", "valor": "55ª Divisão de Infantaria (general Henri Lafontaine), de categoria B, e a 71ª Divisão, ainda entrando na linha: 20.000 homens e 174 peças de artilharia", "conf": "1"},
+    {"item": "Sedan — ataque alemão", "valor": "1ª, 2ª e 10ª Divisões Panzer e o Regimento Großdeutschland: 60.000 homens, 41.000 veículos, 788 tanques e 141 peças", "conf": "1", "nota": "Wikipédia em inglês, Battle of Sedan (1940)."},
+    {"item": "Terreno", "valor": "a floresta dos Ardenas, tida como intransitável para blindados, com quatro itinerários reservados para o grupo de Kleist; depois dela, o rio Meuse em Sedan, onde as posições francesas não estavam cobertas pela Linha Maginot", "conf": "1"},
+    {"item": "Objetivo alemão", "valor": "atravessar os Ardenas, cruzar o Meuse em Sedan, virar para oeste e correr para o mar, isolando os exércitos aliados que tivessem avançado para o norte, na Bélgica", "conf": "1"},
+    {"item": "Duração", "valor": "de 10 de maio a 25 de junho de 1940; o armistício é assinado em 22 de junho, em Compiègne. Cerca de seis semanas", "conf": "1"},
+    {"item": "Baixas — Alemanha", "valor": "27.074 mortos, 111.034 feridos e 18.384 desaparecidos; entre 795 e 822 tanques perdidos", "conf": "DIV", "nota": "As fontes divergem no número de tanques perdidos."},
+    {"item": "Baixas — Aliados", "valor": "73.000 mortos, 240.000 feridos e 15.000 desaparecidos; 1.749 tanques franceses e 689 britânicos perdidos", "conf": "1"},
+    {"item": "Prisioneiros", "valor": "1.756.000 aliados", "conf": "1", "nota": "Wikipédia em inglês, Battle of France."},
+    {"item": "Resultado", "valor": "vitória alemã completa; a França assina o armistício em 22 de junho de 1940", "conf": "1"},
+    {"item": "O depois", "valor": "a ponta blindada alemã chega ao Canal da Mancha e fecha o cerco sobre os exércitos que tinham entrado na Bélgica; diante de Dunquerque vem uma ordem de parar, e mais de 300.000 homens saem pelo mar", "conf": "2+"}
+  ],
+  "lances": [
+    {
+      "titulo": "O tabuleiro: o lado que perdeu tinha mais peças",
+      "paragrafos": [
+        "Em 10 de maio de 1940 a Alemanha tinha 141 divisões; os Aliados, 135. Homens, 3.300.000 de cada lado. Até aqui, empate. Os números seguintes não são de empate: os Aliados tinham 13.974 canhões contra 7.378 alemães — quase o dobro — e só a França tinha entre 3.383 e 4.071 tanques, contra 2.445 da Alemanha inteira.",
+        "A única vantagem material clara dos alemães estava no ar: 5.638 aviões contra menos de 2.935. A campanha que encerraria a participação francesa na guerra em seis semanas foi vencida por um exército com menos tanques e com pouco mais da metade da artilharia do adversário. Se a resposta não está no material, está em outro lugar do tabuleiro."
+      ]
+    },
+    {
+      "titulo": "A abertura recusada: o plano de 1914, um avião e um general afastado",
+      "paragrafos": [
+        "A primeira diretriz para o oeste, a Aufmarschanweisung N°1 (Fall Gelb), foi desenhada por Franz Halder, chefe do estado-maior. Ela empurrava os Aliados pela Bélgica central até o rio Somme — parecida com a campanha de 1914. Empurrar não é cercar: um exército empurrado recua e se reorganiza; um exército cercado acaba. O plano original ganhava terreno, não a guerra.",
+        "Em 10 de janeiro de 1940 um avião alemão com documentos do plano cai na Bélgica. É acaso, e deve ser lido como acaso. O incidente força uma revisão, e Halder reescreve a diretriz.",
+        "A ideia que acabaria adotada era de Erich von Manstein: entrar pelo sul, pelos Ardenas, cruzar o Meuse em Sedan, virar para o oeste e correr para o mar. O alto-comando a rejeitou; Halder e o comandante-em-chefe Walther von Brauchitsch a classificaram de \"ousada demais\". No fim de janeiro, Halder fez Manstein ser promovido para comandar o XXXVIII Corpo no leste da Alemanha, fora do planejamento.",
+        "A ideia sobreviveu por um caminho lateral. Em 2 de fevereiro, Hitler soube dela por Rudolf Schmundt; em 13, mandou mudar o plano; em 17, recebeu Manstein pessoalmente. Em 24 de fevereiro de 1940, Halder reescreveu a diretriz como Aufmarschanweisung N°4, agora com o eixo principal pelos Ardenas — dois meses e meio antes do ataque."
+      ]
+    },
+    {
+      "titulo": "A única coisa realmente nova: onde as peças foram postas",
+      "paragrafos": [
+        "Não era o tanque: os dois lados tinham tanques, e os Aliados tinham mais. Não era o avião, que já tinha voado sobre a Polônia. Não era a palavra, que os jornais já tinham inventado. A novidade de maio de 1940 foi a concentração.",
+        "O Panzergruppe von Kleist atravessa os Ardenas com 134.000 homens e 1.222 tanques, em cinco divisões blindadas — metade dos tanques alemães num eixo só. Os Aliados tinham mais tanques e os distribuíram pela frente inteira. Os alemães tinham menos e empilharam metade deles numa floresta.",
+        "E o preço dessa concentração era uma vulnerabilidade enorme. Segundo a Wikipédia em francês, citando Mary (2009) e Frieser (2003), o grupo dispunha de apenas quatro itinerários reservados para entrar no Luxemburgo, as Panzerstraßen numeradas de um a quatro. Metade dos blindados alemães em quatro estradas de floresta é uma peça valiosa exposta: o lance só funciona se o adversário não olhar para ela."
+      ]
+    },
+    {
+      "titulo": "O lance aliado: Dyle, Breda e o general que avisou",
+      "paragrafos": [
+        "Para o plano alemão funcionar, os Aliados precisavam ir para o norte. Foram. Em 9 de novembro de 1939, Maurice Gamelin adotou o Plano Dyle: ao primeiro sinal de invasão, os melhores exércitos aliados avançariam para dentro da Bélgica e segurariam ali. Em 12 de março de 1940 ele acrescentou a variante Breda: o 7º Exército francês avançaria até a cidade holandesa de Breda, para ligar-se aos holandeses — 175 km a percorrer, contra alemães que estavam a 90 km do mesmo lugar.",
+        "Em 10 de maio entram na Bélgica e nos Países Baixos o 7º Exército (Giraud), a Força Expedicionária Britânica (Gort) com 9 divisões, o 1º Exército francês (Blanchard) com 10 e o 9º Exército (Corap), este ao sul de Namur, ao longo do Meuse. Com eles vão \"algumas das melhores divisões da Reserva Geral\", deixando \"poucas reservas do Reno ao Canal\".",
+        "O general Alphonse Georges tinha advertido contra mandar o grosso das forças móveis francesas contra um ataque no flanco norte que fosse uma diversão para um ataque alemão pelo centro. Ele descreveu o golpe antes de ele acontecer, e a reserva foi para o norte assim mesmo. Enquanto isso, a inteligência francesa seguia o movimento errado: descobriu a transferência de divisões alemãs do Sarre para o norte do Mosela, e não detectou o redesdobramento da fronteira holandesa para a área Eifel–Mosela, de onde vinha o golpe."
+      ]
+    },
+    {
+      "titulo": "Sedan, 13 de maio: o bombardeio que quebrou o telefone",
+      "paragrafos": [
+        "Em Sedan, a defesa francesa era a 55ª Divisão de Infantaria, do general Henri Lafontaine: divisão de categoria B, de reservistas, a maioria com mais de trinta anos, pouco treinada para combate porque estava escalada para obras. Ao lado, a 71ª Divisão ainda entrava na linha. Ao todo, 20.000 homens e 174 peças de artilharia. Do outro lado do rio, a 1ª, a 2ª e a 10ª Divisões Panzer e o Regimento Großdeutschland: 60.000 homens, 41.000 veículos, 788 tanques e 141 peças.",
+        "Das 08:00 às 16:00 de 13 de maio, a Luftwaffe bate em Sedan: cerca de 3.940 surtidas de bombardeiro por nove Kampfgeschwader, ao custo de seis aviões. E então o dado que inverte a leitura: nenhuma das casamatas foi destruída por acerto direto, e o bombardeio causou 56 baixas francesas.",
+        "O estrago foi indireto. Os cabos de telecomunicação se romperam e a divisão ficou sem comunicação; os artilheiros abandonaram as posições antes de o ataque terrestre começar. O bombardeio não quebrou o concreto. Quebrou a ligação entre as peças e a vontade de quem as operava."
+      ]
+    },
+    {
+      "titulo": "Bulson, 19:00: o pânico sobre tanques que ainda não tinham cruzado",
+      "paragrafos": [
+        "Por volta das 19:00 de 13 de maio, o relato de um observador de artilharia francês é repassado errado. Corre o boato de que tanques alemães se aproximam da aldeia de Bulson, ao sul de Sedan. A 55ª Divisão abandona as posições, e quando o erro é percebido a artilharia e a infantaria já tinham largado o equipamento pesado.",
+        "O primeiro tanque alemão cruzou o Meuse às 07:20 de 14 de maio, mais de doze horas depois. O pânico que desfez a defesa de Sedan foi sobre tanques que ainda não tinham atravessado o rio: a posição foi tomada por infantaria atravessando de bote, contra uma linha que se desmanchou por uma informação errada.",
+        "Os franceses tinham com que responder. O X Corpo recebeu ordem de contra-atacar às 05:00 de 14 de maio, com cerca de 300 tanques na área, 138 deles de combate. A blindagem francesa só alcançou a crista de Bulson dezessete horas depois da ordem, e a vanguarda alemã chegou antes, por alguns minutos. A Wikipédia em inglês registra a avaliação de que \"um contra-ataque rápido de apenas dois regimentos de infantaria e dois batalhões de carros teria mergulhado os alemães em crise\". Os meios estavam lá; o tempo de reação, não."
+      ]
+    },
+    {
+      "titulo": "A conta da partida",
+      "paragrafos": [
+        "A campanha vai de 10 de maio a 25 de junho de 1940, e o armistício é assinado em 22 de junho, em Compiègne. Do lado alemão, 27.074 mortos, 111.034 feridos, 18.384 desaparecidos e entre 795 e 822 tanques perdidos. Do lado aliado, 73.000 mortos, 240.000 feridos, 15.000 desaparecidos — e 1.756.000 prisioneiros.",
+        "Foi uma vitória rápida, grande e completa. A França lutou: os 73.000 mortos aliados em seis semanas dizem isso. A pergunta nunca foi se o plano funcionou, e sim o que exatamente funcionou."
+      ]
+    }
+  ],
+  "veredito": [
+    "O que a Alemanha aplicou em maio de 1940 não foi uma doutrina: foi um plano específico, para um inimigo e um terreno, rejeitado pelo próprio alto-comando, cujo autor foi afastado do planejamento, e adotado só em 24 de fevereiro de 1940 por intervenção de fora da cadeia de planejamento. A vantagem não estava no material — os Aliados tinham mais tanques e quase o dobro de canhões —, e sim em onde as peças foram postas: metade dos tanques alemães num eixo só, contra o ponto onde o adversário tinha divisões de reservistas e nenhuma reserva atrás.",
+    "O plano dependia de um lance aliado, e o lance veio: as melhores forças móveis francesas correram para o norte, contra a advertência de Alphonse Georges. E a decisão em Sedan saiu de algo que nenhum plano prevê — uma divisão sem telefone abandonando posições intactas por causa de tanques que estavam a mais de doze horas de distância, e um contra-ataque que chegou minutos depois do adversário.",
+    "Nada disso foi sorte: concentrar metade dos blindados, atravessar os Ardenas e cruzar o Meuse é execução de altíssimo nível. Mas, em termos de xadrez, não foi uma escola de jogo aplicada de cor. Foi uma preparação caseira contra um adversário específico, que o jogador decidiu usar naquela partida — e que o próprio treinador tinha reprovado."
+  ],
+  "mitos": [
+    {
+      "circula": "Em maio de 1940 a Alemanha aplicou uma doutrina chamada Blitzkrieg.",
+      "registro": "O que foi aplicado foi um plano, o de Manstein, que o alto-comando alemão rejeitou como \"ousado demais\" e só adotou em 24 de fevereiro de 1940, depois de Hitler intervir. Karl-Heinz Frieser sustenta que o pensamento hoje chamado Blitzkrieg só se formou depois desta campanha: consequência da vitória, não causa dela."
+    },
+    {
+      "circula": "A França caiu diante de uma máquina de guerra materialmente superior.",
+      "registro": "Em 10 de maio de 1940 os Aliados tinham 13.974 canhões contra 7.378 alemães, e só a França tinha entre 3.383 e 4.071 tanques contra 2.445 alemães. A única superioridade material alemã clara era aérea. A diferença esteve na concentração: 1.222 tanques num só grupo, num só eixo."
+    },
+    {
+      "circula": "Em Sedan, a Luftwaffe pulverizou as defesas francesas.",
+      "registro": "Oito horas de bombardeio, cerca de 3.940 surtidas, e nenhuma casamata destruída por acerto direto; 56 baixas francesas. O estrago foi nos cabos de comunicação e no moral: os artilheiros abandonaram as posições, e na mesma noite a 55ª Divisão recuou por causa de um boato sobre tanques que só cruzariam o Meuse às 07:20 do dia seguinte."
+    }
+  ],
+  "fontes": [
+    {"texto": "Battle of France — Wikipédia em inglês.", "url": "https://en.wikipedia.org/wiki/Battle_of_France"},
+    {"texto": "Manstein Plan — Wikipédia em inglês.", "url": "https://en.wikipedia.org/wiki/Manstein_Plan"},
+    {"texto": "Battle of Sedan (1940) — Wikipédia em inglês.", "url": "https://en.wikipedia.org/wiki/Battle_of_Sedan_(1940)"},
+    {"texto": "Dyle Plan — Wikipédia em inglês.", "url": "https://en.wikipedia.org/wiki/Dyle_Plan"},
+    {"texto": "Panzergruppe von Kleist — Wikipédia em francês, citando Jean-Yves Mary (2009) e Karl-Heinz Frieser (2003).", "url": "https://fr.wikipedia.org/wiki/Panzergruppe_von_Kleist"},
+    {"texto": "Karl-Heinz Frieser, The Blitzkrieg Legend: The 1940 Campaign in the West (citado pela Wikipédia em inglês).", "url": null}
+  ],
+  "imagens": [
+    {
+      "arquivo": "05-franca-capa.jpg",
+      "alt": "Coluna de tanques alemães parada num campo aberto, com tripulantes sentados sobre as torres e soldados a pé ao lado",
+      "legenda": "Coluna da 6ª Divisão Panzer na França, 1940. À frente, um Pzkpfw 35(t) capturado do exército checo; atrás, Pzkpfw IV e Pzkpfw II.",
+      "autor": "Erich Borchert · Imperial War Museums, HU 111379",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:6th_Panzer_Div_1940_HU111379.jpg",
+      "tipo": "epoca",
+      "ano": "1940",
+      "foco": "65% 55%"
+    },
+    {
+      "arquivo": "05-franca-carta-sedan.jpg",
+      "alt": "Carta topográfica colorida com o rio Meuse em azul fazendo uma volta em Iges, a cidade de Sedan à direita, Donchery ao centro e Wadelincourt e Frénois ao sul do rio",
+      "legenda": "Sedan e a volta do Meuse na carta do Army Map Service, França e Bélgica 1:50.000, folha 134 Mézières (revisão de 1943). Foi neste trecho do rio que a defesa francesa se desfez em 13 de maio.",
+      "autor": "U.S. Army Map Service · Perry-Castañeda Library, Universidade do Texas",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://maps.lib.utexas.edu/maps/ams/belgium_50k/txu-pclmaps-oclc-6624543-mezieres-134.jpg",
+      "tipo": "carta",
+      "foco": "80% 50%"
+    },
+    {
+      "arquivo": "05-franca-bef-belgica.jpg",
+      "alt": "Caminhão britânico coberto de lona passando sob cancelas de fronteira erguidas, observado por militares belgas e moradores em frente a um café",
+      "legenda": "Caminhões britânicos em Herseaux cruzam a fronteira para a Bélgica em 10 de maio de 1940: o Plano Dyle em andamento, exatamente como o plano alemão precisava.",
+      "autor": "Lt. Kessell e Lt. E. G. Malindine, fotógrafos oficiais do War Office · Imperial War Museums, F 4353",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:The_British_Army_in_France_and_Belgium_1940_F4353.jpg",
+      "tipo": "epoca",
+      "ano": "1940"
+    },
+    {
+      "arquivo": "05-franca-char-d2.jpg",
+      "alt": "Tanque francês visto de trás subindo um caminho estreito de floresta coberto de neve, entre pinheiros altos",
+      "legenda": "Carro de combate francês D2 numa estrada de floresta, janeiro de 1940. Só a França tinha entre 3.383 e 4.071 tanques, mais que a Alemanha inteira.",
+      "autor": "Autor desconhecido · Le Miroir, nº 20, 14 de janeiro de 1940",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:French_D2_tank,_January_1940_01.jpg",
+      "tipo": "epoca",
+      "ano": "1940"
+    },
+    {
+      "arquivo": "05-franca-carta-bulson.jpg",
+      "alt": "Carta topográfica com as aldeias de Bulson, Chémery, Maisoncelle e Raucourt entre bosques em verde e curvas de nível em laranja",
+      "legenda": "Bulson, Chémery e Maisoncelle, ao sul de Sedan, na carta do Army Map Service, França e Bélgica 1:50.000, folha 149 Le Chesne (revisão de 1943). O boato sobre Bulson e a corrida pela crista em 14 de maio aconteceram neste terreno.",
+      "autor": "U.S. Army Map Service · Perry-Castañeda Library, Universidade do Texas",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://maps.lib.utexas.edu/maps/ams/belgium_50k/txu-pclmaps-oclc-6624543-le-chesne-149.jpg",
+      "tipo": "carta",
+      "foco": "60% 30%"
+    },
+    {
+      "arquivo": "05-franca-prisioneiros.jpg",
+      "alt": "Soldados franceses de capote e capacete caminham numa rua de paralelepípedos de aldeia, escoltados por soldados alemães armados",
+      "legenda": "Prisioneiros franceses do 158º Regimento de Infantaria capturados em Thulin, na Bélgica, em 23 de maio de 1940. A campanha terminou com 1.756.000 prisioneiros aliados.",
+      "autor": "Erich Borchert",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Thulin_23_May_1940_-_IR_469_-_French_prisoners_from_158e_RI.jpg",
+      "tipo": "epoca",
+      "ano": "1940"
+    }
+  ],
+  "proximo": null
+}

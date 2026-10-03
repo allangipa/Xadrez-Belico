@@ -14,30 +14,123 @@
     "A campanha durou 35 dias e terminou numa vitória alemã completa. A pergunta desta página não é se ela foi rápida — foi. É outra: o método estava escrito antes do primeiro lance, ou foi lido no resultado e só então ganhou nome?"
   ],
   "numeros": [
-    {"valor": "3.859", "rotulo": "cavalos por divisão de infantaria alemã, contra cerca de 2.000 na polonesa", "conf": "1"},
-    {"valor": "9", "rotulo": "divisões blindadas alemãs, num total de 60 a 70 divisões", "conf": "1"},
-    {"valor": "35 dias", "rotulo": "de 1º de setembro a 6 de outubro de 1939", "conf": "2+"},
-    {"valor": "11 de setembro", "rotulo": "o dia em que a marcha sobre Varsóvia foi desviada para o Bzura", "conf": "1"},
-    {"valor": "170.000", "rotulo": "poloneses capturados no Bzura", "conf": "1"},
-    {"valor": "17 de setembro", "rotulo": "a União Soviética invade pelo leste", "conf": "2+"}
+    {
+      "valor": "3.859",
+      "rotulo": "cavalos por divisão de infantaria alemã, contra cerca de 2.000 na polonesa",
+      "conf": "1"
+    },
+    {
+      "valor": "9",
+      "rotulo": "divisões blindadas alemãs, num total de 60 a 70 divisões",
+      "conf": "1"
+    },
+    {
+      "valor": "35 dias",
+      "rotulo": "de 1º de setembro a 6 de outubro de 1939",
+      "conf": "2+"
+    },
+    {
+      "valor": "11 de setembro",
+      "rotulo": "o dia em que a marcha sobre Varsóvia foi desviada para o Bzura",
+      "conf": "1"
+    },
+    {
+      "valor": "170.000",
+      "rotulo": "poloneses capturados no Bzura",
+      "conf": "1"
+    },
+    {
+      "valor": "17 de setembro",
+      "rotulo": "a União Soviética invade pelo leste",
+      "conf": "2+"
+    }
   ],
   "ficha": [
-    {"item": "Forças — Alemanha", "valor": "66 divisões e 6 brigadas, segundo a contagem mais citada; o estudo do Exército dos EUA de 1942 fala em 60 a 70 divisões e cerca de 1.250.000 homens", "conf": "DIV", "nota": "As duas contagens não medem a mesma coisa; a faixa é o que as duas sustentam juntas."},
-    {"item": "Divisões blindadas alemãs", "valor": "9 — cinco pesadas e quatro ligeiras", "conf": "1", "nota": "Estudo do Exército dos EUA, 1942."},
-    {"item": "Tanques — Alemanha", "valor": "2.750 empregados na operação, segundo a Wikipédia em inglês; o estudo americano de 1942 diz que a Alemanha tinha produzido 6.000, três quartos deles em divisões panzer", "conf": "DIV", "nota": "Um número é o que entrou na campanha; o outro, o inventário."},
-    {"item": "Forças — Polônia", "valor": "39 divisões, 16 brigadas, 4.300 canhões, 210 tanques e 670 tanquetas, 800 aviões", "conf": "2+"},
-    {"item": "Forças — URSS", "valor": "33 divisões ou mais, 11 brigadas ou mais, 4.736 tanques, 3.300 aviões", "conf": "2+"},
-    {"item": "Divisão de infantaria, lado a lado", "valor": "alemã: 3.859 cavalos e 1.067 veículos a motor; polonesa: cerca de 2.000 cavalos e cerca de 5 carros de estado-maior", "conf": "1", "nota": "Tabela comparativa do estudo do Exército dos EUA, 1942. O número é por divisão de infantaria, não o total do exército."},
-    {"item": "Comandantes no Bzura", "valor": "Polônia: Tadeusz Kutrzeba (Exército Poznań) e Władysław Bortnowski (Exército Pomorze). Alemanha: Gerd von Rundstedt, Johannes Blaskowitz (8º Exército), Walther von Reichenau (10º Exército), Günther von Kluge (4º Exército)", "conf": "1"},
-    {"item": "Terreno", "valor": "planície aberta, sem linha de rio ou montanha que sirva de defesa contínua; a Polônia cercada pela Alemanha a oeste, a Prússia Oriental ao norte e a Checoslováquia ocupada ao sul", "conf": "2+"},
-    {"item": "Objetivo alemão", "valor": "cercar e destruir o exército polonês e tomar Varsóvia", "conf": "2+"},
-    {"item": "Duração", "valor": "35 dias, de 1º de setembro a 6 de outubro de 1939; Varsóvia resiste até o fim de setembro e a última unidade polonesa capitula em Kock, no começo de outubro", "conf": "2+"},
-    {"item": "Baixas — Alemanha", "valor": "16.343 mortos, 30.300 feridos, 3.500 desaparecidos; 236 tanques e 246 aviões perdidos", "conf": "2+"},
-    {"item": "Baixas — Polônia", "valor": "66.000 mortos e 133.700 feridos", "conf": "2+"},
-    {"item": "Baixas — URSS", "valor": "1.475 mortos e 2.383 feridos", "conf": "2+"},
-    {"item": "Prisioneiros", "valor": "cerca de 690.000 poloneses capturados na campanha; 170.000 deles no Bzura", "conf": "2+", "nota": "O número do Bzura vem de uma fonte só: Wikipédia em inglês, Battle of the Bzura."},
-    {"item": "Resultado", "valor": "vitória alemã, com a invasão soviética pelo leste a partir de 17 de setembro; a resistência polonesa organizada termina em Kock", "conf": "2+"},
-    {"item": "O depois", "valor": "a palavra Blitzkrieg entra em circulação na imprensa ocidental durante a campanha; em 10 de maio de 1940 a Alemanha ataca no oeste", "conf": "2+"}
+    {
+      "item": "Forças — Alemanha",
+      "valor": "66 divisões e 6 brigadas, segundo a contagem mais citada; o estudo do Exército dos EUA de 1942 fala em 60 a 70 divisões e cerca de 1.250.000 homens",
+      "conf": "DIV",
+      "nota": "As duas contagens não medem a mesma coisa; a faixa é o que as duas sustentam juntas."
+    },
+    {
+      "item": "Divisões blindadas alemãs",
+      "valor": "9 — cinco pesadas e quatro ligeiras",
+      "conf": "1",
+      "nota": "Estudo do Exército dos EUA, 1942."
+    },
+    {
+      "item": "Tanques — Alemanha",
+      "valor": "2.750 empregados na operação, segundo a Wikipédia em inglês; o estudo americano de 1942 diz que a Alemanha tinha produzido 6.000, três quartos deles em divisões panzer",
+      "conf": "DIV",
+      "nota": "Um número é o que entrou na campanha; o outro, o inventário."
+    },
+    {
+      "item": "Forças — Polônia",
+      "valor": "39 divisões, 16 brigadas, 4.300 canhões, 210 tanques e 670 tanquetas, 800 aviões",
+      "conf": "2+"
+    },
+    {
+      "item": "Forças — URSS",
+      "valor": "33 divisões ou mais, 11 brigadas ou mais, 4.736 tanques, 3.300 aviões",
+      "conf": "2+"
+    },
+    {
+      "item": "Divisão de infantaria, lado a lado",
+      "valor": "alemã: 3.859 cavalos e 1.067 veículos a motor; polonesa: cerca de 2.000 cavalos e cerca de 5 carros de estado-maior",
+      "conf": "1",
+      "nota": "Tabela comparativa do estudo do Exército dos EUA, 1942. O número é por divisão de infantaria, não o total do exército."
+    },
+    {
+      "item": "Comandantes no Bzura",
+      "valor": "Polônia: Tadeusz Kutrzeba (Exército Poznań) e Władysław Bortnowski (Exército Pomorze). Alemanha: Gerd von Rundstedt, Johannes Blaskowitz (8º Exército), Walther von Reichenau (10º Exército), Günther von Kluge (4º Exército)",
+      "conf": "1"
+    },
+    {
+      "item": "Terreno",
+      "valor": "planície aberta, sem linha de rio ou montanha que sirva de defesa contínua; a Polônia cercada pela Alemanha a oeste, a Prússia Oriental ao norte e a Checoslováquia ocupada ao sul",
+      "conf": "2+"
+    },
+    {
+      "item": "Objetivo alemão",
+      "valor": "cercar e destruir o exército polonês e tomar Varsóvia",
+      "conf": "2+"
+    },
+    {
+      "item": "Duração",
+      "valor": "35 dias, de 1º de setembro a 6 de outubro de 1939; Varsóvia resiste até o fim de setembro e a última unidade polonesa capitula em Kock, no começo de outubro",
+      "conf": "2+"
+    },
+    {
+      "item": "Baixas — Alemanha",
+      "valor": "16.343 mortos, 30.300 feridos, 3.500 desaparecidos; 236 tanques e 246 aviões perdidos",
+      "conf": "2+"
+    },
+    {
+      "item": "Baixas — Polônia",
+      "valor": "66.000 mortos e 133.700 feridos",
+      "conf": "2+"
+    },
+    {
+      "item": "Baixas — URSS",
+      "valor": "1.475 mortos e 2.383 feridos",
+      "conf": "2+"
+    },
+    {
+      "item": "Prisioneiros",
+      "valor": "cerca de 690.000 poloneses capturados na campanha; 170.000 deles no Bzura",
+      "conf": "2+",
+      "nota": "O número do Bzura vem de uma fonte só: Wikipédia em inglês, Battle of the Bzura."
+    },
+    {
+      "item": "Resultado",
+      "valor": "vitória alemã, com a invasão soviética pelo leste a partir de 17 de setembro; a resistência polonesa organizada termina em Kock",
+      "conf": "2+"
+    },
+    {
+      "item": "O depois",
+      "valor": "a palavra Blitzkrieg entra em circulação na imprensa ocidental durante a campanha; em 10 de maio de 1940 a Alemanha ataca no oeste",
+      "conf": "2+"
+    }
   ],
   "lances": [
     {
@@ -115,12 +208,30 @@
     }
   ],
   "fontes": [
-    {"texto": "Digests and Lessons of Recent Military Operations: The German Campaign in Poland, September 1 to October 5, 1939. United States Government Printing Office, Washington, 1942.", "url": null},
-    {"texto": "Invasion of Poland — Wikipédia em inglês.", "url": "https://en.wikipedia.org/wiki/Invasion_of_Poland"},
-    {"texto": "Battle of the Bzura — Wikipédia em inglês.", "url": "https://en.wikipedia.org/wiki/Battle_of_the_Bzura"},
-    {"texto": "Charge at Krojanty — Wikipédia em inglês.", "url": "https://en.wikipedia.org/wiki/Charge_at_Krojanty"},
-    {"texto": "Blitzkrieg — Wikipédia em inglês.", "url": "https://en.wikipedia.org/wiki/Blitzkrieg"},
-    {"texto": "Karl-Heinz Frieser, The Blitzkrieg Legend: The 1940 Campaign in the West (citado pela Wikipédia em inglês).", "url": null}
+    {
+      "texto": "Digests and Lessons of Recent Military Operations: The German Campaign in Poland, September 1 to October 5, 1939. United States Government Printing Office, Washington, 1942.",
+      "url": null
+    },
+    {
+      "texto": "Invasion of Poland — Wikipédia em inglês.",
+      "url": "https://en.wikipedia.org/wiki/Invasion_of_Poland"
+    },
+    {
+      "texto": "Battle of the Bzura — Wikipédia em inglês.",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_the_Bzura"
+    },
+    {
+      "texto": "Charge at Krojanty — Wikipédia em inglês.",
+      "url": "https://en.wikipedia.org/wiki/Charge_at_Krojanty"
+    },
+    {
+      "texto": "Blitzkrieg — Wikipédia em inglês.",
+      "url": "https://en.wikipedia.org/wiki/Blitzkrieg"
+    },
+    {
+      "texto": "Karl-Heinz Frieser, The Blitzkrieg Legend: The 1940 Campaign in the West (citado pela Wikipédia em inglês).",
+      "url": null
+    }
   ],
   "imagens": [
     {
@@ -190,5 +301,5 @@
       "ano": "1939"
     }
   ],
-  "proximo": null
+  "proximo": "franca-1940"
 }

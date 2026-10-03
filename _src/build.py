@@ -53,16 +53,7 @@ CHAVE_CONSENTIMENTO = "xb-consentimento"
 
 
 # Episódios anunciados que ainda não têm página.
-EM_PRODUCAO = [
-    {
-        "num": "05",
-        "batalha": "A queda da França",
-        "data": "maio e junho de 1940",
-        "lugar": "França",
-        "pergunta": "O episódio seguinte à Polônia, em produção.",
-        "estreia": "2026-10-22",
-    },
-]
+EM_PRODUCAO = []
 
 OBRIGATORIOS = ["num", "slug", "batalha", "titulo_video", "lugar", "data", "campanha",
                 "estreia", "pergunta", "resumo", "abertura", "numeros", "ficha",
@@ -554,7 +545,7 @@ def pagina(b, bs, og):
     <section class="video">
       <div>
         <span class="rotulo">Episódio {e(b['num'])}{estreia}</span>
-        <h3>{e(b['titulo_video'])}</h3>
+        <h3>{e(b['titulo_video']) if b['titulo_video'] else 'Episódio em produção'}</h3>
       </div>
       {link_canal('botao cheio', 'Ver no YouTube')}
     </section>
