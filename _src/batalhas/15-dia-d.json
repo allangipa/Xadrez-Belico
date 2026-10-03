@@ -1,0 +1,308 @@
+{
+  "num": "15",
+  "slug": "dia-d",
+  "batalha": "Dia D",
+  "titulo_video": null,
+  "lugar": "Costa da Baixa Normandia, entre a península do Cotentin e o rio Orne, França",
+  "data": "6 de junho de 1944",
+  "campanha": "Segunda Guerra Mundial, 1944",
+  "estreia": "2026-12-31",
+  "pergunta": "Por que o lance saiu na Normandia, e não em Calais?",
+  "resumo": "Em 6 de junho de 1944 os Aliados desembarcaram onde a Alemanha não esperava o golpe principal. O blefe, a briga pelos blindados e o tempo explicam o resto.",
+  "abertura": [
+    "Na madrugada de 6 de junho de 1944, cerca de 156 mil soldados aliados descem por mar e pelo ar na costa da Normandia, no norte da França, em cinco setores de praia: Utah e Omaha, americanos; Gold e Sword, britânicos; Juno, canadense. O comando alemão no Oeste tinha 58 divisões. A maior parte da força mais bem colocada estava mais ao norte, no Pas-de-Calais, esperando o desembarque no ponto mais curto do Canal da Mancha.",
+    "A pergunta desta página não é se os Aliados tinham força para desembarcar. É por que escolheram aquele lugar, e por que, mesmo depois de o desembarque começar, a reserva blindada alemã ficou parada a manhã inteira. A resposta passa por um blefe, por uma disputa entre generais alemães que Hitler resolveu dividindo as peças, e por uma previsão do tempo que cada lado leu de um jeito."
+  ],
+  "numeros": [
+    {
+      "valor": "156 mil",
+      "rotulo": "soldados aliados em terra no dia, por mar e pelo ar; o Exército americano arredonda para 160 mil",
+      "conf": "2+"
+    },
+    {
+      "valor": "4 de 10",
+      "rotulo": "divisões blindadas e mecanizadas do Oeste que só se moviam com ordem de Hitler; a única ao alcance das praias, a 21ª Panzer, não estava entre elas",
+      "conf": "2+"
+    },
+    {
+      "valor": "à tarde",
+      "rotulo": "quando a 12ª SS Panzer e a Panzer Lehr foram liberadas: 14:30 ou 16:00, conforme a fonte. O pedido tinha saído às 04:45",
+      "conf": "DIV"
+    },
+    {
+      "valor": "2.374",
+      "rotulo": "baixas americanas em Omaha, entre mortos, feridos e desaparecidos, na conta do V Corpo. Em Utah, foram 197",
+      "conf": "DIV"
+    },
+    {
+      "valor": "4.436",
+      "rotulo": "mortos aliados no dia na lista atualizada do National D-Day Memorial: 2.519 americanos e 1.917 de outros países aliados",
+      "conf": "DIV"
+    },
+    {
+      "valor": "19 de junho",
+      "rotulo": "a próxima data possível se o desembarque fosse adiado de novo. Uma tempestade nesse período destruiu um dos dois portos artificiais",
+      "conf": "DIV"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Aliados — comando",
+      "valor": "general Dwight D. Eisenhower, comandante supremo; general Bernard Montgomery, comando das forças terrestres no assalto",
+      "conf": "2+"
+    },
+    {
+      "item": "Alemanha — comando",
+      "valor": "marechal Gerd von Rundstedt, Comando-em-Chefe Oeste; marechal Erwin Rommel, Grupo de Exércitos B, da Holanda ao Loire; general Leo Geyr von Schweppenburg, Grupo Panzer Oeste. O 7º Exército defendia a Normandia; o 15º, o Pas-de-Calais",
+      "conf": "2+"
+    },
+    {
+      "item": "Forças aliadas no dia",
+      "valor": "cerca de 156 mil homens: 23.250 em Utah, 34.250 em Omaha, 24.970 em Gold, 21.400 em Juno, 28.845 em Sword, mais 15.500 paraquedistas americanos e 7.900 britânicos. 6.939 embarcações e 11.590 aviões disponíveis",
+      "conf": "2+",
+      "nota": "O Exército americano arredonda o total para 160 mil."
+    },
+    {
+      "item": "Forças alemãs",
+      "valor": "58 divisões no Oeste, 25 delas aptas para operações móveis. Na frente das praias, a 709ª Divisão estática (Utah), a 352ª de infantaria (Omaha, cerca de 12 mil homens) e a 716ª estática (Gold, Juno e Sword), com a 21ª Divisão Panzer ao sul de Caen",
+      "conf": "2+"
+    },
+    {
+      "item": "A distribuição alemã",
+      "valor": "segundo Dennis Showalter, 18 divisões de infantaria e 2 panzer para cerca de 550 km de costa no Pas-de-Calais, contra 14 de infantaria e 1 panzer para 1.600 km na Normandia e na Bretanha",
+      "conf": "1"
+    },
+    {
+      "item": "Os blindados",
+      "valor": "Rommel tinha 3 divisões panzer (2ª, 21ª e 116ª). Outras 4 — 1ª SS Panzer, 12ª SS Panzer, 17ª SS Panzergrenadier e Panzer Lehr — eram reserva do alto-comando (OKW) e só se moviam com autorização de Hitler",
+      "conf": "2+"
+    },
+    {
+      "item": "Terreno",
+      "valor": "praias abertas, com os obstáculos alemães concentrados na linha da maré cheia, onde o comando alemão esperava o desembarque. O desembarque veio com a maré baixa subindo, para expor os obstáculos",
+      "conf": "2+"
+    },
+    {
+      "item": "Objetivo",
+      "valor": "abrir uma cabeça de praia de cinco divisões entre o Cotentin e o Orne, com Caen como objetivo britânico do primeiro dia, e ligar os setores num só front",
+      "conf": "2+"
+    },
+    {
+      "item": "O blefe",
+      "valor": "a Operação Fortitude inventou um 1º Grupo de Exércitos dos EUA sob George Patton no sudeste da Inglaterra, apontado para Calais, sustentado sobretudo por agentes duplos",
+      "conf": "2+"
+    },
+    {
+      "item": "Mortos aliados",
+      "valor": "4.414 na contagem histórica do National D-Day Memorial; 4.436 na lista atualizada (2.519 americanos e 1.917 de outros países aliados). Baixas totais: entre mais de 9 mil e 10.500, conforme a fonte",
+      "conf": "DIV"
+    },
+    {
+      "item": "Baixas por setor",
+      "valor": "Omaha: 2.374, na conta do V Corpo, ou cerca de 2.400 a 2.500 em outras fontes. Utah: 197. Canadenses: 1.074, 359 mortos. Gold e Sword têm contas muito diferentes entre as fontes",
+      "conf": "DIV"
+    },
+    {
+      "item": "Baixas alemãs",
+      "valor": "entre 4 mil e 9 mil mortos, feridos, desaparecidos e presos, conforme a fonte; outra conta fala em cerca de 10 mil",
+      "conf": "DIV"
+    },
+    {
+      "item": "Resultado",
+      "valor": "as cinco cabeças de praia se firmaram. Caen não caiu, e ao fim do dia só Gold e Juno estavam ligadas; as cinco se uniram em 12 de junho",
+      "conf": "2+"
+    },
+    {
+      "item": "O depois",
+      "valor": "o 15º Exército alemão ficou no Pas-de-Calais durante junho e boa parte de julho, esperando um segundo desembarque que não veio",
+      "conf": "2+"
+    }
+  ],
+  "lances": [
+    {
+      "titulo": "A abertura: não atacar onde o adversário mais espera",
+      "paragrafos": [
+        "Os planejadores aliados de 1943, sob o general Frederick Morgan, olharam primeiro para o Pas-de-Calais, o caminho mais curto da Inglaterra até a França e, dali, até a Alemanha. O comando alemão tinha feito a mesma conta e fortificado aquela costa mais do que qualquer outra. Foi isso que a descartou.",
+        "A Normandia era menos defendida e ficava perto o bastante para a aviação de caça cobrir as praias a partir da Inglaterra — no limite, com pouco tempo de combate sobre a área. Tinha portos ao alcance, Cherbourg e depois Le Havre, e enquanto eles não caíssem, os Aliados levariam os próprios portos: os Mulberry, montados em peças diante da costa. Em 31 de dezembro de 1943, Eisenhower e Montgomery ampliaram o assalto inicial de três para cinco divisões, e a data passou de maio para junho de 1944.",
+        "Em termos de tabuleiro, a escolha era quase óbvia. O difícil era outra coisa: fazer o adversário acreditar, mesmo depois do primeiro lance, que o golpe de verdade ainda viria noutro lugar."
+      ]
+    },
+    {
+      "titulo": "O blefe: um exército inteiro que não existia",
+      "paragrafos": [
+        "A Operação Fortitude criou, no sudeste da Inglaterra, o 1º Grupo de Exércitos dos Estados Unidos, sob o comando de George Patton, o general aliado que os alemães mais temiam. O grupo não existia. Sustentava-o tráfego de rádio falso, algum equipamento inflável e, sobretudo, agentes duplos controlados pelos britânicos. O principal, o espanhol Juan Pujol García, codinome Garbo, mantinha para os alemães uma rede de 27 informantes, todos inventados.",
+        "Os alemães não ignoravam a Normandia. Em março de 1944, Hitler passou a apontar o Cotentin e a Bretanha como alvos prováveis, e em maio a 91ª Divisão e o 6º Regimento de Paraquedistas foram mandados para o Cotentin. O que o blefe fez foi transformar a Normandia em um dos golpes, e não no golpe. No fim de maio, segundo Showalter, o comando alemão calculava 89 divisões aliadas na Grã-Bretanha; eram 47. Em 9 de junho, três dias depois do desembarque, Garbo informou que as unidades de Patton não tinham entrado em ação e que a Normandia devia ser vista como diversão.",
+        "Quanto o blefe pesou é discutido. Roger Fleetwood-Hesketh, que escreveu a história interna da operação, não encontrou prova de que o engano por rádio ou o material inflável tenham contribuído: o que funcionou foram os agentes. Mas o efeito no tabuleiro está registrado. O 15º Exército ficou parado no Pas-de-Calais durante junho e boa parte de julho, e a 116ª Panzer só recebeu ordem de marchar para a Normandia no fim de julho."
+      ]
+    },
+    {
+      "titulo": "A disputa dos blindados: três ideias e nenhuma",
+      "paragrafos": [
+        "Do lado alemão, a pergunta de tabuleiro era onde pôr as divisões blindadas. Rommel queria todas perto da costa. Achava que a decisão viria nas primeiras quarenta e oito horas e que a aviação aliada impediria qualquer reserva distante de chegar a tempo. Rundstedt e Geyr von Schweppenburg queriam uma reserva concentrada no interior, para um contra-ataque em massa quando o golpe principal estivesse identificado. Guderian, inspetor das tropas blindadas, defendia uma reserva estratégica de dez divisões.",
+        "Hitler não escolheu nenhuma das ideias: dividiu as peças. Rommel ficou com três divisões panzer — a 2ª, a 21ª e a 116ª. Quatro outras — a 1ª SS Panzer, a 12ª SS Panzer, a 17ª SS Panzergrenadier e a Panzer Lehr — viraram reserva do alto-comando e só podiam se mover com autorização expressa dele. O resultado, na formulação da história oficial americana, deixou os dois comandantes sem controle decisivo.",
+        "Na manhã de 6 de junho, a única divisão panzer ao alcance imediato das praias era a 21ª. As outras peças fortes estavam no tabuleiro, mas presas a uma assinatura."
+      ]
+    },
+    {
+      "titulo": "O relógio do tempo: um dia e meio de brecha",
+      "paragrafos": [
+        "O desembarque precisava de lua perto da cheia, para os paraquedistas, e de maré baixa subindo ao amanhecer, para os barcos verem os obstáculos. Isso dava uma janela de 5 a 7 de junho. Em 3 e 4 de junho, o meteorologista-chefe de Eisenhower, o capitão de grupo James Stagg, da RAF, previu céu fechado e vento forte, e o dia marcado, 5 de junho, foi adiado. Na noite de 4 de junho, Stagg anunciou uma melhora curta; às 4:15 de 5 de junho confirmou, e Eisenhower decidiu por 6 de junho. A alternativa era esperar duas semanas, até a maré seguinte — e nesse período veio uma tempestade que destruiu um dos dois portos Mulberry.",
+        "Os meteorologistas alemães, sem a rede de observação aliada no Atlântico, viram só o mau tempo. Pelos critérios do próprio comando alemão, relatados na história oficial americana, as condições para um desembarque não estavam sendo atendidas em 5 de junho. Rommel foi para casa, em Herrlingen, na Alemanha: o aniversário da mulher era em 6 de junho, e ele pretendia ver Hitler. Comandantes de divisão do 7º Exército estavam a caminho de um jogo de guerra em Rennes.",
+        "O tempo melhorou o bastante, não muito. Em Omaha, com ondas fortes, 27 dos 29 tanques anfíbios do primeiro escalão afundaram antes de chegar à praia."
+      ]
+    },
+    {
+      "titulo": "A manhã: o pedido às 04:45 e a reserva parada",
+      "paragrafos": [
+        "O 7º Exército entrou em alerta máximo às 02:15, depois dos primeiros saltos de paraquedistas. Na madrugada, segundo a história oficial americana, Rundstedt, o chefe de estado-maior de Rommel, Hans Speidel, e o almirante Krancke achavam que se tratava provavelmente da operação de diversão. Às 04:45, segundo a história oficial canadense, o chefe de estado-maior de Rundstedt, Günther Blumentritt, pediu ao general Alfred Jodl, no alto-comando, a liberação das divisões blindadas da reserva. Já tinha posto em alerta a 12ª SS, a Panzer Lehr e a 17ª SS.",
+        "O pedido foi recusado. Oficiais alemães afirmaram depois da guerra que Jodl não só negou como mandou parar todo movimento. Ninguém no alto-comando queria empenhar a reserva na Normandia enquanto o golpe principal, esperado em Calais, não aparecesse.",
+        "Enquanto isso, as cinco praias eram tomadas. Em Utah, as baixas foram 197. Em Omaha, onde a 352ª Divisão estava na costa sem que a inteligência aliada a tivesse localizado, o V Corpo americano contou 2.374 baixas entre mortos, feridos e desaparecidos. Ao fim do dia, ali, a cabeça de praia era rasa e estava longe da linha planejada."
+      ]
+    },
+    {
+      "titulo": "A tarde: uma divisão chega ao mar e volta",
+      "paragrafos": [
+        "A 12ª SS Panzer e a Panzer Lehr foram liberadas à tarde — às 14:30 ou às 16:00, conforme a fonte. As primeiras unidades da 12ª SS chegaram à área de reunião perto de Évrecy às 22:00, e a divisão só entrou em posição a noroeste de Caen na manhã de 7 de junho. A Panzer Lehr andou sob ataque aéreo e combateu a partir de 8 de junho.",
+        "A 21ª Panzer, a única ao alcance, passou a manhã entre ordens de atacar os paraquedistas a leste do Orne e ordens de atacar as praias. Só à tarde atacou para o norte. Elementos do 192º Regimento Panzergrenadier chegaram à costa em Lion-sur-Mer, no vão entre Juno e Sword, por volta das 20:00 — é o que dá a Wikipédia em inglês; a história oficial canadense registra que a chegada ao mar foi afirmada depois pelo comandante da divisão, Edgar Feuchtinger, e que a evidência britânica não a sustenta inteiramente.",
+        "Por volta das 21:00, centenas de planadores britânicos passaram sobre eles para reforçar a cabeça de ponte do Orne. Temendo ser cercados, os alemães recuaram. Caen não caiu naquele dia, e ao anoitecer só Gold e Juno estavam ligadas; as cinco cabeças de praia se uniram em 12 de junho. Mas nenhum contra-ataque alemão tinha posto o desembarque em risco."
+      ]
+    }
+  ],
+  "veredito": [
+    "O lance saiu na Normandia porque Calais era o lugar óbvio e, por isso, o mais fortificado. A escolha aliada foi a jogada simples: atacar onde a defesa era mais fina, no limite do alcance da própria aviação. O que a tornou decisiva foi o outro lado do tabuleiro. A Fortitude não escondeu a Normandia — Hitler já desconfiava dela —, mas fez o comando alemão tratá-la como diversão, e segurou em Calais o 15º Exército por semanas.",
+    "A estrutura que Hitler impôs transformou essa dúvida em atraso. Com quatro divisões móveis presas a uma autorização dele, ninguém no campo podia mover a reserva, e o pedido das 04:45 parou no alto-comando. Quando as divisões foram soltas, à tarde, andaram de noite ou sob os aviões que Rommel tinha previsto, e só combateram em 7 e 8 de junho. O tempo pesou como condição: tirou Rommel do tabuleiro e baixou o alerta, mas quem decidia sobre a reserva não estava fora.",
+    "Em termos de xadrez, os Aliados não ganharam por massa no ponto da batalha. Ganharam porque o adversário passou o primeiro dia jogando contra uma peça que não existia."
+  ],
+  "mitos": [
+    {
+      "circula": "Hitler estava dormindo, ninguém ousou acordá-lo, e por isso os panzers não chegaram a tempo.",
+      "registro": "Hitler foi se deitar de madrugada e, numa das versões, só soube da invasão perto do meio-dia. Mas o pedido de liberação das 04:45 foi recusado pelo alto-comando, com Jodl, e o motivo era a dúvida sobre Calais, não o sono. A história oficial canadense registra a versão do sono e também o contrário: o criado de Hitler, Heinz Linge, disse que ele foi avisado cedo, e que o estado-maior de operações precisou até as 10:00 para formar opinião. Para o historiador Dennis Showalter, Hitler estava acordado cedo, e o que importou foi a incerteza."
+    },
+    {
+      "circula": "Os alemães nunca pensaram na Normandia.",
+      "registro": "Hitler apontou o Cotentin e a Bretanha como alvos prováveis em março de 1944, e em maio a 91ª Divisão e o 6º Regimento de Paraquedistas foram mandados para o Cotentin. O que o blefe aliado conseguiu foi fazer a Normandia parecer um golpe secundário, com o principal ainda por vir em Calais."
+    },
+    {
+      "circula": "Os tanques infláveis enganaram os alemães.",
+      "registro": "Roger Fleetwood-Hesketh, que escreveu a história interna da Operação Fortitude, não encontrou prova de que o engano visual ou por rádio tenha contribuído. O que funcionou foram os agentes duplos, Garbo à frente, cujas mensagens os alemães tomaram por verdadeiras."
+    },
+    {
+      "circula": "Omaha foi um massacre de milhares de mortos.",
+      "registro": "Omaha foi a praia mais cara: 2.374 baixas na conta do V Corpo americano, somando mortos, feridos e desaparecidos. Os mortos aliados do dia inteiro, em todas as praias, no ar e no mar, foram 4.414 na contagem histórica do National D-Day Memorial e 4.436 na lista atualizada. Em Utah, ao lado, as baixas foram 197."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "Gordon A. Harrison, Cross-Channel Attack (United States Army in World War II), Center of Military History, 1951 — cap. VII, German Defense Measures, 1944.",
+      "url": "https://www.ibiblio.org/hyperwar/USA/USA-E-XChannel/USA-E-XChannel-7.html"
+    },
+    {
+      "texto": "Gordon A. Harrison, Cross-Channel Attack, cap. VIII, The Sixth of June.",
+      "url": "https://www.ibiblio.org/hyperwar/USA/USA-E-XChannel/USA-E-XChannel-8.html"
+    },
+    {
+      "texto": "C. P. Stacey, The Victory Campaign: The Operations in North-West Europe, 1944–1945, história oficial do Exército canadense, 1960 — cap. 6.",
+      "url": "https://www.ibiblio.org/hyperwar/UN/Canada/CA/Victory/Victory-6.html"
+    },
+    {
+      "texto": "U.S. Army Center of Military History, Normandy (brochura da campanha).",
+      "url": "https://permanent.access.gpo.gov/websites/www.history.army.mil/brochures/normandy/nor-pam.htm"
+    },
+    {
+      "texto": "Dennis Showalter, \"The Convenient Opponent: The Wehrmacht and D-Day\", Eisenhower Lecture, Kansas State University.",
+      "url": "https://www.k-state.edu/history/research/eisenlecture/6lecture.html"
+    },
+    {
+      "texto": "Robert M. Citino, \"D-Day Through a German Lens\", MHQ, 2017.",
+      "url": "https://historynet.com/d-day-german-lens/"
+    },
+    {
+      "texto": "John Curatola, \"Pressure: The D-Day Weather Forecast Story\", The National WWII Museum.",
+      "url": "https://www.nationalww2museum.org/war/articles/pressure-d-day-weather-forecast-story"
+    },
+    {
+      "texto": "National D-Day Memorial Foundation, The Necrology Project.",
+      "url": "https://www.dday.org/learn/necrology-project/"
+    },
+    {
+      "texto": "The D-Day Story, Portsmouth, \"What is D-Day?\".",
+      "url": "https://theddaystory.com/discover/what-is-d-day/"
+    },
+    {
+      "texto": "Juno Beach Centre, \"Canada on D-Day by the Numbers\".",
+      "url": "https://www.junobeach.org/canada-on-d-day-by-the-numbers/"
+    },
+    {
+      "texto": "Roger Fleetwood-Hesketh, Fortitude: The D-Day Deception Campaign, 2000 (por citação).",
+      "url": null
+    },
+    {
+      "texto": "Operation Fortitude — Wikipédia em inglês.",
+      "url": "https://en.wikipedia.org/wiki/Operation_Fortitude"
+    },
+    {
+      "texto": "Normandy landings — Wikipédia em inglês.",
+      "url": "https://en.wikipedia.org/wiki/Normandy_landings"
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "15-dia-d-capa.jpg",
+      "alt": "Vista de dentro de uma lancha de desembarque com a rampa baixada: soldados com mochilas e capacetes avançam com água pela cintura em direção a uma praia plana, sob nuvens baixas",
+      "legenda": "Soldados americanos saem de uma lancha de desembarque da Guarda Costeira rumo a Omaha, na manhã de 6 de junho de 1944. Em Omaha, o V Corpo contou 2.374 baixas no dia, entre mortos, feridos e desaparecidos.",
+      "autor": "Robert F. Sargent, Guarda Costeira dos EUA · NARA 26-G-2343",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Into_the_Jaws_of_Death_23-0455M_edit.jpg",
+      "tipo": "epoca",
+      "ano": "1944",
+      "foco": "50% 55%"
+    },
+    {
+      "arquivo": "15-dia-d-eisenhower.jpg",
+      "alt": "Um general de quepe e uniforme escuro conversa, de punho fechado, com paraquedistas de rosto pintado e equipamento completo, num acampamento com barracas ao fundo",
+      "legenda": "Eisenhower conversa com paraquedistas da 101ª Divisão Aerotransportada em Greenham Common, Inglaterra, na noite de 5 de junho de 1944 — horas depois de decidir, pela previsão de James Stagg, que o desembarque sairia no dia seguinte.",
+      "autor": "Fotógrafo não identificado, U.S. Army Signal Corps · NARA 778813 (SC-194399)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Photograph_of_General_Dwight_D._Eisenhower_Meeting_the_Troops_Prior_to_the_Normandy_Invasion_-_NARA_-_778813.jpg",
+      "tipo": "epoca",
+      "ano": "1944"
+    },
+    {
+      "arquivo": "15-dia-d-pas-de-calais.jpg",
+      "alt": "Praia longa com fileiras de obstáculos antitanque de vigas de aço cruzadas e blocos de concreto, com prédios à beira-mar e uma falésia ao fundo",
+      "legenda": "Obstáculos antitanque numa praia do Pas-de-Calais em 18 de abril de 1944. Era a costa que o comando alemão mais esperava ver atacada, e a mais fortificada — o motivo pelo qual os Aliados a descartaram.",
+      "autor": "Jesse · Bundesarchiv, Bild 101I-719-0240-05",
+      "licenca": "CC BY-SA 3.0 DE",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.pt",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-719-0240-05,_Pas_de_Calais,_Atlantikwall,_Panzersperren.jpg",
+      "tipo": "epoca",
+      "ano": "1944"
+    },
+    {
+      "arquivo": "15-dia-d-rommel-21-panzer.jpg",
+      "alt": "Um marechal de quepe e uniforme fala com soldados de capacete camuflado, enfileirados diante de um canhão autopropulsado num bosque",
+      "legenda": "Rommel visita a 21ª Divisão Panzer em maio de 1944. Era a única divisão blindada ao alcance das praias em 6 de junho; as quatro da reserva do alto-comando só se moviam com ordem de Hitler.",
+      "autor": "Speck · Bundesarchiv, Bild 101I-300-1865-06",
+      "licenca": "CC BY-SA 3.0 DE",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.pt",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-300-1865-06,_Frankreich,_Rommel_bei_21._Pz.Div..jpg",
+      "tipo": "epoca",
+      "ano": "1944",
+      "foco": "70% 40%"
+    },
+    {
+      "arquivo": "15-dia-d-carta-omaha.jpg",
+      "alt": "Croqui militar à mão sobre papel azulado, com a linha da costa no alto, estradas, vilas e setas de ataque anotadas com datas",
+      "legenda": "Croqui americano de junho de 1944, sobre a folha Isigny da carta 1:50.000: o trecho de Omaha a Pointe du Hoc, com o perímetro de defesa ordenado ao fim do Dia D e os avanços de 8 a 12 de junho. Ao fim do primeiro dia, a cabeça de praia em Omaha estava longe da linha planejada.",
+      "autor": "Exército dos EUA · NARA 18558250",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Initial_Beachead,_Sketch_C_-_NARA_-_18558250.jpg",
+      "tipo": "carta",
+      "ano": "1944"
+    }
+  ],
+  "proximo": "market-garden"
+}

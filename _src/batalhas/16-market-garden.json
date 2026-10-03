@@ -1,0 +1,303 @@
+{
+  "num": "16",
+  "slug": "market-garden",
+  "batalha": "Operação Market Garden",
+  "titulo_video": null,
+  "lugar": "Corredor de Eindhoven a Arnhem, nas províncias de Brabante do Norte e Guéldria, Países Baixos, passando por Son, Veghel, Grave e Nijmegen",
+  "data": "17 a 25 de setembro de 1944",
+  "campanha": "Segunda Guerra Mundial, 1944",
+  "estreia": "2027-01-07",
+  "pergunta": "Por que \"uma ponte longe demais\"? Um plano que dependia de uma única estrada e de todas as pontes caírem intactas e na hora.",
+  "resumo": "Em setembro de 1944, cerca de 35 mil aerotransportados saltaram sobre os rios da Holanda. Por que um plano feito de pontes em série parou antes da última.",
+  "abertura": [
+    "Em 17 de setembro de 1944, cerca de 35 mil paraquedistas e soldados de planador americanos, britânicos e poloneses descem sobre os Países Baixos para tomar, de uma vez, as pontes de uma estrada de cerca de 100 km — de Eindhoven a Arnhem, sobre canais, o Maas, o Waal e o Reno. Por essa estrada, um corpo blindado britânico deveria chegar ao Reno em dois dias, quatro no máximo, e abrir caminho para a Alemanha.",
+    "Nove dias depois, os sobreviventes da divisão que esperava em Arnhem atravessam o rio de volta, à noite, em barcos. A pergunta desta página não é se o plano era ousado — era. É por que ele parou exatamente antes da última ponte, e por que a resposta que mais circula, a de que ninguém sabia dos tanques alemães, é a menos completa."
+  ],
+  "numeros": [
+    {
+      "valor": "≈ 100 km",
+      "rotulo": "de uma única estrada, da fronteira belga até a ponte de Arnhem, a percorrer em 2 dias, 4 no máximo",
+      "conf": "2+"
+    },
+    {
+      "valor": "3",
+      "rotulo": "dias para entregar a força aerotransportada: não havia aviões para levar todos de uma vez",
+      "conf": "2+"
+    },
+    {
+      "valor": "8–13 km",
+      "rotulo": "das zonas de pouso da 1ª Divisão Aerotransportada britânica até a ponte de Arnhem, conforme a fonte",
+      "conf": "DIV"
+    },
+    {
+      "valor": "26",
+      "rotulo": "barcos de lona para atravessar o Waal de dia em Nijmegen, em 20 de setembro, três dias depois do salto",
+      "conf": "2+"
+    },
+    {
+      "valor": "2.398",
+      "rotulo": "homens trazidos de volta pelo Reno na retirada de 25 para 26 de setembro; cerca de 300 ficaram",
+      "conf": "2+"
+    },
+    {
+      "valor": "1.485",
+      "rotulo": "mortos entre as tropas que pousaram em Arnhem; cerca de 6.400 foram feitos prisioneiros",
+      "conf": "2+"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Objetivo",
+      "valor": "tomar com tropas aerotransportadas as pontes sobre seis cursos d'água entre a fronteira belgo-holandesa e Arnhem (Market) e fazer passar por elas o XXX Corpo britânico (Garden), atravessando o Reno inferior e contornando por cima a Linha Siegfried",
+      "conf": "2+"
+    },
+    {
+      "item": "Aliados — comando",
+      "valor": "Dwight Eisenhower; Bernard Montgomery (21º Grupo de Exércitos); Lewis Brereton (1º Exército Aerotransportado Aliado); Frederick Browning (I Corpo Aerotransportado); Brian Horrocks (XXX Corpo)",
+      "conf": "2+"
+    },
+    {
+      "item": "Aliados — forças",
+      "valor": "101ª Aerotransportada americana (Maxwell Taylor), Son e Veghel; 82ª Aerotransportada (James Gavin), Grave, Nijmegen e as colinas de Groesbeek; 1ª Aerotransportada britânica (Roy Urquhart) e 1ª Brigada Paraquedista polonesa (Stanisław Sosabowski), Arnhem. Cerca de 35.000 aerotransportados; o XXX Corpo com a Divisão Blindada da Guarda à frente",
+      "conf": "2+",
+      "nota": "O total aerotransportado aparece como mais de 34.600 ou entre 35.000 e 40.000."
+    },
+    {
+      "item": "Alemanha — comando",
+      "valor": "Gerd von Rundstedt (comandante no Oeste); Walter Model (Grupo de Exércitos B); Kurt Student (1º Exército Paraquedista); Wilhelm Bittrich (II Corpo Panzer SS)",
+      "conf": "2+"
+    },
+    {
+      "item": "Alemanha — forças",
+      "valor": "a 9ª e a 10ª Divisões Panzer SS, muito desfalcadas depois da Normandia, se refazendo ao norte e a leste de Arnhem; unidades de instrução, de reserva e de outras armas reunidas às pressas; o 1º Exército Paraquedista ao sul",
+      "conf": "2+",
+      "nota": "A força das duas divisões SS diverge: de 6.000–7.000 homens no total a mais de 13.000, com poucos tanques operacionais."
+    },
+    {
+      "item": "Terreno",
+      "valor": "uma única rodovia de duas pistas, em parte elevada sobre pôlder e várzea, com valas e diques dos lados; seis cursos d'água, dos quais o Waal em Nijmegen e o Reno em Arnhem não se transpunham com ponte improvisada",
+      "conf": "2+"
+    },
+    {
+      "item": "Prazo",
+      "valor": "chegar a Arnhem em 2 dias, 4 no máximo; a divisão de Arnhem deveria resistir até lá",
+      "conf": "2+"
+    },
+    {
+      "item": "Ponte de Arnhem",
+      "valor": "o 2º Batalhão Paraquedista de John Frost toma a cabeceira norte na noite de 17 de setembro e resiste até a madrugada de 21, o dobro do previsto",
+      "conf": "2+",
+      "nota": "O efetivo de Frost na ponte é de cerca de 740 homens, com brigada e engenheiros, numa conta; de cerca de 500, na história oficial americana."
+    },
+    {
+      "item": "Ponte de Nijmegen",
+      "valor": "tomada só na noite de 20 de setembro, depois da travessia do Waal pelo 504º Regimento Paraquedista americano em 26 barcos; os tanques da Guarda param do outro lado e só retomam o avanço cerca de 18 horas depois",
+      "conf": "2+"
+    },
+    {
+      "item": "Duração",
+      "valor": "17 a 25 de setembro de 1944; a retirada da margem norte do Reno vai da noite de 25 à madrugada de 26",
+      "conf": "2+"
+    },
+    {
+      "item": "Baixas aliadas",
+      "valor": "a fase aerotransportada custou cerca de 11.850 mortos, feridos e desaparecidos na conta da história oficial americana — 7.212 só na força britânica de Arnhem, 1.432 na 82ª, 2.110 na 101ª; o XXX Corpo, cerca de 1.480. O total da operação vai de 15.326 a 17.200",
+      "conf": "DIV"
+    },
+    {
+      "item": "Baixas alemãs",
+      "valor": "3.300 na conta oficial alemã; de cerca de 6.300 a mais de 13.000 nas estimativas de historiadores",
+      "conf": "DIV"
+    },
+    {
+      "item": "Prisioneiros",
+      "valor": "cerca de 6.400 britânicos e poloneses capturados em Arnhem, um terço deles feridos",
+      "conf": "1",
+      "nota": "Wikipédia em inglês, Operation Market Garden."
+    },
+    {
+      "item": "Resultado",
+      "valor": "Eindhoven e Nijmegen libertadas e um saliente de cerca de 105 km aberto nas linhas alemãs; a travessia do Reno em Arnhem, o objetivo que dava sentido aos outros, fracassa",
+      "conf": "2+"
+    },
+    {
+      "item": "O depois",
+      "valor": "os Aliados só atravessam o Reno em março de 1945; Arnhem é libertada em 14 de abril de 1945. O porto de Antuérpia, capturado em 4 de setembro, só recebe navios no fim de novembro",
+      "conf": "1"
+    }
+  ],
+  "lances": [
+    {
+      "titulo": "O plano: uma corrente de pontes, numa estrada só",
+      "paragrafos": [
+        "Em setembro de 1944, depois da Normandia, os exércitos aliados tinham varrido os alemães de quase toda a França e da Bélgica, e o comando aliado achava que o exército alemão estava se desfazendo. Montgomery pedia uma estocada única, plena, através do Reno. Eisenhower aprovou em 10 de setembro uma versão dela, com prioridade limitada: Market Garden.",
+        "O desenho era simples de dizer. Três divisões aerotransportadas e uma brigada polonesa tomariam as pontes de uma estrada que ia da fronteira belga até Arnhem, cerca de 100 km ao norte: a 101ª americana em Son e Veghel, a 82ª em Grave e Nijmegen, a 1ª britânica, a mais distante, em Arnhem. Pela estrada, o XXX Corpo subiria em dois dias, quatro no máximo. O horário previa Eindhoven no fim da tarde do primeiro dia e Arnhem às 15:00 do terceiro.",
+        "No tabuleiro, isso é uma corrente em série. Cada ponte tinha de cair intacta, na ordem e no horário, porque todo o corpo blindado e o material de ponte vinham por uma rodovia de duas pistas, em parte elevada sobre o pôlder, com valas e diques dos lados. Não havia estrada paralela. Um atraso em qualquer elo se transmitia a todos os seguintes, e o último elo, Arnhem, ficava com a divisão que dependia de todos."
+      ]
+    },
+    {
+      "titulo": "A peça mais distante, entregue em prestações e longe do alvo",
+      "paragrafos": [
+        "A primeira restrição era de meios. Os aviões disponíveis davam para cerca de 60% da força numa leva só, e as tropas foram entregues em três dias. A 1ª Divisão Aerotransportada pousou em 17 de setembro com metade do efetivo, e dessa metade só a 1ª Brigada Paraquedista pôde marchar sobre a ponte: o resto tinha de guardar as zonas de pouso para a leva do dia seguinte.",
+        "A segunda era de lugar. As zonas ficavam nas charnecas a oeste de Oosterbeek, de 8 a 13 km da ponte, conforme a fonte. Ao norte da cidade havia a antiaérea do aeródromo de Deelen; ao sul da ponte, o único terreno plano, o pôlder de Malburgsche, era pequeno para os planadores de uma brigada e ficava ao lado de uma bateria antiaérea. Depois da guerra o próprio Urquhart disse ao historiador oficial britânico que a aviação, com razão, não quis voar para a zona defendida. Martin Middlebrook chama a recusa de saltos noturnos, de duas levas no primeiro dia e de um golpe de mão na ponte de erros fundamentais; John Frost chamou a distância de obstáculo gritante.",
+        "No primeiro dia, duas das três colunas foram contidas por unidades alemãs improvisadas a oeste de Arnhem. Só o 2º Batalhão de Frost, pela estrada da margem do rio, chegou à ponte ao anoitecer e tomou a cabeceira norte. A ponte ferroviária de Oosterbeek foi explodida quando os britânicos chegaram a ela. E a 13 km de distância, os rádios entre a ponte e o quartel-general da divisão não alcançavam: o estudo de John Greenacre aponta a distância entre as unidades, maior que o alcance dos aparelhos, como a causa principal."
+      ]
+    },
+    {
+      "titulo": "O primeiro elo quebra em Son, o segundo trava em Nijmegen",
+      "paragrafos": [
+        "Em 17 de setembro, a ponte de Son sobre o canal Wilhelmina foi explodida pelos alemães quando a 101ª chegava a ela. O XXX Corpo, que partira às 14:35 depois de uma barragem de artilharia, foi emboscado logo depois da fronteira e parou à noite em Valkenswaard, sem chegar a Eindhoven. Chegou na tarde de 18, um dia atrasado, e os engenheiros ergueram uma ponte Bailey em Son durante a noite.",
+        "Mais ao norte, a 82ª tomou Grave e uma ponte sobre o canal Maas-Waal, mas concentrou o esforço nas colinas de Groesbeek, para bloquear um ataque vindo da floresta do Reichswald, na Alemanha, e só mandou tropas contra a ponte de Nijmegen à noite. Browning concordou com essa prioridade. Quando o ataque veio, já chegavam unidades da 10ª Divisão Panzer SS, e a ponte ficou alemã. A história oficial americana conta quatro tentativas contra ela antes do sucesso.",
+        "Em 19 de setembro o XXX Corpo encontrou a 82ª em Grave e o atraso parecia recuperado. Mas a travessia de assalto que o plano previa para uma ponte não tomada dependia de barcos que vinham lá atrás, na mesma estrada. Eles chegaram na tarde de 20. Por volta das 15:00, o 3º Batalhão do 504º Regimento Paraquedista atravessou o Waal de dia, em 26 barcos de lona, sob fogo; metade dos barcos sobreviveu à primeira viagem. No começo da noite, tanques da Guarda cruzaram a ponte rodoviária. A ponte que devia cair no primeiro dia caiu no quarto."
+      ]
+    },
+    {
+      "titulo": "A noite de 20 de setembro: o lance mais discutido",
+      "paragrafos": [
+        "Do outro lado do Waal, os tanques pararam. Retomaram o avanço cerca de 18 horas depois, ao meio-dia de 21, e logo esbarraram numa linha alemã em Ressen, a menos de 5 km ao norte. Em Arnhem, a 11 km dali, o grupo de Frost ainda resistia naquela noite.",
+        "É a cena que mais se repete como explicação, e merece ser pesada com cuidado. Contra a parada há o comandante da 10ª SS, Heinz Harmel, que décadas depois disse a Robert Kershaw que, se aqueles tanques tivessem seguido, teria acabado para os alemães. A favor dela há o escuro, só cinco tanques do outro lado, canhões anticarro escondidos, a cidade de Nijmegen ainda em combate atrás, e o que Harmel não sabia: três tanques Tiger e duas companhias de infantaria já desciam de Arnhem para a aldeia de Lent.",
+        "E há o relógio. A ponte de Arnhem caiu na madrugada de 21. Mesmo um avanço noturno teria de atravessar 11 km de estrada elevada sobre pôlder — o terreno que o comandante da Divisão Blindada da Guarda, ao vê-lo, descreveu como o mais impróprio para tanques que se podia imaginar. A parada de 20 de setembro foi o último atraso, não o decisivo. O decisivo veio antes, em Son e na ponte de Nijmegen."
+      ]
+    },
+    {
+      "titulo": "O que o adversário fez com o tempo que recebeu",
+      "paragrafos": [
+        "A inteligência aliada sabia que havia blindados alemães em volta de Arnhem. O Ultra localizou a 9ª e a 10ª Divisões Panzer SS ali; o chefe do estado-maior de Eisenhower, Walter Bedell Smith, levou a preocupação a Montgomery em 15 de setembro e foi descartado. O oficial de inteligência de Browning, major Brian Urquhart, mostrou relatos da resistência holandesa e fotos aéreas, e foi mandado de licença por tensão nervosa e exaustão. Montgomery escreveu depois que os Aliados erraram ao supor que aquele corpo não podia lutar com eficácia.",
+        "Mas as duas divisões estavam desfalcadas e quase sem tanques, e nenhum tanque alemão combateu no primeiro dia. O que pesou foi outra coisa. O marechal de campo Walter Model, comandante do Grupo de Exércitos B, estava hospedado num hotel em Oosterbeek quando os britânicos pousaram a poucos quilômetros. Saiu às pressas, avaliou a situação e mandou para Arnhem todos os blindados que conseguiu, enquanto oficiais alemães transformavam sobras — escolas, batalhões de reserva, homens da aviação e da marinha — em unidades de combate em horas. John Hackett, comandante de brigada britânico, disse depois da guerra que um quartel-general alemão fazia de retardatários uma unidade coesa num tempo que os Aliados julgavam impossível.",
+        "O tempo fez o resto. A partir de 18 de setembro, sete de oito dias tiveram mau tempo: a segunda leva atrasou horas, a brigada polonesa chegou dois dias depois do previsto, e quase todo o reabastecimento lançado ao norte do Reno caiu em mãos alemãs. Num plano com folga, isso seria um contratempo. Num plano em série, cada hora perdida era cobrada na última ponte."
+      ]
+    },
+    {
+      "titulo": "Oosterbeek e a volta pelo rio",
+      "paragrafos": [
+        "Sem conseguir chegar à ponte, a 1ª Divisão Aerotransportada se fechou num perímetro em Oosterbeek, com cerca de 3.600 homens, encostado no Reno. Os poloneses saltaram enfim em 21 de setembro, em Driel, na margem sul, e descobriram que a balsa não existia mais; as travessias noturnas improvisadas dos dias seguintes puseram poucas centenas de homens do outro lado. Em 24 de setembro, a tentativa de um batalhão britânico terminou com cerca de 200 de 315 homens capturados.",
+        "Na noite de 25 para 26, sob chuva, engenheiros britânicos e canadenses trouxeram de volta em pequenos barcos 2.398 homens: 1.741 da divisão, 422 pilotos de planador, 160 poloneses e 75 do batalhão de Dorset. Cerca de 300 ficaram na margem norte quando amanheceu. Das tropas que pousaram em Arnhem, 1.485 morreram e cerca de 6.400 foram feitos prisioneiros.",
+        "Depois da derrota, Montgomery e Browning culparam a brigada polonesa e Sosabowski foi afastado. Historiadores como Carlo D'Este tratam a acusação como bode expiatório, e os Países Baixos condecoraram a brigada em 2006. Montgomery, por sua vez, chamou Market Garden de 90% de sucesso. Chester Wilmot respondeu que a conta só fecha se o sucesso for medido pelo número de pontes tomadas."
+      ]
+    }
+  ],
+  "veredito": [
+    "Market Garden não falhou por um erro. Falhou porque era uma corrente de apostas em série — cada ponte intacta, na ordem, no horário, por uma estrada só — e porque a peça que dependia de todas, em Arnhem, foi entregue em três prestações, a quilômetros do alvo. Inteligência descartada, rádios fora de alcance, zonas de pouso distantes, a ponte de Nijmegen tomada no quarto dia e o mau tempo não são explicações rivais: são o mesmo defeito visto de lugares diferentes. Num plano em série, as falhas não se somam, se multiplicam.",
+    "Em termos de xadrez, é uma combinação de seis lances que só funciona se o adversário não responder a nenhum. O adversário respondeu no primeiro: explodiu a ponte de Son. Model, por acaso a poucos quilômetros das zonas de pouso, respondeu em todos os outros. A história oficial americana resume: pela lógica impiedosa da guerra, Market Garden foi um fracasso.",
+    "E a frase que deu nome à derrota talvez nunca tenha sido dita. \"Uma ponte longe demais\" aparece por escrito em 1958, nas memórias do general Urquhart, atribuída a Browning; o historiador Antony Beevor duvida que Browning a tenha dito. Ela também aponta para a ponte errada: a que travou o relógio foi Nijmegen."
+  ],
+  "mitos": [
+    {
+      "circula": "Browning avisou Montgomery que Arnhem era uma ponte longe demais.",
+      "registro": "A frase aparece por escrito em 1958, nas memórias do general Roy Urquhart, e foi popularizada pelo livro de Cornelius Ryan em 1974 e pelo filme de 1977. Antony Beevor contesta: Browning apoiava a operação, sobretudo depois de receber mais meios, e não parece ter encontrado Montgomery naquele dia."
+    },
+    {
+      "circula": "A operação fracassou porque ninguém sabia que havia divisões blindadas da SS em Arnhem.",
+      "registro": "Sabia-se. O Ultra localizou a 9ª e a 10ª Divisões Panzer SS; Bedell Smith alertou Montgomery em 15 de setembro, e o major Brian Urquhart alertou Browning. O alerta foi descartado. Mas as duas divisões estavam desfalcadas e quase sem tanques: o que pesou foi a reação rápida de Model e a capacidade alemã de improvisar unidades com sobras."
+    },
+    {
+      "circula": "Os rádios britânicos falharam porque vieram com os cristais errados.",
+      "registro": "O estudo do major John Greenacre aponta como causa principal a distância entre as unidades, maior que o alcance dos aparelhos. Os cristais errados atingiram dois aparelhos, os da equipe americana de apoio aéreo."
+    },
+    {
+      "circula": "O XXX Corpo parou em Nijmegen e deixou os paraquedistas de Arnhem morrerem.",
+      "registro": "A parada da noite de 20 de setembro aconteceu e durou cerca de 18 horas, com só cinco tanques do outro lado do Waal, anticarro escondido e três Tiger descendo de Arnhem. A ponte de Arnhem caiu na madrugada seguinte. Os atrasos decisivos vieram antes: a ponte de Son, explodida em 17 de setembro, e a ponte de Nijmegen, que devia cair no primeiro dia e caiu no quarto."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "Charles B. MacDonald, The Siegfried Line Campaign, U.S. Army in World War II, Center of Military History, 1963, capítulos VII e VIII.",
+      "url": "https://www.ibiblio.org/hyperwar/USA/USA-E-Siegfried/USA-E-Siegfried-8.html"
+    },
+    {
+      "texto": "National Army Museum, \"Operation Market Garden\".",
+      "url": "https://www.nam.ac.uk/explore/market-garden"
+    },
+    {
+      "texto": "John Greenacre, \"Assessing the Reasons for Failure: 1st British Airborne Division Signal Communications during Operation 'Market Garden'\", Defence Studies, 2004.",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/1470243042000344777"
+    },
+    {
+      "texto": "Antony Beevor, Arnhem: The Battle for the Bridges, 1944 (citado pela Wikipédia em inglês).",
+      "url": null
+    },
+    {
+      "texto": "Pegasus Archive, \"Lieutenant-General Frederick Browning\".",
+      "url": "https://www.pegasusarchive.org/arnhem/frederick_browning.htm"
+    },
+    {
+      "texto": "Warfare History Network, \"Operation Market Garden: Montgomery's Bridge Too Far\".",
+      "url": "https://warfarehistorynetwork.com/article/montgomerys-bridge-too-far/"
+    },
+    {
+      "texto": "Battle of Arnhem — \"The closing balance\" e \"Why didn't the British radios work?\".",
+      "url": "https://www.battle-of-arnhem.com/the-closing-balance/"
+    },
+    {
+      "texto": "Operation Market Garden — Wikipédia em inglês.",
+      "url": "https://en.wikipedia.org/wiki/Operation_Market_Garden"
+    },
+    {
+      "texto": "Battle of Arnhem — Wikipédia em inglês.",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Arnhem"
+    },
+    {
+      "texto": "Operation Berlin (Arnhem) — Wikipédia em inglês.",
+      "url": "https://en.wikipedia.org/wiki/Operation_Berlin_(Arnhem)"
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "16-market-garden-capa.jpg",
+      "alt": "Vista aérea de uma ponte de arco de aço sobre um rio largo, com casas na margem de cima e veículos destruídos amontoados na rampa da cabeceira norte",
+      "legenda": "A ponte rodoviária de Arnhem fotografada do ar em 19 de setembro de 1944, com blindados alemães destruídos na cabeceira norte, a que o batalhão de John Frost segurou da noite de 17 à madrugada de 21.",
+      "autor": "Fotógrafo não identificado · Imperial War Museums, MH 2061",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_bridge_over_the_Neder_Rijn,_Arnhem.jpg",
+      "tipo": "epoca",
+      "ano": "1944",
+      "foco": "55% 45%"
+    },
+    {
+      "arquivo": "16-market-garden-carta.jpg",
+      "alt": "Carta topográfica com o Reno em azul atravessando da esquerda para a direita, matas verdes ao norte com Renkum, Oosterbeek e a cidade de Arnhem, e ao sul uma planície de pôlder cortada por valas, com Driel e Elst",
+      "legenda": "Arnhem e o Reno inferior na carta do Army Map Service, Holland 1:25.000, folha Arnhem, 1ª edição de 1944. As zonas de pouso britânicas ficavam nas matas e charnecas a oeste de Oosterbeek, a ponte na cidade, à direita; ao sul, o pôlder entre o Reno e Elst, por onde os tanques teriam de subir.",
+      "autor": "U.S. Army Map Service · Library of Congress, Geography and Map Division",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Holland_1-25,000_LOC_2003630738-36.jpg",
+      "tipo": "carta",
+      "foco": "60% 40%"
+    },
+    {
+      "arquivo": "16-market-garden-saltos.jpg",
+      "alt": "Fotografia aérea em preto e branco: uma longa fileira de aviões de transporte no céu enevoado e, embaixo, campos retalhados salpicados de paraquedas abertos",
+      "legenda": "Aviões de transporte e paraquedas sobre os Países Baixos em 17 de setembro de 1944, o primeiro dia. Os aviões disponíveis davam para cerca de 60% da força numa leva só, e a entrega levou três dias.",
+      "autor": "U.S. Army Air Forces · National Archives and Records Administration, NARA 531308",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Market-Garden_-_Landings_as_seen_from_a_plane.jpg",
+      "tipo": "epoca",
+      "ano": "1944"
+    },
+    {
+      "arquivo": "16-market-garden-nijmegen.jpg",
+      "alt": "Tanque Sherman avança por uma ponte rodoviária larga, com um grande arco de aço ao fundo e dois ciclistas em primeiro plano, um deles acenando",
+      "legenda": "Tanques do XXX Corpo britânico cruzam a ponte rodoviária de Nijmegen sobre o Waal, em setembro de 1944. A ponte que o plano previa para o primeiro dia foi tomada na noite de 20 de setembro.",
+      "autor": "Fotógrafo não identificado · Imperial War Museums, EA 44531",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:British_XXX_Corps_cross_the_road_bridge_at_Nijmegen.jpg",
+      "tipo": "epoca",
+      "ano": "1944"
+    },
+    {
+      "arquivo": "16-market-garden-oosterbeek.jpg",
+      "alt": "Quatro paraquedistas britânicos armados avançam por uma casa em ruínas, pisando em entulho e vergalhões",
+      "legenda": "Paraquedistas britânicos numa casa destruída em Oosterbeek, em 23 de setembro de 1944, depois de recuarem de Arnhem para o perímetro encostado no Reno.",
+      "autor": "Sargento D. M. Smith, Army Film and Photographic Unit · Imperial War Museums, BU 1121",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:British_paratroopers_in_Oosterbeek.jpg",
+      "tipo": "epoca",
+      "ano": "1944"
+    }
+  ],
+  "proximo": "ardenas"
+}

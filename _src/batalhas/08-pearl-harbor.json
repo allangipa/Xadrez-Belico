@@ -1,0 +1,316 @@
+{
+  "num": "08",
+  "slug": "pearl-harbor",
+  "batalha": "Pearl Harbor",
+  "titulo_video": null,
+  "lugar": "Pearl Harbor, ilha de Oahu, Havaí (então território dos Estados Unidos), Pacífico central",
+  "data": "7 de dezembro de 1941",
+  "campanha": "Segunda Guerra Mundial, 1941",
+  "estreia": "2026-11-12",
+  "pergunta": "Um ataque perfeito no tático e errado no estratégico?",
+  "resumo": "Em 7 de dezembro de 1941 o Japão atingiu os oito encouraçados americanos e deixou de pé o que importava. Por que o lance certo mirou a peça errada.",
+  "abertura": [
+    "Na manhã de 7 de dezembro de 1941, 353 aviões saídos de seis porta-aviões japoneses atacam a Frota do Pacífico em Pearl Harbor, no Havaí. Em menos de duas horas, os oito encouraçados americanos no porto estão atingidos, 188 aviões destruídos e 2.403 americanos mortos. O Japão perde 29 aviões.",
+    "Como lance, é quase perfeito. Mas os três porta-aviões americanos não estavam no porto, os tanques de combustível, as oficinas e a base de submarinos ficaram de pé, e seis dos oito encouraçados voltariam à guerra. No dia seguinte, os Estados Unidos declaram guerra com um único voto contra. A pergunta desta página é como um ataque tão bem executado mirou a peça errada."
+  ],
+  "numeros": [
+    {
+      "valor": "353",
+      "rotulo": "aviões japoneses chegaram a Oahu, em duas ondas, saídos de 6 porta-aviões",
+      "conf": "2+"
+    },
+    {
+      "valor": "0",
+      "rotulo": "porta-aviões americanos no porto: os três da Frota do Pacífico estavam fora",
+      "conf": "2+"
+    },
+    {
+      "valor": "2.403",
+      "rotulo": "americanos mortos — 2.008 da Marinha, 218 do Exército, 109 fuzileiros e 68 civis",
+      "conf": "2+"
+    },
+    {
+      "valor": "6 de 8",
+      "rotulo": "encouraçados atingidos voltaram ao serviço; só o Arizona e o Oklahoma se perderam de vez",
+      "conf": "2+"
+    },
+    {
+      "valor": "4 a 4,5 mi",
+      "rotulo": "de barris de combustível em tanques à vista, deixados intactos — conforme a fonte",
+      "conf": "DIV"
+    },
+    {
+      "valor": "64",
+      "rotulo": "japoneses mortos: 55 aviadores e 9 tripulantes de submarinos anões; 29 aviões perdidos",
+      "conf": "2+"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Japão — força",
+      "valor": "a força de ataque (Kidō Butai): 6 porta-aviões (Akagi, Kaga, Sōryū, Hiryū, Shōkaku e Zuikaku), 2 encouraçados, 3 cruzadores, 11 contratorpedeiros e 8 petroleiros, com 414 aviões disponíveis; mais 5 submarinos de esquadra levando 5 submarinos anões",
+      "conf": "1",
+      "nota": "Os seis porta-aviões são consenso; o restante da composição, pela Wikipédia em inglês."
+    },
+    {
+      "item": "Japão — comando",
+      "valor": "almirante Isoroku Yamamoto (Frota Combinada, autor do plano); vice-almirante Chūichi Nagumo (força de ataque); comandante Mitsuo Fuchida (líder no ar, primeira onda); capitão de corveta Shigekazu Shimazaki (segunda onda). Plano escrito sobretudo por Ryūnosuke Kusaka, com Minoru Genda",
+      "conf": "2+"
+    },
+    {
+      "item": "Estados Unidos — comando",
+      "valor": "almirante Husband E. Kimmel (Frota do Pacífico); general Walter C. Short (Exército, defesa do Havaí)",
+      "conf": "2+"
+    },
+    {
+      "item": "Terreno",
+      "valor": "porto raso e fechado, com a frota fundeada em fila ao redor da ilha Ford; acreditava-se que a pouca profundidade protegia contra torpedos lançados de avião",
+      "conf": "2+"
+    },
+    {
+      "item": "Objetivo japonês",
+      "valor": "impedir a Frota do Pacífico de interferir na conquista do Sudeste Asiático e das Índias Orientais Holandesas, depois do corte do petróleo americano em julho de 1941, e levar os Estados Unidos a negociar",
+      "conf": "2+"
+    },
+    {
+      "item": "Precedente",
+      "valor": "Taranto, Itália, noite de 11 para 12 de novembro de 1940: 21 biplanos Swordfish do porta-aviões britânico Illustrious põem fora de ação três encouraçados italianos fundeados em porto raso",
+      "conf": "2+"
+    },
+    {
+      "item": "Horário",
+      "valor": "radar de Opana detecta a formação às 07:02; primeiras bombas às 07:48 em Kaneohe e às 07:55 sobre o porto; a segunda onda chega por volta das 08:50",
+      "conf": "2+",
+      "nota": "A hora da segunda onda é do National Park Service."
+    },
+    {
+      "item": "As ondas",
+      "valor": "primeira, 183 aviões lançados (40 torpedeiros, 49 bombardeiros de altitude, 51 de mergulho e 43 caças); segunda, cerca de 170",
+      "conf": "DIV",
+      "nota": "A segunda onda aparece com 167, 170 ou 171 aviões conforme a fonte; o total que chegou a Oahu, 353, é o mesmo em todas."
+    },
+    {
+      "item": "Navios atingidos",
+      "valor": "21 afundados ou avariados, entre eles os 8 encouraçados no porto; todos menos 3 (Arizona, Oklahoma e o ex-encouraçado Utah) voltaram ao serviço",
+      "conf": "2+"
+    },
+    {
+      "item": "Aviões americanos",
+      "valor": "188 destruídos e 159 avariados, de 402 no Havaí",
+      "conf": "2+",
+      "nota": "A ficha do museu da Marinha dos EUA usa outro corte: 92 perdidos pela Marinha e 77 pelo Exército."
+    },
+    {
+      "item": "Baixas americanas",
+      "valor": "2.403 mortos (2.008 da Marinha, 218 do Exército, 109 fuzileiros, 68 civis); quase metade no Arizona. Feridos: 1.178 pela tabela do museu da Marinha dos EUA, 1.104 pela conta do National Park Service",
+      "conf": "DIV",
+      "nota": "Os mortos conferem em duas fontes; a divergência é só nos feridos."
+    },
+    {
+      "item": "Baixas japonesas",
+      "valor": "29 aviões; 64 mortos (55 aviadores e 9 tripulantes dos submarinos anões); os 5 submarinos anões perdidos",
+      "conf": "2+"
+    },
+    {
+      "item": "Prisioneiros",
+      "valor": "1: o alferes Kazuo Sakamaki, de um submarino anão encalhado, primeiro prisioneiro japonês da guerra",
+      "conf": "2+"
+    },
+    {
+      "item": "O que não foi atingido",
+      "valor": "os três porta-aviões (fora do porto), os tanques de combustível, as oficinas, os diques, o estaleiro e a base de submarinos",
+      "conf": "2+"
+    },
+    {
+      "item": "Resultado",
+      "valor": "vitória tática japonesa: a linha de encouraçados fica fora de combate por meses; a capacidade de reparo, o combustível e os porta-aviões ficam intactos",
+      "conf": "2+"
+    },
+    {
+      "item": "O depois",
+      "valor": "8 de dezembro: declaração de guerra ao Japão, 82 a 0 no Senado e 388 a 1 na Câmara. 11 de dezembro: Alemanha e Itália declaram guerra aos Estados Unidos",
+      "conf": "2+"
+    }
+  ],
+  "lances": [
+    {
+      "titulo": "O plano: um golpe de abertura para comprar tempo",
+      "paragrafos": [
+        "Em julho de 1941 os Estados Unidos cortam a exportação de petróleo para o Japão, e Tóquio decide tomar o petróleo das Índias Orientais Holandesas. A peça que pode atrapalhar é a Frota do Pacífico, que Roosevelt tinha mandado para Pearl Harbor em 1940. O almirante Isoroku Yamamoto, comandante da Frota Combinada, começa a desenhar o ataque em janeiro de 1941. O plano é escrito sobretudo pelo contra-almirante Ryūnosuke Kusaka, com o comandante Minoru Genda, que defendia seis porta-aviões e três ondas.",
+        "O precedente era recente. Na noite de 11 para 12 de novembro de 1940, 21 biplanos Swordfish do porta-aviões britânico Illustrious puseram fora de ação três encouraçados italianos fundeados no porto raso de Taranto. A lição era que porto raso já não protegia contra torpedo lançado de avião. Os japoneses estudaram Taranto a fundo, mas não partiram dele: segundo o historiador Mark Peattie, trabalhavam em torpedo de água rasa desde 1939, e Taranto confirmou o que já testavam.",
+        "A lista de alvos dizia tudo sobre a cabeça de quem planejou. Segundo os historiadores H. P. Willmott e Haruo Tohmatsu, a ordem era aviação em terra, porta-aviões, encouraçados e outros navios de guerra, navios mercantes, instalações do porto e, por último, instalações em terra. A Marinha japonesa media vitória em navio de combate afundado. Os tanques de combustível estavam no fim da lista."
+      ]
+    },
+    {
+      "titulo": "Os avisos que ninguém juntou",
+      "paragrafos": [
+        "Em 24 de setembro de 1941, Tóquio pediu ao consulado em Honolulu a posição dos navios em Pearl Harbor, por zonas do porto. Washington decifrou a mensagem em 9 de outubro, julgou-a pouco importante e não a repassou a Kimmel nem a Short. Em 27 de novembro veio o aviso formal: 'considere este despacho um aviso de guerra'. Mas ele falava do Extremo Oriente, não de Pearl Harbor, e no Havaí a ameaça foi lida sobretudo como sabotagem.",
+        "Na manhã de 7 de dezembro houve dois avisos diretos. Às 06:37 o contratorpedeiro Ward avistou um submarino na entrada do porto, abriu fogo às 06:45 e informou o comando por rádio, segundo o relatório do próprio comandante. Às 07:02 o radar do Exército em Opana, no norte de Oahu, captou uma formação a cerca de 132 milhas. O tenente de plantão no centro de interceptação, no segundo dia no posto e sem treino, supôs que fossem os bombardeiros B-17 esperados da Califórnia, que vinham de direção quase igual.",
+        "A inteligência americana lia a cifra diplomática japonesa, mas a chancelaria não discutia o plano militar, e o código da marinha não estava legível — uma edição nova entrou em vigor em 1º de dezembro. A frota de ataque navegou em silêncio de rádio. Os avisos que havia eram peças soltas num sistema que não as juntou."
+      ]
+    },
+    {
+      "titulo": "O lance: duas ondas contra a linha de encouraçados",
+      "paragrafos": [
+        "A primeira onda, 183 aviões sob o comando de Mitsuo Fuchida, abre o ataque às 07:48 em Kaneohe e às 07:55 sobre o porto. Os torpedeiros vão primeiro contra os encouraçados, enquanto bombardeiros de mergulho e caças batem os campos de aviação para impedir reação. A segunda onda, cerca de 170 aviões, chega por volta das 08:50. Ao todo, 353 aviões alcançam Oahu.",
+        "Os oito encouraçados no porto são atingidos. O Arizona explode quando uma bomba alcança o paiol de vante, e só nele morre quase metade dos americanos daquele dia. O Oklahoma emborca, o West Virginia e o California afundam no lugar, o Nevada termina encalhado. Dos 402 aviões americanos no Havaí, 188 são destruídos e 159 avariados.",
+        "A defesa acorda tarde, mas acorda: das 29 perdas japonesas, 20 acontecem na segunda onda. No fim, os Estados Unidos têm 2.403 mortos e 21 navios atingidos. O Japão perde 29 aviões, os cinco submarinos anões e 64 homens. Pela régua do plano, é um sucesso quase completo."
+      ]
+    },
+    {
+      "titulo": "O que ficou de pé",
+      "paragrafos": [
+        "Os três porta-aviões da Frota do Pacífico não estavam no porto. O Enterprise voltava de levar caças a Wake e atrasou pelo mau tempo; o Lexington levava aviões a Midway; o Saratoga estava longe do Havaí. A ironia é que o ex-encouraçado-alvo Utah, afundado naquela manhã, ocupava a vaga prevista para o Enterprise.",
+        "Ficaram intactos os tanques de combustível, acima do solo e à vista, com 4 a 4,5 milhões de barris conforme a fonte; as oficinas, os diques e o estaleiro; e a base de submarinos. O Havaí não produzia petróleo: cada barril vinha do continente, e os petroleiros da Frota do Pacífico somavam só 760.000 barris de capacidade, segundo o tenente-coronel Patrick Donovan. Foram as oficinas que puseram os navios avariados de volta ao mar, e foram os submarinos daquela base que estrangularam a importação japonesa de petróleo.",
+        "Há uma ressalva que o historiador Jonathan Parshall faz questão de registrar: antes do ataque, ninguém do lado americano tratava os tanques como peça decisiva — estavam sem defesa antiaérea, sem dispersão, acima do solo. Dentro da doutrina das duas marinhas, o encouraçado era a peça mais valiosa do tabuleiro. O Japão mirou o que a régua do jogo mandava mirar, no momento exato em que a régua mudava."
+      ]
+    },
+    {
+      "titulo": "A terceira onda: o que se sabe e o que se conta",
+      "paragrafos": [
+        "Não houve terceira onda — isso é fato. A versão mais conhecida do porquê é a do próprio Fuchida a Gordon Prange, em 1963, depois levada ao filme Tora! Tora! Tora!: ele teria pedido com insistência um novo ataque contra os tanques e as oficinas, e Nagumo teria recusado. Essa versão é contestada. Interrogado pelos americanos em 1945 sobre por que não houve novo ataque, Fuchida falou do poder aéreo americano desconhecido e de que oito encouraçados bastavam, sem mencionar tanques. Genda negou em suas memórias que a cena tenha acontecido, e Kusaka chamou as críticas de reflexões tardias.",
+        "As razões de Nagumo que a historiografia registra são de tabuleiro. A segunda onda já tinha custado o dobro da primeira; o paradeiro dos porta-aviões americanos era desconhecido; podia haver bombardeiros em terra prontos para revidar; uma terceira onda obrigaria a recolher aviões à noite, coisa que só a Marinha britânica dominava; o combustível da força estava no limite. E a missão principal, neutralizar a frota, parecia cumprida. Era doutrina japonesa preservar a força em vez de buscar a destruição total.",
+        "Mesmo que houvesse um terceiro ataque, Parshall argumenta que ele quase certamente iria contra os cruzadores, contratorpedeiros e submarinos que restavam no porto, não contra os tanques. O erro, se houve, não estava na decisão de uma tarde: estava escrito na lista de alvos meses antes."
+      ]
+    },
+    {
+      "titulo": "O lance seguinte é do adversário",
+      "paragrafos": [
+        "O plano supunha que um golpe de abertura levaria os Estados Unidos a negociar. Em 8 de dezembro de 1941 Roosevelt pede a guerra ao Congresso, que a aprova em menos de uma hora: 82 a 0 no Senado, 388 a 1 na Câmara. A mensagem japonesa que encerrava as negociações chegou a Washington mais de uma hora depois de o ataque começar — e, de todo modo, não declarava guerra. Em 11 de dezembro Alemanha e Itália declaram guerra aos Estados Unidos sem que o pacto com o Japão as obrigasse.",
+        "Sem encouraçados, a Marinha americana passou a lutar com o que tinha: porta-aviões e submarinos, operando a partir da base que ficou de pé. Seis meses depois, quatro dos seis porta-aviões que atacaram Pearl Harbor afundaram em Midway. Os encouraçados reparados, lentos demais para acompanhar os porta-aviões, serviram sobretudo para bombardear costa."
+      ]
+    }
+  ],
+  "veredito": [
+    "Como execução, Pearl Harbor foi quase perfeito: surpresa, concentração e um adversário que viu os sinais e não os juntou. Como estratégia, mirou a peça que a doutrina japonesa considerava a mais valiosa — o encouraçado — no momento em que o valor passava para o porta-aviões, o combustível e a capacidade de reparo. As duas ondas mal chegaram ao terceiro item de uma lista que punha as instalações do porto no fim. Não foi descuido de uma tarde, foi a régua do plano.",
+    "E o erro mais caro não foi de alvo, foi de premissa. O ataque supunha que um golpe de abertura levaria os Estados Unidos a negociar. Em termos de xadrez, é o jogador que ganha a dama do adversário no primeiro lance e descobre que ela não era a peça que decidia a partida — e que o lance acordou do outro lado do tabuleiro alguém disposto a jogar até o fim. O contra-almirante japonês Chūichi Hara resumiu depois da guerra: ganharam uma grande vitória tática e, com isso, perderam a guerra."
+  ],
+  "mitos": [
+    {
+      "circula": "Roosevelt sabia do ataque e deixou acontecer para entrar na guerra.",
+      "registro": "Nenhum documento mostra alguém em Washington sabendo que o alvo era Pearl Harbor. O código da marinha japonesa não era legível antes do ataque, a cifra diplomática não trazia o plano militar e a frota navegou em silêncio de rádio. Washington sabia que vinha guerra e avisou em 27 de novembro; o que falhou foi juntar as peças — a mensagem sobre as zonas do porto não repassada, o radar desconsiderado. Dez inquéritos oficiais, e a historiografia principal rejeita a tese."
+    },
+    {
+      "circula": "Fuchida implorou por uma terceira onda contra os tanques de combustível, e Nagumo recusou.",
+      "registro": "É a versão que Fuchida deu a Gordon Prange em 1963 e que o filme Tora! Tora! Tora! popularizou. Em 1945, interrogado pelos americanos, ele não mencionou os tanques; Genda negou a cena em suas memórias. Não houve terceira onda — isso é fato. O pedido dramático é depoimento tardio e contestado, e a doutrina japonesa punha os tanques no fim da lista de alvos."
+    },
+    {
+      "circula": "Os porta-aviões foram tirados do porto porque Washington sabia do ataque.",
+      "registro": "O Enterprise e o Lexington estavam levando aviões a Wake e a Midway, e o Enterprise devia ter voltado em 6 de dezembro, mas atrasou pelo mau tempo. Em 1941 o navio capital das duas marinhas ainda era o encouraçado: quem quisesse salvar o mais valioso teria tirado os oito encouraçados, que ficaram."
+    },
+    {
+      "circula": "Yamamoto disse que o Japão tinha acordado um gigante adormecido.",
+      "registro": "A frase é do filme Tora! Tora! Tora!, de 1970, e não há prova de que Yamamoto a tenha dito. O que se registra dele é a previsão feita ao primeiro-ministro Konoe em 1941: seis meses a um ano de vitórias, e nenhuma confiança para o segundo e o terceiro ano."
+    },
+    {
+      "circula": "A Frota do Pacífico foi destruída em Pearl Harbor.",
+      "registro": "Dos 21 navios atingidos, 18 voltaram ao serviço; dos 8 encouraçados, 6. Os três porta-aviões estavam fora do porto, e os tanques de combustível, as oficinas e a base de submarinos ficaram intactos."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "W. W. Outerbridge, relatório do USS Ward sobre o afundamento de um submarino japonês, 7 de dezembro de 1941 (anexo ao relatório do CINCPAC de 15 de fevereiro de 1942; NARA), transcrito pelo National Museum of the U.S. Navy.",
+      "url": "https://www.history.navy.mil/content/history/museums/nmusn/education/educational-resources/the-date-that-lives-in-infamy--pearl-harbor--high-school-/the-aftermath/action-report.html"
+    },
+    {
+      "texto": "Naval History and Heritage Command / National Museum of the U.S. Navy, Fact Sheet: Pearl Harbor: Aftermath.",
+      "url": "https://www.history.navy.mil/content/history/museums/nmusn/education/educational-resources/the-date-that-lives-in-infamy--pearl-harbor--high-school-/the-aftermath/pearl-harbor-fact-sheet.html"
+    },
+    {
+      "texto": "National Park Service, The Pearl Harbor Attack.",
+      "url": "https://www.nps.gov/articles/pearlattackww2.htm"
+    },
+    {
+      "texto": "Jonathan Parshall, \"Reflecting on Fuchida, or 'A Tale of Three Whoppers'\", Naval War College Review 63:2, 2010.",
+      "url": "https://digital-commons.usnwc.edu/nwc-review/vol63/iss2/10/"
+    },
+    {
+      "texto": "Patrick H. Donovan, \"Oil Logistics in the Pacific War\", Air Force Journal of Logistics XXVIII:1, 2004.",
+      "url": "https://apps.dtic.mil/sti/tr/pdf/ADA407830.pdf"
+    },
+    {
+      "texto": "Frederick D. Parker, Pearl Harbor Revisited: U.S. Navy Communications Intelligence, 1924–1941, NSA Center for Cryptologic History, 1994.",
+      "url": "https://www.ibiblio.org/hyperwar/PTO/Magic/ComInt-1924-41/index.html"
+    },
+    {
+      "texto": "S.J. Res. 116, Declaração de Guerra ao Japão, 8 de dezembro de 1941 — Visit the Capitol.",
+      "url": "https://www.visitthecapitol.gov/artifact/sj-res-116-declaration-war-japan-december-8-1941"
+    },
+    {
+      "texto": "Attack on Pearl Harbor — Wikipédia em inglês.",
+      "url": "https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor"
+    },
+    {
+      "texto": "Pearl Harbor advance-knowledge conspiracy theory — Wikipédia em inglês.",
+      "url": "https://en.wikipedia.org/wiki/Pearl_Harbor_advance-knowledge_conspiracy_theory"
+    },
+    {
+      "texto": "Radar warning of Pearl Harbor attack — Wikipédia em inglês.",
+      "url": "https://en.wikipedia.org/wiki/Radar_warning_of_Pearl_Harbor_attack"
+    },
+    {
+      "texto": "Battle of Taranto — Wikipédia em inglês.",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Taranto"
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "08-pearl-harbor-capa.jpg",
+      "alt": "Encouraçado tombado em meio a fumaça negra densa, com o mastro e a superestrutura inclinados sobre a água",
+      "legenda": "O encouraçado Arizona queimando depois do ataque, em 7 de dezembro de 1941, com a estrutura do mastro de vante tombada após a explosão do paiol. Só nele morreu quase metade dos 2.403 americanos daquele dia.",
+      "autor": "Fotógrafo não identificado da Marinha dos EUA · NARA 195617",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:The_USS_Arizona_(BB-39)_burning_after_the_Japanese_attack_on_Pearl_Harbor_-_NARA_195617_-_Edit.jpg",
+      "tipo": "epoca",
+      "ano": "1941",
+      "foco": "55% 45%"
+    },
+    {
+      "arquivo": "08-pearl-harbor-vista-japonesa.jpg",
+      "alt": "Vista aérea oblíqua de uma ilha plana no meio de um porto, com navios fundeados em fila do outro lado e uma coluna de água subindo junto a um deles",
+      "legenda": "Foto tirada de um avião japonês durante o ataque de torpedos: um torpedo acaba de atingir o West Virginia, do outro lado da ilha Ford. Ao fundo, à direita, a base de submarinos e os tanques de combustível — o que nenhuma das duas ondas atacou.",
+      "autor": "Marinha Imperial Japonesa (foto capturada) · U.S. Navy NH 50930",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Attack_on_Pearl_Harbor_Japanese_planes_view.jpg",
+      "tipo": "epoca",
+      "ano": "1941"
+    },
+    {
+      "arquivo": "08-pearl-harbor-tanques.jpg",
+      "alt": "Vista aérea de dezenas de tanques cilíndricos brancos de combustível ao lado de um cais com navios e submarinos atracados",
+      "legenda": "A base de submarinos de Pearl Harbor e os tanques de combustível vistos do ar em 13 de outubro de 1941, oito semanas antes do ataque. Acima do solo e à vista, guardavam de 4 a 4,5 milhões de barris, conforme a fonte, e ficaram intactos.",
+      "autor": "Marinha dos EUA · 80-G-182880",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_Pearl_Harbor_submarine_base_and_adjacent_fuel_tank_farms_on_13_October_1941_(80-G-182880).jpg",
+      "tipo": "epoca",
+      "ano": "1941"
+    },
+    {
+      "arquivo": "08-pearl-harbor-radar-opana.jpg",
+      "alt": "Folha de plotagem desenhada à mão com o contorno de uma ilha embaixo e uma linha de pontos anotados com horários descendo do norte em direção a ela",
+      "legenda": "A plotagem original do radar de Opana, no norte de Oahu, na manhã de 7 de dezembro de 1941: a trilha da formação japonesa descendo do norte, anotada com os horários. A detecção começou às 07:02 e foi tomada pelos bombardeiros B-17 esperados da Califórnia.",
+      "autor": "Soldados Joseph Lockard e George Elliott e outros, Exército dos EUA",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Opana_Radar_Original_Plot_Dec_7,_1941.jpg",
+      "tipo": "carta",
+      "foco": "50% 35%"
+    },
+    {
+      "arquivo": "08-pearl-harbor-declaracao.jpg",
+      "alt": "Homem de terno e braçadeira preta sentado a uma mesa, assinando um documento",
+      "legenda": "Roosevelt assina a declaração de guerra ao Japão em 8 de dezembro de 1941, de braçadeira preta. O Congresso a aprovou em menos de uma hora: 82 a 0 no Senado e 388 a 1 na Câmara.",
+      "autor": "Abbie Rowe",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Franklin_Roosevelt_signing_declaration_of_war_against_Japan.jpg",
+      "tipo": "epoca",
+      "ano": "1941",
+      "foco": "50% 30%"
+    }
+  ],
+  "proximo": "moscou"
+}

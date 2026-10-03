@@ -1,0 +1,301 @@
+{
+  "num": "18",
+  "slug": "riachuelo",
+  "batalha": "Riachuelo",
+  "titulo_video": null,
+  "lugar": "Rio Paraná diante da foz do arroio Riachuelo, cerca de 15 km abaixo da cidade de Corrientes, província de Corrientes, Argentina",
+  "data": "11 de junho de 1865",
+  "campanha": "Guerra do Paraguai, 1865",
+  "estreia": "2027-01-21",
+  "pergunta": "Como um rio estreito virou tabuleiro: por que o ataque de surpresa paraguaio falhou, como Barroso virou a batalha com um aríete, e o que a vitória realmente fechou?",
+  "resumo": "O plano paraguaio era abordar a esquadra imperial no escuro e chegou com o sol alto. Como Riachuelo virou duelo, quase se perdeu, e o que a vitória fechou.",
+  "abertura": [
+    "Em junho de 1865 o exército paraguaio ocupa Corrientes, na Argentina, e uma esquadra brasileira de 9 vapores está fundeada no rio Paraná, logo abaixo da cidade, para cortar a linha de comunicação dele. Francisco Solano López decide tomá-la: chegar no escuro, passar pelos navios parados, virar e abordar cada um antes que levantasse âncora. Os vapores paraguaios eram quase todos mercantes armados; num duelo de artilharia, perderiam.",
+    "Esta página abre a minissérie da Guerra do Paraguai — ou da Tríplice Aliança, como a chamam os vizinhos — e segue a partida de 11 de junho de 1865: um plano que dependia do relógio, uma esquadra que entrou em coluna num canal estreito embaixo de uma bateria que não tinha visto, e uma fragata usada como aríete. A pergunta é como o rio virou tabuleiro, e o que a vitória brasileira fechou de fato — que é menos do que se costuma dizer."
+  ],
+  "numeros": [
+    {
+      "valor": "9 × 8",
+      "rotulo": "vapores brasileiros contra vapores paraguaios em combate; o nono paraguaio, o Yberá, avariou no caminho",
+      "conf": "2+"
+    },
+    {
+      "valor": "59 × 36",
+      "rotulo": "canhões embarcados: os brasileiros contra os 30 dos vapores paraguaios e os 6 das chatas rebocadas. Outras contas paraguaias chegam a 38 e 44",
+      "conf": "DIV"
+    },
+    {
+      "valor": "22",
+      "rotulo": "peças de campanha da bateria de José María Bruguez na barranca do Riachuelo, sem parapeito, de 4 a 18 libras",
+      "conf": "2+"
+    },
+    {
+      "valor": "4 + 6",
+      "rotulo": "vapores paraguaios perdidos e todas as 6 chatas. O Brasil perdeu um navio, a corveta Jequitinhonha, encalhada e abandonada",
+      "conf": "2+"
+    },
+    {
+      "valor": "≈ 100",
+      "rotulo": "mortos brasileiros: 102 na soma das partes de combate, 87 na conta de Hoonholtz, 116 na de Garmendia",
+      "conf": "DIV"
+    },
+    {
+      "valor": "1868",
+      "rotulo": "o ano em que o rio Paraguai, acima, passou de fato ao controle aliado, com a queda das fortalezas",
+      "conf": "1"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Contexto",
+      "valor": "o Paraguai invade a província argentina de Corrientes em abril de 1865 e ocupa a capital; em 25 de maio o general argentino Wenceslao Paunero, transportado pela esquadra imperial, retoma a cidade por um dia e se retira",
+      "conf": "2+"
+    },
+    {
+      "item": "Brasil — comando",
+      "valor": "chefe de divisão Francisco Manuel Barroso da Silva, na fragata Amazonas, comandada pelo capitão de fragata Theotonio Raymundo de Brito",
+      "conf": "2+"
+    },
+    {
+      "item": "Paraguai — comando",
+      "valor": "capitão Pedro Ignacio Meza, no Tacuarí, e o segundo comandante Remigio Cabral; em terra, o tenente-coronel José María Bruguez; a ordem de ataque é de Francisco Solano López",
+      "conf": "2+"
+    },
+    {
+      "item": "Esquadra imperial",
+      "valor": "9 vapores de guerra — a fragata Amazonas, de rodas, e oito corvetas e canhoneiras de hélice: Jequitinhonha, Belmonte, Parnaíba, Beberibe, Iguatemi, Araguari, Mearim e Ipiranga; 59 canhões; cerca de 2.300 homens, dos quais cerca de 1.170 do Exército",
+      "conf": "2+",
+      "nota": "O total de homens varia entre 2.277 e 2.297 conforme a fonte."
+    },
+    {
+      "item": "Esquadra paraguaia",
+      "valor": "8 vapores — o Tacuarí, único navio de guerra, e sete mercantes armados: Paraguarí, Igurey, Marqués de Olinda, Salto Oriental, Jejuí, Yporá e Pirabebé —, mais 6 chatas a reboque com um canhão grosso cada; cerca de 36 canhões embarcados e 500 soldados escolhidos do 6º Batalhão para a abordagem",
+      "conf": "DIV",
+      "nota": "Os 500 do 6º Batalhão são de George Thompson; José Ignacio Garmendia fala em 640. Há quem conte 7 chatas."
+    },
+    {
+      "item": "Em terra",
+      "valor": "22 peças de campanha de Bruguez na barranca, ao norte da foz do Riachuelo, sem parapeito, com infantaria e foguetes Congreve nas margens",
+      "conf": "2+"
+    },
+    {
+      "item": "Terreno",
+      "valor": "abaixo de Corrientes o Paraná se divide entre ilhas e bancos; o canal principal corre colado à barranca da margem correntina, fundo mas estreito diante do Riachuelo, e não permitia manobrar com folga navios de mar como os brasileiros",
+      "conf": "2+"
+    },
+    {
+      "item": "Objetivo paraguaio",
+      "valor": "chegar de madrugada, passar pela esquadra fundeada, virar e abordar cada navio antes que levantasse âncora, levando-os para a frota paraguaia",
+      "conf": "2+"
+    },
+    {
+      "item": "Duração",
+      "valor": "do avistamento, de manhã, até a retirada paraguaia, por volta das 16 horas; as contas vão de cerca de 6 a pouco mais de 9 horas",
+      "conf": "DIV"
+    },
+    {
+      "item": "Perdas materiais",
+      "valor": "Paraguai: os vapores Paraguarí, Marqués de Olinda, Salto Oriental e Jejuí e todas as 6 chatas. Brasil: a corveta Jequitinhonha, encalhada diante da barranca e abandonada; a Belmonte encalhou para não afundar e foi salva",
+      "conf": "2+",
+      "nota": "O próprio jornal oficial paraguaio, El Semanario, reconheceu os quatro vapores em 17 de junho de 1865."
+    },
+    {
+      "item": "Baixas brasileiras",
+      "valor": "102 mortos e 142 feridos na soma das partes de combate dos 9 navios; 87 mortos, 141 feridos e 14 desaparecidos na conta de Antônio Luís von Hoonholtz; 116 mortos e 151 feridos na de Garmendia. O navio mais atingido foi a Parnaíba",
+      "conf": "DIV"
+    },
+    {
+      "item": "Baixas paraguaias",
+      "valor": "o governo paraguaio não publicou lista. Garmendia estima cerca de 750 na esquadra e 30 na bateria; o boticário britânico George Masterman diz que os paraguaios declararam 750 e que o número real era o dobro; Thompson fala em cerca de 200",
+      "conf": "DIV"
+    },
+    {
+      "item": "Meza",
+      "valor": "ferido no peito por bala de fuzil durante a batalha; morreu dias depois em Humaitá. Thompson e o major paraguaio Julián Godoy registram que López o teria mandado fuzilar se sobrevivesse",
+      "conf": "2+",
+      "nota": "A data da morte varia entre as fontes."
+    },
+    {
+      "item": "Resultado",
+      "valor": "vitória brasileira: a esquadra paraguaia deixa de existir como força de combate. A imprensa oficial de Assunção proclamou vitória paraguaia, somando o 11 e o 13 de junho",
+      "conf": "2+"
+    },
+    {
+      "item": "O depois",
+      "valor": "o Paraguai perde a ligação pelo rio com o resto do mundo até o fim da guerra e a ofensiva por Corrientes perde o apoio fluvial; mas a esquadra imperial recua para o sul e o rio Paraguai, acima, só passa ao controle aliado em 1868",
+      "conf": "2+",
+      "nota": "A data de 1868 é a de Francisco Doratioto."
+    }
+  ],
+  "lances": [
+    {
+      "titulo": "O tabuleiro: uma esquadra de mar num canal de rio",
+      "paragrafos": [
+        "Em abril de 1865 o Paraguai invade a província argentina de Corrientes e ocupa a capital. A coluna que desce pela margem do Paraná depende do rio para ser abastecida, e o rio é justamente o que o Império do Brasil pode fechar. Depois de apoiar o ataque argentino de 25 de maio a Corrientes, a esquadra de Francisco Manuel Barroso fica fundeada do lado do Chaco, alguns quilômetros abaixo da cidade: 9 vapores de guerra, 59 canhões, cerca de 2.300 homens.",
+        "A posição tinha força e tinha um defeito. Bloqueava o rio, mas ficava em território que o inimigo controlava, entre Corrientes ao norte e as barrancas do Riachuelo ao sul. O almirante Francisco Eduardo Alves de Almeida, da Escola de Guerra Naval, resume assim: a força brasileira não estava numa posição bloqueadora, mas bloqueada. Faltava carvão, e desde 3 de junho os navios queimavam lenha do Chaco para guardá-lo para o combate.",
+        "O tabuleiro é o próprio rio. Abaixo de Corrientes o Paraná se divide entre ilhas e bancos, e o canal principal corre colado à barranca da margem correntina — fundo, mas estreito e de cuidado, nas palavras de um prático da época. Os navios brasileiros tinham sido feitos para o mar, com calado grande. Do lado paraguaio, o único navio de guerra era o Tacuarí; os outros eram mercantes com canhões, de máquina e caldeira acima da linha d'água. Num duelo de artilharia, o resultado estava dado. O plano tinha de ser outro."
+      ]
+    },
+    {
+      "titulo": "O plano de López dependia do relógio",
+      "paragrafos": [
+        "O plano é contado do mesmo jeito por George Thompson, engenheiro britânico do exército paraguaio, por Juan Crisóstomo Centurión, que lutou na barranca, e pelos oficiais paraguaios ouvidos depois da guerra: estar sobre os brasileiros ao romper do dia, passar pela esquadra fundeada, virar e encostar cada vapor num navio imperial, dar uma descarga e abordar, antes que eles levantassem âncora. Os marinheiros paraguaios recomendaram atacar entre 3 e 4 da manhã. Na margem, José María Bruguez levou 22 peças de campanha para a barranca do Riachuelo na noite de 10 de junho, para bater quem fugisse rio abaixo.",
+        "Tudo dependia de chegar no escuro, e tudo atrasou. A esquadra saiu de Humaitá depois da meia-noite, para uma viagem de cerca de 7 horas. Levava 6 chatas — barcaças sem motor, rentes à água, cada uma com um canhão grosso —, incluídas por sugestão de um coronel estrangeiro, contra a opinião dos marinheiros, segundo as memórias do oficial Pedro Gill. Rebocá-las obrigava a andar devagar. E o vapor Yberá perdeu a chaveta da hélice no caminho e ficou para trás. O segundo comandante, Remigio Cabral, apontou depois a partida tardia como a causa principal do resultado.",
+        "Os paraguaios apareceram por volta das nove da manhã de um domingo de céu limpo. Na esquadra brasileira, a cerimônia da bandeira já tinha acontecido e a mesa do almoço estava sendo posta. O comandante Pedro Ignacio Meza seguiu em frente. Centurión escreveu que o prudente seria adiar. Sem a escuridão, o plano de abordagem virava o duelo de artilharia que ele existia para evitar."
+      ]
+    },
+    {
+      "titulo": "Meza escolhe a casa: a barranca do Riachuelo",
+      "paragrafos": [
+        "A linha paraguaia desceu pelo canal da margem correntina, a cerca de uma milha dos navios brasileiros, trocando tiros por poucos minutos. O Jejuí teve a caldeira atravessada e saiu de combate. Thompson chamou a manobra de tola: deu aos brasileiros o tempo de levantar âncora que o plano pretendia negar.",
+        "Mas Meza não voltou para abordar no meio do rio. Fundeou a linha junto à barranca do Riachuelo, embaixo das peças de Bruguez e da infantaria escondida no mato, com as chatas — que só podiam atirar paradas. Perdida a surpresa, ele montou uma defesa: se os brasileiros descessem atrás dele, lutariam no canal estreito, sob a barranca. O comandante da canhoneira Araguari, Antônio Luís von Hoonholtz, que estava do outro lado, achou que tinha caído numa emboscada preparada com cuidado."
+      ]
+    },
+    {
+      "titulo": "A coluna imperial entra embaixo da bateria",
+      "paragrafos": [
+        "Barroso mandou atacar e a esquadra desceu em coluna pelo mesmo canal, colado à barranca, com a Belmonte à frente e a capitânia Amazonas ficando para trás. Foi aí que subiu o sinal que a Marinha do Brasil repete até hoje: O Brasil espera que cada um cumpra o seu dever — alusão declarada ao de Nelson em Trafalgar. Os brasileiros não tinham visto a bateria. Quando a Belmonte chegou perto do Riachuelo, a barranca abriu fogo de canhão, fuzilaria e foguetes.",
+        "Sob o fogo, o Jequitinhonha virou para subir o rio, os navios de trás o imitaram, e a Belmonte seguiu sozinha e apanhou o fogo de todos. Por volta das dez da manhã, fazendo água, encalhou de propósito numa ilha para não afundar. O Jequitinhonha encalhou diante da barranca e ficou ali, sob fuzilaria e duas peças trazidas a curta distância. Na parte que escreveu no dia seguinte, Barroso registrou a pouca largura do canal e as dificuldades do confuso regimento de sinais. Almeida, que é oficial da Marinha, conclui que Barroso perdeu o controle dos movimentos de sua força no início da batalha.",
+        "Há um consolo para os brasileiros, segundo Hoonholtz e o major paraguaio Julián Godoy: muitos tiros da barranca passavam por cima dos navios e caíam na ilha em frente. Depois de cerca de duas horas, o Amazonas desceu entre as duas linhas, Barroso mandou de megafone que o seguissem, e a esquadra passou a ponta de Santa Catalina, virou num trecho mais largo e começou a subir de volta."
+      ]
+    },
+    {
+      "titulo": "A abordagem que quase deu certo: a Parnaíba",
+      "paragrafos": [
+        "Com o leme avariado e separada do grupo, a canhoneira Parnaíba foi o navio que o plano paraguaio queria. Meza mandou contra ela o Tacuarí, o Salto Oriental e o Marqués de Olinda. O Tacuarí encostou, mas a roda lateral afastava o casco e só os homens em cima da caixa da roda conseguiram pular; voltaram, porque os navios não estavam presos um ao outro. Thompson anota o detalhe que explica muito: por um descuido, nenhum vapor paraguaio levava ganchos de abordagem.",
+        "O Salto Oriental, de hélice, encostou de verdade. Uns 30 paraguaios do 6º Batalhão saltaram a bordo, tomaram o navio da popa ao mastro grande e arriaram a bandeira imperial. Morreram na defesa o capitão Pedro Afonso Ferreira, do 9º Batalhão do Exército, e o guarda-marinha João Guilherme Greenhalgh. Era a batalha que López tinha planejado, travada num navio só, com horas de atraso. A esquadra que subia de volta varreu o convés com metralha, e a tripulação retomou a Parnaíba."
+      ]
+    },
+    {
+      "titulo": "O aríete: a fragata contra os mercantes",
+      "paragrafos": [
+        "O lance que virou a partida foi usar a peça mais pesada como peça de choque. A fragata Amazonas, o maior casco da batalha, foi sobre os vapores paraguaios de proa. Barroso consultou o prático correntino Bernardino Gustavino sobre a água — num canal estreito, encalhar era perder o navio — e, com a resposta afirmativa, abalroou o primeiro. O sucesso o fez repetir. Quais navios e em que ordem as fontes não fecham: Barroso fala em quatro; o argentino Pablo Palermo, cruzando as partes brasileiras com Centurión, dá o Jejuí, o Salto Oriental, o Marqués de Olinda e o Paraguarí, além de uma chata. O resultado não diverge: quatro vapores paraguaios perdidos.",
+        "Por volta das 16 horas o Tacuarí, o Igurey, o Yporá e o Pirabebé, sob o comando de Cabral — Meza estava gravemente ferido —, subiram o rio. A canhoneira Araguari os perseguiu até perto do anoitecer e foi chamada de volta. Todas as chatas se perderam. Os quatro vapores que voltaram a Humaitá estavam com todos os canhões desmontados.",
+        "Barroso foi criticado por não perseguir até o fim. Thompson escreveu que em outro país ele iria a conselho de guerra. O próprio Barroso explicou que preferia destruir a esquadra ali do que andar para cima e para baixo num canal onde, mais cedo ou mais tarde, encalharia — e tinha navios avariados, feridos, margens inimigas e a noite chegando. Almeida chama a decisão de questionável, tomada no calor da ação. É escolha com custo, não erro nem acerto evidente."
+      ]
+    }
+  ],
+  "veredito": [
+    "O plano paraguaio era o certo para o material que López tinha: com mercantes armados contra navios de guerra, só a abordagem de surpresa igualava a partida. Ele morreu no relógio — partida tardia, chatas a reboque, um vapor avariado — e na decisão de Meza de atacar de dia mesmo assim. Sem a escuridão e sem ganchos, a abordagem só aconteceu uma vez, na Parnaíba, e quase bastou. Do outro lado, a esquadra imperial cometeu o erro clássico de quem tem mais peças: entrou em fila num corredor estreito, embaixo de uma bateria que não tinha visto, e pagou com o Jequitinhonha. O mesmo comandante que errou a entrada consertou a partida com o lance que só ele podia fazer: usar o maior casco do rio como aríete.",
+    "Em termos de xadrez, é o jogador que preparou um ataque de surpresa e chega à mesa com o relógio já correndo contra ele, insiste na linha, e acaba trocando as peças que não podia trocar. Riachuelo tirou do Paraguai a única peça capaz de disputar o rio. O que ela fechou foi a saída para o mar: a partir dali, nada chegou ao Paraguai pelo Paraná. O rio em si não mudou de dono naquele dia — a esquadra imperial recuou para o sul, os vapores paraguaios ainda navegaram entre Assunção e Corrientes, e o rio Paraguai só foi dominado em 1868. É senhor do rio quem domina as margens, escreveu Almeida. As margens são a próxima partida."
+  ],
+  "mitos": [
+    {
+      "circula": "Os brasileiros foram pegos dormindo.",
+      "registro": "Era domingo, a cerimônia da bandeira das 8 horas já tinha acontecido e a mesa do almoço estava sendo posta quando o vigia da canhoneira Mearim deu o alarme, segundo a parte de Barroso. A surpresa paraguaia falhou porque chegou com o dia claro, não porque encontrou alguém dormindo."
+    },
+    {
+      "circula": "Barroso se escondeu e quem comandou foi o prático Gustavino.",
+      "registro": "A história vem de George Thompson, do ministro americano Charles Washburn e do inglês H. W. Wilson — nenhum dos três estava no rio, e Thompson escreve que é o que se dizia. As partes de cinco comandantes brasileiros põem Barroso no passadiço dando ordens; num inquérito de 1877, Gustavino depôs que o primeiro abalroamento foi por iniciativa e ordem de Barroso, depois de consultá-lo sobre a profundidade. O historiador argentino Pablo Palermo conclui que não há evidência da covardia."
+    },
+    {
+      "circula": "Foi uma vitória limpa, executada como planejada.",
+      "registro": "O próprio Barroso registrou o canal estreito e o confuso regimento de sinais. A coluna entrou embaixo de uma bateria que não tinha visto, perdeu a corveta Jequitinhonha, quase perdeu a Belmonte e teve a Parnaíba abordada com a bandeira arriada. Almeida, oficial da Marinha: Barroso perdeu o controle no início e o recuperou na fase dos abalroamentos."
+    },
+    {
+      "circula": "Riachuelo deu ao Brasil o domínio dos rios.",
+      "registro": "Deu o bloqueio: o Paraguai não recebeu mais nada pelo rio até o fim da guerra, e sua esquadra nunca mais disputou o Paraná. Mas a esquadra imperial recuou para o sul logo depois, vapores paraguaios seguiram navegando entre Assunção e Corrientes, e o rio Paraguai só passou ao controle aliado em 1868, com a queda das fortalezas, segundo Francisco Doratioto."
+    },
+    {
+      "circula": "O Paraguai simplesmente mentiu ao dizer que venceu.",
+      "registro": "A imprensa oficial de Assunção proclamou vitória, somando ao 11 de junho o 13, quando canhoneiras brasileiras desistiram de desencalhar o Jequitinhonha sob as baterias, e López deu uma medalha com a legenda Riachuelo, 11 y 13 de junio 1865. Era propaganda sob controle do governo, mas o resultado militar não está em disputa: o mesmo jornal reconheceu a perda de quatro vapores."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "George Thompson, The War in Paraguay, Londres, 1869, cap. VII.",
+      "url": "https://archive.org/details/cu31924073798666"
+    },
+    {
+      "texto": "Pablo Palermo, \"La batalla de Riachuelo\", Revista de Historia Naval, nº 160, Madri, 2023, pp. 109-142.",
+      "url": "https://armada.defensa.gob.es/archivo/mardigitalrevistas/rhn/2023/160/4art.labatalladelriachuelo.pdf"
+    },
+    {
+      "texto": "Francisco Eduardo Alves de Almeida, \"Riachuelo: uma batalha de controvérsias\", Navigator, v. 11, nº 21, 2015, pp. 54-73.",
+      "url": "https://portaldeperiodicos.marinha.mil.br/index.php/navigator/article/download/561/539"
+    },
+    {
+      "texto": "Sergio Willian de Castro Oliveira Filho, \"'La jornada gloriosa del 11 de Junio': a Batalha Naval do Riachuelo como propaganda de guerra nos periódicos paraguaios\".",
+      "url": "https://departamentos.uel.br/historia/wp-content/uploads/2023/10/La-jornada-gloriosa-del-11-de-Junio-A-Batalha-Naval-do-Riachuelo-como.pdf"
+    },
+    {
+      "texto": "José Miguel Arias Neto, \"Uma batalha naval concentra por si só um século de glórias: Riachuelo na história e na memória\", Revista Brasileira de História Militar, nº 20, 2016.",
+      "url": "http://www.historiamilitar.com.br/wp-content/uploads/2018/06/RBHM-VII-20.pdf"
+    },
+    {
+      "texto": "Francisco Doratioto, Maldita guerra: nova história da Guerra do Paraguai, Companhia das Letras, 2002 (citado por Oliveira Filho).",
+      "url": null
+    },
+    {
+      "texto": "Thomas L. Whigham, \"Riachuelo, Battle of the\", Encyclopedia of Latin American History and Culture.",
+      "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/riachuelo-battle"
+    },
+    {
+      "texto": "Battle of Riachuelo — Wikipédia em inglês.",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Riachuelo"
+    },
+    {
+      "texto": "Batalha Naval do Riachuelo — Wikipédia em português.",
+      "url": "https://pt.wikipedia.org/wiki/Batalha_Naval_do_Riachuelo"
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "18-riachuelo-capa.jpg",
+      "alt": "Gravura em preto e branco: vapores de rodas e de mastros trocando tiros num rio largo, um deles adernado à esquerda, diante de uma barranca alta com palmeiras e muita fumaça",
+      "legenda": "A batalha do Riachuelo na imprensa ilustrada francesa de 1865: gravura feita em Paris a partir de um desenho enviado de Corrientes por Félix Vogeli. É gravura, não fotografia — não existe foto da batalha. Ao fundo, a barranca de onde atirava a artilharia paraguaia.",
+      "autor": "Joseph Smeeton e Joachim-Jean Cosson, gravadores, segundo desenho de Félix Vogeli · L'Illustration, tomo XLVI, Paris, 1865",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:BATAILLE_NAVALE_DE_RIACHUELO,_DANS_LES_EAUS_DU_PARANA,_ENTRE_LES_ESCADRES_BR%C3%89SILIENNE_ET_PARAGU%C3%89ENNE_(11_juio)._-_D%27apr%C3%A8s_un_dessin_envoy%C3%A9_par_M._F%C3%A9lix_Vogeli.jpg",
+      "tipo": "epoca",
+      "ano": "1865",
+      "foco": "50% 60%"
+    },
+    {
+      "arquivo": "18-riachuelo-plano-frances.jpg",
+      "alt": "Plano impresso do combate: no alto, a falésia com a bateria e a linha de navios paraguaios encostada à margem; no meio, o canal por onde desce em fila a esquadra brasileira; embaixo, a ilha e a legenda com os nomes dos navios",
+      "legenda": "Plano do combate publicado na Revue maritime et coloniale em 1865: a esquadra paraguaia fundeada sob a barranca e a bateria, e o canal estreito por onde a esquadra brasileira desceu em fila. Os números de canhões da legenda original são os da imprensa da época; as contas paraguaias e independentes dão 22 peças na barranca.",
+      "autor": "Autor não identificado · Revue maritime et coloniale, tomo 15, Paris, 1865",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Bataille_de_Riachuelo.jpg",
+      "tipo": "carta",
+      "ano": "1865"
+    },
+    {
+      "arquivo": "18-riachuelo-plano-hoonholtz.jpg",
+      "alt": "Plano desenhado da batalha: bateria e fuzilaria no alto da barranca, linha de navios paraguaios e chatas junto à margem, bancos de areia e a ilha da Palomera embaixo, com legenda em português",
+      "legenda": "Plano levantado por Antônio Luís von Hoonholtz, comandante da canhoneira brasileira Araguari, e publicado na Semana Illustrada em 1865. Mostra as chatas entre os vapores paraguaios, o Jequitinhonha encalhado e o canal junto à barranca. A bateria de \"32 peças\" e os números da legenda são a versão brasileira da época; as contas paraguaias e independentes dão 22 peças.",
+      "autor": "Antônio Luís von Hoonholtz · Semana Illustrada, nº 244, Rio de Janeiro, 1865",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Plano_da_batalha_naval_do_Riachuelo,_dada_a_11_de_Junho_de_1865.JPG",
+      "tipo": "carta",
+      "ano": "1865"
+    },
+    {
+      "arquivo": "18-riachuelo-parnaiba.jpg",
+      "alt": "Gravura de três vapores encostados uns nos outros, com homens lutando nos conveses e caindo na água, bandeiras rasgadas e mastros com o cordame solto",
+      "legenda": "\"A Parnahyba sustenta o choque de três vapores paraguaios\": gravura do Le Monde illustré de agosto de 1865, feita a partir de um croqui. A abordagem da Parnaíba foi o único momento em que o plano paraguaio aconteceu como planejado.",
+      "autor": "Antoine Léon Morel-Fatio, segundo croqui de Muller · Le Monde illustré, nº 436, Paris, 19 de agosto de 1865",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:AM%C3%89RIQUE_DU_SUD._%E2%80%94_Bataille_livr%C3%A9e_entre_les_flottes_de_Br%C3%A9sil_et_du_Paraguay._%E2%80%94_Le_Paranahyba_soutient_le_choc_de_trois_vapeurs_paraguayens._(Croquis_de_M._Muller.).jpeg",
+      "tipo": "epoca",
+      "ano": "1865"
+    },
+    {
+      "arquivo": "18-riachuelo-barranca.jpg",
+      "alt": "Ilustração em tons de cinza: vapores em combate no rio, em primeiro plano e ao centro, e ao fundo uma linha contínua de fumaça de canhões ao longo da margem alta",
+      "legenda": "O combate visto pela Argentina, quase trinta anos depois: ilustração do Album de la Guerra del Paraguay, publicado em Buenos Aires entre 1893 e 1896. É ilustração, não registro: a linha de fumaça ao longo da margem é a artilharia paraguaia nas barrancas.",
+      "autor": "E. S. Z. · Album de la Guerra del Paraguay, dir. José C. Soto, Buenos Aires, 1893-1896",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Combate_del_Riachuelo.jpg",
+      "tipo": "epoca",
+      "ano": "1893"
+    }
+  ],
+  "proximo": "tuiuti"
+}

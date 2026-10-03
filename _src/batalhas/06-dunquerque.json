@@ -14,30 +14,123 @@
     "A campanha da França mostrou que em maio de 1940 a Alemanha aplicou um plano, não uma doutrina. Esta página segue a partida até o lance seguinte: com o cerco fechado no Canal da Mancha, a máquina para por três dias, e de 26 de maio a 4 de junho saem pelo mar 338.226 homens. A pergunta é por que ela parou — e o registro não confirma a resposta que mais circula."
   ],
   "numeros": [
-    {"valor": "3", "rotulo": "freadas alemãs no avanço para o mar: 15, 21 e 24 de maio de 1940. A de Dunquerque foi a última", "conf": "1"},
-    {"valor": "< 20 km", "rotulo": "das pontas blindadas até Dunquerque em 24 de maio, quando chega a ordem de parar", "conf": "2+"},
-    {"valor": "338.226", "rotulo": "homens evacuados de 26 de maio a 4 de junho de 1940", "conf": "2+"},
-    {"valor": "239.555", "rotulo": "deles saíram pelo porto, quase todos pelo molhe leste; 98.671 pelas praias", "conf": "2+"},
-    {"valor": "103.399", "rotulo": "levados por contratorpedeiros, segundo o despacho do almirante Ramsay — o maior grupo por tipo de navio", "conf": "1"},
-    {"valor": "35.000", "rotulo": "prisioneiros no fim, quase todos franceses da retaguarda; as fontes vão de 30.000 a 40.000", "conf": "DIV"}
+    {
+      "valor": "3",
+      "rotulo": "freadas alemãs no avanço para o mar: 15, 21 e 24 de maio de 1940. A de Dunquerque foi a última",
+      "conf": "1"
+    },
+    {
+      "valor": "< 20 km",
+      "rotulo": "das pontas blindadas até Dunquerque em 24 de maio, quando chega a ordem de parar",
+      "conf": "2+"
+    },
+    {
+      "valor": "338.226",
+      "rotulo": "homens evacuados de 26 de maio a 4 de junho de 1940",
+      "conf": "2+"
+    },
+    {
+      "valor": "239.555",
+      "rotulo": "deles saíram pelo porto, quase todos pelo molhe leste; 98.671 pelas praias",
+      "conf": "2+"
+    },
+    {
+      "valor": "103.399",
+      "rotulo": "levados por contratorpedeiros, segundo o despacho do almirante Ramsay — o maior grupo por tipo de navio",
+      "conf": "1"
+    },
+    {
+      "valor": "35.000",
+      "rotulo": "prisioneiros no fim, quase todos franceses da retaguarda; as fontes vão de 30.000 a 40.000",
+      "conf": "DIV"
+    }
   ],
   "ficha": [
-    {"item": "O cerco", "valor": "a ponta blindada alemã chega ao mar a oeste de Abbeville na noite de 20 de maio de 1940, separando a Força Expedicionária Britânica, o 1º Exército francês e o exército belga do grosso francês ao sul", "conf": "2+"},
-    {"item": "Alemanha — comando", "valor": "Gerd von Rundstedt (Grupo de Exércitos A), Günther von Kluge (4º Exército), Ewald von Kleist (grupo blindado), Fedor von Bock (Grupo de Exércitos B); Walther von Brauchitsch e Franz Halder no alto-comando do exército; Adolf Hitler", "conf": "2+"},
-    {"item": "Aliados — comando", "valor": "lorde Gort (Força Expedicionária Britânica); vice-almirante Bertram Ramsay (evacuação, de Dover); capitão William Tennant (oficial naval em Dunquerque); general Jean-Baptiste Molinié (cercados em Lille)", "conf": "2+"},
-    {"item": "A ordem de parar", "valor": "dada por Rundstedt, por sugestão de Kluge, na noite de 23 de maio; confirmada por Hitler em Charleville na manhã de 24; suspensa às 15:30 de 26 de maio. Os blindados só voltam a atacar na manhã de 27", "conf": "2+"},
-    {"item": "Distância", "valor": "menos de 20 km de Dunquerque em 24 de maio: 18 km na conta da Wikipédia em alemão, 12 milhas do canal do Aa na de Edward Lengel", "conf": "2+"},
-    {"item": "Terreno", "valor": "planície de Flandres cortada por canais e valas de drenagem; o perímetro final corria por canais a cerca de 11 km da costa, em terreno pantanoso. O porto estava destruído, mas os dois molhes de proteção da entrada estavam intactos", "conf": "2+"},
-    {"item": "Lille", "valor": "cerca de 40.000 homens do 1º Exército francês, cercados, resistem de 28 a 31 de maio e recebem honras de guerra na rendição", "conf": "2+", "nota": "Os prisioneiros de Lille variam entre 34.600 e 35.000 conforme a fonte; uma terceira fala em 50.000 homens envolvidos."},
-    {"item": "O perímetro", "valor": "semicírculo de Nieuport a Gravelines, por Furnes e Bergues: franceses no setor oeste, britânicos no leste. O exército belga capitula em 28 de maio", "conf": "1", "nota": "Wikipédia em inglês, Battle of Dunkirk."},
-    {"item": "Operação Dynamo", "valor": "planejada em Dover desde 20 de maio; a Admiralty manda começar às 18:57 de 26 de maio; termina em 4 de junho de 1940. A expectativa inicial era tirar 45.000 homens em dois dias", "conf": "2+", "nota": "Despacho de Ramsay, London Gazette nº 38017."},
-    {"item": "Evacuados", "valor": "338.226 no total; o despacho de Ramsay fala em cerca de 330.000 no texto e soma 338.682 numa tabela que declara incompleta", "conf": "2+"},
-    {"item": "Britânicos e aliados", "valor": "cerca de 198.000 britânicos e 140.000 franceses e outros aliados, numa conta; cerca de 215.000 e 123.000, em outra. Ramsay registra 123.095 franceses desembarcados na Inglaterra, sem contar os levados direto a portos franceses", "conf": "DIV", "nota": "Parte da diferença é de base: só franceses, ou franceses mais poloneses, belgas e holandeses."},
-    {"item": "Navios", "valor": "mais de 800 embarcações; 6 contratorpedeiros britânicos e 3 franceses afundados. O total de afundados vai de mais de 200 a 243", "conf": "DIV"},
-    {"item": "Aviões", "valor": "a RAF perdeu entre 106 e 177 aviões e a Luftwaffe entre cerca de 100 e 240, conforme a fonte; os navios abateram 35 de 27 de maio a 1º de junho", "conf": "DIV", "nota": "O número dos navios é do despacho de Ramsay."},
-    {"item": "Baixas", "valor": "a Força Expedicionária Britânica perde 68.000 homens na campanha inteira, cerca de 3.500 mortos; na evacuação morrem cerca de 16.000 franceses e 1.000 britânicos", "conf": "1"},
-    {"item": "Prisioneiros", "valor": "cerca de 35.000 no perímetro em 4 de junho, quase todos franceses; outras contas vão de 30.000 a 40.000", "conf": "DIV"},
-    {"item": "O depois", "valor": "o exército britânico deixa na França praticamente todo o equipamento pesado — o bastante para equipar oito a dez divisões. Em 5 de junho começa a ofensiva alemã para o sul, Fall Rot", "conf": "2+"}
+    {
+      "item": "O cerco",
+      "valor": "a ponta blindada alemã chega ao mar a oeste de Abbeville na noite de 20 de maio de 1940, separando a Força Expedicionária Britânica, o 1º Exército francês e o exército belga do grosso francês ao sul",
+      "conf": "2+"
+    },
+    {
+      "item": "Alemanha — comando",
+      "valor": "Gerd von Rundstedt (Grupo de Exércitos A), Günther von Kluge (4º Exército), Ewald von Kleist (grupo blindado), Fedor von Bock (Grupo de Exércitos B); Walther von Brauchitsch e Franz Halder no alto-comando do exército; Adolf Hitler",
+      "conf": "2+"
+    },
+    {
+      "item": "Aliados — comando",
+      "valor": "lorde Gort (Força Expedicionária Britânica); vice-almirante Bertram Ramsay (evacuação, de Dover); capitão William Tennant (oficial naval em Dunquerque); general Jean-Baptiste Molinié (cercados em Lille)",
+      "conf": "2+"
+    },
+    {
+      "item": "A ordem de parar",
+      "valor": "dada por Rundstedt, por sugestão de Kluge, na noite de 23 de maio; confirmada por Hitler em Charleville na manhã de 24; suspensa às 15:30 de 26 de maio. Os blindados só voltam a atacar na manhã de 27",
+      "conf": "2+"
+    },
+    {
+      "item": "Distância",
+      "valor": "menos de 20 km de Dunquerque em 24 de maio: 18 km na conta da Wikipédia em alemão, 12 milhas do canal do Aa na de Edward Lengel",
+      "conf": "2+"
+    },
+    {
+      "item": "Terreno",
+      "valor": "planície de Flandres cortada por canais e valas de drenagem; o perímetro final corria por canais a cerca de 11 km da costa, em terreno pantanoso. O porto estava destruído, mas os dois molhes de proteção da entrada estavam intactos",
+      "conf": "2+"
+    },
+    {
+      "item": "Lille",
+      "valor": "cerca de 40.000 homens do 1º Exército francês, cercados, resistem de 28 a 31 de maio e recebem honras de guerra na rendição",
+      "conf": "2+",
+      "nota": "Os prisioneiros de Lille variam entre 34.600 e 35.000 conforme a fonte; uma terceira fala em 50.000 homens envolvidos."
+    },
+    {
+      "item": "O perímetro",
+      "valor": "semicírculo de Nieuport a Gravelines, por Furnes e Bergues: franceses no setor oeste, britânicos no leste. O exército belga capitula em 28 de maio",
+      "conf": "1",
+      "nota": "Wikipédia em inglês, Battle of Dunkirk."
+    },
+    {
+      "item": "Operação Dynamo",
+      "valor": "planejada em Dover desde 20 de maio; a Admiralty manda começar às 18:57 de 26 de maio; termina em 4 de junho de 1940. A expectativa inicial era tirar 45.000 homens em dois dias",
+      "conf": "2+",
+      "nota": "Despacho de Ramsay, London Gazette nº 38017."
+    },
+    {
+      "item": "Evacuados",
+      "valor": "338.226 no total; o despacho de Ramsay fala em cerca de 330.000 no texto e soma 338.682 numa tabela que declara incompleta",
+      "conf": "2+"
+    },
+    {
+      "item": "Britânicos e aliados",
+      "valor": "cerca de 198.000 britânicos e 140.000 franceses e outros aliados, numa conta; cerca de 215.000 e 123.000, em outra. Ramsay registra 123.095 franceses desembarcados na Inglaterra, sem contar os levados direto a portos franceses",
+      "conf": "DIV",
+      "nota": "Parte da diferença é de base: só franceses, ou franceses mais poloneses, belgas e holandeses."
+    },
+    {
+      "item": "Navios",
+      "valor": "mais de 800 embarcações; 6 contratorpedeiros britânicos e 3 franceses afundados. O total de afundados vai de mais de 200 a 243",
+      "conf": "DIV"
+    },
+    {
+      "item": "Aviões",
+      "valor": "a RAF perdeu entre 106 e 177 aviões e a Luftwaffe entre cerca de 100 e 240, conforme a fonte; os navios abateram 35 de 27 de maio a 1º de junho",
+      "conf": "DIV",
+      "nota": "O número dos navios é do despacho de Ramsay."
+    },
+    {
+      "item": "Baixas",
+      "valor": "a Força Expedicionária Britânica perde 68.000 homens na campanha inteira, cerca de 3.500 mortos; na evacuação morrem cerca de 16.000 franceses e 1.000 britânicos",
+      "conf": "1"
+    },
+    {
+      "item": "Prisioneiros",
+      "valor": "cerca de 35.000 no perímetro em 4 de junho, quase todos franceses; outras contas vão de 30.000 a 40.000",
+      "conf": "DIV"
+    },
+    {
+      "item": "O depois",
+      "valor": "o exército britânico deixa na França praticamente todo o equipamento pesado — o bastante para equipar oito a dez divisões. Em 5 de junho começa a ofensiva alemã para o sul, Fall Rot",
+      "conf": "2+"
+    }
   ],
   "lances": [
     {
@@ -116,16 +209,46 @@
     }
   ],
   "fontes": [
-    {"texto": "Bertram H. Ramsay, Operation \"Dynamo\", despacho de 18 de junho de 1940, suplemento nº 38017 da London Gazette, 17 de julho de 1947.", "url": "https://ibiblio.org/hyperwar/UN/UK/LondonGazette/38017.pdf"},
-    {"texto": "Karl-Heinz Frieser, The Blitzkrieg Legend: The 1940 Campaign in the West (citado pela Wikipédia em inglês).", "url": null},
-    {"texto": "Franz Halder, diário de guerra, 24 de maio de 1940 (por citação).", "url": "https://en.wikipedia.org/wiki/The_Halder_Diaries"},
-    {"texto": "Robert Kershaw, \"Was Dunkirk really a miracle?\", Military History Matters, 2022.", "url": "https://the-past.com/feature/was-dunkirk-really-a-miracle/"},
-    {"texto": "Edward G. Lengel, \"Decisions: Hitler's Halt Order\", Military History, novembro de 2011.", "url": "https://historynet.com/decisions-hitlers-halt-order/"},
-    {"texto": "Battle of Dunkirk — Wikipédia em inglês.", "url": "https://en.wikipedia.org/wiki/Battle_of_Dunkirk"},
-    {"texto": "Dunkirk evacuation — Wikipédia em inglês.", "url": "https://en.wikipedia.org/wiki/Dunkirk_evacuation"},
-    {"texto": "Battle of Arras (1940) — Wikipédia em inglês, citando Frieser.", "url": "https://en.wikipedia.org/wiki/Battle_of_Arras_(1940)"},
-    {"texto": "Siege of Lille (1940) — Wikipédia em inglês.", "url": "https://en.wikipedia.org/wiki/Siege_of_Lille_(1940)"},
-    {"texto": "Schlacht von Dünkirchen — Wikipédia em alemão.", "url": "https://de.wikipedia.org/wiki/Schlacht_von_D%C3%BCnkirchen"}
+    {
+      "texto": "Bertram H. Ramsay, Operation \"Dynamo\", despacho de 18 de junho de 1940, suplemento nº 38017 da London Gazette, 17 de julho de 1947.",
+      "url": "https://ibiblio.org/hyperwar/UN/UK/LondonGazette/38017.pdf"
+    },
+    {
+      "texto": "Karl-Heinz Frieser, The Blitzkrieg Legend: The 1940 Campaign in the West (citado pela Wikipédia em inglês).",
+      "url": null
+    },
+    {
+      "texto": "Franz Halder, diário de guerra, 24 de maio de 1940 (por citação).",
+      "url": "https://en.wikipedia.org/wiki/The_Halder_Diaries"
+    },
+    {
+      "texto": "Robert Kershaw, \"Was Dunkirk really a miracle?\", Military History Matters, 2022.",
+      "url": "https://the-past.com/feature/was-dunkirk-really-a-miracle/"
+    },
+    {
+      "texto": "Edward G. Lengel, \"Decisions: Hitler's Halt Order\", Military History, novembro de 2011.",
+      "url": "https://historynet.com/decisions-hitlers-halt-order/"
+    },
+    {
+      "texto": "Battle of Dunkirk — Wikipédia em inglês.",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Dunkirk"
+    },
+    {
+      "texto": "Dunkirk evacuation — Wikipédia em inglês.",
+      "url": "https://en.wikipedia.org/wiki/Dunkirk_evacuation"
+    },
+    {
+      "texto": "Battle of Arras (1940) — Wikipédia em inglês, citando Frieser.",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Arras_(1940)"
+    },
+    {
+      "texto": "Siege of Lille (1940) — Wikipédia em inglês.",
+      "url": "https://en.wikipedia.org/wiki/Siege_of_Lille_(1940)"
+    },
+    {
+      "texto": "Schlacht von Dünkirchen — Wikipédia em alemão.",
+      "url": "https://de.wikipedia.org/wiki/Schlacht_von_D%C3%BCnkirchen"
+    }
   ],
   "imagens": [
     {
@@ -185,5 +308,5 @@
       "ano": "1940"
     }
   ],
-  "proximo": null
+  "proximo": "batalha-da-inglaterra"
 }

@@ -1,0 +1,328 @@
+{
+  "num": "11",
+  "slug": "el-alamein",
+  "batalha": "El Alamein",
+  "titulo_video": null,
+  "lugar": "El Alamein, costa mediterrânea do Egito, a cerca de 106 km de Alexandria",
+  "data": "23 de outubro a 11 de novembro de 1942",
+  "campanha": "Segunda Guerra Mundial, 1942",
+  "estreia": "2026-12-03",
+  "pergunta": "O deserto como tabuleiro: logística contra genialidade — por que o Raposa do Deserto perdeu?",
+  "resumo": "Em El Alamein, Rommel ficou sem flanco, sem combustível e com metade das peças. Por que o general mais famoso da guerra perdeu no deserto do Egito.",
+  "abertura": [
+    "Na noite de 23 de outubro de 1942, às 21:40, cerca de 900 canhões britânicos abrem fogo ao longo da linha de El Alamein, no Egito. Do outro lado estão cerca de meio milhão de minas, um exército teuto-italiano com combustível para poucos dias — e, no comando, um general interino: Erwin Rommel estava em licença médica na Alemanha. Doze dias depois o Eixo recua; até 11 de novembro, terá deixado para trás cerca de 30 mil prisioneiros.",
+    "A explicação de manual é que Montgomery venceu Rommel. Mas a partida tinha começado meses antes: num gargalo de pouco mais de 60 km entre o mar e uma depressão intransitável, onde a manobra pelo flanco — a arma de Rommel — não existia; e no Mediterrâneo, onde os navios que levavam a gasolina dele eram afundados. A pergunta desta página é o que pesou mais: o general ou o tabuleiro."
+  ],
+  "numeros": [
+    {
+      "valor": "~65 km",
+      "rotulo": "entre o mar e a depressão de Qattara: uma frente sem flanco aberto",
+      "conf": "2+"
+    },
+    {
+      "valor": "2 para 1",
+      "rotulo": "a vantagem aliada em homens e em tanques — mais de mil tanques contra cerca de 550",
+      "conf": "2+"
+    },
+    {
+      "valor": "500 mil",
+      "rotulo": "minas, aproximadamente, nos campos que os soldados do Eixo chamavam de jardins do diabo",
+      "conf": "2+"
+    },
+    {
+      "valor": "4.500 t",
+      "rotulo": "de combustível no petroleiro Proserpina, afundado perto de Tobruk em 26 de outubro",
+      "conf": "2+"
+    },
+    {
+      "valor": "13.560",
+      "rotulo": "baixas do 8º Exército: 2.350 mortos, 8.950 feridos e 2.260 desaparecidos",
+      "conf": "2+"
+    },
+    {
+      "valor": "~30 mil",
+      "rotulo": "prisioneiros do Eixo até 11 de novembro, a maioria infantaria italiana sem caminhões",
+      "conf": "2+"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "8º Exército — forças",
+      "valor": "cerca de 195.000 homens, mais de 1.000 tanques (entre eles os primeiros Shermans americanos), cerca de 900 canhões de campanha e médios e cerca de 1.450 antitanques",
+      "conf": "DIV",
+      "nota": "As contagens de homens vão de mais de 190.000 (National Army Museum) a 220.000 (Australian War Memorial); 195.000 e 1.029 tanques são os números da história oficial britânica."
+    },
+    {
+      "item": "Eixo — forças",
+      "valor": "o Exército Blindado Teuto-Italiano: cerca de 116.000 homens, cerca de 550 tanques (perto da metade italianos, na maioria M13/40 obsoletos) e cerca de 500 canhões",
+      "conf": "DIV",
+      "nota": "Os homens aparecem como 104.000 (Oxford Companion), 108.000 (Australian War Memorial) ou 116.000 (National Army Museum); os tanques entre 489 e 550. A proporção de cerca de 2 para 1 vale em todas as contagens."
+    },
+    {
+      "item": "Comando aliado",
+      "valor": "general Harold Alexander (Oriente Médio); tenente-general Bernard Montgomery (8º Exército, desde 13 de agosto de 1942); corpos XXX (Oliver Leese), XIII (Brian Horrocks) e X (Herbert Lumsden)",
+      "conf": "2+"
+    },
+    {
+      "item": "Comando do Eixo",
+      "valor": "marechal Erwin Rommel, em licença médica desde 23 de setembro e de volta só na noite de 25 de outubro; no início, o general Georg Stumme, morto de ataque cardíaco na manhã de 24 de outubro; entre os dois, Wilhelm von Thoma, capturado em 4 de novembro",
+      "conf": "2+"
+    },
+    {
+      "item": "Terreno",
+      "valor": "linha de cerca de 65 km entre o Mediterrâneo e a depressão de Qattara, intransitável para blindados: todo ataque tinha de ser frontal. Cristas baixas decisivas: Ruweisat, Tel el Eisa, Alam Halfa, Kidney e Tel el Aqqaqir",
+      "conf": "2+",
+      "nota": "Uma fonte dá 30 milhas (cerca de 48 km) para a extensão da linha."
+    },
+    {
+      "item": "Defesa",
+      "valor": "cerca de 500.000 minas, sobretudo antitanque, em dois cinturões a vários quilômetros um do outro, muitas delas britânicas capturadas em Tobruk",
+      "conf": "2+"
+    },
+    {
+      "item": "Objetivo britânico",
+      "valor": "destruir o exército do Eixo no Egito e afastar de vez a ameaça a Alexandria e ao Canal de Suez",
+      "conf": "2+"
+    },
+    {
+      "item": "Antecedentes",
+      "valor": "primeira batalha de El Alamein, 1 a 27 de julho de 1942, em que Claude Auchinleck, no comando pessoal do 8º Exército, para o avanço de Rommel; Alam Halfa, 30 de agosto a 5 de setembro, última ofensiva de Rommel no Egito",
+      "conf": "2+"
+    },
+    {
+      "item": "Duração",
+      "valor": "23 de outubro a 4 de novembro de 1942 (a batalha); perseguição até 11 de novembro",
+      "conf": "2+"
+    },
+    {
+      "item": "Operações",
+      "valor": "Lightfoot, a entrada, a partir das 21:40 de 23 de outubro; Supercharge, a ruptura, na noite de 1º para 2 de novembro; antes, o engano Bertram, com depósitos e tanques falsos",
+      "conf": "2+"
+    },
+    {
+      "item": "Baixas aliadas",
+      "valor": "13.560: 2.350 mortos, 8.950 feridos e 2.260 desaparecidos; 22% delas australianas",
+      "conf": "2+",
+      "nota": "Tanques aliados perdidos: de mais de 330 a 500, conforme a fonte, muitos recuperados depois."
+    },
+    {
+      "item": "Baixas do Eixo",
+      "valor": "as contagens vão de cerca de 30 mil a 90 mil, conforme quem conta e o que conta; os números britânicos baseados em interceptação, citados pelo historiador Niall Barr, somam 2.120 mortos, 4.819 feridos e 23.602 capturados, alemães e italianos",
+      "conf": "DIV",
+      "nota": "O Australian War Memorial dá cerca de 60.000 em um texto e 90.000 em outro."
+    },
+    {
+      "item": "Prisioneiros",
+      "valor": "cerca de 30.000 até 11 de novembro, a maioria da infantaria italiana — 7.802 alemães e 22.071 italianos, segundo uma contagem",
+      "conf": "2+",
+      "nota": "A divisão por nacionalidade é de uma fonte só."
+    },
+    {
+      "item": "Resultado",
+      "valor": "vitória britânica decisiva: o Eixo recua do Egito e não volta a ameaçar Suez",
+      "conf": "2+"
+    },
+    {
+      "item": "O depois",
+      "valor": "8 de novembro: desembarque anglo-americano no Marrocos e na Argélia (Operação Torch). 10 de novembro: Churchill, em Londres, fala no \"fim do começo\"",
+      "conf": "2+"
+    }
+  ],
+  "lances": [
+    {
+      "titulo": "O tabuleiro de julho: a linha que não tem flanco",
+      "paragrafos": [
+        "Em 21 de junho de 1942 Rommel toma Tobruk, na Líbia, e decide perseguir o 8º Exército britânico até o Egito. O avanço que ele defendeu leva o comando do Eixo a adiar a invasão de Malta, prevista para julho — a ilha de onde aviões e submarinos britânicos atacavam os comboios para a África. A aviação que devia cobrir a invasão passa a apoiar a perseguição.",
+        "A perseguição para em El Alamein, uma estação de trem a cerca de 106 km de Alexandria. Ali o deserto se estreita: pouco mais de 60 km separam o mar da depressão de Qattara, intransitável para blindados. Em todas as vitórias anteriores Rommel tinha contornado o adversário pelo sul, pelo deserto aberto. Em El Alamein não existe sul.",
+        "Quem escolhe parar ali é o general Claude Auchinleck, comandante-em-chefe do Oriente Médio, que assume pessoalmente o 8º Exército. Na primeira batalha de El Alamein, de 1 a 27 de julho de 1942, ele segura a crista de Ruweisat no centro e contra-ataca. Em 4 de julho Rommel conclui que precisa passar à defensiva. O avanço do Eixo rumo a Suez acaba ali — mas Churchill queria uma vitória, e em 8 de agosto decide trocar o comando. O escolhido, William Gott, morre no dia 7, quando seu avião é abatido; Bernard Montgomery assume o 8º Exército em 13 de agosto."
+      ]
+    },
+    {
+      "titulo": "A peça que faltava: combustível",
+      "paragrafos": [
+        "O problema de Rommel não estava na linha, estava atrás dela. Segundo o historiador Martin van Creveld, parte dos suprimentos desembarcava em Trípoli e andava cerca de 1.400 milhas por terra até a frente. Tobruk era pequeno e exposto a ataque aéreo; os navios italianos preferiam portos mais seguros e mais distantes. Em janeiro de 1942 Rommel tinha pedido 8.000 caminhões e não recebeu. Para Van Creveld, avançar além de Tobruk, sem porto grande no caminho, era um desastre logístico anunciado.",
+        "E o que vinha pelo mar era afundado. No fim de agosto, antes da ofensiva de Rommel em Alam Halfa, mais da metade do combustível prometido não tinha chegado. A inteligência britânica — o Ultra, as decifrações das comunicações do Eixo — identificava os navios de suprimento, suas rotas e cargas. Ao mesmo tempo, Rommel perdia a própria fonte: os relatórios do adido militar americano no Cairo, que os alemães liam, mudaram de código em 29 de junho, e sua companhia de escuta de rádio foi desmontada pela 9ª Divisão Australiana em Tel el Eisa, em 10 de julho.",
+        "Em Alam Halfa, de 30 de agosto a 5 de setembro, Rommel tenta pela última vez contornar a linha pelo sul. Montgomery espera nas cristas, com os blindados na defensiva, e a ofensiva se esgota. Quanto do plano de defesa Montgomery herdou de Auchinleck é debate entre historiadores; o resultado não é: foi a última vez que o Eixo atacou no Egito."
+      ]
+    },
+    {
+      "titulo": "Outubro: o dobro das peças e meio milhão de minas",
+      "paragrafos": [
+        "Em outubro o 8º Exército tem cerca de 2 para 1 em homens e em tanques — mais de mil tanques contra cerca de 550, perto da metade deles italianos e obsoletos. Entre os britânicos estão os primeiros Shermans americanos, mandados depois da queda de Tobruk. Os números absolutos variam muito conforme a fonte; a proporção, não.",
+        "Rommel responde com a única arma que um exército sem combustível para manobrar consegue construir: cerca de meio milhão de minas, em dois cinturões, que os soldados do Eixo chamavam de jardins do diabo. Atrás delas, as divisões alemãs e italianas intercaladas. Rommel está doente: sai de licença em 23 de setembro e deixa o general Georg Stumme no comando.",
+        "Montgomery não tenta manobra. Em 6 de outubro reescreve o plano: em vez de ir primeiro contra os blindados, a infantaria vai abrir corredores nos campos de minas, à noite, e \"comer\" a infantaria que segura a linha, obrigando os blindados do Eixo a contra-atacar onde ele escolher. Antes, a Operação Bertram espalha depósitos e tanques falsos no sul e disfarça os verdadeiros de caminhões no norte. Rommel, sem saber onde viria o golpe, divide os blindados em dois grupos."
+      ]
+    },
+    {
+      "titulo": "Lightfoot: a entrada que emperrou",
+      "paragrafos": [
+        "Às 21:40 de 23 de outubro começa a barragem de cerca de 900 canhões, e quatro divisões de infantaria do XXX Corpo avançam numa frente de cerca de 26 km. Na manhã seguinte, segundo a história oficial da inteligência britânica, só cerca de metade da infantaria tinha alcançado os objetivos, e nenhum tanque tinha atravessado os campos de minas.",
+        "No lado do Eixo, a peça mais famosa não está no tabuleiro. Stumme morre de ataque cardíaco na manhã de 24 de outubro, ao ir à frente e ter o carro atingido; Wilhelm von Thoma assume. Rommel volta da Alemanha na noite de 25.",
+        "O que ele encontra é um saliente britânico ao norte e um exército que não pode sair do lugar. Em 25 de outubro, segundo a mesma história oficial, o Eixo tinha combustível para três dias. Em 26 de outubro um torpedeiro britânico afunda perto de Tobruk o petroleiro Proserpina, com 4.500 toneladas de combustível; outros navios de combustível vão ao fundo nos dias seguintes. Sem gasolina para recuar nem para manobrar, Rommel faz o que o plano de Montgomery queria: contra-ataca o saliente, de 26 a 28 de outubro, e gasta os blindados contra antitanques entrincheirados."
+      ]
+    },
+    {
+      "titulo": "Desgaste: a semana em que ninguém rompeu",
+      "paragrafos": [
+        "Entre 24 e 29 de outubro a batalha é de atrito. Em Outpost Snipe, em 27 de outubro, um batalhão britânico de antitanques detém um contra-ataque blindado. Ao norte, a 9ª Divisão Australiana empurra em direção ao mar e puxa as reservas do Eixo para lá. Em 28 de outubro, pela conta da inteligência britânica, Rommel tinha 81 tanques alemães e 197 italianos em condições.",
+        "Em Londres a paciência acaba antes. Segundo um biógrafo, Churchill pergunta em 26 de outubro se é mesmo impossível achar um general que vença uma batalha. O plano mestre que Montgomery depois descreveria não existiu como linha reta: a ruptura teve de ser preparada no meio da batalha, ao sul do saliente australiano, onde o Eixo tinha tirado reservas."
+      ]
+    },
+    {
+      "titulo": "Supercharge e a ordem de Hitler",
+      "paragrafos": [
+        "A Operação Supercharge, adiada 24 horas, começa na noite de 1º para 2 de novembro. A 9ª Brigada Blindada ataca de madrugada a linha de canhões antitanque em Tel el Aqqaqir e abre a brecha à custa da maior parte dos seus tanques. Na noite de 2 de novembro Rommel decide recuar.",
+        "Em 3 de novembro chega a ordem de Hitler: resistir até o fim, \"vitória ou morte\". Naquele dia, segundo uma contagem, restavam 35 tanques alemães em condições. Rommel obedece por um dia; em 4 de novembro, com a linha rompida, ordena a retirada, e Hitler a autoriza. Thoma é capturado no mesmo dia.",
+        "Rommel atribuiria à ordem 24 horas a mais de combate e a perda de boa parte da infantaria. Quem paga é sobretudo a infantaria italiana, sem caminhões para fugir: até 11 de novembro o Eixo deixa cerca de 30 mil prisioneiros. Em 8 de novembro, tropas americanas e britânicas desembarcam no Marrocos e na Argélia, atrás de Rommel."
+      ]
+    }
+  ],
+  "veredito": [
+    "Rommel não perdeu El Alamein num lance; chegou lá já perdendo. O tabuleiro de 1942 tirou dele as duas coisas que faziam a manobra funcionar: o flanco aberto, que o gargalo entre o mar e Qattara eliminou, e o combustível, que a distância dos portos, a falta de caminhões e os navios afundados com a ajuda do Ultra estrangularam. Parte disso foi escolha dele: o avanço até o Egito, sem porto para sustentá-lo, foi o que adiou a invasão de Malta.",
+    "Montgomery não venceu por genialidade de manobra, e não venceu sozinho. A linha e a parada são de Auchinleck, em julho; a vantagem de 2 para 1 veio de fábricas e comboios. O mérito dele foi jogar a partida que esse tabuleiro pedia — atrito frontal, com engano para esconder onde — e aceitar o preço: 13.560 baixas em doze dias e uma semana de impasse antes da ruptura.",
+    "A ausência de Rommel no primeiro dia, a morte de Stumme e a ordem de Hitler pesaram no custo da derrota, não no resultado. Um exército que não tem gasolina para recuar só pode lutar onde está, e acaba se rendendo a pé."
+  ],
+  "mitos": [
+    {
+      "circula": "Rommel era um gênio invencível, derrotado só pela superioridade numérica.",
+      "registro": "A habilidade tática dele é reconhecida, mas o avanço até El Alamein foi escolha dele, contra os avisos de que não havia porto nem caminhões para sustentá-lo, e esse avanço adiou a invasão de Malta. A fama também foi fabricada: Goebbels anotou em novembro de 1941 a \"necessidade urgente\" de fazer de Rommel um herói popular. E, quando a batalha decisiva começou, ele estava em licença médica na Alemanha; só voltou na noite de 25 de outubro."
+    },
+    {
+      "circula": "Montgomery venceu El Alamein sozinho; a história começa quando ele chega.",
+      "registro": "Quem parou Rommel em El Alamein foi Claude Auchinleck, na primeira batalha, de 1 a 27 de julho de 1942. Montgomery assumiu em 13 de agosto, porque o escolhido, William Gott, morreu em 7 de agosto. Quanto ele herdou dos planos de Auchinleck para Alam Halfa é debate entre historiadores. O mérito próprio existe — o plano de desgaste, o engano Bertram, a recusa em atacar antes de ter a superioridade —, mas a linha e a parada são de julho."
+    },
+    {
+      "circula": "A batalha seguiu à risca o plano mestre de Montgomery.",
+      "registro": "Na manhã de 24 de outubro só cerca de metade da infantaria tinha chegado aos objetivos e nenhum tanque havia atravessado os campos de minas. O ataque emperrou até o fim de outubro, e a operação de ruptura foi preparada no meio da batalha e adiada 24 horas. Funcionou, mas corrigida no caminho."
+    },
+    {
+      "circula": "Antes de Alamein nunca tivemos uma vitória; depois, nunca uma derrota.",
+      "registro": "A frase é de Churchill, escrita nas memórias depois da guerra, e ele mesmo a introduz com um \"quase se pode dizer\". Antes houve vitórias britânicas no deserto: a Operação Compass, entre dezembro de 1940 e fevereiro de 1941, destruiu o 10º Exército italiano, e a Operação Crusader, no fim de 1941, obrigou Rommel a recuar."
+    },
+    {
+      "circula": "Com o dobro de tudo, foi uma vitória barata.",
+      "registro": "O 8º Exército teve 13.560 baixas em doze dias: 2.350 mortos, 8.950 feridos e 2.260 desaparecidos. A 9ª Brigada Blindada perdeu a maior parte dos tanques numa única manhã em Tel el Aqqaqir. A superioridade decidiu quem venceria, não o preço."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "Australian War Memorial, El Alamein 80 years on.",
+      "url": "https://www.awm.gov.au/wartime/101/elalamein-80-years-on"
+    },
+    {
+      "texto": "Australian War Memorial, Battles of El Alamein.",
+      "url": "https://www.awm.gov.au/collection/E84345"
+    },
+    {
+      "texto": "National Army Museum (Londres), Second Battle of El Alamein.",
+      "url": "https://www.nam.ac.uk/explore/battle-alamein"
+    },
+    {
+      "texto": "Ed Lengel, \"Forgotten Fights: Stopping Rommel at Ruweisat Ridge, July 1942\", The National WWII Museum.",
+      "url": "https://www.nationalww2museum.org/war/articles/rommel-ruweisat-ridge-july-1942"
+    },
+    {
+      "texto": "Antulio J. Echevarria II, \"El Alamein, 1942: Rommel's Anti-Climax\", Military Strategy Magazine.",
+      "url": "https://www.militarystrategymagazine.com/article/el-alamein-1942-rommels-anti-climax/"
+    },
+    {
+      "texto": "J. Rickard, \"Second battle of El Alamein, 23 October–4 November 1942\", History of War, 2017.",
+      "url": "https://www.historyofwar.org/articles/battles_alamein_2nd.html"
+    },
+    {
+      "texto": "Martin van Creveld, Supplying War: Logistics from Wallenstein to Patton, 1977, cap. 6 (resumo de estudo de C. Palmer).",
+      "url": "http://www.supplyingwar.com/ch6s3.html"
+    },
+    {
+      "texto": "I. S. O. Playfair et al., The Mediterranean and Middle East, vol. IV, HMSO, 1966; F. H. Hinsley, British Intelligence in the Second World War, vol. 2, 1981; Niall Barr, Pendulum of War, 2004.",
+      "url": null
+    },
+    {
+      "texto": "World History Encyclopedia, Second Battle of El Alamein.",
+      "url": "https://www.worldhistory.org/article/2519/second-battle-of-el-alamein/"
+    },
+    {
+      "texto": "HistoryNet, \"Silent Sentries\" e \"Intercepted Communications for Field Marshal Erwin Rommel\".",
+      "url": "https://www.historynet.com/silent-sentries/"
+    },
+    {
+      "texto": "Canadian Letters and Images Project, Sinking of the Proserpina: 26 Oct 1942.",
+      "url": "https://www.lermuseum.org/second-world-war-1939-45/1942/sinking-of-the-proserpina-26-oct-1942"
+    },
+    {
+      "texto": "Wikipédia em inglês, Second Battle of El Alamein e First Battle of El Alamein (ponto de partida).",
+      "url": "https://en.wikipedia.org/wiki/Second_Battle_of_El_Alamein"
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "11-el-alamein-capa.jpg",
+      "alt": "Vista da carroceria de um caminhão com soldados de capacete de costas; à frente, outro caminhão avança pelo deserto ao lado de uma grande explosão de areia",
+      "legenda": "Um caminhão britânico leva infantaria através de campos minados e arame em El Alamein, em outubro de 1942, e uma mina explode ao lado. O Eixo tinha cerca de meio milhão de minas na linha, nos campos que seus soldados chamavam de jardins do diabo.",
+      "autor": "Sgt. J. Mapham, No 1 Army Film & Photographic Unit · Imperial War Museums, E 18542",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:A_mine_explodes_close_to_a_British_truck_as_it_carries_infantry_through_enemy_minefields_and_wire_to_the_new_front_lines.jpg",
+      "tipo": "epoca",
+      "ano": "1942",
+      "foco": "45% 35%"
+    },
+    {
+      "arquivo": "11-el-alamein-mapa.jpg",
+      "alt": "Mapa da bacia do Mediterrâneo com Malta, Trípoli, Bengasi, Tobruk, El Alamein e a depressão de Qattara marcados na costa do norte da África",
+      "legenda": "O tabuleiro da logística: de Trípoli e Bengasi até El Alamein, centenas de quilômetros de costa, com Malta no meio da rota dos comboios do Eixo. A área pontilhada ao sul de El Alamein é a depressão de Qattara. Mapa do atlas histórico da Academia Militar dos EUA, feito depois da guerra.",
+      "autor": "Departamento de História da Academia Militar dos Estados Unidos (West Point)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Ww2_map33.jpg",
+      "tipo": "carta",
+      "foco": "60% 55%"
+    },
+    {
+      "arquivo": "11-el-alamein-barragem.jpg",
+      "alt": "Deserto à noite, com viaturas recortadas contra uma faixa de clarões no horizonte",
+      "legenda": "A barragem que abriu a segunda batalha de El Alamein, na noite de 23 de outubro de 1942: viaturas e ambulâncias à espera de avançar, recortadas contra o clarão de cerca de 900 canhões.",
+      "autor": "Sgt. Gladstone, No 1 Army Film & Photographic Unit · Imperial War Museums, E 18465",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:El_Alamein_barrage_general_view.jpg",
+      "tipo": "epoca",
+      "ano": "1942"
+    },
+    {
+      "arquivo": "11-el-alamein-brechas.jpg",
+      "alt": "Tanques avançando em fila pelo deserto, levantando poeira, sobre marcas de lagartas no chão",
+      "legenda": "Tanques britânicos seguem para o combate depois que a infantaria abriu corredores nos campos de minas, em El Alamein, outubro de 1942. A ordem — infantaria primeiro, blindados depois — era o centro do plano de Montgomery.",
+      "autor": "Sgt. Gladstone, No 1 Army Film & Photographic Unit · Imperial War Museums, E 18481",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:El_Alamein_1942_-_British_tanks.jpg",
+      "tipo": "epoca",
+      "ano": "1942"
+    },
+    {
+      "arquivo": "11-el-alamein-montgomery.jpg",
+      "alt": "Oficial de boina com binóculos nas mãos na torre de um tanque, ao lado de outro homem olhando por binóculos",
+      "legenda": "Montgomery na torre do seu tanque de comando, um Grant, em 5 de novembro de 1942, no dia seguinte à ruptura, acompanhando o início da retirada do Eixo.",
+      "autor": "Capt. G. Keating, No 1 Army Film & Photographic Unit · Imperial War Museums, E 18980",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Lieutenant_General_Bernard_Montgomery,_commanding_the_British_Eighth_Army_in_North_Africa,_in_the_turret_of_his_Grant_command_tank_at_El_Alamein,_5_November_1942._E18980.jpg",
+      "tipo": "epoca",
+      "ano": "1942",
+      "foco": "62% 35%"
+    },
+    {
+      "arquivo": "11-el-alamein-prisioneiros.jpg",
+      "alt": "Fila de prisioneiros de guerra caminhando entre cercas de arame farpado, precedida por um soldado britânico de fuzil ao ombro",
+      "legenda": "Prisioneiros italianos capturados na área de El Alamein entram no cercado atrás do guarda, em 1942. A infantaria italiana, sem caminhões para recuar, foi a maior parte dos cerca de 30 mil prisioneiros da segunda batalha.",
+      "autor": "Foto oficial britânica (BO-BM-16010), distribuída pelo Office of War Information dos EUA · Library of Congress",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:El_Alamein_Italian_prisoners_1942.jpg",
+      "tipo": "epoca",
+      "ano": "1942"
+    }
+  ],
+  "proximo": "stalingrado"
+}

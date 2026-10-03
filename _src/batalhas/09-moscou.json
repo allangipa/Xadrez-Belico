@@ -1,0 +1,327 @@
+{
+  "num": "09",
+  "slug": "moscou",
+  "batalha": "A Batalha de Moscou",
+  "titulo_video": null,
+  "lugar": "Os acessos a Moscou, Rússia, de Viazma e Briansk, a oeste, a Kalinin (hoje Tver), ao norte, e Tula, ao sul",
+  "data": "30 de setembro de 1941 a 7 de janeiro de 1942",
+  "campanha": "Segunda Guerra Mundial, 1941",
+  "estreia": "2026-11-19",
+  "pergunta": "Por que a Blitzkrieg parou às portas da capital?",
+  "resumo": "Em 1º de dezembro de 1941 a ofensiva alemã já tinha perdido o sentido; o frio extremo veio depois. O que de fato esgotou a Operação Tufão diante de Moscou.",
+  "abertura": [
+    "Na primeira semana de outubro de 1941, o Grupo de Exércitos Centro alemão executa a Operação Tufão com a perfeição de manual: seis exércitos soviéticos cercados em Viazma, mais três em Briansk, e mais de meio milhão de prisioneiros. Em Berlim, o porta-voz do governo anuncia à imprensa estrangeira que a campanha do leste está decidida. Dois meses depois, os mesmos tanques estão parados a cerca de 30 km do Kremlin, e no dia 5 de dezembro o Exército Vermelho contra-ataca.",
+    "A explicação que mais circula tem nome próprio: o General Inverno. O registro alemão da época conta outra história. A ofensiva perdeu a força antes do frio extremo, por causa de uma ferrovia que não carregava o que o exército consumia, de blindados reduzidos a um terço e de um adversário que, em vez de acabar, repôs as peças. Esta página segue a partida lance a lance e pesa cada explicação."
+  ],
+  "numeros": [
+    {
+      "valor": "1º/12/1941",
+      "rotulo": "o dia em que o comandante do Grupo de Exércitos Centro escreve que a ofensiva perdeu \"todo sentido e propósito\" — antes da onda de frio de 4 a 6 de dezembro",
+      "conf": "1"
+    },
+    {
+      "valor": "35%",
+      "rotulo": "da força original de tanques nas divisões panzer, segundo os chefes de estado-maior reunidos em Orsha em 13 de novembro",
+      "conf": "2+"
+    },
+    {
+      "valor": "500",
+      "rotulo": "locomotivas soviéticas capturadas em todo o território ocupado até novembro, cerca de um décimo do necessário para rodar na bitola russa",
+      "conf": "1"
+    },
+    {
+      "valor": "~30 km",
+      "rotulo": "do Kremlin: Krasnaia Poliana, ocupada em 30 de novembro, o ponto mais próximo registrado com segurança",
+      "conf": "2+"
+    },
+    {
+      "valor": "514.000 a 763.000",
+      "rotulo": "prisioneiros soviéticos em Viazma e Briansk, conforme a conta: das estimativas recentes à contagem alemã da época",
+      "conf": "DIV"
+    },
+    {
+      "valor": "8/12/1941",
+      "rotulo": "a data da diretiva de Hitler que culpa \"o inverno severo, surpreendentemente cedo\" pelo fim da ofensiva",
+      "conf": "2+"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Alemanha — forças",
+      "valor": "Grupo de Exércitos Centro: 1.929.000 homens, contando um grande contingente auxiliar; força de combate de 78 divisões, com três grupos panzer",
+      "conf": "2+",
+      "nota": "A Wikipédia em inglês dá a faixa de 1.184.000 a 1.929.406 homens."
+    },
+    {
+      "item": "URSS — forças",
+      "valor": "Frentes Ocidental, de Briansk e de Reserva: cerca de 1.250.000 homens em 2 de outubro de 1941",
+      "conf": "2+"
+    },
+    {
+      "item": "Tanques",
+      "valor": "de 1.000 a 2.470 alemães e de 1.044 a 3.232 soviéticos no início, conforme a fonte",
+      "conf": "DIV"
+    },
+    {
+      "item": "Alemanha — comando",
+      "valor": "Fedor von Bock (Grupo de Exércitos Centro, substituído por Günther von Kluge em dezembro); Heinz Guderian (2º Exército Panzer); Hermann Hoth, depois Hans Reinhardt (3º Grupo Panzer); Erich Hoepner (4º Grupo Panzer); Kluge (4º Exército); Franz Halder e Walther von Brauchitsch no comando do exército; Adolf Hitler",
+      "conf": "2+"
+    },
+    {
+      "item": "URSS — comando",
+      "valor": "Gueorgui Jukov (Frente Ocidental, a partir de 10 de outubro); Ivan Konev (Frente de Kalinin); Semion Timochenko (Frente Sudoeste); Josef Stalin e a Stavka",
+      "conf": "2+"
+    },
+    {
+      "item": "Terreno",
+      "valor": "planalto de florestas e vilarejos, cortado pelos rios Volga, Oka e pelo canal Moscou–Volga; estradas de terra que a chuva de outono transforma em lama, e uma rede ferroviária de bitola mais larga que a alemã",
+      "conf": "2+"
+    },
+    {
+      "item": "Objetivo alemão",
+      "valor": "pela Diretiva nº 35, de 6 de setembro de 1941, destruir as frentes soviéticas a oeste de Moscou e cercar a cidade; em 12 de outubro, Hitler ordena que nenhum soldado alemão entre nela",
+      "conf": "2+"
+    },
+    {
+      "item": "Viazma e Briansk",
+      "valor": "nove exércitos soviéticos cercados na primeira semana de outubro. Prisioneiros: 663.000 em Viazma e cerca de 100.000 em Briansk na contagem alemã; 658.000 nos dois bolsões em outra conta oficial alemã; cerca de 514.000 em estimativa recente",
+      "conf": "DIV"
+    },
+    {
+      "item": "Ponto mais próximo",
+      "valor": "Krasnaia Poliana, a cerca de 30 km do Kremlin, ocupada pela 2ª Divisão Panzer em 30 de novembro; a 7ª Divisão Panzer cruzou o canal Moscou–Volga em Iakhroma em 28 de novembro",
+      "conf": "2+",
+      "nota": "Uma patrulha alemã em Khimki aparece em vários relatos, com datas e unidades que não batem entre si."
+    },
+    {
+      "item": "Contraofensiva",
+      "valor": "Frente de Kalinin em 5 de dezembro de 1941; Frente Ocidental e a ala direita da Frente Sudoeste em 6 de dezembro. Klin é retomada em 15 de dezembro, Kalinin em 16",
+      "conf": "2+"
+    },
+    {
+      "item": "Forças em 5 de dezembro",
+      "valor": "1.708.000 alemães contra 1.100.000 soviéticos, na história oficial soviética; 800.000 contra 719.000 a 760.000 em obras soviéticas anteriores. O número alemão maior conta toda a retaguarda; o soviético não conta os oito exércitos da reserva, cerca de 800.000 homens",
+      "conf": "DIV",
+      "nota": "A leitura das bases é de Ziemke e Bauer, história oficial do Exército dos EUA."
+    },
+    {
+      "item": "Baixas soviéticas",
+      "valor": "658.279 na defesa (30 de setembro a 5 de dezembro) e 370.955 na contraofensiva até 7 de janeiro, pelos números de Krivosheev; 653.924 de outubro a janeiro, para Erickson; 1.806.123 até 20 de abril de 1942, para Bellamy",
+      "conf": "DIV"
+    },
+    {
+      "item": "Baixas alemãs",
+      "valor": "174.194 mortos, feridos e desaparecidos no Grupo de Exércitos Centro de 1º de outubro a 10 de janeiro, pelos relatórios oficiais de dez dias, que historiadores consideram subcontados; cerca de 500.000 até 20 de abril de 1942, para Bellamy",
+      "conf": "DIV"
+    },
+    {
+      "item": "Congelamento",
+      "valor": "cerca de 100.000 casos no exército alemão até a virada do ano, mais de 14.000 com amputação; mais de 250.000 até o fim do inverno",
+      "conf": "1",
+      "nota": "Allen F. Chew, Fighting the Russians in Winter, Exército dos EUA, 1981."
+    },
+    {
+      "item": "Resultado",
+      "valor": "a ofensiva alemã fracassa e o Grupo de Exércitos Centro é empurrado para oeste; é a primeira grande derrota do exército alemão na guerra",
+      "conf": "2+"
+    },
+    {
+      "item": "O depois",
+      "valor": "em 16 de dezembro Hitler proíbe recuos e exige \"resistência fanática\"; em 19 de dezembro aceita a demissão de Brauchitsch e assume ele mesmo o comando do exército. A ofensiva soviética seguinte, em Rjev e Viazma, vai até abril de 1942",
+      "conf": "2+"
+    }
+  ],
+  "lances": [
+    {
+      "titulo": "O lance perfeito: Viazma e Briansk",
+      "paragrafos": [
+        "Em 6 de setembro de 1941, a Diretiva nº 35 devolve a prioridade ao Grupo de Exércitos Centro, parado a leste de Smolensk desde agosto. O 2º Grupo Panzer de Guderian ataca em 30 de setembro; o resto do grupo de exércitos, em 2 de outubro, sob sol de outono. Os três grupos panzer contornam os flancos das frentes soviéticas e passam entre elas.",
+        "Em cerca de uma semana, seis exércitos estão cercados a oeste de Viazma e quase toda a Frente de Briansk, três exércitos, em bolsões perto de Briansk. Franz Halder anota no diário que a execução foi \"francamente clássica\". A contagem alemã da época registra 663.000 prisioneiros em Viazma e cerca de 100.000 em Briansk; outra conta oficial alemã dá 658.000 nos dois bolsões; estimativas recentes ficam perto de 514.000. Em qualquer delas, passa de meio milhão.",
+        "Foi talvez a melhor execução do método alemão em toda a guerra, e o caminho para Moscou ficou praticamente aberto. Em 9 de outubro, o porta-voz do governo alemão disse à imprensa estrangeira que a campanha do leste estava decidida. O lance de cerco funcionou. A partida, não acabou."
+      ]
+    },
+    {
+      "titulo": "A ferrovia que não carregava a guerra",
+      "paragrafos": [
+        "O Grupo de Exércitos Centro vivia de trens, e a bitola soviética é mais larga que a europeia. Locomotiva alemã só rodava em trilho convertido; nas outras linhas, dependia de material russo capturado. Até o fim de setembro, menos de 10.000 das cerca de 15.000 milhas de ferrovia em uso tinham sido convertidas, segundo o estudo do Exército dos EUA de 1955 sobre os documentos alemães. Para a ofensiva sobre Moscou, os planejadores calculavam subir os trens de combustível de 22 para 29 por dia.",
+        "Em 13 de novembro, na conferência de Orsha, os chefes de estado-maior dos exércitos disseram a Halder o que isso significava: em todo o território ocupado só se tinham capturado 500 locomotivas e 21.000 vagões, cerca de um décimo do necessário. A roupa de inverno ficava estocada na retaguarda porque não podia ser levada à frente sem cortar outros suprimentos. Pelo mesmo estudo americano, praticamente nenhuma estaria disponível para distribuição antes do início de janeiro.",
+        "Em 27 de novembro, o intendente-geral do exército, Eduard Wagner, resumiu: estavam no fim dos recursos em pessoal e material. O exército que chegaria às portas de Moscou não ia passar fome de coragem; ia passar fome de combustível, munição e agasalho."
+      ]
+    },
+    {
+      "titulo": "A lama, e o que ela realmente fez",
+      "paragrafos": [
+        "A primeira neve cai na noite de 6 de outubro; as chuvas de outono começam no dia 7. Alternando chuva e neve, e com o peso de tanques e caminhões, as estradas de terra viram lamaçal. Na terceira semana de outubro, as divisões de ponta estão espalhadas por 40 a 50 km de estrada, a infantaria às vezes passa à frente dos tanques, e o 3º Grupo Panzer pensa em seguir a pé e de carroça.",
+        "Presos à estrada, os alemães podem ser enfrentados de frente, quilômetro por quilômetro, e o T-34, de lagarta mais larga, se move melhor no barro. No fim de outubro o grupo de exércitos está praticamente parado entre Kalinin e o rio Oka, a cerca de 60 km de Moscou.",
+        "O peso da lama é discutido. O estudo do Exército dos EUA de 1955 a põe entre as razões principais do fracasso; Jack Radey e Charles Sharp, examinando os registros da Wehrmacht em 2015, concluem que ela contribuiu, mas estava longe de ser o fator mais importante. O argumento mais forte contra a lama como causa vem logo depois: em meados de novembro o chão congela, os blindados voltam a andar como em estrada pavimentada, e a ofensiva para mesmo assim."
+      ]
+    },
+    {
+      "titulo": "Orsha: jogar mais um lance com dois terços das peças",
+      "paragrafos": [
+        "A conferência de 13 de novembro, no trem especial de Halder em Orsha, na Bielorrússia, é o documento que mais pesa nesta história, porque é da época e porque mostra que o comando sabia. As baixas alemãs no leste somavam 686.000 até 1º de novembro. De meio milhão de veículos, um terço estava imprestável e só um terço plenamente em condição. As divisões panzer tinham 35% da força original de tanques. O próprio comando avaliava as 136 divisões do leste como equivalentes a 83 completas.",
+        "Os argumentos a favor de atacar também estão registrados: os russos pareciam no limite, um último golpe antes do inverno podia derrubá-los, e não se podia repetir o erro do Marne em 1914, quando a Alemanha desistiu de uma batalha que não estava perdida. Bock não queria passar o inverno a poucas dezenas de quilômetros de Moscou com a cidade e suas ferrovias nas mãos do adversário. O comando do exército decidiu atacar, com objetivos reduzidos.",
+        "É o lance decisivo da partida, e não é soviético. O jogador olha o próprio tabuleiro, vê que tem dois terços das peças e pouco tempo no relógio, e mesmo assim parte para o ataque."
+      ]
+    },
+    {
+      "titulo": "A última ofensiva: até 30 km do Kremlin",
+      "paragrafos": [
+        "A ofensiva recomeça em 15 de novembro, com o chão já duro. O 3º Grupo Panzer toma Klin em 23 de novembro; em 27, a 7ª Divisão Panzer chega ao canal Moscou–Volga e no dia seguinte cruza em Iakhroma. Em 30 de novembro a 2ª Divisão Panzer ocupa Krasnaia Poliana, a cerca de 30 km do Kremlin — o ponto mais próximo registrado com segurança. Ao sul, Guderian contorna Tula, que não cai.",
+        "Do lado soviético, Jukov tinha gastado pouco e recebido muito: em novembro, a Frente Ocidental ganhou 100.000 homens, 300 tanques e 2.000 peças de artilharia, e a Stavka formava exércitos de reserva atrás do Volga. Dois deles, o 1º de Choque e o 20º, entraram exatamente no vão entre Iakhroma e Krasnaia Poliana. Stalin segurou o resto.",
+        "Em 1º de dezembro, Bock escreve a Brauchitsch que a crença num colapso soviético provou ser uma fantasia, que as tropas estão exaustas e que a ofensiva perdeu todo sentido e propósito. De 1º a 5 de dezembro ela atola na frente inteira, e as ordens de parar vão primeiro ao 4º Exército, depois às pontas blindadas."
+      ]
+    },
+    {
+      "titulo": "O frio chega depois, e o contra-ataque também",
+      "paragrafos": [
+        "Na noite de 4 para 5 de dezembro, a temperatura cai a cerca de −32 °C; em 6 de dezembro, chega a cerca de −39 °C na frente de Moscou, segundo os registros alemães. Tanques não pegam, metralhadoras e canhões não disparam com o lubrificante congelado. Na manhã de 5 de dezembro a Frente de Kalinin ataca pelo Volga congelado; no dia 6, a Frente Ocidental de Jukov e a ala direita da Frente Sudoeste.",
+        "O adversário que devia estar acabado tinha, no setor de Moscou, um terço a mais de divisões de fuzileiros, cinco vezes mais divisões de cavalaria e duas vezes e meia mais brigadas de tanques do que em 2 de outubro. Klin é retomada em 15 de dezembro e Kalinin no dia 16; em dez dias os soviéticos avançam mais de 50 km no norte e mais de 80 km no sul.",
+        "Em 8 de dezembro, Hitler assina a Diretiva nº 39: o inverno severo chegou surpreendentemente cedo e obriga a abandonar as grandes operações ofensivas. A explicação pelo clima nasce aí, no mesmo papel que encerra a ofensiva. Em 16 de dezembro ele proíbe recuos; em 19 aceita a demissão de Brauchitsch e assume o comando do exército."
+      ]
+    }
+  ],
+  "veredito": [
+    "A Tufão não parou por causa do inverno: chegou exausta a ele. O cerco de Viazma e Briansk funcionou como manual, e foi o último lance que funcionou. Depois dele, o Grupo de Exércitos Centro avançou sobre uma ferrovia que não o abastecia, numa lama que o prendeu à estrada, com tanques reduzidos a um terço, contra um adversário que repunha divisões mais rápido do que ele as destruía. Em Orsha, o comando alemão viu esses números e decidiu atacar assim mesmo. O frio extremo chegou depois que Bock já tinha escrito que a ofensiva perdera o sentido, e transformou a parada em retirada porque encontrou um exército sem roupa de inverno — que ficara na retaguarda pelo mesmo motivo que faltou munição.",
+    "O desvio para Kiev em agosto pesa menos do que os generais disseram depois da guerra: custou tempo e desgastou blindados, mas tirou do tabuleiro um flanco de mais de meio milhão de homens, e a análise logística de Martin van Creveld conclui que um avanço sobre Moscou no fim de agosto não era possível. As divisões siberianas também pesam menos do que a lenda: houve tropas do leste na contraofensiva, mas a massa veio dos exércitos de reserva recém-formados.",
+    "Em termos de xadrez, é o jogador que ganha uma torre com um lance brilhante e perde a partida no relógio, porque o adversário tira outra torre do bolso. A Blitzkrieg vencia o lance. Diante de Moscou, ela descobriu que a partida não acabava no lance."
+  ],
+  "mitos": [
+    {
+      "circula": "O General Inverno derrotou os alemães diante de Moscou.",
+      "registro": "Em 1º de dezembro de 1941, Bock escreve que a ofensiva perdeu \"todo sentido e propósito\"; o frio que paralisa armas e motores chega na noite de 4 para 5 de dezembro. Em novembro o frio ajudou os alemães, ao congelar a lama. Até 1º de novembro o exército alemão no leste já somava 686.000 baixas. A explicação pelo clima aparece por escrito na Diretiva nº 39 de Hitler, de 8 de dezembro de 1941. O inverno agravou a derrota porque a roupa de inverno estava parada na retaguarda — e isso foi falha de abastecimento."
+    },
+    {
+      "circula": "Os alemães chegaram a Khimki e viram as torres do Kremlin.",
+      "registro": "O ponto mais próximo registrado com segurança é Krasnaia Poliana, ocupada em 30 de novembro de 1941, a cerca de 30 km do Kremlin. Os relatos de uma patrulha em Khimki dão datas e unidades que não batem entre si, de 16 de outubro a 2 de dezembro; a história de que se via o Kremlin não tem registro."
+    },
+    {
+      "circula": "Stalin fugiu de Moscou.",
+      "registro": "A partir de 15 de outubro de 1941 o governo, o estado-maior e o corpo diplomático foram evacuados para Kuibyshev, e Stalin teve trem e aviões à disposição. Mas ficou: decretou o estado de sítio em 19 de outubro e passou em revista o desfile de 7 de novembro na Praça Vermelha. O relato de que ele andou na plataforma ao lado do trem e foi embora sem embarcar, em 18 de outubro, é do jornalista Andrew Nagorski."
+    },
+    {
+      "circula": "As divisões siberianas salvaram Moscou.",
+      "registro": "Os números divergem muito: mais de 18 divisões vindas da Sibéria e do Extremo Oriente numa conta; 70 divisões do Extremo Oriente até 1º de dezembro numa contagem soviética ampla citada pela história oficial do Exército dos EUA; poucas no setor de Moscou, em outra análise. Houve tropas siberianas na defesa e no contra-ataque, mas a massa da contraofensiva veio dos exércitos de reserva formados no outono, com muita tropa sem treino."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "Earl F. Ziemke e Magna E. Bauer, Moscow to Stalingrad: Decision in the East, U.S. Army Center of Military History, 1987, capítulos II a V.",
+      "url": "https://www.ibiblio.org/hyperwar/USA/USA-EF-Decision/USA-EF-Decision-3.html"
+    },
+    {
+      "texto": "George E. Blau, The German Campaign in Russia — Planning and Operations (1940–1942), DA Pamphlet 20-261a, Department of the Army, 1955.",
+      "url": "https://archive.org/details/PAM20-261A"
+    },
+    {
+      "texto": "Allen F. Chew, Fighting the Russians in Winter: Three Case Studies, Leavenworth Papers nº 5, Combat Studies Institute, 1981.",
+      "url": "https://archive.org/details/FightingTheRussiansInWinter"
+    },
+    {
+      "texto": "Richard J. Evans, resenha de David Stahel, Kiev 1941, The New Republic.",
+      "url": "https://newrepublic.com/article/102917/david-stahel-kiev-1941-hitlers-battle-supremacy-east"
+    },
+    {
+      "texto": "Steven D. Mercatante, resenha de David Stahel, The Battle for Moscow, Michigan War Studies Review 2016-024.",
+      "url": "https://www.miwsr.com/2016-024.htm"
+    },
+    {
+      "texto": "Jack Radey e Charles Sharp, \"Was It the Mud?\", The Journal of Slavic Military Studies 28/4, 2015.",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/13518046.2015.1094940"
+    },
+    {
+      "texto": "H. G. W. Davie, \"The Influence of Railways on Military Operations in the Russo-German War 1941–1945\", History of Military Logistics, 2018 (cita Martin van Creveld, Supplying War).",
+      "url": "https://www.hgwdavie.com/blog/2018/3/9/the-influence-of-railways-on-military-operations-in-the-russo-german-war-19411945"
+    },
+    {
+      "texto": "Jonathan Dimbleby, \"When the German Army Neared Moscow, Millions Fled — But Some Stayed to Fight\", HistoryNet.",
+      "url": "https://historynet.com/moscows-citizens-veered-toward-mass-panic-as-the-german-army-approached/"
+    },
+    {
+      "texto": "Andrew Nagorski, \"Stalin's Tipping Point\", Newsweek, 2007.",
+      "url": "https://www.newsweek.com/stalins-tipping-point-100267"
+    },
+    {
+      "texto": "Battle of Moscow — Wikipédia em inglês (baixas por fonte: Glantz e House, Erickson, Bellamy, relatórios do Heeresarzt).",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Moscow"
+    },
+    {
+      "texto": "Khimki e Lobnya — Wikipédia em inglês.",
+      "url": "https://en.wikipedia.org/wiki/Khimki"
+    },
+    {
+      "texto": "List of Adolf Hitler's directives — Wikipédia em inglês (Diretiva nº 39).",
+      "url": "https://en.wikipedia.org/wiki/List_of_Adolf_Hitler%27s_directives"
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "09-moscou-capa.jpg",
+      "alt": "Caminhão militar coberto por lona, parado na beira de uma estrada coberta de neve, com uma fila de outros veículos abandonados ao fundo",
+      "legenda": "Viaturas abandonadas pelo exército alemão na estrada de Volokolamsk, a oeste de Moscou, em dezembro de 1941, durante a retirada que se seguiu à contraofensiva soviética. Foto de imprensa soviética.",
+      "autor": "Ivan Shagin · RIA Novosti, arquivo nº 697",
+      "licenca": "CC BY-SA 3.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:RIAN_archive_697_Nazi_vehicles_abandoned_near_Moscow.jpg",
+      "tipo": "epoca",
+      "ano": "1941",
+      "foco": "40% 60%"
+    },
+    {
+      "arquivo": "09-moscou-lama.jpg",
+      "alt": "Semilagarta alemão coberto de barro parado num vilarejo de casas de madeira; um soldado se abaixa para limpar a lagarta enquanto outro observa",
+      "legenda": "Soldado alemão limpa a lagarta enlameada de um semilagarta Sd.Kfz. 250 num vilarejo do setor central da frente, em outubro de 1941, o mês em que as chuvas prenderam os blindados às estradas.",
+      "autor": "Götze · Bundesarchiv, Bild 101I-140-1210-26A",
+      "licenca": "CC BY-SA 3.0 DE",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.pt",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-140-1210-26A,_Russland-Mitte,_Sch%C3%BCtzenpanzer_im_Schlamm.jpg",
+      "tipo": "epoca",
+      "ano": "1941"
+    },
+    {
+      "arquivo": "09-moscou-estrada.jpg",
+      "alt": "Caminhão semilagarta avança por uma estrada de terra encharcada entre casas de madeira de um vilarejo, com árvores sem folhas ao fundo",
+      "legenda": "Estrada enlameada na região de Moscou, em novembro de 1941, na legenda do próprio fotógrafo alemão. Semanas depois o chão congelou e os blindados voltaram a andar — e a ofensiva parou mesmo assim.",
+      "autor": "Britting · Bundesarchiv, Bild 183-B15500",
+      "licenca": "CC BY-SA 3.0 DE",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.pt",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-B15500,_Russland,_Dorf_vor_Moskau.jpg",
+      "tipo": "epoca",
+      "ano": "1941"
+    },
+    {
+      "arquivo": "09-moscou-mapa.jpg",
+      "alt": "Mapa da frente leste em 1941, com o avanço alemão em vermelho, o bolsão de Kiev ao sul e, num quadro à esquerda, as posições em torno de Moscou em 5 de dezembro",
+      "legenda": "O avanço sobre Moscou de 26 de agosto a 5 de dezembro de 1941: o desvio para Kiev ao sul, a Operação Tufão e, no quadro à esquerda, a situação diante de Moscou no dia em que começou a contraofensiva. Mapa do atlas histórico da Academia Militar dos EUA, feito depois da guerra.",
+      "autor": "Departamento de História da Academia Militar dos Estados Unidos (West Point)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Operation_Barbarossa_(26_August_-_5_December_1941).jpg",
+      "tipo": "carta",
+      "foco": "20% 75%"
+    },
+    {
+      "arquivo": "09-moscou-ouricos.jpg",
+      "alt": "Fileiras de ouriços antitanque de trilhos cruzados e uma barricada de madeira atravessam uma rua de Moscou diante de um prédio alto",
+      "legenda": "Ouriços antitanque e barricada na rua Bolshaia Dorogomilovskaia, em Moscou, em outubro de 1941, o mês do pânico na cidade e da evacuação do governo para Kuibyshev.",
+      "autor": "Arkadi Shaikhet · RIA Novosti, arquivo nº 604273",
+      "licenca": "CC BY-SA 3.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:RIAN_archive_604273_Barricades_on_city_streets.jpg",
+      "tipo": "epoca",
+      "ano": "1941"
+    },
+    {
+      "arquivo": "09-moscou-trincheira.jpg",
+      "alt": "Soldado alemão abrigado sob uma lona numa posição cavada na neve, com o fuzil e granadas apoiados na borda",
+      "legenda": "Posição de fuzileiro alemão na neve perto de Koriakovo, 66 km a sudoeste de Moscou, em 8 de dezembro de 1941 — o dia em que Hitler mandou abandonar as grandes operações ofensivas.",
+      "autor": "Mährlen · Bundesarchiv, Bild 146-1992-055-33",
+      "licenca": "CC BY-SA 3.0 DE",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.pt",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-1992-055-33,_Russland,_Deutsche_Feldstellung_im_Winter.jpg",
+      "tipo": "epoca",
+      "ano": "1941"
+    }
+  ],
+  "proximo": "midway"
+}
