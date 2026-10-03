@@ -1,0 +1,189 @@
+{
+  "num": "06",
+  "slug": "dunquerque",
+  "batalha": "Dunquerque",
+  "titulo_video": null,
+  "lugar": "Dunquerque, departamento do Norte, França, e as praias até La Panne, Bélgica; o bolsão de Flandres entre Lille e o Canal da Mancha",
+  "data": "24 de maio a 4 de junho de 1940",
+  "campanha": "Segunda Guerra Mundial, 1940",
+  "estreia": "2026-10-29",
+  "pergunta": "Por que a máquina alemã parou diante de Dunquerque quando só faltava fechar a mão?",
+  "resumo": "A ordem de parar de 24 de maio de 1940 não nasceu de Hitler, e não foi a primeira. Por que os blindados frearam, e como 338.226 homens saíram pelo mar.",
+  "abertura": [
+    "Em 24 de maio de 1940, as pontas blindadas alemãs estão a menos de 20 km de Dunquerque, o último porto aliado no bolsão de Flandres. A maior parte da Força Expedicionária Britânica ainda está em volta de Lille, mais longe do porto do que os tanques alemães. É nesse momento que vem a ordem de parar.",
+    "A campanha da França mostrou que em maio de 1940 a Alemanha aplicou um plano, não uma doutrina. Esta página segue a partida até o lance seguinte: com o cerco fechado no Canal da Mancha, a máquina para por três dias, e de 26 de maio a 4 de junho saem pelo mar 338.226 homens. A pergunta é por que ela parou — e o registro não confirma a resposta que mais circula."
+  ],
+  "numeros": [
+    {"valor": "3", "rotulo": "freadas alemãs no avanço para o mar: 15, 21 e 24 de maio de 1940. A de Dunquerque foi a última", "conf": "1"},
+    {"valor": "< 20 km", "rotulo": "das pontas blindadas até Dunquerque em 24 de maio, quando chega a ordem de parar", "conf": "2+"},
+    {"valor": "338.226", "rotulo": "homens evacuados de 26 de maio a 4 de junho de 1940", "conf": "2+"},
+    {"valor": "239.555", "rotulo": "deles saíram pelo porto, quase todos pelo molhe leste; 98.671 pelas praias", "conf": "2+"},
+    {"valor": "103.399", "rotulo": "levados por contratorpedeiros, segundo o despacho do almirante Ramsay — o maior grupo por tipo de navio", "conf": "1"},
+    {"valor": "35.000", "rotulo": "prisioneiros no fim, quase todos franceses da retaguarda; as fontes vão de 30.000 a 40.000", "conf": "DIV"}
+  ],
+  "ficha": [
+    {"item": "O cerco", "valor": "a ponta blindada alemã chega ao mar a oeste de Abbeville na noite de 20 de maio de 1940, separando a Força Expedicionária Britânica, o 1º Exército francês e o exército belga do grosso francês ao sul", "conf": "2+"},
+    {"item": "Alemanha — comando", "valor": "Gerd von Rundstedt (Grupo de Exércitos A), Günther von Kluge (4º Exército), Ewald von Kleist (grupo blindado), Fedor von Bock (Grupo de Exércitos B); Walther von Brauchitsch e Franz Halder no alto-comando do exército; Adolf Hitler", "conf": "2+"},
+    {"item": "Aliados — comando", "valor": "lorde Gort (Força Expedicionária Britânica); vice-almirante Bertram Ramsay (evacuação, de Dover); capitão William Tennant (oficial naval em Dunquerque); general Jean-Baptiste Molinié (cercados em Lille)", "conf": "2+"},
+    {"item": "A ordem de parar", "valor": "dada por Rundstedt, por sugestão de Kluge, na noite de 23 de maio; confirmada por Hitler em Charleville na manhã de 24; suspensa às 15:30 de 26 de maio. Os blindados só voltam a atacar na manhã de 27", "conf": "2+"},
+    {"item": "Distância", "valor": "menos de 20 km de Dunquerque em 24 de maio: 18 km na conta da Wikipédia em alemão, 12 milhas do canal do Aa na de Edward Lengel", "conf": "2+"},
+    {"item": "Terreno", "valor": "planície de Flandres cortada por canais e valas de drenagem; o perímetro final corria por canais a cerca de 11 km da costa, em terreno pantanoso. O porto estava destruído, mas os dois molhes de proteção da entrada estavam intactos", "conf": "2+"},
+    {"item": "Lille", "valor": "cerca de 40.000 homens do 1º Exército francês, cercados, resistem de 28 a 31 de maio e recebem honras de guerra na rendição", "conf": "2+", "nota": "Os prisioneiros de Lille variam entre 34.600 e 35.000 conforme a fonte; uma terceira fala em 50.000 homens envolvidos."},
+    {"item": "O perímetro", "valor": "semicírculo de Nieuport a Gravelines, por Furnes e Bergues: franceses no setor oeste, britânicos no leste. O exército belga capitula em 28 de maio", "conf": "1", "nota": "Wikipédia em inglês, Battle of Dunkirk."},
+    {"item": "Operação Dynamo", "valor": "planejada em Dover desde 20 de maio; a Admiralty manda começar às 18:57 de 26 de maio; termina em 4 de junho de 1940. A expectativa inicial era tirar 45.000 homens em dois dias", "conf": "2+", "nota": "Despacho de Ramsay, London Gazette nº 38017."},
+    {"item": "Evacuados", "valor": "338.226 no total; o despacho de Ramsay fala em cerca de 330.000 no texto e soma 338.682 numa tabela que declara incompleta", "conf": "2+"},
+    {"item": "Britânicos e aliados", "valor": "cerca de 198.000 britânicos e 140.000 franceses e outros aliados, numa conta; cerca de 215.000 e 123.000, em outra. Ramsay registra 123.095 franceses desembarcados na Inglaterra, sem contar os levados direto a portos franceses", "conf": "DIV", "nota": "Parte da diferença é de base: só franceses, ou franceses mais poloneses, belgas e holandeses."},
+    {"item": "Navios", "valor": "mais de 800 embarcações; 6 contratorpedeiros britânicos e 3 franceses afundados. O total de afundados vai de mais de 200 a 243", "conf": "DIV"},
+    {"item": "Aviões", "valor": "a RAF perdeu entre 106 e 177 aviões e a Luftwaffe entre cerca de 100 e 240, conforme a fonte; os navios abateram 35 de 27 de maio a 1º de junho", "conf": "DIV", "nota": "O número dos navios é do despacho de Ramsay."},
+    {"item": "Baixas", "valor": "a Força Expedicionária Britânica perde 68.000 homens na campanha inteira, cerca de 3.500 mortos; na evacuação morrem cerca de 16.000 franceses e 1.000 britânicos", "conf": "1"},
+    {"item": "Prisioneiros", "valor": "cerca de 35.000 no perímetro em 4 de junho, quase todos franceses; outras contas vão de 30.000 a 40.000", "conf": "DIV"},
+    {"item": "O depois", "valor": "o exército britânico deixa na França praticamente todo o equipamento pesado — o bastante para equipar oito a dez divisões. Em 5 de junho começa a ofensiva alemã para o sul, Fall Rot", "conf": "2+"}
+  ],
+  "lances": [
+    {
+      "titulo": "O tabuleiro em 24 de maio: os tanques mais perto do porto que o adversário",
+      "paragrafos": [
+        "Na noite de 20 de maio de 1940 a ponta blindada alemã chega ao mar a oeste de Abbeville. O plano de Manstein se cumpre: os melhores exércitos aliados, que tinham avançado para a Bélgica, ficam presos ao norte de um corredor alemão que vai das Ardenas ao Canal da Mancha. Dentro do bolsão estão a Força Expedicionária Britânica, o 1º Exército francês e o exército belga.",
+        "Os blindados viram para o norte, ao longo da costa. Boulogne cai até 24 de maio, Calais está cercada. Em 24 de maio as pontas alemãs estão a menos de 20 km de Dunquerque: 18 km, pela Wikipédia em alemão; 12 milhas do canal do Aa, pela conta de Edward Lengel. A Wikipédia em inglês registra que um só batalhão britânico barrava o caminho.",
+        "A outra metade do tabuleiro é a que decide. Em 26 de maio a maior parte das forças britânicas ainda estava em torno de Lille, a mais de 64 km de Dunquerque, num corredor de cerca de 97 km de fundo por 24 km de largura. Os tanques alemães estavam mais perto do único porto de saída do que o exército que precisava sair por ele. Faltava só fechar a mão."
+      ]
+    },
+    {
+      "titulo": "A máquina já tinha parado duas vezes",
+      "paragrafos": [
+        "A ordem de 24 de maio é a mais famosa, mas não a primeira. Karl-Heinz Frieser registra uma freada em 15 de maio, depois do contra-ataque francês de Montcornet, e outra em 21 de maio, depois do contra-ataque britânico de Arras. Em Arras os britânicos atacaram com cerca de 2.000 homens e 74 tanques, avançaram até cerca de 10 km e recuaram à noite. Fracassaram — e mesmo assim, segundo Frieser, tiveram efeito desproporcional sobre o comando alemão, que temia pelo flanco de um corredor que em Arras tinha 40 km de largura.",
+        "Ewald von Kleist viu uma ameaça séria e avisou Franz Halder de que precisava esperar. Günther von Kluge, do 4º Exército, mandou os tanques pararem, com apoio de Gerd von Rundstedt. O avanço perdeu 24 horas. Em 22 de maio, Rundstedt ainda mandou esperar até a situação em Arras ser restaurada, e só revogou a própria ordem depois de cinco horas.",
+        "Frieser tira daí uma conclusão incômoda para a história que se conta: se os blindados tivessem andado em 21 de maio na velocidade de 20, Boulogne e Calais teriam caído; e sem as freadas de 15 e 21, a ordem de 24 teria sido irrelevante, porque a 10ª Divisão Panzer já teria tomado Dunquerque. A hesitação não começou diante do porto. Era o padrão do comando superior alemão desde Sedan."
+      ]
+    },
+    {
+      "titulo": "A ordem de 24 de maio: quem deu, quem confirmou, quem manteve",
+      "paragrafos": [
+        "Na noite de 23 de maio, Rundstedt, comandante do Grupo de Exércitos A, ordena a parada das unidades blindadas, por sugestão de Kluge. No mesmo dia Kleist informa que sua força de tanques caiu a cerca de metade — avaliação que Lengel considera mais pessimista que a realidade — e Hermann Göring telefona a Hitler pedindo para a Luftwaffe a destruição das forças cercadas.",
+        "Na manhã de 24 de maio Hitler vai ao quartel-general de Rundstedt em Charleville e confirma a parada. Ali descobre que o comandante do exército, Walther von Brauchitsch, tinha transferido o 4º Exército e seus blindados para o Grupo de Exércitos B, de Fedor von Bock, sem consultá-lo. Hitler anula a transferência e deixa a condução com Rundstedt. Por volta do meio-dia a ordem circula: o ataque fica limitado à linha Lens–Béthune–Aire–Saint-Omer–Gravelines, e o canal não será cruzado.",
+        "Halder, que era contra, anotou no diário naquele dia que a ala esquerda, blindada e motorizada, sem inimigo à frente, seria parada por ordem direta do Führer, e que o acabamento do exército cercado ficaria para a Luftwaffe. Hitler só suspende a ordem às 15:30 de 26 de maio. Os blindados voltam a atacar na manhã de 27.",
+        "Depois da guerra, Rundstedt chamou a parada de erro inacreditável e pôs toda a culpa em Hitler. O próprio biógrafo de Rundstedt reconhece que isso não é a verdade inteira: o impulso inicial veio de Kleist e dele mesmo. A ordem nasceu no Grupo de Exércitos A. Hitler a confirmou e a manteve."
+      ]
+    },
+    {
+      "titulo": "Por que parou: as explicações, com o peso de cada uma",
+      "paragrafos": [
+        "A historiografia não fechou a questão, mas as explicações não pesam igual. As mais sólidas têm documento da época. A primeira é o desgaste e o medo do flanco: os blindados precisavam de manutenção, a infantaria estava dias atrás, e Arras tinha mostrado que o corredor podia ser cortado. É a mesma causa das freadas de 15 e 21 de maio.",
+        "A segunda é o terreno. Hitler conhecia os pântanos de Flandres da Primeira Guerra; em volta de Dunquerque o chão é uma grade de canais e valas de drenagem, e Robert Kershaw conta pelo menos cinco ou seis linhas de canais até o porto. O indício mais forte vem depois: em 28 de maio, já suspensa a ordem, o próprio Heinz Guderian aconselhou abandonar o assalto blindado em favor de artilharia e infantaria. A terceira, poupar os tanques para a ofensiva seguinte, Fall Rot, iniciada em 5 de junho, é plausível, mas é inferência de historiador, não motivo escrito.",
+        "A quarta é a Luftwaffe: o pedido de Göring em 23 de maio e a frase de Halder em 24 mostram que a destruição do bolsão foi entregue ao ar. A versão de que Göring queria a glória para a Luftwaffe contra os generais do exército, porém, vem de testemunhos de depois da guerra. A quinta é a tese central de Frieser: Hitler sustentou Rundstedt para mostrar ao alto-comando do exército quem mandava, depois de Brauchitsch mexer na estrutura de comando sem ele. Ela explica menos por que a ordem nasceu e mais por que durou até 26 de maio.",
+        "A sexta é a mais repetida e a mais fraca: Hitler teria deixado os britânicos escaparem para negociar a paz. Ela se apoia em Rundstedt depois da guerra e no próprio Hitler em fevereiro de 1945, já derrotado. Contra ela há um papel do mesmo dia: a Diretiva nº 13, de 24 de maio de 1940, manda aniquilar as forças francesas, inglesas e belgas no bolsão e encarrega a Luftwaffe de impedir a fuga dos ingleses pelo canal. Brian Bond resume: poucos historiadores a aceitam hoje."
+      ]
+    },
+    {
+      "titulo": "A porta que os franceses seguraram",
+      "paragrafos": [
+        "Enquanto os britânicos recuavam para o mar, cerca de 40.000 homens do 1º Exército francês ficaram cercados em Lille. Sob o general Jean-Baptiste Molinié, resistiram de 28 a 31 de maio, contra quatro divisões de infantaria e três Panzer, e se renderam à meia-noite de 31 de maio. O comandante alemão concedeu-lhes honras de guerra. Quantos isso salvou é estimativa, não registro: William Shirer escreveu que pelo menos 100.000; Douglas Fermer, que a resistência desviou cerca de sete divisões alemãs.",
+        "Em volta de Dunquerque, o perímetro ia de Nieuport a Gravelines, com os franceses no setor oeste e os britânicos no leste. O exército belga capitulou em 28 de maio e abriu um vão no flanco leste, que divisões britânicas exaustas foram tapar. Os últimos britânicos embarcaram na noite de 2 para 3 de junho. A retaguarda que ficou era francesa.",
+        "Em 4 de junho, cerca de 35.000 homens foram capturados no perímetro, quase todos franceses — outras contas vão de 30.000 a 40.000. A peça sacrificada para a evacuação funcionar foi, na maior parte, francesa: o oposto da memória popular do episódio."
+      ]
+    },
+    {
+      "titulo": "A Operação Dynamo: o molhe, não a praia",
+      "paragrafos": [
+        "O vice-almirante Bertram Ramsay planejava a evacuação em Dover desde 20 de maio. Segundo o despacho dele, a Admiralty mandou a operação começar às 18:57 de 26 de maio — três horas e meia depois de Hitler suspender a ordem de parar —, com a expectativa de tirar 45.000 homens em dois dias antes de o inimigo fechar o porto. Saíram 338.226, até 4 de junho. O melhor dia foi 31 de maio, com 68.014.",
+        "As docas estavam destruídas, mas os molhes de proteção da entrada do porto estavam de pé. O capitão William Tennant decidiu atracar os navios no molhe leste, que não fora feito para isso. Pelo porto, a maioria pelo molhe, saíram 239.555 homens; pelas praias, 98.671. Na tabela do despacho de Ramsay, os contratorpedeiros levaram 103.399, os navios de passageiros 74.380, os caça-minas mais de 50.000.",
+        "Os pequenos barcos fizeram outro trabalho, e indispensável: lançadeiras entre a areia e os navios fundeados ao largo, onde os grandes não chegavam. Muitos foram tripulados por marinheiros e oficiais da Royal Navy, não pelos donos. O custo foi alto: seis contratorpedeiros britânicos e três franceses afundados, mais de 200 embarcações perdidas e, conforme a fonte, entre 106 e 177 aviões britânicos.",
+        "Robert Kershaw pesa a ordem de parar contra esse calendário: dos três dias em que os blindados ficaram parados, só um coincide com os nove dias da evacuação, e só dois dias e meio desses nove tiveram tempo bom para a Luftwaffe voar. A parada deu tempo para montar a defesa; o que tirou os homens da praia foi o molhe, a marinha, a nuvem baixa e a retaguarda."
+      ]
+    }
+  ],
+  "veredito": [
+    "A máquina não parou porque Hitler quis deixar os britânicos irem. Parou porque o comando superior alemão vinha freando os próprios blindados desde 15 de maio, com medo de um flanco que o adversário quase não conseguia ameaçar, e porque diante de Dunquerque o terreno, o desgaste e a promessa da Luftwaffe tornaram razoável deixar o serviço para outros. A ordem nasceu com Rundstedt; Hitler a confirmou e a manteve, em parte para mostrar ao alto-comando do exército quem mandava.",
+    "Em termos de xadrez, é o jogador que tem o mate em dois e troca por um lance seguro, porque três lances antes levou um susto num canto do tabuleiro. O lance seguro não perdeu a partida — a França caiu três semanas depois. Mas deixou sair a peça que importava: 338.226 homens, entre eles quase todo o exército profissional britânico, sem o equipamento e com o ofício intacto.",
+    "E o adversário não se salvou sozinho, nem por milagre. Saiu por um molhe que não tinha sido feito para navios, em contratorpedeiros e ferries, enquanto franceses seguravam Lille e o perímetro. Churchill disse no mesmo discurso: guerras não se ganham com evacuações."
+  ],
+  "mitos": [
+    {
+      "circula": "Hitler deu a ordem de parar para deixar os britânicos escaparem e negociar a paz.",
+      "registro": "A ordem foi dada por Rundstedt, por sugestão de Kluge, na noite de 23 de maio de 1940; Hitler a confirmou no dia 24. A tese política só tem testemunhos de depois da guerra, incluindo o do próprio Hitler em fevereiro de 1945. A Diretiva nº 13, de 24 de maio de 1940, manda aniquilar as forças no bolsão e impedir a fuga pelo canal."
+    },
+    {
+      "circula": "Os pequenos barcos civis salvaram o exército britânico.",
+      "registro": "Saíram pelo porto, quase todos pelo molhe leste, 239.555 homens; pelas praias, 98.671. No despacho do almirante Ramsay, os contratorpedeiros sozinhos levaram 103.399. Os pequenos barcos foram lançadeiras entre a praia e os navios maiores — essenciais nas praias, mas não carregaram a evacuação, e muitos foram tripulados pela Royal Navy."
+    },
+    {
+      "circula": "A RAF não apareceu em Dunquerque.",
+      "registro": "A queixa existiu em 1940, inclusive entre os comandantes de navio citados no despacho de Ramsay. Mas a RAF voou mais de 3.500 surtidas em apoio à operação e perdeu entre 106 e 177 aviões, conforme a fonte; a maior parte dos combates aconteceu longe das praias, fora da vista de quem esperava na areia."
+    },
+    {
+      "circula": "Foi um milagre.",
+      "registro": "A palavra é de 2 de junho de 1940 e da imprensa. O resultado tem causas: o molhe leste intacto, a marinha, só dois dias e meio de tempo bom para voar em nove, a resistência francesa em Lille e no perímetro, e os três dias de parada. No mesmo discurso em que falou em milagre de libertação, Churchill avisou que guerras não se ganham com evacuações."
+    }
+  ],
+  "fontes": [
+    {"texto": "Bertram H. Ramsay, Operation \"Dynamo\", despacho de 18 de junho de 1940, suplemento nº 38017 da London Gazette, 17 de julho de 1947.", "url": "https://ibiblio.org/hyperwar/UN/UK/LondonGazette/38017.pdf"},
+    {"texto": "Karl-Heinz Frieser, The Blitzkrieg Legend: The 1940 Campaign in the West (citado pela Wikipédia em inglês).", "url": null},
+    {"texto": "Franz Halder, diário de guerra, 24 de maio de 1940 (por citação).", "url": "https://en.wikipedia.org/wiki/The_Halder_Diaries"},
+    {"texto": "Robert Kershaw, \"Was Dunkirk really a miracle?\", Military History Matters, 2022.", "url": "https://the-past.com/feature/was-dunkirk-really-a-miracle/"},
+    {"texto": "Edward G. Lengel, \"Decisions: Hitler's Halt Order\", Military History, novembro de 2011.", "url": "https://historynet.com/decisions-hitlers-halt-order/"},
+    {"texto": "Battle of Dunkirk — Wikipédia em inglês.", "url": "https://en.wikipedia.org/wiki/Battle_of_Dunkirk"},
+    {"texto": "Dunkirk evacuation — Wikipédia em inglês.", "url": "https://en.wikipedia.org/wiki/Dunkirk_evacuation"},
+    {"texto": "Battle of Arras (1940) — Wikipédia em inglês, citando Frieser.", "url": "https://en.wikipedia.org/wiki/Battle_of_Arras_(1940)"},
+    {"texto": "Siege of Lille (1940) — Wikipédia em inglês.", "url": "https://en.wikipedia.org/wiki/Siege_of_Lille_(1940)"},
+    {"texto": "Schlacht von Dünkirchen — Wikipédia em alemão.", "url": "https://de.wikipedia.org/wiki/Schlacht_von_D%C3%BCnkirchen"}
+  ],
+  "imagens": [
+    {
+      "arquivo": "06-dunquerque-capa.jpg",
+      "alt": "Longas filas de soldados atravessam a praia larga de Dunquerque, das dunas em primeiro plano até a beira da água",
+      "legenda": "Soldados britânicos em fila na praia de Dunquerque à espera da evacuação, entre 26 e 29 de maio de 1940. Pelas praias saíram 98.671 homens; o dobro saiu pelo porto.",
+      "autor": "Fotógrafo não identificado · Imperial War Museums, NYP 68075",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Dunkirk_26-29_May_1940_NYP68075.jpg",
+      "tipo": "epoca",
+      "ano": "1940",
+      "foco": "60% 50%"
+    },
+    {
+      "arquivo": "06-dunquerque-carta.jpg",
+      "alt": "Carta topográfica da costa de Dunquerque a La Panne, com o porto e o molhe à esquerda, a faixa de dunas ao longo do mar e o interior coberto por uma malha de canais e valas em azul",
+      "legenda": "Dunquerque e as praias até La Panne na carta do Army Map Service, França e Bélgica 1:50.000, folha 29 Dunkerque (revisão de 1943). O interior é uma grade de canais e valas de drenagem: o terreno que pesou na ordem de parar.",
+      "autor": "U.S. Army Map Service · Perry-Castañeda Library, Universidade do Texas",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://maps.lib.utexas.edu/maps/ams/belgium_50k/txu-pclmaps-oclc-6624543-dunkerque-29.jpg",
+      "tipo": "carta",
+      "foco": "20% 70%"
+    },
+    {
+      "arquivo": "06-dunquerque-molhe.jpg",
+      "alt": "Soldados de capacete sentados no convés de um contratorpedeiro atracado ao lado de uma estrutura de madeira alta, por onde outros descem por escadas",
+      "legenda": "Tropas britânicas embarcam no contratorpedeiro HMS Vanquisher pelo molhe de Dunquerque, na maré baixa, por escadas, em maio de 1940. Pelo porto, a maioria pelo molhe leste, saíram 239.555 homens.",
+      "autor": "Fotógrafo não identificado · Imperial War Museums, HU 1153",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Dunkirk_1940_HU1153.jpg",
+      "tipo": "epoca",
+      "ano": "1940"
+    },
+    {
+      "arquivo": "06-dunquerque-bourrasque.jpg",
+      "alt": "Contratorpedeiro adernado afundando de proa, com o convés da frente coberto de soldados e uma embarcação menor ao lado",
+      "legenda": "O contratorpedeiro francês Bourrasque afunda ao largo de Dunquerque carregado de tropas, em 30 de maio de 1940. Foi um dos três contratorpedeiros franceses perdidos na operação, ao lado de seis britânicos.",
+      "autor": "Fotógrafo não identificado · Imperial War Museums, HU 2280",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Dunkirk_1940_HU2280.jpg",
+      "tipo": "epoca",
+      "ano": "1940"
+    },
+    {
+      "arquivo": "06-dunquerque-dover.jpg",
+      "alt": "Convés de um contratorpedeiro lotado de soldados britânicos de capacete, encostando num cais, com barcos ao fundo",
+      "legenda": "Soldados evacuados de Dunquerque num contratorpedeiro prestes a atracar em Dover, em 31 de maio de 1940, o dia em que saíram 68.014 homens. Os contratorpedeiros levaram 103.399 na conta do almirante Ramsay.",
+      "autor": "Puttnam e Malindine, fotógrafos oficiais do War Office · Imperial War Museums, H 1637",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Troops_evacuated_from_Dunkirk_on_a_destroyer_about_to_berth_at_Dover,_31_May_1940._H1637.jpg",
+      "tipo": "epoca",
+      "ano": "1940"
+    }
+  ],
+  "proximo": null
+}

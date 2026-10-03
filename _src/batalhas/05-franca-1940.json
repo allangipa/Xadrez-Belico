@@ -14,30 +14,126 @@
     "A campanha da Polônia mostrou que, em 1939, não havia uma doutrina chamada Blitzkrieg: o nome veio dos jornais. Esta página continua a pergunta. Se não era doutrina, o que foi aplicado oito meses depois? A resposta cabe numa distinção: doutrina se ensina a um exército inteiro e serve para qualquer guerra; plano serve para uma guerra, contra um inimigo, num terreno."
   ],
   "numeros": [
-    {"valor": "13.974", "rotulo": "canhões aliados em 10 de maio de 1940, contra 7.378 alemães", "conf": "1"},
-    {"valor": "1.222", "rotulo": "tanques no Panzergruppe von Kleist — metade dos 2.445 alemães, num eixo só", "conf": "DIV"},
-    {"valor": "4", "rotulo": "estradas reservadas para o grupo blindado atravessar os Ardenas", "conf": "1"},
-    {"valor": "56", "rotulo": "baixas francesas em 8 horas de bombardeio sobre Sedan; nenhuma casamata destruída por acerto direto", "conf": "1"},
-    {"valor": "07:20", "rotulo": "de 14 de maio: o primeiro tanque alemão cruza o Meuse, mais de 12 horas depois do pânico de Bulson", "conf": "1"},
-    {"valor": "1.756.000", "rotulo": "prisioneiros aliados ao fim da campanha", "conf": "1"}
+    {
+      "valor": "13.974",
+      "rotulo": "canhões aliados em 10 de maio de 1940, contra 7.378 alemães",
+      "conf": "1"
+    },
+    {
+      "valor": "1.222",
+      "rotulo": "tanques no Panzergruppe von Kleist — metade dos 2.445 alemães, num eixo só",
+      "conf": "DIV"
+    },
+    {
+      "valor": "4",
+      "rotulo": "estradas reservadas para o grupo blindado atravessar os Ardenas",
+      "conf": "1"
+    },
+    {
+      "valor": "56",
+      "rotulo": "baixas francesas em 8 horas de bombardeio sobre Sedan; nenhuma casamata destruída por acerto direto",
+      "conf": "1"
+    },
+    {
+      "valor": "07:20",
+      "rotulo": "de 14 de maio: o primeiro tanque alemão cruza o Meuse, mais de 12 horas depois do pânico de Bulson",
+      "conf": "1"
+    },
+    {
+      "valor": "1.756.000",
+      "rotulo": "prisioneiros aliados ao fim da campanha",
+      "conf": "1"
+    }
   ],
   "ficha": [
-    {"item": "Forças em 10 de maio", "valor": "Alemanha: 141 divisões e 3.300.000 homens. Aliados: 135 divisões e 3.300.000 homens", "conf": "1", "nota": "Wikipédia em inglês, Battle of France."},
-    {"item": "Artilharia e aviação", "valor": "Alemanha: 7.378 canhões e 5.638 aviões. Aliados: 13.974 canhões e menos de 2.935 aviões", "conf": "1", "nota": "A única superioridade material alemã clara era a aérea."},
-    {"item": "Tanques", "valor": "Alemanha: 2.445. França sozinha: entre 3.383 e 4.071", "conf": "DIV", "nota": "A própria fonte declara a divergência no número de tanques franceses."},
-    {"item": "Panzergruppe von Kleist", "valor": "134.000 homens, 1.222 tanques e 378 veículos, em cinco divisões blindadas: XIX Panzerkorps (3 divisões, eixo Sedan), XLI Panzerkorps (2, eixo Monthermé) e XV Corpo (2, alto Ardenas, guarda de flanco). A Wikipédia em francês, citando Mary (2009) e Frieser (2003), conta 1.250 carros e 350 veículos blindados de reconhecimento", "conf": "DIV", "nota": "São contagens de base diferente; as duas dizem a mesma coisa: cerca de metade dos tanques alemães num grupo só."},
-    {"item": "Comandantes e planejadores", "valor": "Alemanha: Erich von Manstein (autor do plano), Franz Halder (chefe do estado-maior), Walther von Brauchitsch (comandante-em-chefe). França: Maurice Gamelin (comandante-em-chefe), Alphonse Georges", "conf": "1"},
-    {"item": "O avanço aliado na Bélgica", "valor": "7º Exército francês (Giraud), até Breda; Força Expedicionária Britânica (Gort), 9 divisões, no Dyle; 1º Exército francês (Blanchard), 10 divisões, de Wavre a Namur; 9º Exército (Corap), ao sul de Namur, ao longo do Meuse", "conf": "1", "nota": "Wikipédia em inglês, Dyle Plan."},
-    {"item": "Sedan — defesa francesa", "valor": "55ª Divisão de Infantaria (general Henri Lafontaine), de categoria B, e a 71ª Divisão, ainda entrando na linha: 20.000 homens e 174 peças de artilharia", "conf": "1"},
-    {"item": "Sedan — ataque alemão", "valor": "1ª, 2ª e 10ª Divisões Panzer e o Regimento Großdeutschland: 60.000 homens, 41.000 veículos, 788 tanques e 141 peças", "conf": "1", "nota": "Wikipédia em inglês, Battle of Sedan (1940)."},
-    {"item": "Terreno", "valor": "a floresta dos Ardenas, tida como intransitável para blindados, com quatro itinerários reservados para o grupo de Kleist; depois dela, o rio Meuse em Sedan, onde as posições francesas não estavam cobertas pela Linha Maginot", "conf": "1"},
-    {"item": "Objetivo alemão", "valor": "atravessar os Ardenas, cruzar o Meuse em Sedan, virar para oeste e correr para o mar, isolando os exércitos aliados que tivessem avançado para o norte, na Bélgica", "conf": "1"},
-    {"item": "Duração", "valor": "de 10 de maio a 25 de junho de 1940; o armistício é assinado em 22 de junho, em Compiègne. Cerca de seis semanas", "conf": "1"},
-    {"item": "Baixas — Alemanha", "valor": "27.074 mortos, 111.034 feridos e 18.384 desaparecidos; entre 795 e 822 tanques perdidos", "conf": "DIV", "nota": "As fontes divergem no número de tanques perdidos."},
-    {"item": "Baixas — Aliados", "valor": "73.000 mortos, 240.000 feridos e 15.000 desaparecidos; 1.749 tanques franceses e 689 britânicos perdidos", "conf": "1"},
-    {"item": "Prisioneiros", "valor": "1.756.000 aliados", "conf": "1", "nota": "Wikipédia em inglês, Battle of France."},
-    {"item": "Resultado", "valor": "vitória alemã completa; a França assina o armistício em 22 de junho de 1940", "conf": "1"},
-    {"item": "O depois", "valor": "a ponta blindada alemã chega ao Canal da Mancha e fecha o cerco sobre os exércitos que tinham entrado na Bélgica; diante de Dunquerque vem uma ordem de parar, e mais de 300.000 homens saem pelo mar", "conf": "2+"}
+    {
+      "item": "Forças em 10 de maio",
+      "valor": "Alemanha: 141 divisões e 3.300.000 homens. Aliados: 135 divisões e 3.300.000 homens",
+      "conf": "1",
+      "nota": "Wikipédia em inglês, Battle of France."
+    },
+    {
+      "item": "Artilharia e aviação",
+      "valor": "Alemanha: 7.378 canhões e 5.638 aviões. Aliados: 13.974 canhões e menos de 2.935 aviões",
+      "conf": "1",
+      "nota": "A única superioridade material alemã clara era a aérea."
+    },
+    {
+      "item": "Tanques",
+      "valor": "Alemanha: 2.445. França sozinha: entre 3.383 e 4.071",
+      "conf": "DIV",
+      "nota": "A própria fonte declara a divergência no número de tanques franceses."
+    },
+    {
+      "item": "Panzergruppe von Kleist",
+      "valor": "134.000 homens, 1.222 tanques e 378 veículos, em cinco divisões blindadas: XIX Panzerkorps (3 divisões, eixo Sedan), XLI Panzerkorps (2, eixo Monthermé) e XV Corpo (2, alto Ardenas, guarda de flanco). A Wikipédia em francês, citando Mary (2009) e Frieser (2003), conta 1.250 carros e 350 veículos blindados de reconhecimento",
+      "conf": "DIV",
+      "nota": "São contagens de base diferente; as duas dizem a mesma coisa: cerca de metade dos tanques alemães num grupo só."
+    },
+    {
+      "item": "Comandantes e planejadores",
+      "valor": "Alemanha: Erich von Manstein (autor do plano), Franz Halder (chefe do estado-maior), Walther von Brauchitsch (comandante-em-chefe). França: Maurice Gamelin (comandante-em-chefe), Alphonse Georges",
+      "conf": "1"
+    },
+    {
+      "item": "O avanço aliado na Bélgica",
+      "valor": "7º Exército francês (Giraud), até Breda; Força Expedicionária Britânica (Gort), 9 divisões, no Dyle; 1º Exército francês (Blanchard), 10 divisões, de Wavre a Namur; 9º Exército (Corap), ao sul de Namur, ao longo do Meuse",
+      "conf": "1",
+      "nota": "Wikipédia em inglês, Dyle Plan."
+    },
+    {
+      "item": "Sedan — defesa francesa",
+      "valor": "55ª Divisão de Infantaria (general Henri Lafontaine), de categoria B, e a 71ª Divisão, ainda entrando na linha: 20.000 homens e 174 peças de artilharia",
+      "conf": "1"
+    },
+    {
+      "item": "Sedan — ataque alemão",
+      "valor": "1ª, 2ª e 10ª Divisões Panzer e o Regimento Großdeutschland: 60.000 homens, 41.000 veículos, 788 tanques e 141 peças",
+      "conf": "1",
+      "nota": "Wikipédia em inglês, Battle of Sedan (1940)."
+    },
+    {
+      "item": "Terreno",
+      "valor": "a floresta dos Ardenas, tida como intransitável para blindados, com quatro itinerários reservados para o grupo de Kleist; depois dela, o rio Meuse em Sedan, onde as posições francesas não estavam cobertas pela Linha Maginot",
+      "conf": "1"
+    },
+    {
+      "item": "Objetivo alemão",
+      "valor": "atravessar os Ardenas, cruzar o Meuse em Sedan, virar para oeste e correr para o mar, isolando os exércitos aliados que tivessem avançado para o norte, na Bélgica",
+      "conf": "1"
+    },
+    {
+      "item": "Duração",
+      "valor": "de 10 de maio a 25 de junho de 1940; o armistício é assinado em 22 de junho, em Compiègne. Cerca de seis semanas",
+      "conf": "1"
+    },
+    {
+      "item": "Baixas — Alemanha",
+      "valor": "27.074 mortos, 111.034 feridos e 18.384 desaparecidos; entre 795 e 822 tanques perdidos",
+      "conf": "DIV",
+      "nota": "As fontes divergem no número de tanques perdidos."
+    },
+    {
+      "item": "Baixas — Aliados",
+      "valor": "73.000 mortos, 240.000 feridos e 15.000 desaparecidos; 1.749 tanques franceses e 689 britânicos perdidos",
+      "conf": "1"
+    },
+    {
+      "item": "Prisioneiros",
+      "valor": "1.756.000 aliados",
+      "conf": "1",
+      "nota": "Wikipédia em inglês, Battle of France."
+    },
+    {
+      "item": "Resultado",
+      "valor": "vitória alemã completa; a França assina o armistício em 22 de junho de 1940",
+      "conf": "1"
+    },
+    {
+      "item": "O depois",
+      "valor": "a ponta blindada alemã chega ao Canal da Mancha e fecha o cerco sobre os exércitos que tinham entrado na Bélgica; diante de Dunquerque vem uma ordem de parar, e mais de 300.000 homens saem pelo mar",
+      "conf": "2+"
+    }
   ],
   "lances": [
     {
@@ -116,12 +212,30 @@
     }
   ],
   "fontes": [
-    {"texto": "Battle of France — Wikipédia em inglês.", "url": "https://en.wikipedia.org/wiki/Battle_of_France"},
-    {"texto": "Manstein Plan — Wikipédia em inglês.", "url": "https://en.wikipedia.org/wiki/Manstein_Plan"},
-    {"texto": "Battle of Sedan (1940) — Wikipédia em inglês.", "url": "https://en.wikipedia.org/wiki/Battle_of_Sedan_(1940)"},
-    {"texto": "Dyle Plan — Wikipédia em inglês.", "url": "https://en.wikipedia.org/wiki/Dyle_Plan"},
-    {"texto": "Panzergruppe von Kleist — Wikipédia em francês, citando Jean-Yves Mary (2009) e Karl-Heinz Frieser (2003).", "url": "https://fr.wikipedia.org/wiki/Panzergruppe_von_Kleist"},
-    {"texto": "Karl-Heinz Frieser, The Blitzkrieg Legend: The 1940 Campaign in the West (citado pela Wikipédia em inglês).", "url": null}
+    {
+      "texto": "Battle of France — Wikipédia em inglês.",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_France"
+    },
+    {
+      "texto": "Manstein Plan — Wikipédia em inglês.",
+      "url": "https://en.wikipedia.org/wiki/Manstein_Plan"
+    },
+    {
+      "texto": "Battle of Sedan (1940) — Wikipédia em inglês.",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Sedan_(1940)"
+    },
+    {
+      "texto": "Dyle Plan — Wikipédia em inglês.",
+      "url": "https://en.wikipedia.org/wiki/Dyle_Plan"
+    },
+    {
+      "texto": "Panzergruppe von Kleist — Wikipédia em francês, citando Jean-Yves Mary (2009) e Karl-Heinz Frieser (2003).",
+      "url": "https://fr.wikipedia.org/wiki/Panzergruppe_von_Kleist"
+    },
+    {
+      "texto": "Karl-Heinz Frieser, The Blitzkrieg Legend: The 1940 Campaign in the West (citado pela Wikipédia em inglês).",
+      "url": null
+    }
   ],
   "imagens": [
     {
@@ -192,5 +306,5 @@
       "ano": "1940"
     }
   ],
-  "proximo": null
+  "proximo": "dunquerque"
 }
