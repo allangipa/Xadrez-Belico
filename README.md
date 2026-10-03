@@ -89,15 +89,13 @@ com o que é servido (`index.html`, `404.html`, `robots.txt`, `sitemap.xml`,
 static site archive". **Esse deploy apaga a pasta inteira do site antes de
 extrair**: o pacote vai sempre completo.
 
-### GitHub e deploy por push (pendente)
+### GitHub e deploy por push
 
-O repositório git local existe (branch `main`), sem remoto. Para ligar, crie o
-repositório vazio `Xadrez-Belico` em github.com e:
+Repositório: https://github.com/allangipa/Xadrez-Belico (branch `main`,
+ligado em 02/10/2026).
 
-```bash
-git remote add origin https://github.com/allangipa/Xadrez-Belico.git
-git push -u origin main
-```
+Falta ligar o Git do painel — até lá o push guarda o código mas **não**
+publica; o site só muda com um pacote novo.
 
 Depois, no painel: Sites → xadrezbelico.com.br → Avançado → Git, branch
 `main`, diretório = raiz. Daí em diante cada push publica, como no
