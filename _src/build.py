@@ -41,6 +41,17 @@ DOMINIO = "https://xadrezbelico.com.br"
 CANAL = None
 NOME = "Xadrez Bélico"
 
+# AdSense — mesmo publisher do Vestígio Oculto. ADSENSE_LIGADO = False tira
+# tudo de todas as páginas e apaga o ads.txt: é o interruptor geral.
+ADSENSE_LIGADO = True
+ADSENSE_PUB = "pub-4401770243539507"
+# False = a faixa avisa e o anúncio carrega de imediato; quem recusar deixa de
+# receber. True = nada de anúncio até "Entendi" (mais conservador, menos receita).
+# Igual ao Vestígio.
+CONSENTIMENTO_BLOQUEIA = False
+CHAVE_CONSENTIMENTO = "xb-consentimento"
+
+
 # Episódios anunciados que ainda não têm página.
 EM_PRODUCAO = [
     {
@@ -150,6 +161,54 @@ def carregar():
 
 
 # --- peças comuns -------------------------------------------------------------
+
+def adsense_head():
+    if not ADSENSE_LIGADO:
+        return "<!-- AdSense desligado em _src/build.py -->"
+    return (f'<meta name="google-adsense-account" content="ca-{ADSENSE_PUB}">\n'
+            '<link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>')
+
+
+def consentimento(base):
+    """A faixa de cookies. O script do AdSense não fica no HTML: entra por
+    aqui, e só quando pode — mesmo desenho do site do Vestígio Oculto."""
+    if not ADSENSE_LIGADO:
+        return ""
+    return f"""<div class="consentimento" id="consentimento" role="dialog" aria-live="polite" aria-label="Aviso de cookies" hidden>
+  <div class="casca">
+    <p>Este site usa cookies do Google AdSense para exibir anúncios e medir audiência. Não pedimos cadastro nem e-mail. Detalhes na <a href="{base}privacidade.html">política de privacidade</a>.</p>
+    <div class="botoes">
+      <button type="button" data-consent="recusar">Recusar anúncios</button>
+      <button type="button" data-consent="aceitar" class="principal">Entendi</button>
+    </div>
+  </div>
+</div>
+<script>
+(function(){{
+  var CHAVE='{CHAVE_CONSENTIMENTO}', PUB='{ADSENSE_PUB}', BLOQUEIA={'true' if CONSENTIMENTO_BLOQUEIA else 'false'};
+  function ler(){{try{{return localStorage.getItem(CHAVE)}}catch(e){{return null}}}}
+  function gravar(v){{try{{localStorage.setItem(CHAVE,v)}}catch(e){{}}}}
+  function carrega(){{
+    if(!PUB||document.getElementById('ads-google'))return;
+    var s=document.createElement('script');s.id='ads-google';s.async=true;s.crossOrigin='anonymous';
+    s.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-'+PUB;
+    document.head.appendChild(s);
+  }}
+  var escolha=ler();
+  if(escolha==='aceitar'||(escolha===null&&!BLOQUEIA))carrega();
+  var caixa=document.getElementById('consentimento');
+  if(escolha===null&&caixa){{
+    caixa.hidden=false;
+    caixa.addEventListener('click',function(ev){{
+      var b=ev.target.closest('[data-consent]');if(!b)return;
+      var v=b.dataset.consent;gravar(v);caixa.hidden=true;
+      if(v==='aceitar')carrega();else{{var x=document.getElementById('ads-google');if(x)x.remove();}}
+    }});
+  }}
+}})();
+</script>
+"""
+
 def cabeca(titulo, descricao, url, imagem, base, jsonld, tipo="website"):
     return f"""<!doctype html>
 <html lang="pt-BR">
@@ -163,6 +222,7 @@ def cabeca(titulo, descricao, url, imagem, base, jsonld, tipo="website"):
 <link rel="icon" href="{base}assets/marca/cavalo-64.png" type="image/png">
 <link rel="apple-touch-icon" href="{base}assets/marca/cavalo-180.png">
 <link rel="preload" href="{base}assets/fontes/libre-baskerville-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+{adsense_head()}
 <link rel="stylesheet" href="{base}assets/xadrez.css">
 <meta property="og:type" content="{tipo}">
 <meta property="og:site_name" content="{e(NOME)}">
@@ -216,7 +276,7 @@ def rodape(base):
     <div>
       <h4>Este site</h4>
       <ul>
-        <li>Não usa cookies nem rastreamento.</li>
+        <li>Exibe anúncios do Google AdSense. <a href="{base}privacidade.html">Política de privacidade</a>.</li>
         <li>Só material de época ou foto real, com crédito. Nenhuma imagem gerada por IA.</li>
       </ul>
     </div>
@@ -391,7 +451,7 @@ def home(bs, og):
   </div>
 </section>
 </main>
-""" + rodape(base) + fim())
+""" + rodape(base) + consentimento(base) + fim())
 
 
 # --- página de batalha ---------------------------------------------------------------
@@ -507,7 +567,7 @@ def pagina(b, bs, og):
 {nav}
 </main>
 <div class="lupa" role="dialog" aria-modal="true" aria-label="Imagem ampliada"><button type="button">Fechar</button><img alt=""><p></p></div>
-""" + rodape(base) + fim())
+""" + rodape(base) + consentimento(base) + fim())
 
 
 def pagina_404():
@@ -520,8 +580,72 @@ def pagina_404():
   <p>Esta casa do tabuleiro não existe, ou a página mudou de endereço.</p>
   <div class="botoes"><a class="botao cheio" href="/index.html#batalhas">Ver as batalhas</a></div>
 </div></main>
-""" + rodape(base) + fim())
+""" + rodape(base) + consentimento(base) + fim())
 
+
+
+PRIVACIDADE = """<main id="conteudo"><div class="casca privacidade">
+  <span class="rotulo">Documento · atualizado em 02 de outubro de 2026</span>
+  <h1>Política de privacidade</h1>
+  <p class="lead">Um site que cobra fonte dos outros deve ser claro sobre si mesmo. Aqui está o que o {{NOME}} coleta, o que não coleta, quem mais está envolvido e o que você pode exigir.</p>
+
+  <div class="resumo"><strong>O resumo, em três linhas.</strong> Não pedimos cadastro, não temos formulário e não guardamos seu e-mail. O que existe são cookies de publicidade do Google, usados para exibir anúncios. Você pode recusá-los na faixa que aparece na primeira visita, ou desligá-los a qualquer momento nas configurações do Google.</div>
+
+  <h2>1. Quem é o responsável</h2>
+  <p>O <strong>{{NOME}}</strong> é um projeto editorial independente, publicado em xadrezbelico.com.br, {{CANAL_FRASE}}. Para qualquer assunto desta política — inclusive pedidos de exclusão ou de informação —, o contato é o e-mail divulgado no canal.</p>
+
+  <h2>2. O que coletamos, e o que não</h2>
+  <p>Não há cadastro, login, comentários, newsletter nem formulário de contato. Nenhuma página pede seu nome, e-mail, telefone ou documento. Não montamos perfil de leitor e não vendemos nem compartilhamos lista de ninguém, porque lista não existe.</p>
+  <p>O que existe é o que qualquer site recebe por ser acessado: o servidor que hospeda estas páginas registra o endereço IP, a data e a hora, a página pedida e o navegador usado. Esses registros servem para segurança e diagnóstico de falha, e não são usados para identificar pessoas.</p>
+
+  <h2>3. Cookies e publicidade</h2>
+  <p>Este site exibe anúncios por meio do <strong>Google AdSense</strong>. Para isso, o Google e seus parceiros usam cookies — pequenos arquivos gravados no seu navegador — para selecionar e medir os anúncios.</p>
+  <ul>
+    <li>O Google, como fornecedor terceirizado, utiliza cookies para exibir anúncios neste site.</li>
+    <li>O <strong>cookie DART</strong> permite que o Google veicule anúncios com base nas visitas do usuário a este e a outros sites da internet.</li>
+    <li>Parceiros e redes de terceiros também podem usar cookies, identificadores de dispositivo ou tecnologia semelhante para medir e personalizar os anúncios.</li>
+    <li>Nenhum desses dados passa por nós: o site não recebe, não armazena e não tem acesso ao que essas redes coletam.</li>
+  </ul>
+  <p>Você pode desativar a publicidade personalizada — em todos os sites da rede do Google, não só neste — em <a href="https://adssettings.google.com" rel="noopener">adssettings.google.com</a>. As regras completas do Google estão em <a href="https://policies.google.com/technologies/ads?hl=pt-BR" rel="noopener">policies.google.com/technologies/ads</a>, e para sair da publicidade comportamental de várias redes de uma vez existe o <a href="https://www.aboutads.info/choices/" rel="noopener">aboutads.info/choices</a>.</p>
+  <p>Todo navegador também permite bloquear ou apagar cookies. Fazer isso não impede a leitura de nada: o conteúdo deste site não depende de cookie para funcionar.</p>
+
+  <h2>4. O que guardamos no seu navegador</h2>
+  <p>Uma única coisa, e ela não sai do seu aparelho: quando você responde à faixa de cookies, a escolha fica registrada no armazenamento local do navegador, sob a chave <code>{{CHAVE}}</code>. Serve só para não perguntar de novo a cada página. Não é cookie, não é enviada a servidor nenhum e some quando você limpa os dados do site.</p>
+
+  <h2>5. Conteúdo de terceiros</h2>
+  <p>Um único serviço externo participa da exibição destas páginas: o <strong>Google AdSense</strong>, que entrega os anúncios. Se você recusar os cookies na faixa, o anúncio não é sequer carregado, e nem esse pedido acontece.</p>
+  <p>O <strong>YouTube</strong> só entra em cena se você clicar num link para o canal: nenhum vídeo é incorporado nestas páginas. Todo o resto — as imagens das páginas de batalha e as fontes tipográficas — vem deste mesmo domínio.</p>
+
+  <h2>6. Seus direitos sob a LGPD</h2>
+  <p>A Lei nº 13.709/2018 garante a você o direito de confirmar se há tratamento de dados seus, de acessá-los, de corrigi-los, de pedir anonimização ou eliminação, de solicitar portabilidade, de saber com quem foram compartilhados e de revogar consentimento a qualquer momento.</p>
+  <p>Aqui o exercício desses direitos é curto, porque a base de dados que poderíamos entregar é praticamente vazia. Ainda assim, qualquer pedido feito pelo contato do canal será respondido. Para os dados que o Google coleta através dos anúncios, o pedido precisa ser feito ao próprio Google — nós exibimos o espaço, mas é ele quem trata esses dados.</p>
+
+  <h2>7. Crianças e adolescentes</h2>
+  <p>O conteúdo deste site não se dirige a menores de 13 anos, e não coletamos conscientemente dados de crianças. Se você é responsável por uma criança e acredita que algum dado dela chegou até aqui, entre em contato para que seja eliminado.</p>
+
+  <h2>8. Mudanças nesta política</h2>
+  <p>Se algo mudar — uma nova rede de anúncios, uma ferramenta de medição, uma área de comentários —, esta página muda junto, e a data no topo é atualizada.</p>
+
+  <div class="botoes" style="margin-top:2.5rem"><a class="botao cheio" href="index.html#batalhas">Ver as batalhas</a></div>
+</div></main>
+"""
+
+
+def pagina_privacidade():
+    """Escrita para ESTE site, não copiada de modelo: diz só o que ele faz.
+    Adaptada da política do Vestígio Oculto, que tem o mesmo desenho."""
+    base = ""
+    if CANAL:
+        canal = f'com canal correspondente no YouTube, <a href="{CANAL}" rel="noopener">o canal</a>'
+    else:
+        canal = "com canal correspondente no YouTube"
+    corpo = (PRIVACIDADE.replace("{{NOME}}", NOME).replace("{{CANAL_FRASE}}", canal)
+             .replace("{{CHAVE}}", CHAVE_CONSENTIMENTO))
+    return (cabeca(f"Política de privacidade — {NOME}",
+                   f"Como o {NOME} trata dados, cookies e publicidade, e quais são os seus direitos sob a LGPD.",
+                   DOMINIO + "/privacidade.html", f"{DOMINIO}/assets/img/og-home.jpg", base,
+                   {"@context": "https://schema.org", "@type": "WebPage", "name": "Política de privacidade"})
+            + topo(base) + corpo + rodape(base) + consentimento(base) + fim())
 
 def main():
     bs = carregar()
@@ -548,9 +672,17 @@ def main():
             velho.unlink()
             print("removido (batalha sem JSON):", velho.name)
     (RAIZ / "404.html").write_text(pagina_404(), encoding="utf-8")
+    (RAIZ / "privacidade.html").write_text(pagina_privacidade(), encoding="utf-8")
+    ads = RAIZ / "ads.txt"
+    if ADSENSE_LIGADO:
+        ads.write_text("# Declaração de vendedor autorizado (IAB ads.txt)\n"
+                       "# Gerado por _src/build.py a partir de ADSENSE_PUB. Não editar à mão.\n"
+                       f"google.com, {ADSENSE_PUB}, DIRECT, f08c47fec0942fa0\n", encoding="utf-8")
+    elif ads.exists():
+        ads.unlink()
 
     hoje = dt.date.today().isoformat()
-    urls = [DOMINIO + "/"] + [f"{DOMINIO}/batalhas/{b['slug']}.html" for b in bs]
+    urls = [DOMINIO + "/", DOMINIO + "/privacidade.html"] + [f"{DOMINIO}/batalhas/{b['slug']}.html" for b in bs]
     (RAIZ / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{u}</loc><lastmod>{hoje}</lastmod></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
