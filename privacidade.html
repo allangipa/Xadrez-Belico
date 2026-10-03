@@ -281,7 +281,25 @@ picture{display:contents}
 .leia strong{font:700 1.15rem/1.2 var(--f-titulo)}
 .leia a:hover strong{color:var(--ambar)}
 .leia .onde{font:500 .8rem/1.4 var(--f-rotulo);letter-spacing:.06em;color:var(--perg-2)}
-@media (max-width:720px){.leia ul{grid-template-columns:1fr}}</style>
+@media (max-width:720px){.leia ul{grid-template-columns:1fr}}
+.perguntas{border-top:1px solid var(--madeira);margin:1.2rem 0 0}
+.perguntas h3{font-size:1.15rem;line-height:1.3;margin:1.4rem 0 .5rem;color:var(--perg)}
+.perguntas p{margin:0 0 1.2rem;padding-bottom:1.2rem;border-bottom:1px solid var(--madeira)}
+.temas-link{margin:1rem 0 0;font-size:.95rem;color:var(--perg-2)}
+.temas-link .rotulo{margin-right:.4rem}
+.temas-link a{color:var(--ambar)}
+.temas-lista{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr));gap:.8rem}
+.temas-lista a{display:flex;flex-direction:column;gap:.45rem;height:100%;padding:1.1rem 1.2rem;border:1px solid var(--madeira);background:var(--mesa-2);text-decoration:none;color:var(--perg);transition:border-color .25s,background .25s}
+.temas-lista a:hover{border-color:var(--ambar);background:var(--mesa-3);color:var(--perg)}
+.temas-lista strong{font:700 1.2rem/1.2 var(--f-titulo)}
+.temas-lista a:hover strong{color:var(--ambar)}
+.tema-abre{padding:clamp(2.5rem,7vw,5rem) 0 clamp(1rem,3vw,2rem)}
+.tema-abre h1{margin:.6rem 0 1.4rem}
+.tema-abre .intro{max-width:var(--texto)}
+.tema-abre .intro p{color:var(--perg-2);font-size:1.05rem;margin:0 0 1.1em}
+.migalhas{font:500 .8rem/1.4 var(--f-rotulo);letter-spacing:.08em;text-transform:uppercase;color:var(--perg-3);margin-bottom:1.4rem}
+.migalhas a{color:var(--perg-3)}
+.migalhas span{color:var(--perg-2)}</style>
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Xadrez Bélico">
 <meta property="og:locale" content="pt_BR">

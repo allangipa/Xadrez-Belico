@@ -196,6 +196,13 @@
       "registro": "O apelido lurdinha, dado pelos pracinhas, é atestado. A explicação da noiva é folclore sem fonte firme."
     }
   ],
+  "perguntas": [
+    {"p": "Quem venceu a Batalha de Monte Castelo?", "r": "A Força Expedicionária Brasileira: às 17h30 de 21 de fevereiro de 1945, o Batalhão Franklin alcançou o cume. A conquista dependeu da 10ª Divisão de Montanha americana, que antes tomou os picos vizinhos na Operação Encore."},
+    {"p": "Quando foi a Batalha de Monte Castelo?", "r": "De 24 de novembro de 1944 a 21 de fevereiro de 1945, quase três meses. Os ataques de 24, 25 e 29 de novembro e de 12 de dezembro de 1944 foram repelidos; o ataque final durou um dia."},
+    {"p": "Por que a FEB falhou nos primeiros ataques a Monte Castelo?", "r": "Porque os picos vizinhos continuavam alemães, e quem subia a encosta levava fogo de frente e de lado. Em 29 de novembro, a FEB atacou logo depois de os alemães retomarem o Monte Belvedere. A Força-Tarefa 45 americana também foi repelida no mesmo morro."},
+    {"p": "Quantos ataques a FEB fez a Monte Castelo?", "r": "As fontes divergem: a Wikipédia em português fala em seis; o Blog do Exército Brasileiro, em quatro tentativas anteriores à conquista. A diferença depende de contar 24 e 25 de novembro como um ataque ou dois e de incluir ações menores."},
+    {"p": "Quem comandou a Batalha de Monte Castelo?", "r": "O comandante da FEB era Mascarenhas de Moraes. Do outro lado, o setor era defendido pela 232ª Divisão de Infantaria alemã, do tenente-general Eccard Freiherr von Gablenz."}
+  ],
   "fontes": [
     {
       "texto": "Batalha de Monte Castello, Wikipédia em português",

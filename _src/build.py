@@ -132,12 +132,98 @@ def conferir_relacionados(x, slugs):
 def leia_tambem(x, todos):
     """Bloco "Leia também": três links internos de assunto próximo."""
     rel = x.get("relacionados") or []
-    if not rel:
+    temas = temas_de(x["slug"])
+    if not rel and not temas:
         return ""
     por_slug = {y["slug"]: y for y in todos}
     itens = "".join(ITEM_LEIA(por_slug[s]) for s in rel)
+    lista = f"<ul>{itens}</ul>" if itens else ""
+    links = ""
+    if temas:
+        links = ('<p class="temas-link"><span class="rotulo">Tema</span> '
+                 + " · ".join(f'<a href="../temas/{t["slug"]}.html">{e(t["nome"])}</a>' for t in temas) + "</p>")
     return (f'<section class="leia" aria-labelledby="leia"><h2 id="leia"><span class="n">{ROTULO_LEIA}</span>Leia também</h2>'
-            f'<ul>{itens}</ul></section>')
+            f'{lista}{links}</section>')
+
+
+def conferir_perguntas(nome, x):
+    """`perguntas` (opcional): 3 a 5 itens {"p": "…?", "r": "…"}. O texto
+    passa pela mesma trava de bastidor do resto da página (a conferência
+    abaixo, em carregar(), lê o JSON inteiro menos imagens e fontes)."""
+    ps = x.get("perguntas")
+    if ps is None:
+        return
+    if not isinstance(ps, list) or not 3 <= len(ps) <= 5:
+        falha(f"{nome}: perguntas deve ter de 3 a 5 itens")
+    for it in ps:
+        if not isinstance(it, dict) or set(it) != {"p", "r"} or not it["p"].strip() or not it["r"].strip():
+            falha(f"{nome}: pergunta malformada {it!r}")
+        if not it["p"].strip().endswith("?"):
+            falha(f"{nome}: pergunta sem '?': {it['p']!r}")
+        m = BASTIDOR.search(it["p"] + " " + it["r"])
+        if m:
+            falha(f"{nome}: bastidor de produção numa pergunta ({m.group(0)!r}): {it['p']!r}")
+
+
+ROTULO_PERGUNTAS = "Perguntas"
+
+
+def perguntas_html(x):
+    """Seção "Perguntas frequentes" (h2 + h3/p). Sem JSON-LD de FAQ, de propósito."""
+    ps = x.get("perguntas") or []
+    if not ps:
+        return ""
+    itens = "".join(f"<h3>{e(it['p'])}</h3><p>{para(it['r'])}</p>" for it in ps)
+    return f'<h2 id="perguntas"><span class="n">{ROTULO_PERGUNTAS}</span>Perguntas frequentes</h2><div class="perguntas">{itens}</div>'
+
+
+# --- temas ------------------------------------------------------------------
+# Páginas-índice por assunto, em temas/<slug>.html, a partir de _src/temas.json.
+TEMAS = []
+CHAVE_MEMBROS = "batalhas"
+
+
+def carregar_temas(itens):
+    arq = SRC / "temas.json"
+    if not arq.exists():
+        return []
+    try:
+        temas = json.loads(arq.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as ex:
+        falha(f"temas.json não é JSON válido: {ex}")
+    slugs = {x["slug"] for x in itens}
+    vistos = set()
+    for t in temas:
+        for k in ("slug", "nome", "titulo", "resumo", "intro", CHAVE_MEMBROS):
+            if not t.get(k):
+                falha(f"tema sem '{k}': {t.get('slug')}")
+        if not re.fullmatch(r"[a-z0-9-]+", t["slug"]) or t["slug"] in vistos:
+            falha(f"tema com slug inválido ou repetido: {t['slug']!r}")
+        vistos.add(t["slug"])
+        if not 2 <= len(t["intro"]) <= 3:
+            falha(f"tema {t['slug']}: a introdução tem de ter 2 ou 3 parágrafos")
+        m = t[CHAVE_MEMBROS]
+        if len(m) < 2 or len(set(m)) != len(m):
+            falha(f"tema {t['slug']}: precisa de 2 ou mais itens, sem repetir")
+        for s in m:
+            if s not in slugs:
+                falha(f"tema {t['slug']}: '{s}' não existe")
+        texto = json.dumps(t, ensure_ascii=False)
+        b = BASTIDOR.search(texto)
+        if b:
+            falha(f"tema {t['slug']}: bastidor de produção no texto público ({b.group(0)!r})")
+    return temas
+
+
+def titulo_tema(t):
+    for x in (f"{t['titulo']} · {NOME}", t["titulo"]):
+        if len(x) <= TITULO_MAX:
+            return x
+    falha(f"tema {t['slug']}: título com mais de {TITULO_MAX} caracteres")
+
+
+def temas_de(slug):
+    return [t for t in TEMAS if slug in t[CHAVE_MEMBROS]]
 
 
 def carregar():
@@ -171,6 +257,7 @@ def carregar():
         for n in b["numeros"] + b["ficha"]:
             if n.get("conf") not in CONF:
                 falha(f"{f.name}: conf inválido {n.get('conf')!r} em {n}")
+        conferir_perguntas(f.name, b)
         texto = json.dumps({k: v for k, v in b.items() if k not in ("imagens", "fontes", "titulo_video")}, ensure_ascii=False)
         texto += " ".join(i["legenda"] + " " + i["alt"] for i in b["imagens"])
         m = BASTIDOR.search(texto)
@@ -446,8 +533,12 @@ def fonte(nome, tam):
     return ImageFont.truetype(str(SRC / "marca" / nome), tam)
 
 
-def og_batalha(b):
-    destino = IMG / f"og-{b['slug']}.jpg"
+def og_batalha(b, nome_arq=None, rotulo=None, titulo=None):
+    """Imagem de compartilhamento 1200x630. Também serve às páginas de tema
+    (nome_arq, rotulo e titulo próprios, sobre a capa da primeira batalha)."""
+    destino = IMG / (nome_arq or f"og-{b['slug']}.jpg")
+    rotulo = rotulo or f"EPISÓDIO {b['num']}  ·  {b['data'].upper()}"
+    titulo = (titulo or b["batalha"]).upper()
     capa = Image.open(IMG / b["imagens"][0]["arquivo"]).convert("RGB")
     im = ImageOps.fit(capa, (1200, 630), Image.LANCZOS, centering=(0.5, 0.45))
     im = Image.blend(im, ImageOps.colorize(ImageOps.grayscale(im), (23, 19, 16), (227, 210, 170)), 0.55)
@@ -456,11 +547,11 @@ def og_batalha(b):
         sombra.putpixel((0, y), int(245 * min(1, max(0, (y - 150) / 330)) ** 1.1))
     im = Image.composite(Image.new("RGB", im.size, (23, 19, 16)), im, sombra.resize((1200, 630)))
     d = ImageDraw.Draw(im)
-    d.text((58, 372), f"EPISÓDIO {b['num']}  ·  {b['data'].upper()}", font=fonte("rotulo.ttf", 26), fill=(217, 151, 63))
+    d.text((58, 372), rotulo, font=fonte("rotulo.ttf", 26), fill=(217, 151, 63))
     tam = 76
-    while tam > 40 and d.textlength(b["batalha"].upper(), font=fonte("titulo.ttf", tam)) > 1084:
+    while tam > 40 and d.textlength(titulo, font=fonte("titulo.ttf", tam)) > 1084:
         tam -= 4
-    d.text((54, 412), b["batalha"].upper(), font=fonte("titulo.ttf", tam), fill=(227, 210, 170))
+    d.text((54, 412), titulo, font=fonte("titulo.ttf", tam), fill=(227, 210, 170))
     d.text((58, 530), "X A D R E Z   B É L I C O", font=fonte("rotulo.ttf", 30), fill=(217, 151, 63))
     esc = Image.open(SRC / "marca" / "escudo-original.jpg").convert("RGB")
     esc.thumbnail((150, 185), Image.LANCZOS)
@@ -564,7 +655,7 @@ DESC_PRIV = (f"Como o {NOME} trata dados, cookies e publicidade do Google AdSens
 
 
 # --- home ------------------------------------------------------------------------
-def card(b, base):
+def card(b, base, texto=None):
     capa = b["imagens"][0]
     return f"""<li class="card revela">
   <div class="foto">{img_tag(capa['arquivo'], capa['alt'], base, '(max-width:720px) 100vw, 400px', foco=capa.get('foco'))}
@@ -575,7 +666,7 @@ def card(b, base):
     <span class="rotulo">{e(b['campanha'])}</span>
     <h3><a href="{base}batalhas/{b['slug']}.html">{e(b['batalha'])}</a></h3>
     <div class="quando">{e(b['data'])} · {e(b['lugar'])}</div>
-    <p class="perg">{para(b['pergunta'])}</p>
+    <p class="perg">{para(texto or b['pergunta'])}</p>
     <div class="pe"><span>Episódio {e(b['num'])}</span><span>Ler a partida →</span></div>
   </div>
 </li>"""
@@ -641,6 +732,7 @@ def home(bs, og):
   </div>
 </section>
 
+{secao_temas(base)}
 <section class="secao metodo" id="metodo">
   <div class="casca">
     <div>
@@ -652,6 +744,63 @@ def home(bs, og):
     <ul class="graus">{graus}</ul>
   </div>
 </section>
+</main>
+""" + rodape(base) + consentimento(base) + fim())
+
+
+def secao_temas(base, atual=None, titulo="Temas", rotulo="Por assunto"):
+    """Lista de temas: na home (seção #temas) e no pé de cada página de tema."""
+    ts = [t for t in TEMAS if t["slug"] != atual]
+    if not ts:
+        return ""
+    itens = "".join(f'<li><a href="{base}temas/{t["slug"]}.html"><span class="rotulo">{len(t[CHAVE_MEMBROS]):02d} batalhas</span>'
+                    f'<strong>{e(t["nome"])}</strong></a></li>' for t in ts)
+    sid = ' id="temas"' if atual is None else ""
+    return f"""<section class="secao temas"{sid}>
+  <div class="casca">
+    <header><div><span class="rotulo">{e(rotulo)}</span><h2>{e(titulo)}</h2>
+      <p>As batalhas agrupadas por guerra e por frente, para ler a campanha inteira.</p></div></header>
+    <ul class="temas-lista">{itens}</ul>
+  </div>
+</section>
+"""
+
+
+def pagina_tema(t, bs, og):
+    base = "../"
+    url = f"{DOMINIO}/temas/{t['slug']}.html"
+    por_slug = {b["slug"]: b for b in bs}
+    membros = sorted((por_slug[s] for s in t[CHAVE_MEMBROS]), key=lambda b: b["num"])
+    cards = "\n".join(card(b, base, b["resumo"]) for b in membros)
+    jsonld = [{
+        "@context": "https://schema.org", "@type": "CollectionPage",
+        "name": t["nome"], "headline": t["titulo"], "description": t["resumo"], "url": url, "inLanguage": "pt-BR",
+        "isPartOf": {"@type": "WebSite", "name": NOME, "url": DOMINIO + "/"},
+        "image": {"@type": "ImageObject", "url": f"{DOMINIO}/assets/img/{og}", "width": 1200, "height": 630},
+        "mainEntity": {"@type": "ItemList", "numberOfItems": len(membros), "itemListElement": [
+            {"@type": "ListItem", "position": i, "url": f"{DOMINIO}/batalhas/{b['slug']}.html", "name": b["batalha"]}
+            for i, b in enumerate(membros, start=1)]},
+    }, migalhas((NOME, DOMINIO + "/"), ("Temas", DOMINIO + "/#temas"), (t["nome"], url))]
+    intro = "".join(f"<p>{para(p)}</p>" for p in t["intro"])
+    return (cabeca(titulo_tema(t), t["resumo"], url, f"{DOMINIO}/assets/img/{og}", base, jsonld)
+            + topo(base, "temas") + f"""<main id="conteudo">
+<section class="tema-abre">
+  <div class="casca">
+    <nav class="migalhas" aria-label="Você está em"><a href="../index.html">Início</a> / <a href="../index.html#temas">Temas</a> / <span>{e(t['nome'])}</span></nav>
+    <span class="rotulo">Tema · <b>{len(membros):02d}</b> batalhas</span>
+    <h1>{e(t['nome'])}</h1>
+    <div class="intro">{intro}</div>
+  </div>
+</section>
+<section class="secao" id="batalhas">
+  <div class="casca">
+    <header><div><span class="rotulo">Tabuleiro</span><h2>As batalhas deste tema</h2></div></header>
+    <ul class="batalhas">
+{cards}
+    </ul>
+  </div>
+</section>
+{secao_temas(base, t['slug'], 'Outros temas', 'Mais')}
 </main>
 """ + rodape(base) + consentimento(base) + fim())
 
@@ -688,7 +837,8 @@ def pagina(b, bs, og):
         f'<li>{para(f["texto"])}' + (f' — <a href="{e(f["url"])}" rel="noopener">{e(re.sub(r"^https?://(www[.])?", "", f["url"]).split("/")[0])}</a>' if f.get("url") else "") + "</li>"
         for f in b["fontes"])
     creditos = "".join(f'<li>Fig. {i+1:02d} — {e(im["legenda"])}: {credito(im)}</li>' for i, im in enumerate(b["imagens"]))
-    indice = [("ficha", "Ficha da batalha")] + [(sid, t) for sid, t, _ in secoes] + [("veredito", "Veredito"), ("mitos", "Mitos e registro"), ("fontes", "Fontes")]
+    indice = ([("ficha", "Ficha da batalha")] + [(sid, t) for sid, t, _ in secoes] + [("veredito", "Veredito"), ("mitos", "Mitos e registro")]
+              + ([("perguntas", "Perguntas frequentes")] if b.get("perguntas") else []) + [("fontes", "Fontes")])
     indice_html = "".join(f'<li><a href="#{a}">{e(t)}</a></li>' for a, t in indice)
 
     i_atual = [x["slug"] for x in bs].index(b["slug"])
@@ -745,6 +895,8 @@ def pagina(b, bs, og):
 
     <h2 id="mitos"><span class="n">Mitos</span>O que se conta e o que o registro mostra</h2>
     <ul class="mitos">{mitos}</ul>
+
+    {perguntas_html(b)}
 
     <section class="video">
       <div>
@@ -927,9 +1079,12 @@ def pagina_contato():
 
 def main():
     bs = carregar()
+    global TEMAS
+    TEMAS = carregar_temas(bs)
     seo = {"home": (TITULO_HOME, DESC_HOME), "sobre": (TITULO_SOBRE, DESC_SOBRE),
            "contato": (TITULO_CONTATO, DESC_CONTATO), "privacidade": (TITULO_PRIV, DESC_PRIV)}
     seo.update({b["slug"]: (titulo_seo(b), b["resumo"]) for b in bs})
+    seo.update({f"temas/{t['slug']}": (titulo_tema(t), t["resumo"]) for t in TEMAS})
     conferir_seo(seo)
     (RAIZ / "batalhas").mkdir(exist_ok=True)
     css = (SRC / "xadrez.css").read_text(encoding="utf-8").replace("url(/assets/fontes/", "url(fontes/")
@@ -955,6 +1110,18 @@ def main():
         if velho.name not in gerados:
             velho.unlink()
             print("removido (batalha sem JSON):", velho.name)
+    (RAIZ / "temas").mkdir(exist_ok=True)
+    por_slug = {b["slug"]: b for b in bs}
+    gerados_t = set()
+    for t in TEMAS:
+        primeira = min((por_slug[s] for s in t[CHAVE_MEMBROS]), key=lambda b: b["num"])
+        og_t = og_batalha(primeira, f"og-tema-{t['slug']}.jpg", f"TEMA  ·  {len(t[CHAVE_MEMBROS])} BATALHAS", t["nome"])
+        (RAIZ / "temas" / f"{t['slug']}.html").write_text(pagina_tema(t, bs, og_t), encoding="utf-8")
+        gerados_t.add(f"{t['slug']}.html")
+    for velho in (RAIZ / "temas").glob("*.html"):
+        if velho.name not in gerados_t:
+            velho.unlink()
+            print("removido (tema fora do temas.json):", velho.name)
     (RAIZ / "404.html").write_text(pagina_404(), encoding="utf-8")
     (RAIZ / "privacidade.html").write_text(pagina_privacidade(), encoding="utf-8")
     (RAIZ / "sobre.html").write_text(pagina_sobre(), encoding="utf-8")
@@ -973,13 +1140,16 @@ def main():
     datas = {f"{DOMINIO}/batalhas/{b['slug']}.html": data_git(SRC / "batalhas" / f"{b['num']}-{b['slug']}.json") for b in bs}
     for pg in ("sobre", "contato", "privacidade"):
         datas[f"{DOMINIO}/{pg}.html"] = fixas
+    d_temas = data_git(SRC / "temas.json") if TEMAS else fixas
+    for t in TEMAS:
+        datas[f"{DOMINIO}/temas/{t['slug']}.html"] = max([d_temas, fixas] + [datas[f"{DOMINIO}/batalhas/{s}.html"] for s in t[CHAVE_MEMBROS]])
     datas = {DOMINIO + "/": max([fixas, *datas.values()]), **datas}
     (RAIZ / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{u}</loc><lastmod>{d}</lastmod></url>\n" for u, d in datas.items()) + "</urlset>\n", encoding="utf-8")
     (RAIZ / "robots.txt").write_text(f"User-agent: *\nAllow: /\nDisallow: /_src/\n\nSitemap: {DOMINIO}/sitemap.xml\n", encoding="utf-8")
 
-    print(f"ok: {len(bs)} batalhas, {len(EM_PRODUCAO)} em produção" + ("" if CANAL else " · CANAL do YouTube não definido"))
+    print(f"ok: {len(bs)} batalhas, {len(EM_PRODUCAO)} em produção, {len(TEMAS)} temas" + ("" if CANAL else " · CANAL do YouTube não definido"))
     for b in bs:
         print(f"  {b['num']} {b['batalha']}: {len(b['ficha'])} linhas de ficha, {len(b['lances'])} lances, {len(b['imagens'])} imagens")
 

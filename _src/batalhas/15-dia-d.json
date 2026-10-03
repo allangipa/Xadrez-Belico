@@ -193,6 +193,13 @@
       "registro": "Omaha foi a praia mais cara: 2.374 baixas na conta do V Corpo americano, somando mortos, feridos e desaparecidos. Os mortos aliados do dia inteiro, em todas as praias, no ar e no mar, foram 4.414 na contagem histórica do National D-Day Memorial e 4.436 na lista atualizada. Em Utah, ao lado, as baixas foram 197."
     }
   ],
+  "perguntas": [
+    {"p": "O que foi o Dia D?", "r": "Foi o desembarque aliado na Normandia, no norte da França, em 6 de junho de 1944: cerca de 156 mil soldados desceram por mar e pelo ar em cinco setores de praia — Utah e Omaha, americanos; Gold e Sword, britânicos; Juno, canadense."},
+    {"p": "Por que o desembarque na Normandia não foi em Calais?", "r": "Porque o Pas-de-Calais, caminho mais curto pelo Canal da Mancha, era o lugar óbvio e por isso o mais fortificado. A Normandia era menos defendida, ficava ao alcance dos caças baseados na Inglaterra e tinha portos por perto, como Cherbourg."},
+    {"p": "Quantos soldados morreram no Dia D?", "r": "Do lado aliado, 4.414 mortos na contagem histórica do National D-Day Memorial e 4.436 na lista atualizada, 2.519 deles americanos. As baixas aliadas totais ficam entre mais de 9 mil e 10.500, e as alemãs entre 4 mil e 9 mil, conforme a fonte."},
+    {"p": "Quem comandou o Dia D?", "r": "Do lado aliado, o general Dwight D. Eisenhower, comandante supremo, com Bernard Montgomery no comando das forças terrestres do assalto. Do lado alemão, Gerd von Rundstedt comandava o Oeste e Erwin Rommel o Grupo de Exércitos B, mas Rommel estava em casa, na Alemanha, no dia."},
+    {"p": "Por que o Dia D foi em 6 de junho?", "r": "O desembarque precisava de lua perto da cheia e de maré baixa subindo ao amanhecer, o que dava a janela de 5 a 7 de junho. O dia 5 foi adiado pelo mau tempo; o meteorologista James Stagg previu uma melhora curta, e Eisenhower decidiu por 6 de junho."}
+  ],
   "fontes": [
     {
       "texto": "Gordon A. Harrison, Cross-Channel Attack (United States Army in World War II), Center of Military History, 1951 — cap. VII, German Defense Measures, 1944.",

@@ -206,6 +206,13 @@
       "registro": "O 8º Exército teve 13.560 baixas em doze dias: 2.350 mortos, 8.950 feridos e 2.260 desaparecidos. A 9ª Brigada Blindada perdeu a maior parte dos tanques numa única manhã em Tel el Aqqaqir. A superioridade decidiu quem venceria, não o preço."
     }
   ],
+  "perguntas": [
+    {"p": "Quem venceu a Batalha de El Alamein?", "r": "Venceu o 8º Exército britânico, de Montgomery, numa vitória decisiva: o Eixo recuou do Egito e não voltou a ameaçar Suez. Até 11 de novembro de 1942 deixou para trás cerca de 30 mil prisioneiros, a maioria infantaria italiana sem caminhões."},
+    {"p": "Por que Rommel perdeu a Batalha de El Alamein?", "r": "Porque chegou lá já perdendo. O gargalo de cerca de 65 km entre o mar e a depressão de Qattara tirou dele o flanco aberto, e a falta de combustível, com navios afundados com a ajuda do Ultra, tirou a manobra. Quando a batalha começou, ele ainda estava em licença médica na Alemanha."},
+    {"p": "Quando foi a Batalha de El Alamein?", "r": "A segunda batalha de El Alamein foi de 23 de outubro a 4 de novembro de 1942, com perseguição até 11 de novembro. Antes houve a primeira, de 1 a 27 de julho de 1942, em que Auchinleck parou o avanço de Rommel."},
+    {"p": "Quantos soldados morreram na Batalha de El Alamein?", "r": "O 8º Exército teve 13.560 baixas: 2.350 mortos, 8.950 feridos e 2.260 desaparecidos. Do lado do Eixo as fontes divergem: as contagens vão de cerca de 30 mil a 90 mil, conforme quem conta e o que conta."},
+    {"p": "Quem comandou a Batalha de El Alamein?", "r": "Do lado britânico, o tenente-general Bernard Montgomery, no 8º Exército desde 13 de agosto de 1942. Do lado do Eixo, Rommel estava em licença: o general Georg Stumme começou no comando e morreu na manhã de 24 de outubro, e Rommel só voltou na noite de 25."}
+  ],
   "fontes": [
     {
       "texto": "Australian War Memorial, El Alamein 80 years on.",

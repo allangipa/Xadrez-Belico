@@ -209,6 +209,13 @@
       "registro": "Dos 21 navios atingidos, 18 voltaram ao serviço; dos 8 encouraçados, 6. Os três porta-aviões estavam fora do porto, e os tanques de combustível, as oficinas e a base de submarinos ficaram intactos."
     }
   ],
+  "perguntas": [
+    {"p": "Quando foi o ataque a Pearl Harbor?", "r": "Na manhã de 7 de dezembro de 1941. As primeiras bombas caíram às 07:48 em Kaneohe e às 07:55 sobre o porto; a segunda onda chegou por volta das 08:50, e o ataque durou menos de duas horas."},
+    {"p": "Quantas pessoas morreram no ataque a Pearl Harbor?", "r": "Morreram 2.403 americanos: 2.008 da Marinha, 218 do Exército, 109 fuzileiros e 68 civis, quase metade deles no Arizona. O Japão perdeu 64 homens e 29 aviões."},
+    {"p": "Por que o Japão atacou Pearl Harbor?", "r": "Depois do corte do petróleo americano em julho de 1941, o Japão decidiu tomar o petróleo das Índias Orientais Holandesas. O ataque devia impedir a Frota do Pacífico de interferir nessa conquista e levar os Estados Unidos a negociar."},
+    {"p": "Roosevelt sabia do ataque a Pearl Harbor?", "r": "Nenhum documento mostra alguém em Washington sabendo que o alvo era Pearl Harbor. O código da marinha japonesa não era legível antes do ataque e a frota navegou em silêncio de rádio; Washington sabia que vinha guerra, e o que falhou foi juntar os avisos."},
+    {"p": "O que aconteceu depois do ataque a Pearl Harbor?", "r": "Em 8 de dezembro de 1941, os Estados Unidos declararam guerra ao Japão: 82 a 0 no Senado e 388 a 1 na Câmara. Em 11 de dezembro, Alemanha e Itália declararam guerra aos Estados Unidos."}
+  ],
   "fontes": [
     {
       "texto": "W. W. Outerbridge, relatório do USS Ward sobre o afundamento de um submarino japonês, 7 de dezembro de 1941 (anexo ao relatório do CINCPAC de 15 de fevereiro de 1942; NARA), transcrito pelo National Museum of the U.S. Navy.",

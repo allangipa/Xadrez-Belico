@@ -198,6 +198,13 @@
       "registro": "Foi o que mais reivindicou: 126 vitórias em seis semanas, até 11 de outubro de 1940. O número verificado diverge: cerca de 55 a 60 segundo Jerzy Cynk e outros historiadores poloneses, o que o mantém em primeiro; 44 segundo John Alcorn, o que o põe em quarto, atrás de três esquadrões de Spitfire."
     }
   ],
+  "perguntas": [
+    {"p": "Quem venceu a Batalha da Inglaterra?", "r": "O Reino Unido. A Luftwaffe não conquistou a superioridade aérea sobre o sul da Inglaterra, condição para a invasão, e em 17 de setembro de 1940 Hitler adiou a Operação Leão-Marinho até nova ordem."},
+    {"p": "Quando foi a Batalha da Inglaterra?", "r": "De 10 de julho a 31 de outubro de 1940, na datação britânica. Historiadores alemães tratam de julho de 1940 a maio de 1941, incluindo o bombardeio noturno do Blitz, como uma só campanha."},
+    {"p": "Por que a Alemanha perdeu a Batalha da Inglaterra?", "r": "Principalmente porque atacou um adversário que não enxergava. A rede de radar, observadores e telefone de Dowding dizia a cada esquadrão onde estava o inimigo, enquanto a inteligência alemã superestimava as perdas britânicas, subestimava a produção de caças e trocava de alvo sem insistir em nenhum."},
+    {"p": "Quantos aviões foram abatidos na Batalha da Inglaterra?", "r": "As contas divergem. A Luftwaffe perdeu 1.733 aviões pelos registros alemães divulgados em 1947, e 1.887 ou 1.977 em outras contas; o Fighter Command perdeu de 1.023 a 1.087. Morreram 544 aviadores do Fighter Command."},
+    {"p": "O Spitfire ganhou a Batalha da Inglaterra?", "r": "Não sozinho. O Hurricane era o caça mais numeroso da RAF e respondeu por mais de 60% das vitórias reivindicadas, embora também tenha sido o mais perdido: 753 Hurricanes contra 467 Spitfires."}
+  ],
   "fontes": [
     {
       "texto": "Battle of Britain (Enemy Losses), Hansard, Câmara dos Comuns, 14 de maio de 1947 — resposta do ministro do Ar, Philip Noel-Baker.",

@@ -200,6 +200,13 @@
       "registro": "O superlativo tem escopo, e o escopo é a Campanha da Itália: a 148ª foi a única divisão alemã capturada inteira, com o comando junto, por uma força aliada naquele teatro, da Sicília em 1943 à ofensiva final de 1945. Estendê-lo à guerra inteira é afirmar o que as fontes não dizem."
     }
   ],
+  "perguntas": [
+    {"p": "O que aconteceu em Fornovo di Taro na Segunda Guerra?", "r": "Entre 26 e 29 de abril de 1945, a FEB ocupou a saída do vale do Taro e encurralou a coluna da 148ª Divisão de Infantaria alemã. Depois de um ultimato, um ataque e uma madrugada de negociação, a divisão se rendeu incondicionalmente, com o general e o estado-maior."},
+    {"p": "Quantos alemães se renderam à FEB em Fornovo di Taro?", "r": "A contagem formal da rendição registra 14.779 prisioneiros, além de 4.000 cavalos e 80 canhões. O número de cerca de 20 mil que circula descreve os homens levados às áreas de concentração de Ponte Scodogna, e os 20.573 são o total de prisioneiros da FEB na campanha inteira."},
+    {"p": "Quando foi a rendição de Fornovo di Taro?", "r": "A rendição começou por volta das 13h de 29 de abril de 1945, depois de uma negociação que foi da meia-noite às 5h30. A coleta dos prisioneiros só terminou às 18h de 30 de abril, quando Fretter-Pico se apresentou com 31 oficiais do estado-maior."},
+    {"p": "Quem comandou a FEB em Fornovo di Taro?", "r": "A divisão era do general Mascarenhas de Moraes; o coronel Nelson de Melo, do 6º Regimento de Infantaria, deu o ultimato e ordenou o ataque. Do lado alemão, a 148ª Divisão era do Generalleutnant Otto Fretter-Pico, e quem negociou foi o major W. Kuhn."},
+    {"p": "Houve mesmo batalha em Fornovo di Taro?", "r": "Sim. A versão de que não houve batalha vem dos derrotados; o registro mostra choque de tropas em Collecchio em 26 de abril, um ultimato ignorado, um ataque às 13h de 28 de abril e mortos brasileiros antes da rendição."}
+  ],
   "fontes": [
     {
       "texto": "Departamento-Geral do Pessoal do Exército Brasileiro, \"29 de abril — Conquista de Fornovo e rendição da 148ª Divisão de Infantaria Alemã\"",

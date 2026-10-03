@@ -196,6 +196,13 @@
       "registro": "Os Panther estrearam com 184 operacionais em 5 de julho e cerca de 40 dois dias depois, entre perdas, quebras e incêndios de motor. A maior parte dos Ferdinand de um dos batalhões do norte ficou presa em minas no primeiro dia. E a espera por essas armas é o que deu à defesa soviética dois meses para se preparar."
     }
   ],
+  "perguntas": [
+    {"p": "Quem venceu a Batalha de Kursk?", "r": "Venceu a União Soviética. A ofensiva alemã foi detida antes de romper a defesa, e as contraofensivas que vieram em seguida retomaram Orel e Belgorod em 5 de agosto e Kharkov em 23 de agosto de 1943, tirando da Alemanha a iniciativa na frente leste pelo resto da guerra."},
+    {"p": "Por que a Alemanha perdeu a Batalha de Kursk?", "r": "Atacou o alvo que os dois lados viam no mapa: Zhukov previu a pinça dupla por escrito em 8 de abril de 1943. Depois Hitler adiou o ataque dois meses à espera de tanques novos, e a defesa soviética usou esse tempo para cavar seis cinturões no caminho exato das pinças."},
+    {"p": "Quantos tanques participaram da Batalha de Kursk?", "r": "Na conta de Karl-Heinz Frieser, 2.465 tanques e canhões de assalto alemães contra 4.938 tanques soviéticos. Na Operação Cidadela foram destruídos de 252 a 323 tanques alemães e de 1.614 a 1.956 soviéticos, conforme a fonte."},
+    {"p": "Quantos soldados morreram na Batalha de Kursk?", "r": "As contas são de baixas, não só de mortos. Na Cidadela, de 5 a 16 de julho, foram 54.182 alemães e 177.847 soviéticos. Na batalha inteira, até 23 de agosto, 863.303 soviéticos segundo Krivosheev; do lado alemão, entre 165.314 e 203.000, conforme a fonte."},
+    {"p": "Prokhorovka foi a maior batalha de tanques da história?", "r": "Não. Em 12 de julho de 1943 o II Corpo Panzer SS perdeu de vez 4 tanques, segundo Roman Töppel com os arquivos alemães, e os soviéticos 227 ou 194, conforme a conta. Houve batalha de tanques maior em Brody e Dubno, em junho de 1941."}
+  ],
   "fontes": [
     {
       "texto": "Roman Töppel, \"Die Panzerschlacht bei Prochorowka: Fakten gegen Fabeln\", Portal Militärgeschichte, 16 de dezembro de 2019.",

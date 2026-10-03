@@ -211,6 +211,13 @@
       "registro": "O mínimo calculado era 300 toneladas por dia. O melhor dia de toda a operação, 19 de dezembro de 1942, rendeu 289; a média ficou entre 94 e 117. Richthofen e Fiebig, que comandavam a Luftwaffe no local, disseram antes de começar que era impossível."
     }
   ],
+  "perguntas": [
+    {"p": "Quem venceu a Batalha de Stalingrado?", "r": "Venceu a União Soviética. O 6º Exército alemão, cercado desde 23 de novembro de 1942, se rendeu entre 31 de janeiro e 2 de fevereiro de 1943, com cerca de 91.000 prisioneiros; entre 5.000 e 6.000 voltaram para casa."},
+    {"p": "Por que a Alemanha perdeu a Batalha de Stalingrado?", "r": "O comando alemão mandou dois grupos de exércitos para objetivos diferentes ao mesmo tempo e deixou a linha do Don com exércitos romenos mal armados. A Operação Urano rompeu exatamente ali, e Hitler, confiando numa ponte aérea que não fechava a conta, ordenou em 24 de novembro que o 6º Exército ficasse."},
+    {"p": "Quantas pessoas morreram na Batalha de Stalingrado?", "r": "As fontes divergem muito. A conta oficial de Krivosheev dá 1.129.619 baixas soviéticas, 478.741 delas irrecuperáveis; as do Eixo vão de 800.000 a 1,5 milhão, conforme a fonte e a área contada. Para os civis, as contagens vão de 42.754 a 235.232 mortos."},
+    {"p": "Quanto tempo durou a Batalha de Stalingrado?", "r": "Pouco mais de seis meses: de 17 de julho de 1942, primeiro choque na curva do Don, a 2 de fevereiro de 1943, quando o bolsão norte de Karl Strecker se rendeu."},
+    {"p": "Quem comandou a Batalha de Stalingrado?", "r": "Do lado alemão, Friedrich Paulus, à frente do 6º Exército, sob as ordens de Hitler. Do lado soviético, Vasily Chuikov defendeu a cidade com o 62º Exército, e Georgy Jukov e Aleksandr Vasilevski planejaram a contraofensiva que cercou os alemães."}
+  ],
   "fontes": [
     {
       "texto": "Earl F. Ziemke e Magna E. Bauer, Moscow to Stalingrad: Decision in the East, U.S. Army Center of Military History, cap. XVII (Diretiva nº 45).",

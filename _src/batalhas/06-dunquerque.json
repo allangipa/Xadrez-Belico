@@ -210,6 +210,13 @@
       "registro": "A palavra é de 2 de junho de 1940 e da imprensa. O resultado tem causas: o molhe leste intacto, a marinha, só dois dias e meio de tempo bom para voar em nove, a resistência francesa em Lille e no perímetro, e os três dias de parada. No mesmo discurso em que falou em milagre de libertação, Churchill avisou que guerras não se ganham com evacuações."
     }
   ],
+  "perguntas": [
+    {"p": "Quantos soldados foram resgatados na evacuação de Dunquerque?", "r": "Saíram pelo mar 338.226 homens, de 26 de maio a 4 de junho de 1940. Pelo porto, quase todos pelo molhe leste, foram 239.555; pelas praias, 98.671."},
+    {"p": "Quando foi a evacuação de Dunquerque?", "r": "A Operação Dynamo começou às 18:57 de 26 de maio de 1940 e terminou em 4 de junho. O melhor dia foi 31 de maio, com 68.014 homens; os últimos britânicos embarcaram na noite de 2 para 3 de junho."},
+    {"p": "Por que Hitler parou o ataque em Dunquerque?", "r": "A ordem de parar não nasceu de Hitler: foi dada por Rundstedt, por sugestão de Kluge, na noite de 23 de maio de 1940, e Hitler a confirmou e manteve. Pesaram o desgaste dos blindados, o medo pelo flanco, o terreno de canais e a promessa da Luftwaffe; a tese de deixar os britânicos escaparem para negociar a paz é a mais fraca."},
+    {"p": "Os barcos civis salvaram os soldados em Dunquerque?", "r": "Não carregaram a evacuação. A maioria saiu pelo porto, e só os contratorpedeiros levaram 103.399 homens, segundo o despacho do almirante Ramsay. Os pequenos barcos foram lançadeiras entre a praia e os navios maiores, e muitos tinham tripulação da Royal Navy."},
+    {"p": "Quantos soldados morreram em Dunquerque?", "r": "Na evacuação morreram cerca de 16.000 franceses e 1.000 britânicos. Em 4 de junho, cerca de 35.000 homens foram capturados no perímetro, quase todos franceses da retaguarda; outras contas vão de 30.000 a 40.000."}
+  ],
   "fontes": [
     {
       "texto": "Bertram H. Ramsay, Operation \"Dynamo\", despacho de 18 de junho de 1940, suplemento nº 38017 da London Gazette, 17 de julho de 1947.",

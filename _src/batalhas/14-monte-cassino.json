@@ -206,6 +206,13 @@
       "registro": "Não lutou. O primeiro escalão da Força Expedicionária Brasileira desembarcou em Nápoles em 16 de julho de 1944, dois meses depois da queda da abadia; Monte Castello é de fevereiro de 1945."
     }
   ],
+  "perguntas": [
+    {"p": "Quem venceu a Batalha de Monte Cassino?", "r": "Venceram os Aliados, no quarto assalto. A Linha Gustav se rompeu em 13 de maio de 1944 nos Montes Auruncos, com a queda do Monte Maio, e a abadia foi ocupada pelos poloneses na manhã de 18 de maio, depois de os alemães evacuarem Cassino."},
+    {"p": "O Brasil participou da Batalha de Monte Cassino?", "r": "Não. O primeiro escalão da Força Expedicionária Brasileira desembarcou em Nápoles em 16 de julho de 1944, dois meses depois da queda da abadia. A batalha da FEB é Monte Castello, de fevereiro de 1945."},
+    {"p": "Por que a abadia de Monte Cassino foi bombardeada?", "r": "O comando da 4ª Divisão indiana pediu a demolição, argumentando que, ocupada ou não, ela seria um abrigo inexpugnável, e Alexander decidiu a favor. Mas a abadia não estava ocupada por tropas alemãs: os paraquedistas só se instalaram nas ruínas a partir de 17 de fevereiro de 1944."},
+    {"p": "Quantos soldados morreram na Batalha de Monte Cassino?", "r": "As contas divergem e somam baixas, não só mortos: mais de 105.000 aliados e pelo menos 80.000 alemães, contando as quatro batalhas, Anzio e Roma, segundo Matthew Parker; só na ofensiva de maio, 43.746 aliados e 51.754 alemães, segundo James Holland. Os poloneses perderam 923 mortos."},
+    {"p": "Quanto tempo durou a Batalha de Monte Cassino?", "r": "Cerca de quatro meses, de 17 de janeiro a 18 de maio de 1944. Nesse período os Aliados atacaram a Linha Gustav em Cassino quatro vezes; os três primeiros assaltos falharam diante do mesmo ponto."}
+  ],
   "fontes": [
     {
       "texto": "Martin Blumenson, Salerno to Cassino, U.S. Army in World War II, Center of Military History, 1969 — caps. XIX e XXIII.",

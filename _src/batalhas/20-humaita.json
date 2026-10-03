@@ -116,6 +116,13 @@
       "registro": "São quase dois anos de Curupayty, em 22 de setembro de 1866, à queda, em 25 de julho de 1868. O cerco propriamente dito durou de 8 a 13 meses, conforme se conte da tomada de Tayí, em 2 de novembro de 1867, ou do início da marcha de flanco, em 22 de julho de 1867."
     }
   ],
+  "perguntas": [
+    {"p": "O que era a Fortaleza de Humaitá?", "r": "Era a posição paraguaia que fechava o rio Paraguai a caminho de Assunção: baterias em barbeta sobre um barranco numa curva fechada do rio, uma só bateria casamatada, de 16 canhões, e trincheiras de terra cercadas de brejos. Não havia muralha nem cidadela."},
+    {"p": "Onde ficava a Fortaleza de Humaitá?", "r": "Em Humaitá, no departamento de Ñeembucú, no sudoeste do Paraguai, numa curva do rio Paraguai acima da confluência com o Paraná. Do lugar resta hoje a igreja de San Carlos, de pé em ruínas."},
+    {"p": "Como foi a queda da Fortaleza de Humaitá?", "r": "Caiu por fome, não de assalto. Com a estrada do Chaco cortada, a guarnição saiu à noite e os aliados entraram sem combate em 25 de julho de 1868; em 5 de agosto o coronel Francisco Martínez se rendeu com cerca de 1.300 homens."},
+    {"p": "O que foi a passagem de Humaitá?", "r": "Foi a subida de três encouraçados brasileiros, cada um com um monitor amarrado ao lado, sob o fogo das baterias, em 19 de fevereiro de 1868, na cheia. Abriu o rio até Assunção, mas não derrubou a fortaleza, que só caiu cinco meses depois."},
+    {"p": "Quanto tempo durou o cerco de Humaitá?", "r": "São quase dois anos de Curupayty, em 22 de setembro de 1866, à entrada aliada, em 25 de julho de 1868. O cerco propriamente dito durou de 8 a 13 meses, conforme se conte da tomada de Tayí ou do início da marcha de flanco, em 1867."}
+  ],
   "fontes": [
     {"texto": "George Thompson, The War in Paraguay, with a historical sketch of the country and its people and notes upon the military engineering of the war, Londres, Longmans, Green & Co., 1869.", "url": "https://archive.org/details/cu31924073798666"},
     {"texto": "Leandro José Clemente Gonçalves, \"Da Batalha de Curuzu à queda de Humaitá (1866-1868): questões táticas\", Navigator, v. 14, nº 27, 2018, p. 31-44 (citando Chris Leuchars, Tasso Fragoso, Juan Beverina, o Diário do Exército de Caxias e Richard Burton).", "url": "https://portaldeperiodicos.marinha.mil.br/index.php/navigator/article/view/648"},

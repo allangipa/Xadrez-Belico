@@ -197,6 +197,12 @@
       "registro": "A afirmação aparece em uma única fonte, a Wikipédia em português, sem confirmação independente. O que se sustenta é mais modesto: o ataque principal da 10ª Divisão de Montanha foi contido no primeiro dia, e a FEB cumpriu o seu objetivo."
     }
   ],
+  "perguntas": [
+    {"p": "Quem venceu a Batalha de Montese?", "r": "A Força Expedicionária Brasileira. A cidade foi ocupada às 15h45 de 14 de abril de 1945 e mantida contra os contra-ataques da 114ª Divisão Ligeira alemã, que seguiram até 16 de abril."},
+    {"p": "Quantos brasileiros morreram na Batalha de Montese?", "r": "A FEB teve 426 baixas entre 14 e 17 de abril de 1945, somando mortos, feridos, prisioneiros e desaparecidos. Dentro desse total, a Wikipédia em português detalha 34 mortos."},
+    {"p": "Quanto tempo durou a Batalha de Montese?", "r": "Quatro dias, de 14 a 17 de abril de 1945. A cidade caiu em 2 horas e 15 minutos, das 13h30 às 15h45 do dia 14; os contra-ataques foram até 16 de abril, e a limpeza em Montebuffone terminou no dia 17."},
+    {"p": "Por que a Batalha de Montese teve tantas baixas brasileiras?", "r": "As baixas vieram de segurar a cidade, não de tomá-la. Tudo indica que o comando alemão leu o ataque de flanco, rápido e com blindados, como o eixo principal da ofensiva, e concentrou sobre a FEB por volta de dois terços da artilharia do setor."}
+  ],
   "fontes": [
     {
       "texto": "Batalha de Montese — Wikipédia em português",

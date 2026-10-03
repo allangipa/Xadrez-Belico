@@ -213,6 +213,13 @@
       "registro": "Oito horas de bombardeio, cerca de 3.940 surtidas, e nenhuma casamata destruída por acerto direto; 56 baixas francesas. O estrago foi nos cabos de comunicação e no moral: os artilheiros abandonaram as posições, e na mesma noite a 55ª Divisão recuou por causa de um boato sobre tanques que só cruzariam o Meuse às 07:20 do dia seguinte."
     }
   ],
+  "perguntas": [
+    {"p": "Quanto tempo durou a queda da França?", "r": "Cerca de seis semanas: a Alemanha atacou no oeste em 10 de maio de 1940, a França assinou o armistício em 22 de junho, em Compiègne, e a campanha terminou em 25 de junho."},
+    {"p": "Por que a França perdeu para a Alemanha em 1940?", "r": "Não por falta de material, e sim pela posição das peças. A Alemanha concentrou metade dos tanques num eixo só, pelos Ardenas até Sedan, enquanto as melhores forças móveis aliadas avançavam para o norte, na Bélgica. Em Sedan, a defesa francesa se desfez antes de o primeiro tanque cruzar o Meuse."},
+    {"p": "A Alemanha tinha mais tanques que a França em 1940?", "r": "Não. A Alemanha entrou com 2.445 tanques; só a França tinha entre 3.383 e 4.071, conforme a contagem. Os Aliados também tinham 13.974 canhões contra 7.378 alemães; a única superioridade material alemã clara era a aérea."},
+    {"p": "Quantos soldados morreram na queda da França?", "r": "Do lado alemão, 27.074 mortos, 111.034 feridos e 18.384 desaparecidos. Do lado aliado, 73.000 mortos, 240.000 feridos e 15.000 desaparecidos, além de 1.756.000 prisioneiros."},
+    {"p": "Quem planejou o ataque alemão na queda da França?", "r": "Erich von Manstein, com a ideia de atravessar os Ardenas, cruzar o Meuse em Sedan e correr para o mar. O alto-comando a rejeitou como ousada demais; depois de Hitler intervir, Franz Halder a reescreveu como diretriz em 24 de fevereiro de 1940."}
+  ],
   "fontes": [
     {
       "texto": "Battle of France — Wikipédia em inglês.",

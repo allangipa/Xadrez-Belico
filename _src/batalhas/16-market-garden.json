@@ -200,6 +200,13 @@
       "registro": "A parada da noite de 20 de setembro aconteceu e durou cerca de 18 horas, com só cinco tanques do outro lado do Waal, anticarro escondido e três Tiger descendo de Arnhem. A ponte de Arnhem caiu na madrugada seguinte. Os atrasos decisivos vieram antes: a ponte de Son, explodida em 17 de setembro, e a ponte de Nijmegen, que devia cair no primeiro dia e caiu no quarto."
     }
   ],
+  "perguntas": [
+    {"p": "O que foi a Operação Market Garden?", "r": "Foi a operação aliada de 17 a 25 de setembro de 1944 nos Países Baixos: cerca de 35 mil aerotransportados tomariam as pontes de uma estrada de cerca de 100 km, de Eindhoven a Arnhem, para um corpo blindado britânico chegar ao Reno em 2 dias, 4 no máximo."},
+    {"p": "A Operação Market Garden foi um fracasso?", "r": "Sim, no objetivo que dava sentido aos outros: a travessia do Reno em Arnhem falhou. Eindhoven e Nijmegen foram libertadas e abriu-se um saliente de cerca de 105 km, e Montgomery falou em 90% de sucesso, mas a história oficial americana a resume como fracasso."},
+    {"p": "Por que a Operação Market Garden deu errado?", "r": "Era uma corrente de pontes em série numa estrada só, e cada atraso passava para a ponte seguinte. A ponte de Son foi explodida no primeiro dia, a de Nijmegen só caiu no quarto, e a divisão de Arnhem foi entregue em três dias, a quilômetros do alvo, diante da reação rápida de Model e do mau tempo."},
+    {"p": "Quantos soldados morreram na Operação Market Garden?", "r": "Das tropas que pousaram em Arnhem, 1.485 morreram e cerca de 6.400 foram feitos prisioneiros. As baixas aliadas da operação inteira vão de 15.326 a 17.200, conforme a fonte; as alemãs, de 3.300 na conta oficial alemã a mais de 13.000 nas estimativas de historiadores."},
+    {"p": "Quem disse “uma ponte longe demais”?", "r": "A frase é atribuída ao general Frederick Browning e aparece por escrito em 1958, nas memórias do general Roy Urquhart. O historiador Antony Beevor duvida que Browning a tenha dito, porque ele apoiava a operação."}
+  ],
   "fontes": [
     {
       "texto": "Charles B. MacDonald, The Siegfried Line Campaign, U.S. Army in World War II, Center of Military History, 1963, capítulos VII e VIII.",

@@ -197,6 +197,13 @@
       "registro": "As próprias fontes oficiais americanas listam as diferenças: em 1940 a defesa era cortina leve, o tempo era bom e a estrada seca, e a travessia levou três dias. Em 1944 havia divisões nos ombros e nos cruzamentos, reservas chegando em horas, e um alvo que Model e Rundstedt consideravam inalcançável antes de o ataque começar."
     }
   ],
+  "perguntas": [
+    {"p": "Quem venceu a Batalha das Ardenas?", "r": "Venceram os Aliados. A ofensiva alemã não tomou nenhuma ponte do Mosa, e em janeiro de 1945 a linha original foi restabelecida. Foi a última grande ofensiva alemã no Ocidente."},
+    {"p": "Por que a Alemanha perdeu a Batalha das Ardenas?", "r": "Repetiu o lance de 1940 num tabuleiro diferente: num terreno de poucas estradas, os americanos seguraram os cruzamentos de Elsenborn, St. Vith e Bastogne, e cada um parou uma coluna inteira. O combustível não chegou à frente, o céu abriu em 23 de dezembro e Antuérpia era um alvo longe demais."},
+    {"p": "Onde foi a Batalha das Ardenas?", "r": "Na floresta das Ardenas, na Bélgica e no Luxemburgo, de Monschau e da crista de Elsenborn, no norte, a Echternach, no sul. O ponto mais a oeste do avanço alemão foi perto de Celles e Dinant, a menos de 10 km do rio Mosa."},
+    {"p": "Quantos soldados morreram na Batalha das Ardenas?", "r": "Os americanos tiveram 80.987 baixas; os mortos variam de cerca de 8.400 a mais de 19.000, conforme o período e a base da conta. Não há conta oficial alemã, e as estimativas vão de cerca de 63.000 a 104.000 baixas. Morreram cerca de 3.000 civis."},
+    {"p": "Quanto tempo durou a Batalha das Ardenas?", "r": "De 16 de dezembro de 1944 a 25 de janeiro de 1945. A ofensiva propriamente alemã se esgotou diante do Mosa entre 24 e 26 de dezembro; o resto foi a retomada aliada do terreno perdido."}
+  ],
   "fontes": [
     {
       "texto": "Hugh M. Cole, The Ardennes: Battle of the Bulge, série U.S. Army in World War II, Office of the Chief of Military History, 1965.",

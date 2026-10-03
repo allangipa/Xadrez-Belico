@@ -209,6 +209,13 @@
       "registro": "A palavra nunca foi termo oficial da Wehrmacht fora da propaganda, nem doutrina. Foi popularizada pela imprensa ocidental durante a campanha, e Hitler a chamou de \"uma palavra completamente idiota\". O plano era o tradicional cerco e aniquilamento; Karl-Heinz Frieser sustenta que o pensamento Blitzkrieg só se formou depois de 1940."
     }
   ],
+  "perguntas": [
+    {"p": "Quando foi a invasão da Polônia?", "r": "A Alemanha invadiu em 1º de setembro de 1939, e a União Soviética entrou pelo leste em 17 de setembro. A campanha durou 35 dias: Varsóvia resistiu até o fim de setembro, e tudo terminou em 6 de outubro, depois da capitulação da última unidade polonesa em Kock."},
+    {"p": "Quantos soldados morreram na invasão da Polônia?", "r": "A Polônia teve 66.000 mortos e 133.700 feridos, e cerca de 690.000 poloneses foram capturados. A Alemanha perdeu 16.343 mortos, 30.300 feridos e 3.500 desaparecidos; a União Soviética, 1.475 mortos e 2.383 feridos."},
+    {"p": "A invasão da Polônia foi uma Blitzkrieg?", "r": "Não como doutrina. O plano alemão era o tradicional cerco e aniquilamento, executado por um exército em que só nove de 60 a 70 divisões eram blindadas. A palavra Blitzkrieg foi popularizada pela imprensa ocidental durante a campanha e nunca foi doutrina da Wehrmacht."},
+    {"p": "A cavalaria polonesa atacou tanques com lanças na invasão da Polônia?", "r": "Não. Em Krojanty, em 1º de setembro de 1939, a carga foi contra infantaria alemã e cumpriu o objetivo; os blindados chegaram depois. A versão das lanças contra tanques nasceu na cobertura da época e foi usada pela propaganda alemã."},
+    {"p": "Qual foi a maior batalha da invasão da Polônia?", "r": "A do rio Bzura, de 9 a 19 de setembro de 1939. O contra-ataque do general Tadeusz Kutrzeba obrigou os alemães, em 11 de setembro, a desviar da marcha sobre Varsóvia; no fim, 170.000 poloneses foram capturados ali."}
+  ],
   "fontes": [
     {
       "texto": "Digests and Lessons of Recent Military Operations: The German Campaign in Poland, September 1 to October 5, 1939. United States Government Printing Office, Washington, 1942.",

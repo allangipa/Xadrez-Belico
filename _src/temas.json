@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "feb-na-italia",
+    "nome": "A FEB na Itália",
+    "titulo": "A FEB na Itália: Monte Castelo, Montese e Fornovo",
+    "resumo": "As batalhas da FEB na Itália, lidas como partida: Monte Castello, Montese e a rendição de Fornovo di Taro. E por que a FEB não lutou em Monte Cassino.",
+    "intro": [
+      "A Força Expedicionária Brasileira lutou nos Apeninos, na Itália, entre 1944 e 1945: mais de 25 mil homens e mulheres, segundo o Exército Brasileiro. Em Monte Castello, os ataques de novembro e dezembro de 1944 falharam porque subiam o morro sem tocar nas alturas que o defendiam; no de 21 de fevereiro de 1945, o Batalhão Franklin chegou ao cume às 17h30.",
+      "Em Montese, em 14 de abril de 1945, a FEB ocupou a cidade em 2h15; segurá-la até o dia 17 custou 426 baixas brasileiras. No fim de abril, em Fornovo di Taro, os brasileiros fecharam a saída do vale do Taro e a 148ª Divisão alemã se rendeu inteira, com o comando junto: 14.779 prisioneiros.",
+      "Monte Cassino entra aqui por ser também uma batalha de montanha na Itália, e por um mito: a FEB não lutou lá. O primeiro escalão brasileiro desembarcou em Nápoles em 16 de julho de 1944, dois meses depois da queda da abadia."
+    ],
+    "batalhas": ["monte-castello", "montese", "fornovo-di-taro", "monte-cassino"]
+  },
+  {
+    "slug": "1939-1940",
+    "nome": "Segunda Guerra, 1939–1940",
+    "titulo": "Segunda Guerra, 1939–1940: da Polônia à Inglaterra",
+    "resumo": "Invasão da Polônia, queda da França, evacuação de Dunquerque e Batalha da Inglaterra: o começo da Segunda Guerra na Europa explicado como partida.",
+    "intro": [
+      "O começo da Segunda Guerra na Europa, lido como partida. Na invasão da Polônia, de 1º de setembro a 6 de outubro de 1939, cada divisão de infantaria alemã tinha 3.859 cavalos, e a palavra Blitzkrieg veio dos jornais; em 17 de setembro, a União Soviética invadiu pelo leste.",
+      "Na queda da França, em maio de 1940, a Alemanha atacou com menos tanques e pouco mais da metade da artilharia aliada, e venceu com um plano, não com uma doutrina: a travessia dos Ardenas e do Meuse em Sedan. Em Dunquerque, os blindados frearam a menos de 20 km do porto, e a evacuação tirou 338.226 homens pelo mar.",
+      "Na Batalha da Inglaterra, de 10 de julho a 31 de outubro de 1940, a Luftwaffe não conquistou o céu: atacou uma rede de defesa que via o tabuleiro inteiro, guiada por uma inteligência que contava aviões que não tinham caído."
+    ],
+    "batalhas": ["polonia-1939", "franca-1940", "dunquerque", "batalha-da-inglaterra"]
+  },
+  {
+    "slug": "frente-oriental",
+    "nome": "Frente Oriental",
+    "titulo": "Frente Oriental: Moscou, Stalingrado e Kursk",
+    "resumo": "Batalha de Moscou, Batalha de Stalingrado e Batalha de Kursk explicadas como partida: por que a Alemanha parou, ficou cercada e atacou onde era esperada.",
+    "intro": [
+      "Três batalhas no leste, de 1941 a 1943, lidas como partida. Na Batalha de Moscou, a Operação Tufão já tinha perdido o sentido em 1º de dezembro de 1941, nas palavras do próprio comandante do Grupo de Exércitos Centro, antes da onda de frio de 4 a 6 de dezembro; o ponto mais próximo registrado com segurança fica a cerca de 30 km do Kremlin.",
+      "Em Stalingrado, o 6º Exército cercou a cidade e acabou cercado nela: a Operação Urano rompeu os flancos fracos no Don, a ponte aérea nunca chegou às 300 t diárias calculadas como mínimo, e a rendição terminou com 91.000 prisioneiros, dos quais entre 5.000 e 6.000 voltaram.",
+      "Em Kursk, em julho de 1943, a Alemanha atacou com dois meses de atraso o ponto que os dois lados viam, contra uma defesa à espera. A página desmonta também o mito de Prokhorovka."
+    ],
+    "batalhas": ["moscou", "stalingrado", "kursk"]
+  },
+  {
+    "slug": "pacifico",
+    "nome": "Guerra no Pacífico",
+    "titulo": "Guerra no Pacífico: Pearl Harbor e Midway",
+    "resumo": "O ataque a Pearl Harbor e a Batalha de Midway explicados como partida: o lance que mirou a peça errada e o código lido em fragmentos que bastou.",
+    "intro": [
+      "Em 7 de dezembro de 1941, 353 aviões japoneses saídos de 6 porta-aviões atacaram Pearl Harbor. Atingiram os oito encouraçados americanos, mas nenhum porta-aviões estava no porto, 6 dos 8 encouraçados atingidos voltaram ao serviço, e os tanques de combustível à vista ficaram intactos.",
+      "Em junho de 1942, em Midway, os americanos liam uma parte das mensagens da Marinha japonesa, o bastante para saber alvo e data. Em 4 de junho, três esquadrilhas de mergulho chegaram juntas, sem ter combinado, às 10:20, e três porta-aviões japoneses foram incendiados quase ao mesmo tempo; o quarto caiu no fim da tarde.",
+      "As duas páginas separam o que foi leitura do tabuleiro do que foi acaso, e dizem onde as contas divergem."
+    ],
+    "batalhas": ["pearl-harbor", "midway"]
+  },
+  {
+    "slug": "frente-ocidental-1944",
+    "nome": "Frente Ocidental, 1944",
+    "titulo": "Frente Ocidental, 1944: Dia D, Market Garden e Ardenas",
+    "resumo": "Dia D, Operação Market Garden e Batalha das Ardenas explicados como partida: a Normandia, a ponte longe demais e o último lance alemão no oeste.",
+    "intro": [
+      "Três lances no oeste da Europa, de junho de 1944 a janeiro de 1945. No Dia D, 6 de junho de 1944, os Aliados desembarcaram na Normandia, onde a Alemanha não esperava o golpe principal: 156 mil soldados em terra no dia, por mar e pelo ar.",
+      "Em setembro, a Operação Market Garden lançou cerca de 35 mil aerotransportados sobre a Holanda para tomar uma série de pontes por uma única estrada; o plano parou antes da última, em Arnhem.",
+      "Em dezembro, na Batalha das Ardenas, Hitler repetiu o lance de 1940 pela mesma floresta, rumo a Antuérpia. St. Vith, Bastogne, a falta de combustível e o céu limpo pararam as colunas a menos de 10 km do Mosa."
+    ],
+    "batalhas": ["dia-d", "market-garden", "ardenas"]
+  },
+  {
+    "slug": "guerra-do-paraguai",
+    "nome": "Guerra do Paraguai",
+    "titulo": "Guerra do Paraguai: Riachuelo, Tuiuti e Humaitá",
+    "resumo": "Batalha do Riachuelo, Batalha de Tuiuti e a Fortaleza de Humaitá explicadas como partida: o plano paraguaio, o pântano e a fortaleza que caiu por fome.",
+    "intro": [
+      "Três momentos da Guerra do Paraguai, de 1865 a 1868. No Riachuelo, em 11 de junho de 1865, o plano paraguaio era abordar a esquadra brasileira no escuro, e os paraguaios chegaram com o sol alto; Barroso virou o combate, e o Brasil perdeu um só navio, a corveta Jequitinhonha.",
+      "Em Tuiuti, em 24 de maio de 1866, López atacou de surpresa o acampamento aliado entre os pântanos, mas o sinal saiu horas atrasado e o adversário já estava em armas. Cerca de 6.000 paraguaios morreram.",
+      "Humaitá, a fortaleza numa curva do rio Paraguai, travou a guerra por quase dois anos. Não caiu de assalto nem pela passagem dos encouraçados: caiu por fome, cercada pelo rio acima e pelo Chaco."
+    ],
+    "batalhas": ["riachuelo", "tuiuti", "humaita"]
+  }
+]

@@ -203,6 +203,13 @@
       "registro": "A imprensa oficial de Assunção proclamou vitória, somando ao 11 de junho o 13, quando canhoneiras brasileiras desistiram de desencalhar o Jequitinhonha sob as baterias, e López deu uma medalha com a legenda Riachuelo, 11 y 13 de junio 1865. Era propaganda sob controle do governo, mas o resultado militar não está em disputa: o mesmo jornal reconheceu a perda de quatro vapores."
     }
   ],
+  "perguntas": [
+    {"p": "Quem venceu a Batalha do Riachuelo?", "r": "Venceu o Brasil. A esquadra paraguaia deixou de existir como força de combate: perdeu 4 vapores e todas as 6 chatas, enquanto o Brasil perdeu um navio, a corveta Jequitinhonha, encalhada e abandonada."},
+    {"p": "Quando e onde foi a Batalha do Riachuelo?", "r": "Em 11 de junho de 1865, na Guerra do Paraguai, no rio Paraná diante da foz do arroio Riachuelo, cerca de 15 km abaixo da cidade de Corrientes, na Argentina."},
+    {"p": "Quem comandou a Batalha do Riachuelo?", "r": "Do lado brasileiro, o chefe de divisão Francisco Manuel Barroso da Silva, na fragata Amazonas. Do lado paraguaio, o capitão Pedro Ignacio Meza, no Tacuarí, cumprindo a ordem de ataque de Francisco Solano López; em terra, a bateria era do tenente-coronel José María Bruguez."},
+    {"p": "Quantos morreram na Batalha do Riachuelo?", "r": "Do lado brasileiro, as contas vão de 87 a 116 mortos; a soma das partes de combate dá 102. O governo paraguaio não publicou lista: Garmendia estima cerca de 750 baixas na esquadra e 30 na bateria, e George Thompson fala em cerca de 200."},
+    {"p": "Qual a importância da Batalha do Riachuelo?", "r": "Tirou do Paraguai a única força capaz de disputar o rio: a partir dali, nada chegou ao país pelo Paraná até o fim da guerra. Mas não deu ao Brasil o domínio dos rios, porque a esquadra imperial recuou para o sul e o rio Paraguai só passou ao controle aliado em 1868."}
+  ],
   "fontes": [
     {
       "texto": "George Thompson, The War in Paraguay, Londres, 1869, cap. VII.",

@@ -205,6 +205,13 @@
       "registro": "Os números divergem muito: mais de 18 divisões vindas da Sibéria e do Extremo Oriente numa conta; 70 divisões do Extremo Oriente até 1º de dezembro numa contagem soviética ampla citada pela história oficial do Exército dos EUA; poucas no setor de Moscou, em outra análise. Houve tropas siberianas na defesa e no contra-ataque, mas a massa da contraofensiva veio dos exércitos de reserva formados no outono, com muita tropa sem treino."
     }
   ],
+  "perguntas": [
+    {"p": "Quem venceu a Batalha de Moscou?", "r": "A União Soviética. A ofensiva alemã, a Operação Tufão, fracassou a cerca de 30 km do Kremlin, e a contraofensiva iniciada em 5 de dezembro de 1941 empurrou o Grupo de Exércitos Centro para oeste: foi a primeira grande derrota do exército alemão na guerra."},
+    {"p": "Quando foi a Batalha de Moscou?", "r": "De 30 de setembro de 1941 a 7 de janeiro de 1942. A ofensiva alemã atolou de 1º a 5 de dezembro, e o Exército Vermelho contra-atacou em 5 e 6 de dezembro de 1941."},
+    {"p": "Por que a Alemanha perdeu a Batalha de Moscou?", "r": "A ofensiva chegou exausta antes do frio extremo. A ferrovia não carregava o que o exército consumia, a lama prendeu as colunas à estrada, as divisões panzer tinham 35% dos tanques originais, e a União Soviética repunha divisões mais rápido do que os alemães as destruíam."},
+    {"p": "O inverno derrotou os alemães na Batalha de Moscou?", "r": "Não foi o inverno que parou a ofensiva. Em 1º de dezembro de 1941, Bock escreveu que ela tinha perdido todo sentido e propósito, e o frio extremo só chegou na noite de 4 para 5 de dezembro. A explicação pelo clima aparece na Diretiva nº 39 de Hitler, de 8 de dezembro."},
+    {"p": "Quantos soldados morreram na Batalha de Moscou?", "r": "As fontes divergem e contam baixas, não só mortos. Pelos números de Krivosheev, os soviéticos tiveram 658.279 baixas na defesa e 370.955 na contraofensiva; os relatórios alemães registram 174.194 no Grupo de Exércitos Centro até 10 de janeiro, número considerado subcontado."}
+  ],
   "fontes": [
     {
       "texto": "Earl F. Ziemke e Magna E. Bauer, Moscow to Stalingrad: Decision in the East, U.S. Army Center of Military History, 1987, capítulos II a V.",

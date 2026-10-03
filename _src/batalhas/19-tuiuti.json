@@ -195,6 +195,13 @@
       "registro": "A frase é de Thompson. As fontes dão cerca de 24 mil paraguaios contra 32 mil a 35 mil aliados: superioridade aliada, mas não de dois para um."
     }
   ],
+  "perguntas": [
+    {"p": "Quem ganhou a Batalha de Tuiuti?", "r": "Ganharam os aliados — brasileiros, argentinos e uruguaios. O ataque paraguaio foi repelido em toda a linha, e o Paraguai nunca mais reuniu uma força daquele tamanho. Mas os aliados, sem cavalos, não perseguiram e ficaram no acampamento até setembro."},
+    {"p": "Quando e onde foi a Batalha de Tuiuti?", "r": "Em 24 de maio de 1866, na Guerra do Paraguai, em Tuiuti, uma elevação seca entre o Estero Bellaco e o Estero Rojas, no sul do Paraguai, na estrada de Passo da Pátria a Humaitá."},
+    {"p": "Quantos morreram na Batalha de Tuiuti?", "r": "Cerca de 6.000 paraguaios morreram, num total de cerca de 13.000 baixas, mais da metade dos que atacaram. Do lado aliado, a contagem oficial dá 996 mortos e perto de 4.000 baixas; outras contas chegam a cerca de 8.000."},
+    {"p": "Por que o Paraguai perdeu a Batalha de Tuiuti?", "r": "O ataque de surpresa dependia de três frentes chegarem juntas, e a coluna de Barrios, atravessando o mato junto ao pântano, atrasou: o sinal saiu perto do meio-dia e encontrou os aliados já em armas. Contra artilharia raiada, a paraguaia ficou parada."},
+    {"p": "Quem comandou a Batalha de Tuiuti?", "r": "Do lado aliado, Bartolomé Mitre, comandante em chefe, com Manuel Luís Osório à frente dos brasileiros e Venancio Flores na vanguarda. Do lado paraguaio, Francisco Solano López, que acompanhou de longe; no campo, Vicente Barrios, José Eduvigis Díaz, Hilario Marcó e Francisco Isidoro Resquín."}
+  ],
   "fontes": [
     {
       "texto": "George Thompson, The War in Paraguay, Londres, Longmans, Green & Co., 1869, cap. XI.",

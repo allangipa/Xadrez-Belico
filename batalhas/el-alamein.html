@@ -281,7 +281,25 @@ picture{display:contents}
 .leia strong{font:700 1.15rem/1.2 var(--f-titulo)}
 .leia a:hover strong{color:var(--ambar)}
 .leia .onde{font:500 .8rem/1.4 var(--f-rotulo);letter-spacing:.06em;color:var(--perg-2)}
-@media (max-width:720px){.leia ul{grid-template-columns:1fr}}</style>
+@media (max-width:720px){.leia ul{grid-template-columns:1fr}}
+.perguntas{border-top:1px solid var(--madeira);margin:1.2rem 0 0}
+.perguntas h3{font-size:1.15rem;line-height:1.3;margin:1.4rem 0 .5rem;color:var(--perg)}
+.perguntas p{margin:0 0 1.2rem;padding-bottom:1.2rem;border-bottom:1px solid var(--madeira)}
+.temas-link{margin:1rem 0 0;font-size:.95rem;color:var(--perg-2)}
+.temas-link .rotulo{margin-right:.4rem}
+.temas-link a{color:var(--ambar)}
+.temas-lista{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr));gap:.8rem}
+.temas-lista a{display:flex;flex-direction:column;gap:.45rem;height:100%;padding:1.1rem 1.2rem;border:1px solid var(--madeira);background:var(--mesa-2);text-decoration:none;color:var(--perg);transition:border-color .25s,background .25s}
+.temas-lista a:hover{border-color:var(--ambar);background:var(--mesa-3);color:var(--perg)}
+.temas-lista strong{font:700 1.2rem/1.2 var(--f-titulo)}
+.temas-lista a:hover strong{color:var(--ambar)}
+.tema-abre{padding:clamp(2.5rem,7vw,5rem) 0 clamp(1rem,3vw,2rem)}
+.tema-abre h1{margin:.6rem 0 1.4rem}
+.tema-abre .intro{max-width:var(--texto)}
+.tema-abre .intro p{color:var(--perg-2);font-size:1.05rem;margin:0 0 1.1em}
+.migalhas{font:500 .8rem/1.4 var(--f-rotulo);letter-spacing:.08em;text-transform:uppercase;color:var(--perg-3);margin-bottom:1.4rem}
+.migalhas a{color:var(--perg-3)}
+.migalhas span{color:var(--perg-2)}</style>
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Xadrez Bélico">
 <meta property="og:locale" content="pt_BR">
@@ -353,6 +371,8 @@ picture{display:contents}
     <h2 id="mitos"><span class="n">Mitos</span>O que se conta e o que o registro mostra</h2>
     <ul class="mitos"><li><div><span class="rotulo">O que se conta</span><p>Rommel era um gênio invencível, derrotado só pela superioridade numérica.</p></div><div><span class="rotulo"><b>O que o registro mostra</b></span><p>A habilidade tática dele é reconhecida, mas o avanço até El Alamein foi escolha dele, contra os avisos de que não havia porto nem caminhões para sustentá-lo, e esse avanço adiou a invasão de Malta. A fama também foi fabricada: Goebbels anotou em novembro de 1941 a &quot;necessidade urgente&quot; de fazer de Rommel um herói popular. E, quando a batalha decisiva começou, ele estava em licença médica na Alemanha; só voltou na noite de 25 de outubro.</p></div></li><li><div><span class="rotulo">O que se conta</span><p>Montgomery venceu El Alamein sozinho; a história começa quando ele chega.</p></div><div><span class="rotulo"><b>O que o registro mostra</b></span><p>Quem parou Rommel em El Alamein foi Claude Auchinleck, na primeira batalha, de 1 a 27 de julho de 1942. Montgomery assumiu em 13 de agosto, porque o escolhido, William Gott, morreu em 7 de agosto. Quanto ele herdou dos planos de Auchinleck para Alam Halfa é debate entre historiadores. O mérito próprio existe — o plano de desgaste, o engano Bertram, a recusa em atacar antes de ter a superioridade —, mas a linha e a parada são de julho.</p></div></li><li><div><span class="rotulo">O que se conta</span><p>A batalha seguiu à risca o plano mestre de Montgomery.</p></div><div><span class="rotulo"><b>O que o registro mostra</b></span><p>Na manhã de 24 de outubro só cerca de metade da infantaria tinha chegado aos objetivos e nenhum tanque havia atravessado os campos de minas. O ataque emperrou até o fim de outubro, e a operação de ruptura foi preparada no meio da batalha e adiada 24 horas. Funcionou, mas corrigida no caminho.</p></div></li><li><div><span class="rotulo">O que se conta</span><p>Antes de Alamein nunca tivemos uma vitória; depois, nunca uma derrota.</p></div><div><span class="rotulo"><b>O que o registro mostra</b></span><p>A frase é de Churchill, escrita nas memórias depois da guerra, e ele mesmo a introduz com um &quot;quase se pode dizer&quot;. Antes houve vitórias britânicas no deserto: a Operação Compass, entre dezembro de 1940 e fevereiro de 1941, destruiu o 10º Exército italiano, e a Operação Crusader, no fim de 1941, obrigou Rommel a recuar.</p></div></li><li><div><span class="rotulo">O que se conta</span><p>Com o dobro de tudo, foi uma vitória barata.</p></div><div><span class="rotulo"><b>O que o registro mostra</b></span><p>O 8º Exército teve 13.560 baixas em doze dias: 2.350 mortos, 8.950 feridos e 2.260 desaparecidos. A 9ª Brigada Blindada perdeu a maior parte dos tanques numa única manhã em Tel el Aqqaqir. A superioridade decidiu quem venceria, não o preço.</p></div></li></ul>
 
+    <h2 id="perguntas"><span class="n">Perguntas</span>Perguntas frequentes</h2><div class="perguntas"><h3>Quem venceu a Batalha de El Alamein?</h3><p>Venceu o 8º Exército britânico, de Montgomery, numa vitória decisiva: o Eixo recuou do Egito e não voltou a ameaçar Suez. Até 11 de novembro de 1942 deixou para trás cerca de 30 mil prisioneiros, a maioria infantaria italiana sem caminhões.</p><h3>Por que Rommel perdeu a Batalha de El Alamein?</h3><p>Porque chegou lá já perdendo. O gargalo de cerca de 65 km entre o mar e a depressão de Qattara tirou dele o flanco aberto, e a falta de combustível, com navios afundados com a ajuda do Ultra, tirou a manobra. Quando a batalha começou, ele ainda estava em licença médica na Alemanha.</p><h3>Quando foi a Batalha de El Alamein?</h3><p>A segunda batalha de El Alamein foi de 23 de outubro a 4 de novembro de 1942, com perseguição até 11 de novembro. Antes houve a primeira, de 1 a 27 de julho de 1942, em que Auchinleck parou o avanço de Rommel.</p><h3>Quantos soldados morreram na Batalha de El Alamein?</h3><p>O 8º Exército teve 13.560 baixas: 2.350 mortos, 8.950 feridos e 2.260 desaparecidos. Do lado do Eixo as fontes divergem: as contagens vão de cerca de 30 mil a 90 mil, conforme quem conta e o que conta.</p><h3>Quem comandou a Batalha de El Alamein?</h3><p>Do lado britânico, o tenente-general Bernard Montgomery, no 8º Exército desde 13 de agosto de 1942. Do lado do Eixo, Rommel estava em licença: o general Georg Stumme começou no comando e morreu na manhã de 24 de outubro, e Rommel só voltou na noite de 25.</p></div>
+
     <section class="video">
       <div>
         <span class="rotulo">Episódio 11 · <span data-estreia="2026-12-03" data-no-ar="no ar">estreia 3 de dezembro de 2026</span></span>
@@ -378,7 +398,7 @@ picture{display:contents}
       </dl>
     </div>
     <span class="rotulo">Nesta página</span>
-    <ol><li><a href="#ficha">Ficha da batalha</a></li><li><a href="#l1">O tabuleiro de julho: a linha que não tem flanco</a></li><li><a href="#l2">A peça que faltava: combustível</a></li><li><a href="#l3">Outubro: o dobro das peças e meio milhão de minas</a></li><li><a href="#l4">Lightfoot: a entrada que emperrou</a></li><li><a href="#l5">Desgaste: a semana em que ninguém rompeu</a></li><li><a href="#l6">Supercharge e a ordem de Hitler</a></li><li><a href="#veredito">Veredito</a></li><li><a href="#mitos">Mitos e registro</a></li><li><a href="#fontes">Fontes</a></li></ol>
+    <ol><li><a href="#ficha">Ficha da batalha</a></li><li><a href="#l1">O tabuleiro de julho: a linha que não tem flanco</a></li><li><a href="#l2">A peça que faltava: combustível</a></li><li><a href="#l3">Outubro: o dobro das peças e meio milhão de minas</a></li><li><a href="#l4">Lightfoot: a entrada que emperrou</a></li><li><a href="#l5">Desgaste: a semana em que ninguém rompeu</a></li><li><a href="#l6">Supercharge e a ordem de Hitler</a></li><li><a href="#veredito">Veredito</a></li><li><a href="#mitos">Mitos e registro</a></li><li><a href="#perguntas">Perguntas frequentes</a></li><li><a href="#fontes">Fontes</a></li></ol>
   </aside>
 </div>
 <nav class="seguinte" aria-label="Outras batalhas"><a href="midway.html"><span class="rotulo">← Episódio 10</span><strong>A Batalha de Midway</strong></a><a href="stalingrado.html"><span class="rotulo">Episódio 12 →</span><strong>Stalingrado</strong></a></nav>

@@ -195,6 +195,13 @@
       "registro": "As fontes divergem. Parshall e Tully o tratam como operação paralela, decidida por política interna, e lembram que uma isca teria começado antes, para dar tempo de a frota reagir; ela começou um dia antes de Midway. A NHHC ainda fala em finta. Pelo código, Nimitz sabia que as Aleutas não eram o esforço principal."
     }
   ],
+  "perguntas": [
+    {"p": "Quem venceu a Batalha de Midway?", "r": "Os Estados Unidos. O Japão perdeu os quatro porta-aviões que tinham atacado Pearl Harbor, Akagi, Kaga, Sōryū e Hiryū, contra um americano, o Yorktown, e Yamamoto cancelou a invasão de Midway."},
+    {"p": "Quando foi a Batalha de Midway?", "r": "De 4 a 7 de junho de 1942, com os primeiros ataques a oeste de Midway em 3 de junho. A decisão veio entre 10:20 e 10:30 de 4 de junho, e o Yorktown afundou na manhã de 7 de junho."},
+    {"p": "Por que o Japão perdeu a Batalha de Midway?", "r": "Os americanos sabiam o alvo e a data pelo código parcialmente quebrado e armaram uma emboscada com três porta-aviões. O Japão chegou com a frota dividida e uma busca fraca, e seus hangares cheios de aviões abastecidos e armados viraram incêndio quando as bombas caíram."},
+    {"p": "Quantos soldados morreram na Batalha de Midway?", "r": "Do lado japonês, 3.057 mortos, na conta de Parshall e Tully. Do lado americano, as fontes divergem: 307 ou cerca de 362."},
+    {"p": "Os americanos quebraram o código japonês antes de Midway?", "r": "Só em parte. Segundo a NHHC, os americanos liam de fato de 10% a 15% das mensagens da Marinha japonesa, muitas vezes em fragmentos. Foi o bastante para saber o alvo e a data, mas não o plano inteiro."}
+  ],
   "fontes": [
     {
       "texto": "Samuel J. Cox, H-Gram 006: Battle of Midway 75th Anniversary, Naval History and Heritage Command, 2017.",
