@@ -2,13 +2,15 @@
   "num": "15",
   "slug": "dia-d",
   "batalha": "Dia D",
+  "nome_busca": "Dia D e o desembarque na Normandia",
+  "relacionados": ["dunquerque", "ardenas", "franca-1940"],
   "titulo_video": null,
   "lugar": "Costa da Baixa Normandia, entre a península do Cotentin e o rio Orne, França",
   "data": "6 de junho de 1944",
   "campanha": "Segunda Guerra Mundial, 1944",
   "estreia": "2026-12-31",
   "pergunta": "Por que o lance saiu na Normandia, e não em Calais?",
-  "resumo": "Em 6 de junho de 1944 os Aliados desembarcaram onde a Alemanha não esperava o golpe principal. O blefe, a briga pelos blindados e o tempo explicam o resto.",
+  "resumo": "No Dia D, os Aliados desembarcaram na Normandia onde a Alemanha não esperava o golpe principal. O blefe, os blindados e o tempo explicam o resto.",
   "abertura": [
     "Na madrugada de 6 de junho de 1944, cerca de 156 mil soldados aliados descem por mar e pelo ar na costa da Normandia, no norte da França, em cinco setores de praia: Utah e Omaha, americanos; Gold e Sword, britânicos; Juno, canadense. O comando alemão no Oeste tinha 58 divisões. A maior parte da força mais bem colocada estava mais ao norte, no Pas-de-Calais, esperando o desembarque no ponto mais curto do Canal da Mancha.",
     "A pergunta desta página não é se os Aliados tinham força para desembarcar. É por que escolheram aquele lugar, e por que, mesmo depois de o desembarque começar, a reserva blindada alemã ficou parada a manhã inteira. A resposta passa por um blefe, por uma disputa entre generais alemães que Hitler resolveu dividindo as peças, e por uma previsão do tempo que cada lado leu de um jeito."

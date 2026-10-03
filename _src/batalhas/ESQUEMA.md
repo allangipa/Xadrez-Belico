@@ -50,3 +50,17 @@ ordem, nunca um número que a apuração não sustente.
 `conf`: `2+` duas ou mais fontes independentes · `1` uma fonte (o texto diz
 qual) · `DIV` as fontes divergem, o valor mostra as versões · `sem` ninguém
 registrou.
+
+## Campos opcionais de busca e navegação (03/10/2026)
+
+- `"nome_busca": "Batalha de Stalingrado"` — o nome como as pessoas buscam a
+  batalha (autocomplete do Google em pt-BR). Entra só no `<title>`, no lugar
+  de `batalha`; o h1 e o resto da página não mudam. O padrão
+  `nome (anos), lance a lance · Xadrez Bélico` continua, com as mesmas travas.
+- `"relacionados": ["slug", "slug", "slug"]` — o bloco "Leia também" no fim da
+  página: três batalhas de assunto próximo (Frente Oriental, Guerra do
+  Paraguai, FEB, Pacífico…). O build para se um slug não existir, repetir,
+  for a própria batalha ou for o `proximo`.
+
+Imagens: o build gera sozinho a cópia `.webp` de cada JPEG (e da versão
+`-800`) e serve as duas num `<picture>`.

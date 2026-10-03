@@ -2,13 +2,15 @@
   "num": "13",
   "slug": "kursk",
   "batalha": "Kursk",
+  "nome_busca": "Batalha de Kursk",
+  "relacionados": ["stalingrado", "moscou", "ardenas"],
   "titulo_video": null,
   "lugar": "Saliente de Kursk, entre Orel e Belgorod, oblasts de Kursk, Orel e Belgorod, Rússia, até Kharkov, Ucrânia",
   "data": "5 de julho a 23 de agosto de 1943",
   "campanha": "Segunda Guerra Mundial, 1943",
   "estreia": "2026-12-17",
   "pergunta": "A maior batalha de tanques da Segunda Guerra foi vencida antes de começar?",
-  "resumo": "A Alemanha atacou em Kursk o ponto que os dois lados viam, dois meses atrasada, contra uma defesa à espera. E o mito de Prokhorovka, com número de arquivo.",
+  "resumo": "Na Batalha de Kursk, a Alemanha atacou o ponto que os dois lados viam, dois meses atrasada, contra uma defesa à espera. E o mito de Prokhorovka.",
   "abertura": [
     "Em julho de 1943 a frente leste tem uma saliência soviética de cerca de 250 km de norte a sul em volta de Kursk, na Rússia, entre Orel e Belgorod. Era o alvo que qualquer um via no mapa. Em 5 de julho a Alemanha ataca exatamente ali, com duas pinças, contra um adversário que tinha decidido em abril esperar o golpe, se enterrar e contra-atacar depois.",
     "Esta página segue a partida da Operação Cidadela às contraofensivas que retomaram Orel, Belgorod e Kharkov. A pergunta é se a batalha estava decidida antes do primeiro tiro — e o que ficou do dia de Prokhorovka, contado por décadas como a maior batalha de tanques da história, quando se abrem os arquivos dos dois lados."

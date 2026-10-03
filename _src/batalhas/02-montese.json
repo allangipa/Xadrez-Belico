@@ -2,13 +2,15 @@
   "num": "02",
   "slug": "montese",
   "batalha": "Montese",
+  "nome_busca": "Batalha de Montese",
+  "relacionados": ["monte-castello", "monte-cassino", "tuiuti"],
   "titulo_video": "Por que a FEB venceu em Montese (e pagou o preço mais alto)",
   "lugar": "Montese, Módena, Emília-Romanha, Itália",
   "data": "14 a 17 de abril de 1945",
   "campanha": "A FEB na Itália",
   "estreia": "2026-10-01",
   "pergunta": "Por que Montese caiu em 2h15 e, ainda assim, custou 426 baixas brasileiras?",
-  "resumo": "Montese caiu em 2h15 no dia 14 de abril de 1945. Segurá-la custou 426 baixas à FEB. A conta veio de uma leitura alemã do tabuleiro, não de erro brasileiro.",
+  "resumo": "Batalha de Montese: a cidade caiu em 2h15 no dia 14 de abril de 1945; segurá-la custou 426 baixas à FEB, por uma leitura alemã, não por erro brasileiro.",
   "abertura": [
     "Em 14 de abril de 1945, a Força Expedicionária Brasileira atacou Montese, uma cidade de casario de pedra no alto de um morro dos Apeninos, na província de Módena, Itália. Começou às 13h30. Às 15h45 a cidade estava ocupada: 2 horas e 15 minutos.",
     "Mesmo assim, os quatro dias de Montese terminaram com 426 baixas brasileiras. A tomada foi rápida; o que custou caro foi ficar. E a explicação mais provável não está no plano brasileiro, mas na forma como o comando alemão leu o lance."

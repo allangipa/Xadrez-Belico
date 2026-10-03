@@ -2,13 +2,15 @@
   "num": "05",
   "slug": "franca-1940",
   "batalha": "A queda da França",
+  "nome_busca": "Queda da França",
+  "relacionados": ["polonia-1939", "ardenas", "batalha-da-inglaterra"],
   "titulo_video": null,
   "lugar": "França, Bélgica, Países Baixos e Luxemburgo; o ponto de decisão em Sedan, no rio Meuse, departamento das Ardenas, França",
   "data": "10 de maio a 25 de junho de 1940",
   "campanha": "Segunda Guerra Mundial, 1940",
   "estreia": "2026-10-22",
   "pergunta": "Se em setembro de 1939 não havia doutrina nova, o que exatamente a Alemanha aplicou na França em maio de 1940?",
-  "resumo": "A Alemanha atacou com menos tanques e pouco mais da metade da artilharia aliada. Em 1940 não venceu uma doutrina: venceu um plano, e Sedan é a prova.",
+  "resumo": "Na queda da França, a Alemanha atacou com menos tanques e pouco mais da metade da artilharia aliada. Venceu um plano, não uma doutrina: Sedan é a prova.",
   "abertura": [
     "Em 10 de maio de 1940, quando a Alemanha ataca no oeste, os Aliados têm 13.974 canhões contra 7.378 alemães. Só a França tem entre 3.383 e 4.071 tanques; a Alemanha entra com 2.445. Seis semanas depois, a França está fora da guerra.",
     "A campanha da Polônia mostrou que, em 1939, não havia uma doutrina chamada Blitzkrieg: o nome veio dos jornais. Esta página continua a pergunta. Se não era doutrina, o que foi aplicado oito meses depois? A resposta cabe numa distinção: doutrina se ensina a um exército inteiro e serve para qualquer guerra; plano serve para uma guerra, contra um inimigo, num terreno."

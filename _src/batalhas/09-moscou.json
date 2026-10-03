@@ -2,13 +2,14 @@
   "num": "09",
   "slug": "moscou",
   "batalha": "A Batalha de Moscou",
+  "relacionados": ["stalingrado", "kursk", "polonia-1939"],
   "titulo_video": null,
   "lugar": "Os acessos a Moscou, Rússia, de Viazma e Briansk, a oeste, a Kalinin (hoje Tver), ao norte, e Tula, ao sul",
   "data": "30 de setembro de 1941 a 7 de janeiro de 1942",
   "campanha": "Segunda Guerra Mundial, 1941",
   "estreia": "2026-11-19",
   "pergunta": "Por que a Blitzkrieg parou às portas da capital?",
-  "resumo": "Em 1º de dezembro de 1941 a ofensiva alemã já tinha perdido o sentido; o frio extremo veio depois. O que de fato esgotou a Operação Tufão diante de Moscou.",
+  "resumo": "Na Batalha de Moscou, a ofensiva alemã já tinha perdido o sentido em 1º de dezembro de 1941; o frio extremo veio depois. O que esgotou a Operação Tufão.",
   "abertura": [
     "Na primeira semana de outubro de 1941, o Grupo de Exércitos Centro alemão executa a Operação Tufão com a perfeição de manual: seis exércitos soviéticos cercados em Viazma, mais três em Briansk, e mais de meio milhão de prisioneiros. Em Berlim, o porta-voz do governo anuncia à imprensa estrangeira que a campanha do leste está decidida. Dois meses depois, os mesmos tanques estão parados a cerca de 30 km do Kremlin, e no dia 5 de dezembro o Exército Vermelho contra-ataca.",
     "A explicação que mais circula tem nome próprio: o General Inverno. O registro alemão da época conta outra história. A ofensiva perdeu a força antes do frio extremo, por causa de uma ferrovia que não carregava o que o exército consumia, de blindados reduzidos a um terço e de um adversário que, em vez de acabar, repôs as peças. Esta página segue a partida lance a lance e pesa cada explicação."

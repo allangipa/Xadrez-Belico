@@ -2,13 +2,15 @@
   "num": "10",
   "slug": "midway",
   "batalha": "A Batalha de Midway",
+  "nome_busca": "Batalha de Midway",
+  "relacionados": ["pearl-harbor", "riachuelo", "batalha-da-inglaterra"],
   "titulo_video": null,
   "lugar": "Atol de Midway, extremo noroeste do arquipélago do Havaí (Estados Unidos), e o Pacífico Norte a noroeste e a nordeste dele",
   "data": "4 a 7 de junho de 1942",
   "campanha": "Segunda Guerra Mundial, 1942",
   "estreia": "2026-11-26",
   "pergunta": "Como cinco minutos viraram a guerra no Pacífico?",
-  "resumo": "Em 4 de junho de 1942, três porta-aviões japoneses arderam em minutos. Quanto foi código quebrado, quanto foi acaso, e por que os 'cinco minutos' são mito.",
+  "resumo": "Na Batalha de Midway, três porta-aviões japoneses arderam em minutos. Quanto foi código quebrado, quanto foi acaso, e por que os 'cinco minutos' são mito.",
   "abertura": [
     "Às 10:20 de 4 de junho de 1942, três esquadrilhas de bombardeiros de mergulho americanos chegam quase juntas sobre a força de porta-aviões do almirante Chūichi Nagumo, a noroeste de Midway. Em cerca de cinco minutos, três dos quatro porta-aviões japoneses — Kaga, Akagi e Sōryū — estão em chamas. Seis meses depois de Pearl Harbor, a força que tinha aberto a guerra no Pacífico perde a iniciativa numa manhã.",
     "A história mais contada diz que os japoneses estavam a cinco minutos de lançar o próprio ataque, com o convés cheio de aviões prontos. O registro diz outra coisa. Esta página segue a partida pelos dois lados do tabuleiro: o que a quebra parcial do código japonês deu aos americanos, o que o plano dividido de Yamamoto tirou de Nagumo, e quanto do resultado foi leitura e quanto foi acaso."

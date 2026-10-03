@@ -2,13 +2,15 @@
   "num": "14",
   "slug": "monte-cassino",
   "batalha": "Monte Cassino",
+  "nome_busca": "Batalha de Monte Cassino",
+  "relacionados": ["monte-castello", "montese", "el-alamein"],
   "titulo_video": null,
   "lugar": "Cassino, Lácio, Itália: o Monte Cassino e a abadia beneditina, os vales do Rapido, do Liri e do Garigliano, e os Montes Auruncos ao sul",
   "data": "17 de janeiro a 18 de maio de 1944",
   "campanha": "Segunda Guerra Mundial, 1944",
   "estreia": "2026-12-24",
   "pergunta": "Por que foram precisos quatro assaltos contra a mesma montanha — e o que mudou no último?",
-  "resumo": "Três assaltos bateram na porta da frente de Cassino. O quarto abriu o flanco nos Montes Auruncos, e a abadia, que os alemães não ocupavam, caiu por último.",
+  "resumo": "Três assaltos bateram de frente em Monte Cassino. O quarto abriu o flanco nos Montes Auruncos, e a abadia, que os alemães não ocupavam, caiu por último.",
   "abertura": [
     "Em janeiro de 1944, a estrada de Nápoles a Roma entra no vale do Liri por um gargalo: o rio Rapido embaixo, a cidade de Cassino ao pé e, por cima, o Monte Cassino com a abadia beneditina no topo. É a Linha Gustav, e os Aliados a atacam quatro vezes em quatro meses.",
     "Os três primeiros assaltos falham diante do mesmo ponto. O mais famoso lance da partida, o bombardeio da abadia em 15 de fevereiro, destrói um prédio que os alemães não ocupavam. O quarto assalto, em maio, muda o tabuleiro inteiro — e a ruptura vem pelo canto que nem o comandante aliado tratava como principal."

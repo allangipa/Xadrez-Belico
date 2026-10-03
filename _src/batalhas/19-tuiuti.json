@@ -2,13 +2,15 @@
   "num": "19",
   "slug": "tuiuti",
   "batalha": "Tuiuti",
+  "nome_busca": "Batalha de Tuiuti",
+  "relacionados": ["riachuelo", "pearl-harbor", "monte-castello"],
   "titulo_video": null,
   "lugar": "Tuiuti (Tuyutí), entre o Estero Bellaco e o Estero Rojas, departamento de Ñeembucú, Paraguai, na estrada de Passo da Pátria a Humaitá",
   "data": "24 de maio de 1866",
   "campanha": "Guerra do Paraguai, 1866",
   "estreia": "2027-01-28",
   "pergunta": "Por que o ataque paraguaio de surpresa contra o acampamento aliado entre os pântanos de Tuiuti virou a maior batalha campal da América do Sul — e por que a surpresa não bastou?",
-  "resumo": "Em 24 de maio de 1866 López atacou de surpresa o acampamento aliado entre pântanos. O sinal saiu horas atrasado, e o adversário já estava em armas.",
+  "resumo": "Na Batalha de Tuiuti, em 1866, López atacou de surpresa o acampamento aliado entre pântanos. O sinal saiu horas atrasado; o adversário já estava em armas.",
   "abertura": [
     "Em 20 de maio de 1866 o exército aliado — brasileiros, argentinos e uruguaios — acampa em Tuiuti, uma elevação seca cercada de pântanos e mato no sul do Paraguai, a caminho da fortaleza de Humaitá. Riachuelo tinha dado aos aliados o rio; agora eles estavam em terra, do outro lado do Paraná. Quatro dias depois, Francisco Solano López lança contra eles cerca de 24 mil homens, num ataque de surpresa por três frentes.",
     "Foi considerada a maior batalha campal da América do Sul, e com certeza a mais sangrenta: cerca de 13 mil baixas paraguaias em cinco horas. A pergunta desta página é por que um ataque de surpresa, bem desenhado, contra um adversário encostado no pântano, terminou assim. A resposta está no relógio e no terreno."

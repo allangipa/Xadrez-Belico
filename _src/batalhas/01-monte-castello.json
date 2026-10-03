@@ -2,13 +2,15 @@
   "num": "01",
   "slug": "monte-castello",
   "batalha": "Monte Castello",
+  "nome_busca": "Batalha de Monte Castelo",
+  "relacionados": ["fornovo-di-taro", "monte-cassino", "riachuelo"],
   "titulo_video": "Por que a FEB falhou em Monte Castello (e como finalmente venceu)",
   "lugar": "Monte Castello, Apeninos, Emília-Romanha, Itália",
   "data": "24 de novembro de 1944 a 21 de fevereiro de 1945",
   "campanha": "A FEB na Itália",
   "estreia": null,
   "pergunta": "Por que os ataques de novembro e dezembro de 1944 falharam, e o de fevereiro de 1945 não?",
-  "resumo": "Por que a FEB falhou em Monte Castello em 1944 e venceu em 21 de fevereiro de 1945: o morro era uma peça de um sistema de alturas.",
+  "resumo": "Por que a FEB falhou na Batalha de Monte Castello em 1944 e venceu em 21 de fevereiro de 1945: o morro era uma peça de um sistema de alturas.",
   "abertura": [
     "Por quase três meses, entre novembro de 1944 e fevereiro de 1945, a Força Expedicionária Brasileira atacou o mesmo morro nos Apeninos, no norte da Itália, e foi repelida. Em 21 de fevereiro subiu outra vez e tomou o cume no mesmo dia. O morro não tinha mudado, e a divisão alemã que o defendia também não.",
     "O que mudou foi o tabuleiro em volta. Monte Castello era o último elo de uma corrente de alturas, e enquanto os picos vizinhos ficaram em mãos alemãs, quem subia a encosta levava fogo de frente e de lado. A vitória de fevereiro começou nas montanhas ao lado."

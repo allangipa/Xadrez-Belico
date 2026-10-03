@@ -2,13 +2,15 @@
   "num": "12",
   "slug": "stalingrado",
   "batalha": "Stalingrado",
+  "nome_busca": "Batalha de Stalingrado",
+  "relacionados": ["moscou", "el-alamein", "humaita"],
   "titulo_video": null,
   "lugar": "Stalingrado (hoje Volgogrado), oblast de Volgogrado, Rússia, e a curva do Don entre o rio e o Volga",
   "data": "17 de julho de 1942 a 2 de fevereiro de 1943",
   "campanha": "Segunda Guerra Mundial, 1942–1943",
   "estreia": "2026-12-10",
   "pergunta": "Como o exército que cercava Stalingrado acabou cercado dentro dela — e por que não saiu?",
-  "resumo": "Por que o 6º Exército ficou preso no Volga: objetivos divididos, flancos fracos, a Operação Urano, a ponte aérea que não fechava e a ordem de não romper.",
+  "resumo": "Por que o 6º Exército ficou preso na Batalha de Stalingrado: flancos fracos, a Operação Urano, a ponte aérea que não fechava e a ordem de não romper.",
   "abertura": [
     "Em novembro de 1942 o 6º Exército alemão está no Volga, dono de quase toda Stalingrado, no sul da Rússia. Atrás dele, ao longo do Don, a linha que protege seus flancos está entregue a exércitos romenos mal armados. Em 19 e 20 de novembro o Exército Vermelho rompe essa linha ao norte e ao sul, e em 23 de novembro as duas pontas se encontram perto de Kalach. Quem cercava a cidade está cercado.",
     "Ser cercado não condenava um exército em 1942: os dois lados já tinham rompido cercos antes. Esta página segue a partida para entender como o anel virou armadilha — o tabuleiro esticado pelo próprio comando alemão, o golpe soviético nos pontos fracos, a promessa de abastecer pelo ar um exército inteiro, a tentativa de socorro que parou a cerca de 48 km e a ordem de não romper."

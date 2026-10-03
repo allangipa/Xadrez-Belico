@@ -2,13 +2,15 @@
   "num": "17",
   "slug": "ardenas",
   "batalha": "Ardenas",
+  "nome_busca": "Batalha das Ardenas",
+  "relacionados": ["franca-1940", "dia-d", "market-garden"],
   "titulo_video": null,
   "lugar": "Ardenas, Bélgica e Luxemburgo — de Monschau e da crista de Elsenborn, no norte, a Echternach, no sul, e até Celles, perto de Dinant, junto ao rio Mosa",
   "data": "16 de dezembro de 1944 a 25 de janeiro de 1945",
   "campanha": "Segunda Guerra Mundial, 1944–1945",
   "estreia": "2027-01-14",
   "pergunta": "Por que o mesmo lance de 1940, pela mesma floresta, não funcionou em 1944?",
-  "resumo": "Em 1944 Hitler repetiu o lance de 1940 pelas Ardenas, rumo a Antuérpia. Por que St. Vith, Bastogne, o combustível e o céu limpo o pararam antes do Mosa.",
+  "resumo": "Na Batalha das Ardenas, Hitler repetiu o lance de 1940 rumo a Antuérpia. Por que St. Vith, Bastogne, o combustível e o céu limpo o pararam antes do Mosa.",
   "abertura": [
     "Em 16 de setembro de 1944, Hitler interrompeu uma reunião no seu quartel-general para anunciar um contra-ataque: saindo das Ardenas, com o objetivo Antuérpia. A meta declarada era outra Dunquerque, e o caminho era o mesmo de 1940 — a floresta por onde os blindados alemães tinham passado para cortar a França ao meio. Em 16 de dezembro, mais de 200 mil homens atacaram quatro divisões americanas espalhadas por quase 140 km de frente.",
     "A ofensiva rompeu a linha, cercou Bastogne e chegou a menos de 10 km do Mosa. E parou ali. Esta página segue a partida para responder por que o lance que tinha dado certo uma vez não deu certo de novo — e a resposta não está só no combustível nem só no céu aberto, que são as explicações que mais circulam."

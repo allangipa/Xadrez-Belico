@@ -2,13 +2,15 @@
   "num": "18",
   "slug": "riachuelo",
   "batalha": "Riachuelo",
+  "nome_busca": "Batalha do Riachuelo",
+  "relacionados": ["humaita", "midway", "pearl-harbor"],
   "titulo_video": null,
   "lugar": "Rio Paraná diante da foz do arroio Riachuelo, cerca de 15 km abaixo da cidade de Corrientes, província de Corrientes, Argentina",
   "data": "11 de junho de 1865",
   "campanha": "Guerra do Paraguai, 1865",
   "estreia": "2027-01-21",
   "pergunta": "Como um rio estreito virou tabuleiro: por que o ataque de surpresa paraguaio falhou, como Barroso virou a batalha com um aríete, e o que a vitória realmente fechou?",
-  "resumo": "O plano paraguaio era abordar a esquadra imperial no escuro e chegou com o sol alto. Como Riachuelo virou duelo, quase se perdeu, e o que a vitória fechou.",
+  "resumo": "Na Batalha do Riachuelo, o Paraguai quis abordar a esquadra no escuro e chegou com sol alto. Como virou duelo, quase se perdeu e o que a vitória fechou.",
   "abertura": [
     "Em junho de 1865 o exército paraguaio ocupa Corrientes, na Argentina, e uma esquadra brasileira de 9 vapores está fundeada no rio Paraná, logo abaixo da cidade, para cortar a linha de comunicação dele. Francisco Solano López decide tomá-la: chegar no escuro, passar pelos navios parados, virar e abordar cada um antes que levantasse âncora. Os vapores paraguaios eram quase todos mercantes armados; num duelo de artilharia, perderiam.",
     "Esta página abre a minissérie da Guerra do Paraguai — ou da Tríplice Aliança, como a chamam os vizinhos — e segue a partida de 11 de junho de 1865: um plano que dependia do relógio, uma esquadra que entrou em coluna num canal estreito embaixo de uma bateria que não tinha visto, e uma fragata usada como aríete. A pergunta é como o rio virou tabuleiro, e o que a vitória brasileira fechou de fato — que é menos do que se costuma dizer."

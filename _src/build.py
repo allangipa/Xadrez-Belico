@@ -105,6 +105,41 @@ def link_canal(classe, texto, sem_link="Em breve no YouTube"):
 
 
 # --- carga e conferência ----------------------------------------------------
+ROTULO_LEIA = "Mais"
+ITEM_LEIA = lambda y: (f'<li><a href="{y["slug"]}.html"><span class="rotulo">Episódio <b>{e(y["num"])}</b> · {e(y["campanha"])}</span>'
+                       f'<strong>{e(y["batalha"])}</strong><span class="onde">{e(y["data"])}</span></a></li>')
+
+
+def conferir_relacionados(x, slugs):
+    """`relacionados` (opcional): três slugs do MESMO site, de assunto
+    próximo, para o bloco "Leia também". Para se o slug não existir, se
+    repetir, se apontar para a própria página ou para o `proximo` (que já
+    tem bloco próprio)."""
+    rel = x.get("relacionados")
+    if rel is None:
+        return
+    if not isinstance(rel, list) or len(rel) != 3 or len(set(rel)) != 3:
+        falha(f"{x['slug']}: relacionados deve ter 3 slugs diferentes: {rel!r}")
+    for s in rel:
+        if s not in slugs:
+            falha(f"{x['slug']}: relacionado '{s}' não existe")
+        if s == x["slug"]:
+            falha(f"{x['slug']}: relacionado aponta para a própria página")
+        if s == x["proximo"]:
+            falha(f"{x['slug']}: relacionado '{s}' já é o próximo episódio")
+
+
+def leia_tambem(x, todos):
+    """Bloco "Leia também": três links internos de assunto próximo."""
+    rel = x.get("relacionados") or []
+    if not rel:
+        return ""
+    por_slug = {y["slug"]: y for y in todos}
+    itens = "".join(ITEM_LEIA(por_slug[s]) for s in rel)
+    return (f'<section class="leia" aria-labelledby="leia"><h2 id="leia"><span class="n">{ROTULO_LEIA}</span>Leia também</h2>'
+            f'<ul>{itens}</ul></section>')
+
+
 def carregar():
     bs = []
     for f in sorted((SRC / "batalhas").glob("[0-9][0-9]-*.json")):
@@ -147,6 +182,7 @@ def carregar():
     for b in bs:
         if b["proximo"] and b["proximo"] not in slugs:
             falha(f"{b['slug']}: proximo '{b['proximo']}' não existe")
+        conferir_relacionados(b, slugs)
     if not bs:
         falha("nenhuma batalha em _src/batalhas")
     return bs
@@ -221,9 +257,26 @@ def consentimento(base):
 </script>
 """
 
-def cabeca(titulo, descricao, url, imagem, base, jsonld, tipo="website", indexar=True):
+def css_inline():
+    """O CSS vai dentro do <head>: o arquivo externo custava uma ida e volta
+    inteira bloqueando a primeira pintura (PageSpeed, 03/10/2026). Fontes com
+    caminho absoluto, porque o <style> resolve a partir da página."""
+    css = (SRC / "xadrez.css").read_text(encoding="utf-8")
+    css = re.sub(r"/\*.*?\*/", "", css, flags=re.S)
+    return re.sub(r"\n\s*\n+", "\n", css).strip()
+
+
+CSS_INLINE = None
+
+
+def cabeca(titulo, descricao, url, imagem, base, jsonld, tipo="website", indexar=True, extra=""):
+    global CSS_INLINE
+    if CSS_INLINE is None:
+        CSS_INLINE = css_inline()
     if indexar:
-        canon = f'<link rel="canonical" href="{e(url)}">'
+        # max-image-preview:large: deixa o Google Discover usar a og:image grande
+        canon = (f'<link rel="canonical" href="{e(url)}">\n'
+                 '<meta name="robots" content="max-image-preview:large">')
     else:
         canon = '<meta name="robots" content="noindex, follow">'
     lds = jsonld if isinstance(jsonld, list) else [jsonld]
@@ -240,8 +293,10 @@ def cabeca(titulo, descricao, url, imagem, base, jsonld, tipo="website", indexar
 <link rel="icon" href="{base}assets/marca/cavalo-64.png" type="image/png">
 <link rel="apple-touch-icon" href="{base}assets/marca/cavalo-180.png">
 <link rel="preload" href="{base}assets/fontes/libre-baskerville-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{base}assets/fontes/libre-franklin-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+{extra}
 {adsense_head()}
-<link rel="stylesheet" href="{base}assets/xadrez.css">
+<style>{CSS_INLINE}</style>
 <meta property="og:type" content="{tipo}">
 <meta property="og:site_name" content="{e(NOME)}">
 <meta property="og:locale" content="pt_BR">
@@ -319,15 +374,48 @@ def conf_selo(c):
     return f'<span class="conf {cls}" title="{e(tit)}">{e(txt)}</span>'
 
 
+def webp(jpg):
+    """Cópia WebP ao lado do JPEG (o JPEG fica como reserva no <picture>).
+    Só regera se faltar ou se o JPEG for mais novo."""
+    destino = jpg.with_suffix(".webp")
+    if not destino.exists() or destino.stat().st_mtime < jpg.stat().st_mtime:
+        Image.open(jpg).convert("RGB").save(destino, "WEBP", quality=78, method=5)
+    return destino.name
+
+
+def webp_srcset(arquivo, base):
+    """(srcset WebP, tem versão de 800?) da imagem `arquivo`."""
+    nome = Path(arquivo).stem
+    menor = IMG / f"{nome}-800.jpg"
+    w = Image.open(IMG / arquivo).size[0]
+    grande = f"{base}assets/img/{webp(IMG / arquivo)}"
+    if menor.exists():
+        return f"{base}assets/img/{webp(menor)} 800w, {grande} {w}w", True
+    return grande, False
+
+
 def img_tag(arquivo, alt, base, tamanhos="100vw", carregar="lazy", foco=None):
+    """<picture> com WebP e reserva JPEG. `carregar="eager"` é a imagem do LCP
+    (a capa): sai com fetchpriority alto; o resto é lazy."""
     nome = Path(arquivo).stem
     w, h = Image.open(IMG / arquivo).size
     srcset = ""
     if (IMG / f"{nome}-800.jpg").exists():
         srcset = f' srcset="{base}assets/img/{nome}-800.jpg 800w, {base}assets/img/{arquivo} {w}w" sizes="{tamanhos}"'
     st = f' style="object-position:{e(foco)}"' if foco else ""
-    return (f'<img src="{base}assets/img/{e(arquivo)}"{srcset} width="{w}" height="{h}" '
-            f'alt="{e(alt)}" loading="{carregar}" decoding="async"{st}>')
+    prio = ' fetchpriority="high"' if carregar == "eager" else ""
+    ws, tem800 = webp_srcset(arquivo, base)
+    sz = f' sizes="{tamanhos}"' if tem800 else ""
+    return (f'<picture><source type="image/webp" srcset="{ws}"{sz}>'
+            f'<img src="{base}assets/img/{e(arquivo)}"{srcset} width="{w}" height="{h}" '
+            f'alt="{e(alt)}" loading="{carregar}"{prio} decoding="async"{st}></picture>')
+
+
+def preload_capa(arquivo, base, tamanhos="100vw"):
+    """Avisa o navegador da capa (LCP) já no <head>, antes do HTML do corpo."""
+    ws, tem800 = webp_srcset(arquivo, base)
+    sz = f' imagesizes="{tamanhos}"' if tem800 else ""
+    return f'<link rel="preload" as="image" type="image/webp" imagesrcset="{ws}"{sz} fetchpriority="high">'
 
 
 def tarja(im):
@@ -405,7 +493,11 @@ def titulo_seo(b):
     """Assunto primeiro, marca no fim, até 60 caracteres. "Lance a lance" é o
     que a página entrega (a seção de lances); sai se não couber, e o artigo
     inicial também, antes de cortar a marca."""
-    nomes = [b["batalha"], re.sub(r"^(A|O|As|Os) ", "", b["batalha"])]
+    # `nome_busca` (opcional no JSON): o nome como as pessoas buscam a batalha
+    # ("Batalha de Stalingrado", "Ataque a Pearl Harbor"). Só muda o <title>;
+    # o h1 e o resto da página seguem com `batalha`.
+    base = b.get("nome_busca") or b["batalha"]
+    nomes = [base, re.sub(r"^(A|O|As|Os) ", "", base)]
     for meio in (", lance a lance", ""):
         for n in nomes:
             t = f"{n} ({anos(b)}){meio} · {NOME}"
@@ -501,6 +593,10 @@ def card_producao(a):
 </li>"""
 
 
+# o escudo da abertura mede 300 px (160 no celular); servir o de 720 era o LCP do celular
+ESCUDO_SIZES = "(max-width:820px) 160px, 300px"
+
+
 def home(bs, og):
     base = ""
     nomes = {"2+": "Confirmado", "1": "Fonte única", "DIV": "Divergência", "sem": "Sem registro"}
@@ -515,7 +611,7 @@ def home(bs, og):
     return (cabeca(TITULO_HOME, DESC_HOME, DOMINIO + "/", f"{DOMINIO}/assets/img/{og}", base, jsonld)
             + topo(base) + f"""<main id="conteudo">
 <section class="abre">
-  <img src="_src-banner" width="{{BANNER_W}}" height="{{BANNER_H}}" alt="" aria-hidden="true">
+  <picture><source type="image/webp" srcset="assets/img/banner.webp"><img src="_src-banner" width="{{BANNER_W}}" height="{{BANNER_H}}" alt="" aria-hidden="true" fetchpriority="high" decoding="async"></picture>
   <div class="casca">
     <div>
       <div class="filete">Terreno · peças · lances</div>
@@ -526,7 +622,7 @@ def home(bs, og):
         {link_canal('botao', 'Canal no YouTube')}
       </div>
     </div>
-    <div class="escudo"><img src="assets/marca/escudo.jpg" width="720" height="886" alt="Escudo do Xadrez Bélico: um cavalo de xadrez com elmo de crista"></div>
+    <div class="escudo"><picture><source type="image/webp" srcset="assets/marca/{webp(RAIZ / 'assets' / 'marca' / 'escudo-360.jpg')} 360w, assets/marca/{webp(RAIZ / 'assets' / 'marca' / 'escudo.jpg')} 720w" sizes="{ESCUDO_SIZES}"><img src="assets/marca/escudo.jpg" srcset="assets/marca/escudo-360.jpg 360w, assets/marca/escudo.jpg 720w" sizes="{ESCUDO_SIZES}" width="720" height="886" alt="Escudo do Xadrez Bélico: um cavalo de xadrez com elmo de crista" fetchpriority="high" decoding="async"></picture></div>
   </div>
 </section>
 
@@ -618,7 +714,8 @@ def pagina(b, bs, og):
         "articleSection": b["campanha"],
         "about": {"@type": "Event", "name": b["batalha"], "location": b["lugar"]},
     }, migalhas((NOME, DOMINIO + "/"), (b["batalha"], url))]
-    return (cabeca(titulo_seo(b), b["resumo"], url, f"{DOMINIO}/assets/img/{og}", base, jsonld, "article")
+    return (cabeca(titulo_seo(b), b["resumo"], url, f"{DOMINIO}/assets/img/{og}", base, jsonld, "article",
+                   extra=preload_capa(capa["arquivo"], base))
             + '<div class="progresso" aria-hidden="true"></div>' + topo(base, "batalhas") + f"""<main id="conteudo">
 <header class="capa">
   {img_tag(capa['arquivo'], capa['alt'], base, '100vw', 'eager', foco=capa.get('foco'))}
@@ -656,6 +753,8 @@ def pagina(b, bs, og):
       </div>
       {link_canal('botao cheio', 'Ver no YouTube')}
     </section>
+
+    {leia_tambem(b, bs)}
 
     <h2 id="fontes"><span class="n">Fontes</span>Fontes</h2>
     <ol class="fontes">{fontes}</ol>
@@ -843,6 +942,7 @@ def main():
     ban = ban.crop((0, int(H * .63), W, H))
     ban.thumbnail((1920, 1080), Image.LANCZOS)
     ban.save(IMG / "banner.jpg", "JPEG", quality=80, optimize=True, progressive=True)
+    webp(IMG / "banner.jpg")
 
     og = {b["slug"]: og_batalha(b) for b in bs}
     (RAIZ / "index.html").write_text(home(bs, og_home()).replace('src="_src-banner"', 'src="assets/img/banner.jpg"')

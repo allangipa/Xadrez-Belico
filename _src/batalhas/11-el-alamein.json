@@ -2,13 +2,15 @@
   "num": "11",
   "slug": "el-alamein",
   "batalha": "El Alamein",
+  "nome_busca": "Batalha de El Alamein",
+  "relacionados": ["monte-cassino", "dia-d", "ardenas"],
   "titulo_video": null,
   "lugar": "El Alamein, costa mediterrânea do Egito, a cerca de 106 km de Alexandria",
   "data": "23 de outubro a 11 de novembro de 1942",
   "campanha": "Segunda Guerra Mundial, 1942",
   "estreia": "2026-12-03",
   "pergunta": "O deserto como tabuleiro: logística contra genialidade — por que o Raposa do Deserto perdeu?",
-  "resumo": "Em El Alamein, Rommel ficou sem flanco, sem combustível e com metade das peças. Por que o general mais famoso da guerra perdeu no deserto do Egito.",
+  "resumo": "Na Batalha de El Alamein, Rommel ficou sem flanco, sem combustível e com metade das peças. Por que o general mais famoso da guerra perdeu no Egito.",
   "abertura": [
     "Na noite de 23 de outubro de 1942, às 21:40, cerca de 900 canhões britânicos abrem fogo ao longo da linha de El Alamein, no Egito. Do outro lado estão cerca de meio milhão de minas, um exército teuto-italiano com combustível para poucos dias — e, no comando, um general interino: Erwin Rommel estava em licença médica na Alemanha. Doze dias depois o Eixo recua; até 11 de novembro, terá deixado para trás cerca de 30 mil prisioneiros.",
     "A explicação de manual é que Montgomery venceu Rommel. Mas a partida tinha começado meses antes: num gargalo de pouco mais de 60 km entre o mar e uma depressão intransitável, onde a manobra pelo flanco — a arma de Rommel — não existia; e no Mediterrâneo, onde os navios que levavam a gasolina dele eram afundados. A pergunta desta página é o que pesou mais: o general ou o tabuleiro."
