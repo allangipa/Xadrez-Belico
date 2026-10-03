@@ -19,6 +19,13 @@ mesmo jeito. Ele PARA quando:
   - uma imagem é gerada por IA (o site só mostra material real), ou é foto
     de hoje sem o ano — a tarja "FOTO DE AAAA" é regra da casa;
   - o texto público carrega bastidor de produção.
+
+Idiomas (desde 03/10/2026): o português fica na raiz, com os caminhos de
+sempre; cada outro idioma ganha uma pasta (`en/`, `es/`) com os mesmos slugs.
+Um idioma entra no ar quando existe `_src/i18n/<id>.json` (os textos da
+interface); uma batalha sai nele quando existe `_src/batalhas/<id>/NN-slug.json`
+e a tradução passa nas travas de `fundir_traducao()` — campo faltando, número
+que não bate com o original, texto não traduzido: o build para.
 """
 import datetime as dt
 import html
@@ -26,6 +33,8 @@ import json
 import re
 import subprocess
 import sys
+from collections import Counter, defaultdict
+from decimal import Decimal, InvalidOperation
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont, ImageOps
@@ -36,7 +45,11 @@ RAIZ = Path(__file__).resolve().parent.parent
 SRC = RAIZ / "_src"
 IMG = RAIZ / "assets" / "img"
 
-DOMINIO = "https://xadrezbelico.com.br"
+# Domínio principal desde 03/10/2026. O .com.br continua apontando para os
+# mesmos arquivos e redireciona 301, caminho a caminho, pelo .htaccess.
+DOMINIO = "https://xadrezbelico.com"
+SITE_IRMAO_VO = "https://vestigiooculto.com.br"
+SITE_IRMAO_AI = "https://arquiteturadoimpossivel.com"
 # Endereço do canal no YouTube, confirmado pelo Allan em 02/10/2026. None faz
 # os botões dizerem "em breve no YouTube", sem link.
 CANAL = "https://www.youtube.com/@XadrezB%C3%A9lico"
@@ -88,26 +101,371 @@ def para(s):
 
 
 def data_br(iso, longa=False):
+    """Data por extenso no idioma da página (o nome ficou por história)."""
     d = dt.date.fromisoformat(iso)
     if longa:
-        return f"{d.day} de {MESES_LONGO[d.month-1]} de {d.year}"
-    return f"{d.day:02d} {MESES[d.month-1]} {d.year}"
+        return cfg("data_longa").format(dia=d.day, mes=cfg("meses")[d.month - 1], ano=d.year)
+    return cfg("data_curta").format(dia=d.day, mes=cfg("meses_curtos")[d.month - 1], ano=d.year)
 
 
 def falha(msg):
     raise SystemExit("PARADO: " + msg)
 
 
+# --- idiomas ------------------------------------------------------------------
+# Português na raiz, com os caminhos de sempre; cada outro idioma numa pasta
+# (en/, es/), com os MESMOS slugs (o hreflang casa página com página sem
+# tabela de correspondência). Ordem = ordem do seletor. Só fica ativo o idioma
+# que tem _src/i18n/<id>.json; e só sai nele a página que tem tradução.
+IDIOMAS = ["pt", "en", "es"]
+BASE_IDIOMA = "pt"
+PASTA_ITENS = "batalhas"         # _src/batalhas/ e batalhas/<slug>.html
+I18N_DIR = SRC / "i18n"
+CONFIG_PT = {
+    "nome": "Português", "curto": "PT", "hreflang": "pt-BR", "og_locale": "pt_BR",
+    # subtítulo da marca nos outros idiomas ("Xadrez Bélico — War as a Chess
+    # Game"); em português a marca é só o nome
+    "marca_sub": "",
+    "meses": MESES_LONGO,
+    "meses_curtos": MESES,
+    "data_longa": "{dia} de {mes} de {ano}",
+    "data_curta": "{dia:02d} {mes} {ano}",
+}
+CHAVES_IDIOMA = set(CONFIG_PT)
+I18N = {BASE_IDIOMA: {"_idioma": CONFIG_PT, "textos": {}}}
+ATIVOS = [BASE_IDIOMA]
+L = BASE_IDIOMA                  # idioma da página que está sendo gerada
+PAGINA = "index.html"            # chave (caminho em português) da página atual
+EXISTE = defaultdict(set)        # idioma -> chaves de página geradas nele
+FALTANDO = defaultdict(set)      # idioma -> textos da interface sem tradução
+USADOS = defaultdict(set)
+
+
+def carregar_idiomas():
+    """Lê _src/i18n/<id>.json: {"_idioma": {...como CONFIG_PT}, "textos":
+    {"texto em português": "tradução"}}. A chave é o próprio texto em
+    português: mudou o original, a tradução deixa de casar e o build para."""
+    for lg in IDIOMAS:
+        if lg == BASE_IDIOMA:
+            continue
+        arq = I18N_DIR / f"{lg}.json"
+        if not arq.exists():
+            continue
+        try:
+            d = json.loads(arq.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as ex:
+            falha(f"i18n/{lg}.json não é JSON válido: {ex}")
+        conf = d.get("_idioma") or {}
+        falta = CHAVES_IDIOMA - set(conf)
+        if falta:
+            falha(f"i18n/{lg}.json: _idioma sem {sorted(falta)}")
+        if len(conf["meses"]) != 12 or len(conf["meses_curtos"]) != 12:
+            falha(f"i18n/{lg}.json: meses e meses_curtos precisam de 12 nomes")
+        for k, v in (d.get("textos") or {}).items():
+            if set(re.findall(r"\{(\w+)", k)) != set(re.findall(r"\{(\w+)", v)):
+                falha(f"i18n/{lg}.json: marcadores {{…}} diferentes entre original e tradução: {k!r}")
+            b = BASTIDOR.search(v) or BASTIDOR_TRAD.search(v)
+            if b:
+                falha(f"i18n/{lg}.json: bastidor no texto ({b.group(0)!r}): {v!r}")
+        I18N[lg] = {"_idioma": conf, "textos": d.get("textos") or {}}
+        ATIVOS.append(lg)
+
+
+def tr(s, **kw):
+    """Texto da interface no idioma da página. Em português devolve o próprio
+    texto; nos outros, a tradução do dicionário — e anota o que faltar, para o
+    build parar no fim em vez de publicar meia página em português."""
+    if L != BASE_IDIOMA:
+        USADOS[L].add(s)
+        t = I18N[L]["textos"].get(s)
+        if t and t.strip():
+            s = t
+        else:
+            FALTANDO[L].add(s)
+    return s.format(**kw) if kw else s
+
+
+def cfg(k):
+    return I18N[L]["_idioma"][k]
+
+
+def prefixo(lg):
+    return "" if lg == BASE_IDIOMA else f"{lg}/"
+
+
+def url_de(lg, chave):
+    """Endereço absoluto da página `chave` (caminho em português) no idioma lg."""
+    return f"{DOMINIO}/{prefixo(lg)}{'' if chave == 'index.html' else chave}"
+
+
+def link(base, chave, ancora=""):
+    """href relativo para a página `chave` no idioma da página atual; se ela
+    ainda não existe nesse idioma, cai no português (nunca num 404)."""
+    lg = L if chave in EXISTE[L] else BASE_IDIOMA
+    return f"{base}{prefixo(lg)}{chave}{ancora}"
+
+
+def hreflang_de(chave):
+    """' hreflang="pt-BR"' quando o link cai no português dentro de outro idioma."""
+    if L != BASE_IDIOMA and chave not in EXISTE[L]:
+        return f' hreflang="{CONFIG_PT["hreflang"]}"'
+    return ""
+
+
+def idiomas_da(chave):
+    return [lg for lg in ATIVOS if chave in EXISTE[lg]]
+
+
+def alternativos(chave):
+    """[(hreflang, url)] da página em todos os idiomas em que ela existe, mais
+    x-default (inglês quando existe, senão português). Vazio se só há um."""
+    lgs = idiomas_da(chave)
+    if len(lgs) < 2:
+        return []
+    alt = [(I18N[lg]["_idioma"]["hreflang"], url_de(lg, chave)) for lg in lgs]
+    padrao = "en" if "en" in lgs else BASE_IDIOMA
+    return alt + [("x-default", url_de(padrao, chave))]
+
+
+def seletor_idioma(base):
+    """Links para a mesma página nos outros idiomas — só os que existem."""
+    lgs = idiomas_da(PAGINA)
+    if len(lgs) < 2:
+        return ""
+    itens = []
+    for lg in lgs:
+        c = I18N[lg]["_idioma"]
+        atual = ' aria-current="true"' if lg == L else ""
+        itens.append(f'<a class="idioma" href="{base}{prefixo(lg)}{PAGINA}" hreflang="{c["hreflang"]}" lang="{c["hreflang"]}" '
+                     f'aria-label="{e(c["nome"])}" title="{e(c["nome"])}"{atual}>{e(c["curto"])}</a>')
+    return f'<div class="idiomas" role="group" aria-label="{e(tr("Idioma"))}">{"".join(itens)}</div>'
+
+
+def marca_completa():
+    sub = cfg("marca_sub")
+    return f"{NOME} — {sub}" if sub else NOME
+
+
+def licenca_rotulo(lic):
+    return tr("Domínio público") if re.match(r"dom[ií]nio p[uú]blico$", lic.strip(), re.I) else lic
+
+
+# --- tradução de conteúdo: travas -----------------------------------------------
+# Campos que não se traduzem: se a tradução os trouxer, têm de ser idênticos;
+# se omitir, vêm do original.
+CAMPOS_FIXOS = {"num", "slug", "estreia", "proximo", "relacionados", "conf",
+                "arquivo", "licenca", "licenca_url", "origem_url", "tipo", "ano", "foco", "url"}
+# Campos que a tradução pode ter mesmo que o original não tenha.
+EXTRAS_TRAD = {"nome_busca", "_excecoes_numeros", "_nota"}
+# Texto citado (título de obra, de artigo) pode ficar igual ao original.
+PODE_FICAR_IGUAL = re.compile(r"^fontes\[\d+\]\.texto$|\.autor$")
+BASTIDOR_TRAD = re.compile(r"\bTODO\b|\bTBD\b|\bFIXME\b|\[\?\]|\bto (?:check|verify|confirm)\b"
+                           r"|\bpor (?:verificar|confirmar)\b|\bpendiente\b", re.I)
+
+MESES_NOMES = {
+    "pt": ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto",
+           "setembro", "outubro", "novembro", "dezembro"],
+    "en": ["January", "February", "March", "April", "May", "June", "July", "August",
+           "September", "October", "November", "December"],
+    "es": ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto",
+           "septiembre|setiembre", "octubre", "noviembre", "diciembre"],
+}
+MULTIPLICADOR = [  # o mais longo antes ("mil millones" = bilhão)
+    (r"mil\s+millones", 10 ** 9), (r"bilh(?:ão|ões)|billions?", 10 ** 9),
+    (r"milh(?:ão|ões)|millions?|millón|millones", 10 ** 6), (r"mil|thousand", 10 ** 3),
+]
+_MULT = "|".join(f"(?:{p})" for p, _ in MULTIPLICADOR)
+_NUM = r"(?<![\w.,/:])(\d+(?:[.,]\d+)*)"
+
+
+def _valor(s, lg):
+    dec, mil = (".", ",") if lg == "en" else (",", ".")
+    if re.fullmatch(rf"\d{{1,3}}(?:\{mil}\d{{3}})+(?:\{dec}\d+)?", s):
+        s = s.replace(mil, "")
+    s = s.replace(dec, ".")
+    try:
+        return Decimal(s)
+    except InvalidOperation:
+        return None
+
+
+def numeros_do_texto(txt, lg):
+    """Multiconjunto dos números do texto, normalizados: 1.000 (pt) = 1,000 (en)
+    = 1000; "20 mil" = "20,000"; "250–300 mil" = 250000 e 300000; 3/11/1924 =
+    3 + novembro + 1924; o mês por extenso conta como número (M11)."""
+    t = re.sub(r"(?<![\d/])(\d{1,2})/(\d{1,2})/(\d{4})\b", lambda m: f"{m[1]} §M{int(m[2])}§ {m[3]}", txt)
+    c = Counter()
+    for m in re.finditer(r"§M(\d+)§", t):
+        c[f"M{int(m[1])}"] += 1
+    # mês na caixa da ortografia (minúsculo em pt/es, maiúsculo em en):
+    # "Rio de Janeiro" não é janeiro, e "may" (verbo) não é May
+    for i, nomes in enumerate(MESES_NOMES[lg]):
+        n = len(re.findall(rf"\b(?:{nomes})\b", t))
+        if n:
+            c[f"M{i + 1}"] += n
+    # faixa com multiplicador no fim: "250–300 mil" → os dois lados multiplicam
+    def faixa(m):
+        mult = next(v for p, v in MULTIPLICADOR if re.fullmatch(p, m[3], re.I))
+        a, b = _valor(m[1], lg), _valor(m[2], lg)
+        if a is None or b is None:
+            return m[0]
+        # o primeiro lado só herda o multiplicador se veio "abreviado":
+        # "250–300 mil" sim; "de 800.000 a 1,5 milhão" não
+        return f"§N{a * mult if a < 1000 else a}§ – §N{b * mult}§"
+    t = re.sub(_NUM + r"\s*(?:–|-|a|to|y|e|ou|or|o)\s*" + r"(\d+(?:[.,]\d+)*)\s+(" + _MULT + r")\b", faixa, t, flags=re.I)
+    for m in re.finditer(r"§N([\d.]+)§", t):
+        c[format(Decimal(m[1]).normalize(), "f")] += 1
+    t = re.sub(r"§N[\d.]+§", " ", t)
+    for m in re.finditer(_NUM + r"(?:\s+(" + _MULT + r")\b)?", t, re.I):
+        v = _valor(m[1], lg)
+        if v is None:
+            continue
+        if m[2]:
+            v *= next(val for p, val in MULTIPLICADOR if re.fullmatch(p, m[2], re.I))
+        c[format(v.normalize(), "f")] += 1
+    return c
+
+
+def conferir_numeros(orig, trad, lg, onde, excecoes):
+    a, b = numeros_do_texto(orig, BASE_IDIOMA), numeros_do_texto(trad, lg)
+    for x in excecoes:
+        a.pop(x, None)
+        b.pop(x, None)
+    falta = a - b
+    sobra = Counter({k: v for k, v in (b - a).items() if not k.startswith("M")})
+    erros = []
+    if falta:
+        erros.append(f"{onde}: número do original ausente na tradução {dict(falta)}")
+    if sobra:
+        erros.append(f"{onde}: número na tradução que o original não tem {dict(sobra)}")
+    return erros
+
+
+def fundir_traducao(orig, trad, lg, onde="", excecoes=(), erros=None):
+    """Confere a tradução contra o original, campo a campo, e devolve o objeto
+    completo (campos fixos vêm do original). Acumula os erros em `erros`."""
+    if isinstance(orig, dict):
+        if not isinstance(trad, dict):
+            erros.append(f"{onde or 'raiz'}: esperava objeto")
+            return orig
+        out = {}
+        for k, v in orig.items():
+            caminho = f"{onde}.{k}" if onde else k
+            if k in CAMPOS_FIXOS:
+                if k in trad and trad[k] != v:
+                    erros.append(f"{caminho}: campo fixo diferente do original ({trad[k]!r} ≠ {v!r})")
+                out[k] = v
+            elif k not in trad:
+                if v in (None, [], ""):
+                    out[k] = v
+                else:
+                    erros.append(f"{caminho}: falta na tradução")
+            else:
+                out[k] = fundir_traducao(v, trad[k], lg, caminho, excecoes, erros)
+        for k in trad:
+            if k not in orig:
+                if k in EXTRAS_TRAD:
+                    out[k] = trad[k]
+                else:
+                    erros.append(f"{onde + '.' if onde else ''}{k}: campo que o original não tem")
+        return out
+    if isinstance(orig, list):
+        if not isinstance(trad, list) or len(trad) != len(orig):
+            erros.append(f"{onde}: a lista tem de ter {len(orig)} itens, como o original")
+            return orig
+        return [fundir_traducao(o, t, lg, f"{onde}[{i}]", excecoes, erros) for i, (o, t) in enumerate(zip(orig, trad))]
+    if isinstance(orig, str):
+        if not isinstance(trad, str) or not trad.strip():
+            erros.append(f"{onde}: texto vazio na tradução")
+            return orig
+        erros += conferir_numeros(orig, trad, lg, onde, excecoes)
+        if trad.strip() == orig.strip() and len(orig) >= 25 and " " in orig and not PODE_FICAR_IGUAL.search(onde):
+            erros.append(f"{onde}: igual ao português — não traduzido?")
+        b = BASTIDOR.search(trad) or BASTIDOR_TRAD.search(trad)
+        if b:
+            erros.append(f"{onde}: bastidor de produção ({b.group(0)!r})")
+        return trad
+    if trad != orig:
+        erros.append(f"{onde}: valor {trad!r} diferente do original {orig!r}")
+    return orig
+
+
+def carregar_traducoes(itens, campos_obrigatorios, nome_item):
+    """{idioma: {slug: item traduzido}} a partir de _src/<pasta>/<id>/NN-slug.json."""
+    por_slug = {x["slug"]: x for x in itens}
+    trads = {}
+    for lg in ATIVOS:
+        if lg == BASE_IDIOMA:
+            continue
+        trads[lg] = {}
+        for f in sorted((SRC / PASTA_ITENS / lg).glob("[0-9][0-9]-*.json")):
+            try:
+                t = json.loads(f.read_text(encoding="utf-8"))
+            except json.JSONDecodeError as ex:
+                falha(f"{PASTA_ITENS}/{lg}/{f.name} não é JSON válido: {ex}")
+            orig = next((x for x in itens if f.name == f"{x['num']}-{x['slug']}.json"), None)
+            if orig is None:
+                falha(f"{PASTA_ITENS}/{lg}/{f.name}: não há {nome_item} com esse nome em _src/{PASTA_ITENS}/")
+            erros = []
+            exc = [format(_valor(x, BASE_IDIOMA).normalize(), "f") if re.fullmatch(r"[\d.,]+", x) else x
+                   for x in t.get("_excecoes_numeros", [])]
+            obj = fundir_traducao(orig, t, lg, "", exc, erros)
+            falta = [c for c in campos_obrigatorios if c not in obj]
+            if falta:
+                erros.append(f"faltam campos obrigatórios {falta}")
+            if erros:
+                falha(f"tradução {PASTA_ITENS}/{lg}/{f.name} incompleta ou divergente:\n  " + "\n  ".join(erros))
+            obj.pop("_excecoes_numeros", None)
+            obj.pop("_nota", None)
+            obj["_arquivo"] = f
+            trads[lg][obj["slug"]] = obj
+    return trads
+
+
+def carregar_temas_traduzidos(temas, membros_por_idioma):
+    """_src/temas.<id>.json: [{slug, nome, titulo, resumo, intro}] com os mesmos
+    slugs de temas.json; a lista de membros vem do original. O tema só sai no
+    idioma se tiver 2 ou mais membros traduzidos."""
+    out = {}
+    por_slug = {t["slug"]: t for t in temas}
+    for lg in ATIVOS:
+        if lg == BASE_IDIOMA:
+            continue
+        out[lg] = []
+        arq = SRC / f"temas.{lg}.json"
+        if not arq.exists():
+            continue
+        for tt in json.loads(arq.read_text(encoding="utf-8")):
+            orig = por_slug.get(tt.get("slug"))
+            if orig is None:
+                falha(f"temas.{lg}.json: tema '{tt.get('slug')}' não existe em temas.json")
+            erros = []
+            base = {k: v for k, v in orig.items() if k != CHAVE_MEMBROS}
+            obj = fundir_traducao(base, tt, lg, f"tema {orig['slug']}", (), erros)
+            if erros:
+                falha(f"temas.{lg}.json:\n  " + "\n  ".join(erros))
+            obj[CHAVE_MEMBROS] = [s for s in orig[CHAVE_MEMBROS] if s in membros_por_idioma[lg]]
+            if len(obj[CHAVE_MEMBROS]) >= 2:
+                out[lg].append(obj)
+    return out
+
+
+
+
 def link_canal(classe, texto, sem_link="Em breve no YouTube"):
     if CANAL:
-        return f'<a class="{classe}" href="{CANAL}" target="_blank" rel="noopener">{e(texto)}</a>'
-    return f'<span class="{classe}" aria-disabled="true">{e(sem_link)}</span>'
+        return f'<a class="{classe}" href="{CANAL}" target="_blank" rel="noopener">{e(tr(texto))}</a>'
+    return f'<span class="{classe}" aria-disabled="true">{e(tr(sem_link))}</span>'
 
 
 # --- carga e conferência ----------------------------------------------------
 ROTULO_LEIA = "Mais"
-ITEM_LEIA = lambda y: (f'<li><a href="{y["slug"]}.html"><span class="rotulo">Episódio <b>{e(y["num"])}</b> · {e(y["campanha"])}</span>'
-                       f'<strong>{e(y["batalha"])}</strong><span class="onde">{e(y["data"])}</span></a></li>')
+
+
+def ITEM_LEIA(y, base="../"):
+    ch = f"batalhas/{y['slug']}.html"
+    return (f'<li><a href="{link(base, ch)}"{hreflang_de(ch)}><span class="rotulo">{e(tr("Episódio"))} <b>{e(y["num"])}</b> · {e(y["campanha"])}</span>'
+            f'<strong>{e(y["batalha"])}</strong><span class="onde">{e(y["data"])}</span></a></li>')
 
 
 def conferir_relacionados(x, slugs):
@@ -135,14 +493,15 @@ def leia_tambem(x, todos):
     temas = temas_de(x["slug"])
     if not rel and not temas:
         return ""
+    base = "../../" if L != BASE_IDIOMA else "../"
     por_slug = {y["slug"]: y for y in todos}
-    itens = "".join(ITEM_LEIA(por_slug[s]) for s in rel)
+    itens = "".join(ITEM_LEIA(por_slug[s], base) for s in rel)
     lista = f"<ul>{itens}</ul>" if itens else ""
     links = ""
     if temas:
-        links = ('<p class="temas-link"><span class="rotulo">Tema</span> '
-                 + " · ".join(f'<a href="../temas/{t["slug"]}.html">{e(t["nome"])}</a>' for t in temas) + "</p>")
-    return (f'<section class="leia" aria-labelledby="leia"><h2 id="leia"><span class="n">{ROTULO_LEIA}</span>Leia também</h2>'
+        links = (f'<p class="temas-link"><span class="rotulo">{e(tr("Tema"))}</span> '
+                 + " · ".join(f'<a href="{link(base, "temas/" + t["slug"] + ".html")}"{hreflang_de("temas/" + t["slug"] + ".html")}>{e(t["nome"])}</a>' for t in temas) + "</p>")
+    return (f'<section class="leia" aria-labelledby="leia"><h2 id="leia"><span class="n">{e(tr(ROTULO_LEIA))}</span>{e(tr("Leia também"))}</h2>'
             f'{lista}{links}</section>')
 
 
@@ -174,7 +533,7 @@ def perguntas_html(x):
     if not ps:
         return ""
     itens = "".join(f"<h3>{e(it['p'])}</h3><p>{para(it['r'])}</p>" for it in ps)
-    return f'<h2 id="perguntas"><span class="n">{ROTULO_PERGUNTAS}</span>Perguntas frequentes</h2><div class="perguntas">{itens}</div>'
+    return f'<h2 id="perguntas"><span class="n">{e(tr(ROTULO_PERGUNTAS))}</span>{e(tr("Perguntas frequentes"))}</h2><div class="perguntas">{itens}</div>'
 
 
 # --- temas ------------------------------------------------------------------
@@ -289,12 +648,13 @@ def consentimento(base):
     aqui, e só quando pode — mesmo desenho do site do Vestígio Oculto."""
     if not ADSENSE_LIGADO:
         return ""
-    return f"""<div class="consentimento" id="consentimento" role="dialog" aria-live="polite" aria-label="Aviso de cookies" hidden>
+    priv = f'<a href="{link(base, "privacidade.html")}"{hreflang_de("privacidade.html")}>{e(tr("política de privacidade"))}</a>'
+    return f"""<div class="consentimento" id="consentimento" role="dialog" aria-live="polite" aria-label="{e(tr('Aviso de cookies'))}" hidden>
   <div class="casca">
-    <p>Este site usa cookies do Google AdSense para exibir anúncios e medir audiência. Não pedimos cadastro nem e-mail. Detalhes na <a href="{base}privacidade.html">política de privacidade</a>.</p>
+    <p>{e(tr("Este site usa cookies do Google AdSense para exibir anúncios e medir audiência. Não pedimos cadastro nem e-mail."))} {tr("Detalhes na {politica}.", politica=priv)}</p>
     <div class="botoes">
-      <button type="button" data-consent="recusar">Recusar anúncios</button>
-      <button type="button" data-consent="aceitar" class="principal">Entendi</button>
+      <button type="button" data-consent="recusar">{e(tr("Recusar anúncios"))}</button>
+      <button type="button" data-consent="aceitar" class="principal">{e(tr("Entendi"))}</button>
     </div>
   </div>
 </div>
@@ -368,8 +728,13 @@ def cabeca(titulo, descricao, url, imagem, base, jsonld, tipo="website", indexar
         canon = '<meta name="robots" content="noindex, follow">'
     lds = jsonld if isinstance(jsonld, list) else [jsonld]
     ld = "\n".join(f'<script type="application/ld+json">{json.dumps(j, ensure_ascii=False)}</script>' for j in lds)
+    alt = alternativos(PAGINA) if indexar else []
+    if alt:
+        canon += "\n" + "\n".join(f'<link rel="alternate" hreflang="{h}" href="{e(u)}">' for h, u in alt)
+    locs = "".join(f'\n<meta property="og:locale:alternate" content="{I18N[lg]["_idioma"]["og_locale"]}">'
+                   for lg in idiomas_da(PAGINA) if lg != L) if indexar else ""
     return f"""<!doctype html>
-<html lang="pt-BR">
+<html lang="{cfg('hreflang')}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -385,8 +750,8 @@ def cabeca(titulo, descricao, url, imagem, base, jsonld, tipo="website", indexar
 {adsense_head()}
 <style>{CSS_INLINE}</style>
 <meta property="og:type" content="{tipo}">
-<meta property="og:site_name" content="{e(NOME)}">
-<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="{e(marca_completa())}">
+<meta property="og:locale" content="{cfg('og_locale')}">{locs}
 <meta property="og:title" content="{e(titulo)}">
 <meta property="og:description" content="{e(descricao)}">
 <meta property="og:url" content="{e(url)}">
@@ -397,20 +762,21 @@ def cabeca(titulo, descricao, url, imagem, base, jsonld, tipo="website", indexar
 {ld}
 </head>
 <body>
-<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+<a class="pular" href="#conteudo">{e(tr("Pular para o conteúdo"))}</a>
 """
 
 
 def topo(base, atual=""):
     cur = lambda k: ' aria-current="page"' if k == atual else ""
+    sub = f'<small class="marca-sub" lang="{cfg("hreflang")}">{e(cfg("marca_sub"))}</small>' if cfg("marca_sub") else ""
     return f"""<header class="topo">
   <div class="casca">
-    <a class="marca" href="{base}index.html"><img src="{base}assets/marca/cavalo-128.png" width="40" height="40" alt=""><span>Xadrez Bélico</span></a>
-    <nav class="nav" aria-label="Principal">
-      <a href="{base}index.html#batalhas"{cur('batalhas')}>Batalhas</a>
-      <a href="{base}index.html#metodo"{cur('metodo')}>Método</a>
-      <a href="{base}sobre.html"{cur('sobre')}>Sobre</a>
-      {link_canal('yt', 'YouTube', 'YouTube em breve')}
+    <a class="marca" href="{link(base, 'index.html')}"{'' if L == BASE_IDIOMA else ' lang="pt-BR"'}><img src="{base}assets/marca/cavalo-128.png" width="40" height="40" alt=""><span>Xadrez Bélico{sub}</span></a>
+    <nav class="nav" aria-label="{e(tr('Principal'))}">
+      <a href="{link(base, 'index.html', '#batalhas')}"{cur('batalhas')}>{e(tr('Batalhas'))}</a>
+      <a href="{link(base, 'index.html', '#metodo')}"{cur('metodo')}>{e(tr('Método'))}</a>
+      <a href="{link(base, 'sobre.html')}"{hreflang_de('sobre.html')}{cur('sobre')}>{e(tr('Sobre'))}</a>
+      {link_canal('yt', 'YouTube', 'YouTube em breve')}{seletor_idioma(base)}
     </nav>
   </div>
 </header>
@@ -419,31 +785,32 @@ def topo(base, atual=""):
 
 def rodape(base):
     ano = dt.date.today().year
-    canal = f'<p><a href="{CANAL}" target="_blank" rel="noopener">Assista no YouTube</a></p>' if CANAL else ""
-    rever = ' <a href="#" role="button" data-rever-cookies>Rever escolha de cookies</a>.' if ADSENSE_LIGADO else ""
+    canal = f'<p><a href="{CANAL}" target="_blank" rel="noopener">{e(tr("Assista no YouTube"))}</a></p>' if CANAL else ""
+    rever = f' <a href="#" role="button" data-rever-cookies>{e(tr("Rever escolha de cookies"))}</a>.' if ADSENSE_LIGADO else ""
+    priv = f'<a href="{link(base, "privacidade.html")}"{hreflang_de("privacidade.html")}>{e(tr("Política de privacidade"))}</a>'
     return f"""<footer class="rodape">
   <div class="casca">
     <div>
-      <h2>Xadrez Bélico</h2>
-      <p>Batalha explicada como partida: terreno, peças, lances e o erro de planejamento. Não é canal de heroísmo, é canal de causa.</p>
+      <h2>{e(marca_completa())}</h2>
+      <p>{e(tr("Batalha explicada como partida: terreno, peças, lances e o erro de planejamento. Não é canal de heroísmo, é canal de causa."))}</p>
       {canal}
     </div>
     <div>
-      <h2>Do mesmo criador</h2>
+      <h2>{e(tr("Do mesmo criador"))}</h2>
       <ul>
-        <li><a href="https://vestigiooculto.com.br" rel="noopener">Vestígio Oculto</a> — arqueologia e mistério</li>
-        <li><a href="https://arquiteturadoimpossivel.com.br" rel="noopener">Arquitetura do Impossível</a> — como as grandes obras foram erguidas</li>
+        <li><a href="{SITE_IRMAO_VO}" rel="noopener">Vestígio Oculto</a> — {e(tr("arqueologia e mistério"))}</li>
+        <li><a href="{SITE_IRMAO_AI}" rel="noopener">Arquitetura do Impossível</a> — {e(tr("como as grandes obras foram erguidas"))}</li>
       </ul>
     </div>
     <div>
-      <h2>Este site</h2>
+      <h2>{e(tr("Este site"))}</h2>
       <ul>
-        <li><a href="{base}sobre.html">Sobre</a> · <a href="{base}contato.html">Contato</a></li>
-        <li>Exibe anúncios do Google AdSense. <a href="{base}privacidade.html">Política de privacidade</a>.{rever}</li>
-        <li>Só material de época ou foto real, com crédito. Nenhuma imagem gerada por IA.</li>
+        <li><a href="{link(base, 'sobre.html')}"{hreflang_de('sobre.html')}>{e(tr("Sobre"))}</a> · <a href="{link(base, 'contato.html')}"{hreflang_de('contato.html')}>{e(tr("Contato"))}</a></li>
+        <li>{e(tr("Exibe anúncios do Google AdSense."))} {priv}.{rever}</li>
+        <li>{e(tr("Só material de época ou foto real, com crédito. Nenhuma imagem gerada por IA."))}</li>
       </ul>
     </div>
-    <div class="linha"><span>© {ano} {NOME} · textos autorais</span><span>o que estava à vista, lido de novo</span></div>
+    <div class="linha"><span>© {ano} {NOME} · {e(tr("textos autorais"))}</span><span>{e(tr("o que estava à vista, lido de novo"))}</span></div>
   </div>
 </footer>
 """
@@ -458,7 +825,7 @@ def fim():
 
 def conf_selo(c):
     cls, txt, tit = CONF[c]
-    return f'<span class="conf {cls}" title="{e(tit)}">{e(txt)}</span>'
+    return f'<span class="conf {cls}" title="{e(tr(tit))}">{e(tr(txt))}</span>'
 
 
 def webp(jpg):
@@ -508,12 +875,12 @@ def preload_capa(arquivo, base, tamanhos="100vw"):
 def tarja(im):
     """A tela diz o que a imagem não é: foto de hoje leva o ano."""
     if im["tipo"] == "atual":
-        return f'<span class="tarja">Foto de {e(im["ano"])}</span>'
+        return f'<span class="tarja">{e(tr("Foto de {ano}", ano=im["ano"]))}</span>'
     return ""
 
 
 def credito(im):
-    lic = e(im["licenca"])
+    lic = e(licenca_rotulo(im["licenca"]))
     if im.get("licenca_url"):
         lic = f'<a href="{e(im["licenca_url"])}" rel="license noopener">{lic}</a>'
     autor = e(im["autor"])
@@ -525,7 +892,7 @@ def credito(im):
 def selo_estreia(iso, classe="selo"):
     if not iso:
         return ""
-    return f'<span class="{classe}" data-estreia="{iso}" data-no-ar="No ar">Estreia {e(data_br(iso))}</span>'
+    return f'<span class="{classe}" data-estreia="{iso}" data-no-ar="{e(tr("No ar"))}">{e(tr("Estreia"))} {e(data_br(iso))}</span>'
 
 
 # --- imagem de compartilhamento -----------------------------------------------
@@ -536,8 +903,8 @@ def fonte(nome, tam):
 def og_batalha(b, nome_arq=None, rotulo=None, titulo=None):
     """Imagem de compartilhamento 1200x630. Também serve às páginas de tema
     (nome_arq, rotulo e titulo próprios, sobre a capa da primeira batalha)."""
-    destino = IMG / (nome_arq or f"og-{b['slug']}.jpg")
-    rotulo = rotulo or f"EPISÓDIO {b['num']}  ·  {b['data'].upper()}"
+    destino = IMG / (nome_arq or f"og-{prefixo(L).replace('/', '-')}{b['slug']}.jpg")
+    rotulo = rotulo or tr("EPISÓDIO {num}  ·  {data}", num=b['num'], data=b['data'].upper())
     titulo = (titulo or b["batalha"]).upper()
     capa = Image.open(IMG / b["imagens"][0]["arquivo"]).convert("RGB")
     im = ImageOps.fit(capa, (1200, 630), Image.LANCZOS, centering=(0.5, 0.45))
@@ -588,8 +955,8 @@ def titulo_seo(b):
     # ("Batalha de Stalingrado", "Ataque a Pearl Harbor"). Só muda o <title>;
     # o h1 e o resto da página seguem com `batalha`.
     base = b.get("nome_busca") or b["batalha"]
-    nomes = [base, re.sub(r"^(A|O|As|Os) ", "", base)]
-    for meio in (", lance a lance", ""):
+    nomes = [base, re.sub(r"^(A|O|As|Os|The|La|El|Los|Las) ", "", base)]
+    for meio in (tr(", lance a lance"), ""):
         for n in nomes:
             t = f"{n} ({anos(b)}){meio} · {NOME}"
             if len(t) <= TITULO_MAX:
@@ -624,8 +991,9 @@ def migalhas(*itens):
                                 for i, (n, u) in enumerate(itens, start=1)]}
 
 
-def conferir_seo(paginas):
-    """Porteiro: título até 60 e único; descrição de 120 a 155 e única."""
+def conferir_seo(paginas, lg="pt"):
+    """Porteiro: título até 60 e único; descrição de 120 a 155 e única —
+    dentro de cada idioma."""
     erros, vt, vd = [], {}, {}
     for nome, (t, d) in paginas.items():
         if len(t) > TITULO_MAX:
@@ -638,25 +1006,35 @@ def conferir_seo(paginas):
             erros.append(f"{nome}: descrição igual à de {vd[d]}")
         vt[t], vd[d] = nome, nome
     if erros:
-        falha("SEO\n  " + "\n  ".join(erros))
+        falha(f"SEO [{lg}]\n  " + "\n  ".join(erros))
 
 
-TITULO_HOME = f"{NOME}: a batalha explicada como partida"
-DESC_HOME = "História militar lida como tabuleiro: terreno, peças, lances e o erro de planejamento. Por que o ataque deu certo, ou não deu. Com fonte."
-TITULO_SOBRE = f"Sobre o {NOME}: como cada página é apurada"
-DESC_SOBRE = (f"O que é o {NOME}, projeto independente de história militar: como cada página é apurada, "
-              "o selo de confiança dos números, as imagens e quem faz.")
-TITULO_CONTATO = f"Contato · {NOME}"
-DESC_CONTATO = (f"Como falar com o {NOME} por e-mail: correções com fonte, créditos e retirada de imagens, "
-                "pedidos sobre seus dados (LGPD), pautas e imprensa.")
-TITULO_PRIV = f"Política de privacidade · {NOME}"
-DESC_PRIV = (f"Como o {NOME} trata dados, cookies e publicidade do Google AdSense: o que coleta, o que não "
-             "coleta e quais são os seus direitos sob a LGPD.")
+def seo_fixas():
+    """(título, descrição) das páginas fixas no idioma da página atual."""
+    return {
+        "index.html": (tr("{nome}: a batalha explicada como partida", nome=NOME),
+                       tr("História militar lida como tabuleiro: terreno, peças, lances e o erro de planejamento. "
+                          "Por que o ataque deu certo, ou não deu. Com fonte.")),
+        "sobre.html": (f"Sobre o {NOME}: como cada página é apurada",
+                       f"O que é o {NOME}, projeto independente de história militar: como cada página é apurada, "
+                       "o selo de confiança dos números, as imagens e quem faz."),
+        "contato.html": (f"Contato · {NOME}",
+                         f"Como falar com o {NOME} por e-mail: correções com fonte, créditos e retirada de imagens, "
+                         "pedidos sobre seus dados (LGPD), pautas e imprensa."),
+        "privacidade.html": (f"Política de privacidade · {NOME}",
+                             f"Como o {NOME} trata dados, cookies e publicidade do Google AdSense: o que coleta, o que não "
+                             "coleta e quais são os seus direitos sob a LGPD."),
+    }
+
+
+# Sobre, contato e privacidade ainda só existem em português (o texto mora
+# aqui no build): nos outros idiomas, os links para elas caem no português.
 
 
 # --- home ------------------------------------------------------------------------
 def card(b, base, texto=None):
     capa = b["imagens"][0]
+    ch = f"batalhas/{b['slug']}.html"
     return f"""<li class="card revela">
   <div class="foto">{img_tag(capa['arquivo'], capa['alt'], base, '(max-width:720px) 100vw, 400px', foco=capa.get('foco'))}
     <span class="num">{e(b['num'])}</span>
@@ -664,22 +1042,22 @@ def card(b, base, texto=None):
   </div>
   <div class="corpo">
     <span class="rotulo">{e(b['campanha'])}</span>
-    <h3><a href="{base}batalhas/{b['slug']}.html">{e(b['batalha'])}</a></h3>
+    <h3><a href="{link(base, ch)}"{hreflang_de(ch)}>{e(b['batalha'])}</a></h3>
     <div class="quando">{e(b['data'])} · {e(b['lugar'])}</div>
     <p class="perg">{para(texto or b['pergunta'])}</p>
-    <div class="pe"><span>Episódio {e(b['num'])}</span><span>Ler a partida →</span></div>
+    <div class="pe"><span>{e(tr('Episódio'))} {e(b['num'])}</span><span>{e(tr('Ler a partida →'))}</span></div>
   </div>
 </li>"""
 
 
 def card_producao(a):
     return f"""<li class="card producao revela">
-  <div class="foto"><span class="num">{e(a['num'])}</span><span class="selo">Em produção</span></div>
+  <div class="foto"><span class="num">{e(a['num'])}</span><span class="selo">{e(tr('Em produção'))}</span></div>
   <div class="corpo">
     <h3>{e(a['batalha'])}</h3>
     <div class="quando">{e(a['data'])} · {e(a['lugar'])}</div>
     <p class="perg">{para(a['pergunta'])}</p>
-    <div class="pe"><span>Episódio {e(a['num'])}</span><span>{('Estreia ' + e(data_br(a['estreia']))) if a.get('estreia') else ''}</span></div>
+    <div class="pe"><span>{e(tr('Episódio'))} {e(a['num'])}</span><span>{(e(tr('Estreia')) + ' ' + e(data_br(a['estreia']))) if a.get('estreia') else ''}</span></div>
   </div>
 </li>"""
 
@@ -688,32 +1066,46 @@ def card_producao(a):
 ESCUDO_SIZES = "(max-width:820px) 160px, 300px"
 
 
-def home(bs, og):
-    base = ""
-    nomes = {"2+": "Confirmado", "1": "Fonte única", "DIV": "Divergência", "sem": "Sem registro"}
-    graus = "".join(f"<li>{conf_selo(k)}<p><strong>{nomes[k]}</strong>{e(v[2])}</p></li>" for k, v in CONF.items())
-    org = dict(ORG, sameAs=[CANAL] if CANAL else [])
-    jsonld = {"@context": "https://schema.org", "@graph": [
-        {"@type": "WebSite", "name": NOME, "url": DOMINIO + "/", "inLanguage": "pt-BR",
-         "description": "História militar explicada como partida de xadrez.",
-         "publisher": {"@type": "Organization", "name": NOME, "url": DOMINIO + "/"}},
-        org]}
-    cards = "\n".join(card(b, base) for b in bs) + "\n" + "\n".join(card_producao(a) for a in EM_PRODUCAO)
-    return (cabeca(TITULO_HOME, DESC_HOME, DOMINIO + "/", f"{DOMINIO}/assets/img/{og}", base, jsonld)
+def site_jsonld(descricao):
+    """WebSite + Organization: a mesma entidade em todos os idiomas."""
+    subs = [I18N[lg]["_idioma"]["marca_sub"] for lg in ATIVOS if I18N[lg]["_idioma"]["marca_sub"]]
+    site = {"@type": "WebSite", "@id": DOMINIO + "/#site", "name": NOME, "url": DOMINIO + "/", "inLanguage": cfg("hreflang"),
+            "description": tr("História militar explicada como partida de xadrez."),
+            "publisher": {"@type": "Organization", "name": NOME, "url": DOMINIO + "/"}}
+    if subs:
+        site["alternateName"] = subs
+    return {"@context": "https://schema.org", "@graph": [site, dict(ORG, sameAs=[CANAL] if CANAL else [])]}
+
+
+def home(bs, og, total=None, banner=(0, 0)):
+    """`bs`: as batalhas que existem no idioma da página; `total`: quantas há
+    em português (nos outros idiomas, a home avisa que o resto está em português)."""
+    base = "../" if L != BASE_IDIOMA else ""
+    titulo, desc = seo_fixas()["index.html"]
+    nomes = {"2+": tr("Confirmado"), "1": tr("Fonte única"), "DIV": tr("Divergência"), "sem": tr("Sem registro")}
+    graus = "".join(f"<li>{conf_selo(k)}<p><strong>{e(nomes[k])}</strong>{e(tr(v[2]))}</p></li>" for k, v in CONF.items())
+    prod = EM_PRODUCAO if L == BASE_IDIOMA else []
+    cards = "\n".join(card(b, base) for b in bs) + "\n" + "\n".join(card_producao(a) for a in prod)
+    resto = ""
+    if total and total > len(bs):
+        resto = (f'<p class="em-portugues"><a href="{base}index.html#batalhas" hreflang="{CONFIG_PT["hreflang"]}">'
+                 f'{e(tr("As outras {n} batalhas ainda estão só em português →", n=total - len(bs)))}</a></p>')
+    m = f"{base}assets/marca/"
+    return (cabeca(titulo, desc, url_de(L, "index.html"), f"{DOMINIO}/assets/img/{og}", base, site_jsonld(desc))
             + topo(base) + f"""<main id="conteudo">
 <section class="abre">
-  <picture><source type="image/webp" srcset="assets/img/banner.webp"><img src="_src-banner" width="{{BANNER_W}}" height="{{BANNER_H}}" alt="" aria-hidden="true" fetchpriority="high" decoding="async"></picture>
+  <picture><source type="image/webp" srcset="{base}assets/img/banner.webp"><img src="{base}assets/img/banner.jpg" width="{banner[0]}" height="{banner[1]}" alt="" aria-hidden="true" fetchpriority="high" decoding="async"></picture>
   <div class="casca">
     <div>
-      <div class="filete">Terreno · peças · lances</div>
-      <h1>A batalha, <em>como partida</em></h1>
-      <p class="lead">Por que este ataque deu certo, ou não deu, do ponto de vista do tabuleiro. O terreno, as peças de cada lado, a ordem dos lances e o erro de planejamento. Não é canal de heroísmo: é canal de causa.</p>
+      <div class="filete">{e(tr('Terreno · peças · lances'))}</div>
+      <h1>{tr('A batalha, <em>como partida</em>')}</h1>
+      <p class="lead">{e(tr('Por que este ataque deu certo, ou não deu, do ponto de vista do tabuleiro. O terreno, as peças de cada lado, a ordem dos lances e o erro de planejamento. Não é canal de heroísmo: é canal de causa.'))}</p>
       <div class="botoes">
-        <a class="botao cheio" href="#batalhas">Ver as batalhas</a>
+        <a class="botao cheio" href="#batalhas">{e(tr('Ver as batalhas'))}</a>
         {link_canal('botao', 'Canal no YouTube')}
       </div>
     </div>
-    <div class="escudo"><picture><source type="image/webp" srcset="assets/marca/{webp(RAIZ / 'assets' / 'marca' / 'escudo-360.jpg')} 360w, assets/marca/{webp(RAIZ / 'assets' / 'marca' / 'escudo.jpg')} 720w" sizes="{ESCUDO_SIZES}"><img src="assets/marca/escudo.jpg" srcset="assets/marca/escudo-360.jpg 360w, assets/marca/escudo.jpg 720w" sizes="{ESCUDO_SIZES}" width="720" height="886" alt="Escudo do Xadrez Bélico: um cavalo de xadrez com elmo de crista" fetchpriority="high" decoding="async"></picture></div>
+    <div class="escudo"><picture><source type="image/webp" srcset="{m}{webp(RAIZ / 'assets' / 'marca' / 'escudo-360.jpg')} 360w, {m}{webp(RAIZ / 'assets' / 'marca' / 'escudo.jpg')} 720w" sizes="{ESCUDO_SIZES}"><img src="{m}escudo.jpg" srcset="{m}escudo-360.jpg 360w, {m}escudo.jpg 720w" sizes="{ESCUDO_SIZES}" width="720" height="886" alt="{e(tr('Escudo do Xadrez Bélico: um cavalo de xadrez com elmo de crista'))}" fetchpriority="high" decoding="async"></picture></div>
   </div>
 </section>
 
@@ -721,14 +1113,14 @@ def home(bs, og):
   <div class="casca">
     <header>
       <div>
-        <span class="rotulo">Tabuleiro · <b>{len(bs) + len(EM_PRODUCAO):02d}</b> episódios</span>
-        <h2>As batalhas</h2>
-        <p>Cada página tem a ficha da batalha, a partida lance a lance, o veredito, os mitos contra o registro e as fontes.</p>
+        <span class="rotulo">{e(tr('Tabuleiro'))} · <b>{len(bs) + len(prod):02d}</b> {e(tr('episódios'))}</span>
+        <h2>{e(tr('As batalhas'))}</h2>
+        <p>{e(tr('Cada página tem a ficha da batalha, a partida lance a lance, o veredito, os mitos contra o registro e as fontes.'))}</p>
       </div>
     </header>
     <ul class="batalhas">
 {cards}
-    </ul>
+    </ul>{resto}
   </div>
 </section>
 
@@ -736,10 +1128,10 @@ def home(bs, og):
 <section class="secao metodo" id="metodo">
   <div class="casca">
     <div>
-      <span class="rotulo">Método</span>
-      <h2>O que estava à vista, <span class="destaque">lido de novo</span></h2>
-      <p>Público de história militar corrige data, unidade e calibre — e com razão. Cada número aqui leva um selo dizendo quanto se pode confiar nele.</p>
-      <p>Quando as fontes divergem, mostramos as versões e não escolhemos. Nome de unidade e horário só entram depois de conferidos. E nenhuma imagem deste site foi gerada por IA: é material de época, carta militar ou foto do lugar, com o ano na tela.</p>
+      <span class="rotulo">{e(tr('Método'))}</span>
+      <h2>{tr('O que estava à vista, <span class="destaque">lido de novo</span>')}</h2>
+      <p>{e(tr('Público de história militar corrige data, unidade e calibre — e com razão. Cada número aqui leva um selo dizendo quanto se pode confiar nele.'))}</p>
+      <p>{e(tr('Quando as fontes divergem, mostramos as versões e não escolhemos. Nome de unidade e horário só entram depois de conferidos. E nenhuma imagem deste site foi gerada por IA: é material de época, carta militar ou foto do lugar, com o ano na tela.'))}</p>
     </div>
     <ul class="graus">{graus}</ul>
   </div>
@@ -753,13 +1145,13 @@ def secao_temas(base, atual=None, titulo="Temas", rotulo="Por assunto"):
     ts = [t for t in TEMAS if t["slug"] != atual]
     if not ts:
         return ""
-    itens = "".join(f'<li><a href="{base}temas/{t["slug"]}.html"><span class="rotulo">{len(t[CHAVE_MEMBROS]):02d} batalhas</span>'
+    itens = "".join(f'<li><a href="{link(base, "temas/" + t["slug"] + ".html")}"><span class="rotulo">{len(t[CHAVE_MEMBROS]):02d} {e(tr("batalhas"))}</span>'
                     f'<strong>{e(t["nome"])}</strong></a></li>' for t in ts)
     sid = ' id="temas"' if atual is None else ""
     return f"""<section class="secao temas"{sid}>
   <div class="casca">
-    <header><div><span class="rotulo">{e(rotulo)}</span><h2>{e(titulo)}</h2>
-      <p>As batalhas agrupadas por guerra e por frente, para ler a campanha inteira.</p></div></header>
+    <header><div><span class="rotulo">{e(tr(rotulo))}</span><h2>{e(tr(titulo))}</h2>
+      <p>{e(tr('As batalhas agrupadas por guerra e por frente, para ler a campanha inteira.'))}</p></div></header>
     <ul class="temas-lista">{itens}</ul>
   </div>
 </section>
@@ -767,34 +1159,36 @@ def secao_temas(base, atual=None, titulo="Temas", rotulo="Por assunto"):
 
 
 def pagina_tema(t, bs, og):
-    base = "../"
-    url = f"{DOMINIO}/temas/{t['slug']}.html"
+    base = "../../" if L != BASE_IDIOMA else "../"
+    ch = f"temas/{t['slug']}.html"
+    url = url_de(L, ch)
     por_slug = {b["slug"]: b for b in bs}
     membros = sorted((por_slug[s] for s in t[CHAVE_MEMBROS]), key=lambda b: b["num"])
     cards = "\n".join(card(b, base, b["resumo"]) for b in membros)
+    inicio = url_de(L, "index.html")
     jsonld = [{
         "@context": "https://schema.org", "@type": "CollectionPage",
-        "name": t["nome"], "headline": t["titulo"], "description": t["resumo"], "url": url, "inLanguage": "pt-BR",
+        "name": t["nome"], "headline": t["titulo"], "description": t["resumo"], "url": url, "inLanguage": cfg("hreflang"),
         "isPartOf": {"@type": "WebSite", "name": NOME, "url": DOMINIO + "/"},
         "image": {"@type": "ImageObject", "url": f"{DOMINIO}/assets/img/{og}", "width": 1200, "height": 630},
         "mainEntity": {"@type": "ItemList", "numberOfItems": len(membros), "itemListElement": [
-            {"@type": "ListItem", "position": i, "url": f"{DOMINIO}/batalhas/{b['slug']}.html", "name": b["batalha"]}
+            {"@type": "ListItem", "position": i, "url": url_de(L if f"batalhas/{b['slug']}.html" in EXISTE[L] else BASE_IDIOMA, f"batalhas/{b['slug']}.html"), "name": b["batalha"]}
             for i, b in enumerate(membros, start=1)]},
-    }, migalhas((NOME, DOMINIO + "/"), ("Temas", DOMINIO + "/#temas"), (t["nome"], url))]
+    }, migalhas((NOME, inicio), (tr("Temas"), inicio + "#temas"), (t["nome"], url))]
     intro = "".join(f"<p>{para(p)}</p>" for p in t["intro"])
     return (cabeca(titulo_tema(t), t["resumo"], url, f"{DOMINIO}/assets/img/{og}", base, jsonld)
             + topo(base, "temas") + f"""<main id="conteudo">
 <section class="tema-abre">
   <div class="casca">
-    <nav class="migalhas" aria-label="Você está em"><a href="../index.html">Início</a> / <a href="../index.html#temas">Temas</a> / <span>{e(t['nome'])}</span></nav>
-    <span class="rotulo">Tema · <b>{len(membros):02d}</b> batalhas</span>
+    <nav class="migalhas" aria-label="{e(tr('Você está em'))}"><a href="{link(base, 'index.html')}">{e(tr('Início'))}</a> / <a href="{link(base, 'index.html', '#temas')}">{e(tr('Temas'))}</a> / <span>{e(t['nome'])}</span></nav>
+    <span class="rotulo">{e(tr('Tema'))} · <b>{len(membros):02d}</b> {e(tr('batalhas'))}</span>
     <h1>{e(t['nome'])}</h1>
     <div class="intro">{intro}</div>
   </div>
 </section>
 <section class="secao" id="batalhas">
   <div class="casca">
-    <header><div><span class="rotulo">Tabuleiro</span><h2>As batalhas deste tema</h2></div></header>
+    <header><div><span class="rotulo">{e(tr('Tabuleiro'))}</span><h2>{e(tr('As batalhas deste tema'))}</h2></div></header>
     <ul class="batalhas">
 {cards}
     </ul>
@@ -807,23 +1201,23 @@ def pagina_tema(t, bs, og):
 
 # --- página de batalha ---------------------------------------------------------------
 def figura(im, n, base):
-    leg = f"{im['legenda']} — {im['autor']}, {im['licenca']}"
+    leg = f"{im['legenda']} — {im['autor']}, {licenca_rotulo(im['licenca'])}"
     return f"""<figure class="fig revela">
-  <button type="button" data-grande="{base}assets/img/{e(im['arquivo'])}" data-legenda="{e(leg)}" aria-label="Ampliar imagem: {e(im['alt'])}">{img_tag(im['arquivo'], im['alt'], base, '(max-width:980px) 100vw, 720px')}{tarja(im)}</button>
+  <button type="button" data-grande="{base}assets/img/{e(im['arquivo'])}" data-legenda="{e(leg)}" aria-label="{e(tr('Ampliar imagem: {alt}', alt=im['alt']))}">{img_tag(im['arquivo'], im['alt'], base, '(max-width:980px) 100vw, 720px')}{tarja(im)}</button>
   <figcaption><span class="fn">FIG. {n:02d}</span><span>{para(im['legenda'])}</span><small>{credito(im)}</small></figcaption>
 </figure>"""
 
 
 def pagina(b, bs, og):
-    base = "../"
-    url = f"{DOMINIO}/batalhas/{b['slug']}.html"
+    base = "../../" if L != BASE_IDIOMA else "../"
+    url = url_de(L, f"batalhas/{b['slug']}.html")
     capa, resto = b["imagens"][0], b["imagens"][1:]
     secoes = []
     for i, s in enumerate(b["lances"]):
         sid = f"l{i+1}"
         corpo = "".join(f"<p>{para(p)}</p>" for p in s["paragrafos"])
         fig = figura(resto[i], i + 2, base) if i < len(resto) else ""
-        secoes.append((sid, s["titulo"], f'<h2 id="{sid}"><span class="n">Lance {i+1}</span>{e(s["titulo"])}</h2>{corpo}{fig}'))
+        secoes.append((sid, s["titulo"], f'<h2 id="{sid}"><span class="n">{e(tr("Lance"))} {i+1}</span>{e(s["titulo"])}</h2>{corpo}{fig}'))
     sobra = "".join(figura(im, len(b["lances"]) + 2 + k, base) for k, im in enumerate(resto[len(b["lances"]):]))
 
     numeros = "".join(f'<li><span class="valor">{e(n["valor"])}</span><span class="rot">{e(n["rotulo"])}</span>{conf_selo(n["conf"])}</li>' for n in b["numeros"])
@@ -831,39 +1225,40 @@ def pagina(b, bs, og):
         f'<tr><th scope="row">{e(f["item"])}</th><td class="v">{para(f["valor"])}'
         + (f'<span class="nota">{para(f["nota"])}</span>' if f.get("nota") else "")
         + f'</td><td class="c">{conf_selo(f["conf"])}</td></tr>' for f in b["ficha"])
-    legenda_conf = "".join(f"<span>{conf_selo(k)} {e(v[2])}</span>" for k, v in CONF.items())
-    mitos = "".join(f'<li><div><span class="rotulo">O que se conta</span><p>{para(m["circula"])}</p></div><div><span class="rotulo"><b>O que o registro mostra</b></span><p>{para(m["registro"])}</p></div></li>' for m in b["mitos"])
+    legenda_conf = "".join(f"<span>{conf_selo(k)} {e(tr(v[2]))}</span>" for k, v in CONF.items())
+    mitos = "".join(f'<li><div><span class="rotulo">{e(tr("O que se conta"))}</span><p>{para(m["circula"])}</p></div><div><span class="rotulo"><b>{e(tr("O que o registro mostra"))}</b></span><p>{para(m["registro"])}</p></div></li>' for m in b["mitos"])
     fontes = "".join(
         f'<li>{para(f["texto"])}' + (f' — <a href="{e(f["url"])}" rel="noopener">{e(re.sub(r"^https?://(www[.])?", "", f["url"]).split("/")[0])}</a>' if f.get("url") else "") + "</li>"
         for f in b["fontes"])
     creditos = "".join(f'<li>Fig. {i+1:02d} — {e(im["legenda"])}: {credito(im)}</li>' for i, im in enumerate(b["imagens"]))
-    indice = ([("ficha", "Ficha da batalha")] + [(sid, t) for sid, t, _ in secoes] + [("veredito", "Veredito"), ("mitos", "Mitos e registro")]
-              + ([("perguntas", "Perguntas frequentes")] if b.get("perguntas") else []) + [("fontes", "Fontes")])
+    indice = ([("ficha", tr("Ficha da batalha"))] + [(sid, t) for sid, t, _ in secoes] + [("veredito", tr("Veredito")), ("mitos", tr("Mitos e registro"))]
+              + ([("perguntas", tr("Perguntas frequentes"))] if b.get("perguntas") else []) + [("fontes", tr("Fontes"))])
     indice_html = "".join(f'<li><a href="#{a}">{e(t)}</a></li>' for a, t in indice)
 
     i_atual = [x["slug"] for x in bs].index(b["slug"])
     ant = bs[i_atual - 1] if i_atual > 0 else None
     prox = next((x for x in bs if x["slug"] == b["proximo"]), None) if b["proximo"] else None
-    nav = '<nav class="seguinte" aria-label="Outras batalhas">'
-    nav += (f'<a href="{ant["slug"]}.html"><span class="rotulo">← Episódio {ant["num"]}</span><strong>{e(ant["batalha"])}</strong></a>' if ant else "<span></span>")
-    nav += (f'<a href="{prox["slug"]}.html"><span class="rotulo">Episódio {prox["num"]} →</span><strong>{e(prox["batalha"])}</strong></a>' if prox
-            else '<a href="../index.html#batalhas"><span class="rotulo">Todas as batalhas →</span><strong>O tabuleiro</strong></a>')
+    bt = lambda x: f"batalhas/{x['slug']}.html"
+    nav = f'<nav class="seguinte" aria-label="{e(tr("Outras batalhas"))}">'
+    nav += (f'<a href="{link(base, bt(ant))}"{hreflang_de(bt(ant))}><span class="rotulo">← {e(tr("Episódio"))} {ant["num"]}</span><strong>{e(ant["batalha"])}</strong></a>' if ant else "<span></span>")
+    nav += (f'<a href="{link(base, bt(prox))}"{hreflang_de(bt(prox))}><span class="rotulo">{e(tr("Episódio"))} {prox["num"]} →</span><strong>{e(prox["batalha"])}</strong></a>' if prox
+            else f'<a href="{link(base, "index.html", "#batalhas")}"><span class="rotulo">{e(tr("Todas as batalhas →"))}</span><strong>{e(tr("O tabuleiro"))}</strong></a>')
     nav += "</nav>"
 
     estreia = ""
     if b["estreia"]:
-        estreia = f' · <span data-estreia="{b["estreia"]}" data-no-ar="no ar">estreia {e(data_br(b["estreia"], True))}</span>'
-    arq = SRC / "batalhas" / f"{b['num']}-{b['slug']}.json"
+        estreia = f' · <span data-estreia="{b["estreia"]}" data-no-ar="{e(tr("no ar"))}">{e(tr("estreia"))} {e(data_br(b["estreia"], True))}</span>'
+    arq = b.get("_arquivo") or SRC / "batalhas" / f"{b['num']}-{b['slug']}.json"
     jsonld = [{
-        "@context": "https://schema.org", "@type": "Article", "headline": f"{b['batalha']}: a partida explicada",
-        "description": b["resumo"], "inLanguage": "pt-BR", "url": url,
+        "@context": "https://schema.org", "@type": "Article", "headline": tr("{batalha}: a partida explicada", batalha=b['batalha']),
+        "description": b["resumo"], "inLanguage": cfg("hreflang"), "url": url,
         "image": {"@type": "ImageObject", "url": f"{DOMINIO}/assets/img/{og}", "width": 1200, "height": 630},
         "datePublished": data_git(arq, primeira=True), "dateModified": data_git(arq),
         "author": {"@type": "Organization", "name": NOME, "url": DOMINIO + "/"}, "publisher": ORG,
         "mainEntityOfPage": {"@type": "WebPage", "@id": url},
         "articleSection": b["campanha"],
         "about": {"@type": "Event", "name": b["batalha"], "location": b["lugar"]},
-    }, migalhas((NOME, DOMINIO + "/"), (b["batalha"], url))]
+    }, migalhas((NOME, url_de(L, "index.html")), (b["batalha"], url))]
     return (cabeca(titulo_seo(b), b["resumo"], url, f"{DOMINIO}/assets/img/{og}", base, jsonld, "article",
                    extra=preload_capa(capa["arquivo"], base))
             + '<div class="progresso" aria-hidden="true"></div>' + topo(base, "batalhas") + f"""<main id="conteudo">
@@ -872,63 +1267,63 @@ def pagina(b, bs, og):
   {tarja(capa)}
   <span class="credito-capa">{e(capa['legenda'])} — {credito(capa)}</span>
   <div class="casca">
-    <span class="rotulo">Episódio <b>{e(b['num'])}</b> · {e(b['campanha'])}</span>
+    <span class="rotulo">{e(tr('Episódio'))} <b>{e(b['num'])}</b> · {e(b['campanha'])}</span>
     <h1>{e(b['batalha'])}</h1>
     <div class="sub">{e(b['data'])} · {e(b['lugar'])}</div>
     <p class="perg">{para(b['pergunta'])}</p>
   </div>
 </header>
-<section class="placar" aria-label="A batalha em números"><ul>{numeros}</ul></section>
+<section class="placar" aria-label="{e(tr('A batalha em números'))}"><ul>{numeros}</ul></section>
 <div class="casca layout">
   <article class="texto">
     <div class="abertura">{''.join(f'<p>{para(p)}</p>' for p in b['abertura'])}</div>
 
-    <h2 id="ficha"><span class="n">Ficha</span>Ficha da batalha</h2>
+    <h2 id="ficha"><span class="n">{e(tr('Ficha'))}</span>{e(tr('Ficha da batalha'))}</h2>
     <div class="dossie"><table class="ficha"><tbody>{ficha}</tbody></table></div>
     <div class="legenda-conf">{legenda_conf}</div>
 
     {''.join(h for _, _, h in secoes)}
     {sobra}
 
-    <h2 id="veredito"><span class="n">Veredito</span>Por que deu no que deu</h2>
+    <h2 id="veredito"><span class="n">{e(tr('Veredito'))}</span>{e(tr('Por que deu no que deu'))}</h2>
     <div class="veredito">{''.join(f'<p>{para(p)}</p>' for p in b['veredito'])}</div>
 
-    <h2 id="mitos"><span class="n">Mitos</span>O que se conta e o que o registro mostra</h2>
+    <h2 id="mitos"><span class="n">{e(tr('Mitos'))}</span>{e(tr('O que se conta e o que o registro mostra'))}</h2>
     <ul class="mitos">{mitos}</ul>
 
     {perguntas_html(b)}
 
     <section class="video">
       <div>
-        <span class="rotulo">Episódio {e(b['num'])}{estreia}</span>
-        <h3>{e(b['titulo_video']) if b['titulo_video'] else 'Episódio em produção'}</h3>
+        <span class="rotulo">{e(tr('Episódio'))} {e(b['num'])}{estreia}</span>
+        <h3>{e(b['titulo_video']) if b['titulo_video'] else e(tr('Episódio em produção'))}</h3>
       </div>
       {link_canal('botao cheio', 'Ver no YouTube')}
     </section>
 
     {leia_tambem(b, bs)}
 
-    <h2 id="fontes"><span class="n">Fontes</span>Fontes</h2>
+    <h2 id="fontes"><span class="n">{e(tr('Fontes'))}</span>{e(tr('Fontes'))}</h2>
     <ol class="fontes">{fontes}</ol>
-    <h3 style="margin-top:2rem">Imagens</h3>
+    <h3 style="margin-top:2rem">{e(tr('Imagens'))}</h3>
     <ul class="creditos">{creditos}</ul>
   </article>
-  <aside class="indice" aria-label="Nesta página">
+  <aside class="indice" aria-label="{e(tr('Nesta página'))}">
     <div class="lado-card">
-      <span class="rotulo">Ficha rápida</span>
+      <span class="rotulo">{e(tr('Ficha rápida'))}</span>
       <dl>
-        <div><dt>Onde</dt><dd>{e(b['lugar'])}</dd></div>
-        <div><dt>Quando</dt><dd>{e(b['data'])}</dd></div>
-        <div><dt>Episódio</dt><dd>{e(b['num'])} · {e(data_br(b['estreia'])) if b['estreia'] else e(b['campanha'])}</dd></div>
+        <div><dt>{e(tr('Onde'))}</dt><dd>{e(b['lugar'])}</dd></div>
+        <div><dt>{e(tr('Quando'))}</dt><dd>{e(b['data'])}</dd></div>
+        <div><dt>{e(tr('Episódio'))}</dt><dd>{e(b['num'])} · {e(data_br(b['estreia'])) if b['estreia'] else e(b['campanha'])}</dd></div>
       </dl>
     </div>
-    <span class="rotulo">Nesta página</span>
+    <span class="rotulo">{e(tr('Nesta página'))}</span>
     <ol>{indice_html}</ol>
   </aside>
 </div>
 {nav}
 </main>
-<div class="lupa" role="dialog" aria-modal="true" aria-label="Imagem ampliada"><button type="button">Fechar</button><img alt=""><p></p></div>
+<div class="lupa" role="dialog" aria-modal="true" aria-label="{e(tr('Imagem ampliada'))}"><button type="button">{e(tr('Fechar'))}</button><img alt=""><p></p></div>
 """ + rodape(base) + consentimento(base) + fim())
 
 
@@ -955,7 +1350,7 @@ PRIVACIDADE = """<main id="conteudo"><div class="casca privacidade">
   <div class="resumo"><strong>O resumo, em três linhas.</strong> Não pedimos cadastro, não temos formulário e não guardamos seu e-mail. O que existe são cookies de publicidade do Google, usados para exibir anúncios. Você pode recusá-los na faixa que aparece na primeira visita, rever essa escolha a qualquer momento pelo link “Rever escolha de cookies”, no rodapé, ou desligá-los nas configurações do Google.</div>
 
   <h2>1. Quem é o responsável</h2>
-  <p>O <strong>{{NOME}}</strong> é um projeto editorial independente, publicado em xadrezbelico.com.br, {{CANAL_FRASE}}. Para qualquer assunto desta política — inclusive pedidos de exclusão ou de informação —, o contato é o e-mail divulgado no canal.</p>
+  <p>O <strong>{{NOME}}</strong> é um projeto editorial independente, publicado em {{DOMINIO_NU}}, {{CANAL_FRASE}}. Para qualquer assunto desta política — inclusive pedidos de exclusão ou de informação —, o contato é o e-mail divulgado no canal.</p>
 
   <h2>2. O que coletamos, e o que não</h2>
   <p>Não há cadastro, login, comentários, newsletter nem formulário de contato. Nenhuma página pede seu nome, e-mail, telefone ou documento. Não montamos perfil de leitor e não vendemos nem compartilhamos lista de ninguém, porque lista não existe.</p>
@@ -1003,8 +1398,9 @@ def pagina_privacidade():
     else:
         canal = "com canal correspondente no YouTube"
     corpo = (PRIVACIDADE.replace("{{NOME}}", NOME).replace("{{CANAL_FRASE}}", canal)
-             .replace("{{CHAVE}}", CHAVE_CONSENTIMENTO))
+             .replace("{{CHAVE}}", CHAVE_CONSENTIMENTO).replace("{{DOMINIO_NU}}", DOMINIO.split("//")[1]))
     u = DOMINIO + "/privacidade.html"
+    TITULO_PRIV, DESC_PRIV = seo_fixas()["privacidade.html"]
     return (cabeca(TITULO_PRIV, DESC_PRIV, u, f"{DOMINIO}/assets/img/og-home.jpg", base,
                    [{"@context": "https://schema.org", "@type": "WebPage", "name": TITULO_PRIV, "description": DESC_PRIV,
                      "url": u, "inLanguage": "pt-BR"},
@@ -1038,11 +1434,12 @@ def pagina_sobre():
   <p>Errou-se uma data, um nome, um número? Escreva pela página de <a href="contato.html">contato</a>, de preferência com a fonte. O erro confirmado é corrigido aqui, e a correção vale também para o que vier depois no canal.</p>
 
   <h2>5. Quem faz</h2>
-  <p>O {NOME} é escrito, apurado e mantido de forma independente, sem vínculo com universidade, empresa ou órgão público. É do mesmo criador de outros dois projetos com o mesmo cuidado com a fonte: <a href="https://vestigiooculto.com.br" rel="noopener">Vestígio Oculto</a>, sobre arqueologia e mistério, e <a href="https://arquiteturadoimpossivel.com.br" rel="noopener">Arquitetura do Impossível</a>, sobre como as grandes obras foram erguidas.</p>
+  <p>O {NOME} é escrito, apurado e mantido de forma independente, sem vínculo com universidade, empresa ou órgão público. É do mesmo criador de outros dois projetos com o mesmo cuidado com a fonte: <a href="{SITE_IRMAO_VO}" rel="noopener">Vestígio Oculto</a>, sobre arqueologia e mistério, e <a href="{SITE_IRMAO_AI}" rel="noopener">Arquitetura do Impossível</a>, sobre como as grandes obras foram erguidas.</p>
   <p>O site se mantém com anúncios do Google AdSense, descritos na <a href="privacidade.html">política de privacidade</a>. Nenhum anúncio interfere no que é escrito.</p>
 </div></main>
 """
     u = DOMINIO + "/sobre.html"
+    TITULO_SOBRE, DESC_SOBRE = seo_fixas()["sobre.html"]
     return (cabeca(TITULO_SOBRE, DESC_SOBRE, u, f"{DOMINIO}/assets/img/og-home.jpg", base,
                    [{"@context": "https://schema.org", "@type": "AboutPage", "name": TITULO_SOBRE, "description": DESC_SOBRE,
                      "url": u, "inLanguage": "pt-BR"},
@@ -1071,22 +1468,63 @@ def pagina_contato():
 </div></main>
 """
     u = DOMINIO + "/contato.html"
+    TITULO_CONTATO, DESC_CONTATO = seo_fixas()["contato.html"]
     return (cabeca(TITULO_CONTATO, DESC_CONTATO, u, f"{DOMINIO}/assets/img/og-home.jpg", base,
                    [{"@context": "https://schema.org", "@type": "ContactPage", "name": TITULO_CONTATO, "description": DESC_CONTATO,
                      "url": u, "inLanguage": "pt-BR"},
                     migalhas((NOME, DOMINIO + "/"), ("Contato", u))])
             + topo(base, "contato") + corpo + rodape(base) + consentimento(base) + fim())
 
+def sitemap_xml(entradas):
+    """Um sitemap só, com as versões de cada página em xhtml:link (hreflang)."""
+    linhas = ['<?xml version="1.0" encoding="UTF-8"?>',
+              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">']
+    for lg, chave, data in entradas:
+        alt = alternativos(chave)
+        extra = "".join(f'\n    <xhtml:link rel="alternate" hreflang="{h}" href="{u}"/>' for h, u in alt)
+        linhas.append(f"  <url><loc>{url_de(lg, chave)}</loc><lastmod>{data}</lastmod>{extra}{chr(10) + '  ' if extra else ''}</url>")
+    return "\n".join(linhas) + "\n</urlset>\n"
+
+
 def main():
+    global TEMAS, L, PAGINA
     bs = carregar()
-    global TEMAS
-    TEMAS = carregar_temas(bs)
-    seo = {"home": (TITULO_HOME, DESC_HOME), "sobre": (TITULO_SOBRE, DESC_SOBRE),
-           "contato": (TITULO_CONTATO, DESC_CONTATO), "privacidade": (TITULO_PRIV, DESC_PRIV)}
-    seo.update({b["slug"]: (titulo_seo(b), b["resumo"]) for b in bs})
-    seo.update({f"temas/{t['slug']}": (titulo_tema(t), t["resumo"]) for t in TEMAS})
-    conferir_seo(seo)
-    (RAIZ / "batalhas").mkdir(exist_ok=True)
+    temas_pt = carregar_temas(bs)
+    carregar_idiomas()
+    trads = carregar_traducoes(bs, OBRIGATORIOS, "batalha")
+    for lg, d in trads.items():
+        for b in d.values():
+            conferir_perguntas(f"{PASTA_ITENS}/{lg}/{b['_arquivo'].name}", b)
+    temas_por = {BASE_IDIOMA: temas_pt, **carregar_temas_traduzidos(temas_pt, {lg: set(d) for lg, d in trads.items()})}
+    # idioma sem nenhuma batalha traduzida ainda não entra no ar
+    for lg in list(ATIVOS):
+        if lg != BASE_IDIOMA and not trads.get(lg):
+            ATIVOS.remove(lg)
+            print(f"idioma '{lg}': dicionário pronto, nenhuma batalha traduzida — fica fora do ar")
+
+    # o que existe em cada idioma (decide links, hreflang e seletor)
+    EXISTE[BASE_IDIOMA] = ({"index.html", "sobre.html", "contato.html", "privacidade.html"}
+                           | {f"batalhas/{b['slug']}.html" for b in bs} | {f"temas/{t['slug']}.html" for t in temas_pt})
+    for lg in ATIVOS[1:]:
+        EXISTE[lg] = ({"index.html"} | {f"batalhas/{s}.html" for s in trads[lg]}
+                      | {f"temas/{t['slug']}.html" for t in temas_por[lg]})
+
+    def lista_de(lg):
+        """Todas as batalhas, na versão do idioma quando existe (links e "Leia também")."""
+        return bs if lg == BASE_IDIOMA else [trads[lg].get(b["slug"], b) for b in bs]
+
+    def traduzidas(lg):
+        return bs if lg == BASE_IDIOMA else [trads[lg][b["slug"]] for b in bs if b["slug"] in trads[lg]]
+
+    for lg in ATIVOS:
+        L = lg
+        TEMAS = temas_por[lg]
+        fixas = seo_fixas()
+        seo = {k: v for k, v in fixas.items() if k in EXISTE[lg]}
+        seo.update({f"batalhas/{b['slug']}": (titulo_seo(b), b["resumo"]) for b in traduzidas(lg)})
+        seo.update({f"temas/{t['slug']}": (titulo_tema(t), t["resumo"]) for t in TEMAS})
+        conferir_seo(seo, lg)
+
     css = (SRC / "xadrez.css").read_text(encoding="utf-8").replace("url(/assets/fontes/", "url(fontes/")
     (RAIZ / "assets" / "xadrez.css").write_text(css, encoding="utf-8")
 
@@ -1098,34 +1536,76 @@ def main():
     ban.thumbnail((1920, 1080), Image.LANCZOS)
     ban.save(IMG / "banner.jpg", "JPEG", quality=80, optimize=True, progressive=True)
     webp(IMG / "banner.jpg")
+    og_casa = og_home()
 
-    og = {b["slug"]: og_batalha(b) for b in bs}
-    (RAIZ / "index.html").write_text(home(bs, og_home()).replace('src="_src-banner"', 'src="assets/img/banner.jpg"')
-        .replace("{BANNER_W}", str(ban.width)).replace("{BANNER_H}", str(ban.height)), encoding="utf-8")
-    gerados = set()
-    for b in bs:
-        (RAIZ / "batalhas" / f"{b['slug']}.html").write_text(pagina(b, bs, og[b["slug"]]), encoding="utf-8")
-        gerados.add(f"{b['slug']}.html")
-    for velho in (RAIZ / "batalhas").glob("*.html"):
-        if velho.name not in gerados:
-            velho.unlink()
-            print("removido (batalha sem JSON):", velho.name)
-    (RAIZ / "temas").mkdir(exist_ok=True)
-    por_slug = {b["slug"]: b for b in bs}
-    gerados_t = set()
-    for t in TEMAS:
-        primeira = min((por_slug[s] for s in t[CHAVE_MEMBROS]), key=lambda b: b["num"])
-        og_t = og_batalha(primeira, f"og-tema-{t['slug']}.jpg", f"TEMA  ·  {len(t[CHAVE_MEMBROS])} BATALHAS", t["nome"])
-        (RAIZ / "temas" / f"{t['slug']}.html").write_text(pagina_tema(t, bs, og_t), encoding="utf-8")
-        gerados_t.add(f"{t['slug']}.html")
-    for velho in (RAIZ / "temas").glob("*.html"):
-        if velho.name not in gerados_t:
-            velho.unlink()
-            print("removido (tema fora do temas.json):", velho.name)
-    (RAIZ / "404.html").write_text(pagina_404(), encoding="utf-8")
-    (RAIZ / "privacidade.html").write_text(pagina_privacidade(), encoding="utf-8")
-    (RAIZ / "sobre.html").write_text(pagina_sobre(), encoding="utf-8")
-    (RAIZ / "contato.html").write_text(pagina_contato(), encoding="utf-8")
+    saida = {}           # caminho relativo -> html (grava só no fim, se tudo passou)
+    datas = {}           # (idioma, chave) -> lastmod
+    fixas_data = data_git(Path(__file__).resolve())
+    for lg in ATIVOS:
+        L = lg
+        TEMAS = temas_por[lg]
+        pre = prefixo(lg)
+        todas = lista_de(lg)
+        delas = traduzidas(lg)
+        for b in delas:
+            PAGINA = f"batalhas/{b['slug']}.html"
+            saida[pre + PAGINA] = pagina(b, todas, og_batalha(b))
+            datas[(lg, PAGINA)] = data_git(b.get("_arquivo") or SRC / "batalhas" / f"{b['num']}-{b['slug']}.json")
+        por_slug = {b["slug"]: b for b in todas}
+        d_temas = data_git(SRC / ("temas.json" if lg == BASE_IDIOMA else f"temas.{lg}.json")) if TEMAS else fixas_data
+        for t in TEMAS:
+            PAGINA = f"temas/{t['slug']}.html"
+            primeira = min((por_slug[s] for s in t[CHAVE_MEMBROS]), key=lambda b: b["num"])
+            og_t = og_batalha(primeira, f"og-{pre.replace('/', '-')}tema-{t['slug']}.jpg",
+                              tr("TEMA  ·  {n} BATALHAS", n=len(t[CHAVE_MEMBROS])), t["nome"])
+            saida[pre + PAGINA] = pagina_tema(t, todas, og_t)
+            datas[(lg, PAGINA)] = max([d_temas, fixas_data] + [datas[(lg, f"batalhas/{s}.html")] for s in t[CHAVE_MEMBROS]])
+        PAGINA = "index.html"
+        saida[pre + PAGINA] = home(delas, og_casa, total=len(bs), banner=(ban.width, ban.height))
+        if lg == BASE_IDIOMA:
+            for chave, fn in (("privacidade.html", pagina_privacidade), ("sobre.html", pagina_sobre),
+                              ("contato.html", pagina_contato)):
+                PAGINA = chave
+                saida[chave] = fn()
+                datas[(lg, chave)] = fixas_data
+            PAGINA = "404.html"
+            saida["404.html"] = pagina_404()
+        datas[(lg, "index.html")] = max([fixas_data] + [d for (l2, _), d in datas.items() if l2 == lg])
+
+    faltam = {lg: sorted(v) for lg, v in FALTANDO.items() if v}
+    if faltam:
+        falha("textos da interface sem tradução (acrescente em _src/i18n/<id>.json, em \"textos\"):\n"
+              + "\n".join(f"  [{lg}] {s!r}" for lg, v in faltam.items() for s in v))
+    fonte_build = Path(__file__).read_text(encoding="utf-8")
+    for lg in ATIVOS[1:]:
+        # o que nenhuma página usou E não aparece mais no build: o original mudou
+        sobra = {s for s in set(I18N[lg]["textos"]) - USADOS[lg] if s not in fonte_build}
+        if sobra:
+            print(f"aviso [{lg}]: {len(sobra)} texto(s) no dicionário que o build não usa mais (original mudou?):")
+            for s in sorted(sobra):
+                print("   ", repr(s[:90]))
+
+    # grava, e apaga as páginas que deixaram de ser geradas
+    for rel, txt in saida.items():
+        destino = RAIZ / rel
+        destino.parent.mkdir(parents=True, exist_ok=True)
+        destino.write_text(txt, encoding="utf-8")
+    pastas = [RAIZ / "batalhas", RAIZ / "temas"] + [RAIZ / lg / sub for lg in IDIOMAS if lg != BASE_IDIOMA
+                                                   for sub in ("batalhas", "temas", "")]
+    for pasta in pastas:
+        if pasta.is_dir():
+            for velho in pasta.glob("*.html"):
+                rel = str(velho.relative_to(RAIZ)).replace("\\", "/")
+                if rel not in saida:
+                    velho.unlink()
+                    print("removido (fora do build):", rel)
+    for lg in IDIOMAS:
+        if lg != BASE_IDIOMA:
+            for sub in ("batalhas", "temas", ""):
+                d = RAIZ / lg / sub
+                if d.is_dir() and not any(d.iterdir()):
+                    d.rmdir()
+
     ads = RAIZ / "ads.txt"
     if ADSENSE_LIGADO:
         ads.write_text("# Declaração de vendedor autorizado (IAB ads.txt)\n"
@@ -1134,22 +1614,21 @@ def main():
     elif ads.exists():
         ads.unlink()
 
-    # lastmod: batalha = último commit do JSON dela (hoje, se mudou e não foi
-    # publicado); páginas fixas = último commit do build.py; home = a mais nova.
-    fixas = data_git(Path(__file__).resolve())
-    datas = {f"{DOMINIO}/batalhas/{b['slug']}.html": data_git(SRC / "batalhas" / f"{b['num']}-{b['slug']}.json") for b in bs}
-    for pg in ("sobre", "contato", "privacidade"):
-        datas[f"{DOMINIO}/{pg}.html"] = fixas
-    d_temas = data_git(SRC / "temas.json") if TEMAS else fixas
-    for t in TEMAS:
-        datas[f"{DOMINIO}/temas/{t['slug']}.html"] = max([d_temas, fixas] + [datas[f"{DOMINIO}/batalhas/{s}.html"] for s in t[CHAVE_MEMBROS]])
-    datas = {DOMINIO + "/": max([fixas, *datas.values()]), **datas}
-    (RAIZ / "sitemap.xml").write_text(
-        '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-        + "".join(f"  <url><loc>{u}</loc><lastmod>{d}</lastmod></url>\n" for u, d in datas.items()) + "</urlset>\n", encoding="utf-8")
+    # sitemap: português primeiro, na ordem de sempre; depois cada idioma
+    ordem = []
+    for lg in ATIVOS:
+        chaves = (["index.html"] + [f"batalhas/{b['slug']}.html" for b in bs]
+                  + (["sobre.html", "contato.html", "privacidade.html"] if lg == BASE_IDIOMA else [])
+                  + [f"temas/{t['slug']}.html" for t in temas_por[lg]])
+        ordem += [(lg, c, datas[(lg, c)]) for c in chaves if (lg, c) in datas]
+    (RAIZ / "sitemap.xml").write_text(sitemap_xml(ordem), encoding="utf-8")
     (RAIZ / "robots.txt").write_text(f"User-agent: *\nAllow: /\nDisallow: /_src/\n\nSitemap: {DOMINIO}/sitemap.xml\n", encoding="utf-8")
 
-    print(f"ok: {len(bs)} batalhas, {len(EM_PRODUCAO)} em produção, {len(TEMAS)} temas" + ("" if CANAL else " · CANAL do YouTube não definido"))
+    L = BASE_IDIOMA
+    print(f"ok: {len(bs)} batalhas, {len(EM_PRODUCAO)} em produção, {len(temas_pt)} temas · idiomas no ar: {', '.join(ATIVOS)}"
+          + ("" if CANAL else " · CANAL do YouTube não definido"))
+    for lg in ATIVOS[1:]:
+        print(f"  [{lg}] {len(trads[lg])} batalha(s) traduzida(s): {', '.join(sorted(trads[lg]))}; {len(temas_por[lg])} tema(s)")
     for b in bs:
         print(f"  {b['num']} {b['batalha']}: {len(b['ficha'])} linhas de ficha, {len(b['lances'])} lances, {len(b['imagens'])} imagens")
 

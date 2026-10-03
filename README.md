@@ -1,6 +1,6 @@
 # Xadrez Bélico — site
 
-Site do canal **Xadrez Bélico**, em `xadrezbelico.com.br`. Estático, sem
+Site do canal **Xadrez Bélico**, em `xadrezbelico.com` (desde 03/10/2026; o `.com.br` redireciona). Estático, sem
 framework e sem build no servidor — o mesmo desenho do site do Arquitetura do
 Impossível: gera aqui, commit e push no GitHub, e a Hostinger publica.
 
@@ -103,12 +103,14 @@ faz. Mudou algo (outra rede, medição, comentários): muda o texto e a data.
 
 ## Publicar
 
-**No ar desde 02/10/2026** em https://xadrezbelico.com.br, com SSL (o http
-redireciona para https, e o www funciona).
+**No ar desde 02/10/2026.** Domínio principal desde 03/10/2026:
+**https://xadrezbelico.com** (sem www). O `xadrezbelico.com.br` e o `www.xadrezbelico.com`
+estão estacionados na Hostinger no MESMO site — servem os mesmos arquivos — e
+o `.htaccess` os redireciona 301 para o .com (seção "Domínio" abaixo).
 
 Repositório: https://github.com/allangipa/Xadrez-Belico, branch `main`.
 **Cada push na `main` publica o site** — o Git do painel da Hostinger
-(Sites → xadrezbelico.com.br → Avançado → Git, diretório = raiz) puxa o
+(Sites → xadrezbelico.com.br → Avançado → Git, diretório = raiz; o site no painel continua com o nome do domínio original) puxa o
 commit e põe no ar em segundos.
 
 ```bash
@@ -123,7 +125,7 @@ git push
 continua com o texto velho — sem erro nenhum.
 
 E confira no ar, não no terminal: abra a página que mudou (ou
-`curl -s https://xadrezbelico.com.br/batalhas/<slug>.html | grep "<trecho novo>"`).
+`curl -s https://xadrezbelico.com/batalhas/<slug>.html | grep "<trecho novo>"`).
 O push dar certo não prova que o deploy deu.
 
 ### O que o `.htaccess` segura
@@ -132,7 +134,8 @@ Com o deploy por Git o repositório **inteiro** vai para o servidor. O
 `.htaccess` é o que impede o resto de ser servido:
 
 - `404.html` como página de erro;
-- 404 para `_src/`, `.claude/`, `.git/`, `README.md` e `.gitignore`.
+- 404 para `_src/`, `.claude/`, `.git/`, `README.md` e `.gitignore`;
+- o 301 de domínio (seção "Domínio").
 
 Arquivo novo na raiz que não seja página **fica público** até entrar nessa
 lista. Na dúvida, ponha dentro de `_src/`.
@@ -144,3 +147,93 @@ da Hostinger: zip só com o que é servido (`index.html`, `404.html`,
 `robots.txt`, `sitemap.xml`, `.htaccess`, `batalhas/` e `assets/`), envio
 para `public_html` e "deploy static site archive". **Esse deploy apaga a
 pasta inteira do site antes de extrair**: o pacote vai sempre completo.
+
+## Domínio: .com principal, .com.br redireciona (03/10/2026)
+
+`DOMINIO` no `_src/build.py` é `https://xadrezbelico.com`: canonical, og:url,
+JSON-LD, sitemap e robots saem dele. O `ads.txt` não muda (não tem domínio).
+
+O `.htaccess`, antes das regras de 404, redireciona **301, caminho a caminho
+e com a query string**:
+
+| pedido | vai para |
+|---|---|
+| `http(s)://xadrezbelico.com.br/<caminho>` | `https://xadrezbelico.com/<caminho>` |
+| `http(s)://www.xadrezbelico.com.br/<caminho>` | `https://xadrezbelico.com/<caminho>` |
+| `http(s)://www.xadrezbelico.com/<caminho>` | `https://xadrezbelico.com/<caminho>` |
+| `http://xadrezbelico.com/<caminho>` | `https://xadrezbelico.com/<caminho>` |
+
+Só esses hosts: o domínio temporário da Hostinger e qualquer outro ficam como
+estão. A regra de 404 para `_src/`, `.git/` etc. continua valendo (no .com.br
+o pedido primeiro vira 301 para o .com, e lá dá 404).
+
+Para conferir as regras sem servidor: `python _src/testa_htaccess.py .htaccess xadrezbelico`
+(emula o mod_rewrite com os casos acima). Depois de publicar, no ar:
+
+```bash
+curl -sI https://xadrezbelico.com.br/batalhas/stalingrado.html | grep -i "^location"
+curl -sI http://www.xadrezbelico.com/ | grep -i "^location"
+```
+
+**Antes do push com esta regra, o SSL do .com e do www.com tem de estar ativo**
+no painel (SSL → instalar para o domínio estacionado): o 301 manda para https.
+
+## Idiomas (03/10/2026)
+
+Português na **raiz**, com os caminhos de sempre (`/batalhas/<slug>.html`,
+`/temas/<slug>.html`) — nenhuma página em português mudou de endereço. Cada
+outro idioma ganha uma pasta com **os mesmos slugs**: `/en/batalhas/<slug>.html`,
+depois `/es/`. A lista mora em `IDIOMAS = ["pt", "en", "es"]` no build; só
+fica no ar o idioma que tem dicionário **e** pelo menos uma batalha traduzida.
+
+O que existe em cada idioma decide tudo sozinho:
+
+- `<html lang>` (`pt-BR`, `en`, `es`) e `og:locale` (+ `og:locale:alternate`);
+- `hreflang` em toda página que existe em mais de um idioma: `pt-BR`, `en`,
+  `es` e `x-default` (inglês quando existe, senão português), recíproco;
+- o **sitemap** (um só) lista cada versão com os `xhtml:link` alternates;
+- o **seletor de idioma** no cabeçalho (PT · EN · ES) mostra só os idiomas
+  em que **aquela** página existe, e fica visível no celular;
+- links internos: na página em inglês, link para uma batalha que ainda não
+  tem inglês cai na versão em português (com `hreflang="pt-BR"`), nunca num 404;
+- a home de cada idioma lista só as batalhas traduzidas e avisa quantas
+  ainda estão só em português.
+
+Marca no inglês: **"Xadrez Bélico — War as a Chess Game"**
+(`marca_sub` em `_src/i18n/en.json`; aparece no cabeçalho, no rodapé, no
+`og:site_name` e como `alternateName` no JSON-LD). Proposta para o espanhol:
+"La guerra como partida de ajedrez". O `<title>` continua com o nome em português no fim, para caber
+em 60.
+
+Sobre, contato e privacidade **ainda só existem em português** (o texto mora
+no build); nos outros idiomas os links para elas caem no português, e a faixa
+de cookies diz "(in Portuguese)". O 404 é um só, em português.
+
+### Traduzir uma batalha (o fluxo)
+
+1. Copie `_src/batalhas/NN-slug.json` para `_src/batalhas/en/NN-slug.json`
+   (mesmo nome de arquivo) e traduza **os textos**. Os campos fixos
+   (num, slug, estreia, proximo, relacionados, conf, arquivo, licenca, licenca_url, origem_url, tipo, ano, foco, url) podem ser apagados: vêm do original. Exemplo pronto:
+   `_src/batalhas/en/12-stalingrado.json`.
+2. Tradução fiel: nenhum fato novo, nenhuma conversão de unidade, divergência
+   continua divergência, atribuição continua atribuição ("segundo X").
+   Número por extenso fica por extenso; algarismo fica algarismo.
+3. `python _src/build.py`. O build **para** se: faltar campo ou item de lista;
+   um número do original não aparecer na tradução (ou aparecer um que o
+   original não tem); um campo fixo divergir; um texto longo estiver igual ao
+   português; o título passar de 60 ou a description sair de 120–155 ou
+   repetir dentro do idioma; aparecer bastidor ("TODO", "to check"…); faltar
+   texto da interface no dicionário.
+4. A página entra sozinha no sitemap, no hreflang das duas versões e no
+   seletor. Rode o `seo_audit.py` antes do push.
+
+Detalhes das travas, da conferência de números e do dicionário da interface
+em `_src/batalhas/ESQUEMA.md`, seção "Traduções".
+
+### Ligar o espanhol
+
+Crie `_src/i18n/es.json` (copie o `en.json`, troque `_idioma` —
+`"nome": "Español", "curto": "ES", "hreflang": "es", "og_locale": "es_LA"`,
+`marca_sub`, meses, `"data_longa": "{dia} de {mes} de {ano}"` — e traduza
+cada valor de `textos`) e ponha a primeira batalha em `_src/batalhas/es/`.
+Sem nenhuma batalha traduzida, o idioma fica fora do ar mesmo com o dicionário.

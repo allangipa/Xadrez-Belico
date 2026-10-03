@@ -1,0 +1,168 @@
+{
+  "_nota": "Tradução fiel de ../12-stalingrado.json. Campos fixos (num, slug, estreia, proximo, relacionados, conf, arquivo, licenca, licenca_url, origem_url, tipo, ano, foco, url) vêm do original.",
+  "batalha": "Stalingrad",
+  "nome_busca": "Battle of Stalingrad",
+  "titulo_video": null,
+  "lugar": "Stalingrad (now Volgograd), Volgograd Oblast, Russia, and the bend of the Don between the river and the Volga",
+  "data": "17 July 1942 to 2 February 1943",
+  "campanha": "World War II, 1942–1943",
+  "pergunta": "How did the army that was encircling Stalingrad end up encircled inside it — and why did it not get out?",
+  "resumo": "Why the 6th Army was trapped at the Battle of Stalingrad: weak flanks, Operation Uranus, an airlift that never added up and the order not to break out.",
+  "abertura": [
+    "In November 1942 the German 6th Army is on the Volga, master of almost all of Stalingrad, in southern Russia. Behind it, along the Don, the line protecting its flanks has been handed to poorly armed Romanian armies. On 19 and 20 November the Red Army breaks that line to the north and to the south, and on 23 November the two pincers meet near Kalach. The army that was encircling the city is now encircled.",
+    "Being encircled did not doom an army in 1942: both sides had already broken out of pockets before. This page follows the game to understand how the ring became a trap — the board stretched by the German command itself, the Soviet blow at the weak points, the promise to supply an entire army by air, the relief attempt that stopped about 48 km away and the order not to break out."
+  ],
+  "numeros": [
+    {"valor": "250,000–300,000", "rotulo": "Axis men trapped in the pocket in November 1942, depending on the source and the basis of the count"},
+    {"valor": "300 t", "rotulo": "of supplies per day: the minimum calculated to keep the 6th Army going; what it said it needed was 750"},
+    {"valor": "289 t", "rotulo": "the best day of the airlift, 19 December 1942; the average was between 94 and 117 tons"},
+    {"valor": "48 km", "rotulo": "the distance from the pocket at which Manstein's relief stopped, on 19 December, at the Myshkova River"},
+    {"valor": "91,000", "rotulo": "prisoners at the surrender, between 31 January and 2 February 1943; between 5,000 and 6,000 came back"},
+    {"valor": "1,129,619", "rotulo": "Soviet casualties in Krivosheev's official count, including dead, missing, wounded and sick"}
+  ],
+  "ficha": [
+    {"item": "The plan", "valor": "Case Blue begins on 28 June 1942 with the Caucasus and its oil as the main objective. Directive No. 45, of 23 July, splits Army Group South: A goes to the Caucasus, B to the Volga and Stalingrad, at the same time"},
+    {"item": "Germany and the Axis — command", "valor": "Friedrich Paulus (6th Army), Hermann Hoth (4th Panzer Army), Maximilian von Weichs (Army Group B), Erich von Manstein (Army Group Don, from 26 November); Petre Dumitrescu (Romanian 3rd Army); Adolf Hitler"},
+    {"item": "USSR — command", "valor": "Andrei Yeryomenko (Stalingrad Front), Vasily Chuikov (62nd Army, in the city), Konstantin Rokossovsky (Don Front), Nikolai Vatutin (Southwestern Front); Georgy Zhukov and Aleksandr Vasilevsky in planning the counteroffensive"},
+    {"item": "Terrain", "valor": "the steppe between the Don and the Volga, about 65 km apart near the city; Stalingrad stretches for about 40 km along the west bank of the Volga, 6 to 8 km wide", "nota": "English Wikipedia (Don–Volga distance) and German Wikipedia (dimensions of the city)."},
+    {"item": "The flanks", "valor": "Romanian 3rd Army to the northwest, on the Don line; Romanian 4th Army south of the city; farther up the Don, the Italian 8th Army and the Hungarian 2nd. Behind the Romanians, a German reserve of fewer than 100 modern tanks"},
+    {"item": "Operation Uranus", "valor": "19 November in the north, 20 November in the south; the ring closes on 23 November near Kalach and Sovetsky. More than a million Soviet soldiers committed"},
+    {"item": "Encircled", "valor": "between 250,000 and 300,000 Axis men in the most cited counts; about 330,000 with 40,000 to 65,000 Soviet auxiliaries, in another; 195,000 Germans, in Rolf-Dieter Müller's", "nota": "The difference is one of basis: Germans only or the whole Axis, with or without auxiliaries and support personnel."},
+    {"item": "The decision to stay", "valor": "Hitler orders on 24 November that the 6th Army stay where it is, after Jeschonnek (20 November) and Göring (22 November) guarantee supply by air. That same day Manstein sends an assessment that does not ask for an immediate breakout"},
+    {"item": "Airlift", "valor": "calculated minimum of 300 t per day, or 500 t per flying day; the best day was 289 t, on 19 December; the average was between 94 and 117 t. The Luftwaffe lost 488 aircraft", "nota": "The averages vary with the period counted: 94 t from 25 November to 2 February; 117 t over 71 days."},
+    {"item": "Winter Storm", "valor": "the LVII Panzer Corps sets out from Kotelnikovo on 12 December and gets to about 48 km from the pocket on 19 December; the order for the 6th Army to break out is never given; the relief falls back on 23 and 24 December"},
+    {"item": "The end", "valor": "Operation Ring begins on 10 January 1943; Paulus, promoted to field marshal on 30 January, is captured on the 31st; the northern pocket, under Karl Strecker, surrenders on 2 February"},
+    {"item": "Soviet casualties", "valor": "1,129,619 in Krivosheev's official count: 478,741 irrecoverable losses (dead, missing and captured) and 650,878 wounded and sick. A revision by Pereslegin reaches 1,347,214"},
+    {"item": "Axis casualties", "valor": "from 800,000 to 1.5 million, depending on the source and the area counted; the 6th Army alone recorded 282,606 from 21 August to the end", "nota": "The figure of 1.5 million, from the official Soviet history, is cited as an overestimate."},
+    {"item": "Civilians", "valor": "42,754 dead in incomplete data from the Volgograd party archive; 235,232 in Tatyana Pavlova's research"},
+    {"item": "Prisoners", "valor": "about 91,000 at the surrender; between 5,000 and 6,000 came back, the last in 1955–1956", "nota": "Counting the whole battle, Müller speaks of 110,000 prisoners."},
+    {"item": "Afterwards", "valor": "Army Group A is ordered to fall back from the Caucasus at the end of December 1942; in January 1943, a new Soviet offensive on the Don destroys the Hungarian 2nd Army and what was left of the Italian 8th", "nota": "English Wikipedia, Battle of Stalingrad and Case Blue."}
+  ],
+  "lances": [
+    {
+      "titulo": "The stretched board: two objectives at the same time",
+      "paragrafos": [
+        "Case Blue, the German summer offensive of 1942 in the south of the Soviet Union, begins on 28 June with one main objective: the Caucasus and its oil. Stalingrad, on the Volga, came in as an operational objective — take the city or bring it under heavy fire to cut the river and protect the flank of the advance to the south.",
+        "On 23 July, believing the Red Army beaten, Hitler changes the plan in Directive No. 45. Army Group South is split in two: Group A heads for the Caucasus, Group B for the Volga and Stalingrad, and the two objectives have to be achieved at the same time, not one after the other. The official history of the U.S. Army, by Earl Ziemke and Magna Bauer, describes the result as two separate campaigns, in directions at right angles, each having to sustain itself alone.",
+        "The two groups move away from each other. The 4th Panzer Army is sent south in July, clogs the roads and returns toward Stalingrad about two weeks later. The farther the 6th Army advances east, the longer the Don line behind it becomes — and someone has to guard it."
+      ]
+    },
+    {
+      "titulo": "The city that swallowed the attacker",
+      "paragrafos": [
+        "The first clash with the Stalingrad Front happens on 17 July, in the bend of the Don. On 28 July Stalin signs Order No. 227, \"Not one step back\", which creates penal battalions and blocking detachments behind the lines. On 23 August the 16th Panzer Division reaches the Volga north of the city, on the same day as the largest air raid on the Eastern Front up to then.",
+        "From September to November the fighting is house to house. Vasily Chuikov, commanding the 62nd Army inside the city, keeps his line pressed against the German one so that aircraft and artillery cannot fire without hitting their own soldiers, and favors night attacks and small assault groups. North of the city, according to David Glantz, the Kotluban operations cost more than 200,000 Soviet casualties, but wore down the 6th Army even before the street fighting.",
+        "By mid-November the Germans reach the Volga at several points and reduce the defenders to narrow strips on the bank. But the attacking piece has become a trapped piece: the infantry divisions and armor of the 6th Army are spent in a battle of ruins in which maneuver, the great German advantage, is worth nothing."
+      ]
+    },
+    {
+      "titulo": "The paper flanks and the double blow",
+      "paragrafos": [
+        "Behind the 6th Army, the Don line to the northwest is held by the Romanian 3rd Army; south of the city, by the Romanian 4th Army. Farther up the river are the Italian 8th Army and the Hungarian 2nd Army. The Romanians had 37 mm anti-tank guns, useless against the T-34, and their armored division used about 100 Czech tanks with a gun of the same caliber. The German reserve behind them, the XLVIII Panzer Corps, had fewer than 100 modern tanks in working order.",
+        "Since September, Georgy Zhukov and Aleksandr Vasilevsky had been preparing at the Stavka the blow against these flanks. Operation Uranus commits more than a million soldiers, with careful deception: less radio, couriers, camouflage, dummy bridges. On 19 November, in fog, three armies attack the Romanian 3rd Army; on 20 November, two more attack the 4th to the south.",
+        "The Romanians repel the first assaults and then give way, with no heavy anti-tank weapons to stop the armor. The German reserve is too small. On 23 November the Soviet spearheads meet near Kalach and Sovetsky, on the Don. Inside the ring are between 250,000 and 300,000 Axis men in the most cited counts — the Stavka, at first, estimated a quarter of that."
+      ]
+    },
+    {
+      "titulo": "The decision to stay and the math that did not add up",
+      "paragrafos": [
+        "A freshly closed encirclement can still be broken: the Soviet lines were thin and the German armor still had fuel. Between 22 and 23 November, Paulus and the corps commanders ask to break out, and Maximilian von Weichs, of Army Group B, warns that only a tenth of what was needed could be brought in by air. The Luftwaffe chiefs on the spot, Wolfram von Richthofen and Martin Fiebig, say the same.",
+        "Hitler already had another answer. On 20 November Hans Jeschonnek, Luftwaffe chief of staff, said that supply by air was possible with transport aircraft and bombers; on the 22nd, Hermann Göring guaranteed it could be done. On 24 November Hitler orders the 6th Army to stay where it is. That same day Erich von Manstein, newly appointed to the new Army Group Don, sends an assessment that does not ask for an immediate breakout. Williamson Murray and Allan Millett write that this message, added to Göring's guarantee, sealed the fate of the 6th Army.",
+        "The math was simple. The 6th Army said it needed 750 tons per day; the minimum calculated by the army chief of staff, Kurt Zeitzler, was 300 per day, or 500 per flying day. In the first week, 350 tons arrived in total. The best day of the whole operation was 19 December, with 289 tons; the average was between 94 and 117, depending on the period counted. The loss of the Tatsinskaya airfield, on 24 December, and then of Pitomnik and Gumrak, in January, ended the airlift. It cost 488 aircraft."
+      ]
+    },
+    {
+      "titulo": "The relief that stopped 48 km short",
+      "paragrafos": [
+        "Winter Storm, Manstein's plan, called for two moves at the same time: Hoth's 4th Panzer Army would open a corridor to the pocket, and the 6th Army would break out to meet it when it received the order — Operation Thunderclap. Only the longer axis was left, from Kotelnikovo, to the south, because the shorter one, along the Chir River, was pinned down by Soviet attacks.",
+        "The LVII Panzer Corps sets out on 12 December with the 6th and 23rd Panzer Divisions, later reinforced by the 17th. After three days of tank battle at Verkhne-Kumsky, it reaches the Myshkova River on 19 December, about 48 km from the pocket. But on 16 December the Red Army launches Little Saturn against the Italian 8th Army on the middle Don, threatening Rostov and the rear of the whole southern front.",
+        "The second move never comes. Hitler refuses the breakout that Manstein asks for on 18 December; Paulus does not act without orders; and, according to his adjutant Wilhelm Adam, the 6th Army's tanks had fuel for about 30 km. On 23 December the 6th Panzer is withdrawn to the Chir, and on the 24th the relief falls back. The breakout order was never given."
+      ]
+    },
+    {
+      "titulo": "The ring tightens",
+      "paragrafos": [
+        "On 8 January 1943 the Soviets offer surrender terms; Hitler forbids accepting. On 10 January Konstantin Rokossovsky's Don Front launches Operation Ring. Pitomnik falls on 16 January and Gumrak on the night of the 21st to the 22nd, and with them the landings and the evacuation of the wounded come to an end. On 26 January the pocket is split in two, north and south of the Mamayev Kurgan.",
+        "On 30 January Hitler promotes Paulus to field marshal: no German or Prussian field marshal had ever surrendered. The next day Paulus is captured in the basement of the Univermag department store, in the center, and the southern pocket surrenders. The northern pocket, under Karl Strecker, holds out until 2 February.",
+        "About 91,000 men surrendered, among them 22 generals. Most died in captivity; between 5,000 and 6,000 returned home, the last in 1955–1956, after a request by Chancellor Konrad Adenauer in Moscow."
+      ]
+    }
+  ],
+  "veredito": [
+    "The 6th Army was not trapped by a brilliant move by the opponent alone, nor by the winter. It was trapped because the German command sent two army groups toward different objectives at the same time, left the Don line to allies without the weapons to hold it, and when the Red Army struck exactly there, chose to stay. Hitler forbade the breakout; Jeschonnek and Göring guaranteed an airlift that the Luftwaffe commanders on the spot said was impossible; and Manstein, on the day it mattered, did not ask to get out either.",
+    "In chess terms, it is the piece that advances deep into the opponent's camp while the ones that should protect it are weak or far away. The opposing move was predictable from the map; what made the loss total was the refusal to pull the piece back while it was still possible. In December, Winter Storm tried to fix with one move what November had lost, and got within 48 km of a piece that no longer had fuel to travel 30."
+  ],
+  "mitos": [
+    {
+      "circula": "Stalingrad was Hitler's fault alone.",
+      "registro": "Hitler forbade a breakout on 24 November 1942 and again in December and January. But Jeschonnek and Göring guaranteed supply by air, and Manstein, on 24 November, sent an assessment that did not ask for an immediate breakout. Hitler's sole blame is the version of the generals' memoirs written after the war."
+    },
+    {
+      "circula": "The Romanians and the Italians ran away and gave up the flanks.",
+      "registro": "They were on a front that was far too long, with 37 mm anti-tank guns against the T-34 and a German reserve of fewer than 100 modern tanks behind them. The Romanians repelled the first assaults of 19 November; the Italian Ravenna and Cosseria divisions were praised by a German liaison officer, according to Rolf-Dieter Müller. The one who chose to leave them there was the German command."
+    },
+    {
+      "circula": "The sniper Vasily Zaitsev won a duel with the German major König, head of a sniper school in Berlin.",
+      "registro": "Zaitsev is real: a sniper of the 62nd Army and Hero of the Soviet Union, with 265 enemies killed from September to December 1942 in the decoration list cited by Wikipedia. The duel with König has no German record at all; it comes from Soviet propaganda, from Zaitsev's memoirs, from William Craig's book and from the film Enemy at the Gates. Antony Beevor writes that the archives of the Russian Ministry of Defense contradict it."
+    },
+    {
+      "circula": "Order 227 had anyone who retreated shot en masse.",
+      "registro": "The order, of 28 July 1942, created penal battalions and blocking detachments. In an internal NKVD list from the Stalingrad Front, from 1 August to 15 October 1942, of the 15,649 detained fleeing the line, 278 were shot and 14,833 returned to their units. It was a brutal order; mass shooting is not what the list shows."
+    },
+    {
+      "circula": "The airlift almost saved the 6th Army.",
+      "registro": "The calculated minimum was 300 tons per day. The best day of the whole operation, 19 December 1942, delivered 289; the average was between 94 and 117. Richthofen and Fiebig, who commanded the Luftwaffe on the spot, said before it started that it was impossible."
+    }
+  ],
+  "perguntas": [
+    {"p": "Who won the Battle of Stalingrad?", "r": "The Soviet Union won. The German 6th Army, encircled since 23 November 1942, surrendered between 31 January and 2 February 1943, with about 91,000 prisoners; between 5,000 and 6,000 returned home."},
+    {"p": "Why did Germany lose the Battle of Stalingrad?", "r": "The German command sent two army groups toward different objectives at the same time and left the Don line to poorly armed Romanian armies. Operation Uranus broke through exactly there, and Hitler, trusting an airlift whose math did not add up, ordered on 24 November that the 6th Army stay."},
+    {"p": "How many people died in the Battle of Stalingrad?", "r": "The sources disagree widely. Krivosheev's official count gives 1,129,619 Soviet casualties, 478,741 of them irrecoverable; those of the Axis range from 800,000 to 1.5 million, depending on the source and the area counted. For civilians, the counts range from 42,754 to 235,232 dead."},
+    {"p": "How long did the Battle of Stalingrad last?", "r": "A little over six months: from 17 July 1942, the first clash in the bend of the Don, to 2 February 1943, when Karl Strecker's northern pocket surrendered."},
+    {"p": "Who commanded at the Battle of Stalingrad?", "r": "On the German side, Friedrich Paulus, at the head of the 6th Army, under Hitler's orders. On the Soviet side, Vasily Chuikov defended the city with the 62nd Army, and Georgy Zhukov and Aleksandr Vasilevsky planned the counteroffensive that encircled the Germans."}
+  ],
+  "fontes": [
+    {"texto": "Earl F. Ziemke and Magna E. Bauer, Moscow to Stalingrad: Decision in the East, U.S. Army Center of Military History, ch. XVII (Directive No. 45)."},
+    {"texto": "Joel S. A. Hayward, \"Stalingrad: An Examination of Hitler's Decision to Airlift\", Airpower Journal, 1997."},
+    {"texto": "Bill Barry, \"Stopped Cold at Stalingrad\", World War II, February 2007."},
+    {"texto": "William E. Hiestand, \"The Luftwaffe's Stalingrad Airlift\", Osprey Publishing, 2023."},
+    {"texto": "G. F. Krivosheev (ed.), Soviet Casualties and Combat Losses in the Twentieth Century (cited by Wikipedia)."},
+    {"texto": "Battle of Stalingrad — English Wikipedia."},
+    {"texto": "Operation Uranus — English Wikipedia."},
+    {"texto": "Operation Winter Storm — English Wikipedia."},
+    {"texto": "Order No. 227 — English Wikipedia."},
+    {"texto": "Schlacht von Stalingrad — German Wikipedia (figures by Rolf-Dieter Müller)."}
+  ],
+  "imagens": [
+    {
+      "alt": "Soviet soldiers in white winter clothing walk through the snow among roofless ruined buildings, with the river in the background",
+      "legenda": "The center of Stalingrad on 2 February 1943, the day the last German pocket surrendered. Photo by the Soviet reporter Georgy Zelma.",
+      "autor": "Georgy Zelma · RIA Novosti, archive 602161"
+    },
+    {
+      "alt": "German topographic map of southern Stalingrad, with the city and the Volga on the right and positions marked in red on the steppe to the west",
+      "legenda": "Stalingrad-Süd, German 1:25,000 map of October 1942, with the Soviet fortifications marked in red up to 27 October. The city stretches along the west bank of the Volga.",
+      "autor": "German Army, Armee-Kartenstelle 473 · U.S. Library of Congress, G7064.V6S7 1942 .G4"
+    },
+    {
+      "alt": "Romanian soldiers in helmets crouching behind a line of brush, watching the flat steppe with smoke in the background",
+      "legenda": "Romanian soldiers on the southern Russian front in 1942. The Romanian 3rd and 4th Armies guarded the flanks of the 6th Army — and that is where Operation Uranus struck.",
+      "autor": "Lechner · Bundesarchiv, Bild 101I-218-0501-27"
+    },
+    {
+      "alt": "Three-engine transport plane coming down over a snowy field, with a horse hitched to a sled and soldiers in the foreground",
+      "legenda": "A Junkers Ju 52 on the Stalingrad airlift, in the winter of 1942–43. The calculated minimum was 300 tons per day; the best day delivered 289.",
+      "autor": "Unidentified photographer · Australian War Memorial, P02018.181"
+    },
+    {
+      "alt": "Three German officers in long greatcoats walk through the snow of a village, beside a car, under escort",
+      "legenda": "Friedrich Paulus, on the left, with his chief of staff Arthur Schmidt and his adjutant Wilhelm Adam, after the surrender, on 31 January 1943. Paulus had been promoted to field marshal the day before.",
+      "autor": "Probably Georgi Lipskerov · Bundesarchiv, Bild 183-F0316-0204-005"
+    },
+    {
+      "alt": "Long column of prisoners wrapped in blankets climbs a snow-covered road",
+      "legenda": "Column of German prisoners at Stalingrad, in February 1943. About 91,000 surrendered; between 5,000 and 6,000 returned home.",
+      "autor": "Unidentified photographer · Bundesarchiv, Bild 183-E0406-0022-010"
+    }
+  ]
+}

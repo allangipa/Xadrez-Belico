@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /_src/
 
-Sitemap: https://xadrezbelico.com.br/sitemap.xml
+Sitemap: https://xadrezbelico.com/sitemap.xml

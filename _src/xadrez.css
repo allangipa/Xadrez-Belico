@@ -78,6 +78,17 @@ a:hover{color:var(--ambar)}
 .nav .yt{border:1px solid var(--ambar);color:var(--ambar);padding:.55em .85em}
 .nav .yt:hover{background:var(--ambar);color:var(--mesa)}
 @media (max-width:720px){.nav a:not(.yt){display:none}.nav span.yt{display:none}.marca span{font-size:.92rem;letter-spacing:.1em}}
+/* subtítulo da marca nos outros idiomas e seletor de idioma (fica visível no celular) */
+.marca span .marca-sub{display:block;margin-top:.35em;font:500 .62rem/1.15 var(--f-rotulo);letter-spacing:.12em;color:var(--perg-2)}
+.idiomas{display:flex;gap:.1rem}
+.nav .idiomas a.idioma{display:inline-flex;align-items:center;justify-content:center;min-width:2.3rem;min-height:2.75rem;padding:0 .3em;font:500 .85rem/1 var(--f-rotulo);letter-spacing:.1em;color:var(--perg-2);border-bottom:2px solid transparent}
+.nav .idiomas a.idioma:hover{color:var(--ambar)}
+.nav .idiomas a.idioma[aria-current]{color:var(--ambar);border-bottom-color:var(--ambar)}
+.nav .idiomas a.idioma:focus-visible{outline:2px solid var(--ambar);outline-offset:2px}
+@media (max-width:720px){.nav{gap:.6rem}}
+@media (max-width:420px){.marca span .marca-sub{display:none}}
+.em-portugues{margin:2rem 0 0;font:500 .9rem/1.4 var(--f-rotulo);letter-spacing:.06em}
+.em-portugues a{color:var(--ambar)}
 
 /* ---- títulos --------------------------------------------------------- */
 h1,h2,h3{font-family:var(--f-titulo);font-weight:700;line-height:1.12;margin:0;text-wrap:balance;letter-spacing:.01em}
