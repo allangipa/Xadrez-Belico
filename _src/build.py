@@ -36,9 +36,9 @@ SRC = RAIZ / "_src"
 IMG = RAIZ / "assets" / "img"
 
 DOMINIO = "https://xadrezbelico.com.br"
-# Endereço do canal no YouTube. None = os botões dizem "em breve no YouTube",
-# sem link — melhor que apontar para um @ que pode não ser o do canal.
-CANAL = None
+# Endereço do canal no YouTube, confirmado pelo Allan em 02/10/2026. None faz
+# os botões dizerem "em breve no YouTube", sem link.
+CANAL = "https://www.youtube.com/@XadrezB%C3%A9lico"
 NOME = "Xadrez Bélico"
 
 # AdSense — mesmo publisher do Vestígio Oculto. ADSENSE_LIGADO = False tira
@@ -649,7 +649,7 @@ def pagina_privacidade():
     Adaptada da política do Vestígio Oculto, que tem o mesmo desenho."""
     base = ""
     if CANAL:
-        canal = f'com canal correspondente no YouTube, <a href="{CANAL}" rel="noopener">o canal</a>'
+        canal = f'com canal correspondente no YouTube, <a href="{CANAL}" rel="noopener">@XadrezBélico</a>'
     else:
         canal = "com canal correspondente no YouTube"
     corpo = (PRIVACIDADE.replace("{{NOME}}", NOME).replace("{{CANAL_FRASE}}", canal)
@@ -663,7 +663,7 @@ def pagina_privacidade():
 
 def pagina_sobre():
     base = ""
-    canal = f'<a href="{CANAL}" rel="noopener">no YouTube</a>' if CANAL else "no YouTube"
+    canal = f'no YouTube, <a href="{CANAL}" rel="noopener">@XadrezBélico</a>' if CANAL else "no YouTube"
     corpo = f"""<main id="conteudo"><div class="casca privacidade">
   <span class="rotulo">Sobre</span>
   <h1>Sobre o {NOME}</h1>

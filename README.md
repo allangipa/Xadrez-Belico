@@ -74,9 +74,11 @@ O escudo e o cavalo (`assets/marca/`) são recortes do logo do canal
 
 ## Canal no YouTube
 
-`CANAL` em `_src/build.py` está `None`: os botões dizem "em breve no
-YouTube", sem link, até o endereço do canal ser confirmado. Ponha a URL ali e
-rode o build.
+**@XadrezBélico** — `CANAL` em `_src/build.py`
+(`https://www.youtube.com/@XadrezB%C3%A9lico`, confirmado pelo Allan em
+02/10/2026). Alimenta o botão do menu, os da abertura e de cada batalha, o
+rodapé e as páginas Sobre e Privacidade. `None` volta a mostrar "em breve no
+YouTube", sem link.
 
 ## AdSense
 
