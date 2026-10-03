@@ -259,8 +259,9 @@ CAMPOS_FIXOS = {"num", "slug", "estreia", "proximo", "relacionados", "conf",
 EXTRAS_TRAD = {"nome_busca", "_excecoes_numeros", "_nota"}
 # Texto citado (título de obra, de artigo) pode ficar igual ao original.
 PODE_FICAR_IGUAL = re.compile(r"^fontes\[\d+\]\.texto$|\.autor$")
-# "TBD" é bastidor, menos no nome do avião (Douglas TBD Devastator, Midway)
-BASTIDOR_TRAD = re.compile(r"\bTODO\b|\bTBD\b(?!-?\d*\s+Devastator)|\bFIXME\b|\[\?\]|\bto (?:check|verify|confirm)\b"
+# "TBD" é bastidor, menos no nome do avião (Douglas TBD Devastator, Midway).
+# "TODO" só em maiúscula: em espanhol "todo" é palavra comum.
+BASTIDOR_TRAD = re.compile(r"(?-i:\bTODO\b)|\bTBD\b(?!-?\d*\s+Devastator)|\bFIXME\b|\[\?\]|\bto (?:check|verify|confirm)\b"
                            r"|\bpor (?:verificar|confirmar)\b|\bpendiente\b", re.I)
 
 MESES_NOMES = {

@@ -1,0 +1,249 @@
+{
+  "batalha": "Fornovo di Taro",
+  "nome_busca": "Batalla de Fornovo di Taro",
+  "titulo_video": "Por qué la FEB capturó una división alemana entera en Fornovo",
+  "lugar": "Collecchio y Fornovo di Taro, Parma, Emilia-Romaña, Italia",
+  "data": "26 al 29 de abril de 1945",
+  "campanha": "La FEB en Italia",
+  "pergunta": "¿Cómo una división alemana entera, con su mando, se rindió a la FEB en el valle del Taro?",
+  "resumo": "Abril de 1945, Fornovo di Taro: la FEB cierra la salida del valle del Taro y la 148.ª División alemana se rinde entera, con su mando. 14.779 hombres.",
+  "abertura": [
+    "La última batalla de la Fuerza Expedicionaria Brasileña en la Segunda Guerra Mundial no fue el asalto a un cerro ni la toma de una ciudad. Entre el 26 y el 29 de abril de 1945, en Collecchio y Fornovo di Taro, en la provincia de Parma, norte de Italia, la FEB se plantó en la salida de un valle por donde una columna alemana tenía que pasar, y esperó a que el adversario entendiera la posición.",
+    "Lo entendió despacio. Hubo contacto, un sacerdote llevando mensajes, un ultimátum con plazo de dos horas que se dejó vencer, un ataque y una madrugada de negociación. Al final, la 148.ª División de Infantería alemana se rindió incondicionalmente, con el general y el estado mayor: 14.779 hombres contados, 4.000 caballos, 80 cañones. En la Campaña de Italia, ninguna otra división alemana fue capturada entera, con su mando, por una fuerza aliada."
+  ],
+  "numeros": [
+    {
+      "valor": "14.779",
+      "rotulo": "prisioneros en el conteo final de la rendición"
+    },
+    {
+      "valor": "4.000",
+      "rotulo": "caballos entregados"
+    },
+    {
+      "valor": "80",
+      "rotulo": "cañones de diversos calibres"
+    },
+    {
+      "valor": "2 h",
+      "rotulo": "de plazo en el ultimátum del 28 de abril"
+    },
+    {
+      "valor": "31",
+      "rotulo": "oficiales de estado mayor con Fretter-Pico al presentarse"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Batalla",
+      "valor": "Collecchio–Fornovo: el cerco se cierra en Collecchio y la rendición ocurre en el valle del Taro, en torno a Fornovo di Taro"
+    },
+    {
+      "item": "Fuerzas brasileñas",
+      "valor": "1.ª División de Infantería Expedicionaria: 6.º Regimiento de Infantería (Regimiento Ipiranga), con el peso de la negociación y del ataque; 11.º y 1.º Regimientos de Infantería; Escuadrón de Reconocimiento del capitán Pitaluga en el primer contacto"
+    },
+    {
+      "item": "Efectivo brasileño empeñado",
+      "valor": "no registrado en las fuentes consultadas"
+    },
+    {
+      "item": "Apoyo aliado",
+      "valor": "blindados estadounidenses en apoyo",
+      "nota": "Las fuentes no coinciden sobre qué unidad blindada estadounidense estaba presente; por eso aquí no se nombra ninguna."
+    },
+    {
+      "item": "Fuerzas del Eje",
+      "valor": "148.ª División de Infantería alemana, con elementos de la 90.ª División Panzergrenadier; 1.ª División Bersaglieri \"Italia\" y 4.ª División Alpini \"Monterosa\", de la Italia fascista"
+    },
+    {
+      "item": "Mando brasileño",
+      "valor": "general Mascarenhas de Moraes (división); coronel Nelson de Melo (6.º RI), que dio el ultimátum y ordenó el ataque"
+    },
+    {
+      "item": "Mando alemán",
+      "valor": "Generalleutnant Otto Fretter-Pico (148.ª D.I.); mayor W. Kuhn, jefe del estado mayor, que condujo la negociación"
+    },
+    {
+      "item": "Terreno",
+      "valor": "el valle del río Taro, corredor entre sierras con la carretera en el fondo, que baja de los Apeninos a la llanura del Po; Collecchio está en la salida norte, al suroeste de Parma"
+    },
+    {
+      "item": "Objetivo",
+      "valor": "cerrar la ruta de escape de la 148.ª hacia el norte, en lugar de tomar posiciones una por una"
+    },
+    {
+      "item": "Duración",
+      "valor": "26 al 29 de abril de 1945; la recolección de prisioneros se extiende hasta las 18:00 del 30 de abril"
+    },
+    {
+      "item": "Bajas brasileñas",
+      "valor": "hubo muertos brasileños; no hay una cifra cerrada y confiable para el conjunto de la batalla"
+    },
+    {
+      "item": "Bajas alemanas",
+      "valor": "no registradas en las fuentes consultadas"
+    },
+    {
+      "item": "Prisioneros",
+      "valor": "14.779, conteo formal de la rendición (DGP del Ejército, Blog del Ejército, Forças Terrestres, Wikipedia en portugués)",
+      "nota": "Variantes: 14.777 (Jornalismo de Guerra), \"unos 15 mil\" (nota del Blog del Ejército), rango de 14.700 a 15.500 (Wikipedia en inglés)."
+    },
+    {
+      "item": "Material capturado",
+      "valor": "4.000 caballos, 80 cañones, mucha munición y cientos de vehículos de tracción animal; vehículos: 1.500 o 2.500, según la fuente",
+      "nota": "El Blog del Ejército y las dos Wikipedias dicen 1.500 vehículos; DefesaNet, Forças Terrestres y el DGP dicen 2.500. Ninguna fuente explica la diferencia."
+    },
+    {
+      "item": "Resultado",
+      "valor": "rendición incondicional de la 148.ª División, con su mando: la única división alemana capturada entera por una fuerza aliada en la Campaña de Italia"
+    },
+    {
+      "item": "Lo que vino después",
+      "valor": "el 30 de abril, a las 18:00, Fretter-Pico se presenta con 31 oficiales de estado mayor; Fornovo es la última batalla de la FEB en la guerra"
+    }
+  ],
+  "lances": [
+    {
+      "titulo": "El tablero: un embudo con la salida al norte",
+      "paragrafos": [
+        "En abril de 1945 el frente alemán en Italia cede, y las divisiones que estaban en los Apeninos tienen que bajar a la llanura del Po y seguir hacia el norte antes de que corten las carreteras. En la región de Parma, quien baja de la montaña tiene pocas salidas, y el valle del río Taro es una de ellas.",
+        "El valle es un corredor entre sierras, con la carretera en el fondo. Es bueno para avanzar deprisa y pésimo para ser sorprendido: quien está dentro no tiene hacia dónde desviarse. En la boca norte del corredor, ya en la llanura y al suroeste de Parma, está Collecchio.",
+        "Ese es el dato que decide el episodio antes de cualquier disparo. En un embudo, quien controla la salida no necesita atacar a nadie. Le basta con estar allí primero y dejar claro que se va a quedar.",
+        "Por eso la batalla tiene dos nombres. Suele recordarse como Fornovo, donde la columna alemana terminó acorralada, pero el nombre más preciso es Collecchio–Fornovo: Collecchio es donde se cierra el cerco, y Fornovo, río arriba, es donde la pieza cercada queda inmóvil sin tener adónde ir."
+      ]
+    },
+    {
+      "titulo": "Las piezas: una columna que no maniobra",
+      "paragrafos": [
+        "Dentro del embudo viene la 148.ª División de Infantería alemana, del Generalleutnant Otto Fretter-Pico, con elementos de la 90.ª División Panzergrenadier y dos divisiones de la Italia fascista, la Bersaglieri \"Italia\" y la Alpini \"Monterosa\". El inventario del final dice lo que era esa columna: 4.000 caballos, 80 cañones de diversos calibres y cientos de vehículos de tracción animal.",
+        "Una fuerza así, en una carretera de valle, es larga y lenta. No sale de la carretera, no cambia de dirección con facilidad. Avanza o se detiene. Desde el punto de vista del tablero, es una pieza poderosa con poquísimas jugadas disponibles.",
+        "Del otro lado viene la 1.ª División de Infantería Expedicionaria, del general Mascarenhas de Moraes, bajando en persecución. El Escuadrón de Reconocimiento del capitán Pitaluga abre el contacto; detrás vienen los regimientos de infantería, y quien carga con el peso de los cuatro días siguientes es el 6.º Regimiento de Infantería, el Regimiento Ipiranga, del coronel Nelson de Melo. El 11.º y el 1.º Regimientos también entran."
+      ]
+    },
+    {
+      "titulo": "26 de abril: sentarse en la casilla de salida",
+      "paragrafos": [
+        "El 26 de abril, después de dos días de marcha y combate, la FEB llega a Collecchio y encuentra allí a la 148.ª en posición. Ya ese primer día hay choque de tropas entre el 6.º RI y los alemanes.",
+        "La jugada es esta: los brasileños no van a buscar la columna para destruirla; se ponen delante de ella y ocupan la salida. Con blindados estadounidenses en apoyo, la columna pasa a tener sierra a los dos lados y brasileños en la única puerta que importaba.",
+        "Lo que exige esa jugada no es fuerza, es velocidad y dirección. La FEB tenía que llegar a la salida antes que la cabeza de la columna y tener allí infantería suficiente para que pasarle por encima costara caro. Una vez instalada, cada hora jugaba a favor de quien estaba en la puerta: la columna dentro del valle gastaba tiempo, y el frente alemán detrás de ella seguía retrocediendo.",
+        "La pieza que captura, aquí, no es la que da el golpe. Es la que ocupa la casilla adonde el adversario necesitaba ir."
+      ]
+    },
+    {
+      "titulo": "27 y 28 de abril: el sacerdote, la pregunta y el reloj",
+      "paragrafos": [
+        "Hacia las 15:00 del 27 de abril, el comandante del 6.º RI no manda atacar: manda un mensaje. El emisario es el sacerdote don Alessandro Cavalli, que cruza las líneas proponiendo la rendición. A las 20:30 vuelve con la respuesta del mando alemán, que no rechaza. Pide las condiciones.",
+        "Un mando que pregunta las condiciones ya leyó la posición. A las 9:00 del día 28 el sacerdote cruza de nuevo, ahora con el ultimátum formal del coronel Nelson de Melo y un plazo de dos horas. Antes del mediodía llega la respuesta por medio del mayor W. Kuhn, jefe del estado mayor alemán: esperan instrucciones.",
+        "No es sí ni no. Es tiempo. Fretter-Pico había pedido plazo, había ganado plazo, y usaba el plazo para esperar órdenes que no llegaban, mientras el frente alemán entero se derrumbaba detrás de él. En ajedrez, es el jugador que deja correr el reloj en una posición que solo empeora."
+      ]
+    },
+    {
+      "titulo": "13:00 del 28 de abril: el ataque que prueba el cerco",
+      "paragrafos": [
+        "El ultimátum venció sin respuesta, y a las 13:00 el comandante brasileño ordena atacar. Era lo único que mantenía en pie el ultimátum: un cerco solo funciona si quien está dentro cree en él, y un plazo que vence sin consecuencias convierte el cerco en un farol.",
+        "El ataque no tenía como objetivo tomar Fornovo. Tenía como objetivo mostrar que la salida estaba cerrada de verdad. Las fuentes describen el combate de ese día como encarnizado, y en él murieron brasileños.",
+        "A partir de ahí la cuenta del lado alemán cambia de naturaleza. Ya no se trata de cómo escapar, sino de cuánto cuesta seguir intentándolo.",
+        "Vale la pena mirar la secuencia completa, porque es ella la que responde a quien dice que no hubo batalla: propuesta a las 15:00 del día 27, pedido de condiciones a las 20:30, ultimátum a las 9:00 del día 28, respuesta evasiva antes del mediodía, ataque a las 13:00. Nueve horas después del ataque, el mismo mayor que pedía instrucciones vuelve pidiendo negociar. Lo que cambió entre una visita y otra fue el ataque."
+      ]
+    },
+    {
+      "titulo": "De la madrugada al día 30: la rendición",
+      "paragrafos": [
+        "A las 22:00 de ese mismo día 28, el mayor Kuhn reaparece, ahora para negociar la rendición. La negociación atraviesa la madrugada, de la medianoche a las 5:30 del 29 de abril. Al mediodía hay una nueva reunión, con el general Mascarenhas de Moraes presente, y hacia las 13:00 empieza la rendición, con ambulancias retirando a los heridos alemanes.",
+        "La rendición es incondicional. La recolección de los prisioneros lleva más de un día y solo termina a las 18:00 del 30 de abril, cuando Fretter-Pico se presenta con 31 oficiales de su estado mayor.",
+        "El conteo final registra 14.779 prisioneros, 4.000 caballos y 80 cañones, además de mucha munición y cientos de vehículos de tracción animal. No es una unidad que se deshace a pedazos: es una división entregada de una vez, con su mando.",
+        "El tamaño de la hazaña está en su alcance, y hay que decirlo con precisión. Desde la invasión de Sicilia, en julio de 1943, hasta la ofensiva de la primavera de 1945, la 148.ª es la única división alemana capturada entera, con su mando, por una fuerza aliada en la Campaña de Italia. En la guerra en su conjunto, el superlativo no se sostiene; en el teatro italiano, sí."
+      ]
+    }
+  ],
+  "veredito": [
+    "Salió bien porque la FEB jugó la casilla, no la pieza. Desde la invasión de Sicilia, en julio de 1943, hasta la ofensiva de la primavera de 1945, divisiones alemanas fueron duramente golpeadas en Italia, pero todas lograron retroceder hacia el norte sin rendirse. En Fornovo la diferencia no fue el daño causado; fue que los brasileños ocuparon la casilla de la fuga antes de que la columna llegara a ella.",
+    "El error del otro lado fue de lectura del tiempo. Fretter-Pico entendió la posición en la noche del 27, cuando pidió las condiciones, y aun así trató el plazo como un recurso. A las 22:00 del día 28, cuando Kuhn volvió para negociar, la posición era peor que a las 9:00 de la mañana, porque en medio había habido un ataque que probaba que la puerta estaba cerrada.",
+    "Es la diferencia entre lastimar una pieza y capturarla. No hubo jaque mate por asalto: hubo la posición en la que el adversario deja de tener jugadas, mira el tablero y tumba el rey."
+  ],
+  "mitos": [
+    {
+      "circula": "No hubo batalla en Fornovo: los alemanes ya estaban acabados y se entregaron solos, en un simple encuentro de tropas.",
+      "registro": "La versión viene de los derrotados. Lotar Mull, ex oficial alemán, declaró que no hubo batalla de Fornovo, solo un encuentro de tropas, y la hija de Fretter-Pico contó que su padre llamaba al episodio \"aquello\" (traducción nuestra) y le hacía gracia la celebración brasileña (relatos reunidos por Jornalismo de Guerra). El registro muestra cuatro días de operación, choque de tropas en Collecchio el 26 de abril, un ultimátum ignorado, un ataque ordenado a las 13:00 del 28 de abril, muertos brasileños y una rendición incondicional de 14.779 hombres. Una división demasiado acabada para luchar no necesita plazo, ni sacerdote emisario, ni una madrugada de negociación."
+    },
+    {
+      "circula": "Unos 20 mil alemanes se rindieron a la FEB en Fornovo.",
+      "registro": "Son tres cifras distintas que miden tres cosas distintas. El conteo formal de la rendición en Collecchio–Fornovo es 14.779. Los \"unos 20 mil\" que aparecen en parte de la prensa describen a los hombres enviados a las áreas de concentración de Ponte Scodogna. Y los 20.573 citados en algunos artículos son el total de prisioneros hechos por la FEB en la campaña entera, no en Fornovo."
+    },
+    {
+      "circula": "Fue la única división alemana capturada entera en toda la Segunda Guerra Mundial.",
+      "registro": "El superlativo tiene un alcance, y el alcance es la Campaña de Italia: la 148.ª fue la única división alemana capturada entera, con su mando, por una fuerza aliada en ese teatro, desde Sicilia en 1943 hasta la ofensiva final de 1945. Extenderlo a la guerra entera es afirmar lo que las fuentes no dicen."
+    }
+  ],
+  "perguntas": [
+    {"p": "¿Qué pasó en Fornovo di Taro en la Segunda Guerra Mundial?", "r": "Entre el 26 y el 29 de abril de 1945, la FEB ocupó la salida del valle del Taro y acorraló a la columna de la 148.ª División de Infantería alemana. Después de un ultimátum, un ataque y una madrugada de negociación, la división se rindió incondicionalmente, con el general y el estado mayor."},
+    {"p": "¿Cuántos alemanes se rindieron a la FEB en Fornovo di Taro?", "r": "El conteo formal de la rendición registra 14.779 prisioneros, además de 4.000 caballos y 80 cañones. La cifra de unos 20 mil que circula describe a los hombres llevados a las áreas de concentración de Ponte Scodogna, y los 20.573 son el total de prisioneros de la FEB en la campaña entera."},
+    {"p": "¿Cuándo fue la rendición de Fornovo di Taro?", "r": "La rendición empezó hacia las 13:00 del 29 de abril de 1945, después de una negociación que fue de la medianoche a las 5:30. La recolección de los prisioneros solo terminó a las 18:00 del 30 de abril, cuando Fretter-Pico se presentó con 31 oficiales del estado mayor."},
+    {"p": "¿Quién comandó la FEB en Fornovo di Taro?", "r": "La división era del general Mascarenhas de Moraes; el coronel Nelson de Melo, del 6.º Regimiento de Infantería, dio el ultimátum y ordenó el ataque. Del lado alemán, la 148.ª División era del Generalleutnant Otto Fretter-Pico, y quien negoció fue el mayor W. Kuhn."},
+    {"p": "¿Hubo realmente una batalla en Fornovo di Taro?", "r": "Sí. La versión de que no hubo batalla viene de los derrotados; el registro muestra choque de tropas en Collecchio el 26 de abril, un ultimátum ignorado, un ataque a las 13:00 del 28 de abril y muertos brasileños antes de la rendición."}
+  ],
+  "fontes": [
+    {
+      "texto": "Departamento-Geral do Pessoal do Exército Brasileiro, \"29 de abril — Conquista de Fornovo e rendição da 148ª Divisão de Infantaria Alemã\""
+    },
+    {
+      "texto": "Blog del Ejército Brasileño, \"80 anos da rendição da 148ª Divisão de Infantaria Alemã\""
+    },
+    {
+      "texto": "Blog del Ejército Brasileño, \"Vitória da FEB em Fornovo — 28 Abr 1945\""
+    },
+    {
+      "texto": "Forças Terrestres, \"Há 73 anos, a 148ª Divisão de Infantaria Alemã se rendia à FEB\""
+    },
+    {
+      "texto": "DefesaNet, \"Rendição da 148ª Divisão de Infantaria alemã à FEB\""
+    },
+    {
+      "texto": "Jornalismo de Guerra, \"FEB: em Fornovo, rendição era incondicional, mas vencidos fizeram pouco caso anos depois\""
+    },
+    {
+      "texto": "Wikipedia en portugués, \"Batalha de Fornovo di Taro\""
+    },
+    {
+      "texto": "Wikipedia en inglés, \"Battle of Collecchio\""
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "03-fornovo-capa.jpg",
+      "alt": "Carta militar topográfica de 1944 con el río Taro en un amplio lecho trenzado, la ciudad de Fornovo di Taro y la carretera nacional 62 siguiendo el valle.",
+      "legenda": "Fornovo di Taro y el valle del Taro en la carta Italy 1:50.000 del Army Map Service, hoja 73-III Salsomaggiore, de 1944. La carretera nacional 62 corre por el fondo del valle, rumbo a la llanura del Po.",
+      "autor": "Army Map Service, U.S. Army (Italy 1:50.000, serie 4229, hoja 73-III Salsomaggiore)"
+    },
+    {
+      "arquivo": "03-fornovo-collecchio-carta.jpg",
+      "alt": "Carta militar topográfica de 1944 de la llanura al suroeste de Parma, con Collecchio en la esquina inferior izquierda y la ciudad de Parma arriba a la derecha.",
+      "legenda": "Collecchio, en la salida del valle, y Parma en la carta Italy 1:50.000 del Army Map Service, hoja 73-II Parma, de 1944. Fue en Collecchio donde la FEB se plantó delante de la columna alemana.",
+      "autor": "Army Map Service, U.S. Army (Italy 1:50.000, serie 4229, hoja 73-II Parma)"
+    },
+    {
+      "arquivo": "03-fornovo-vale-do-taro.jpg",
+      "alt": "Vista panorámica de un valle estrecho entre sierras arboladas, con el río Taro corriendo al fondo.",
+      "legenda": "El valle del Taro visto desde Pietramogolana, en Berceto, aguas arriba de Fornovo. Foto de 2022: la vegetación y las construcciones son de hoy, pero el corredor entre las sierras es el mismo.",
+      "autor": "Parma1983"
+    },
+    {
+      "arquivo": "03-fornovo-coluna-a-cavalo.jpg",
+      "alt": "Yuntas de caballos tirando de carretas cubiertas por una carretera de noche, con soldados al fondo.",
+      "legenda": "Yuntas de caballos y carretas alemanas en una carretera italiana, de noche, en 1944. No es la 148.ª ni el valle del Taro: es el tipo de columna, tirada por caballos, que no sale de la carretera y no maniobra.",
+      "autor": "Bundesarchiv, Bild 101I-315-1111-11 / Lüthge"
+    },
+    {
+      "arquivo": "03-fornovo-prisioneiros.jpg",
+      "alt": "Prisioneros alemanes bajan a pie por un camino de tierra escoltados por un soldado estadounidense, con blindados estacionados junto a una casa de piedra.",
+      "legenda": "Prisioneros alemanes llevados a la retaguardia del 5.º Ejército en Campidello, Italia, el 15 de abril de 1945, dos semanas antes de Fornovo. No son prisioneros de la FEB: la foto muestra la misma ofensiva final, en otro sector.",
+      "autor": "U.S. Army Signal Corps (SC 205360)"
+    },
+    {
+      "arquivo": "03-fornovo-mascarenhas.jpg",
+      "alt": "Retrato de perfil de un oficial con anteojos y gorra, con el distintivo de la cobra fumando en el hombro.",
+      "legenda": "El general Mascarenhas de Moraes, comandante de la 1.ª División de Infantería Expedicionaria, en Montese. Estuvo presente en la reunión del 29 de abril que abrió la rendición de la 148.ª.",
+      "autor": "autor desconocido"
+    }
+  ]
+}

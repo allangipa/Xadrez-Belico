@@ -1,0 +1,274 @@
+{
+  "num": "17",
+  "slug": "ardenas",
+  "batalha": "Ardenas",
+  "nome_busca": "Batalla de las Ardenas",
+  "titulo_video": null,
+  "lugar": "Ardenas, Bélgica y Luxemburgo — desde Monschau y la cresta de Elsenborn, en el norte, hasta Echternach, en el sur, y hasta Celles, cerca de Dinant, junto al río Mosa",
+  "data": "16 de diciembre de 1944 al 25 de enero de 1945",
+  "campanha": "Segunda Guerra Mundial, campaña de 1944–1945",
+  "pergunta": "¿Por qué la misma jugada de 1940, por el mismo bosque, no funcionó en 1944?",
+  "resumo": "Batalla de las Ardenas: Hitler repitió la jugada de 1940 rumbo a Amberes. Por qué St. Vith, Bastogne, el combustible y el cielo lo frenaron antes del Mosa.",
+  "abertura": [
+    "El 16 de septiembre de 1944, Hitler interrumpió una reunión en su cuartel general para anunciar un contraataque: saliendo de las Ardenas, con el objetivo de Amberes. La meta declarada era otro Dunkerque, y el camino era el mismo de 1940 — el bosque por donde los blindados alemanes habían pasado para partir Francia en dos. El 16 de diciembre, más de 200 mil hombres atacaron a cuatro divisiones estadounidenses dispersas en casi 140 km de frente.",
+    "La ofensiva rompió la línea, cercó Bastogne y llegó a menos de 10 km del Mosa. Y se detuvo ahí. Esta página sigue la partida para responder por qué la jugada que había salido bien una vez no volvió a salir bien — y la respuesta no está solo en el combustible ni solo en el cielo despejado, que son las explicaciones que más circulan."
+  ],
+  "numeros": [
+    {
+      "valor": "200.000+",
+      "rotulo": "alemanes en la primera oleada, contra cuatro divisiones estadounidenses en un frente de 88 millas, unos 142 km",
+      "conf": "2+"
+    },
+    {
+      "valor": "3 días",
+      "rotulo": "llevó el cruce de las Ardenas en 1940, sin resistencia seria, con buen tiempo y caminos secos; el plan de 1944 quería el Mosa en tres o cuatro",
+      "conf": "1"
+    },
+    {
+      "valor": "4 días",
+      "rotulo": "de retraso en St. Vith: el plan alemán preveía la ciudad a las 18 h del 17 de diciembre, y cayó en la noche del 21",
+      "conf": "2+"
+    },
+    {
+      "valor": "23 dic.",
+      "rotulo": "el día en que el cielo se abrió y las columnas alemanas perdieron la protección contra la aviación aliada",
+      "conf": "2+"
+    },
+    {
+      "valor": "< 10 km",
+      "rotulo": "del Mosa, en Foy-Notre-Dame, cerca de Dinant: el punto más occidental, donde la 2.ª División Panzer se quedó sin combustible",
+      "conf": "2+"
+    },
+    {
+      "valor": "80.987",
+      "rotulo": "bajas estadounidenses en las Ardenas: 41.315 en diciembre y 39.672 en enero, según el Centro de Historia Militar del Ejército de EE. UU.",
+      "conf": "2+"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "El plan",
+      "valor": "Unternehmen Wacht am Rhein: romper la línea estadounidense en las Ardenas, cruzar el Mosa entre Lieja y Namur y tomar Amberes, separando a británicos y canadienses de los estadounidenses. Hitler anuncia la idea el 16 de septiembre de 1944",
+      "conf": "2+"
+    },
+    {
+      "item": "Alemania — mando",
+      "valor": "Adolf Hitler; Gerd von Rundstedt (mando del Oeste); Walter Model (Grupo de Ejércitos B); Sepp Dietrich (6.º Ejército Panzer, el esfuerzo principal, en el norte); Hasso von Manteuffel (5.º Ejército Panzer, en el centro); Erich Brandenberger (7.º Ejército, flanco sur)",
+      "conf": "2+"
+    },
+    {
+      "item": "Aliados — mando",
+      "valor": "Dwight Eisenhower; Omar Bradley (12.º Grupo de Ejércitos); Courtney Hodges (1.º Ejército); George S. Patton (3.º Ejército); Troy Middleton (VIII Cuerpo); Bernard Montgomery, al mando al norte de la brecha desde el mediodía del 20 de diciembre",
+      "conf": "2+"
+    },
+    {
+      "item": "Fuerzas al inicio",
+      "valor": "en la primera oleada, más de 200.000 alemanes en 13 divisiones de infantería y 7 blindadas, con casi 1.000 tanques, contra cuatro divisiones estadounidenses en un frente de unos 142 km. Contando todos los efectivos del sector, 406.342 alemanes y 228.741 aliados",
+      "conf": "DIV",
+      "nota": "La primera cifra es del folleto de campaña del Centro de Historia Militar del Ejército de EE. UU.; la segunda, del estudio de Dupuy, Bongard y Anderson (1994). Miden cosas distintas: la punta de lanza y el total del sector."
+    },
+    {
+      "item": "Unidades en los puntos clave",
+      "valor": "99.ª y 2.ª Divisiones de Infantería en la cresta de Elsenborn; 7.ª División Blindada, CCB de la 9.ª Blindada y restos de la 106.ª y la 28.ª en St. Vith; 101.ª Aerotransportada y CCB de la 10.ª Blindada en Bastogne; 4.ª Blindada, 26.ª y 80.ª de Infantería en el contraataque de Patton; 2.ª Blindada en Celles",
+      "conf": "2+"
+    },
+    {
+      "item": "Terreno",
+      "valor": "diez caminos aptos para cualquier clima entre Monschau y Wasserbillig, ninguna carretera principal que atravesara el bosque de este a oeste; cruces decisivos en St. Vith, Malmedy, Bastogne y Houffalize; los ríos Our, Salm, Amblève y Ourthe, y el Mosa, ancho y con escarpa en la orilla este",
+      "conf": "2+"
+    },
+    {
+      "item": "Objetivo y plazo",
+      "valor": "el Mosa en tres o cuatro días, según la fuente; después, unas 60 millas hasta Amberes",
+      "conf": "DIV",
+      "nota": "La Wikipedia en inglés da el Mosa al tercer día y Amberes al cuarto; el folleto del Centro de Historia Militar pone a los panzer en el Mosa cuatro días después del inicio."
+    },
+    {
+      "item": "Combustible",
+      "valor": "4.680.000 galones entregados hasta el 16 de diciembre, quizá la mitad todavía en depósitos a orillas del Rin; en los vehículos, lo suficiente para 90 a 100 millas de marcha normal. El plan contaba con capturar combustible estadounidense",
+      "conf": "1",
+      "nota": "Hugh M. Cole, historia oficial del Ejército de EE. UU. (1965)."
+    },
+    {
+      "item": "Duración",
+      "valor": "del 16 de diciembre de 1944 al 25 de enero de 1945; la ofensiva propiamente alemana se agota ante el Mosa entre el 24 y el 26 de diciembre",
+      "conf": "2+"
+    },
+    {
+      "item": "Bajas estadounidenses",
+      "valor": "80.987 en las Ardenas, sumando 41.315 en diciembre y 39.672 en enero. Los muertos van de unos 8.400 a más de 19.000, según el período y la base del cálculo",
+      "conf": "DIV",
+      "nota": "Total del folleto del Centro de Historia Militar; la Wikipedia da unas 81.000. La diferencia en los muertos viene de contar solo las Ardenas o toda la campaña Ardenas-Alsacia."
+    },
+    {
+      "item": "Bajas alemanas",
+      "valor": "no hay cifra oficial alemana; las estimaciones van de unas 63.000 a 104.000, y una fuente académica alemana citada por el Ejército de EE. UU. da 67.200",
+      "conf": "DIV"
+    },
+    {
+      "item": "Británicos y civiles",
+      "valor": "el XXX Cuerpo británico pierde 1.408 hombres según el mando aliado en febrero de 1945; mueren unos 3.000 civiles",
+      "conf": "2+"
+    },
+    {
+      "item": "Resultado",
+      "valor": "derrota alemana: ningún puente del Mosa tomado, la línea original restablecida en enero. Los alemanes retiran buena parte de la fuerza de asalto, pero con quizá un tercio del blindaje empeñado",
+      "conf": "2+"
+    },
+    {
+      "item": "Lo que vino después",
+      "valor": "el 1.º de enero la Luftwaffe lanza la Operación Bodenplatte contra los aeródromos aliados y pierde más de 230 pilotos; el 16 de enero el 1.º y el 3.º Ejércitos estadounidenses se encuentran en Houffalize. Fue la última gran ofensiva alemana en Occidente",
+      "conf": "2+"
+    }
+  ],
+  "lances": [
+    {
+      "titulo": "La jugada de 1940, copiada a propósito",
+      "paragrafos": [
+        "En septiembre de 1944 Alemania retrocedía en los dos frentes. Hitler eligió el lugar donde había vencido cuatro años antes: las Ardenas, el bosque entre Bélgica y Luxemburgo por donde los blindados alemanes habían pasado en mayo de 1940. El historiador oficial del Ejército estadounidense, Hugh M. Cole, registra que las propuestas de Hitler aquel otoño tenían más que un parecido casual con las de antes de la ofensiva de 1940, y que él creía poder repetir el resultado. La meta declarada era otro Dunkerque.",
+        "El blanco era Amberes, el gran puerto aliado, que recién había recibido el primer convoy el 28 de noviembre. Tomarlo cortaría a británicos y canadienses, al norte, de los estadounidenses, al sur. Los dos mariscales encargados de ejecutar el plan consideraban el objetivo demasiado grande. Walter Model lo resumió, según Cole: el plan no tenía una pierna donde apoyarse. Él y Rundstedt preferían una solución menor, un cerco al este del Mosa. Hitler mantuvo Amberes.",
+        "El plan pedía tres cosas que en 1940 habían venido gratis: romper la línea el primer día, llegar al Mosa en tres o cuatro, y hacerlo con mal tiempo, que sustituiría a la fuerza aérea que Alemania ya no tenía. Cole registra que los planificadores contaban con hasta diez días de cielo cubierto."
+      ]
+    },
+    {
+      "titulo": "El mismo tablero, otras piezas",
+      "paragrafos": [
+        "El folleto de campaña del Centro de Historia Militar del Ejército de EE. UU. compara los dos cruces con frialdad. Las ofensivas anteriores por las Ardenas habían seguido las grandes rutas, con buen tiempo, contra cortinas ligeras, fáciles de apartar. En 1940, el blindaje alemán, poco disputado, necesitó tres días para cruzar el terreno más fácil del sur del bosque, con caminos secos. Cole llama a aquel cruce poco más que una marcha por carretera.",
+        "En 1944 el terreno era el mismo y las piezas no. Había diez caminos aptos para cualquier clima que cruzaban la frontera entre Monschau y Wasserbillig y ninguna carretera principal que atravesara el bosque de este a oeste. El tránsito pasaba por pocos cruces: St. Vith y Malmedy en el norte, Bastogne y Houffalize en el sur. Y en cada uno de ellos había, o pronto habría, tropas estadounidenses.",
+        "El mismo folleto escribe la frase que resume la partida: si los estadounidenses peleaban mucho y bien, el mismo terreno que garantizaba la sorpresa se volvería una trampa. En un tablero de pocas casillas de paso, cada cruce sostenido detenía una columna entera detrás de él."
+      ]
+    },
+    {
+      "titulo": "16 al 18 de diciembre: el hombro norte no cede",
+      "paragrafos": [
+        "El 16 de diciembre más de 200 mil alemanes, en 13 divisiones de infantería y 7 blindadas, atacaron un sector que el 1.º Ejército estadounidense sostenía con cuatro divisiones en unos 142 km. La sorpresa fue real: el tiempo había ocultado la concentración, y el descifrado aliado de mensajes alemanes había dado indicios, pero ninguna declaración definitiva de las intenciones de Hitler.",
+        "El esfuerzo principal era el 6.º Ejército Panzer de Sepp Dietrich, en el norte, con la ruta más corta hacia Amberes. Necesitaba la cresta de Elsenborn, que controlaba el acceso a dos de sus caminos de avance. La 99.ª División, novata, y la 2.ª, veterana, sostuvieron la cresta con refuerzos de la 1.ª y la 9.ª. Fue el único sector estadounidense atacado en el que los alemanes no avanzaron. La jugada más fuerte del plan se trabó en los primeros días.",
+        "En el centro, el 5.º Ejército Panzer de Manteuffel tuvo más éxito: dos regimientos de la 106.ª División quedaron cercados en el Schnee Eifel y se rindieron el 19 de diciembre. Pero el 110.º Regimiento, frente a Bastogne, perdió más del 80% de sus hombres y retrasó al cuerpo blindado alemán 48 horas. Y Eisenhower actuó rápido: envió dos divisiones blindadas a la brecha el primer día y la reserva del teatro el segundo. Danny Parker escribe que el 18 de diciembre Rundstedt ya daba la ofensiva por fracasada."
+      ]
+    },
+    {
+      "titulo": "St. Vith y Bastogne: las casillas que nadie puede rodear",
+      "paragrafos": [
+        "El plan alemán preveía tomar St. Vith a las 18 h del 17 de diciembre. La 7.ª División Blindada, con el CCB de la 9.ª Blindada y restos de la 106.ª y la 28.ª, sostuvo la ciudad hasta la noche del 21 — cuatro días más de lo previsto. Montgomery autorizó la retirada diciendo que volvían con plena honra, y el 23 de diciembre los defensores cruzaron el Salm. El folleto del Ejército estadounidense dice que la defensa compró cinco días críticos; Manteuffel admitió después de la guerra que desarregló el calendario de los dos ejércitos panzer.",
+        "Bastogne era el otro nudo. La 101.ª Aerotransportada llegó en la mañana del 19 de diciembre, con el CCB de la 10.ª Blindada. El 21 fue cortado el último camino y la ciudad quedó cercada. Al mediodía del 22 llegó el ultimátum alemán, y el general Anthony McAuliffe respondió con una palabra: Nuts!",
+        "La 2.ª División Panzer rodeó la ciudad y siguió hacia el Mosa. Pero una ciudad cercada que no cae sigue siendo dueña de sus caminos, y el 5.º Ejército Panzer tuvo que desviar blindados hacia ella en lugar de mandarlos al frente. Es el mismo principio de St. Vith: en el tablero de las Ardenas, quien sostenía el cruce sostenía el flujo del adversario."
+      ]
+    },
+    {
+      "titulo": "El combustible se acabó donde se acabó el camino",
+      "paragrafos": [
+        "La explicación que más circula es la falta de gasolina, y tiene hechos a su favor. Según Cole, los alemanes habían entregado 4.680.000 galones hasta el 16 de diciembre, pero quizá la mitad seguía a orillas del Rin; en los vehículos había lo suficiente para 90 a 100 millas. El plan contaba con capturar combustible estadounidense.",
+        "La punta de lanza del norte, la columna de Joachim Peiper, repostó con combustible estadounidense en Büllingen el segundo día, pero no alcanzó los grandes depósitos al norte de Stavelot y Malmedy, con más de dos millones de galones. Un mayor estadounidense quemó 124 mil galones en una zanja para cerrar el camino. Volaron puentes frente a la columna, y en la noche del 23 al 24 de diciembre Peiper salió de La Gleize a pie, con unos 800 hombres, dejando atrás 28 tanques, 70 semiorugas y 25 cañones.",
+        "En el centro, la 2.ª División Panzer llegó a Foy-Notre-Dame, a cuatro o cinco millas de los puentes de Dinant, y ahí se secó. Model informó que había mandado a la vanguardia seguir a pie hasta el Mosa. Entre el 25 y el 26 de diciembre la 2.ª División Blindada estadounidense destruyó la punta alemana cerca de Celles.",
+        "Pero el propio Cole concluye que el problema alemán fue de transporte, y no de falta general de combustible: la gasolina existía, y no llegaba al frente por caminos negados y bombardeados. Danny Parker discrepa en el peso: con las existencias del inicio, los alemanes quizá habrían llegado al Mosa, pero ciertamente no lo habrían cruzado, y Amberes era imposible. Las dos lecturas coinciden en lo que importa para el tablero: el combustible en el frente no alcanzaba, y el resto dependía de caminos que los estadounidenses no entregaron."
+      ]
+    },
+    {
+      "titulo": "El giro de Patton y el fin de las nubes",
+      "paragrafos": [
+        "El 19 de diciembre, en Verdún, Eisenhower abrió la reunión diciendo que la situación debía verse como una oportunidad, y no como un desastre. El 3.º Ejército de Patton, que se preparaba para atacar hacia el este, giraría hacia el norte. Carlo D'Este registra que Patton ofreció atacar en la mañana del 21, con tres divisiones, y Eisenhower fijó el 22. El III Cuerpo — 4.ª Blindada, 26.ª y 80.ª de Infantería — atacó a las 6 h del 22 de diciembre. Al norte de la brecha, Montgomery mandaba desde el mediodía del 20.",
+        "El giro fue rápido, pero no fue un paseo: el ataque partió a 12 o 15 millas al sur de Bastogne, sin sorpresa, y se volvió un asalto frontal contra infantería en buen terreno. La 4.ª Blindada recién abrió paso por Assenois al final de la tarde del 26 de diciembre.",
+        "Bastogne resistió hasta entonces porque el cielo se había abierto. El 23 de diciembre vientos fríos y secos del este, en palabras de Cole, quitaron a los ejércitos alemanes la inmunidad al ataque aéreo. La semana de mal tiempo prometida a Hitler había terminado. Empezaron los lanzamientos de suministros sobre Bastogne, y la aviación aliada pasó a volar un promedio de 3.000 salidas diarias con buen tiempo. Pero el cielo despejado encontró un calendario que ya estaba roto: el Mosa, previsto para el tercer o cuarto día, nunca fue alcanzado."
+      ]
+    }
+  ],
+  "veredito": [
+    "La jugada de 1944 era la misma de 1940, y fracasó porque el tablero no lo era. En 1940 el bosque estaba prácticamente vacío, el tiempo era bueno y el adversario miraba hacia otro lado; aun así, el cruce llevó tres días. En 1944 había estadounidenses en los dos hombros de la brecha y en los cruces, y cada cruce sostenido — Elsenborn, St. Vith, Bastogne — detenía una columna entera en un terreno de pocos caminos.",
+    "El combustible se acabó, pero se acabó donde el camino fue negado y donde los depósitos estadounidenses no cayeron. El cielo se abrió el 23 de diciembre, pero se abrió sobre columnas que ya iban atrasadas. Y el adversario reaccionó en días: dos divisiones blindadas el primero, la reserva el segundo, el 3.º Ejército girado hacia el norte el séptimo.",
+    "En términos de ajedrez, es repetir una apertura que funcionó contra un jugador distraído frente a uno que ahora defiende las casillas centrales. La jugada es la misma; la posición, no. Y el objetivo estaba demasiado lejos para alcanzarlo aunque saliera bien — los propios mariscales que ejecutaron el plan lo dijeron antes de que empezara."
+  ],
+  "mitos": [
+    {
+      "circula": "Los alemanes perdieron porque se quedaron sin gasolina.",
+      "registro": "Las puntas se secaron — Peiper en La Gleize, la 2.ª División Panzer a pocos kilómetros de Dinant. Pero la historia oficial del Ejército estadounidense concluye que el problema fue de transporte, y no de falta general: la mitad del combustible entregado seguía a orillas del Rin, y los depósitos estadounidenses que el plan contaba con capturar no cayeron. Danny Parker discrepa en el peso: ni en el mejor de los casos los alemanes habrían pasado del Mosa. El combustible se acabó donde los caminos fueron negados."
+    },
+    {
+      "circula": "Patton giró su ejército en 48 horas y salvó Bastogne él solo.",
+      "registro": "La reunión de Verdún fue el 19 de diciembre, y el ataque de tres divisiones partió a las 6 h del 22. Patton ofreció atacar el 21, y Eisenhower fijó el 22. El ataque se volvió un asalto frontal y tardó hasta el final de la tarde del 26 de diciembre en llegar a Bastogne — que resistió hasta entonces porque recibía suministros por aire desde el 23."
+    },
+    {
+      "circula": "El mal tiempo fue lo que les salió bien a los alemanes, y el buen tiempo acabó con ellos.",
+      "registro": "El cielo se abrió el 23 de diciembre. Para entonces el hombro norte se había trabado, St. Vith había costado cuatro días más de lo planeado y el Mosa, previsto para el tercer o cuarto día, no había sido alcanzado. El buen tiempo acabó con la ofensiva; no fue él lo que la retrasó."
+    },
+    {
+      "circula": "Fue la repetición de 1940, y solo faltó suerte.",
+      "registro": "Las propias fuentes oficiales estadounidenses enumeran las diferencias: en 1940 la defensa era una cortina ligera, el tiempo era bueno y los caminos estaban secos, y el cruce llevó tres días. En 1944 había divisiones en los hombros y en los cruces, reservas que llegaban en horas, y un objetivo que Model y Rundstedt consideraban inalcanzable antes de que empezara el ataque."
+    }
+  ],
+  "perguntas": [
+    {"p": "¿Quién ganó la batalla de las Ardenas?", "r": "Ganaron los Aliados. La ofensiva alemana no tomó ningún puente del Mosa, y en enero de 1945 la línea original quedó restablecida. Fue la última gran ofensiva alemana en Occidente."},
+    {"p": "¿Por qué Alemania perdió la batalla de las Ardenas?", "r": "Repitió la jugada de 1940 en un tablero distinto: en un terreno de pocos caminos, los estadounidenses sostuvieron los cruces de Elsenborn, St. Vith y Bastogne, y cada uno detuvo una columna entera. El combustible no llegó al frente, el cielo se abrió el 23 de diciembre y Amberes era un objetivo demasiado lejano."},
+    {"p": "¿Dónde fue la batalla de las Ardenas?", "r": "En el bosque de las Ardenas, en Bélgica y Luxemburgo, desde Monschau y la cresta de Elsenborn, en el norte, hasta Echternach, en el sur. El punto más occidental del avance alemán estuvo cerca de Celles y Dinant, a menos de 10 km del río Mosa."},
+    {"p": "¿Cuántos soldados murieron en la batalla de las Ardenas?", "r": "Los estadounidenses tuvieron 80.987 bajas; los muertos van de unos 8.400 a más de 19.000, según el período y la base del cálculo. No hay cifra oficial alemana, y las estimaciones van de unas 63.000 a 104.000 bajas. Murieron unos 3.000 civiles."},
+    {"p": "¿Cuánto duró la batalla de las Ardenas?", "r": "Del 16 de diciembre de 1944 al 25 de enero de 1945. La ofensiva propiamente alemana se agotó ante el Mosa entre el 24 y el 26 de diciembre; el resto fue la recuperación aliada del terreno perdido."}
+  ],
+  "fontes": [
+    {
+      "texto": "Hugh M. Cole, The Ardennes: Battle of the Bulge, serie U.S. Army in World War II, Office of the Chief of Military History, 1965.",
+      "url": "https://www.ibiblio.org/hyperwar/USA/USA-E-Ardennes/index.html"
+    },
+    {
+      "texto": "Roger Cirillo, Ardennes-Alsace, U.S. Army Center of Military History, CMH Pub 72-26.",
+      "url": "https://history.army.mil/brochures/ardennes/aral.htm"
+    },
+    {
+      "texto": "National Archives, Prologue, invierno de 2014: \"The Bloodiest Battle\".",
+      "url": "https://www.archives.gov/publications/prologue/2014/winter/battle-of-the-bulge-70-years"
+    },
+    {
+      "texto": "Danny S. Parker, Battle of the Bulge: Hitler's Ardennes Offensive, 1944–1945, según la reseña de Robert Citino, HistoryNet, 2006.",
+      "url": "https://historynet.com/battle-of-the-bulge-hitlers-ardennes-offensive-1944-1945-book-review/"
+    },
+    {
+      "texto": "Carlo D'Este, \"Patton's Finest Hour\", MHQ: The Quarterly Journal of Military History, 2001.",
+      "url": "https://historynet.com/pattons-finest-hour/"
+    },
+    {
+      "texto": "The Tank Museum, \"Battle of the Bulge: Hitler's Plan of Attack\".",
+      "url": "https://tankmuseum.org/article/bulge-plan-of-attack/"
+    },
+    {
+      "texto": "Keith Huxen, \"The Battle of the Bulge\", The National WWII Museum, 2019.",
+      "url": "https://www.nationalww2museum.org/war/articles/battle-of-the-bulge"
+    },
+    {
+      "texto": "Battle of the Bulge — Wikipedia en inglés.",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_the_Bulge"
+    },
+    {
+      "texto": "Battle of St. Vith — Wikipedia en inglés.",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_St._Vith"
+    },
+    {
+      "texto": "Battle of Elsenborn Ridge — Wikipedia en inglés.",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Elsenborn_Ridge"
+    }
+  ],
+  "imagens": [
+    {
+      "alt": "Un tanque pesado alemán avanza por un camino embarrado con nieve en los campos, junto a una larga fila de soldados estadounidenses con casco, prisioneros",
+      "legenda": "Un Tiger II pasa junto a soldados de la 99.ª División estadounidense capturados cerca de Honsfeld y Lanzerath, el primer día de la ofensiva, 16 de diciembre de 1944. Foto alemana, de una película capturada por el Ejército de EE. UU.",
+      "autor": "Fotógrafo militar alemán; película capturada por el U.S. Army Signal Corps · NARA 111-SC-198241"
+    },
+    {
+      "alt": "Calle empedrada en Bastogne con camiones militares estacionados a ambos lados, soldados agrupados y una pareja de civiles cargando maletas en medio de la calle",
+      "legenda": "Tropas de la 10.ª División Blindada estadounidense esperan la orden de partir en Bastogne, Bélgica, el 19 de diciembre de 1944, el día en que llega la 101.ª Aerotransportada. En medio de la calle, civiles abandonan la ciudad.",
+      "autor": "T/5 Wesley B. Carolan, 165th Signal Company, U.S. Army · NARA 111-SC-329952"
+    },
+    {
+      "alt": "Fotografía aérea en blanco y negro de una aldea rodeada de campos nevados, con dos columnas de vehículos marcadas a mano en los caminos: 22 vehículos y 11 vehículos",
+      "legenda": "Reconocimiento aéreo estadounidense sobre Mont, en Houffalize, Bélgica, el 26 de diciembre de 1944: dos columnas alemanas, de 22 y 11 vehículos, atrapadas en los caminos. Con el cielo despejado desde el 23 de diciembre, las columnas quedaron a la vista.",
+      "autor": "155th Photo Reconnaissance Squadron, U.S. Army Air Forces · NARA 342-FH-3A05112-56465AC"
+    },
+    {
+      "alt": "Aviones de transporte bimotores vuelan sobre un campo con jeeps y camiones, mientras un paracaídas de carga desciende y soldados con casco miran al cielo",
+      "legenda": "Aviones C-47 lanzan suministros sobre Bastogne, observados por soldados de la 101.ª Aerotransportada, el 26 de diciembre de 1944. Los lanzamientos empezaron el 23 de diciembre, cuando el cielo se abrió.",
+      "autor": "Fotógrafo del U.S. Army Signal Corps"
+    },
+    {
+      "alt": "Carta militar a color de Bastogne con el perímetro estadounidense en azul en el centro, flechas y unidades alemanas en rojo alrededor, y recuadros de texto con el diario de cada día",
+      "legenda": "Situación en Bastogne del 27 al 31 de diciembre de 1944, carta militar estadounidense reproducida en enero de 1945: el perímetro en azul, el corredor abierto por Assenois en el sur y las divisiones alemanas en rojo alrededor de la ciudad.",
+      "autor": "664th Engineer Topographic Company (Corps), U.S. Army"
+    }
+  ]
+}

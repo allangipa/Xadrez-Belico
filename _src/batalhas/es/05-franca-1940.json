@@ -1,0 +1,238 @@
+{
+  "_nota": "Traducción fiel de ../05-franca-1940.json. Los campos fijos vienen del original.",
+  "batalha": "La caída de Francia",
+  "nome_busca": "Batalla de Francia",
+  "titulo_video": null,
+  "lugar": "Francia, Bélgica, Países Bajos y Luxemburgo; el punto de decisión en Sedán, sobre el río Mosa, departamento de las Ardenas, Francia",
+  "data": "10 de mayo al 25 de junio de 1940",
+  "campanha": "Segunda Guerra Mundial, campaña de 1940",
+  "pergunta": "Si en septiembre de 1939 no había una doctrina nueva, ¿qué aplicó exactamente Alemania en Francia en mayo de 1940?",
+  "resumo": "Batalla de Francia: Alemania atacó con menos tanques y poco más de la mitad de la artillería aliada. Ganó un plan, no una doctrina: Sedán es la prueba.",
+  "abertura": [
+    "El 10 de mayo de 1940, cuando Alemania ataca en el oeste, los Aliados tienen 13.974 cañones contra 7.378 alemanes. Solo Francia tiene entre 3.383 y 4.071 tanques; Alemania entra con 2.445. Seis semanas después, Francia está fuera de la guerra.",
+    "La campaña de Polonia mostró que, en 1939, no existía una doctrina llamada Blitzkrieg: el nombre salió de los periódicos. Esta página continúa la pregunta. Si no era una doctrina, ¿qué se aplicó ocho meses después? La respuesta cabe en una distinción: una doctrina se enseña a un ejército entero y sirve para cualquier guerra; un plan sirve para una guerra, contra un enemigo, en un terreno."
+  ],
+  "numeros": [
+    {
+      "valor": "13.974",
+      "rotulo": "cañones aliados el 10 de mayo de 1940, contra 7.378 alemanes"
+    },
+    {
+      "valor": "1.222",
+      "rotulo": "tanques en el Panzergruppe von Kleist — la mitad de los 2.445 alemanes, en un solo eje"
+    },
+    {
+      "valor": "4",
+      "rotulo": "caminos reservados para que el grupo blindado atravesara las Ardenas"
+    },
+    {
+      "valor": "56",
+      "rotulo": "bajas francesas en 8 horas de bombardeo sobre Sedán; ninguna casamata destruida por impacto directo"
+    },
+    {
+      "valor": "07:20",
+      "rotulo": "del 14 de mayo: el primer tanque alemán cruza el Mosa, más de 12 horas después del pánico de Bulson"
+    },
+    {
+      "valor": "1.756.000",
+      "rotulo": "prisioneros aliados al final de la campaña"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Fuerzas el 10 de mayo",
+      "valor": "Alemania: 141 divisiones y 3.300.000 hombres. Aliados: 135 divisiones y 3.300.000 hombres",
+      "nota": "Wikipedia en inglés, Battle of France."
+    },
+    {
+      "item": "Artillería y aviación",
+      "valor": "Alemania: 7.378 cañones y 5.638 aviones. Aliados: 13.974 cañones y menos de 2.935 aviones",
+      "nota": "La única superioridad material alemana clara era la aérea."
+    },
+    {
+      "item": "Tanques",
+      "valor": "Alemania: 2.445. Francia sola: entre 3.383 y 4.071",
+      "nota": "La propia fuente declara la divergencia en el número de tanques franceses."
+    },
+    {
+      "item": "Panzergruppe von Kleist",
+      "valor": "134.000 hombres, 1.222 tanques y 378 vehículos, en cinco divisiones blindadas: XIX Panzerkorps (3 divisiones, eje Sedán), XLI Panzerkorps (2, eje Monthermé) y XV Cuerpo (2, alto Ardenas, guardia de flanco). La Wikipedia en francés, citando a Mary (2009) y Frieser (2003), cuenta 1.250 carros y 350 vehículos blindados de reconocimiento",
+      "nota": "Son conteos con bases distintas; los dos dicen lo mismo: cerca de la mitad de los tanques alemanes en un solo grupo."
+    },
+    {
+      "item": "Comandantes y planificadores",
+      "valor": "Alemania: Erich von Manstein (autor del plan), Franz Halder (jefe del estado mayor), Walther von Brauchitsch (comandante en jefe). Francia: Maurice Gamelin (comandante en jefe), Alphonse Georges"
+    },
+    {
+      "item": "El avance aliado en Bélgica",
+      "valor": "7.º Ejército francés (Giraud), hasta Breda; Fuerza Expedicionaria Británica (Gort), 9 divisiones, sobre el Dyle; 1.er Ejército francés (Blanchard), 10 divisiones, de Wavre a Namur; 9.º Ejército (Corap), al sur de Namur, a lo largo del Mosa",
+      "nota": "Wikipedia en inglés, Dyle Plan."
+    },
+    {
+      "item": "Sedán — defensa francesa",
+      "valor": "55.ª División de Infantería (general Henri Lafontaine), de categoría B, y la 71.ª División, que todavía entraba en línea: 20.000 hombres y 174 piezas de artillería"
+    },
+    {
+      "item": "Sedán — ataque alemán",
+      "valor": "1.ª, 2.ª y 10.ª Divisiones Panzer y el Regimiento Großdeutschland: 60.000 hombres, 41.000 vehículos, 788 tanques y 141 piezas",
+      "nota": "Wikipedia en inglés, Battle of Sedan (1940)."
+    },
+    {
+      "item": "Terreno",
+      "valor": "el bosque de las Ardenas, considerado intransitable para los blindados, con cuatro itinerarios reservados para el grupo de Kleist; después de él, el río Mosa en Sedán, donde las posiciones francesas no estaban cubiertas por la Línea Maginot"
+    },
+    {
+      "item": "Objetivo alemán",
+      "valor": "atravesar las Ardenas, cruzar el Mosa en Sedán, girar hacia el oeste y correr hacia el mar, aislando a los ejércitos aliados que hubieran avanzado hacia el norte, en Bélgica"
+    },
+    {
+      "item": "Duración",
+      "valor": "del 10 de mayo al 25 de junio de 1940; el armisticio se firma el 22 de junio, en Compiègne. Cerca de seis semanas"
+    },
+    {
+      "item": "Bajas — Alemania",
+      "valor": "27.074 muertos, 111.034 heridos y 18.384 desaparecidos; entre 795 y 822 tanques perdidos",
+      "nota": "Las fuentes divergen en el número de tanques perdidos."
+    },
+    {
+      "item": "Bajas — Aliados",
+      "valor": "73.000 muertos, 240.000 heridos y 15.000 desaparecidos; 1.749 tanques franceses y 689 británicos perdidos"
+    },
+    {
+      "item": "Prisioneros",
+      "valor": "1.756.000 aliados",
+      "nota": "Wikipedia en inglés, Battle of France."
+    },
+    {
+      "item": "Resultado",
+      "valor": "victoria alemana completa; Francia firma el armisticio el 22 de junio de 1940"
+    },
+    {
+      "item": "Lo que vino después",
+      "valor": "la punta blindada alemana llega al Canal de la Mancha y cierra el cerco sobre los ejércitos que habían entrado en Bélgica; frente a Dunkerque llega una orden de detenerse, y más de 300.000 hombres salen por mar"
+    }
+  ],
+  "lances": [
+    {
+      "titulo": "El tablero: el bando que perdió tenía más piezas",
+      "paragrafos": [
+        "El 10 de mayo de 1940 Alemania tenía 141 divisiones; los Aliados, 135. Hombres, 3.300.000 de cada lado. Hasta aquí, tablas. Los números siguientes no son de tablas: los Aliados tenían 13.974 cañones contra 7.378 alemanes — casi el doble — y solo Francia tenía entre 3.383 y 4.071 tanques, contra 2.445 de toda Alemania.",
+        "La única ventaja material clara de los alemanes estaba en el aire: 5.638 aviones contra menos de 2.935. La campaña que pondría fin a la participación francesa en la guerra en seis semanas la ganó un ejército con menos tanques y con poco más de la mitad de la artillería del adversario. Si la respuesta no está en el material, está en otro lugar del tablero."
+      ]
+    },
+    {
+      "titulo": "La apertura rechazada: el plan de 1914, un avión y un general apartado",
+      "paragrafos": [
+        "La primera directiva para el oeste, la Aufmarschanweisung N°1 (Fall Gelb), la diseñó Franz Halder, jefe del estado mayor. Empujaba a los Aliados por el centro de Bélgica hasta el río Somme — parecida a la campaña de 1914. Empujar no es cercar: un ejército empujado retrocede y se reorganiza; un ejército cercado se acaba. El plan original ganaba terreno, no la guerra.",
+        "El 10 de enero de 1940 un avión alemán con documentos del plan cae en Bélgica. Es azar, y debe leerse como azar. El incidente obliga a una revisión, y Halder reescribe la directiva.",
+        "La idea que terminaría adoptada era de Erich von Manstein: entrar por el sur, por las Ardenas, cruzar el Mosa en Sedán, girar hacia el oeste y correr hacia el mar. El alto mando la rechazó; Halder y el comandante en jefe Walther von Brauchitsch la calificaron de \"demasiado audaz\" (traducción nuestra). A fines de enero, Halder hizo que Manstein fuera ascendido para comandar el XXXVIII Cuerpo en el este de Alemania, lejos de la planificación.",
+        "La idea sobrevivió por un camino lateral. El 2 de febrero, Hitler supo de ella por Rudolf Schmundt; el 13, ordenó cambiar el plan; el 17, recibió a Manstein en persona. El 24 de febrero de 1940, Halder reescribió la directiva como Aufmarschanweisung N°4, ahora con el eje principal por las Ardenas — dos meses y medio antes del ataque."
+      ]
+    },
+    {
+      "titulo": "Lo único realmente nuevo: dónde se pusieron las piezas",
+      "paragrafos": [
+        "No era el tanque: los dos bandos tenían tanques, y los Aliados tenían más. No era el avión, que ya había volado sobre Polonia. No era la palabra, que los periódicos ya habían inventado. La novedad de mayo de 1940 fue la concentración.",
+        "El Panzergruppe von Kleist atraviesa las Ardenas con 134.000 hombres y 1.222 tanques, en cinco divisiones blindadas — la mitad de los tanques alemanes en un solo eje. Los Aliados tenían más tanques y los repartieron por el frente entero. Los alemanes tenían menos y amontonaron la mitad en un bosque.",
+        "Y el precio de esa concentración era una vulnerabilidad enorme. Según la Wikipedia en francés, citando a Mary (2009) y Frieser (2003), el grupo disponía de apenas cuatro itinerarios reservados para entrar en Luxemburgo, las Panzerstraßen numeradas del uno al cuatro. La mitad de los blindados alemanes en cuatro caminos de bosque es una pieza valiosa expuesta: la jugada solo funciona si el adversario no la mira."
+      ]
+    },
+    {
+      "titulo": "La jugada aliada: Dyle, Breda y el general que advirtió",
+      "paragrafos": [
+        "Para que el plan alemán funcionara, los Aliados tenían que ir al norte. Fueron. El 9 de noviembre de 1939, Maurice Gamelin adoptó el Plan Dyle: a la primera señal de invasión, los mejores ejércitos aliados avanzarían dentro de Bélgica y resistirían allí. El 12 de marzo de 1940 añadió la variante Breda: el 7.º Ejército francés avanzaría hasta la ciudad neerlandesa de Breda, para enlazar con los neerlandeses — 175 km por recorrer, contra alemanes que estaban a 90 km del mismo lugar.",
+        "El 10 de mayo entran en Bélgica y los Países Bajos el 7.º Ejército (Giraud), la Fuerza Expedicionaria Británica (Gort) con 9 divisiones, el 1.er Ejército francés (Blanchard) con 10 y el 9.º Ejército (Corap), este al sur de Namur, a lo largo del Mosa. Con ellos van algunas de las mejores divisiones de la Reserva General, dejando \"pocas reservas del Rin al Canal\" (traducción nuestra).",
+        "El general Alphonse Georges había advertido contra enviar el grueso de las fuerzas móviles francesas contra un ataque en el flanco norte que fuera una diversión para un ataque alemán por el centro. Describió el golpe antes de que ocurriera, y la reserva fue al norte de todos modos. Mientras tanto, la inteligencia francesa seguía el movimiento equivocado: descubrió el traslado de divisiones alemanas del Sarre al norte del Mosela, y no detectó el redespliegue de la frontera neerlandesa hacia la zona Eifel–Mosela, de donde venía el golpe."
+      ]
+    },
+    {
+      "titulo": "Sedán, 13 de mayo: el bombardeo que rompió el teléfono",
+      "paragrafos": [
+        "En Sedán, la defensa francesa era la 55.ª División de Infantería, del general Henri Lafontaine: división de categoría B, de reservistas, la mayoría con más de treinta años, poco entrenada para el combate porque estaba asignada a obras. Al lado, la 71.ª División todavía entraba en línea. En total, 20.000 hombres y 174 piezas de artillería. Al otro lado del río, la 1.ª, la 2.ª y la 10.ª Divisiones Panzer y el Regimiento Großdeutschland: 60.000 hombres, 41.000 vehículos, 788 tanques y 141 piezas.",
+        "De las 08:00 a las 16:00 del 13 de mayo, la Luftwaffe golpea Sedán: cerca de 3.940 salidas de bombardero de nueve Kampfgeschwader, al costo de seis aviones. Y entonces el dato que invierte la lectura: ninguna de las casamatas fue destruida por impacto directo, y el bombardeo causó 56 bajas francesas.",
+        "El daño fue indirecto. Los cables de telecomunicación se cortaron y la división quedó incomunicada; los artilleros abandonaron sus posiciones antes de que empezara el ataque terrestre. El bombardeo no rompió el concreto. Rompió el enlace entre las piezas y la voluntad de quienes las manejaban."
+      ]
+    },
+    {
+      "titulo": "Bulson, 19:00: el pánico ante tanques que aún no habían cruzado",
+      "paragrafos": [
+        "Hacia las 19:00 del 13 de mayo, el informe de un observador de artillería francés se transmite mal. Corre el rumor de que tanques alemanes se acercan a la aldea de Bulson, al sur de Sedán. La 55.ª División abandona sus posiciones, y cuando se advierte el error la artillería y la infantería ya habían dejado atrás el equipo pesado.",
+        "El primer tanque alemán cruzó el Mosa a las 07:20 del 14 de mayo, más de doce horas después. El pánico que deshizo la defensa de Sedán fue ante tanques que todavía no habían atravesado el río: la posición la tomó infantería que cruzó en botes, contra una línea que se desarmó por una información equivocada.",
+        "Los franceses tenían con qué responder. El X Cuerpo recibió la orden de contraatacar a las 05:00 del 14 de mayo, con cerca de 300 tanques en la zona, 138 de ellos de combate. Los blindados franceses solo alcanzaron la cresta de Bulson diecisiete horas después de la orden, y la vanguardia alemana llegó antes, por unos minutos. La Wikipedia en inglés registra la evaluación de que un contraataque rápido de apenas dos regimientos de infantería y dos batallones de carros habría \"sumido a los alemanes en una crisis\" (traducción nuestra). Los medios estaban ahí; el tiempo de reacción, no."
+      ]
+    },
+    {
+      "titulo": "El balance de la partida",
+      "paragrafos": [
+        "La campaña va del 10 de mayo al 25 de junio de 1940, y el armisticio se firma el 22 de junio, en Compiègne. Del lado alemán, 27.074 muertos, 111.034 heridos, 18.384 desaparecidos y entre 795 y 822 tanques perdidos. Del lado aliado, 73.000 muertos, 240.000 heridos, 15.000 desaparecidos — y 1.756.000 prisioneros.",
+        "Fue una victoria rápida, grande y completa. Francia luchó: los 73.000 muertos aliados en seis semanas lo dicen. La pregunta nunca fue si el plan funcionó, sino qué funcionó exactamente."
+      ]
+    }
+  ],
+  "veredito": [
+    "Lo que Alemania aplicó en mayo de 1940 no fue una doctrina: fue un plan específico, para un enemigo y un terreno, rechazado por el propio alto mando, cuyo autor fue apartado de la planificación, y adoptado recién el 24 de febrero de 1940 por una intervención ajena a la cadena de planificación. La ventaja no estaba en el material — los Aliados tenían más tanques y casi el doble de cañones —, sino en dónde se pusieron las piezas: la mitad de los tanques alemanes en un solo eje, contra el punto donde el adversario tenía divisiones de reservistas y ninguna reserva detrás.",
+    "El plan dependía de una jugada aliada, y la jugada llegó: las mejores fuerzas móviles francesas corrieron hacia el norte, contra la advertencia de Alphonse Georges. Y la decisión en Sedán salió de algo que ningún plan prevé — una división sin teléfono abandonando posiciones intactas por tanques que estaban a más de doce horas de distancia, y un contraataque que llegó minutos después que el adversario.",
+    "Nada de eso fue suerte: concentrar la mitad de los blindados, atravesar las Ardenas y cruzar el Mosa es una ejecución de altísimo nivel. Pero, en términos de ajedrez, no fue una escuela de juego aplicada de memoria. Fue una preparación casera contra un adversario específico, que el jugador decidió usar en esa partida — y que su propio entrenador había reprobado."
+  ],
+  "mitos": [
+    {
+      "circula": "En mayo de 1940 Alemania aplicó una doctrina llamada Blitzkrieg.",
+      "registro": "Lo que se aplicó fue un plan, el de Manstein, que el alto mando alemán rechazó por \"demasiado audaz\" (traducción nuestra) y solo adoptó el 24 de febrero de 1940, después de que Hitler interviniera. Karl-Heinz Frieser sostiene que el pensamiento que hoy se llama Blitzkrieg solo se formó después de esta campaña: consecuencia de la victoria, no su causa."
+    },
+    {
+      "circula": "Francia cayó ante una máquina de guerra materialmente superior.",
+      "registro": "El 10 de mayo de 1940 los Aliados tenían 13.974 cañones contra 7.378 alemanes, y solo Francia tenía entre 3.383 y 4.071 tanques contra 2.445 alemanes. La única superioridad material alemana clara era la aérea. La diferencia estuvo en la concentración: 1.222 tanques en un solo grupo, en un solo eje."
+    },
+    {
+      "circula": "En Sedán, la Luftwaffe pulverizó las defensas francesas.",
+      "registro": "Ocho horas de bombardeo, cerca de 3.940 salidas, y ninguna casamata destruida por impacto directo; 56 bajas francesas. El daño fue en los cables de comunicación y en la moral: los artilleros abandonaron sus posiciones, y esa misma noche la 55.ª División retrocedió por un rumor sobre tanques que solo cruzarían el Mosa a las 07:20 del día siguiente."
+    }
+  ],
+  "perguntas": [
+    {"p": "¿Cuánto duró la batalla de Francia?", "r": "Cerca de seis semanas: Alemania atacó en el oeste el 10 de mayo de 1940, Francia firmó el armisticio el 22 de junio, en Compiègne, y la campaña terminó el 25 de junio."},
+    {"p": "¿Por qué cayó Francia ante Alemania en 1940?", "r": "No por falta de material, sino por la posición de las piezas. Alemania concentró la mitad de sus tanques en un solo eje, por las Ardenas hasta Sedán, mientras las mejores fuerzas móviles aliadas avanzaban hacia el norte, en Bélgica. En Sedán, la defensa francesa se deshizo antes de que el primer tanque cruzara el Mosa."},
+    {"p": "¿Alemania tenía más tanques que Francia en 1940?", "r": "No. Alemania entró con 2.445 tanques; solo Francia tenía entre 3.383 y 4.071, según el conteo. Los Aliados también tenían 13.974 cañones contra 7.378 alemanes; la única superioridad material alemana clara era la aérea."},
+    {"p": "¿Cuántos soldados murieron en la batalla de Francia?", "r": "Del lado alemán, 27.074 muertos, 111.034 heridos y 18.384 desaparecidos. Del lado aliado, 73.000 muertos, 240.000 heridos y 15.000 desaparecidos, además de 1.756.000 prisioneros."},
+    {"p": "¿Quién planeó el ataque alemán en la batalla de Francia?", "r": "Erich von Manstein, con la idea de atravesar las Ardenas, cruzar el Mosa en Sedán y correr hacia el mar. El alto mando la rechazó por demasiado audaz; después de que Hitler interviniera, Franz Halder la reescribió como directiva el 24 de febrero de 1940."}
+  ],
+  "fontes": [
+    {"texto": "Battle of France — Wikipedia en inglés."},
+    {"texto": "Manstein Plan — Wikipedia en inglés."},
+    {"texto": "Battle of Sedan (1940) — Wikipedia en inglés."},
+    {"texto": "Dyle Plan — Wikipedia en inglés."},
+    {"texto": "Panzergruppe von Kleist — Wikipedia en francés, citando a Jean-Yves Mary (2009) y Karl-Heinz Frieser (2003)."},
+    {"texto": "Karl-Heinz Frieser, The Blitzkrieg Legend: The 1940 Campaign in the West (citado por la Wikipedia en inglés)."}
+  ],
+  "imagens": [
+    {
+      "alt": "Columna de tanques alemanes detenida en un campo abierto, con tripulantes sentados sobre las torretas y soldados a pie al lado",
+      "legenda": "Columna de la 6.ª División Panzer en Francia, 1940. Adelante, un Pzkpfw 35(t) capturado al ejército checo; detrás, Pzkpfw IV y Pzkpfw II.",
+      "autor": "Erich Borchert · Imperial War Museums, HU 111379"
+    },
+    {
+      "alt": "Carta topográfica en color con el río Mosa en azul formando un meandro en Iges, la ciudad de Sedán a la derecha, Donchery al centro y Wadelincourt y Frénois al sur del río",
+      "legenda": "Sedán y el meandro del Mosa en la carta del Army Map Service, Francia y Bélgica 1:50.000, hoja 134 Mézières (revisión de 1943). Fue en este tramo del río donde la defensa francesa se deshizo el 13 de mayo.",
+      "autor": "U.S. Army Map Service · Perry-Castañeda Library, Universidad de Texas"
+    },
+    {
+      "alt": "Camión británico cubierto con lona pasando bajo barreras de frontera levantadas, observado por militares belgas y vecinos frente a un café",
+      "legenda": "Camiones británicos en Herseaux cruzan la frontera hacia Bélgica el 10 de mayo de 1940: el Plan Dyle en marcha, exactamente como el plan alemán necesitaba.",
+      "autor": "Tte. Kessell y Tte. E. G. Malindine, fotógrafos oficiales del War Office · Imperial War Museums, F 4353"
+    },
+    {
+      "alt": "Tanque francés visto desde atrás subiendo un camino estrecho de bosque cubierto de nieve, entre pinos altos",
+      "legenda": "Carro de combate francés D2 en un camino de bosque, enero de 1940. Solo Francia tenía entre 3.383 y 4.071 tanques, más que toda Alemania.",
+      "autor": "Autor desconocido · Le Miroir, n.º 20, 14 de enero de 1940"
+    },
+    {
+      "alt": "Carta topográfica con las aldeas de Bulson, Chémery, Maisoncelle y Raucourt entre bosques en verde y curvas de nivel en naranja",
+      "legenda": "Bulson, Chémery y Maisoncelle, al sur de Sedán, en la carta del Army Map Service, Francia y Bélgica 1:50.000, hoja 149 Le Chesne (revisión de 1943). El rumor sobre Bulson y la carrera por la cresta el 14 de mayo ocurrieron en este terreno.",
+      "autor": "U.S. Army Map Service · Perry-Castañeda Library, Universidad de Texas"
+    },
+    {
+      "alt": "Soldados franceses con capote y casco caminan por una calle empedrada de aldea, escoltados por soldados alemanes armados",
+      "legenda": "Prisioneros franceses del 158.º Regimiento de Infantería capturados en Thulin, en Bélgica, el 23 de mayo de 1940. La campaña terminó con 1.756.000 prisioneros aliados.",
+      "autor": "Erich Borchert"
+    }
+  ]
+}

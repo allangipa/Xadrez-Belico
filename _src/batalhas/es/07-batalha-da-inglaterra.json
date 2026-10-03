@@ -1,0 +1,229 @@
+{
+  "_nota": "Traducción fiel de ../07-batalha-da-inglaterra.json. Los campos fijos vienen del original.",
+  "batalha": "La Batalla de Inglaterra",
+  "nome_busca": "Batalla de Inglaterra",
+  "titulo_video": null,
+  "lugar": "Sur y sudeste de Inglaterra, Reino Unido, Londres y el Canal de la Mancha, contra bases aéreas alemanas en el norte de Francia, en Bélgica, en los Países Bajos y en Noruega",
+  "data": "10 de julio al 31 de octubre de 1940",
+  "campanha": "Segunda Guerra Mundial, campaña de 1940",
+  "pergunta": "¿La fuerza aérea que no cerró Dunkerque podía abrir Inglaterra?",
+  "resumo": "Batalla de Inglaterra: por qué la Luftwaffe no conquistó el cielo. Una red que veía el tablero entero contra un mando que creía en sus propios informes.",
+  "abertura": [
+    "El 1 de agosto de 1940, la Directiva n.º 17 ordena a la Luftwaffe conquistar la superioridad aérea sobre el sur de Inglaterra, condición para la invasión que Hitler llamó Operación León Marino. El plan del 6 de agosto da cuatro días para destruir al Fighter Command en el sur. Dos meses antes, la misma fuerza aérea había recibido la tarea de acabar con la bolsa de Dunkerque, y 338.226 hombres salieron por mar.",
+    "La Luftwaffe tenía más del doble de aviones. El 17 de septiembre, Hitler aplaza la invasión hasta nueva orden. Esta página sigue la partida por el lado que el número no muestra: una red de radar, observadores y teléfono que le decía a cada escuadrón británico dónde estaba el enemigo, contra un mando que contaba aviones derribados que no habían caído."
+  ],
+  "numeros": [
+    {
+      "valor": "4 días",
+      "rotulo": "el plazo que el plan alemán del 6 de agosto de 1940 daba para destruir al Fighter Command en el sur de Inglaterra"
+    },
+    {
+      "valor": "496",
+      "rotulo": "cazas nuevos producidos en Gran Bretaña en julio de 1940; la inteligencia alemana estimaba de 180 a 300 por mes, y en baja"
+    },
+    {
+      "valor": "185",
+      "rotulo": "aviones alemanes que la RAF anunció haber derribado el 15 de septiembre de 1940; la pérdida real fue de cerca de 60"
+    },
+    {
+      "valor": "1.733",
+      "rotulo": "aviones alemanes destruidos del 10 de julio al 31 de octubre, según los registros alemanes divulgados al Parlamento británico en 1947; otras cuentas llegan a 1.977"
+    },
+    {
+      "valor": "544",
+      "rotulo": "aviadores del Fighter Command muertos en la batalla"
+    },
+    {
+      "valor": "1 de cada 5",
+      "rotulo": "de los cerca de 2.936 aviadores de la RAF en la batalla no era británico; 145 eran polacos"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Objetivo alemán",
+      "valor": "conquistar la superioridad aérea sobre el sur de Inglaterra, condición previa de la invasión (Directivas n.º 16, del 16 de julio, y n.º 17, del 1 de agosto de 1940), o forzar a Gran Bretaña a negociar"
+    },
+    {
+      "item": "Alemania — mando",
+      "valor": "Hermann Göring; Albert Kesselring (Luftflotte 2, sudeste y Londres), Hugo Sperrle (Luftflotte 3, oeste), Hans-Jürgen Stumpff (Luftflotte 5, desde Noruega, norte)"
+    },
+    {
+      "item": "Reino Unido — mando",
+      "valor": "Hugh Dowding (Fighter Command, Bentley Priory); Keith Park (11.º Grupo, sudeste y Londres); Trafford Leigh-Mallory (12.º Grupo, Midlands); lord Beaverbrook en el Ministerio de Producción Aeronáutica, creado el 14 de mayo de 1940"
+    },
+    {
+      "item": "Fuerzas — Luftwaffe",
+      "valor": "3.358 aviones contra Inglaterra el 10 de agosto, 2.550 en condiciones de vuelo, de ellos 805 cazas monoplaza y 998 bombarderos medios",
+      "nota": "Wood y Dempster, The Narrow Margin, citados por la Wikipedia en inglés."
+    },
+    {
+      "item": "Fuerzas — Fighter Command",
+      "valor": "754 cazas monoplaza y 149 biplaza el 1 de julio; 1.061 en dotación y 708 disponibles el 3 de agosto, que suben a 1.161 y 746 el 7 de septiembre",
+      "nota": "Bungay para julio y Overy para agosto y septiembre; otras cuentas dan cerca de 768 aviones y 520 listos en julio."
+    },
+    {
+      "item": "La red",
+      "valor": "estaciones de radar Chain Home en la costa, Observer Corps rastreando sobre tierra, sala de filtrado en Bentley Priory, salas de operaciones de grupo y de sector conectadas por teléfono con los escuadrones"
+    },
+    {
+      "item": "Terreno",
+      "valor": "el Canal de la Mancha entre las bases alemanas y el objetivo; el Bf 109 tenía unos 10 minutos de combate sobre Londres antes de regresar"
+    },
+    {
+      "item": "Duración",
+      "valor": "10 de julio al 31 de octubre de 1940 en la datación británica; los historiadores alemanes tratan de julio de 1940 a mayo de 1941, con el Blitz, como una sola campaña"
+    },
+    {
+      "item": "15 de septiembre",
+      "valor": "la RAF anunció de 175 a 185 aviones derribados; la pérdida alemana fue de cerca de 60. La británica va de 26 a 31 según la fuente"
+    },
+    {
+      "item": "Pérdidas — aviones",
+      "valor": "Luftwaffe: 1.733 destruidos y 643 dañados según los registros alemanes divulgados en 1947; 1.887 o 1.977 en otras cuentas. Fighter Command: de 1.023 a 1.087; con el Bomber y el Coastal Command, 524 más",
+      "nota": "El primer número es la respuesta del ministro del Aire al Parlamento británico el 14 de mayo de 1947."
+    },
+    {
+      "item": "Pérdidas — personas",
+      "valor": "544 aviadores del Fighter Command muertos; 718 del Bomber Command y 280 del Coastal Command. Luftwaffe: 2.585 muertos, 735 heridos y 925 prisioneros en una cuenta; cerca de 2.800, 340 y 750 en otra"
+    },
+    {
+      "item": "Extranjeros en la RAF",
+      "valor": "595 de los cerca de 2.936 aviadores: 145 polacos, 127 neozelandeses, 112 canadienses, 88 checoslovacos, 32 australianos, 28 belgas, 25 sudafricanos y otros",
+      "nota": "Lista de honor de la RAF, según la Wikipedia en inglés; el RAF Museum confirma cerca de una quinta parte."
+    },
+    {
+      "item": "Resultado",
+      "valor": "la Luftwaffe no conquista la superioridad aérea; el 17 de septiembre de 1940 Hitler aplaza la Operación León Marino hasta nueva orden, y en octubre la empuja a la primavera de 1941"
+    },
+    {
+      "item": "Lo que vino después",
+      "valor": "los ataques diurnos dan paso al bombardeo nocturno, el Blitz, que se extiende hasta mayo de 1941. Dowding es reemplazado en noviembre de 1940 y Park en diciembre"
+    }
+  ],
+  "lances": [
+    {
+      "titulo": "El tablero: el bando con más piezas no era el bando con más cazas",
+      "paragrafos": [
+        "Tras la caída de Francia, Alemania tiene bases aéreas desde el norte de Noruega hasta Bretaña. El 10 de agosto de 1940, la Luftwaffe tiene 3.358 aviones contra Inglaterra, 2.550 de ellos en condiciones de vuelo, divididos en tres flotas aéreas: la de Kesselring, en Bélgica y el Pas-de-Calais, contra el sudeste y Londres; la de Sperrle, en Francia, contra el oeste; la de Stumpff, en Noruega, contra el norte. El Fighter Command de Hugh Dowding tenía 754 cazas monoplaza el 1 de julio.",
+        "La cuenta que decide, sin embargo, es otra. Solo el caza disputa el cielo, y en cazas monoplaza listos la diferencia era pequeña: 805 alemanes el 10 de agosto, según Wood y Dempster. Y el lado británico ganaba piezas: según Richard Overy, el Fighter Command tenía 1.061 cazas en dotación el 3 de agosto y 1.161 el 7 de septiembre, en plena fase más dura.",
+        "El objetivo alemán estaba escrito. La Directiva n.º 16, del 16 de julio, ordena preparar la invasión; la n.º 17, del 1 de agosto, ordena conquistar primero la superioridad aérea. El plan del 6 de agosto da cuatro días para destruir al Fighter Command en el sur y cuatro semanas para el resto. La marina alemana, que tendría que cruzar el Canal bajo la Royal Navy, ya había concluido en noviembre de 1939 que ni el aire bastaba: también hacía falta el mar."
+      ]
+    },
+    {
+      "titulo": "La pieza que no aparece en el tablero: la red de Dowding",
+      "paragrafos": [
+        "La defensa británica no era un avión, era un sistema. Las estaciones de radar Chain Home, en la costa y orientadas al mar, veían las formaciones alemanas mientras todavía se reunían sobre Francia. Cuando los aviones cruzaban la costa, salían del campo del radar, y quien los rastreaba era el Observer Corps, voluntarios en puestos repartidos por el interior, a ojo y oído.",
+        "Toda la información convergía por teléfono en la sala de filtrado de Bentley Priory, que reunía los informes de varias estaciones sobre la misma formación en un solo rastro. De allí la información bajaba a las salas de operaciones de los grupos, que elegían qué escuadrón enviar, y de los sectores, que guiaban a los cazas por radio hasta el objetivo y controlaban la artillería antiaérea de la zona. El resultado es que la RAF no necesitaba patrullar: despegaba cuando y hacia donde hacía falta, y ahorraba aviones y pilotos.",
+        "Los alemanes conocían el radar británico. Lo que no entendieron fue la red. El informe de inteligencia del 16 de julio de 1940, base de los planes de los comandantes, juzgó rígido el control británico y a los cazas atados a sus bases. El 12 de agosto, aviones de la Erprobungsgruppe 210 atacaron cuatro estaciones de radar; tres quedaron fuera de servicio y volvieron en seis horas. Después del 18 de agosto, Göring suspendió los ataques al radar, por considerarlos inútiles. La pieza que sostenía la defensa entera dejó de ser objetivo."
+      ]
+    },
+    {
+      "titulo": "Del Canal a los aeródromos: el ataque que no sabía dónde golpear",
+      "paragrafos": [
+        "A partir del 4 de julio, la Luftwaffe ataca los convoyes en el Canal de la Mancha; en agosto la marina británica desiste de hacerlos pasar por allí. El 13 de agosto, el Adlertag, el día del águila, abre el ataque principal contra la RAF. Ya el primer día, bombarderos alemanes alcanzan Eastchurch, una base del Coastal Command, y declaran diez Spitfires destruidos en tierra. Ningún caza del Fighter Command se perdió allí, y la Luftwaffe volvió a Eastchurch siete veces creyendo que era una base de cazas.",
+        "El 15 de agosto, la flota aérea de Noruega ataca el norte de Inglaterra creyendo que la defensa estaba toda en el sur. El Bf 109 no tenía alcance para escoltarla. De 115 bombarderos y 35 cazas, 75 aviones fueron destruidos, y no volvió con fuerza. El 18 de agosto, el día más duro, los dos bandos tienen el mayor número de bajas de la campaña, y el bombardero en picado Ju 87 sale de la batalla.",
+        "Del 24 de agosto al 6 de septiembre, Kesselring concentra el golpe en los aeródromos de Park, que defiende el sudeste y Londres: de 33 ataques pesados, 24 contra aeródromos. Park registró daños extensos en cinco aeródromos avanzados y en seis de las siete estaciones de sector. Del 26 de agosto al 6 de septiembre, la RAF pierde 248 aviones y la Luftwaffe 322. Es la fase que Wood y Dempster y la historia oficial de Denis Richards llaman crítica. Dowding, en una carta a Trenchard, escribió que en esas semanas la Luftwaffe logró muy poco: la única estación de sector cerrada, Biggin Hill, quedó fuera de operación durante dos horas."
+      ]
+    },
+    {
+      "titulo": "El enemigo que inventó la inteligencia alemana",
+      "paragrafos": [
+        "El mismo informe del 16 de julio estimaba que la industria británica producía de 180 a 300 cazas de primera línea por mes, y preveía una baja. Bajo el ministerio creado el 14 de mayo de 1940 para lord Beaverbrook, salieron 496 cazas nuevos en julio, 467 en agosto y 467 en septiembre, según Overy — más de los que perdía la RAF. La organización civil de reparaciones devolvió al servicio 4.955 aviones hasta diciembre.",
+        "A eso se sumaban las reivindicaciones. Los dos bandos declaraban dos a tres veces lo que derribaban: de julio a septiembre, la RAF reivindicó 2.698 aviones y los cazas alemanes 3.198. La Luftwaffe creía estar desgastando al Fighter Command tres veces más rápido de lo que en realidad lo hacía. El 3 de septiembre, Göring decide bombardear Londres a diario con base en informes de que los escuadrones británicos estaban reducidos a 5 a 7 cazas de 12.",
+        "El cuello de botella real era otro: el piloto entrenado. Los reemplazos llegaban a los escuadrones con nueve horas de vuelo y sin entrenamiento de tiro. Aquí las fuentes divergen. Para Wood y Dempster, la RAF perdía pilotos más rápido de lo que los formaba; para Peter Dye y Richard Overy, los pilotos disponibles nunca disminuyeron, y los alemanes tenían todavía menos — Overy resume que, si el Fighter Command era los pocos, los pilotos de caza alemanes eran menos aún. Y había una asimetría de tablero: el piloto británico derribado sobre Inglaterra volvía a volar; el alemán quedaba prisionero, o caía en el Canal."
+      ]
+    },
+    {
+      "titulo": "Londres, 7 y 15 de septiembre",
+      "paragrafos": [
+        "En la noche del 24 al 25 de agosto, caen bombas sobre Londres. En la siguiente, el Bomber Command ataca Berlín por primera vez. El 30 de agosto Hitler levanta la prohibición de bombardear Londres, y el 4 de septiembre presenta públicamente los ataques a la capital como represalia. Pero Londres ya estaba en el plan alemán del 6 de agosto como el golpe final de la campaña, y Göring decidió creyendo que la RAF estaba en las últimas. El 7 de septiembre, cerca de 400 bombarderos y más de 600 cazas atacan los muelles del East End.",
+        "El cambio de objetivo les quitó presión a los aeródromos, y alargó el viaje: sobre Londres, el Bf 109 tenía unos diez minutos de combate antes de regresar. El 14 de septiembre, Hitler reconoce que la superioridad aérea todavía no existe y aplaza la decisión al día 17.",
+        "El 15 de septiembre llegan dos grandes oleadas contra Londres. Park pone en el aire al 11.º Grupo entero; Churchill, en la sala de operaciones de Uxbridge, pregunta por las reservas y oye que no hay ninguna. Los alemanes, que creían enfrentar a los últimos cazas británicos, encuentran el cielo lleno. El Air Ministry anunció de 175 a 185 aviones derribados; la pérdida alemana fue de cerca de 60. Dos días después, Hitler aplaza León Marino hasta nueva orden."
+      ]
+    },
+    {
+      "titulo": "La pelea dentro del bando vencedor: Park contra Leigh-Mallory",
+      "paragrafos": [
+        "Park enviaba escuadrones aislados contra cada ataque, temprano, para romper las formaciones antes del objetivo. Leigh-Mallory, del 12.º Grupo, y Douglas Bader defendían el Big Wing, de tres a cinco escuadrones juntos. La formación grande tardaba en reunirse — 20 minutos el 7 de septiembre — y el 12.º Grupo, que debía cubrir los aeródromos de Park mientras los escuadrones de este estaban en el aire, muchas veces llegó tarde.",
+        "El Big Wing también inflaba los números: el 15 de septiembre respondió por cerca de un tercio de las 185 victorias anunciadas. Un informe de Park entregado por Dowding el 15 de noviembre contó, del 11 de septiembre al 31 de octubre, 10 interceptaciones y un avión alemán destruido con el uso extensivo de la táctica. Dowding fue reemplazado en noviembre de 1940, también por la falla de la defensa nocturna en el Blitz; Park, en diciembre, por el propio Leigh-Mallory. Stephen Bungay considera reivindicada la estrategia de ambos."
+      ]
+    }
+  ],
+  "veredito": [
+    "La fuerza aérea que no cerró Dunkerque no abrió Inglaterra, y el motivo principal no es el número de aviones. La Luftwaffe atacó a un adversario que no veía: una red que le decía a cada escuadrón británico dónde estaba el enemigo, mientras la inteligencia alemana contaba aviones que no habían caído, subestimaba fábricas que producían más del doble de lo estimado y bombardeaba bases que no eran de cazas. Se sumaron un caza de escolta sin alcance para quedarse sobre el objetivo y un mando que cambió de objetivo — radar, aeródromos, fábricas, Londres — sin insistir en ninguno.",
+    "En términos de ajedrez, es el jugador que ataca pieza por pieza sin ver el tablero entero, mientras el adversario ve todas las casillas. La jugada más discutida, el cambio hacia Londres el 7 de septiembre, les dio aire a los aeródromos, pero historiadores como Bungay y Alfred Price dudan que la otra línea llevara al mate: la RAF podía replegarse a las Midlands, fuera del alcance del Bf 109.",
+    "Es el mismo error de la bolsa de Flandes tres meses antes. El mando alemán le encargó el trabajo a la Luftwaffe y creyó en sus propios informes. Y ni siquiera el cielo bastaba: la marina alemana ya había escrito que, sin el mar, no había travesía."
+  ],
+  "mitos": [
+    {
+      "circula": "Fueron pocos contra muchos.",
+      "registro": "La frase de Churchill, del 20 de agosto de 1940, es de gratitud, no de aritmética. En total la Luftwaffe tenía más del doble de aviones, pero en cazas monoplaza listos la diferencia era pequeña, y la RAF producía más cazas y, según Peter Dye y Richard Overy, tenía más pilotos de caza disponibles que la Luftwaffe durante la batalla. Overy: si el Fighter Command era los pocos, los pilotos de caza alemanes eran menos aún."
+    },
+    {
+      "circula": "El Spitfire ganó la Batalla de Inglaterra.",
+      "registro": "El Hurricane era el caza más numeroso — 29 escuadrones contra 19 de Spitfire en julio de 1940, según una cuenta — y respondió por más del 60% de las victorias reivindicadas por la RAF. También fue el más perdido: 753 Hurricanes contra 467 Spitfires. Los porcentajes son de reivindicaciones, que los dos bandos inflaban."
+    },
+    {
+      "circula": "Londres fue bombardeada por error, Churchill tomó represalias sobre Berlín, y Hitler, furioso, cambió los aeródromos por Londres — el error que perdió la batalla.",
+      "registro": "Algunos historiadores atribuyen el bombardeo de Londres de la noche del 24 al 25 de agosto de 1940 a aviones que erraron el objetivo, versión que cuestionan quienes ven tres lanzamientos separados esa noche. El ataque a Berlín ocurrió, y Hitler presentó lo de Londres como represalia. Pero la capital ya estaba en el plan alemán del 6 de agosto como golpe final, y Göring decidió el 3 de septiembre creyendo que la RAF estaba en las últimas. Que el cambio haya perdido la batalla es materia de debate: Dowding escribió que los ataques a los aeródromos habían logrado muy poco."
+    },
+    {
+      "circula": "El 15 de septiembre de 1940 la RAF derribó 185 aviones alemanes.",
+      "registro": "Fue el anuncio del Air Ministry, de 175 a 185. La pérdida alemana fue de cerca de 60. El día importó porque la Luftwaffe, convencida de que enfrentaba a los últimos cazas británicos, encontró al 11.º Grupo entero en el aire — y dos días después Hitler aplazó la invasión."
+    },
+    {
+      "circula": "El 303 polaco fue el escuadrón que más aviones derribó en la batalla.",
+      "registro": "Fue el que más reivindicó: 126 victorias en seis semanas, hasta el 11 de octubre de 1940. El número verificado diverge: cerca de 55 a 60 según Jerzy Cynk y otros historiadores polacos, lo que lo mantiene en primer lugar; 44 según John Alcorn, lo que lo pone en cuarto, detrás de tres escuadrones de Spitfire."
+    }
+  ],
+  "perguntas": [
+    {"p": "¿Quién ganó la Batalla de Inglaterra?", "r": "El Reino Unido. La Luftwaffe no conquistó la superioridad aérea sobre el sur de Inglaterra, condición para la invasión, y el 17 de septiembre de 1940 Hitler aplazó la Operación León Marino hasta nueva orden."},
+    {"p": "¿Cuándo fue la Batalla de Inglaterra?", "r": "Del 10 de julio al 31 de octubre de 1940, en la datación británica. Los historiadores alemanes tratan de julio de 1940 a mayo de 1941, incluido el bombardeo nocturno del Blitz, como una sola campaña."},
+    {"p": "¿Por qué Alemania perdió la Batalla de Inglaterra?", "r": "Principalmente porque atacó a un adversario que no veía. La red de radar, observadores y teléfono de Dowding le decía a cada escuadrón dónde estaba el enemigo, mientras la inteligencia alemana sobreestimaba las pérdidas británicas, subestimaba la producción de cazas y cambiaba de objetivo sin insistir en ninguno."},
+    {"p": "¿Cuántos aviones fueron derribados en la Batalla de Inglaterra?", "r": "Las cuentas divergen. La Luftwaffe perdió 1.733 aviones según los registros alemanes divulgados en 1947, y 1.887 o 1.977 en otras cuentas; el Fighter Command perdió de 1.023 a 1.087. Murieron 544 aviadores del Fighter Command."},
+    {"p": "¿El Spitfire ganó la Batalla de Inglaterra?", "r": "No solo. El Hurricane era el caza más numeroso de la RAF y respondió por más del 60% de las victorias reivindicadas, aunque también fue el más perdido: 753 Hurricanes contra 467 Spitfires."}
+  ],
+  "fontes": [
+    {"texto": "Battle of Britain (Enemy Losses), Hansard, Cámara de los Comunes, 14 de mayo de 1947 — respuesta del ministro del Aire, Philip Noel-Baker."},
+    {"texto": "RAF Museum, History of the Battle of Britain — fase 3 (13 de agosto al 6 de septiembre de 1940)."},
+    {"texto": "RAF Museum, \"15 September 1940\", transcripción de pódcast, 2015."},
+    {"texto": "Stephen Bungay, The Most Dangerous Enemy: A History of the Battle of Britain, 2000 (citado por la Wikipedia en inglés)."},
+    {"texto": "Richard Overy, The Battle of Britain: The Myth and the Reality, 2001 (citado por la Wikipedia en inglés)."},
+    {"texto": "Derek Wood y Derek Dempster, The Narrow Margin, 1961 (citado por la Wikipedia en inglés)."},
+    {"texto": "John T. Correll, \"How the Luftwaffe Lost the Battle of Britain\", Air & Space Forces Magazine, agosto de 2008."},
+    {"texto": "John Curatola, \"The Battle of Britain: The (Not So) Few\", The National WWII Museum, 2023."},
+    {"texto": "John Lock, \"The Battle of Britain: but for a few misplaced bombs\", Military History Matters, 2022."},
+    {"texto": "Battle of Britain — Wikipedia en inglés."},
+    {"texto": "Battle of Britain Day — Wikipedia en inglés."},
+    {"texto": "Dowding system — Wikipedia en inglés."},
+    {"texto": "No. 303 Squadron RAF — Wikipedia en inglés."},
+    {"texto": "Operation Sea Lion — Wikipedia en inglés."}
+  ],
+  "imagens": [
+    {
+      "alt": "Sala de operaciones con hombres de uniforme de la RAF frente a paneles de teléfono y radio; un oficial habla por teléfono, otro usa auriculares, y un aviador sentado adelante trabaja sobre una mesa de mapas",
+      "legenda": "La sala de operaciones del Sector G del Fighter Command en Duxford, Cambridgeshire, en septiembre de 1940: el controlador, los telefonistas y, a la derecha, el oficial de enlace del ejército que mandaba la artillería antiaérea. Era aquí donde el rastro del radar se convertía en una orden para un escuadrón.",
+      "autor": "Stanley Devon, fotógrafo oficial · Imperial War Museums, CH 1401"
+    },
+    {
+      "alt": "Interior de una cabaña de madera con operadoras con auriculares sentadas frente a aparatos y a una mesa de anotaciones, un hombre al teléfono al fondo y un reloj en la pared",
+      "legenda": "Operadores y operadoras de la WAAF en la cabaña receptora de la estación de radar Chain Home de Ventnor, en la isla de Wight, durante la Batalla de Inglaterra. Las estaciones de la costa veían las formaciones alemanas mientras todavía se reunían sobre Francia.",
+      "autor": "Fotógrafo oficial de la Royal Air Force · Imperial War Museums, C 1868"
+    },
+    {
+      "alt": "Cuatro telefonistas de la fuerza aérea femenina, con auriculares, sentadas en sillones de mimbre junto a una mesa de trazado, con un cabo de la RAF de pie detrás de ellas",
+      "legenda": "Telefonistas de la WAAF en la sala de operaciones de Duxford reciben los trazados de los puestos del Observer Corps, en septiembre de 1940. Después de que los aviones cruzaban la costa, el radar ya no los veía: el rastreo sobre tierra lo hacían observadores voluntarios.",
+      "autor": "Stanley Devon, fotógrafo oficial · Imperial War Museums, CH 1404"
+    },
+    {
+      "alt": "Nueve pilotos con chaleco salvavidas y chaqueta de cuero caminan sonriendo por el césped hacia la cámara, con un caza Hurricane detrás",
+      "legenda": "Pilotos del Escuadrón 303 (polaco) con uno de sus Hurricanes en octubre de 1940. El escuadrón reivindicó 126 victorias en seis semanas; el número verificado va de 44 a cerca de 60, según el historiador.",
+      "autor": "Stanley Devon, fotógrafo oficial · Imperial War Museums, CH 1535"
+    },
+    {
+      "alt": "Siete cazas Hurricane en formación ascienden sobre un mar de nubes, fotografiados desde otro avión cuya ala aparece en la esquina inferior derecha",
+      "legenda": "Hurricanes Mk I del Escuadrón 85, con base en Church Fenton, Yorkshire, liderados por el Squadron Leader Peter Townsend, en 1940. El Hurricane era el caza más numeroso de la RAF y respondió por más del 60% de las victorias reivindicadas en la batalla.",
+      "autor": "B. J. Daventry, fotógrafo oficial de la Royal Air Force · Imperial War Museums, CH 1503"
+    }
+  ]
+}

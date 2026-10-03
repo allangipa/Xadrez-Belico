@@ -1,0 +1,242 @@
+{
+  "batalha": "Montese",
+  "nome_busca": "Batalla de Montese",
+  "titulo_video": "Por qué la FEB venció en Montese (y pagó el precio más alto)",
+  "lugar": "Montese, Módena, Emilia-Romaña, Italia",
+  "data": "14 al 17 de abril de 1945",
+  "campanha": "La FEB en Italia",
+  "pergunta": "¿Por qué Montese cayó en 2:15 h y, aun así, costó 426 bajas brasileñas?",
+  "resumo": "Batalla de Montese: la ciudad cayó en 2:15 h el 14 de abril de 1945; retenerla costó 426 bajas a la FEB, por una lectura alemana, no por error brasileño.",
+  "abertura": [
+    "El 14 de abril de 1945, la Fuerza Expedicionaria Brasileña atacó Montese, una ciudad de casas de piedra en lo alto de un cerro de los Apeninos, en la provincia de Módena, Italia. Empezó a las 13:30. A las 15:45 la ciudad estaba ocupada: 2 horas y 15 minutos.",
+    "Aun así, los cuatro días de Montese terminaron con 426 bajas brasileñas. La toma fue rápida; lo que costó caro fue quedarse. Y la explicación más probable no está en el plan brasileño, sino en la forma en que el mando alemán leyó la jugada."
+  ],
+  "numeros": [
+    {
+      "valor": "2:15 h",
+      "rotulo": "para ocupar la ciudad, de las 13:30 a las 15:45 del 14 de abril"
+    },
+    {
+      "valor": "426",
+      "rotulo": "bajas brasileñas entre el 14 y el 17 de abril: muertos, heridos, prisioneros y desaparecidos"
+    },
+    {
+      "valor": "34",
+      "rotulo": "muertos dentro de ese total, según la Wikipedia en portugués"
+    },
+    {
+      "valor": "≈ 2/3",
+      "rotulo": "de la artillería alemana del sector cayó sobre la división brasileña — las cifras absolutas divergen"
+    },
+    {
+      "valor": "4",
+      "rotulo": "días de combate: la ciudad cayó el primero, la limpieza terminó el último"
+    },
+    {
+      "valor": "19",
+      "rotulo": "voluntarios en la patrulla de Max Wolff Filho, muerto dos días antes del ataque"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Fecha",
+      "valor": "14 al 17 de abril de 1945; ataque a las 13:30 del día 14"
+    },
+    {
+      "item": "Contexto",
+      "valor": "Ofensiva aliada de la primavera de 1945 en Italia. En el sector del IV Cuerpo estadounidense, el ataque principal le correspondía a la 10.ª División de Montaña; la FEB tenía una misión en el flanco",
+      "nota": "Según la Wikipedia en inglés"
+    },
+    {
+      "item": "Terreno",
+      "valor": "Ciudad en lo alto de un cerro, con casas de piedra, calles estrechas, sótanos y campanario; elevaciones alrededor"
+    },
+    {
+      "item": "Objetivo",
+      "valor": "El triángulo Montese – cota 888 – Montello"
+    },
+    {
+      "item": "Fuerza brasileña",
+      "valor": "11.º Regimiento de Infantería, con tres batallones, en el ataque a Montese; el 1.º Regimiento de Infantería atacó en el mismo combate",
+      "nota": "El 1.º RI aparece en el mapa de época firmado por Autran (1946) y en el Blog del Ejército Brasileño; la Wikipedia en portugués citaba el 6.º RI"
+    },
+    {
+      "item": "Blindados",
+      "valor": "La infantería avanzó con autos de reconocimiento M8 y tanques Sherman",
+      "nota": "Según la Wikipedia en inglés"
+    },
+    {
+      "item": "Fuerza alemana",
+      "valor": "114.ª División Ligera (Jägerdivision), tropa orientada al terreno accidentado y al combate en zona urbana"
+    },
+    {
+      "item": "Efectivos",
+      "valor": "Sin cifra cotejada para ninguno de los dos bandos"
+    },
+    {
+      "item": "Duración",
+      "valor": "Ciudad ocupada a las 15:45 del 14 de abril; contraataques hasta el 16 de abril; limpieza de resistencia en Montebuffone el día 17"
+    },
+    {
+      "item": "Artillería alemana",
+      "valor": "Unos 1.800 proyectiles sobre la división brasileña, de 2.800 disparados contra cuatro divisiones (64%), según la Wikipedia en portugués; más de 3.200 proyectiles consumidos en la batalla, según el Blog del Ejército Brasileño. Las dos cifras no cuadran entre sí"
+    },
+    {
+      "item": "Bajas brasileñas",
+      "valor": "426 entre muertos, heridos, prisioneros y desaparecidos; 34 muertos, según la Wikipedia en portugués"
+    },
+    {
+      "item": "Bajas alemanas y prisioneros",
+      "valor": "Sin cifra cotejada"
+    },
+    {
+      "item": "Antes",
+      "valor": "El 12 de abril, el sargento Max Wolff Filho, de 33 años y con más de 30 patrullas, murió por una ráfaga de ametralladora al mando de 19 voluntarios entre Monteforte y Riva di Biscia"
+    },
+    {
+      "item": "Resultado",
+      "valor": "Montese tomada el primer día y mantenida frente a los contraataques"
+    },
+    {
+      "item": "Lo que vino después",
+      "valor": "El 29 de abril de 1945, en Fornovo di Taro, la 148.ª División de Infantería alemana se rindió a la FEB: 14.779 hombres"
+    }
+  ],
+  "lances": [
+    {
+      "titulo": "La posición en el tablero: una pieza de flanco",
+      "paragrafos": [
+        "En abril de 1945 los aliados montaron la ofensiva final en Italia, con el objetivo de romper el frente alemán en los Apeninos y abrir camino hacia el valle del Po. En el sector del IV Cuerpo estadounidense, donde estaba la Fuerza Expedicionaria Brasileña, el ataque principal le correspondía a la 10.ª División de Montaña, según la Wikipedia en inglés.",
+        "A la FEB le tocó Montese, en el flanco. En el lenguaje del tablero, era una pieza de apoyo: la jugada que importaba estaba en otro eje, y el papel brasileño era presionar a su lado. Esa posición secundaria es lo que explica lo que viene después.",
+        "El terreno también cambió de naturaleza. Monte Castello era ladera abierta: se subía bajo fuego, pero se veía de dónde venía el fuego. Montese es una ciudad en lo alto de un cerro, con casas de piedra, calles estrechas, ventanas, sótanos y campanario. El tablero deja de ser una rampa y pasa a ser una cuadrícula de casas, cada una capaz de esconder una pieza.",
+        "Hay también una diferencia que no aparece en el mapa. La tropa que ataca en abril pasó un invierno entero en la línea de los Apeninos después de los primeros intentos contra Monte Castello. Son los mismos hombres, pero ya no es una tropa novata."
+      ]
+    },
+    {
+      "titulo": "La jugada preparatoria: la patrulla del 12 de abril",
+      "paragrafos": [
+        "Antes de un ataque, alguien tiene que ir a ver el terreno. El 12 de abril de 1945, el sargento Max Wolff Filho, de 33 años, que ya había hecho más de 30 patrullas, salió al frente de 19 voluntarios para reconocer la zona entre Monteforte y Riva di Biscia, en la tierra de nadie frente a las líneas brasileñas.",
+        "Lo alcanzó una ráfaga de ametralladora y no volvió. Una patrulla de reconocimiento no sirve para combatir, sirve para traer de vuelta dónde está el enemigo, cuántos son y por dónde no se pasa. Dos días después, la división atacó ese mismo suelo.",
+        "En el tablero, esa es la jugada que no aparece en el marcador. La ciudad que cayó en una tarde cayó sobre un terreno que patrullas como la suya venían cartografiando a oscuras, un tramo por vez, durante semanas de línea estática."
+      ]
+    },
+    {
+      "titulo": "La apertura: 2 horas y 15 minutos",
+      "paragrafos": [
+        "A las 13:30 del 14 de abril, el 11.º Regimiento de Infantería atacó el triángulo formado por Montese, la cota 888 y Montello, con tres batallones. El 1.º Regimiento de Infantería atacó en el mismo combate: las dos direcciones de ataque aparecen en la leyenda del mapa dibujado por Autran en 1946.",
+        "La infantería no fue sola. Según la Wikipedia en inglés, el avance contó con autos de reconocimiento M8 y tanques Sherman, lo que le daba al ataque brasileño un peso visible de blindados en un sector de flanco.",
+        "A las 15:45, Montese estaba ocupada. Fueron 2 horas y 15 minutos contra una ciudad defendida, en un terreno de casas de piedra donde cada ventana es una posición de tiro. Es aquí donde la mayor parte de las versiones cierra la historia."
+      ]
+    },
+    {
+      "titulo": "El medio juego: tomar no es retener",
+      "paragrafos": [
+        "El combate urbano tiene una regla que la ladera abierta no tiene: ocupar el terreno no es lo mismo que estar seguro en él. En una ladera, una ametralladora cubre un sector; en una calle, cada puerta y cada sótano abren un ángulo nuevo, y el edificio que quedó atrás puede tener todavía a alguien dentro.",
+        "Del otro lado estaba la 114.ª División Ligera alemana, la Jägerdivision, tropa orientada al terreno accidentado y al combate en zona urbana. Los alemanes no aceptaron la pérdida: contraatacaron y, principalmente, empezaron a bombardear la ciudad que los brasileños acababan de ocupar.",
+        "Es en ese punto donde la ventaja del atacante se invierte. Mientras avanza, la tropa elige dónde y cuándo se expone. Después de ocupar, queda inmóvil dentro de un blanco que el adversario conoce, porque hasta pocas horas antes era suyo.",
+        "Los contraataques solo cesaron el 16 de abril. El día 17, la tropa aún limpiaba resistencia en Montebuffone. La ciudad cayó en una tarde; mantenerla llevó el resto de los cuatro días."
+      ]
+    },
+    {
+      "titulo": "La lectura del adversario: el flanco tomado por el centro",
+      "paragrafos": [
+        "El volumen de fuego es el dato que más pesa, y también el que las fuentes registran de forma menos coherente. La Wikipedia en portugués habla de unos 1.800 proyectiles sobre la división brasileña, de un total de 2.800 disparados contra las cuatro divisiones aliadas del sector, lo que da 64%. El Blog del Ejército Brasileño habla de más de 3.200 proyectiles consumidos en la batalla. Las cifras no cuadran entre sí; lo que las dos versiones tienen en común es la concentración del fuego sobre la FEB, alrededor de dos tercios.",
+        "¿Por qué una división de flanco atrajo la mayor parte de la artillería? La Wikipedia en inglés registra que el avance brasileño con blindados llevó al mando alemán a considerar Montese un posible objetivo real de los aliados en ese sector. Es interpretación, no documento, pero encaja con el resto: el primer día, el ataque principal de la 10.ª de Montaña fue contenido, mientras en el flanco una fuerza entraba en una ciudad defendida, con tanques, y no se detenía.",
+        "Vista desde la posición alemana, la jugada secundaria parecía la principal. Y el adversario respondió a lo que vio, concentrando allí el fuego. La velocidad brasileña, que era la virtud del ataque, se volvió la señal que atrajo la artillería."
+      ]
+    },
+    {
+      "titulo": "La cuenta",
+      "paragrafos": [
+        "Entre el 14 y el 17 de abril, la FEB tuvo 426 bajas, entre muertos, heridos, prisioneros y desaparecidos. La Wikipedia en portugués detalla 34 muertos dentro de ese total.",
+        "La comparación con la apertura del ataque es la lección entera del episodio. Las 2:15 h midieron la calidad de la jugada brasileña; los cuatro días midieron la respuesta del adversario. Las dos cifras describen cosas distintas, y sumarlas en una sola frase, como si las bajas hubieran caído durante la toma, es el tipo de compresión que borra lo que de verdad ocurrió.",
+        "El objetivo se cumplió el primer día y la ciudad se mantuvo. El precio no vino de un error de planificación brasileño, sino de estar justo en el punto que el adversario eligió como el más peligroso. Dos semanas después, la misma tropa cercaría una división alemana entera en Fornovo di Taro."
+      ]
+    }
+  ],
+  "veredito": [
+    "Montese es el reverso de Monte Castello. Allí, los aliados atacaron una pieza sin mirar la cadena entera de posiciones, y pagaron por un error de lectura propio. Aquí, la FEB jugó la pieza correcta, en el momento correcto, y cumplió el objetivo en 2:15 h.",
+    "La sangre vino de la otra mitad del tablero. Todos los indicios apuntan a que el mando alemán leyó el ataque de flanco, rápido y con blindados, como el eje principal de la ofensiva, y descargó sobre él la mayor parte de la artillería del sector. La factura de una lectura equivocada no le llega a quien se equivocó; le llega a quien está en el punto leído."
+  ],
+  "mitos": [
+    {
+      "circula": "Montese fue una victoria rápida y limpia: la ciudad cayó en dos horas.",
+      "registro": "La ciudad fue ocupada en 2 horas y 15 minutos, de las 13:30 a las 15:45 del 14 de abril. Pero los contraataques siguieron hasta el 16 de abril, la limpieza hasta el día 17, y la FEB sumó 426 bajas en esos cuatro días."
+    },
+    {
+      "circula": "Tantas bajas muestran que la tropa brasileña no estaba preparada.",
+      "registro": "La tropa cumplió el objetivo el primer día, contra la 114.ª División Ligera, orientada al combate en terreno accidentado y zona urbana, y bajo el fuego de artillería más concentrado del sector. Las bajas vinieron de retener la ciudad bajo ese fuego, no de fracasar al tomarla."
+    },
+    {
+      "circula": "La FEB fue la única división aliada que alcanzó el objetivo planeado el primer día de la ofensiva.",
+      "registro": "La afirmación aparece en una sola fuente, la Wikipedia en portugués, sin confirmación independiente. Lo que se sostiene es más modesto: el ataque principal de la 10.ª División de Montaña fue contenido el primer día, y la FEB cumplió el suyo."
+    }
+  ],
+  "perguntas": [
+    {"p": "¿Quién ganó la batalla de Montese?", "r": "La Fuerza Expedicionaria Brasileña. La ciudad fue ocupada a las 15:45 del 14 de abril de 1945 y mantenida frente a los contraataques de la 114.ª División Ligera alemana, que siguieron hasta el 16 de abril."},
+    {"p": "¿Cuántos brasileños murieron en la batalla de Montese?", "r": "La FEB tuvo 426 bajas entre el 14 y el 17 de abril de 1945, sumando muertos, heridos, prisioneros y desaparecidos. Dentro de ese total, la Wikipedia en portugués detalla 34 muertos."},
+    {"p": "¿Cuánto duró la batalla de Montese?", "r": "Cuatro días, del 14 al 17 de abril de 1945. La ciudad cayó en 2 horas y 15 minutos, de las 13:30 a las 15:45 del día 14; los contraataques siguieron hasta el 16 de abril, y la limpieza en Montebuffone terminó el día 17."},
+    {"p": "¿Por qué la batalla de Montese tuvo tantas bajas brasileñas?", "r": "Las bajas vinieron de retener la ciudad, no de tomarla. Todos los indicios apuntan a que el mando alemán leyó el ataque de flanco, rápido y con blindados, como el eje principal de la ofensiva, y concentró sobre la FEB alrededor de dos tercios de la artillería del sector."}
+  ],
+  "fontes": [
+    {
+      "texto": "Batalha de Montese — Wikipedia en portugués"
+    },
+    {
+      "texto": "Battle of Montese — Wikipedia en inglés"
+    },
+    {
+      "texto": "Spring 1945 offensive in Italy — Wikipedia en inglés"
+    },
+    {
+      "texto": "O dever cívico-militar de exaltar a Batalha de Montese — Blog del Ejército Brasileño"
+    },
+    {
+      "texto": "Max Wolff Filho — Wikipedia en portugués; y Revista Sociedade Militar, sobre el \"rei das patrulhas\" (rey de las patrullas)"
+    },
+    {
+      "texto": "Mapa \"Combate de Montese\", firmado por Autran, 1946 (Wikimedia Commons)"
+    },
+    {
+      "texto": "29 de abril — Conquista de Fornovo e rendição da 148ª Divisão de Infantaria Alemã — Departamento-Geral do Pessoal do Exército"
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "02-montese-capa.jpg",
+      "alt": "Auto blindado de reconocimiento detenido en una calle de Montese, entre casas marcadas por metralla y escombros de piedra, con soldados a la derecha",
+      "legenda": "La Fuerza Expedicionaria Brasileña en Montese: un auto de reconocimiento en una calle de casas acribilladas por la metralla.",
+      "autor": "Força Expedicionária Brasileira"
+    },
+    {
+      "arquivo": "02-montese-autran-1946.jpg",
+      "alt": "Dibujo en perspectiva del terreno de Montese, con flechas rojas gruesas y finas que indican las direcciones de ataque y nombres como Montese, Cemitério, Monte Buffone y Montello",
+      "legenda": "\"Combate de Montese, 14-IV-945\", dibujo firmado por Autran en 1946. Las flechas gruesas son las direcciones de ataque del 11.º R.I.; las finas, del 1.º R.I.",
+      "autor": "Força Expedicionária Brasileira (dibujo firmado por Autran, 1946)"
+    },
+    {
+      "arquivo": "02-montese-pracinhas.jpg",
+      "alt": "Soldados brasileños tendidos detrás de un terraplén, uno de ellos con una ametralladora sobre bípode, frente a casas de piedra",
+      "legenda": "Soldados brasileños en posición en Montese, con casas de piedra al frente.",
+      "autor": "Força Expedicionária Brasileira"
+    },
+    {
+      "arquivo": "02-montese-rua.jpg",
+      "alt": "Calle estrecha de Montese con fachadas marcadas por la metralla, un jeep y un camión, y la torre de la ciudad dañada al fondo",
+      "legenda": "Vehículos de la FEB en una calle de Montese; al fondo, la torre dañada.",
+      "autor": "Força Expedicionária Brasileira"
+    },
+    {
+      "arquivo": "02-montese-castelluccio.jpg",
+      "alt": "Interior de una iglesia con el techo destruido y la pared del fondo reducida a escombros, bancos de madera en el suelo",
+      "legenda": "La iglesia de Castelluccio di Montese después de los bombardeos.",
+      "autor": "Força Expedicionária Brasileira"
+    },
+    {
+      "arquivo": "02-montese-carta-ams.jpg",
+      "alt": "Carta topográfica militar estadounidense de la hoja Fanano, con curvas de nivel, caminos en rojo, ríos en azul y leyenda a la derecha",
+      "legenda": "La carta de la zona de Montese: Army Map Service, Italia 1:50.000, hoja 97-I \"Fanano\", 2.ª edición, mayo de 1944.",
+      "autor": "U.S. Army Map Service"
+    }
+  ]
+}

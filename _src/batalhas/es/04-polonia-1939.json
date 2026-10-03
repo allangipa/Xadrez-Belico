@@ -1,0 +1,251 @@
+{
+  "batalha": "La campaña de Polonia",
+  "nome_busca": "Invasión de Polonia",
+  "titulo_video": "La Blitzkrieg no existía: lo que muestra la Polonia de 1939",
+  "lugar": "Polonia, en las fronteras de 1939",
+  "data": "1.º de septiembre al 6 de octubre de 1939",
+  "campanha": "La Segunda Guerra Mundial, 1939",
+  "pergunta": "La forma de jugar que el mundo llamó Blitzkrieg, ¿ya existía en septiembre de 1939, o se escribió después, mirando el resultado?",
+  "resumo": "Invasión de Polonia: la división alemana invasora tenía 3.859 caballos, y la palabra Blitzkrieg salió de los diarios. La campaña de 1939, como partida.",
+  "abertura": [
+    "El 1.º de septiembre de 1939, una división de infantería alemana tenía 3.859 caballos. La división polaca a la que iba a enfrentarse tenía unos 2.000. El ejército que el mundo pasaría a asociar con la guerra relámpago tenía casi el doble de caballos por división que el ejército al que derrotó.",
+    "La campaña duró 35 días y terminó en una victoria alemana completa. La pregunta de esta página no es si fue rápida — lo fue. Es otra: ¿el método estaba escrito antes de la primera jugada, o se leyó en el resultado y solo entonces recibió un nombre?"
+  ],
+  "numeros": [
+    {
+      "valor": "3.859",
+      "rotulo": "caballos por división de infantería alemana, contra unos 2.000 en la polaca"
+    },
+    {
+      "valor": "9",
+      "rotulo": "divisiones blindadas alemanas, en un total de 60 a 70 divisiones"
+    },
+    {
+      "valor": "35 días",
+      "rotulo": "del 1.º de septiembre al 6 de octubre de 1939"
+    },
+    {
+      "valor": "11 de septiembre",
+      "rotulo": "el día en que la marcha sobre Varsovia se desvió hacia el Bzura"
+    },
+    {
+      "valor": "170.000",
+      "rotulo": "polacos capturados en el Bzura"
+    },
+    {
+      "valor": "17 de septiembre",
+      "rotulo": "la Unión Soviética invade por el este"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Fuerzas — Alemania",
+      "valor": "66 divisiones y 6 brigadas, según el conteo más citado; el estudio del Ejército de EE. UU. de 1942 habla de 60 a 70 divisiones y unos 1.250.000 hombres",
+      "nota": "Los dos conteos no miden lo mismo; el rango es lo que ambos sostienen juntos."
+    },
+    {
+      "item": "Divisiones blindadas alemanas",
+      "valor": "9 — cinco pesadas y cuatro ligeras",
+      "nota": "Estudio del Ejército de EE. UU., 1942."
+    },
+    {
+      "item": "Tanques — Alemania",
+      "valor": "2.750 empleados en la operación, según la Wikipedia en inglés; el estudio estadounidense de 1942 dice que Alemania había producido 6.000, tres cuartas partes de ellos en divisiones panzer",
+      "nota": "Una cifra es lo que entró en la campaña; la otra, el inventario."
+    },
+    {
+      "item": "Fuerzas — Polonia",
+      "valor": "39 divisiones, 16 brigadas, 4.300 cañones, 210 tanques y 670 tanquetas, 800 aviones"
+    },
+    {
+      "item": "Fuerzas — URSS",
+      "valor": "33 divisiones o más, 11 brigadas o más, 4.736 tanques, 3.300 aviones"
+    },
+    {
+      "item": "División de infantería, lado a lado",
+      "valor": "alemana: 3.859 caballos y 1.067 vehículos a motor; polaca: unos 2.000 caballos y unos 5 autos de estado mayor",
+      "nota": "Tabla comparativa del estudio del Ejército de EE. UU., 1942. La cifra es por división de infantería, no el total del ejército."
+    },
+    {
+      "item": "Comandantes en el Bzura",
+      "valor": "Polonia: Tadeusz Kutrzeba (Ejército Poznań) y Władysław Bortnowski (Ejército Pomorze). Alemania: Gerd von Rundstedt, Johannes Blaskowitz (8.º Ejército), Walther von Reichenau (10.º Ejército), Günther von Kluge (4.º Ejército)"
+    },
+    {
+      "item": "Terreno",
+      "valor": "llanura abierta, sin una línea de río o montaña que sirva de defensa continua; Polonia rodeada por Alemania al oeste, Prusia Oriental al norte y la Checoslovaquia ocupada al sur"
+    },
+    {
+      "item": "Objetivo alemán",
+      "valor": "cercar y destruir al ejército polaco y tomar Varsovia"
+    },
+    {
+      "item": "Duración",
+      "valor": "35 días, del 1.º de septiembre al 6 de octubre de 1939; Varsovia resiste hasta finales de septiembre y la última unidad polaca capitula en Kock, a comienzos de octubre"
+    },
+    {
+      "item": "Bajas — Alemania",
+      "valor": "16.343 muertos, 30.300 heridos, 3.500 desaparecidos; 236 tanques y 246 aviones perdidos"
+    },
+    {
+      "item": "Bajas — Polonia",
+      "valor": "66.000 muertos y 133.700 heridos"
+    },
+    {
+      "item": "Bajas — URSS",
+      "valor": "1.475 muertos y 2.383 heridos"
+    },
+    {
+      "item": "Prisioneros",
+      "valor": "unos 690.000 polacos capturados en la campaña; 170.000 de ellos en el Bzura",
+      "nota": "La cifra del Bzura viene de una sola fuente: Wikipedia en inglés, Battle of the Bzura."
+    },
+    {
+      "item": "Resultado",
+      "valor": "victoria alemana, con la invasión soviética por el este a partir del 17 de septiembre; la resistencia polaca organizada termina en Kock"
+    },
+    {
+      "item": "Lo que vino después",
+      "valor": "la palabra Blitzkrieg entra en circulación en la prensa occidental durante la campaña; el 10 de mayo de 1940 Alemania ataca en el oeste"
+    }
+  ],
+  "lances": [
+    {
+      "titulo": "El tablero: una herradura sin casilla fuerte",
+      "paragrafos": [
+        "La Polonia de 1939 tiene a Alemania al oeste, a Prusia Oriental al norte y a Checoslovaquia, ya ocupada, al sur. El país está dentro de una herradura. Y no hay, en ese borde, una línea de río o de montaña que permita decir \"aquí es donde se frena\": es llanura, y la frontera tiene miles de kilómetros.",
+        "Quien defiende un tablero así elige entre dos posiciones malas. Repartir la tropa por la frontera entera y quedar débil en cada punto, o retroceder al centro y entregar sin lucha las regiones industriales, que están justamente en el borde. Polonia se quedó con la primera, y buena parte de lo que ocurre en las cinco semanas siguientes sale de esa elección de apertura."
+      ]
+    },
+    {
+      "titulo": "Las piezas: una punta blindada y un mango a pie",
+      "paragrafos": [
+        "Según el estudio del Ejército de EE. UU. publicado en 1942, Alemania empleó o tenía a disposición unos 1.250.000 hombres en 60 a 70 divisiones. De ellas, nueve eran blindadas: cinco pesadas y cuatro ligeras. Más de ocho de cada diez divisiones alemanas que entraron en Polonia eran infantería que marchaba a pie, con artillería tirada por animales.",
+        "La tabla comparativa del mismo estudio completa el retrato. Por división de infantería, la alemana tenía 1.067 vehículos a motor — y 3.859 caballos. La polaca tenía unos 5 autos de estado mayor y unos 2.000 caballos. La división alemana tenía más motor, y tenía también más caballo.",
+        "La punta blindada era real, nueva y eficaz. Pero era la punta de una lanza cuyo mango avanzaba a la velocidad de un hombre a pie. Cualquier lectura de la campaña que empiece por la máquina y olvide el mango empieza por el lado equivocado del tablero."
+      ]
+    },
+    {
+      "titulo": "El plan: la jugada más vieja del manual",
+      "paragrafos": [
+        "El plan alemán no era una doctrina nueva. Era la idea más tradicional del pensamiento militar alemán: entrar por los flancos, cerrar dos pinzas detrás del enemigo y aniquilar lo que quedara dentro. Cerco y aniquilamiento, una escuela mucho más vieja que 1939.",
+        "Lo que cambió fue la herramienta. La pinza de siempre, ahora con una punta que avanzaba sobre orugas y camiones, y con aviación golpeando por delante. La novedad estaba en la velocidad de la punta, no en el diseño de la jugada.",
+        "En la primera semana el plan funciona casi como en el papel. Las columnas alemanas entran por el norte, por el oeste y por el sur, la fuerza aérea polaca es batida en los primeros días, y los enlaces entre los ejércitos polacos empiezan a perderse. Sin enlace, un ejército se vuelve varios pedazos que no saben lo que hace el otro."
+      ]
+    },
+    {
+      "titulo": "Krojanty: el primer día y el mito que nace en él",
+      "paragrafos": [
+        "El 1.º de septiembre, cerca de la aldea de Krojanty, en la Pomerania polaca, la caballería polaca carga. De allí sale la historia más repetida de la campaña: la de polacos atacando tanques alemanes con lanza y sable.",
+        "El registro dice otra cosa. La carga fue contra infantería alemana, en un claro, dispersó a la unidad y ocupó el terreno. Los blindados alemanes aparecieron después, y solo entonces la caballería se retiró, con bajas graves. El objetivo táctico se cumplió: las unidades del Grupo Operativo Czersk se retiraron hacia el sur sin persecución, y los alemanes tardaron varias horas en reorganizarse.",
+        "La caballería polaca llevaba el fusil antitanque wz. 35, de 7,92 mm, y estaba siendo reorganizada en brigadas motorizadas. El caballo, allí, era transporte — como lo era para la mayor parte del ejército alemán."
+      ]
+    },
+    {
+      "titulo": "El Bzura: la pieza que quedó viva detrás de la línea",
+      "paragrafos": [
+        "Al oeste estaba el Ejército Poznań, del general Tadeusz Kutrzeba. No había sido derrotado; lo habían dejado atrás. Las columnas alemanas pasaron de largo, corriendo hacia Varsovia. En términos de tablero, quedó una pieza entera viva detrás de la línea de avance.",
+        "Kutrzeba y su estado mayor ya habían propuesto una ofensiva hacia el sur antes de la invasión, y la propuesta había sido rechazada. Con el mando lejos y los enlaces cortados, siguió adelante sin autorización. El 9 de septiembre, cerca de Kutno, en el centro de Polonia, el Ejército Poznań, con el Ejército Pomorze, ataca el flanco alemán a lo largo del río Bzura. La batalla, del 9 al 19 de septiembre, es la mayor de la campaña.",
+        "Los alemanes subestimaron el avance polaco, y el 11 de septiembre corrigen a gran escala: sacan de la marcha sobre Varsovia el grueso del 10.º Ejército, el 4.º Ejército, las reservas del Grupo de Ejércitos Sur y aviación de la 4.ª Flota Aérea, incluidas la 1.ª y la 4.ª Divisiones Panzer y un regimiento de infantería de las SS recién formado. Es la jugada que define la página: en el 11.º día, una campaña descrita después como una máquina sobre rieles tuvo que detener la marcha sobre la capital y girar dos ejércitos hacia un costado.",
+        "Los polacos atacan en dirección a Stryków entre el 9 y el 12 de septiembre, y en la de Łowicz entre el 13 y el 15. Del 16 al 19, la masa alemana desviada se cierra. En el punto máximo había 225.000 polacos y 425.000 alemanes en la región — pero los 425.000 son consecuencia del redireccionamiento, no el punto de partida. El final es duro: dos ejércitos destruidos, entre 18.000 y 20.000 muertos, 32.000 heridos y 170.000 capturados polacos; del lado alemán, 8.000 muertos, 4.000 capturados y 50 tanques perdidos."
+      ]
+    },
+    {
+      "titulo": "17 de septiembre: el tablero se da vuelta",
+      "paragrafos": [
+        "Con el frente aún en pie y Varsovia resistiendo, la Unión Soviética invade por el este el 17 de septiembre. No es una nota al pie: lo que quedaba del plan polaco dependía de retroceder hacia el sudeste y sostener una posición hasta que Francia y Gran Bretaña actuaran en el oeste. Con un segundo ejército entrando por detrás, ese rincón del tablero deja de existir.",
+        "Varsovia resiste hasta finales de septiembre; la última unidad polaca capitula en Kock, a comienzos de octubre. La campaña termina el 6 de octubre, 35 días después del primer disparo, con unos 690.000 polacos capturados."
+      ]
+    },
+    {
+      "titulo": "La palabra llega después de la jugada",
+      "paragrafos": [
+        "El término Blitzkrieg aparece impreso en 1935, en la revista militar alemana Deutsche Wehr, ligado a la idea de guerra rápida; términos parecidos circulaban en inglés y en otras lenguas desde los años 1920. Lo que lo pegó a esta campaña fue la prensa occidental: en septiembre de 1939 la revista estadounidense Time describió la acción alemana como \"a war of quick penetration and obliteration — Blitzkrieg, lightning war\" (una guerra de penetración rápida y aniquilación: Blitzkrieg, guerra relámpago; traducción nuestra), y la prensa británica adoptó el término para los éxitos alemanes en Polonia.",
+        "La palabra nunca fue un término militar oficial de la Wehrmacht, salvo en la propaganda, y nunca se adoptó como concepto ni como doctrina. Hitler la llamó \"ein ganz blödsinniges Wort\" — una palabra completamente idiota (traducción nuestra) — y, en noviembre de 1941, dijo no haberla usado nunca. El historiador alemán Karl-Heinz Frieser sostiene que el pensamiento que hoy se llama Blitzkrieg solo se formó después de la campaña en el oeste, en 1940: consecuencia de la victoria, no su causa."
+      ]
+    }
+  ],
+  "veredito": [
+    "La campaña de Polonia se ganó rápido, a gran escala y por completo, contra un adversario invadido por dos lados. Eso no está en discusión. Lo que el tablero muestra es cómo se ganó: con un ejército en el que más de ocho de cada diez divisiones marchaban a pie, ejecutando un plan de cerco y aniquilamiento que era tradicional, con una punta blindada nueva al frente.",
+    "Y muestra que el plan no avanzó solo. En el 11.º día, el alto mando alemán tuvo que desviar la marcha sobre la capital para contener un contraataque que no había previsto — y ese contraataque también era improvisado, lanzado por un general sin autorización. Los dos bandos estaban improvisando.",
+    "Los alemanes tenían doctrina, y buena: la de cercar y destruir. Lo que no existía era la doctrina llamada Blitzkrieg. El resultado llegó primero; el nombre llegó después, puesto por la prensa extranjera mientras la campaña ocurría. En ajedrez, no fue una apertura preparada en casa y jugada de memoria — fue una partida ganada en el tablero y analizada después, hasta convertirse en libro de aperturas."
+  ],
+  "mitos": [
+    {
+      "circula": "La caballería polaca cargó contra tanques alemanes con lanzas y sables.",
+      "registro": "En Krojanty, el 1.º de septiembre de 1939, la carga fue contra infantería alemana, en un claro, y cumplió el objetivo: dispersó a la unidad y cubrió la retirada del Grupo Operativo Czersk. Los blindados llegaron después. La caballería polaca llevaba el fusil antitanque wz. 35 y estaba siendo motorizada. La versión de las lanzas contra tanques nació en la cobertura de la época y fue usada por la propaganda alemana."
+    },
+    {
+      "circula": "Alemania invadió Polonia con un ejército motorizado, una máquina moderna contra un ejército a caballo.",
+      "registro": "De las 60 a 70 divisiones alemanas, nueve eran blindadas. La división de infantería alemana tenía 3.859 caballos, contra unos 2.000 en la polaca — casi el doble. Era infantería a pie con una punta blindada al frente."
+    },
+    {
+      "circula": "La Wehrmacht entró en Polonia ejecutando una doctrina nueva y secreta llamada Blitzkrieg.",
+      "registro": "La palabra nunca fue un término oficial de la Wehrmacht fuera de la propaganda, ni una doctrina. La popularizó la prensa occidental durante la campaña, y Hitler la llamó \"una palabra completamente idiota\" (traducción nuestra). El plan era el tradicional cerco y aniquilamiento; Karl-Heinz Frieser sostiene que el pensamiento Blitzkrieg solo se formó después de 1940."
+    }
+  ],
+  "perguntas": [
+    {"p": "¿Cuándo fue la invasión de Polonia?", "r": "Alemania invadió el 1.º de septiembre de 1939, y la Unión Soviética entró por el este el 17 de septiembre. La campaña duró 35 días: Varsovia resistió hasta finales de septiembre, y la campaña terminó el 6 de octubre, tras la capitulación de la última unidad polaca en Kock."},
+    {"p": "¿Cuántos soldados murieron en la invasión de Polonia?", "r": "Polonia tuvo 66.000 muertos y 133.700 heridos, y unos 690.000 polacos fueron capturados. Alemania perdió 16.343 muertos, 30.300 heridos y 3.500 desaparecidos; la Unión Soviética, 1.475 muertos y 2.383 heridos."},
+    {"p": "¿La invasión de Polonia fue una Blitzkrieg?", "r": "No como doctrina. El plan alemán era el tradicional cerco y aniquilamiento, ejecutado por un ejército en el que solo nueve de 60 a 70 divisiones eran blindadas. La palabra Blitzkrieg la popularizó la prensa occidental durante la campaña y nunca fue doctrina de la Wehrmacht."},
+    {"p": "¿La caballería polaca atacó tanques con lanzas en la invasión de Polonia?", "r": "No. En Krojanty, el 1.º de septiembre de 1939, la carga fue contra infantería alemana y cumplió el objetivo; los blindados llegaron después. La versión de las lanzas contra tanques nació en la cobertura de la época y fue usada por la propaganda alemana."},
+    {"p": "¿Cuál fue la batalla más grande de la invasión de Polonia?", "r": "La del río Bzura, del 9 al 19 de septiembre de 1939. El contraataque del general Tadeusz Kutrzeba obligó a los alemanes, el 11 de septiembre, a desviarse de la marcha sobre Varsovia; al final, 170.000 polacos fueron capturados allí."}
+  ],
+  "fontes": [
+    {
+      "texto": "Digests and Lessons of Recent Military Operations: The German Campaign in Poland, September 1 to October 5, 1939. United States Government Printing Office, Washington, 1942."
+    },
+    {
+      "texto": "Invasion of Poland — Wikipedia en inglés."
+    },
+    {
+      "texto": "Battle of the Bzura — Wikipedia en inglés."
+    },
+    {
+      "texto": "Charge at Krojanty — Wikipedia en inglés."
+    },
+    {
+      "texto": "Blitzkrieg — Wikipedia en inglés."
+    },
+    {
+      "texto": "Karl-Heinz Frieser, The Blitzkrieg Legend: The 1940 Campaign in the West (citado por la Wikipedia en inglés)."
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "04-polonia-capa.jpg",
+      "alt": "Fila de soldados alemanes con casco subiendo a pie una ladera de campo abierto, con otros grupos en marcha al fondo",
+      "legenda": "Infantería alemana en marcha a pie durante la campaña de Polonia, 1939. Más de ocho de cada diez divisiones alemanas avanzaban así.",
+      "autor": "Fotógrafo desconocido · Narodowe Archiwum Cyfrowe, sygn. 2-39"
+    },
+    {
+      "arquivo": "04-polonia-mapa-alemao.jpg",
+      "alt": "Mapa alemán dibujado a mano con flechas de ataque que convergen desde el norte, el oeste y el sur sobre Varsovia, y un cerco marcado alrededor de Kutno",
+      "legenda": "Mapa alemán de época con las direcciones de ataque en Polonia en septiembre de 1939. El círculo punteado alrededor de Kutno está en la región del Bzura.",
+      "autor": "Autor desconocido · Narodowe Archiwum Cyfrowe, sygn. 2-1"
+    },
+    {
+      "arquivo": "04-polonia-cavalaria-sochaczew.jpg",
+      "alt": "Jinetes polacos al galope por una calle entre casas en ruinas, bajo el humo",
+      "legenda": "Caballería polaca en Sochaczew, ciudad a orillas del Bzura, 1939.",
+      "autor": "Fotógrafo desconocido"
+    },
+    {
+      "arquivo": "04-polonia-bzura.jpg",
+      "alt": "Cañones y carretas de ruedas de madera abandonados y destrozados en la orilla de un río",
+      "legenda": "Artillería y carretas polacas abandonadas en la orilla del Bzura, septiembre de 1939. Tracción animal, a los dos lados del río.",
+      "autor": "Fotógrafo desconocido · Narodowe Archiwum Cyfrowe, sygn. 2-150"
+    },
+    {
+      "arquivo": "04-polonia-encontro-sovietico.jpg",
+      "alt": "Un oficial alemán estrecha la mano de un oficial soviético, con otro soldado soviético y un centinela alemán al lado",
+      "legenda": "Un oficial alemán y oficiales soviéticos se encuentran en Polonia, septiembre de 1939. Después del 17 de septiembre, la campaña tenía dos frentes de invasión.",
+      "autor": "Corresponsal de guerra de la TASS, no identificado"
+    },
+    {
+      "arquivo": "04-polonia-prisioneiros.jpg",
+      "alt": "Multitud densa de soldados polacos sentados, con capote y gorra, mirando a la cámara",
+      "legenda": "Prisioneros de guerra polacos, 1939. La campaña terminó con unos 690.000 capturados.",
+      "autor": "Autor desconocido"
+    }
+  ]
+}

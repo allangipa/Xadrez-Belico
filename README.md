@@ -215,8 +215,8 @@ idioma e os links caem no português. **Mudou a política de privacidade em
 português, mude a tradução junto** (e a data no topo das duas). O 404 é um
 só, em português.
 
-Inglês completo desde 03/10/2026: as 20 batalhas, os 6 temas
-(`_src/temas.en.json`), Sobre, Contato e Privacidade.
+Inglês e espanhol completos desde 03/10/2026: as 20 batalhas, os 6 temas
+(`_src/temas.en.json`, `_src/temas.es.json`), Sobre, Contato e Privacidade. Na trava de bastidor, "TODO" só reprova em maiúscula ("todo" é palavra em espanhol).
 
 ### Traduzir uma batalha (o fluxo)
 

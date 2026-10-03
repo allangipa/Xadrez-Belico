@@ -1,0 +1,268 @@
+{
+  "num": "19",
+  "slug": "tuiuti",
+  "batalha": "Tuyutí",
+  "nome_busca": "Batalla de Tuyutí",
+  "titulo_video": null,
+  "lugar": "Tuyutí, entre el Estero Bellaco y el Estero Rojas, departamento de Ñeembucú, Paraguay, en el camino de Paso de Patria a Humaitá",
+  "data": "24 de mayo de 1866",
+  "campanha": "Guerra de la Triple Alianza (o Guerra del Paraguay), 1866",
+  "pergunta": "¿Por qué el ataque sorpresa paraguayo contra el campamento aliado entre los esteros de Tuyutí se convirtió en la mayor batalla campal de América del Sur — y por qué la sorpresa no alcanzó?",
+  "resumo": "Batalla de Tuyutí, 1866: López atacó por sorpresa el campamento aliado entre esteros. La señal salió horas tarde y el adversario ya estaba en armas.",
+  "abertura": [
+    "El 20 de mayo de 1866 el ejército aliado — brasileños, argentinos y uruguayos — acampa en Tuyutí, una elevación seca rodeada de esteros y monte en el sur del Paraguay, camino a la Fortaleza de Humaitá. Riachuelo había dado a los aliados el río; ahora estaban en tierra, del otro lado del Paraná. Cuatro días después, Francisco Solano López lanza contra ellos unos 24 mil hombres, en un ataque sorpresa por tres frentes.",
+    "Se la ha considerado la mayor batalla campal de América del Sur, y sin duda la más sangrienta: unas 13 mil bajas paraguayas en cinco horas. La pregunta de esta página es por qué un ataque sorpresa, bien diseñado, contra un adversario recostado sobre el estero, terminó así. La respuesta está en el reloj y en el terreno."
+  ],
+  "numeros": [
+    {
+      "valor": "~55 mil",
+      "rotulo": "hombres en el campo: unos 24 mil paraguayos contra 32 mil a 35 mil aliados, según la fuente",
+      "conf": "DIV"
+    },
+    {
+      "valor": "9 h → mediodía",
+      "rotulo": "la hora en que se esperaba la señal, según el testigo paraguayo, y la hora en que salió",
+      "conf": "2+"
+    },
+    {
+      "valor": "5 horas",
+      "rotulo": "de combate, desde el final de la mañana hasta las 16 h o las 16:30",
+      "conf": "2+"
+    },
+    {
+      "valor": "~6.000",
+      "rotulo": "paraguayos muertos; unas 13.000 bajas, más de la mitad de los que atacaron",
+      "conf": "2+"
+    },
+    {
+      "valor": "996",
+      "rotulo": "muertos aliados en el recuento oficial, en un total cercano a 4.000 bajas; otras cuentas llegan a 8.000",
+      "conf": "DIV"
+    },
+    {
+      "valor": "4",
+      "rotulo": "obuses llevados por los paraguayos al ataque — los cuatro fueron tomados. La artillería paraguaya quedó parada",
+      "conf": "2+"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Paraguay — fuerzas",
+      "valor": "unos 24.000 hombres en el ataque, con fuerte caballería; las fuentes van de 22.000 a 26.000",
+      "conf": "DIV",
+      "nota": "George Thompson, ingeniero inglés al servicio del Paraguay, cuenta 23.000 en el ataque, de un ejército de 25.000."
+    },
+    {
+      "item": "Aliados — fuerzas",
+      "valor": "32.000 a 35.000: unos 21.000 brasileños, 10.000 a 12.000 argentinos y 1.200 a 1.400 uruguayos. Buena parte de la caballería aliada estaba a pie, por falta de caballos",
+      "conf": "DIV"
+    },
+    {
+      "item": "Paraguay — mando",
+      "valor": "Francisco Solano López, que siguió la batalla de lejos; en el campo, el general Vicente Barrios (derecha), los coroneles José Eduvigis Díaz e Hilario Marcó (centro) y el general Francisco Isidoro Resquín (izquierda)",
+      "conf": "2+"
+    },
+    {
+      "item": "Aliados — mando",
+      "valor": "Bartolomé Mitre, presidente argentino y comandante en jefe; Manuel Luís Osório (brasileños); Venancio Flores, presidente uruguayo (vanguardia, en el centro); el teniente coronel Emílio Mallet (1.er Regimiento de Artillería a Caballo); el brigadier Antônio de Sampaio (3.ª División)",
+      "conf": "2+"
+    },
+    {
+      "item": "Terreno",
+      "valor": "elevación seca entre el Estero Bellaco al sur, el Potrero Piris y la Laguna Piris al oeste y el Estero Rojas al norte. Los esteros tienen de 1 a 2 metros de agua sobre barro, con juncal cerrado: solo se cruzan por los pasos y por picadas en el monte",
+      "conf": "2+",
+      "nota": "La descripción del estero es de Thompson, que construyó las trincheras paraguayas."
+    },
+    {
+      "item": "Plan paraguayo",
+      "valor": "ataque frontal al centro y doble envolvimiento: Barrios por el monte hasta el Potrero Piris, a retaguardia de la izquierda aliada; Resquín por la derecha aliada; las dos caballerías debían encontrarse detrás de los aliados",
+      "conf": "2+"
+    },
+    {
+      "item": "Columnas",
+      "valor": "tres frentes de ataque; cuatro columnas en el recuento que separa a Díaz y Marcó en el centro",
+      "conf": "DIV",
+      "nota": "Thompson y el parte de combate de Osório hablan de tres columnas."
+    },
+    {
+      "item": "La señal",
+      "valor": "dependía de Barrios, que tenía el camino más largo. Esperada para las 9 h según Thompson; salió cerca del mediodía — 11:30 para Thompson, 11:55 en la historiografía militar brasileña, \"de las 11 a las 12\" (traducción nuestra) en el parte de Osório",
+      "conf": "DIV"
+    },
+    {
+      "item": "Duración",
+      "valor": "unas cinco horas; final a las 16 h (Thompson) o a las 16:30 (Osório)",
+      "conf": "2+"
+    },
+    {
+      "item": "Bajas paraguayas",
+      "valor": "unos 6.000 muertos y 13.000 bajas en total (Thompson, del lado paraguayo, y el recuento corriente). Osório, dos días después, hablaba de más de 3.000 muertos en el campo, 2.200 ya sepultados",
+      "conf": "2+"
+    },
+    {
+      "item": "Bajas aliadas",
+      "valor": "996 muertos y unos 3.000 heridos en el recuento corriente (737 muertos brasileños); Osório, el 26 de mayo, registró 413 brasileños muertos y 2.094 heridos. Thompson y la entrada de Thomas Whigham hablan de unas 8.000 bajas aliadas",
+      "conf": "DIV"
+    },
+    {
+      "item": "Prisioneros",
+      "valor": "pocos, casi todos heridos: unos 350 según Thompson, 180 en el parte de Osório",
+      "conf": "DIV"
+    },
+    {
+      "item": "Resultado",
+      "valor": "ataque paraguayo rechazado en toda la línea. El brigadier Sampaio, herido tres veces, muere el 6 de julio de 1866, a bordo del vapor Eponina",
+      "conf": "2+"
+    },
+    {
+      "item": "Lo que vino después",
+      "valor": "los aliados no persiguen, sin caballos, y se quedan en el campamento hasta septiembre. Paraguay nunca más reúne una fuerza de ese tamaño y pasa a pelear sobre todo desde trincheras — Curupayty, Humaitá",
+      "conf": "2+"
+    }
+  ],
+  "lances": [
+    {
+      "titulo": "El tablero: un campamento recostado sobre el estero",
+      "paragrafos": [
+        "El 11 de junio de 1865, en Riachuelo, la escuadra brasileña le quitó al Paraguay la capacidad de disputar el río. En abril de 1866 los aliados cruzaron el Paraná en Paso de Patria y entraron en territorio paraguayo. El 2 de mayo López atacó la vanguardia de Venancio Flores en el Estero Bellaco y fue rechazado. El 20 de mayo los aliados acamparon en Tuyutí; ese mismo día López llevó su cuartel general a Paso Pucú, a pocos kilómetros al norte.",
+        "Tuyutí era una elevación seca entre esteros. Al sur estaba el Estero Bellaco; al oeste, el Potrero Piris y la Laguna Piris; al norte, el Estero Rojas y las trincheras paraguayas. George Thompson, el ingeniero inglés que construyó esas trincheras para López, describió los esteros como quien los midió: de 1 a 2 metros de agua sobre barro hondo, juncal más alto que un hombre y tan cerrado que era casi intransitable. Solo se pasaba por los pasos, donde se había arrancado el junco, y aun allí con agua hasta la cintura. Alrededor, monte de espinas y enredaderas donde apenas se veía a veinte metros.",
+        "El estero protegía a los aliados y, al mismo tiempo, los encerraba. Pero también decidía por dónde podía salir un atacante: por pocos pasos y picadas, conocidos o por abrir. Ese es el tablero en el que López eligió jugar."
+      ]
+    },
+    {
+      "titulo": "El plan: atacar antes de ser atacado",
+      "paragrafos": [
+        "Hasta el 23 de mayo, según Thompson, el plan paraguayo era esperar. Cuando los aliados atacaran las trincheras de Paso Gómez, 10.000 hombres saldrían del Potrero Sauce por un camino ya abierto en el monte — faltaban solo algunos metros para romper — y caerían sobre la retaguardia aliada. López cambió de idea el 23 de mayo. Un año después, le explicó a Thompson que se enteró del plan de Bartolomé Mitre de atacar el día 25, no le gustó y resolvió impedirlo atacando antes.",
+        "El nuevo plan era un ataque frontal con doble envolvimiento. Los coroneles José Eduvigis Díaz e Hilario Marcó atacarían el centro, saliendo del monte sin ser vistos. El general Francisco Isidoro Resquín, formado antes del amanecer detrás de los palmares de Yataity Corá, atacaría la derecha aliada, donde estaban los argentinos. El general Vicente Barrios marcharía por el borde del estero hasta el Potrero Piris y formaría allí, a retaguardia de la izquierda aliada, donde estaban los brasileños. Las caballerías de Barrios y de Resquín debían encontrarse detrás del campamento. Era un cerco.",
+        "El plan entero dependía de la simultaneidad, y la simultaneidad dependía de Barrios, que tenía el camino más largo. Por eso la señal del ataque general solo se daría cuando él estuviera listo: un cañonazo desde Paso Gómez, en la versión de Thompson; un cohete, en otras. El camino de Barrios era una picada abierta bajo el monte, al ras del estero, por donde los hombres pasaban de a uno y los jinetes desmontados, tirando de los caballos."
+      ]
+    },
+    {
+      "titulo": "El reloj: la señal sale cerca del mediodía",
+      "paragrafos": [
+        "Thompson, que pasó aquel día junto a López, escribió que se esperaba a Barrios del otro lado del desfiladero a las 9 horas. Recién terminó a las 11:30, y recién entonces se dio la señal. La historiografía militar brasileña registra las 11:55; Osório, en el parte de combate que envió a Mitre el 26 de mayo, dice que el ataque llegó \"de las 11 a las 12 de la mañana\" (traducción nuestra); el croquis de época del mayor Conrado Bitancourt empieza las posiciones a las 11:15. Las versiones divergen en el minuto y coinciden en lo esencial: el ataque que debía ser de mañana salió cerca del mediodía.",
+        "Y encontró al adversario formado. \"Por suerte para los aliados\", escribió Thompson, \"resultó que estaban todos en armas\" (traducción nuestra): Mitre iba a hacer aquel día un reconocimiento en fuerza sobre las líneas paraguayas. La sorpresa tenía dos condiciones — llegar sin ser visto y llegar antes de que el adversario se formara. La primera funcionó en parte: Díaz y Resquín salieron del monte y de los palmares sin ser notados. La segunda se quedó en la picada de Barrios.",
+        "Tres minutos después de la señal, según Thompson, el combate era general en toda la línea, y el fuego de fusil era un sonido continuo, cortado por los cañones aliados."
+      ]
+    },
+    {
+      "titulo": "El centro y la artillería",
+      "paragrafos": [
+        "En el centro, Díaz atacó la vanguardia de Flores. Para llegar a ella, sus hombres tenían que cruzar un estero hondo, bajo el fuego de la artillería y de los fusiles aliados desde la salida del monte; Thompson escribió que el estero quedó literalmente lleno de muertos. Aun así el ataque abrió una brecha a la altura de los uruguayos. El brigadier Antônio de Sampaio contraatacó con la 3.ª División y aguantó horas de vaivén — Thompson cuenta que brasileños y paraguayos se empujaron unos a otros tres veces entre el Bellaco y el monte. Sampaio fue herido tres veces, el día en que cumplía 56 años, y murió el 6 de julio. Osório tapó la brecha con la 1.ª División de Argolo y una brigada de la 4.ª, de Guilherme, y la 6.ª División cerró el hueco entre Flores y la artillería.",
+        "La artillería es el centro de la explicación. Frente a la vanguardia estaba el 1.er Regimiento de Artillería a Caballo del teniente coronel Emílio Mallet. Según la historiografía militar brasileña, Mallet mandó cavar delante de las piezas un foso ancho y hondo, con la tierra esparcida para no delatar el obstáculo, y las cargas de la caballería paraguaya se detuvieron en él, bajo metralla. Las fuentes divergen sobre el número de piezas — 24, 28 o 30 — y la frase que la tradición del Ejército brasileño atribuye a Mallet, \"por aquí no pasan\" (traducción nuestra), aparece en tres redacciones y sin documento de la época. El registro del otro lado es más general y más duro: Thompson escribió que los aliados tenían toda su artillería en acción, casi toda rayada, mientras la paraguaya quedó parada. Los paraguayos llevaron al ataque solo cuatro obuses, y los cuatro fueron tomados.",
+        "Thompson agrega el armamento: casi ningún fusil rayado del lado paraguayo, la mayoría de las armas todavía de chispa, contra un ejército aliado en el que no había arma portátil que no fuera rayada."
+      ]
+    },
+    {
+      "titulo": "Los flancos: el cerco que llegó tarde",
+      "paragrafos": [
+        "En la izquierda paraguaya, la caballería de Resquín arrasó en la primera carga: dispersó la caballería correntina de los generales Cáceres y Hornos, que estaba en buena parte a pie. Parte de ella llegó hasta la artillería argentina, y allí, sin apoyo, fue destruida por la reserva argentina. La infantería de Resquín entró después y fue deshecha por la artillería y la infantería argentinas. La reserva de la caballería intentó rodear la derecha aliada por el palmar para encontrarse con Barrios y fue rechazada. Solo un oficial, el mayor Olabarrieta, atravesó la línea con unos veinte hombres y llegó al punto de encuentro. Barrios ya había sido batido. Él volvió abriéndose paso, casi solo y herido.",
+        "En la derecha paraguaya, Barrios desembocó por fin en el Potrero Piris, a retaguardia de la izquierda brasileña. Encontró la brigada ligera del general Antônio de Souza Netto, y Osório mandó allí la 2.ª División de Caballería de Mena Barreto, con infantería y artillería. La planta del campamento dibujada por el ingeniero André Rebouças en junio de 1866 muestra a la caballería brasileña combatiendo a pie en el Potrero Pires. Osório escribió que dirigió en persona ese último combate, y que los restos paraguayos solo escaparon por tres picadas abiertas en el monte.",
+        "El título del croquis de Bitancourt resume lo que salió mal en el plan: las posiciones de las 11:15 a las 3 de la tarde, y \"de esas horas a las 4 1/2\", en que el enemigo, \"metiéndose por los bosques, atacó con todas sus fuerzas el flanco izquierdo\" (traducción nuestra). El golpe de flanco, que debía cerrar el cerco al principio, llegó último, después de que el centro y la izquierda paraguaya ya se habían quebrado."
+      ]
+    },
+    {
+      "titulo": "El precio y lo que vino después",
+      "paragrafos": [
+        "A las 16 h, según Thompson, o a las 16:30, según Osório, terminó. Thompson cuenta 6.000 paraguayos muertos en el campo y 7.000 heridos llevados a los hospitales paraguayos; el recuento corriente queda en los mismos 13.000, más de la mitad de los que atacaron. Osório, dos días después, registraba más de 3.000 muertos enemigos en el campo y 2.200 ya enterrados. Casi no hubo prisioneros ilesos: unos 350, heridos sin excepción, para Thompson; 180, en el parte de Osório. Del lado aliado, el recuento oficial da 996 muertos y cerca de 4.000 bajas; Thompson y la entrada del historiador Thomas Whigham hablan de unas 8.000.",
+        "López no vio la batalla. Thompson, que estaba con él, cuenta que se quedó en un bosque desde donde veía el humo y nada más, y que a la noche mandó tocar a las bandas para que su propio campamento creyera en una victoria. Recién al día siguiente supo el tamaño de la pérdida. Los 10.000 hombres que no habían muerto ni estaban heridos tardaron días en ser reunidos.",
+        "Los aliados no persiguieron: no tenían caballos. Se quedaron en el campamento, que atrincheraron, hasta septiembre. Thompson creía que, después del 24 de mayo, podrían haber rodeado la izquierda paraguaya casi sin pérdidas y alcanzado Humaitá por la retaguardia; en cambio, escribió, quedaron paralizados. Paraguay nunca más reunió una fuerza de ese tamaño, y la guerra se volvió guerra de trincheras, con la Fortaleza de Humaitá cerrando el río."
+      ]
+    }
+  ],
+  "veredito": [
+    "La sorpresa paraguaya era real, pero era una sorpresa sincronizada, y la sincronía dependía de la pieza que tenía el camino más difícil. El estero atrasó esa pieza; el atraso le dio al adversario el tiempo de estar formado; y contra un ejército formado, dispuesto en profundidad, con artillería rayada y reservas que el comandante usó, atacar por pasos angostos de estero, sin la propia artillería y sin empeñar la reserva, solo podía terminar en matanza. Cada columna llegó a una hora distinta, y el golpe de flanco que debía cerrar el cerco llegó último.",
+    "En términos de ajedrez, es la combinación que solo funciona si tres piezas llegan juntas, jugada en un tablero en el que una de ellas tiene que cruzar el monte en fila india. López tenía antes un plan de forma opuesta — esperar el ataque aliado y caer sobre su retaguardia por un camino ya abierto, dejando que el adversario entrara en el estero. Lo cambió la víspera.",
+    "Los aliados ganaron sin ganar la jugada siguiente. Destruyeron lo mejor del ejército de campaña paraguayo y se quedaron parados en el mismo lugar, sin caballos para perseguir. La partida siguió río arriba, frente a una fortaleza."
+  ],
+  "mitos": [
+    {
+      "circula": "El ataque estaba fijado para el amanecer y se atrasó cinco horas.",
+      "registro": "George Thompson, que estaba en el campo paraguayo, escribió que se esperaba a Barrios a las 9 h y que la señal salió a las 11:30; la historiografía militar brasileña da las 11:55 y Osório, \"de las 11 a las 12\" (traducción nuestra). El atraso es seguro. Su tamaño depende de qué hora planeada se acepte."
+    },
+    {
+      "circula": "El foso de Mallet ganó la batalla — \"por aquí no pasan\".",
+      "registro": "El foso delante del 1.er Regimiento de Artillería a Caballo viene de la historiografía militar brasileña y es coherente con el resultado, pero el número de piezas diverge (24, 28 o 30) y la frase, en portugués en el original, aparece en tres redacciones, sin documento de la época: es tradición del Ejército brasileño. El testigo paraguayo no menciona foso y explica la derrota por la artillería aliada, el estero y el armamento."
+    },
+    {
+      "circula": "Los paraguayos atacaban borrachos de caña con pólvora.",
+      "registro": "Era una acusación aliada de la época. Thompson la desmiente: los soldados paraguayos iban al combate con el estómago vacío. El saqueo de comida y bebida que se cuenta es de otra batalla, la segunda de Tuyutí, el 3 de noviembre de 1867."
+    },
+    {
+      "circula": "Eran dos aliados contra cada paraguayo.",
+      "registro": "La frase es de Thompson. Las fuentes dan unos 24 mil paraguayos contra 32 mil a 35 mil aliados: superioridad aliada, pero no de dos contra uno."
+    }
+  ],
+  "perguntas": [
+    {"p": "¿Quién ganó la batalla de Tuyutí?", "r": "Ganaron los aliados — brasileños, argentinos y uruguayos. El ataque paraguayo fue rechazado en toda la línea, y Paraguay nunca más reunió una fuerza de ese tamaño. Pero los aliados, sin caballos, no persiguieron y se quedaron en el campamento hasta septiembre."},
+    {"p": "¿Cuándo y dónde fue la batalla de Tuyutí?", "r": "El 24 de mayo de 1866, en la Guerra de la Triple Alianza, en Tuyutí, una elevación seca entre el Estero Bellaco y el Estero Rojas, en el sur del Paraguay, en el camino de Paso de Patria a Humaitá."},
+    {"p": "¿Cuántos murieron en la batalla de Tuyutí?", "r": "Murieron unos 6.000 paraguayos, en un total de unas 13.000 bajas, más de la mitad de los que atacaron. Del lado aliado, el recuento oficial da 996 muertos y cerca de 4.000 bajas; otras cuentas llegan a unas 8.000."},
+    {"p": "¿Por qué Paraguay perdió la batalla de Tuyutí?", "r": "El ataque sorpresa dependía de que tres frentes llegaran juntos, y la columna de Barrios, que cruzaba el monte junto al estero, se atrasó: la señal salió cerca del mediodía y encontró a los aliados ya en armas. Contra artillería rayada, la paraguaya quedó parada."},
+    {"p": "¿Quién comandó la batalla de Tuyutí?", "r": "Del lado aliado, Bartolomé Mitre, comandante en jefe, con Manuel Luís Osório al frente de los brasileños y Venancio Flores en la vanguardia. Del lado paraguayo, Francisco Solano López, que la siguió de lejos; en el campo, Vicente Barrios, José Eduvigis Díaz, Hilario Marcó y Francisco Isidoro Resquín."}
+  ],
+  "fontes": [
+    {
+      "texto": "George Thompson, The War in Paraguay, Londres, Longmans, Green & Co., 1869, cap. XI.",
+      "url": "https://archive.org/details/cu31924073798666"
+    },
+    {
+      "texto": "Manuel Luís Osório, parte de combate a Bartolomé Mitre, Tuyutí, 26 de mayo de 1866, transcrito en Cláudio Moreira Bento, A Batalha de Tuiuti, a maior batalha campal da América do Sul (AHIMTB).",
+      "url": "http://www.ahimtb.org.br/A%20BATALHA%20DE%20TUIUTI%20-A%20MAIOR%20BATALHA%20CAMPAL%20DA%20AM%C3%89RICA%20DO%20SUL.pdf"
+    },
+    {
+      "texto": "André Rebouças y Bernardino de Sena Madureira, planta del campamento y de la batalla de Tuyutí del 24 de mayo de 1866 (Biblioteca Nacional de Brasil).",
+      "url": "https://commons.wikimedia.org/wiki/File:Planta_do_acampamento_e_da_Batalha_de_Tuyuty_a_24_de_maio_de_1866._Rebou%C3%A7as,_Andr%C3%A9,_1838-1898_%26_Madureiro,_Bernardino_de_Sena_-_(1866).jpg"
+    },
+    {
+      "texto": "Conrado Maria da Silva Bitancourt, Esboço da batalha de Tuyuty (Biblioteca Nacional de Brasil).",
+      "url": "https://commons.wikimedia.org/wiki/File:Esbo%C3%A7o_da_batalha_de_Tuyuty.jpg"
+    },
+    {
+      "texto": "Thomas L. Whigham, \"Tuyutí, Battle of\", Encyclopedia of Latin American History and Culture.",
+      "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/tuyuti-battle"
+    },
+    {
+      "texto": "Carlos Mário de Souza Santos Rosa, \"Tuiuti, 160 anos\", EBlog del Ejército Brasileño, 2026.",
+      "url": "https://eblog.eb.mil.br/w/tuiuti-160-anos"
+    },
+    {
+      "texto": "Battle of Tuyutí — Wikipedia en inglés.",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Tuyut%C3%AD"
+    },
+    {
+      "texto": "Batalha de Tuiuti — Wikipedia en portugués.",
+      "url": "https://pt.wikipedia.org/wiki/Batalha_de_Tuiuti"
+    },
+    {
+      "texto": "Batalla de Tuyutí — Wikipedia en español.",
+      "url": "https://es.wikipedia.org/wiki/Batalla_de_Tuyut%C3%AD"
+    }
+  ],
+  "imagens": [
+    {
+      "alt": "Planta a color del campo de batalla con el Estero Bellaco en azul abajo, el Potrero Pires rodeado de monte a la izquierda, el camino a Humaitá en el centro, las trincheras paraguayas arriba y flechas que indican las columnas de ataque",
+      "legenda": "Planta del campamento y de la batalla de Tuyutí dibujada por los ingenieros André Rebouças y Bernardino de Sena Madureira, fechada en el campamento el 10 de junio de 1866. Las flechas marcan las columnas paraguayas; a la izquierda, el Potrero Pires, adonde llegó la columna de Barrios.",
+      "autor": "André Rebouças y Bernardino de Sena Madureira · Lit. Mège y Willems, Montevideo · Biblioteca Nacional de Brasil"
+    },
+    {
+      "alt": "Pintura de una llanura con cientos de jinetes de rojo en carga, humo de fuego al fondo y una franja de agua y palmeras a la derecha",
+      "legenda": "Pintura de Cándido López, oficial argentino en la guerra, hecha años después a partir de sus bocetos de campaña: episodio de la 2.ª División de Buenos Aires en la batalla de Tuyutí, 24 de mayo de 1866. Museo Histórico Nacional, Buenos Aires.",
+      "autor": "Cándido López · Museo Histórico Nacional (Argentina)"
+    },
+    {
+      "alt": "Croquis litografiado del campo de batalla, con las trincheras paraguayas en zigzag arriba, líneas de tropas en bloques, monte denso a la izquierda y el Estero Bellaco al pie",
+      "legenda": "Croquis de la batalla de Tuyutí por el mayor Conrado Maria da Silva Bitancourt, comandante de los ingenieros de la vanguardia: las posiciones de las 11:15 a las 15 h, y de ahí a las 16:30, cuando el ataque por el monte cayó sobre el flanco izquierdo brasileño.",
+      "autor": "Conrado Maria da Silva Bitancourt · Imperial Instituto Artístico, Río de Janeiro · Biblioteca Nacional de Brasil"
+    },
+    {
+      "alt": "Grabado de mapa en blanco y negro con el campo paraguayo y las colinas de Rojas arriba, columnas paraguayas que descienden, los cuerpos de ejército argentinos a la derecha, monte y bañado a la izquierda y una laguna en el centro",
+      "legenda": "El campo de batalla de Tuyutí en la revista francesa L'Illustration del 1.º de septiembre de 1866, grabado según croquis de dos oficiales del ejército brasileño. El grabado marca el foso delante del campo paraguayo y las columnas que bajaron contra la línea aliada.",
+      "autor": "L. Kautz, grabador, según croquis de Floriano Bravos y Lobos · L'Illustration, vol. XLVIII, n.º 1.227"
+    },
+    {
+      "alt": "Ilustración en blanco y negro de infantería de uniforme oscuro que avanza a paso de carrera en primer plano, artilleros a la izquierda y jinetes en carga entre palmeras y humo al fondo",
+      "legenda": "El ataque paraguayo a las líneas argentinas en Tuyutí, en una ilustración de Francisco Fortuny hecha en 1893 para el Álbum de la Guerra del Paraguay, publicado en Buenos Aires.",
+      "autor": "Francisco Fortuny · Álbum de la Guerra del Paraguay (dir. José C. Soto), Buenos Aires, 1893–1896"
+    }
+  ]
+}

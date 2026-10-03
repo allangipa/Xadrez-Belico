@@ -1,0 +1,240 @@
+{
+  "batalha": "Operación Market Garden",
+  "nome_busca": "Operación Market Garden",
+  "titulo_video": null,
+  "lugar": "Corredor de Eindhoven a Arnhem, en las provincias de Brabante Septentrional y Güeldres, Países Bajos, pasando por Son, Veghel, Grave y Nimega",
+  "data": "17 al 25 de septiembre de 1944",
+  "campanha": "Segunda Guerra Mundial, Países Bajos, 1944",
+  "pergunta": "¿Por qué \"un puente demasiado lejos\"? Un plan que dependía de una sola carretera y de que todos los puentes cayeran intactos y a tiempo.",
+  "resumo": "En la Operación Market Garden, unos 35 mil aerotransportados saltaron sobre Holanda en 1944. Por qué un plan de puentes en serie paró antes del último.",
+  "abertura": [
+    "El 17 de septiembre de 1944, unos 35 mil paracaidistas y soldados en planeador estadounidenses, británicos y polacos caen sobre los Países Bajos para tomar, de una sola vez, los puentes de una carretera de unos 100 km — de Eindhoven a Arnhem, sobre canales, el Mosa, el Waal y el Rin. Por esa carretera, un cuerpo blindado británico debía llegar al Rin en dos días, cuatro como máximo, y abrir el camino hacia Alemania.",
+    "Nueve días después, los sobrevivientes de la división que esperaba en Arnhem cruzan de vuelta el río, de noche, en botes. La pregunta de esta página no es si el plan era audaz — lo era. Es por qué se detuvo exactamente antes del último puente, y por qué la respuesta que más circula, la de que nadie sabía de los tanques alemanes, es la menos completa."
+  ],
+  "numeros": [
+    {
+      "valor": "≈ 100 km",
+      "rotulo": "de una única carretera, de la frontera belga hasta el puente de Arnhem, a recorrer en 2 días, 4 como máximo"
+    },
+    {
+      "valor": "3",
+      "rotulo": "días para entregar la fuerza aerotransportada: no había aviones para llevar a todos de una vez"
+    },
+    {
+      "valor": "8–13 km",
+      "rotulo": "de las zonas de aterrizaje de la 1.ª División Aerotransportada británica al puente de Arnhem, según la fuente"
+    },
+    {
+      "valor": "26",
+      "rotulo": "botes de lona para cruzar el Waal de día en Nimega, el 20 de septiembre, tres días después del salto"
+    },
+    {
+      "valor": "2.398",
+      "rotulo": "hombres traídos de vuelta por el Rin en la retirada del 25 al 26 de septiembre; unos 300 se quedaron"
+    },
+    {
+      "valor": "1.485",
+      "rotulo": "muertos entre las tropas que aterrizaron en Arnhem; unos 6.400 fueron hechos prisioneros"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Objetivo",
+      "valor": "tomar con tropas aerotransportadas los puentes sobre seis cursos de agua entre la frontera belga-holandesa y Arnhem (Market) y hacer pasar por ellos al XXX Cuerpo británico (Garden), cruzando el Bajo Rin y rodeando por arriba la Línea Sigfrido"
+    },
+    {
+      "item": "Aliados — mando",
+      "valor": "Dwight Eisenhower; Bernard Montgomery (21.º Grupo de Ejércitos); Lewis Brereton (1.º Ejército Aerotransportado Aliado); Frederick Browning (I Cuerpo Aerotransportado); Brian Horrocks (XXX Cuerpo)"
+    },
+    {
+      "item": "Aliados — fuerzas",
+      "valor": "101.ª Aerotransportada estadounidense (Maxwell Taylor), Son y Veghel; 82.ª Aerotransportada (James Gavin), Grave, Nimega y las colinas de Groesbeek; 1.ª Aerotransportada británica (Roy Urquhart) y 1.ª Brigada Paracaidista polaca (Stanisław Sosabowski), Arnhem. Unos 35.000 aerotransportados; el XXX Cuerpo con la División Blindada de la Guardia al frente",
+      "nota": "El total aerotransportado aparece como más de 34.600 o entre 35.000 y 40.000."
+    },
+    {
+      "item": "Alemania — mando",
+      "valor": "Gerd von Rundstedt (comandante en el Oeste); Walter Model (Grupo de Ejércitos B); Kurt Student (1.º Ejército Paracaidista); Wilhelm Bittrich (II Cuerpo Panzer SS)"
+    },
+    {
+      "item": "Alemania — fuerzas",
+      "valor": "la 9.ª y la 10.ª Divisiones Panzer SS, muy mermadas después de Normandía, rehaciéndose al norte y al este de Arnhem; unidades de instrucción, de reserva y de otras armas reunidas a toda prisa; el 1.º Ejército Paracaidista al sur",
+      "nota": "La fuerza de las dos divisiones SS difiere: de 6.000–7.000 hombres en total a más de 13.000, con pocos tanques operativos."
+    },
+    {
+      "item": "Terreno",
+      "valor": "una única carretera de dos carriles, en parte elevada sobre pólder y vega, con zanjas y diques a los lados; seis cursos de agua, de los cuales el Waal en Nimega y el Rin en Arnhem no se podían franquear con un puente improvisado"
+    },
+    {
+      "item": "Plazo",
+      "valor": "llegar a Arnhem en 2 días, 4 como máximo; la división de Arnhem debía resistir hasta entonces"
+    },
+    {
+      "item": "Puente de Arnhem",
+      "valor": "el 2.º Batallón Paracaidista de John Frost toma la cabecera norte en la noche del 17 de septiembre y resiste hasta la madrugada del 21, el doble de lo previsto",
+      "nota": "Los efectivos de Frost en el puente son unos 740 hombres, con brigada e ingenieros, según un cálculo; unos 500, según la historia oficial estadounidense."
+    },
+    {
+      "item": "Puente de Nimega",
+      "valor": "tomado solo en la noche del 20 de septiembre, después del cruce del Waal por el 504.º Regimiento Paracaidista estadounidense en 26 botes; los tanques de la Guardia se detienen al otro lado y solo reanudan el avance unas 18 horas después"
+    },
+    {
+      "item": "Duración",
+      "valor": "17 al 25 de septiembre de 1944; la retirada de la orilla norte del Rin va de la noche del 25 a la madrugada del 26"
+    },
+    {
+      "item": "Bajas aliadas",
+      "valor": "la fase aerotransportada costó unos 11.850 muertos, heridos y desaparecidos según la historia oficial estadounidense — 7.212 solo en la fuerza británica de Arnhem, 1.432 en la 82.ª, 2.110 en la 101.ª; el XXX Cuerpo, unos 1.480. El total de la operación va de 15.326 a 17.200"
+    },
+    {
+      "item": "Bajas alemanas",
+      "valor": "3.300 según el cálculo oficial alemán; de unos 6.300 a más de 13.000 en las estimaciones de historiadores"
+    },
+    {
+      "item": "Prisioneros",
+      "valor": "unos 6.400 británicos y polacos capturados en Arnhem, un tercio de ellos heridos",
+      "nota": "Wikipedia en inglés, Operation Market Garden."
+    },
+    {
+      "item": "Resultado",
+      "valor": "Eindhoven y Nimega liberadas y un saliente de unos 105 km abierto en las líneas alemanas; el cruce del Rin en Arnhem, el objetivo que daba sentido a los demás, fracasa"
+    },
+    {
+      "item": "Lo que vino después",
+      "valor": "los Aliados solo cruzan el Rin en marzo de 1945; Arnhem es liberada el 14 de abril de 1945. El puerto de Amberes, capturado el 4 de septiembre, solo recibe barcos a fines de noviembre"
+    }
+  ],
+  "lances": [
+    {
+      "titulo": "El plan: una cadena de puentes, en una sola carretera",
+      "paragrafos": [
+        "En septiembre de 1944, después de Normandía, los ejércitos aliados habían barrido a los alemanes de casi toda Francia y de Bélgica, y el mando aliado creía que el ejército alemán se estaba desmoronando. Montgomery pedía una estocada única y a fondo a través del Rin. Eisenhower aprobó el 10 de septiembre una versión de ella, con prioridad limitada: Market Garden.",
+        "El diseño era simple de enunciar. Tres divisiones aerotransportadas y una brigada polaca tomarían los puentes de una carretera que iba de la frontera belga hasta Arnhem, unos 100 km al norte: la 101.ª estadounidense en Son y Veghel, la 82.ª en Grave y Nimega, la 1.ª británica, la más lejana, en Arnhem. Por la carretera, el XXX Cuerpo subiría en dos días, cuatro como máximo. El horario preveía Eindhoven al final de la tarde del primer día y Arnhem a las 15:00 del tercero.",
+        "En el tablero, eso es una cadena en serie. Cada puente tenía que caer intacto, en orden y a la hora, porque el cuerpo blindado entero y el material de puentes venían por una carretera de dos carriles, en parte elevada sobre el pólder, con zanjas y diques a los lados. No había carretera paralela. Un retraso en cualquier eslabón se transmitía a los siguientes, y el último eslabón, Arnhem, quedaba en manos de la división que dependía de los demás."
+      ]
+    },
+    {
+      "titulo": "La pieza más lejana, entregada a plazos y lejos del objetivo",
+      "paragrafos": [
+        "La primera restricción era de medios. Los aviones disponibles alcanzaban para un 60% de la fuerza en una sola oleada, y las tropas se entregaron en tres días. La 1.ª División Aerotransportada aterrizó el 17 de septiembre con la mitad de sus efectivos, y de esa mitad solo la 1.ª Brigada Paracaidista pudo marchar sobre el puente: el resto tenía que custodiar las zonas de aterrizaje para la oleada del día siguiente.",
+        "La segunda era de lugar. Las zonas estaban en los brezales al oeste de Oosterbeek, de 8 a 13 km del puente, según la fuente. Al norte de la ciudad estaba la antiaérea del aeródromo de Deelen; al sur del puente, el único terreno plano, el pólder de Malburgsche, era pequeño para los planeadores de una brigada y quedaba junto a una batería antiaérea. Después de la guerra el propio Urquhart le dijo al historiador oficial británico que la aviación, con razón, no quiso volar hacia la zona defendida. Martin Middlebrook califica de errores fundamentales el rechazo de los saltos nocturnos, de dos oleadas el primer día y de un golpe de mano sobre el puente; John Frost calificó la distancia de obstáculo flagrante.",
+        "El primer día, dos de las tres columnas fueron contenidas por unidades alemanas improvisadas al oeste de Arnhem. Solo el 2.º Batallón de Frost, por la carretera de la orilla del río, llegó al puente al anochecer y tomó la cabecera norte. El puente ferroviario de Oosterbeek fue volado cuando los británicos llegaron a él. Y a 13 km de distancia, las radios entre el puente y el cuartel general de la división no alcanzaban: el estudio de John Greenacre señala la distancia entre las unidades, mayor que el alcance de los aparatos, como la causa principal."
+      ]
+    },
+    {
+      "titulo": "El primer eslabón se rompe en Son, el segundo se traba en Nimega",
+      "paragrafos": [
+        "El 17 de septiembre, el puente de Son sobre el canal Wilhelmina fue volado por los alemanes cuando la 101.ª llegaba a él. El XXX Cuerpo, que había partido a las 14:35 tras una barrera de artillería, fue emboscado poco después de la frontera y se detuvo de noche en Valkenswaard, sin llegar a Eindhoven. Llegó en la tarde del 18, con un día de retraso, y los ingenieros levantaron un puente Bailey en Son durante la noche.",
+        "Más al norte, la 82.ª tomó Grave y un puente sobre el canal Mosa-Waal, pero concentró el esfuerzo en las colinas de Groesbeek, para bloquear un ataque que viniera del bosque del Reichswald, en Alemania, y solo envió tropas contra el puente de Nimega de noche. Browning estuvo de acuerdo con esa prioridad. Cuando llegó el ataque, ya llegaban unidades de la 10.ª División Panzer SS, y el puente siguió en manos alemanas. La historia oficial estadounidense cuenta cuatro intentos contra él antes del éxito.",
+        "El 19 de septiembre el XXX Cuerpo se encontró con la 82.ª en Grave y el retraso parecía recuperado. Pero el cruce de asalto que el plan preveía para un puente no tomado dependía de botes que venían muy atrás, por la misma carretera. Llegaron en la tarde del 20. Hacia las 15:00, el 3.er Batallón del 504.º Regimiento Paracaidista cruzó el Waal de día, en 26 botes de lona, bajo fuego; la mitad de los botes sobrevivió al primer viaje. Al comienzo de la noche, tanques de la Guardia cruzaron el puente de carretera. El puente que debía caer el primer día cayó el cuarto."
+      ]
+    },
+    {
+      "titulo": "La noche del 20 de septiembre: la jugada más discutida",
+      "paragrafos": [
+        "Al otro lado del Waal, los tanques se detuvieron. Reanudaron el avance unas 18 horas después, al mediodía del 21, y pronto chocaron con una línea alemana en Ressen, a menos de 5 km al norte. En Arnhem, a 11 km de allí, el grupo de Frost todavía resistía esa noche.",
+        "Es la escena que más se repite como explicación, y merece sopesarse con cuidado. Contra la parada está el comandante de la 10.ª SS, Heinz Harmel, que décadas después le dijo a Robert Kershaw que, si esos tanques hubieran seguido, se habría acabado para los alemanes. A favor de ella están la oscuridad, solo cinco tanques al otro lado, cañones antitanque escondidos, la ciudad de Nimega todavía en combate detrás, y lo que Harmel no sabía: tres tanques Tiger y dos compañías de infantería ya bajaban de Arnhem hacia la aldea de Lent.",
+        "Y está el reloj. El puente de Arnhem cayó en la madrugada del 21. Incluso un avance nocturno habría tenido que atravesar 11 km de carretera elevada sobre pólder — el terreno que el comandante de la División Blindada de la Guardia, al verlo, describió como el más inadecuado para tanques que se pudiera imaginar. La parada del 20 de septiembre fue el último retraso, no el decisivo. El decisivo llegó antes, en Son y en el puente de Nimega."
+      ]
+    },
+    {
+      "titulo": "Lo que el adversario hizo con el tiempo que recibió",
+      "paragrafos": [
+        "La inteligencia aliada sabía que había blindados alemanes alrededor de Arnhem. Ultra localizó allí a la 9.ª y la 10.ª Divisiones Panzer SS; el jefe de estado mayor de Eisenhower, Walter Bedell Smith, le llevó la preocupación a Montgomery el 15 de septiembre y fue desestimado. El oficial de inteligencia de Browning, el mayor Brian Urquhart, mostró informes de la resistencia holandesa y fotos aéreas, y fue enviado de licencia por tensión nerviosa y agotamiento. Montgomery escribió después que los Aliados se equivocaron al suponer que ese cuerpo no podía combatir con eficacia.",
+        "Pero las dos divisiones estaban mermadas y casi sin tanques, y ningún tanque alemán combatió el primer día. Lo que pesó fue otra cosa. El mariscal de campo Walter Model, comandante del Grupo de Ejércitos B, se alojaba en un hotel de Oosterbeek cuando los británicos aterrizaron a pocos kilómetros. Salió a toda prisa, evaluó la situación y mandó a Arnhem todos los blindados que pudo, mientras oficiales alemanes convertían restos — escuelas, batallones de reserva, hombres de la aviación y de la marina — en unidades de combate en cuestión de horas. John Hackett, comandante de brigada británico, dijo después de la guerra que un cuartel general alemán hacía de rezagados una unidad cohesionada en un tiempo que los Aliados consideraban imposible.",
+        "El clima hizo el resto. A partir del 18 de septiembre, siete de ocho días tuvieron mal tiempo: la segunda oleada se retrasó horas, la brigada polaca llegó dos días después de lo previsto, y casi todo el reabastecimiento lanzado al norte del Rin cayó en manos alemanas. En un plan con margen, eso sería un contratiempo. En un plan en serie, cada hora perdida se cobraba en el último puente."
+      ]
+    },
+    {
+      "titulo": "Oosterbeek y el regreso por el río",
+      "paragrafos": [
+        "Sin poder llegar al puente, la 1.ª División Aerotransportada se encerró en un perímetro en Oosterbeek, con unos 3.600 hombres, apoyado en el Rin. Los polacos saltaron por fin el 21 de septiembre, en Driel, en la orilla sur, y descubrieron que la balsa ya no existía; los cruces nocturnos improvisados de los días siguientes pusieron a unos pocos cientos de hombres al otro lado. El 24 de septiembre, el intento de un batallón británico terminó con unos 200 de 315 hombres capturados.",
+        "En la noche del 25 al 26, bajo la lluvia, ingenieros británicos y canadienses trajeron de vuelta en pequeños botes a 2.398 hombres: 1.741 de la división, 422 pilotos de planeador, 160 polacos y 75 del batallón de Dorset. Unos 300 se quedaron en la orilla norte cuando amaneció. De las tropas que aterrizaron en Arnhem, 1.485 murieron y unos 6.400 fueron hechos prisioneros.",
+        "Después de la derrota, Montgomery y Browning culparon a la brigada polaca y Sosabowski fue apartado. Historiadores como Carlo D'Este tratan la acusación como la búsqueda de un chivo expiatorio, y los Países Bajos condecoraron a la brigada en 2006. Montgomery, por su parte, calificó Market Garden de éxito en un 90%. Chester Wilmot respondió que la cuenta solo cierra si el éxito se mide por el número de puentes tomados."
+      ]
+    }
+  ],
+  "veredito": [
+    "Market Garden no fracasó por un error. Fracasó porque era una cadena de apuestas en serie — cada puente intacto, en orden, a la hora, por una sola carretera — y porque la pieza que dependía de todas, en Arnhem, fue entregada en tres plazos, a kilómetros del objetivo. Inteligencia desestimada, radios fuera de alcance, zonas de aterrizaje lejanas, el puente de Nimega tomado el cuarto día y el mal tiempo no son explicaciones rivales: son el mismo defecto visto desde lugares distintos. En un plan en serie, las fallas no se suman, se multiplican.",
+    "En términos de ajedrez, es una combinación de seis jugadas que solo funciona si el adversario no responde a ninguna. El adversario respondió en la primera: voló el puente de Son. Model, por casualidad a pocos kilómetros de las zonas de aterrizaje, respondió en todas las demás. La historia oficial estadounidense lo resume: según la lógica implacable de la guerra, Market Garden fue un fracaso.",
+    "Y la frase que dio nombre a la derrota quizá nunca se dijo. «Un puente demasiado lejos» aparece por escrito en 1958, en las memorias del general Urquhart, atribuida a Browning; el historiador Antony Beevor duda de que Browning la haya dicho. Además apunta al puente equivocado: el que trabó el reloj fue Nimega."
+  ],
+  "mitos": [
+    {
+      "circula": "Browning le advirtió a Montgomery que Arnhem era un puente demasiado lejos.",
+      "registro": "La frase aparece por escrito en 1958, en las memorias del general Roy Urquhart, y la popularizaron el libro de Cornelius Ryan en 1974 y la película de 1977. Antony Beevor lo discute: Browning apoyaba la operación, sobre la base de los medios adicionales que había recibido, y no parece haberse reunido con Montgomery ese día."
+    },
+    {
+      "circula": "La operación fracasó porque nadie sabía que había divisiones blindadas de las SS en Arnhem.",
+      "registro": "Se sabía. Ultra localizó a la 9.ª y la 10.ª Divisiones Panzer SS; Bedell Smith alertó a Montgomery el 15 de septiembre, y el mayor Brian Urquhart alertó a Browning. La alerta fue desestimada. Pero las dos divisiones estaban mermadas y casi sin tanques: lo que pesó fue la reacción rápida de Model y la capacidad alemana de improvisar unidades con restos."
+    },
+    {
+      "circula": "Las radios británicas fallaron porque llegaron con los cristales equivocados.",
+      "registro": "El estudio del mayor John Greenacre señala como causa principal la distancia entre las unidades, mayor que el alcance de los aparatos. Los cristales equivocados afectaron a dos aparatos, los del equipo estadounidense de apoyo aéreo."
+    },
+    {
+      "circula": "El XXX Cuerpo se detuvo en Nimega y dejó morir a los paracaidistas de Arnhem.",
+      "registro": "La parada de la noche del 20 de septiembre ocurrió y duró unas 18 horas, con solo cinco tanques al otro lado del Waal, antitanques escondidos y tres Tiger bajando de Arnhem. El puente de Arnhem cayó la madrugada siguiente. Los retrasos decisivos llegaron antes: el puente de Son, volado el 17 de septiembre, y el puente de Nimega, que debía caer el primer día y cayó el cuarto."
+    }
+  ],
+  "perguntas": [
+    {
+      "p": "¿Qué fue la Operación Market Garden?",
+      "r": "Fue la operación aliada del 17 al 25 de septiembre de 1944 en los Países Bajos: unos 35 mil aerotransportados tomarían los puentes de una carretera de unos 100 km, de Eindhoven a Arnhem, para que un cuerpo blindado británico llegara al Rin en 2 días, 4 como máximo."
+    },
+    {
+      "p": "¿La Operación Market Garden fue un fracaso?",
+      "r": "Sí, en el objetivo que daba sentido a los demás: el cruce del Rin en Arnhem fracasó. Eindhoven y Nimega fueron liberadas y se abrió un saliente de unos 105 km, y Montgomery habló de un éxito del 90%, pero la historia oficial estadounidense la resume como un fracaso."
+    },
+    {
+      "p": "¿Por qué fracasó la Operación Market Garden?",
+      "r": "Era una cadena de puentes en serie en una sola carretera, y cada retraso pasaba al puente siguiente. El puente de Son fue volado el primer día, el de Nimega solo cayó el cuarto, y la división de Arnhem fue entregada en tres días, a kilómetros del objetivo, frente a la rápida reacción de Model y el mal tiempo."
+    },
+    {
+      "p": "¿Cuántos muertos hubo en la Operación Market Garden?",
+      "r": "De las tropas que aterrizaron en Arnhem, 1.485 murieron y unos 6.400 fueron hechos prisioneros. Las bajas aliadas de toda la operación van de 15.326 a 17.200, según la fuente; las alemanas, de 3.300 según el cálculo oficial alemán a más de 13.000 en las estimaciones de historiadores."
+    },
+    {
+      "p": "¿Quién dijo “un puente demasiado lejos”?",
+      "r": "La frase se atribuye al general Frederick Browning y aparece por escrito en 1958, en las memorias del general Roy Urquhart. El historiador Antony Beevor duda de que Browning la haya dicho, porque apoyaba la operación."
+    }
+  ],
+  "fontes": [
+    {"texto": "Charles B. MacDonald, The Siegfried Line Campaign, U.S. Army in World War II, Center of Military History, 1963, capítulos VII y VIII."},
+    {"texto": "National Army Museum, \"Operation Market Garden\"."},
+    {"texto": "John Greenacre, \"Assessing the Reasons for Failure: 1st British Airborne Division Signal Communications during Operation 'Market Garden'\", Defence Studies, 2004."},
+    {"texto": "Antony Beevor, Arnhem: The Battle for the Bridges, 1944 (citado por la Wikipedia en inglés)."},
+    {"texto": "Pegasus Archive, \"Lieutenant-General Frederick Browning\"."},
+    {"texto": "Warfare History Network, \"Operation Market Garden: Montgomery's Bridge Too Far\"."},
+    {"texto": "Battle of Arnhem — \"The closing balance\" y \"Why didn't the British radios work?\"."},
+    {"texto": "Operation Market Garden — Wikipedia en inglés."},
+    {"texto": "Battle of Arnhem — Wikipedia en inglés."},
+    {"texto": "Operation Berlin (Arnhem) — Wikipedia en inglés."}
+  ],
+  "imagens": [
+    {
+      "alt": "Vista aérea de un puente de arco de acero sobre un río ancho, con casas en la orilla de arriba y vehículos destruidos amontonados en la rampa de la cabecera norte",
+      "legenda": "El puente de carretera de Arnhem fotografiado desde el aire el 19 de septiembre de 1944, con blindados alemanes destruidos en la cabecera norte, la que el batallón de John Frost sostuvo desde la noche del 17 hasta la madrugada del 21.",
+      "autor": "Fotógrafo no identificado · Imperial War Museums, MH 2061"
+    },
+    {
+      "alt": "Carta topográfica con el Rin en azul atravesando de izquierda a derecha, bosques verdes al norte con Renkum, Oosterbeek y la ciudad de Arnhem, y al sur una llanura de pólder cortada por zanjas, con Driel y Elst",
+      "legenda": "Arnhem y el Bajo Rin en la carta del Army Map Service, Holland 1:25.000, hoja Arnhem, 1.ª edición de 1944. Las zonas de aterrizaje británicas estaban en los bosques y brezales al oeste de Oosterbeek, el puente en la ciudad, a la derecha; al sur, el pólder entre el Rin y Elst, por donde los tanques tendrían que subir.",
+      "autor": "U.S. Army Map Service · Library of Congress, Geography and Map Division"
+    },
+    {
+      "alt": "Fotografía aérea en blanco y negro: una larga fila de aviones de transporte en el cielo brumoso y, abajo, campos en parcelas salpicados de paracaídas abiertos",
+      "legenda": "Aviones de transporte y paracaídas sobre los Países Bajos el 17 de septiembre de 1944, el primer día. Los aviones disponibles alcanzaban para un 60% de la fuerza en una sola oleada, y la entrega llevó tres días.",
+      "autor": "U.S. Army Air Forces · National Archives and Records Administration, NARA 531308"
+    },
+    {
+      "alt": "Tanque Sherman avanza por un puente de carretera ancho, con un gran arco de acero al fondo y dos ciclistas en primer plano, uno de ellos saludando con la mano",
+      "legenda": "Tanques del XXX Cuerpo británico cruzan el puente de carretera de Nimega sobre el Waal, en septiembre de 1944. El puente que el plan preveía para el primer día fue tomado en la noche del 20 de septiembre.",
+      "autor": "Fotógrafo no identificado · Imperial War Museums, EA 44531"
+    },
+    {
+      "alt": "Cuatro paracaidistas británicos armados avanzan por una casa en ruinas, pisando escombros y varillas de hierro",
+      "legenda": "Paracaidistas británicos en una casa destruida de Oosterbeek, el 23 de septiembre de 1944, después de replegarse de Arnhem al perímetro apoyado en el Rin.",
+      "autor": "Sargento D. M. Smith, Army Film and Photographic Unit · Imperial War Museums, BU 1121"
+    }
+  ]
+}

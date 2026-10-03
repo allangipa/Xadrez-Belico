@@ -1,0 +1,226 @@
+{
+  "batalha": "Kursk",
+  "nome_busca": "Batalla de Kursk",
+  "titulo_video": null,
+  "lugar": "Saliente de Kursk, entre Oriol y Bélgorod, óblasts de Kursk, Oriol y Bélgorod, Rusia, hasta Járkov, Ucrania",
+  "data": "5 de julio al 23 de agosto de 1943",
+  "campanha": "Segunda Guerra Mundial, frente oriental, 1943",
+  "pergunta": "¿La mayor batalla de tanques de la Segunda Guerra se ganó antes de empezar?",
+  "resumo": "En la batalla de Kursk, Alemania atacó el punto que ambos bandos veían, dos meses tarde, contra una defensa que la esperaba. Y el mito de Prójorovka.",
+  "abertura": [
+    "En julio de 1943 el frente oriental tiene un saliente soviético de unos 250 km de norte a sur alrededor de Kursk, en Rusia, entre Oriol y Bélgorod. Era el blanco que cualquiera veía en el mapa. El 5 de julio Alemania ataca exactamente allí, con dos pinzas, contra un adversario que había decidido en abril esperar el golpe, atrincherarse y contraatacar después.",
+    "Esta página sigue la partida desde la Operación Ciudadela hasta las contraofensivas que recuperaron Oriol, Bélgorod y Járkov. La pregunta es si la batalla estaba decidida antes del primer disparo — y qué queda del día de Prójorovka, contado durante décadas como la mayor batalla de tanques de la historia, cuando se abren los archivos de ambos bandos."
+  ],
+  "numeros": [
+    {
+      "valor": "2 meses",
+      "rotulo": "de atraso: la orden del 15 de abril fijaba el ataque para el 3 de mayo; salió el 5 de julio"
+    },
+    {
+      "valor": "> 1.000",
+      "rotulo": "minas antitanque por kilómetro en la primera línea de la defensa soviética, en los dos cálculos que existen"
+    },
+    {
+      "valor": "184",
+      "rotulo": "tanques Panther operativos el 5 de julio; dos días después, unos 40"
+    },
+    {
+      "valor": "4",
+      "rotulo": "tanques alemanes perdidos definitivamente en Prójorovka, el 12 de julio, según el cálculo de Roman Töppel con los archivos alemanes"
+    },
+    {
+      "valor": "54.182 × 177.847",
+      "rotulo": "bajas alemanas y soviéticas en la Ciudadela, del 5 al 16 de julio (Frieser; Krivosheev)"
+    },
+    {
+      "valor": "863.303",
+      "rotulo": "bajas soviéticas en toda la batalla, hasta el 23 de agosto, según Krivosheev"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Fuerzas",
+      "valor": "según el cálculo de Karl-Heinz Frieser, 518.271 soldados alemanes y 2.465 tanques y cañones de asalto contra 1.426.352 soviéticos y 4.938 tanques — 2,8 soviéticos por cada alemán; sumando fuerzas de apoyo, otro cálculo llega a 780.900 alemanes y 1.910.361 soviéticos",
+      "nota": "La diferencia del lado alemán es de base: tropas de ataque frente a la fuerza total de los dos grupos de ejércitos. David Glantz da una relación de 2,5 a 1."
+    },
+    {
+      "item": "Alemania — mando",
+      "valor": "Adolf Hitler; Günther von Kluge (Grupo de Ejércitos Centro), Walter Model (9.º Ejército), en el norte; Erich von Manstein (Grupo de Ejércitos Sur), Hermann Hoth (4.º Ejército Panzer), en el sur"
+    },
+    {
+      "item": "Unión Soviética — mando",
+      "valor": "Iósif Stalin; Gueorgui Zhúkov y Aleksandr Vasilevski por la Stavka; Konstantín Rokossovski (Frente Central), Nikolái Vatutin (Frente de Vorónezh), Iván Kónev (Frente de la Estepa, en reserva)"
+    },
+    {
+      "item": "Terreno",
+      "valor": "estepa abierta y ondulada, cortada por barrancos y pequeños ríos; en el norte, las alturas de Olkhovatka y la estación de Ponyri; en el sur, el río Psel y el ferrocarril en Prójorovka"
+    },
+    {
+      "item": "Objetivo alemán",
+      "valor": "cortar el saliente por la base, con una pinza de cada lado, destruir las fuerzas que había dentro y acortar el frente — atacando, como decía la propia orden, antes de que los soviéticos prepararan defensas extensas"
+    },
+    {
+      "item": "Plan soviético",
+      "valor": "defender primero, desgastar los blindados alemanes y contraatacar con reservas frescas. Propuesto por Zhúkov el 8 de abril de 1943 y decidido en reuniones del 8 al 12 de abril"
+    },
+    {
+      "item": "Defensa",
+      "valor": "seis cinturones principales, con 130 a 150 km de profundidad en los frentes y cerca de 300 km contando la reserva; más de 300.000 civiles cavando trincheras",
+      "nota": "Wikipedia en inglés. David Glantz habla de unos 250 km de profundidad total."
+    },
+    {
+      "item": "Hasta dónde llegó",
+      "valor": "en el norte, el 9.º Ejército es detenido en Ponyri y Olkhovatka hasta el 10 de julio, tras avanzar entre 8 y 20 km según la fuente; en el sur, el 4.º Ejército Panzer rompe dos cinturones y llega a unos 3 km de Prójorovka el 11 de julio, entre 30 y 48 km de avance según la fuente"
+    },
+    {
+      "item": "Fin de la Ciudadela",
+      "valor": "en la noche del 12 al 13 de julio Hitler convoca a Manstein y Kluge y ordena detenerse, alegando la necesidad de reforzar Italia tras el desembarco aliado en Sicilia, del 10 de julio. La ofensiva termina el 16 y 17 de julio"
+    },
+    {
+      "item": "Contraofensivas",
+      "valor": "Operación Kutúzov contra Oriol, del 12 de julio al 18 de agosto, con Oriol recuperada el 5 de agosto; Operación Rumiántsev contra Bélgorod y Járkov, del 3 al 23 de agosto, con Bélgorod el 5 de agosto y Járkov el 23"
+    },
+    {
+      "item": "Bajas en la Ciudadela",
+      "valor": "54.182 alemanes, según Frieser; 177.847 soviéticos, según Krivosheev. Tanques destruidos: 252 a 323 alemanes, 1.614 a 1.956 soviéticos",
+      "nota": "Las cifras de tanques difieren según la fuente."
+    },
+    {
+      "item": "Bajas en toda la batalla",
+      "valor": "863.303 soviéticos hasta el 23 de agosto, según Krivosheev — 177.847 en la defensa, 429.890 en Oriol, 255.566 en Bélgorod y Járkov; del lado alemán, entre 165.314 y 203.000, según la fuente",
+      "nota": "La suma soviética cuadra; la alemana varía con la base (datos médicos alemanes, Zetterling y Frankson). La estimación de más de 500 mil bajas alemanas es de Bellamy y Hastings."
+    },
+    {
+      "item": "Resultado",
+      "valor": "la ofensiva alemana es detenida antes de romper la defensa, y las contraofensivas soviéticas que siguen le quitan a Alemania la iniciativa en el frente oriental por el resto de la guerra"
+    },
+    {
+      "item": "Lo que vino después",
+      "valor": "los alemanes se repliegan a la línea Hagen, al este de Briansk, y luego al Dniéper. Járkov cambia de manos por última vez en la guerra"
+    }
+  ],
+  "lances": [
+    {
+      "titulo": "El tablero: un blanco que ambos bandos veían",
+      "paragrafos": [
+        "Después de Stalingrado y de la reconquista alemana de Járkov en marzo de 1943, el frente oriental queda con una cuña soviética alrededor de Kursk, de unos 250 km de norte a sur y 160 km de este a oeste. Al norte, el saliente alemán de Oriol; al sur, Bélgorod y Járkov. En el mapa, la jugada se ofrece sola: una pinza por el norte, otra por el sur, encuentro en Kursk, y los ejércitos de dentro quedan atrapados.",
+        "El 15 de abril Hitler firma la Orden de Operaciones n.º 6: el ataque, Operación Ciudadela, debe comenzar el 3 de mayo o poco después, porque es esencial atacar antes de que los soviéticos preparen defensas extensas o lancen una ofensiva propia. El 9.º Ejército de Walter Model atacaría por el norte; el 4.º Ejército Panzer de Hermann Hoth y el Destacamento Kempf, bajo Erich von Manstein, por el sur.",
+        "Una semana antes, el 8 de abril, Gueorgui Zhúkov ya le había escrito a Stalin previendo exactamente esa doble pinza. La jugada más obvia del tablero era obvia para los dos jugadores."
+      ]
+    },
+    {
+      "titulo": "La defensa decidida en abril",
+      "paragrafos": [
+        "En la misma carta del 8 de abril, Zhúkov propone no atacar primero: hacer que el enemigo se agote contra las defensas, destruir sus tanques y solo entonces, con reservas frescas, pasar a la ofensiva general. En reuniones del 8 al 12 de abril, Zhúkov y el Estado Mayor General, con los comandantes de frente, convencen a Stalin. El Frente Central de Konstantín Rokossovski guarda el norte; el de Vorónezh, de Nikolái Vatutin, el sur; y el Frente de la Estepa, de Iván Kónev, queda detrás, reservado para el contragolpe.",
+        "La inteligencia llegó después, y confirmó. La red Lucy, en Suiza, transmitió detalles de la Ciudadela; John Cairncross, en Bletchley Park, pasó a Moscú descifrados en bruto de las comunicaciones alemanas; los británicos avisaron oficialmente a Stalin. Pero la identidad de la fuente de Lucy nunca se estableció, y el aviso británico, según Dan Zamansky, llegó el 30 de abril — tres semanas después de la decisión de defender. La geografía ya había dicho dónde; los espías ayudaron a decir cuándo y con qué.",
+        "Lo que la decisión de abril compró fue tiempo para cavar. Seis cinturones principales, con 130 a 150 km de profundidad en los frentes y cerca de 300 km contando la reserva; más de 300.000 civiles abriendo trincheras; puntos fuertes con cañones antitanque en fuego cruzado. En la primera línea del sur, Christopher Lawrence cuenta 1.666 minas antitanque y 1.624 antipersona por kilómetro."
+      ]
+    },
+    {
+      "titulo": "Dos meses esperando el arma nueva",
+      "paragrafos": [
+        "La Ciudadela no salió el 3 de mayo. El 27 de abril Model le llevó a Hitler la información de que los soviéticos fortificaban fuertemente los flancos del saliente y recomendó abandonar o rehacer el plan. El 4 de mayo, en Múnich, Manstein quería atacar pronto y Heinz Guderian decía que el ataque era inútil. Hitler aplazó: primero a junio, a la espera de los tanques nuevos — el Panther, más Tiger y el cazacarros Ferdinand —, y después otra vez, con el temor a un desembarco aliado en el Mediterráneo pesando también. Solo el 1.º de julio fijó la fecha: 5 de julio.",
+        "El último lote de Panther llegó seis días antes. Doscientos tanques reconstruidos fueron entregados al regimiento de Lauchert entre el 23 y el 29 de junio; el 5 de julio había 184 operativos, y dos días después unos 40, entre pérdidas en combate, averías e incendios de motor. En el norte, la mayor parte de los Ferdinand de uno de los batallones quedó inmovilizada por minas antes del final del primer día.",
+        "La orden del 15 de abril decía que había que atacar antes de que la defensa estuviera lista. El ataque salió dos meses después, cuando estaba lista, con un arma que todavía se averiaba."
+      ]
+    },
+    {
+      "titulo": "El ataque: dos pinzas que no llegaron a la mitad",
+      "paragrafos": [
+        "En el norte, el 9.º Ejército de Model avanza poco y caro. La lucha se concentra en Ponyri y en las alturas de Olkhovatka, y el 10 de julio el avance está completamente detenido, después de algo entre 8 y 20 km, según la fuente. Kursk queda a más de cien kilómetros de las líneas de partida.",
+        "En el sur, el 4.º Ejército Panzer llega más lejos. Rompe el primer y el segundo cinturón, avanza unos 29 km hasta el 8 de julio y, el 11 de julio, el II Cuerpo Panzer SS está a unos 3 km de Prójorovka. Aun así, la pinza sur no llegó a la mitad del camino hacia la otra.",
+        "Es la defensa en profundidad haciendo aquello para lo que fue hecha: cada cinturón roto cuesta tanques y días, y detrás hay otro. El atacante gasta ya en la primera fase la fuerza que necesitaba para la siguiente."
+      ]
+    },
+    {
+      "titulo": "Prójorovka, 12 de julio: el día que se volvió leyenda",
+      "paragrafos": [
+        "En la mañana del 12 de julio el 5.º Ejército Blindado de la Guardia, de Pável Rotmistrov, contraataca al II Cuerpo Panzer SS al suroeste de Prójorovka. Según Roman Töppel, que estudió los mapas diarios de situación alemanes, la aproximación del ejército soviético pasó completamente inadvertida para la inteligencia alemana, y el cuerpo fue sorprendido. Los alemanes tenían 294 tanques y cañones de asalto en las tres divisiones, 15 de ellos Tiger; frente a ellos, unos 616 blindados soviéticos, de los cuales unos 500 atacaron en dos oleadas.",
+        "El resultado, según los archivos de ambos bandos, es lo opuesto a la leyenda. Töppel cuenta, con los registros alemanes, 4 tanques del II Cuerpo Panzer SS perdidos definitivamente ese día, todos Panzer IV, y unos 11 con daños prolongados; Karl-Heinz Frieser ya escribía que no podían ser más de cinco. Del lado soviético, los archivos citados por Töppel dan 382 tanques y autopropulsados alcanzados y 227 perdidos definitivamente; Valeri Zamulin, con otra base, llega a 194 irrecuperables y 146 dañados. Los cálculos alemanes más amplios, que suman vehículos dañados o varios días, quedan entre 19 y 80 — ninguno cerca de los centenares de la versión soviética.",
+        "Tácticamente, el contraataque no destruyó la fuerza alemana, pero acabó con el avance en el sur: el II Cuerpo Panzer SS no pasó de Prójorovka. La cifra que inventó la leyenda fue la de la destrucción; lo que el día produjo de verdad fue un empate táctico muy caro para un solo bando."
+      ]
+    },
+    {
+      "titulo": "Sicilia, la Kutúzov y el apagón",
+      "paragrafos": [
+        "En la noche del 9 al 10 de julio los aliados desembarcan en Sicilia. El 12 de julio, mientras Prójorovka ocurre en el sur, comienza en el norte la Operación Kutúzov, contra el saliente de Oriol — en la retaguardia del 9.º Ejército de Model, que ya estaba detenido. En la noche del 12 al 13 Hitler convoca a Manstein y Kluge y ordena detener la Ciudadela, alegando la necesidad de enviar fuerzas a Italia. Manstein quiere continuar, diciendo que está cerca de irrumpir en terreno abierto, y consigue solo una última acción local.",
+        "El peso de Sicilia se discute. Fue el motivo dado en el momento, y los aplazamientos de mayo y junio ya mencionaban el temor a un desembarco en el Mediterráneo. Pero en el norte la ofensiva estaba detenida desde el 10 de julio y atacada por la retaguardia desde el 12; en el sur, fueron las ofensivas soviéticas en el Mius y el Donets, a partir del 17 de julio, las que se llevaron lejos al II Cuerpo Panzer SS. Sicilia explica cuándo Hitler apagó la máquina; no explica por qué no pasaba.",
+        "Y entonces el defensor se vuelve atacante, como Zhúkov había escrito en abril. La Kutúzov recupera Oriol el 5 de agosto y empuja a los alemanes hasta la línea Hagen el 18 de agosto. La Operación Rumiántsev, a partir del 3 de agosto, recupera Bélgorod el día 5 y Járkov el 23 de agosto — la última vez que la ciudad cambia de manos en la guerra. Frieser sitúa el vuelco del frente oriental en esas contraofensivas, no en la Ciudadela."
+      ]
+    }
+  ],
+  "veredito": [
+    "Ganada antes de empezar es demasiado fuerte como frase y acertada como pregunta. Alemania atacó la única jugada que ofrecía la geografía, la misma que el adversario había previsto por escrito una semana antes de la orden alemana. Después le dio a ese adversario dos meses, a la espera de armas nuevas que debutaron averiándose, y él usó esos dos meses para enterrar minas, cañones y seis cinturones de defensa en el camino exacto de las pinzas.",
+    "En términos de ajedrez, es el jugador que anuncia el ataque por la casilla que el otro ya cubrió, espera para traer una pieza nueva y encuentra la casilla cubierta dos veces. La defensa soviética no necesitaba ganar los duelos de tanques — y no los ganó: en Prójorovka perdió decenas de veces más blindados de los que destruyó, y en la Ciudadela tuvo tres veces más bajas que el atacante. Solo necesitaba no dejar pasar, y haber guardado las piezas para el contragolpe.",
+    "La inteligencia confirmó lo que decía el mapa; Sicilia marcó la hora de apagar. Lo que decidió Kursk fue la elección hecha en abril: dejar que el adversario golpeara primero, en el lugar y en el momento que él mismo había vuelto previsibles."
+  ],
+  "mitos": [
+    {
+      "circula": "Prójorovka fue la mayor batalla de tanques de la historia, con cientos de Tiger destruidos.",
+      "registro": "El 12 de julio de 1943 el II Cuerpo Panzer SS tenía 294 tanques y cañones de asalto, 15 de ellos Tiger. Perdió definitivamente 4 tanques, todos Panzer IV, según Roman Töppel con los archivos alemanes; Frieser decía que no más de cinco. El 5.º Ejército Blindado de la Guardia perdió definitivamente 227, en los archivos soviéticos citados por Töppel, o 194, según el cálculo de Zamulin. Los más de 400 tanques alemanes destruidos provienen de las memorias de Rotmistrov y de la historiografía soviética. Y hubo una batalla de tanques mayor: Brody y Dubno, en junio de 1941, con hasta 3.500 tanques soviéticos y 750 alemanes."
+    },
+    {
+      "circula": "Los soviéticos ganaron porque los espías entregaron el plan.",
+      "registro": "La red Lucy y John Cairncross pasaron información real, y los británicos avisaron a Stalin el 30 de abril. Pero Zhúkov previó la doble pinza y propuso la defensa el 8 de abril, y la decisión salió en reuniones del 8 al 12 de abril — antes de los avisos. La fuente de Lucy nunca fue identificada. El saliente era el blanco que el mapa mostraba a ambos bandos."
+    },
+    {
+      "circula": "Hitler detuvo Kursk por el desembarco en Sicilia.",
+      "registro": "Fue el motivo que dio el 13 de julio. Pero el ataque del norte ya estaba detenido desde el 10 de julio, y la Operación Kutúzov golpeaba la retaguardia de Model desde el 12. En el sur, fueron las ofensivas soviéticas en el Mius y el Donets las que retiraron al II Cuerpo Panzer SS. Sicilia pesó en el momento de la decisión; la ofensiva ya no pasaba."
+    },
+    {
+      "circula": "Los Tiger y los Panther deberían haber decidido la batalla.",
+      "registro": "Los Panther debutaron con 184 operativos el 5 de julio y unos 40 dos días después, entre pérdidas, averías e incendios de motor. La mayor parte de los Ferdinand de uno de los batallones del norte quedó atrapada en minas el primer día. Y la espera por esas armas es lo que le dio a la defensa soviética dos meses para prepararse."
+    }
+  ],
+  "perguntas": [
+    {"p": "¿Quién ganó la batalla de Kursk?", "r": "Ganó la Unión Soviética. La ofensiva alemana fue detenida antes de romper la defensa, y las contraofensivas que siguieron recuperaron Oriol y Bélgorod el 5 de agosto y Járkov el 23 de agosto de 1943, quitándole a Alemania la iniciativa en el frente oriental por el resto de la guerra."},
+    {"p": "¿Por qué Alemania perdió la batalla de Kursk?", "r": "Atacó el blanco que ambos bandos veían en el mapa: Zhúkov previó la doble pinza por escrito el 8 de abril de 1943. Después Hitler aplazó el ataque dos meses a la espera de tanques nuevos, y la defensa soviética usó ese tiempo para cavar seis cinturones en el camino exacto de las pinzas."},
+    {"p": "¿Cuántos tanques participaron en la batalla de Kursk?", "r": "Según el cálculo de Karl-Heinz Frieser, 2.465 tanques y cañones de asalto alemanes contra 4.938 tanques soviéticos. En la Operación Ciudadela fueron destruidos de 252 a 323 tanques alemanes y de 1.614 a 1.956 soviéticos, según la fuente."},
+    {"p": "¿Cuántos muertos hubo en la batalla de Kursk?", "r": "Las cifras son de bajas, no solo de muertos. En la Ciudadela, del 5 al 16 de julio, fueron 54.182 alemanes y 177.847 soviéticos. En toda la batalla, hasta el 23 de agosto, 863.303 soviéticos según Krivosheev; del lado alemán, entre 165.314 y 203.000, según la fuente."},
+    {"p": "¿Fue Prójorovka la mayor batalla de tanques de la historia?", "r": "No. El 12 de julio de 1943 el II Cuerpo Panzer SS perdió definitivamente 4 tanques, según Roman Töppel con los archivos alemanes, y los soviéticos 227 o 194, según el cálculo. Hubo una batalla de tanques mayor en Brody y Dubno, en junio de 1941."}
+  ],
+  "fontes": [
+    {"texto": "Roman Töppel, \"Die Panzerschlacht bei Prochorowka: Fakten gegen Fabeln\", Portal Militärgeschichte, 16 de diciembre de 2019."},
+    {"texto": "Karl-Heinz Frieser, \"Die Schlacht im Kursker Bogen\", en Das Deutsche Reich und der Zweite Weltkrieg, vol. 8, 2007 (citado por Wikipedia y por Töppel)."},
+    {"texto": "David M. Glantz y Jonathan M. House, The Battle of Kursk, University Press of Kansas, 1999 (por cita)."},
+    {"texto": "Valeriy Zamulin, The Battle of Kursk: Controversial and Neglected Aspects, 2017 (por cita)."},
+    {"texto": "Christopher A. Lawrence, Kursk: The Battle of Prokhorovka, 2015 — minas y pérdidas del 12 de julio, por el Dupuy Institute."},
+    {"texto": "Ian Hudson, \"Prokhorovka and the Myth of the Largest Tank Battle\", The Tank Museum, 2017."},
+    {"texto": "Dan Zamansky, sobre la inteligencia aliada antes de Kursk, New World Crisis, 2024."},
+    {"texto": "Battle of Kursk — Wikipedia en inglés."},
+    {"texto": "Battle of Prokhorovka — Wikipedia en inglés."},
+    {"texto": "Unternehmen Zitadelle — Wikipedia en alemán."}
+  ],
+  "imagens": [
+    {
+      "alt": "Dos cazacarros alemanes Ferdinand destruidos en un campo abierto, con el casco acribillado y las orugas sueltas, mientras soldados soviéticos con capote los examinan",
+      "legenda": "Soldados soviéticos examinan cazacarros Ferdinand destruidos en el sector de Oriol, en julio de 1943. La espera por esa arma y por el Panther aplazó la Ciudadela dos meses; en el norte, la mayor parte de los Ferdinand de un batallón quedó atrapada en minas el primer día.",
+      "autor": "Pavel Troshkin"
+    },
+    {
+      "alt": "Carta topográfica en tonos lila con Kursk arriba, Oboyan y Prójorovka en el centro, Bélgorod más abajo y Járkov en la base, cortada por ríos y ferrocarriles",
+      "legenda": "El saliente sur y el centro del campo de batalla en la carta del Army Map Service, Europa 1:500.000, hoja N.E. 50/34 Kursk (edición provisional de 1945, a partir de la carta británica de 1944). Ponyri y Olkhovatka están arriba; Oboyan, Prójorovka y Bélgorod en el medio; Járkov en la base.",
+      "autor": "U.S. Army Map Service · Perry-Castañeda Library, Universidad de Texas"
+    },
+    {
+      "alt": "Zapador soviético con casco, agachado en el pasto de noche bajo una luz fuerte, colocando una mina antitanque de caja de madera",
+      "legenda": "Zapador del Ejército Rojo instala una mina antitanque de caja de madera de noche, en la dirección Oriol–Kursk, en julio de 1943; foto publicada en un periódico en agosto de ese año. En la primera línea del sur, la defensa llegó a 1.666 minas antitanque por kilómetro, según el cálculo de Christopher Lawrence.",
+      "autor": "Kazimir Lishko (TASS)"
+    },
+    {
+      "alt": "Dotación soviética de cuatro hombres alrededor de un cañón escondido entre arbustos, uno de ellos sosteniendo un proyectil, con la estepa abierta al fondo",
+      "legenda": "Dotación de un cañón soviético de 76 mm ZiS-3 dispara desde una posición camuflada en la dirección Oriol–Kursk, el 6 de julio de 1943. Cañones así, en puntos fuertes con fuego cruzado, eran la columna vertebral de los cinturones de defensa.",
+      "autor": "Pavel Troshkin"
+    },
+    {
+      "alt": "Un tanque alemán Panzer IV en primer plano a la derecha y otros blindados dispersos en un campo de trigo bajo un cielo claro",
+      "legenda": "Tanques alemanes en un campo de trigo al comienzo de la Operación Ciudadela, en el verano de 1943.",
+      "autor": "Merz · Bundesarchiv, Bild 101III-Merz-014-12A"
+    },
+    {
+      "alt": "Vista desde lo alto de una ladera de la estepa ondulada, con una columna de vehículos levantando polvo a lo largo de un camino de tierra",
+      "legenda": "Vehículos alemanes avanzan por la estepa ondulada durante la Operación Ciudadela, en julio de 1943. Terreno abierto, sin cobertura, cortado por barrancos.",
+      "autor": "Kipper · Bundesarchiv, Bild 101I-022-2924-14"
+    }
+  ]
+}

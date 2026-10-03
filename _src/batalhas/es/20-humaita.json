@@ -1,0 +1,166 @@
+{
+  "num": "20",
+  "slug": "humaita",
+  "batalha": "Humaitá",
+  "nome_busca": "Fortaleza de Humaitá",
+  "titulo_video": null,
+  "lugar": "Humaitá, departamento de Ñeembucú, Paraguay, en una curva del río Paraguay; y el Chaco, en la orilla opuesta",
+  "data": "22 de septiembre de 1866 al 5 de agosto de 1868",
+  "campanha": "Guerra de la Triple Alianza (o Guerra del Paraguay)",
+  "pergunta": "¿Por qué una fortaleza en una curva de río, comparada con Sebastopol, trabó la guerra durante casi dos años, y qué la destrabó finalmente?",
+  "resumo": "La Fortaleza de Humaitá no cayó por asalto ni por el paso de los acorazados: cayó por hambre, cercada río arriba y desde el Chaco. La fama y lo que era.",
+  "abertura": [
+    "El 22 de septiembre de 1866, frente a las trincheras de Curupayty, al sur de Humaitá, los aliados pierden más de 4.000 hombres en un ataque frontal; los paraguayos, 54, según el ingeniero de López. A partir de ahí, la Guerra de la Triple Alianza — o Guerra del Paraguay — queda detenida frente a una curva del río Paraguay. La prensa de la época compara Humaitá con Sebastopol, con Richmond, con Gibraltar.",
+    "Los aliados recién entran en Humaitá el 25 de julio de 1868 — y entran sin combate, porque la guarnición había salido la noche anterior, con hambre. Esta página cierra la miniserie de la guerra con su partida más larga: qué era realmente la fortaleza, por qué trabó el tablero, y qué jugadas la destrabaron. Casi ninguna de ellas fue la que aparece en las pinturas."
+  ],
+  "numeros": [
+    {"valor": "22 meses", "rotulo": "de Curupayty, el 22 de septiembre de 1866, a la entrada aliada en Humaitá, el 25 de julio de 1868", "conf": "2+"},
+    {"valor": "54", "rotulo": "bajas paraguayas en Curupayty, según George Thompson, ingeniero de López, contra más de 4.000 aliadas", "conf": "1"},
+    {"valor": "3", "rotulo": "cañones de 8 pulgadas en el frente del río en agosto de 1867, cuando los acorazados llegaron frente a ella, según Thompson", "conf": "1"},
+    {"valor": "10", "rotulo": "heridos brasileños en el paso del 19 de febrero de 1868; la cadena ya estaba en el fondo del río", "conf": "1"},
+    {"valor": "1.019", "rotulo": "bajas brasileñas en el asalto rechazado del 16 de julio de 1868, según el Diario del Ejército; Thompson dice 2.000", "conf": "DIV"},
+    {"valor": "≈ 1.300", "rotulo": "rendidos con el coronel Martínez el 5 de agosto de 1868: 1.299, 1.324 o 1.327, según la fuente", "conf": "DIV"}
+  ],
+  "ficha": [
+    {"item": "El terreno", "valor": "una curva cerrada del río Paraguay, con la fortaleza en el lado cóncavo, sobre una barranca de unos 30 pies (9 m); por tierra, una trinchera de unas 14.800 yardas (13,5 km) rodeada de bañados y esteros; aguas arriba, orilla de bañado hasta Pilar, salvo la barranca de Tayí", "conf": "1", "nota": "Según George Thompson, The War in Paraguay, 1869."},
+    {"item": "La fortaleza", "valor": "baterías a barbeta a lo largo de la barranca, una sola casamatada, de 16 cañones, y una barrera de cadenas sobre canoas y pontones. No había muralla ni ciudadela", "conf": "2+"},
+    {"item": "Artillería", "valor": "90 cañones en siete baterías en 1865 y casi 200 en marzo de 1868, contando las líneas de tierra, según Thompson; unos 120 en las baterías del río, según otras cuentas", "conf": "DIV"},
+    {"item": "Paraguay — mando", "valor": "Francisco Solano López; en Humaitá, el coronel Paulino Alén y, después de que Alén resultó herido, el coronel Francisco Martínez", "conf": "2+"},
+    {"item": "Aliados — mando", "valor": "Bartolomé Mitre, comandante en jefe hasta enero de 1868; Luís Alves de Lima e Silva, marqués de Caxias, después de él; Joaquim José Inácio, vizconde de Inhaúma (escuadra); Delfim Carlos de Carvalho (división que forzó el paso); generales Osório, Argolo Ferrão, Gelly y Obes e Ignacio Rivas", "conf": "2+"},
+    {"item": "Curupayty", "valor": "22 de septiembre de 1866: ataque frontal aliado rechazado. Más de 4.000 bajas aliadas — 2.011 brasileños y 2.082 argentinos, según Chris Leuchars; unas 9.000, según Thompson. Paraguayos: 54, según Thompson", "conf": "DIV"},
+    {"item": "Marcha de flanco", "valor": "comienza el 22 de julio de 1867; el ejército entra en Tuyú-Cué el 29 de julio. Unos 28.000 a 30.500 hombres marchan, según la fuente, y 10.000 a 13.000 se quedan en Tuyutí", "conf": "DIV"},
+    {"item": "Tayí", "valor": "el 2 de noviembre de 1867 los brasileños toman la barranca de Tayí, aguas arriba de Humaitá, y cierran el río con artillería y cadenas. Se acaba la conexión fluvial con Asunción", "conf": "2+"},
+    {"item": "El paso", "valor": "19 de febrero de 1868: los acorazados Bahia, Barroso y Tamandaré, cada uno con un monitor amarrado al costado — Alagoas, Pará y Rio Grande —, pasan Humaitá y Timbó con la creciente y siguen hasta Tayí", "conf": "2+", "nota": "Thompson fecha el inicio del bombardeo el 18 de febrero."},
+    {"item": "La salida de López", "valor": "en la noche del 2 al 3 de marzo de 1868, por Timbó y por el camino del Chaco; Humaitá queda con la guarnición", "conf": "2+"},
+    {"item": "El cerco cerrado", "valor": "el 21 y el 22 de marzo de 1868 caen las líneas exteriores al sur; del 30 de abril al 3 de mayo, tropas de Rivas cruzan al Chaco y levantan el reducto de Andaí, cortando el camino de abastecimiento frente a la fortaleza", "conf": "2+"},
+    {"item": "La evacuación", "valor": "heridos y mujeres cruzan al Chaco en la noche del 23 de julio de 1868; la guarnición, en la del 24. Los aliados entran el 25 de julio. Los paraguayos resisten en la Isla Poí, entre la orilla y la laguna Verá", "conf": "2+"},
+    {"item": "Rendición", "valor": "5 de agosto de 1868: el coronel Martínez se rinde a Rivas, y los oficiales conservan sus espadas. Unos 1.300 hombres — 1.299 según Thompson, 1.327 según el Ejército Brasileño", "conf": "DIV"},
+    {"item": "Cañones capturados", "valor": "unos 180: 180 según Thompson, 177 según otra cuenta, 188 con los de la Isla Poí según el Ejército Brasileño", "conf": "DIV"},
+    {"item": "Lo que vino después", "valor": "la guerra continúa más de un año y medio, río arriba y en el interior del Paraguay", "conf": "2+"}
+  ],
+  "lances": [
+    {
+      "titulo": "El tablero: una curva, una barranca y ningún camino seco",
+      "paragrafos": [
+        "Humaitá está en una curva en herradura del río Paraguay, en el suroeste del país, aguas arriba de la confluencia con el Paraná. La fortaleza ocupa el lado cóncavo de la curva, sobre una barranca de unos 30 pies, y por eso todas las baterías pueden disparar a la vez sobre cualquier buque que pase frente a ella. El buque, a su vez, tiene que subir despacio, contra la corriente, dando la vuelta. Esa era la llave del río hacia Asunción.",
+        "Por tierra, el cuadro es peor. George Thompson, el ingeniero británico que construía las obras de López, describe una trinchera de unas 14.800 yardas alrededor del pueblo, y fuera de ella leguas de bañados con franjas finas de tierra seca. Aguas arriba de la fortaleza, la orilla es bañado de cañaveral hasta Pilar, con una única excepción: la barranca de Tayí, 15 millas río arriba. En la otra orilla, el Chaco se inunda casi por completo con la creciente.",
+        "El único acceso razonable era por el sur, por las trincheras de Curupayty, Sauce, Espinillo y Paso Pucú, donde López concentraba el ejército. En términos de ajedrez, la pieza fuerte estaba en el único lugar en que el adversario podía atacarla. La casilla que importaba estaba río arriba."
+      ]
+    },
+    {
+      "titulo": "Curupayty: la jugada de frente que enseñó a no atacar de frente",
+      "paragrafos": [
+        "El 3 de septiembre de 1866 los brasileños toman Curuzú, la posición más al sur. Después esperan: López propone a Mitre una conferencia en Yataity Corá el 12 de septiembre, los comandantes aliados discuten, llueve del 17 al 20. El ataque a Curupayty sale el 22 de septiembre, un día después de que los paraguayos terminaran la trinchera nueva — foso de seis pies de profundidad, abatís al frente, un flanco en el río y el otro en una laguna.",
+        "La escuadra bombardea durante casi cuatro horas, pero desde el río no se ve el efecto sobre una barranca tan alta. Al mediodía, las columnas aliadas avanzan por un terreno anegado que las obliga a apiñarse en los pocos pasos entre los bañados, justo delante del abatís, bajo metralla cruzada. Las bajas aliadas pasan de 4.000 — 2.011 brasileños y 2.082 argentinos, según Chris Leuchars; Thompson habla de unas 9.000. Los paraguayos pierden 54, según él.",
+        "El resultado reorganiza el mando aliado: el almirante Tamandaré, el general Polidoro y el uruguayo Flores dejan sus puestos, y Caxias asume los cuerpos brasileños y la escuadra. Y fija la lección que vale para el resto de la partida: Humaitá no se toma de frente."
+      ]
+    },
+    {
+      "titulo": "Caxias rodea: la marcha de flanco y la casilla de Tayí",
+      "paragrafos": [
+        "Caxias llega a Tuyutí el 18 de noviembre de 1866 y encuentra un ejército con cólera, sin caballos y con dos cuerpos que, en sus palabras, parecían pertenecer a naciones distintas. Pasa ocho meses reorganizando, fortifica la base, conecta las posiciones por telégrafo y, a partir de junio de 1867, hace subir globos cautivos para ver las líneas paraguayas. Thompson registra que desde el globo los aliados contaron 106 cañones y tres morteros, y que los paraguayos respondían quemando pasto para ocultar las trincheras.",
+        "El plan está en una carta de Caxias a Osório, de abril de 1867: no buscar a López en el único lugar en que puede resistir. El 22 de julio de 1867 el ejército aliado comienza la marcha por la izquierda paraguaya y entra en Tuyú-Cué el 29 de julio. El 15 de agosto acorazados pasan Curupayty y fondean aguas abajo de Humaitá, pero no la enfrentan.",
+        "La jugada decisiva llega el 2 de noviembre de 1867: los brasileños toman la barranca de Tayí, hunden dos vapores paraguayos, artillan el lugar y tienden cadenas en el río. Humaitá pierde la conexión fluvial con Asunción. Al día siguiente López ataca la base aliada de Tuyutí para cortar la retaguardia de Caxias; saquea el campamento, pero es rechazado. A partir de entonces la fortaleza es la punta de una red con una sola salida: el camino que López abre por el Chaco, de Timbó a Monte Lindo."
+      ]
+    },
+    {
+      "titulo": "El paso del 19 de febrero: la cadena ya estaba en el fondo",
+      "paragrafos": [
+        "En febrero de 1868 el río está en una creciente excepcional, y empieza a bajar. El 13 de febrero tres monitores construidos en Río de Janeiro pasan Curupayty de noche y se suman a los acorazados. La barrera de cadenas, que era parte de la fama de Humaitá, ya no cerraba nada: según Thompson, los acorazados habían pasado tres meses hundiendo las canoas y los pontones que la sostenían, y había bajado al fondo, bajo el barro. Con la creciente, había 12 a 15 pies de agua por encima.",
+        "En la madrugada del 19 de febrero de 1868, los acorazados Bahia, Barroso y Tamandaré, cada uno con un monitor amarrado al costado — Alagoas, Pará y Rio Grande —, suben bajo el fuego de las baterías, al mando de Delfim Carlos de Carvalho. Thompson, que estaba del otro lado, escribe que el fuego de Humaitá fue bien sostenido y certero, pero que las balas se partían contra las planchas. La batería de Timbó, más baja, hirió más. El Alagoas, suelto de su compañero, fue arrastrado por la corriente y tuvo que pasar solo. Ese mismo día, en tierra, Caxias toma el reducto de Cierva.",
+        "Los buques siguen hasta Tayí, y tres de ellos suben hasta Asunción, que López manda evacuar. El paso es la imagen que quedó de la guerra, en litografías y en lienzos. Pero el propio Thompson señala la jugada que faltó: la escuadra pasó y siguió de largo. Si uno o dos acorazados se hubieran quedado entre Timbó y Humaitá, escribe, López no habría salido, y la fortaleza habría quedado realmente sitiada. En la noche del 2 al 3 de marzo de 1868, López cruza por Timbó y se va por el Chaco."
+      ]
+    },
+    {
+      "titulo": "Cerrar la red: el Chaco, el hambre y el asalto que no hacía falta",
+      "paragrafos": [
+        "El 21 de marzo de 1868 los aliados atacan las líneas del sur, y el 22 los paraguayos abandonan el frente antiguo entero, Curupayty incluido, y se encierran en Humaitá. La última vía de abastecimiento pasaba por el Chaco, frente a la fortaleza. Del 30 de abril al 3 de mayo, tropas argentinas y brasileñas al mando de Ignacio Rivas cruzan el río y levantan el reducto de Andaí, protegido por un estero. El camino queda cortado.",
+        "Del lado aliado, se discute si vale la pena asaltar. El general Argolo escribe que Humaitá ya es un objetivo secundario y debe comprarse lo más barato posible; Mitre, desde Buenos Aires, defiende el ataque. Thompson, desde adentro, calcula que en abril eran 15.000 yardas de trinchera guarnecidas por menos de 3.000 hombres. El 16 de julio, después de un bombardeo de 3.666 disparos, Osório ataca por el frente de San Solano. La artillería paraguaya, callada hasta entonces, reabre el fuego a corta distancia. El asalto es rechazado: 1.019 bajas brasileñas según el Diario del Ejército, 2.000 según la cuenta de Thompson.",
+        "No fue el asalto lo que decidió. Fue la comida. En la noche del 23 de julio los heridos y las mujeres cruzan al Chaco en canoas; en la del 24, con bandas tocando para engañar al sitiador, cruza la guarnición. Los aliados entran en Humaitá el 25 de julio de 1868. Los paraguayos resisten todavía en la Isla Poí, entre la orilla y la laguna Verá, intentando pasar en canoas bajo fuego continuo. El 5 de agosto el coronel Francisco Martínez, casi sin poder hablar de hambre, se rinde a Rivas con unos 1.300 hombres."
+      ]
+    },
+    {
+      "titulo": "Lo que la fortaleza era, vista de cerca",
+      "paragrafos": [
+        "Thompson cuenta que en 1865 Humaitá tenía 90 cañones en siete baterías, con parapetos que no pasaban de la altura de la rodilla, salvo en una batería de dieciséis cañones. En agosto de 1867, cuando los acorazados llegaron frente a ella, el frente del río tenía, según él, tres cañones de 8 pulgadas y unos seis de 32 libras. Al final, resumió: hicieron falta trece meses para reducir Humaitá, la posición más débil de todas las que ocuparon los paraguayos.",
+        "Richard Burton, el explorador británico, visitó el lugar alrededor de un mes después de la caída y escribió, en una carta del 24 de agosto de 1868, que buscó la fortaleza comparada con Sebastopol, con Richmond y con Gibraltar y encontró pobres barbetas y un campamento atrincherado sin plaza fuerte — un monstruoso engaño. El historiador Leandro Gonçalves hace la salvedad que equilibra la cuenta: Burton la vio de pasada y no advirtió que la fuerza de Humaitá nunca estuvo en la mampostería, sino en la barranca alta, que volvía impreciso el tiro de la escuadra, y en los atrincheramientos de tierra, rehechos después de cada bombardeo.",
+        "Los aliados recogieron unos 180 cañones en Humaitá, la mayor parte de hierro, algunos de calibre pesado. La iglesia de San Carlos, blanco de los acorazados durante meses, quedó en pie en ruinas, y es lo que hoy queda en el lugar."
+      ]
+    }
+  ],
+  "veredito": [
+    "Humaitá no trabó la guerra por ser una fortaleza inexpugnable. La trabó porque el tablero a su alrededor daba toda la ventaja a quien defendía: una curva de río dominada desde una barranca, bañados por tierra, minas en el río, y del otro lado una escuadra que temía perder acorazados y un mando aliado dividido y enfermo. Curupayty mostró el precio de jugar contra eso de frente.",
+    "Se destrabó cuando los aliados cambiaron de juego. Caxias rodeó por tierra y tomó la casilla que importaba, Tayí, río arriba; Rivas cortó el último camino por el Chaco; y la guarnición salió por hambre. El paso de los acorazados abrió el río hasta Asunción, pero, como la escuadra siguió de largo, dejó que el rey saliera del tablero. En términos de ajedrez, Humaitá no fue tomada: fue ahogada — cercada hasta no tener más jugadas, mientras los ataques directos fracasaban uno tras otro."
+  ],
+  "mitos": [
+    {
+      "circula": "Humaitá era una fortaleza inexpugnable, la Sebastopol de América.",
+      "registro": "No había muralla ni ciudadela: eran baterías a barbeta sobre una barranca, una única batería casamatada de 16 cañones y un campamento de trincheras de tierra. El ingeniero de López, George Thompson, la llamó la posición más débil de todas; Richard Burton, que la visitó en agosto de 1868, un monstruoso engaño. La fuerza estaba en la barranca, en la curva y en los bañados."
+    },
+    {
+      "circula": "Los acorazados rompieron la cadena de Humaitá.",
+      "registro": "La cadena ya estaba en el fondo del río: los acorazados habían hundido las canoas y los pontones que la sostenían, y había quedado bajo el barro, según Thompson. El 19 de febrero de 1868 la creciente ponía 12 a 15 pies de agua por encima."
+    },
+    {
+      "circula": "El paso del 19 de febrero de 1868 hizo caer Humaitá.",
+      "registro": "Humaitá cayó cinco meses después, el 25 de julio de 1868, por hambre, después de que se cortara el camino del Chaco. El paso abrió el río hasta Asunción, pero López salió de la fortaleza el 3 de marzo, porque los buques siguieron de largo en lugar de quedarse entre Humaitá y Timbó."
+    },
+    {
+      "circula": "Humaitá fue tomada por asalto.",
+      "registro": "El asalto a la fortaleza del 16 de julio de 1868 fue rechazado, con 1.019 bajas brasileñas según el Diario del Ejército. La guarnición salió de noche, entre el 23 y el 24 de julio, y los aliados entraron el 25 sin combate."
+    },
+    {
+      "circula": "Dos años de sitio.",
+      "registro": "Son casi dos años de Curupayty, el 22 de septiembre de 1866, a la caída, el 25 de julio de 1868. El sitio propiamente dicho duró de 8 a 13 meses, según se cuente desde la toma de Tayí, el 2 de noviembre de 1867, o desde el inicio de la marcha de flanco, el 22 de julio de 1867."
+    }
+  ],
+  "perguntas": [
+    {"p": "¿Qué era la Fortaleza de Humaitá?", "r": "Era la posición paraguaya que cerraba el río Paraguay camino a Asunción: baterías a barbeta sobre una barranca en una curva cerrada del río, una sola batería casamatada, de 16 cañones, y trincheras de tierra rodeadas de bañados. No había muralla ni ciudadela."},
+    {"p": "¿Dónde está la Fortaleza de Humaitá?", "r": "En Humaitá, en el departamento de Ñeembucú, en el suroeste del Paraguay, en una curva del río Paraguay aguas arriba de la confluencia con el Paraná. Del lugar queda hoy la iglesia de San Carlos, en pie en ruinas."},
+    {"p": "¿Cómo cayó la Fortaleza de Humaitá?", "r": "Cayó por hambre, no por asalto. Con el camino del Chaco cortado, la guarnición salió de noche y los aliados entraron sin combate el 25 de julio de 1868; el 5 de agosto el coronel Francisco Martínez se rindió con unos 1.300 hombres."},
+    {"p": "¿Qué fue el paso de Humaitá?", "r": "Fue la subida de tres acorazados brasileños, cada uno con un monitor amarrado al costado, bajo el fuego de las baterías, el 19 de febrero de 1868, con la creciente. Abrió el río hasta Asunción, pero no derribó la fortaleza, que recién cayó cinco meses después."},
+    {"p": "¿Cuánto duró el sitio de Humaitá?", "r": "Son casi dos años de Curupayty, el 22 de septiembre de 1866, a la entrada aliada, el 25 de julio de 1868. El sitio propiamente dicho duró de 8 a 13 meses, según se cuente desde la toma de Tayí o desde el inicio de la marcha de flanco, en 1867."}
+  ],
+  "fontes": [
+    {"texto": "George Thompson, The War in Paraguay, with a historical sketch of the country and its people and notes upon the military engineering of the war, Londres, Longmans, Green & Co., 1869.", "url": "https://archive.org/details/cu31924073798666"},
+    {"texto": "Leandro José Clemente Gonçalves, \"Da Batalha de Curuzu à queda de Humaitá (1866-1868): questões táticas\", Navigator, v. 14, n.º 27, 2018, p. 31-44 (cita a Chris Leuchars, Tasso Fragoso, Juan Beverina, el Diario del Ejército de Caxias y Richard Burton).", "url": "https://portaldeperiodicos.marinha.mil.br/index.php/navigator/article/view/648"},
+    {"texto": "Ejército Brasileño, B Adm QGEx, \"A Tomada de Humaitá\", 2025.", "url": "https://www.badmqgex.eb.mil.br/patio-das-batalhas/patio-das-batalhas/15-artigo-15"},
+    {"texto": "Richard F. Burton, Letters from the Battle-fields of Paraguay, 1870 (carta del 24 de agosto de 1868, por cita).", "url": null},
+    {"texto": "Siege of Humaitá — Wikipedia en inglés.", "url": "https://en.wikipedia.org/wiki/Siege_of_Humait%C3%A1"},
+    {"texto": "Passage of Humaitá — Wikipedia en inglés.", "url": "https://en.wikipedia.org/wiki/Passage_of_Humait%C3%A1"},
+    {"texto": "Fortress of Humaitá — Wikipedia en inglés.", "url": "https://en.wikipedia.org/wiki/Fortress_of_Humait%C3%A1"},
+    {"texto": "Cerco de Humaitá — Wikipedia en portugués.", "url": "https://pt.wikipedia.org/wiki/Cerco_de_Humait%C3%A1"}
+  ],
+  "imagens": [
+    {
+      "alt": "Decenas de cañones sobre ruedas alineados en el suelo de tierra frente a un galpón largo de techo de tejas, con la torre de una iglesia a la izquierda",
+      "legenda": "Los cañones de Humaitá reunidos por los aliados para repartirlos como trofeo, en 1868. Fueron unos 180, la mayor parte de hierro.",
+      "autor": "Fotógrafo no identificado"
+    },
+    {
+      "alt": "Planta dibujada a mano de la curva del río Paraguay, con el pueblo de Humaitá rodeado por una línea de trincheras, las baterías marcadas a lo largo de la orilla y zonas de monte y bañado alrededor",
+      "legenda": "Planta de Humaitá levantada por la comisión de ingenieros del 2.º Cuerpo del ejército brasileño (mayor Sebastião de Souza Mello, tenientes Guilherme Carlos Lassance y Emilio Carlos Jourdan), publicada en A Vida Fluminense en 1869. La curva, las baterías en la orilla cóncava, la trinchera y los bañados.",
+      "autor": "Sebastião de Souza Mello, Guilherme Carlos Lassance y Emilio Carlos Jourdan · A Vida Fluminense, n.º 62"
+    },
+    {
+      "alt": "Grabado de una curva ancha de río con buques de casco bajo y chimeneas que remontan la corriente, mientras una hilera de baterías en la orilla opuesta dispara envuelta en humo",
+      "legenda": "El paso de Humaitá en la litografía de Angelo Agostini publicada en A Vida Fluminense en 1868. Es un dibujo de prensa, no un registro: el paso fue de madrugada, el 19 de febrero de 1868.",
+      "autor": "Angelo Agostini · A Vida Fluminense, n.º 11"
+    },
+    {
+      "alt": "Grabado visto desde lo alto de un río sinuoso entre zonas anegadas y campamentos, con un globo sujeto por cuerdas en la esquina derecha",
+      "legenda": "Vista de Humaitá presentada como tomada desde el globo de observación aliado, grabado de la revista Harper's Weekly del 9 de mayo de 1868. Los globos cautivos subieron a partir de junio de 1867 para cartografiar las líneas paraguayas.",
+      "autor": "Autor no identificado · Harper's Weekly, 9 de mayo de 1868"
+    },
+    {
+      "alt": "Interior de una iglesia destruida, con el techo abierto en vigas rotas, el retablo del altar al fondo y soldados con sombrero sentados y de pie sobre los escombros",
+      "legenda": "El interior de la iglesia de San Carlos, en Humaitá, después de la ocupación aliada, en 1868. Los acorazados bombardearon la iglesia durante meses.",
+      "autor": "Fotógrafo no identificado · Biblioteca Nacional de Brasil"
+    },
+    {
+      "alt": "Ruinas de ladrillo de una iglesia, con arcos abiertos y una torre partida, sobre un césped a la luz del atardecer",
+      "legenda": "Las ruinas de la iglesia de San Carlos Borromeo, en Humaitá, Paraguay, en 2012. Es lo que queda en pie de la fortaleza.",
+      "autor": "Prkprescott"
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "batalha": "Montecassino",
+  "nome_busca": "Batalla de Montecassino",
+  "titulo_video": null,
+  "lugar": "Cassino, Lacio, Italia: el Montecassino y la abadía benedictina, los valles del Rapido, del Liri y del Garigliano, y los montes Auruncos al sur",
+  "data": "17 de enero al 18 de mayo de 1944",
+  "campanha": "Segunda Guerra Mundial, campaña de Italia, 1944",
+  "pergunta": "¿Por qué hicieron falta cuatro asaltos contra la misma montaña — y qué cambió en el último?",
+  "resumo": "Batalla de Montecassino: tres asaltos chocaron de frente. El cuarto rompió por los montes Auruncos, y la abadía, sin alemanes dentro, cayó al final.",
+  "abertura": [
+    "En enero de 1944, la carretera de Nápoles a Roma entra en el valle del Liri por un cuello de botella: el río Rapido abajo, la ciudad de Cassino al pie y, encima, el Montecassino con la abadía benedictina en la cima. Es la Línea Gustav, y los Aliados la atacan cuatro veces en cuatro meses.",
+    "Los tres primeros asaltos fracasan ante el mismo punto. La jugada más famosa de la partida, el bombardeo de la abadía el 15 de febrero, destruye un edificio que los alemanes no ocupaban. El cuarto asalto, en mayo, cambia el tablero entero — y la ruptura llega por el rincón que ni el comandante aliado trataba como principal."
+  ],
+  "numeros": [
+    {
+      "valor": "4",
+      "rotulo": "asaltos aliados contra la Línea Gustav en Cassino, del 17 de enero al 18 de mayo de 1944"
+    },
+    {
+      "valor": "1.681",
+      "rotulo": "bajas de la 36.ª División estadounidense en 48 horas en el río Rapido, sin contar las unidades agregadas; otro cálculo da 2.100"
+    },
+    {
+      "valor": "576 t",
+      "rotulo": "de bombas sobre la abadía el 15 de febrero, según la historia oficial de la Fuerza Aérea estadounidense; la cifra más repetida es 1.150"
+    },
+    {
+      "valor": "≈ 90.000",
+      "rotulo": "hombres en el cuerpo francés de Juin contra una división alemana de unos 10.000 en el sector del Monte Maio, en mayo de 1944"
+    },
+    {
+      "valor": "13 de mayo",
+      "rotulo": "cae el Monte Maio y la Línea Gustav se rompe en los montes Auruncos; la abadía solo es ocupada el 18"
+    },
+    {
+      "valor": "> 900",
+      "rotulo": "soldados polacos muertos y unos 3.000 heridos en los asaltos a la montaña"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Aliados — mando",
+      "valor": "Harold Alexander (Ejércitos Aliados en Italia); Mark W. Clark (5.º Ejército estadounidense); Oliver Leese (8.º Ejército británico); Bernard Freyberg (Cuerpo Neozelandés, febrero y marzo); Alphonse Juin (Cuerpo Expedicionario Francés); Władysław Anders (II Cuerpo polaco)"
+    },
+    {
+      "item": "Alemania — mando",
+      "valor": "Albert Kesselring (teatro de Italia); Heinrich von Vietinghoff (10.º Ejército); Fridolin von Senger und Etterlin (XIV Cuerpo Panzer); Richard Heidrich (1.ª División Paracaidista)"
+    },
+    {
+      "item": "Terreno",
+      "valor": "el Montecassino domina la entrada del valle del Liri y la Carretera 6, único paso ancho hacia Roma; al frente, los ríos Rapido y Gari, que se desbordan en invierno; al sur del Liri, los montes Auruncos, sin carreteras"
+    },
+    {
+      "item": "Objetivo",
+      "valor": "romper la Línea Gustav y abrir la Carretera 6 hacia Roma; en enero, también apoyar el desembarco de Anzio, del 22 de enero de 1944"
+    },
+    {
+      "item": "Primera batalla",
+      "valor": "enero y comienzos de febrero: el X Cuerpo británico cruza el Garigliano el 17 de enero; la 36.ª División estadounidense es destrozada en el Rapido del 20 al 22; la 34.ª llega a unas 400 yardas de la abadía y se detiene; el cuerpo francés avanza por el norte sin reservas",
+      "nota": "Fechas de encuadre: del 17 de enero al 11 de febrero según un cálculo; del 12 de enero al 9 de febrero según el del Ministerio de Defensa británico."
+    },
+    {
+      "item": "Segunda batalla",
+      "valor": "15 al 18 de febrero: bombardeo de la abadía y ataques de la 4.ª División india a la montaña y de la 2.ª División neozelandesa a la estación de Cassino, rechazados"
+    },
+    {
+      "item": "Tercera batalla",
+      "valor": "15 al 23 de marzo: la ciudad de Cassino es arrasada desde el aire; neozelandeses e indios toman parte de la ciudad, el Castle Hill y el Hangman's Hill, pero no la abadía"
+    },
+    {
+      "item": "Cuarta batalla",
+      "valor": "Operación Diadem, a partir de las 23:00 del 11 de mayo: los dos ejércitos aliados atacan en un frente de unos 30 km entre Cassino y el mar; el Monte Maio cae el 13 de mayo; la abadía es ocupada por los polacos en la mañana del 18"
+    },
+    {
+      "item": "Fuerzas en mayo",
+      "valor": "240.000 hombres, 1.900 tanques y 4.000 aviones aliados contra unos 140.000 alemanes, según un cálculo; el número de divisiones aliadas va de 13 a 20 según la base"
+    },
+    {
+      "item": "La abadía",
+      "valor": "bombardeada el 15 de febrero de 1944 por 142 B-17, 47 B-25 y 40 B-26; 576 toneladas según la historia oficial de la Fuerza Aérea estadounidense, casi 600 según la del Ejército, 1.150 según la cifra más repetida. No estaba ocupada por tropas alemanas; los paracaidistas se instalaron en las ruinas a partir del 17 de febrero"
+    },
+    {
+      "item": "Civiles en la abadía",
+      "valor": "entre unos 115 y 230 muertos en el bombardeo, según el cálculo; no se registró ningún soldado alemán muerto dentro"
+    },
+    {
+      "item": "Bajas polacas",
+      "valor": "923 muertos, 2.931 heridos y 345 desaparecidos, según el cálculo polaco más citado; el IPN redondea a más de 900 muertos y unos 3.000 heridos"
+    },
+    {
+      "item": "Bajas totales",
+      "valor": "más de 105.000 aliados y al menos 80.000 alemanes contando las cuatro batallas, Anzio y Roma (Matthew Parker); solo la Diadem, 43.746 aliados y 51.754 alemanes (James Holland); otros cálculos son menores"
+    },
+    {
+      "item": "Resultado",
+      "valor": "victoria aliada: la Línea Gustav cae en mayo; la Línea Hitler, rebautizada Línea Senger, cede el 25 de mayo"
+    },
+    {
+      "item": "Lo que vino después",
+      "valor": "Clark gira el 6.º Cuerpo hacia Roma en lugar de cerrar la retirada alemana en Valmontone; Roma cae el 4 de junio de 1944, dos días antes de Normandía, y el 10.º Ejército alemán escapa hacia el norte"
+    }
+  ],
+  "lances": [
+    {
+      "titulo": "El tablero: un cuello de botella con un monasterio encima",
+      "paragrafos": [
+        "De Nápoles a Roma hay dos carreteras. La Vía Apia, por la costa, choca con las lagunas Pontinas, que los alemanes habían inundado. La Carretera 6, la Vía Casilina, entra por el valle del Liri — el único paso ancho para blindados. En la boca del valle, el río Rapido corre frente a la ciudad de Cassino, y por encima de ella se alza el Montecassino, espolón del macizo del Monte Cairo, con la abadía benedictina en la cima. Al sur del Liri, los montes Auruncos cierran el desvío hasta el mar.",
+        "Fue ahí donde Albert Kesselring montó la Línea Gustav, la más fuerte de las posiciones alemanas al sur de Roma. El sector era del XIV Cuerpo Panzer de Fridolin von Senger und Etterlin. El 5.º Ejército estadounidense de Mark W. Clark llegó frente a ella el 15 de enero de 1944, tras seis semanas de combate y unas 16.000 bajas para vencer las últimas posiciones de la línea anterior.",
+        "Y llegó con prisa prestada. Las lanchas de desembarco solo se quedarían en el Mediterráneo hasta comienzos de febrero, porque iban para la invasión de Francia. El desembarco de Anzio, detrás de las líneas alemanas, se fijó para el 22 de enero, y el ataque a la Gustav para tres días antes, para atraer las reservas alemanas hacia el sur. Cassino empezó como pieza de apoyo de otra jugada."
+      ]
+    },
+    {
+      "titulo": "Primer asalto: el río, la ciudad, la montaña",
+      "paragrafos": [
+        "El 17 de enero el X Cuerpo británico cruzó el Garigliano cerca de la costa y alarmó a Senger lo bastante como para que Kesselring enviara dos divisiones desde Roma, que estabilizaron el frente hasta el 21 de enero. El 20 de enero, tres horas después de la puesta del sol, la 36.ª División estadounidense intentó cruzar el río Gari en Sant'Angelo, aguas abajo de Cassino, sin preparación y sin lograr poner un blindado al otro lado. La 15.ª División Panzergrenadier la esperaba atrincherada.",
+        "En 48 horas la división tuvo 1.681 bajas en las unidades orgánicas, según la historia oficial del Ejército estadounidense — 143 muertos, 663 heridos, 875 desaparecidos, sin contar las unidades agregadas; otro cálculo llega a 2.100. Las pérdidas alemanas fueron insignificantes. El episodio fue objeto de una investigación en el Congreso estadounidense después de la guerra.",
+        "Al norte de la ciudad, la 34.ª División cruzó el Rapido por donde se podía vadear y subió la montaña. Llegó a unas 400 yardas de la abadía y se detuvo frente a la Cota 593, defendida por paracaidistas. A la derecha, el Cuerpo Expedicionario Francés de Alphonse Juin tomó el Belvedere y pidió reservas para rodear Cassino por el norte; la única reserva disponible fue para la 34.ª. El 11 de febrero los estadounidenses fueron retirados, agotados."
+      ]
+    },
+    {
+      "titulo": "Segundo asalto: el bombardeo de un edificio vacío",
+      "paragrafos": [
+        "Con Anzio bajo contraataque, Cassino dejó de ser el ataque al que Anzio ayudaría y pasó a ser el ataque que tenía que socorrer a Anzio. Entró el Cuerpo Neozelandés de Bernard Freyberg, con la 2.ª División neozelandesa y la 4.ª División india. El mando de la 4.ª india pidió que la abadía fuera demolida antes del ataque: los muros tenían 150 pies de altura y 10 de espesor, y el general Francis Tuker argumentaba que, ocupada o no, sería un refugio inexpugnable. Clark y sus comandantes de cuerpo estaban en contra; Alexander decidió a favor.",
+        "En 1943, Kesselring le había asegurado a la Iglesia que las tropas alemanas no entrarían en el edificio, y puso policías en la puerta. El monte alrededor, sin embargo, estaba fortificado hasta cerca del muro: puestos de observación, armas y un depósito de munición en una gruta junto a la pared. Quien estaba abajo veía fuego que venía de esa dirección y no tenía cómo distinguir el muro de las posiciones a 50 o 200 yardas de él.",
+        "En la mañana del 15 de febrero, 142 B-17, 47 B-25 y 40 B-26 bombardearon la abadía. La historia oficial de la Fuerza Aérea estadounidense registra 576 toneladas; la del Ejército, casi 600; la cifra más repetida, 1.150. Dentro estaban el abad Gregorio Diamare, algunos monjes y civiles refugiados del valle; murieron entre unos 115 y 230, según el cálculo. No se registró ningún soldado alemán muerto dentro. El 17 de febrero, después de que el abad bajara con los sobrevivientes, los paracaidistas alemanes se instalaron en las ruinas.",
+        "El ataque terrestre no estaba listo: las tropas indias habían asumido las posiciones dos días antes, y las posiciones alemanas en la Cota 593, por encima y detrás de la abadía, quedaron intactas. Los ataques del 15 al 18 de febrero fracasaron, y dos compañías maoríes que tomaron la estación de Cassino fueron expulsadas por tanques. La jugada más famosa de la partida le dio al defensor una posición mejor que la que tenía antes."
+      ]
+    },
+    {
+      "titulo": "Tercer asalto: la ciudad arrasada",
+      "paragrafos": [
+        "Para marzo, Freyberg cambió el blanco: la ciudad de Cassino, ya sin civiles, sería arrasada desde el aire y la infantería entraría justo detrás. El ataque necesitaba tres días secos y fue aplazado 21 días seguidos. El 15 de marzo, de las 8:30 al mediodía, la ciudad fue bombardeada. La propia historia oficial de la Fuerza Aérea anota que ninguna fuente coincide sobre el tonelaje: las cifras van de 988 a 1.463 toneladas. La abadía no fue blanco.",
+        "La infantería neozelandesa entró despacio; los tanques chocaron con los cráteres; de noche volvió la lluvia y llenó los agujeros. Los paracaidistas salieron de refugios y de un túnel bajo la ciudad y se reorganizaron en las ruinas. Los gurkhas llegaron al Hangman's Hill, a unas 250 yardas de la abadía, y los neozelandeses tomaron la estación, pero el 23 de marzo, con las dos divisiones exhaustas, Freyberg dio por terminada la batalla.",
+        "Tres asaltos, el mismo patrón: el mismo punto de ataque — el río, la ciudad, el macizo de la abadía —, donde la defensa era más densa; una o dos divisiones a la vez; invierno; y la prisa de otro frente. El bombardeo no sustituyó la jugada que faltaba."
+      ]
+    },
+    {
+      "titulo": "Cuarto asalto: el tablero entero",
+      "paragrafos": [
+        "Después de febrero, Alexander concluyó que necesitaba al menos tres infantes por cada defensor en el punto de ruptura. Trajo el 8.º Ejército del Adriático al lado oeste de los Apeninos, en pequeñas unidades y de noche, en un movimiento de dos meses. Un engaño, la Operación Nunton, simuló la preparación de un nuevo desembarco al norte de Roma, y Kesselring retuvo las reservas en el litoral. El segundo día de la batalla todavía calculaba seis divisiones aliadas contra sus cuatro en el frente de Cassino; eran trece.",
+        "El mando alemán ni siquiera estaba en su sitio. Cuando empezó el ataque, Vietinghoff acababa de partir hacia Alemania para recibir una condecoración, Senger estaba en una licencia de 30 días y el jefe de estado mayor de Kesselring convalecía. A las 23:00 del 11 de mayo la artillería abrió fuego a lo largo del frente, y los dos ejércitos aliados atacaron juntos, en un frente de unos 30 km entre Cassino y el mar.",
+        "En el valle del Liri, el XIII Cuerpo británico cruzó el Rapido, y los ingenieros de la 8.ª División india tendieron un puente que dejó pasar a los tanques canadienses — lo que le había faltado a la 36.ª en enero. En la montaña, el II Cuerpo polaco de Władysław Anders atacó a la 1.ª División Paracaidista a la 1:00 del 12 de mayo y fue rechazado; según la historia oficial estadounidense, casi la mitad de los atacantes murió o resultó herida.",
+        "La ruptura llegó por el sur. En los montes Auruncos, el sector del Monte Maio lo sostenía la 71.ª División alemana, unos 10.000 hombres, frente a un cuerpo francés de unos 90.000, según la historia oficial estadounidense. La historia oficial estadounidense anota que Kesselring parecía contar con la propia montaña como barrera en ese sector. El 13 de mayo los marroquíes tomaron el Monte Feuci, interceptaron la orden alemana de acelerar la retirada general y ocuparon el Monte Maio por la tarde. La Gustav estaba rota en uno de sus puntos más profundos y más débilmente defendidos. Solo entonces Kesselring se dio cuenta de que el peligro era el frente sur, y no el litoral. En los días siguientes, los goumiers avanzaron por montañas que nadie defendía, porque no se creía posible atravesarlas, y flanquearon el valle del Liri.",
+        "La jugada que abrió la Gustav tiene otra cara, y no puede quedar fuera. Después de la ruptura, soldados marroquíes del cuerpo francés cometieron violaciones y asesinatos de civiles en las aldeas de la Ciociaria, en el sur del Lacio, crímenes que los italianos llaman marocchinate. El número de víctimas está en disputa: dos a tres mil mujeres, según la estimación del Ministerio de Defensa italiano de 1997, y de doce mil a decenas de miles, según los cálculos de asociaciones de víctimas. Cuántos responsables fueron castigados también está en disputa: fuentes francesas registran juicios y ejecuciones, y fuentes italianas hablan de una impunidad casi completa."
+      ]
+    },
+    {
+      "titulo": "La abadía cae al final",
+      "paragrafos": [
+        "El 17 de mayo, con la 78.ª División británica cortando la Carretera 6 al suroeste de Cassino, los polacos atacaron de nuevo y tomaron la cresta al norte de la abadía. Solo quedaban dos rutas de escape. En la noche del 17, Kesselring ordenó al 10.º Ejército retirar a la 1.ª División Paracaidista de Cassino; los británicos descifraron el mensaje en minutos.",
+        "En la mañana del 18 de mayo, una patrulla del 12.º Regimiento de Lanceros de Podolia llegó a las ruinas y encontró a unos treinta heridos alemanes que no habían podido ser evacuados. A las 10:20 se izó la bandera polaca sobre la abadía, y la británica poco después. Al mediodía, el cabo Emil Czech tocó el hejnał de Cracovia. El II Cuerpo polaco perdió más de 900 muertos y unos 3.000 heridos en la montaña.",
+        "La abadía no cayó de frente. Cayó cuando el resto del tablero volvió indefendible la montaña: el valle abierto por británicos y canadienses, los Auruncos abiertos por los franceses, y los polacos fijando en su sitio, a un precio altísimo, a la mejor división alemana del sector. La Línea Hitler, rebautizada Línea Senger, cedió el 25 de mayo.",
+        "La última jugada fue de Clark. Alexander quería que el 6.º Cuerpo, saliendo de Anzio, cerrara la retirada alemana en Valmontone; Clark lo giró hacia Roma. La ciudad cayó el 4 de junio de 1944, dos días antes de Normandía, y el 10.º Ejército alemán escapó hacia el norte. El general Lucian Truscott escribió después que, sin el cambio, los objetivos de Anzio se habrían alcanzado por completo; el motivo de Clark sigue en debate."
+      ]
+    }
+  ],
+  "veredito": [
+    "Los tres primeros asaltos fracasaron porque atacaron el punto en que el defensor era más fuerte — el río, la ciudad y el macizo de la abadía —, con poca gente cada vez, en invierno y con la prisa prestada de Anzio. El bombardeo del 15 de febrero intentó resolver con explosivos lo que era un problema de plan, y destruyó un edificio que los alemanes no ocupaban.",
+    "El cuarto salió bien porque cambió de juego: el atacante pasó a obligar al defensor a cubrir el tablero entero, escondió dónde estaba la fuerza y rompió por el rincón que el defensor había dejado a cargo de la propia montaña. En términos de ajedrez, es la casilla fuerte que nunca se toma de frente: cae cuando las piezas de alrededor se cambian y ella queda sola.",
+    "Nada de esto le resta a quienes subieron la montaña. Los polacos, los indios, los neozelandeses y los estadounidenses de enero pagaron por la jugada que no funcionaba; los polacos, en mayo, pagaron para que la jugada que funcionaba tuviera tiempo de ocurrir."
+  ],
+  "mitos": [
+    {
+      "circula": "La abadía era una fortaleza alemana, y por eso fue bombardeada.",
+      "registro": "Kesselring le aseguró a la Iglesia, en diciembre de 1943, que las tropas alemanas no entrarían en el edificio, y puso policías en la puerta; el monte alrededor, eso sí, estaba fortificado hasta cerca del muro. El servicio de contrainteligencia del 5.º Ejército comprobó el 26 de febrero de 1944 que la abadía estaba desocupada, la historia oficial británica habla de abundantes pruebas de ningún uso militar antes del bombardeo, y el Ejército estadounidense corrigió su propio registro en 1969. Los paracaidistas ocuparon las ruinas a partir del 17 de febrero."
+    },
+    {
+      "circula": "El bombardeo de la abadía abrió el camino al ataque.",
+      "registro": "El ataque terrestre no estaba listo el 15 de febrero, y las posiciones alemanas en la Cota 593, por encima y detrás de la abadía, quedaron intactas. Los ataques del 15 al 18 de febrero fracasaron, y las ruinas le dieron al defensor una posición mejor que el edificio entero."
+    },
+    {
+      "circula": "Fueron 1.150 toneladas de bombas sobre la abadía.",
+      "registro": "Es la cifra más repetida. Las historias oficiales estadounidenses dan otra: 576 toneladas en la de la Fuerza Aérea, casi 600 en la del Ejército, lanzadas por 142 bombarderos pesados y por los medianos a lo largo del día."
+    },
+    {
+      "circula": "Los polacos tomaron la abadía en un asalto final.",
+      "registro": "Los polacos atacaron el 12 y el 17 de mayo y fueron rechazados con fuertes pérdidas en el primer asalto, fijando en su sitio a la mejor división alemana del sector. Con el valle del Liri y los montes Auruncos abiertos, Kesselring ordenó evacuar Cassino en la noche del 17 de mayo; en la mañana del 18, la patrulla polaca encontró en las ruinas a unos treinta heridos alemanes e izó la bandera a las 10:20."
+    },
+    {
+      "circula": "La FEB combatió en Montecassino.",
+      "registro": "No combatió. El primer escalón de la Fuerza Expedicionaria Brasileña desembarcó en Nápoles el 16 de julio de 1944, dos meses después de la caída de la abadía; Monte Castello es de febrero de 1945."
+    }
+  ],
+  "perguntas": [
+    {
+      "p": "¿Quién ganó la batalla de Montecassino?",
+      "r": "Ganaron los Aliados, en el cuarto asalto. La Línea Gustav se rompió el 13 de mayo de 1944 en los montes Auruncos, con la caída del Monte Maio, y la abadía fue ocupada por los polacos en la mañana del 18 de mayo, después de que los alemanes evacuaran Cassino."
+    },
+    {
+      "p": "¿Brasil participó en la batalla de Montecassino?",
+      "r": "No. El primer escalón de la Fuerza Expedicionaria Brasileña desembarcó en Nápoles el 16 de julio de 1944, dos meses después de la caída de la abadía. La batalla de la FEB es Monte Castello, de febrero de 1945."
+    },
+    {
+      "p": "¿Por qué bombardearon la abadía de Montecassino?",
+      "r": "El mando de la 4.ª División india pidió la demolición, argumentando que, ocupada o no, sería un refugio inexpugnable, y Alexander decidió a favor. Pero la abadía no estaba ocupada por tropas alemanas: los paracaidistas solo se instalaron en las ruinas a partir del 17 de febrero de 1944."
+    },
+    {
+      "p": "¿Cuántos muertos hubo en la batalla de Montecassino?",
+      "r": "Los cálculos difieren y suman bajas, no solo muertos: más de 105.000 aliados y al menos 80.000 alemanes, contando las cuatro batallas, Anzio y Roma, según Matthew Parker; solo en la ofensiva de mayo, 43.746 aliados y 51.754 alemanes, según James Holland. Los polacos perdieron 923 muertos."
+    },
+    {
+      "p": "¿Cuánto duró la batalla de Montecassino?",
+      "r": "Unos cuatro meses, del 17 de enero al 18 de mayo de 1944. En ese período los Aliados atacaron la Línea Gustav en Cassino cuatro veces; los tres primeros asaltos fracasaron ante el mismo punto."
+    }
+  ],
+  "fontes": [
+    {"texto": "Martin Blumenson, Salerno to Cassino, U.S. Army in World War II, Center of Military History, 1969 — caps. XIX y XXIII."},
+    {"texto": "Ernest F. Fisher Jr., Cassino to the Alps, U.S. Army in World War II, Center of Military History, 1977 — caps. 1 a 4."},
+    {"texto": "W. F. Craven y J. L. Cate (eds.), The Army Air Forces in World War II, vol. III, cap. 10, 1951."},
+    {"texto": "Ministerio de Defensa del Reino Unido, The Battles for Monte Cassino, 12 January – 5 June 1944, 2004."},
+    {"texto": "Instituto de la Memoria Nacional (IPN), 81. rocznica zdobycia Monte Cassino przez 2. Korpus Polski, 2025."},
+    {"texto": "dzieje.pl, 74 lata temu żołnierze 2. Korpusu Polskiego zdobyli Monte Cassino."},
+    {"texto": "Museo Virtual de la FEB, Ejército Brasileño — cronología de 1944."},
+    {"texto": "Chrissy Gregg, The Destruction of Monte Cassino, The National WWII Museum, 2021."},
+    {"texto": "Fourth battle of Cassino, 11-18 May 1944 (Operation Diadem) — History of War."},
+    {"texto": "Battle of Monte Cassino — Wikipedia en inglés."},
+    {"texto": "Operation Diadem — Wikipedia en inglés."}
+  ],
+  "imagens": [
+    {
+      "alt": "Vista aérea baja de las ruinas de la abadía en la cima del Montecassino: un paredón de piedra aún en pie a la derecha, escombros en el resto de la cumbre y montañas al fondo",
+      "legenda": "Las ruinas de la abadía de Montecassino vistas desde un avión de la RAF en mayo de 1944. El edificio, que los alemanes no ocupaban antes del bombardeo del 15 de febrero, se convirtió en posición paracaidista hasta el 18 de mayo.",
+      "autor": "F/O Baker, fotógrafo oficial de la Royal Air Force · Imperial War Museums, C 4363"
+    },
+    {
+      "alt": "Fragmento de carta topográfica con Cassino y la Carretera 6 en rojo arriba a la derecha, el valle del Liri atravesando el centro y, abajo, las montañas con Esperia, Ausonia y el Monte Majo",
+      "legenda": "Cassino, el valle del Liri y los montes Auruncos en la carta Italia 1:100.000, hoja 160, del War Office británico (2.ª edición, 1943), reproducida por el Army Map Service. Arriba, la puerta principal: Cassino, el Rapido y la Carretera 6. Abajo, el camino del cuarto asalto: Monte Majo, Ausonia, Esperia.",
+      "autor": "Geographical Section, General Staff (GSGS 4164) · U.S. Army Map Service · Perry-Castañeda Library, Universidad de Texas"
+    },
+    {
+      "alt": "Soldados estadounidenses con casco arrastran con cuerdas un mortero sobre ruedas por una ladera empinada de tierra y piedra",
+      "legenda": "Un equipo de la Compañía B del 2.º Batallón de Morteros Químicos estadounidense arrastra un mortero por el terreno del área de Cassino, el 6 de marzo de 1944. En la montaña, la munición y el agua subían en mula o a la espalda.",
+      "autor": "Paris, 196th Signal Photo Company · U.S. Army Signal Corps, NARA SC 336793"
+    },
+    {
+      "alt": "Soldados con casco agachados en semicírculo en un campo escuchan a un oficial sentado en un tocón, de espaldas a la cámara",
+      "legenda": "Infantería de la 2.ª División Marroquí del Cuerpo Expedicionario Francés recibe instrucciones antes de relevar a la 34.ª División estadounidense cerca de Cassino, en el invierno de 1943–44. El 13 de mayo de 1944, fue esa división la que tomó el Monte Maio.",
+      "autor": "Sargento Lambert · Imperial War Museums, NA 9734"
+    },
+    {
+      "alt": "Fotografía en color: un tanque Sherman volcado y restos de un puente de hierro en primer plano, ruinas blancas de la ciudad y la montaña con la cumbre pelada al fondo",
+      "legenda": "La ciudad de Cassino el 18 de mayo de 1944, día en que fue ocupada la abadía: un Sherman destruido junto a un puente Bailey, con el Monastery Ridge y el Castle Hill al fondo. Fotografía en color original del War Office, no coloreada.",
+      "autor": "Capitán Tanner, fotógrafo oficial del War Office · Imperial War Museums, TR 1799"
+    },
+    {
+      "alt": "Montón de escombros y paredes partidas de la abadía con dos banderas pequeñas clavadas en el punto más alto",
+      "legenda": "Las banderas polaca y británica sobre las ruinas de la abadía, en mayo de 1944. La polaca fue izada a las 10:20 del 18 de mayo por una patrulla del 12.º Regimiento de Lanceros de Podolia.",
+      "autor": "Autor no identificado · Archivo Fotográfico Tadeusz Szumański, Archivo Digital Nacional de Polonia (NAC 24-452-15)"
+    }
+  ]
+}

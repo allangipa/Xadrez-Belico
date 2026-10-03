@@ -1,0 +1,239 @@
+{
+  "batalha": "Stalingrado",
+  "nome_busca": "Batalla de Stalingrado",
+  "titulo_video": null,
+  "lugar": "Stalingrado (hoy Volgogrado), óblast de Volgogrado, Rusia, y la curva del Don entre ese río y el Volga",
+  "data": "17 de julio de 1942 a 2 de febrero de 1943",
+  "campanha": "Segunda Guerra Mundial (1942–1943)",
+  "pergunta": "¿Cómo el ejército que cercaba Stalingrado terminó cercado dentro de ella, y por qué no salió?",
+  "resumo": "Batalla de Stalingrado: por qué el 6.º Ejército quedó atrapado. Flancos débiles, la Operación Urano, un puente aéreo insuficiente y la orden de no salir.",
+  "abertura": [
+    "En noviembre de 1942 el 6.º Ejército alemán está en el Volga, dueño de casi toda Stalingrado, en el sur de Rusia. Detrás de él, a lo largo del Don, la línea que protege sus flancos está en manos de ejércitos rumanos mal armados. El 19 y el 20 de noviembre el Ejército Rojo rompe esa línea al norte y al sur, y el 23 de noviembre las dos puntas se encuentran cerca de Kalach. Quien cercaba la ciudad está cercado.",
+    "Ser cercado no condenaba a un ejército en 1942: los dos bandos ya habían roto cercos antes. Esta página sigue la partida para entender cómo el anillo se volvió una trampa: el tablero estirado por el propio mando alemán, el golpe soviético en los puntos débiles, la promesa de abastecer por aire a un ejército entero, el intento de socorro que se detuvo a unos 48 km y la orden de no romper el cerco."
+  ],
+  "numeros": [
+    {
+      "valor": "250–300 mil",
+      "rotulo": "hombres del Eje atrapados en la bolsa en noviembre de 1942, según la fuente y la base de recuento"
+    },
+    {
+      "valor": "300 t",
+      "rotulo": "de suministros por día: el mínimo calculado para mantener al 6.º Ejército; lo que él dijo necesitar eran 750"
+    },
+    {
+      "valor": "289 t",
+      "rotulo": "el mejor día del puente aéreo, el 19 de diciembre de 1942; el promedio quedó entre 94 y 117 toneladas"
+    },
+    {
+      "valor": "48 km",
+      "rotulo": "la distancia de la bolsa a la que se detuvo el socorro de Manstein, el 19 de diciembre, en el río Myshkova"
+    },
+    {
+      "valor": "91.000",
+      "rotulo": "prisioneros en la rendición, entre el 31 de enero y el 2 de febrero de 1943; volvieron entre 5.000 y 6.000"
+    },
+    {
+      "valor": "1.129.619",
+      "rotulo": "bajas soviéticas en la cuenta oficial de Krivosheev, entre muertos, desaparecidos, heridos y enfermos"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "El plan",
+      "valor": "el Caso Azul comienza el 28 de junio de 1942 con el Cáucaso y el petróleo como objetivo principal. La Directiva n.º 45, del 23 de julio, divide el Grupo de Ejércitos Sur: el A va al Cáucaso, el B al Volga y a Stalingrado, al mismo tiempo"
+    },
+    {
+      "item": "Alemania y el Eje — mando",
+      "valor": "Friedrich Paulus (6.º Ejército), Hermann Hoth (4.º Ejército Panzer), Maximilian von Weichs (Grupo de Ejércitos B), Erich von Manstein (Grupo de Ejércitos Don, a partir del 26 de noviembre); Petre Dumitrescu (3.er Ejército rumano); Adolf Hitler"
+    },
+    {
+      "item": "URSS — mando",
+      "valor": "Andréi Yeriómenko (Frente de Stalingrado), Vasili Chuikov (62.º Ejército, en la ciudad), Konstantín Rokossovski (Frente del Don), Nikolái Vatutin (Frente Sudoeste); Gueorgui Zhúkov y Aleksandr Vasilevski en la planificación de la contraofensiva"
+    },
+    {
+      "item": "Terreno",
+      "valor": "la estepa entre el Don y el Volga, a unos 65 km uno del otro cerca de la ciudad; Stalingrado se extiende unos 40 km a lo largo de la orilla oeste del Volga, con 6 a 8 km de ancho",
+      "nota": "Wikipedia en inglés (distancia Don–Volga) y en alemán (dimensiones de la ciudad)."
+    },
+    {
+      "item": "Los flancos",
+      "valor": "3.er Ejército rumano al noroeste, en la línea del Don; 4.º Ejército rumano al sur de la ciudad; más arriba en el Don, el 8.º Ejército italiano y el 2.º húngaro. Detrás de los rumanos, una reserva alemana de menos de 100 tanques modernos"
+    },
+    {
+      "item": "Operación Urano",
+      "valor": "19 de noviembre al norte, 20 de noviembre al sur; el anillo se cierra el 23 de noviembre cerca de Kalach y Sovetski. Más de un millón de soldados soviéticos empeñados"
+    },
+    {
+      "item": "Cercados",
+      "valor": "entre 250.000 y 300.000 hombres del Eje en las cuentas más citadas; cerca de 330.000 con 40.000 a 65.000 auxiliares soviéticos, en otra; 195.000 alemanes, en la de Rolf-Dieter Müller",
+      "nota": "La diferencia es de base: solo alemanes o todo el Eje, con o sin auxiliares y personal de apoyo."
+    },
+    {
+      "item": "La decisión de quedarse",
+      "valor": "Hitler ordena el 24 de noviembre que el 6.º Ejército se quede donde está, después de que Jeschonnek (20 de noviembre) y Göring (22 de noviembre) garantizaran el abastecimiento por aire. Ese mismo día Manstein envía una evaluación que no pide la ruptura inmediata"
+    },
+    {
+      "item": "Puente aéreo",
+      "valor": "mínimo calculado de 300 t por día, o 500 t por día de vuelo; el mejor día fue de 289 t, el 19 de diciembre; el promedio quedó entre 94 y 117 t. La Luftwaffe perdió 488 aviones",
+      "nota": "Los promedios varían con el período contado: 94 t del 25 de noviembre al 2 de febrero; 117 t en 71 días."
+    },
+    {
+      "item": "Tormenta de Invierno",
+      "valor": "el LVII Cuerpo Panzer parte de Kotelnikovo el 12 de diciembre y llega a unos 48 km de la bolsa el 19 de diciembre; la orden de ruptura del 6.º Ejército nunca se da; el socorro se retira el 23 y el 24 de diciembre"
+    },
+    {
+      "item": "El final",
+      "valor": "la Operación Anillo comienza el 10 de enero de 1943; Paulus, ascendido a mariscal de campo el 30 de enero, es capturado el 31; la bolsa norte, de Karl Strecker, se rinde el 2 de febrero"
+    },
+    {
+      "item": "Bajas soviéticas",
+      "valor": "1.129.619 en la cuenta oficial de Krivosheev: 478.741 pérdidas irrecuperables (muertos, desaparecidos y capturados) y 650.878 heridos y enfermos. Una revisión de Pereslegin llega a 1.347.214"
+    },
+    {
+      "item": "Bajas del Eje",
+      "valor": "de 800.000 a 1,5 millones, según la fuente y el área contada; solo el 6.º Ejército registró 282.606 del 21 de agosto al final",
+      "nota": "La cifra de 1,5 millones, de la historia oficial soviética, se cita como sobreestimación."
+    },
+    {
+      "item": "Civiles",
+      "valor": "42.754 muertos en datos incompletos del archivo del partido de Volgogrado; 235.232 en la investigación de Tatiana Pávlova"
+    },
+    {
+      "item": "Prisioneros",
+      "valor": "cerca de 91.000 en la rendición; volvieron entre 5.000 y 6.000, los últimos en 1955–1956",
+      "nota": "Contando toda la batalla, Müller habla de 110.000 prisioneros."
+    },
+    {
+      "item": "Lo que vino después",
+      "valor": "el Grupo de Ejércitos A recibe la orden de retirarse del Cáucaso a fines de diciembre de 1942; en enero de 1943, una nueva ofensiva soviética en el Don destruye el 2.º Ejército húngaro y lo que quedaba del 8.º italiano",
+      "nota": "Wikipedia en inglés, Battle of Stalingrad y Case Blue."
+    }
+  ],
+  "lances": [
+    {
+      "titulo": "El tablero estirado: dos objetivos a la vez",
+      "paragrafos": [
+        "El Caso Azul, la ofensiva alemana de verano de 1942 en el sur de la Unión Soviética, comienza el 28 de junio con un objetivo principal: el Cáucaso y su petróleo. Stalingrado, en el Volga, entraba como objetivo operacional: tomar la ciudad o ponerla bajo fuego pesado para cortar el río y proteger el flanco del avance hacia el sur.",
+        "El 23 de julio, creyendo derrotado al Ejército Rojo, Hitler cambia el plan con la Directiva n.º 45. El Grupo de Ejércitos Sur se divide en dos: el Grupo A sigue hacia el Cáucaso, el Grupo B hacia el Volga y Stalingrado, y los dos objetivos tienen que cumplirse al mismo tiempo, no uno después del otro. La historia oficial del Ejército de EE. UU., de Earl Ziemke y Magna Bauer, describe el resultado como dos campañas separadas, en direcciones en ángulo recto, cada una obligada a sostenerse sola.",
+        "Los dos grupos se alejan uno del otro. El 4.º Ejército Panzer es enviado al sur en julio, congestiona las carreteras y vuelve hacia Stalingrado unas dos semanas después. Cuanto más avanza el 6.º Ejército hacia el este, más larga se vuelve la línea del Don detrás de él, y alguien tiene que custodiarla."
+      ]
+    },
+    {
+      "titulo": "La ciudad que se tragó al atacante",
+      "paragrafos": [
+        "El primer choque con el Frente de Stalingrado se produce el 17 de julio, en la curva del Don. El 28 de julio Stalin firma la Orden n.º 227, \"Ni un paso atrás\", que crea batallones penales y destacamentos de bloqueo detrás de las líneas. El 23 de agosto la 16.ª División Panzer llega al Volga al norte de la ciudad, el mismo día del mayor bombardeo aéreo del frente oriental hasta entonces.",
+        "De septiembre a noviembre la lucha es casa por casa. Vasili Chuikov, al mando del 62.º Ejército dentro de la ciudad, mantiene la línea pegada a la alemana para que la aviación y la artillería no puedan disparar sin alcanzar a sus propios soldados, y prefiere ataques nocturnos y pequeños grupos de asalto. Al norte de la ciudad, según David Glantz, las operaciones de Kotluban costaron más de 200.000 bajas soviéticas, pero desgastaron al 6.º Ejército antes incluso de la lucha en las calles.",
+        "A mediados de noviembre los alemanes llegan al Volga en varios puntos y reducen a los defensores a franjas estrechas en la orilla. Pero la pieza de ataque se volvió pieza atrapada: las divisiones de infantería y los blindados del 6.º Ejército están desgastados en una lucha entre ruinas en la que la maniobra, la gran ventaja alemana, no vale nada."
+      ]
+    },
+    {
+      "titulo": "Los flancos de papel y el doble golpe",
+      "paragrafos": [
+        "Detrás del 6.º Ejército, la línea del Don al noroeste está a cargo del 3.er Ejército rumano; al sur de la ciudad, del 4.º Ejército rumano. Más arriba en el río están el 8.º Ejército italiano y el 2.º Ejército húngaro. Los rumanos tenían cañones antitanque de 37 mm, inútiles contra el T-34, y su división blindada usaba cerca de 100 tanques checos con cañón del mismo calibre. La reserva alemana detrás de ellos, el XLVIII Cuerpo Panzer, tenía menos de 100 tanques modernos en condiciones.",
+        "Desde septiembre, Gueorgui Zhúkov y Aleksandr Vasilevski preparaban en la Stavka el golpe contra esos flancos. La Operación Urano empeña más de un millón de soldados, con un engaño cuidadoso: menos radio, mensajeros, camuflaje, puentes falsos. El 19 de noviembre, bajo la niebla, tres ejércitos atacan al 3.er Ejército rumano; el 20 de noviembre, otros dos atacan al 4.º al sur.",
+        "Los rumanos rechazan los primeros asaltos y después ceden, sin antitanques pesados para detener a los blindados. La reserva alemana es demasiado pequeña. El 23 de noviembre las puntas soviéticas se encuentran cerca de Kalach y Sovetski, en el Don. Dentro del anillo quedan entre 250.000 y 300.000 hombres del Eje según las cuentas más citadas; la Stavka, al principio, estimó una cuarta parte de eso."
+      ]
+    },
+    {
+      "titulo": "La decisión de quedarse y la cuenta que no cerraba",
+      "paragrafos": [
+        "Un cerco recién cerrado todavía puede romperse: las líneas soviéticas eran delgadas y los blindados alemanes aún tenían combustible. Entre el 22 y el 23 de noviembre, Paulus y los comandantes de cuerpo piden romper el cerco, y Maximilian von Weichs, del Grupo de Ejércitos B, advierte que por aire se llevaría solo una décima parte de lo necesario. Los jefes de la Luftwaffe en el lugar, Wolfram von Richthofen y Martin Fiebig, dicen lo mismo.",
+        "Hitler ya tenía otra respuesta. El 20 de noviembre Hans Jeschonnek, jefe del estado mayor de la Luftwaffe, dijo que el abastecimiento aéreo era posible con aviones de transporte y bombarderos; el 22, Hermann Göring garantizó que podía hacerse. El 24 de noviembre Hitler ordena que el 6.º Ejército se quede donde está. Ese mismo día Erich von Manstein, recién nombrado al frente del nuevo Grupo de Ejércitos Don, envía una evaluación que no pide la ruptura inmediata. Williamson Murray y Allan Millett escriben que ese mensaje, sumado a la garantía de Göring, selló el destino del 6.º Ejército.",
+        "La cuenta era simple. El 6.º Ejército dijo necesitar 750 toneladas por día; el mínimo calculado por el jefe del estado mayor del ejército, Kurt Zeitzler, era de 300 por día, o 500 por día de vuelo. En la primera semana llegaron 350 toneladas en total. El mejor día de toda la operación fue el 19 de diciembre, con 289 toneladas; el promedio quedó entre 94 y 117, según el período contado. La pérdida del aeródromo de Tatsinskaya, el 24 de diciembre, y después la de Pitomnik y Gumrak, en enero, ponen fin al puente aéreo. Costó 488 aviones."
+      ]
+    },
+    {
+      "titulo": "El socorro que se detuvo a 48 km",
+      "paragrafos": [
+        "La Tormenta de Invierno, el plan de Manstein, pedía dos movimientos a la vez: el 4.º Ejército Panzer de Hoth abriría un corredor hasta la bolsa, y el 6.º Ejército rompería el cerco a su encuentro cuando recibiera la orden: la Operación Trueno. Solo quedó el eje más largo, desde Kotelnikovo, al sur, porque el más corto, por el río Chir, estaba bloqueado por ataques soviéticos.",
+        "El LVII Cuerpo Panzer parte el 12 de diciembre con la 6.ª y la 23.ª Divisiones Panzer, reforzadas después por la 17.ª. Tras tres días de batalla de tanques en Verjne-Kumski, llega el 19 de diciembre al río Myshkova, a unos 48 km de la bolsa. Pero el 16 de diciembre el Ejército Rojo lanza el Pequeño Saturno contra el 8.º Ejército italiano en el Don medio, amenazando Rostov y la retaguardia de todo el frente sur.",
+        "El segundo movimiento nunca se produce. Hitler rechaza la ruptura que Manstein pide el 18 de diciembre; Paulus no actúa sin orden; y, según su ayudante Wilhelm Adam, los tanques del 6.º Ejército tenían combustible para unos 30 km. El 23 de diciembre la 6.ª Panzer es retirada hacia el Chir, y el 24 el socorro se repliega. La orden de ruptura nunca se dio."
+      ]
+    },
+    {
+      "titulo": "El anillo se estrecha",
+      "paragrafos": [
+        "El 8 de enero de 1943 los soviéticos ofrecen la rendición; Hitler prohíbe aceptarla. El 10 de enero el Frente del Don de Konstantín Rokossovski lanza la Operación Anillo. Pitomnik cae el 16 de enero y Gumrak en la noche del 21 al 22, y con ellos terminan los aterrizajes y la evacuación de los heridos. El 26 de enero la bolsa queda partida en dos, al norte y al sur del Mamáyev Kurgán.",
+        "El 30 de enero Hitler asciende a Paulus a mariscal de campo: ningún mariscal alemán o prusiano se había rendido nunca. Al día siguiente Paulus es capturado en el sótano de los almacenes Univermag, en el centro, y la bolsa sur se rinde. La bolsa norte, de Karl Strecker, resiste hasta el 2 de febrero.",
+        "Se rindieron cerca de 91.000 hombres, entre ellos 22 generales. La mayoría murió en cautiverio; volvieron a casa entre 5.000 y 6.000, los últimos en 1955–1956, después de una petición del canciller Konrad Adenauer en Moscú."
+      ]
+    }
+  ],
+  "veredito": [
+    "El 6.º Ejército no quedó atrapado solo por una jugada genial del adversario, ni por el invierno. Quedó atrapado porque el mando alemán envió dos grupos de ejércitos hacia objetivos distintos al mismo tiempo, dejó la línea del Don a aliados sin armas para sostenerla y, cuando el Ejército Rojo golpeó justamente allí, eligió quedarse. Hitler prohibió la ruptura; Jeschonnek y Göring garantizaron un puente aéreo que los comandantes de la Luftwaffe en el lugar consideraban imposible; y Manstein, el día en que importaba, tampoco pidió salir.",
+    "En términos de ajedrez, es la pieza que avanza hasta el fondo del campo adversario mientras las que deberían protegerla quedan débiles o lejos. La jugada contraria era previsible en el mapa; lo que convirtió la pérdida en total fue la negativa a retirar la pieza cuando todavía se podía. En diciembre, la Tormenta de Invierno intentó arreglar con una jugada lo que noviembre había perdido, y llegó a 48 km de una pieza que ya no tenía combustible para moverse 30."
+  ],
+  "mitos": [
+    {
+      "circula": "La culpa de Stalingrado fue solo de Hitler.",
+      "registro": "Hitler prohibió romper el cerco el 24 de noviembre de 1942 y de nuevo en diciembre y enero. Pero Jeschonnek y Göring garantizaron el abastecimiento aéreo, y Manstein, el 24 de noviembre, envió una evaluación que no pedía la ruptura inmediata. La culpa exclusiva de Hitler es la versión de las memorias de generales escritas después de la guerra."
+    },
+    {
+      "circula": "Los rumanos y los italianos huyeron y entregaron los flancos.",
+      "registro": "Estaban en un frente demasiado largo, con cañones antitanque de 37 mm contra el T-34 y una reserva alemana de menos de 100 tanques modernos detrás. Los rumanos rechazaron los primeros asaltos del 19 de noviembre; las divisiones italianas Ravenna y Cosseria fueron elogiadas por un oficial de enlace alemán, según Rolf-Dieter Müller. Quien eligió dejarlos allí fue el mando alemán."
+    },
+    {
+      "circula": "El francotirador Vasili Záitsev ganó un duelo contra el mayor alemán König, jefe de una escuela de tiradores de Berlín.",
+      "registro": "Záitsev es real: tirador del 62.º Ejército y Héroe de la Unión Soviética, con 265 enemigos abatidos de septiembre a diciembre de 1942 en la lista de condecoración citada por Wikipedia. El duelo con König no tiene ningún registro alemán; viene de la propaganda soviética, de las memorias de Záitsev, del libro de William Craig y de la película Enemigo al acecho. Antony Beevor escribe que los archivos del Ministerio de Defensa ruso lo contradicen."
+    },
+    {
+      "circula": "La Orden 227 mandó fusilar en masa a quien retrocediera.",
+      "registro": "La orden, del 28 de julio de 1942, creó batallones penales y destacamentos de bloqueo. En una lista interna del NKVD del Frente de Stalingrado, del 1 de agosto al 15 de octubre de 1942, de los 15.649 detenidos que huían de la línea, 278 fueron fusilados y 14.833 devueltos a sus unidades. Fue una orden brutal; el fusilamiento en masa no es lo que muestra la lista."
+    },
+    {
+      "circula": "El puente aéreo casi salvó al 6.º Ejército.",
+      "registro": "El mínimo calculado era de 300 toneladas por día. El mejor día de toda la operación, el 19 de diciembre de 1942, rindió 289; el promedio quedó entre 94 y 117. Richthofen y Fiebig, que comandaban la Luftwaffe en el lugar, dijeron antes de empezar que era imposible."
+    }
+  ],
+  "perguntas": [
+    {"p": "¿Quién ganó la batalla de Stalingrado?", "r": "Ganó la Unión Soviética. El 6.º Ejército alemán, cercado desde el 23 de noviembre de 1942, se rindió entre el 31 de enero y el 2 de febrero de 1943, con cerca de 91.000 prisioneros; volvieron a casa entre 5.000 y 6.000."},
+    {"p": "¿Por qué Alemania perdió la batalla de Stalingrado?", "r": "El mando alemán envió dos grupos de ejércitos hacia objetivos distintos al mismo tiempo y dejó la línea del Don a ejércitos rumanos mal armados. La Operación Urano rompió justamente allí, y Hitler, confiando en un puente aéreo cuyas cuentas no cerraban, ordenó el 24 de noviembre que el 6.º Ejército se quedara."},
+    {"p": "¿Cuántos muertos hubo en la batalla de Stalingrado?", "r": "Las fuentes divergen mucho. La cuenta oficial de Krivosheev da 1.129.619 bajas soviéticas, 478.741 de ellas irrecuperables; las del Eje van de 800.000 a 1,5 millones, según la fuente y el área contada. Para los civiles, los recuentos van de 42.754 a 235.232 muertos."},
+    {"p": "¿Cuánto duró la batalla de Stalingrado?", "r": "Poco más de seis meses: del 17 de julio de 1942, primer choque en la curva del Don, al 2 de febrero de 1943, cuando se rindió la bolsa norte de Karl Strecker."},
+    {"p": "¿Quién comandó la batalla de Stalingrado?", "r": "Del lado alemán, Friedrich Paulus, al frente del 6.º Ejército, bajo las órdenes de Hitler. Del lado soviético, Vasili Chuikov defendió la ciudad con el 62.º Ejército, y Gueorgui Zhúkov y Aleksandr Vasilevski planificaron la contraofensiva que cercó a los alemanes."}
+  ],
+  "fontes": [
+    {"texto": "Earl F. Ziemke y Magna E. Bauer, Moscow to Stalingrad: Decision in the East, U.S. Army Center of Military History, cap. XVII (Directiva n.º 45)."},
+    {"texto": "Joel S. A. Hayward, \"Stalingrad: An Examination of Hitler's Decision to Airlift\", Airpower Journal, 1997."},
+    {"texto": "Bill Barry, \"Stopped Cold at Stalingrad\", World War II, febrero de 2007."},
+    {"texto": "William E. Hiestand, \"The Luftwaffe's Stalingrad Airlift\", Osprey Publishing, 2023."},
+    {"texto": "G. F. Krivosheev (org.), Soviet Casualties and Combat Losses in the Twentieth Century (citado por Wikipedia)."},
+    {"texto": "Battle of Stalingrad — Wikipedia en inglés."},
+    {"texto": "Operation Uranus — Wikipedia en inglés."},
+    {"texto": "Operation Winter Storm — Wikipedia en inglés."},
+    {"texto": "Order No. 227 — Wikipedia en inglés."},
+    {"texto": "Schlacht von Stalingrad — Wikipedia en alemán (cifras de Rolf-Dieter Müller)."}
+  ],
+  "imagens": [
+    {
+      "alt": "Soldados soviéticos con ropa blanca de invierno caminan por la nieve entre ruinas de edificios sin techo, con el río al fondo",
+      "legenda": "El centro de Stalingrado el 2 de febrero de 1943, el día de la rendición de la última bolsa alemana. Foto del reportero soviético Gueorgui Zelma.",
+      "autor": "Georgy Zelma · RIA Novosti, archivo 602161"
+    },
+    {
+      "alt": "Carta topográfica alemana del sur de Stalingrado, con la ciudad y el Volga a la derecha y posiciones marcadas en rojo en la estepa al oeste",
+      "legenda": "Stalingrad-Süd, carta alemana 1:25.000 de octubre de 1942, con las fortificaciones soviéticas marcadas en rojo hasta el 27 de octubre. La ciudad se extiende a lo largo de la orilla oeste del Volga.",
+      "autor": "Ejército alemán, Armee-Kartenstelle 473 · Biblioteca del Congreso de EE. UU., G7064.V6S7 1942 .G4"
+    },
+    {
+      "alt": "Soldados rumanos con casco agachados detrás de una línea de matorrales, observando la estepa llana con humo al fondo",
+      "legenda": "Soldados rumanos en el frente sur de Rusia en 1942. El 3.er y el 4.º Ejércitos rumanos custodiaban los flancos del 6.º Ejército, y fue sobre ellos que golpeó la Operación Urano.",
+      "autor": "Lechner · Bundesarchiv, Bild 101I-218-0501-27"
+    },
+    {
+      "alt": "Avión de transporte trimotor que desciende sobre un campo nevado, con un caballo enganchado a un trineo y soldados en primer plano",
+      "legenda": "Un Junkers Ju 52 en el puente aéreo de Stalingrado, en el invierno de 1942–43. El mínimo calculado era de 300 toneladas por día; el mejor día rindió 289.",
+      "autor": "Fotógrafo no identificado · Australian War Memorial, P02018.181"
+    },
+    {
+      "alt": "Tres oficiales alemanes con capote largo caminan por la nieve de una aldea, junto a un automóvil, escoltados",
+      "legenda": "Friedrich Paulus, a la izquierda, con el jefe de estado mayor Arthur Schmidt y el ayudante Wilhelm Adam, después de la rendición, el 31 de enero de 1943. Paulus había sido ascendido a mariscal de campo la víspera.",
+      "autor": "Probablemente Georgi Lipskerov · Bundesarchiv, Bild 183-F0316-0204-005"
+    },
+    {
+      "alt": "Larga columna de prisioneros envueltos en mantas sube por un camino cubierto de nieve",
+      "legenda": "Columna de prisioneros alemanes en Stalingrado, en febrero de 1943. Cerca de 91.000 se rindieron; volvieron a casa entre 5.000 y 6.000.",
+      "autor": "Fotógrafo no identificado · Bundesarchiv, Bild 183-E0406-0022-010"
+    }
+  ]
+}
