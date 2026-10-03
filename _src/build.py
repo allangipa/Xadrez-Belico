@@ -497,7 +497,7 @@ def pagina(b, bs, og):
       <dl>
         <div><dt>Onde</dt><dd>{e(b['lugar'])}</dd></div>
         <div><dt>Quando</dt><dd>{e(b['data'])}</dd></div>
-        <div><dt>Episódio</dt><dd>{e(b['num'])}{(' · ' + e(data_br(b['estreia']))) if b['estreia'] else ''}</dd></div>
+        <div><dt>Episódio</dt><dd>{e(b['num'])} · {e(data_br(b['estreia'])) if b['estreia'] else e(b['campanha'])}</dd></div>
       </dl>
     </div>
     <span class="rotulo">Nesta página</span>

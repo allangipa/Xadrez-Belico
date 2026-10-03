@@ -83,27 +83,41 @@ rode o build.
 **No ar desde 02/10/2026** em https://xadrezbelico.com.br, com SSL (o http
 redireciona para https, e o www funciona).
 
-A primeira publicação foi por **pacote**, pelo plugin da Hostinger: zip só
-com o que é servido (`index.html`, `404.html`, `robots.txt`, `sitemap.xml`,
-`.htaccess`, `batalhas/` e `assets/`), envio para `public_html` e "deploy
-static site archive". **Esse deploy apaga a pasta inteira do site antes de
-extrair**: o pacote vai sempre completo.
+Repositório: https://github.com/allangipa/Xadrez-Belico, branch `main`.
+**Cada push na `main` publica o site** — o Git do painel da Hostinger
+(Sites → xadrezbelico.com.br → Avançado → Git, diretório = raiz) puxa o
+commit e põe no ar em segundos.
 
-### GitHub e deploy por push
+```bash
+python _src/build.py
+git add -A
+git commit -m "o que mudou"
+git push
+```
 
-Repositório: https://github.com/allangipa/Xadrez-Belico (branch `main`,
-ligado em 02/10/2026).
+**Rode o build antes do commit.** O servidor não gera nada: ele publica os
+`.html` que estão no repositório. Mudou um JSON e não rodou o build, o site
+continua com o texto velho — sem erro nenhum.
 
-Falta ligar o Git do painel — até lá o push guarda o código mas **não**
-publica; o site só muda com um pacote novo.
+E confira no ar, não no terminal: abra a página que mudou (ou
+`curl -s https://xadrezbelico.com.br/batalhas/<slug>.html | grep "<trecho novo>"`).
+O push dar certo não prova que o deploy deu.
 
-Depois, no painel: Sites → xadrezbelico.com.br → Avançado → Git, branch
-`main`, diretório = raiz. Daí em diante cada push publica, como no
-Arquitetura do Impossível.
+### O que o `.htaccess` segura
 
-Com o deploy por Git o repositório inteiro vai para o servidor; o
-`.htaccess` é o que responde 404 para `_src/`, `.claude/`, `.git/`,
-`README.md` e `.gitignore`. Arquivo novo na raiz que não seja página fica
-público até entrar nessa lista.
+Com o deploy por Git o repositório **inteiro** vai para o servidor. O
+`.htaccess` é o que impede o resto de ser servido:
 
-**Rode o build antes do commit** e confira na página no ar, não no terminal.
+- `404.html` como página de erro;
+- 404 para `_src/`, `.claude/`, `.git/`, `README.md` e `.gitignore`.
+
+Arquivo novo na raiz que não seja página **fica público** até entrar nessa
+lista. Na dúvida, ponha dentro de `_src/`.
+
+### Publicação por pacote (só se o Git falhar)
+
+A primeira publicação, antes de o Git ser ligado, foi por pacote, pelo plugin
+da Hostinger: zip só com o que é servido (`index.html`, `404.html`,
+`robots.txt`, `sitemap.xml`, `.htaccess`, `batalhas/` e `assets/`), envio
+para `public_html` e "deploy static site archive". **Esse deploy apaga a
+pasta inteira do site antes de extrair**: o pacote vai sempre completo.
