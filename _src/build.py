@@ -260,6 +260,7 @@ def topo(base, atual=""):
     <nav class="nav" aria-label="Principal">
       <a href="{base}index.html#batalhas"{cur('batalhas')}>Batalhas</a>
       <a href="{base}index.html#metodo"{cur('metodo')}>Método</a>
+      <a href="{base}sobre.html"{cur('sobre')}>Sobre</a>
       {link_canal('yt', 'YouTube', 'YouTube em breve')}
     </nav>
   </div>
@@ -287,6 +288,7 @@ def rodape(base):
     <div>
       <h4>Este site</h4>
       <ul>
+        <li><a href="{base}sobre.html">Sobre</a> · <a href="{base}contato.html">Contato</a></li>
         <li>Exibe anúncios do Google AdSense. <a href="{base}privacidade.html">Política de privacidade</a>.</li>
         <li>Só material de época ou foto real, com crédito. Nenhuma imagem gerada por IA.</li>
       </ul>
@@ -658,6 +660,68 @@ def pagina_privacidade():
                    {"@context": "https://schema.org", "@type": "WebPage", "name": "Política de privacidade"})
             + topo(base) + corpo + rodape(base) + consentimento(base) + fim())
 
+
+def pagina_sobre():
+    base = ""
+    canal = f'<a href="{CANAL}" rel="noopener">no YouTube</a>' if CANAL else "no YouTube"
+    corpo = f"""<main id="conteudo"><div class="casca privacidade">
+  <span class="rotulo">Sobre</span>
+  <h1>Sobre o {NOME}</h1>
+
+  <h2>1. O que é</h2>
+  <p>O <strong>Xadrez Bélico</strong> é um projeto editorial independente, feito no Brasil, de história militar. Cada página deste site acompanha um episódio do canal {canal}, e vai além dele: traz a ficha da batalha, a partida lance a lance, as fontes, as imagens com crédito e as divergências que não cabem num vídeo.</p>
+  <p>A pergunta é sempre a mesma: <em>por que este ataque deu certo, ou não deu, do ponto de vista do tabuleiro</em> — o terreno, as peças de cada lado, a ordem dos lances e o erro de planejamento. Não é um projeto de heroísmo nem de efeméride: é de causa.</p>
+
+  <h2>2. Como uma página é feita</h2>
+  <ul>
+    <li><strong>Nome de unidade e horário só entram depois de conferidos.</strong> Público de história militar corrige data, unidade e calibre — e com razão.</li>
+    <li><strong>Cada número leva um selo de confiança:</strong> confirmado em duas ou mais fontes, fonte única (o texto diz qual), divergência (mostramos as versões e não escolhemos) ou sem registro.</li>
+    <li><strong>Onde o texto corrige um mito, usa o número cheio.</strong> Arredondar sempre a favor do argumento não é fala coloquial, é tese.</li>
+    <li><strong>Texto integralmente autoral.</strong> As fontes ficam listadas no fim de cada página.</li>
+  </ul>
+
+  <h2>3. Imagens</h2>
+  <p>Só entram fotografias e documentos de época, cartas militares e fotos do lugar como ele é hoje — essas com o ano escrito na própria imagem. Tudo de acervos em domínio público ou sob licença Creative Commons que permite uso comercial, com autor e licença creditados. Imagem gerada por IA não entra neste site, e símbolos de regime não aparecem como assunto de imagem.</p>
+
+  <h2>4. Correções</h2>
+  <p>Errou-se uma data, um nome, um número? Escreva pela página de <a href="contato.html">contato</a>, de preferência com a fonte. O erro confirmado é corrigido aqui, e a correção vale também para o que vier depois no canal.</p>
+
+  <h2>5. Quem faz</h2>
+  <p>O {NOME} é escrito, apurado e mantido de forma independente, sem vínculo com universidade, empresa ou órgão público. É do mesmo criador de outros dois projetos com o mesmo cuidado com a fonte: <a href="https://vestigiooculto.com.br" rel="noopener">Vestígio Oculto</a>, sobre arqueologia e mistério, e <a href="https://arquiteturadoimpossivel.com.br" rel="noopener">Arquitetura do Impossível</a>, sobre como as grandes obras foram erguidas.</p>
+  <p>O site se mantém com anúncios do Google AdSense, descritos na <a href="privacidade.html">política de privacidade</a>. Nenhum anúncio interfere no que é escrito.</p>
+</div></main>
+"""
+    return (cabeca(f"Sobre — {NOME}", f"O que é o {NOME}, como cada página é apurada, de onde vêm as imagens e quem faz o projeto.",
+                   DOMINIO + "/sobre.html", f"{DOMINIO}/assets/img/og-home.jpg", base,
+                   {"@context": "https://schema.org", "@type": "AboutPage", "name": f"Sobre — {NOME}"})
+            + topo(base, "sobre") + corpo + rodape(base) + consentimento(base) + fim())
+
+
+def pagina_contato():
+    base = ""
+    corpo = f"""<main id="conteudo"><div class="casca privacidade">
+  <span class="rotulo">Contato</span>
+  <h1>Fale com o {NOME}</h1>
+  <p class="lead">Correção, crédito de imagem, pedido sobre seus dados ou qualquer outro assunto: o caminho é um só.</p>
+  <div class="resumo"><strong>E-mail:</strong> <a href="mailto:allangipa@gmail.com">allangipa@gmail.com</a></div>
+
+  <h2>Para que escrever</h2>
+  <ul>
+    <li><strong>Correções.</strong> Uma data, um nome ou um número errado. Mande a fonte junto: é o que permite corrigir rápido.</li>
+    <li><strong>Imagens e créditos.</strong> Se você é autor de uma imagem usada aqui e o crédito está incompleto, ou quer que ela saia, escreva.</li>
+    <li><strong>Seus dados.</strong> Pedidos sob a LGPD, conforme a <a href="privacidade.html">política de privacidade</a>.</li>
+    <li><strong>Pautas, imprensa e parcerias.</strong> Sugestões de tema também são bem-vindas.</li>
+  </ul>
+
+  <h2>Como respondemos</h2>
+  <p>Não há formulário nem cadastro: a conversa é por e-mail, e o seu endereço não é usado para mais nada além de responder. Correção confirmada entra na página.</p>
+</div></main>
+"""
+    return (cabeca(f"Contato — {NOME}", f"Como falar com o {NOME}: correções, créditos de imagem, pedidos sobre dados e pautas.",
+                   DOMINIO + "/contato.html", f"{DOMINIO}/assets/img/og-home.jpg", base,
+                   {"@context": "https://schema.org", "@type": "ContactPage", "name": f"Contato — {NOME}"})
+            + topo(base, "contato") + corpo + rodape(base) + consentimento(base) + fim())
+
 def main():
     bs = carregar()
     (RAIZ / "batalhas").mkdir(exist_ok=True)
@@ -684,6 +748,8 @@ def main():
             print("removido (batalha sem JSON):", velho.name)
     (RAIZ / "404.html").write_text(pagina_404(), encoding="utf-8")
     (RAIZ / "privacidade.html").write_text(pagina_privacidade(), encoding="utf-8")
+    (RAIZ / "sobre.html").write_text(pagina_sobre(), encoding="utf-8")
+    (RAIZ / "contato.html").write_text(pagina_contato(), encoding="utf-8")
     ads = RAIZ / "ads.txt"
     if ADSENSE_LIGADO:
         ads.write_text("# Declaração de vendedor autorizado (IAB ads.txt)\n"
@@ -693,7 +759,7 @@ def main():
         ads.unlink()
 
     hoje = dt.date.today().isoformat()
-    urls = [DOMINIO + "/", DOMINIO + "/privacidade.html"] + [f"{DOMINIO}/batalhas/{b['slug']}.html" for b in bs]
+    urls = [DOMINIO + "/", DOMINIO + "/sobre.html", DOMINIO + "/contato.html", DOMINIO + "/privacidade.html"] + [f"{DOMINIO}/batalhas/{b['slug']}.html" for b in bs]
     (RAIZ / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{u}</loc><lastmod>{hoje}</lastmod></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
