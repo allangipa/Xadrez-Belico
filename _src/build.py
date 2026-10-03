@@ -186,6 +186,15 @@ def consentimento(base):
     s.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-'+PUB;
     document.head.appendChild(s);
   }}
+  // "Rever escolha de cookies", no rodapé: apaga a escolha salva e recarrega,
+  // e a faixa volta a aparecer.
+  document.querySelectorAll('[data-rever-cookies]').forEach(function(a){{
+    a.addEventListener('click',function(ev){{
+      ev.preventDefault();
+      try{{localStorage.removeItem(CHAVE)}}catch(e){{}}
+      location.reload();
+    }});
+  }});
   var escolha=ler();
   if(escolha==='aceitar'||(escolha===null&&!BLOQUEIA))carrega();
   var caixa=document.getElementById('consentimento');
@@ -269,6 +278,7 @@ def topo(base, atual=""):
 def rodape(base):
     ano = dt.date.today().year
     canal = f'<p><a href="{CANAL}" target="_blank" rel="noopener">Assista no YouTube</a></p>' if CANAL else ""
+    rever = ' <a href="#" role="button" data-rever-cookies>Rever escolha de cookies</a>.' if ADSENSE_LIGADO else ""
     return f"""<footer class="rodape">
   <div class="casca">
     <div>
@@ -287,7 +297,7 @@ def rodape(base):
       <h2>Este site</h2>
       <ul>
         <li><a href="{base}sobre.html">Sobre</a> · <a href="{base}contato.html">Contato</a></li>
-        <li>Exibe anúncios do Google AdSense. <a href="{base}privacidade.html">Política de privacidade</a>.</li>
+        <li>Exibe anúncios do Google AdSense. <a href="{base}privacidade.html">Política de privacidade</a>.{rever}</li>
         <li>Só material de época ou foto real, com crédito. Nenhuma imagem gerada por IA.</li>
       </ul>
     </div>
@@ -691,7 +701,7 @@ PRIVACIDADE = """<main id="conteudo"><div class="casca privacidade">
   <h1>Política de privacidade</h1>
   <p class="lead">Um site que cobra fonte dos outros deve ser claro sobre si mesmo. Aqui está o que o {{NOME}} coleta, o que não coleta, quem mais está envolvido e o que você pode exigir.</p>
 
-  <div class="resumo"><strong>O resumo, em três linhas.</strong> Não pedimos cadastro, não temos formulário e não guardamos seu e-mail. O que existe são cookies de publicidade do Google, usados para exibir anúncios. Você pode recusá-los na faixa que aparece na primeira visita, ou desligá-los a qualquer momento nas configurações do Google.</div>
+  <div class="resumo"><strong>O resumo, em três linhas.</strong> Não pedimos cadastro, não temos formulário e não guardamos seu e-mail. O que existe são cookies de publicidade do Google, usados para exibir anúncios. Você pode recusá-los na faixa que aparece na primeira visita, rever essa escolha a qualquer momento pelo link “Rever escolha de cookies”, no rodapé, ou desligá-los nas configurações do Google.</div>
 
   <h2>1. Quem é o responsável</h2>
   <p>O <strong>{{NOME}}</strong> é um projeto editorial independente, publicado em xadrezbelico.com.br, {{CANAL_FRASE}}. Para qualquer assunto desta política — inclusive pedidos de exclusão ou de informação —, o contato é o e-mail divulgado no canal.</p>
@@ -712,7 +722,7 @@ PRIVACIDADE = """<main id="conteudo"><div class="casca privacidade">
   <p>Todo navegador também permite bloquear ou apagar cookies. Fazer isso não impede a leitura de nada: o conteúdo deste site não depende de cookie para funcionar.</p>
 
   <h2>4. O que guardamos no seu navegador</h2>
-  <p>Uma única coisa, e ela não sai do seu aparelho: quando você responde à faixa de cookies, a escolha fica registrada no armazenamento local do navegador, sob a chave <code>{{CHAVE}}</code>. Serve só para não perguntar de novo a cada página. Não é cookie, não é enviada a servidor nenhum e some quando você limpa os dados do site.</p>
+  <p>Uma única coisa, e ela não sai do seu aparelho: quando você responde à faixa de cookies, a escolha fica registrada no armazenamento local do navegador, sob a chave <code>{{CHAVE}}</code>. Serve só para não perguntar de novo a cada página. Não é cookie, não é enviada a servidor nenhum e some quando você limpa os dados do site ou clica em “Rever escolha de cookies”, no rodapé de qualquer página: a escolha salva é apagada e a faixa volta a aparecer.</p>
 
   <h2>5. Conteúdo de terceiros</h2>
   <p>Um único serviço externo participa da exibição destas páginas: o <strong>Google AdSense</strong>, que entrega os anúncios. Se você recusar na faixa, o script de anúncios é retirado e deixa de ser carregado nas próximas páginas.</p>
@@ -720,7 +730,7 @@ PRIVACIDADE = """<main id="conteudo"><div class="casca privacidade">
 
   <h2>6. Seus direitos sob a LGPD</h2>
   <p>A Lei nº 13.709/2018 garante a você o direito de confirmar se há tratamento de dados seus, de acessá-los, de corrigi-los, de pedir anonimização ou eliminação, de solicitar portabilidade, de saber com quem foram compartilhados e de revogar consentimento a qualquer momento.</p>
-  <p>Aqui o exercício desses direitos é curto, porque a base de dados que poderíamos entregar é praticamente vazia. Ainda assim, qualquer pedido feito pelo contato do canal será respondido. Para os dados que o Google coleta através dos anúncios, o pedido precisa ser feito ao próprio Google — nós exibimos o espaço, mas é ele quem trata esses dados.</p>
+  <p>Aqui o exercício desses direitos é curto, porque a base de dados que poderíamos entregar é praticamente vazia. Ainda assim, qualquer pedido feito pelo contato do canal será respondido. Para revogar a escolha feita na faixa de cookies, use o link “Rever escolha de cookies”, no rodapé de qualquer página. Para os dados que o Google coleta através dos anúncios, o pedido precisa ser feito ao próprio Google — nós exibimos o espaço, mas é ele quem trata esses dados.</p>
 
   <h2>7. Crianças e adolescentes</h2>
   <p>O conteúdo deste site não se dirige a menores de 13 anos, e não coletamos conscientemente dados de crianças. Se você é responsável por uma criança e acredita que algum dado dela chegou até aqui, entre em contato para que seja eliminado.</p>

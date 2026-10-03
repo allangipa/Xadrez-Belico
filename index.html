@@ -360,7 +360,7 @@
       <h2>Este site</h2>
       <ul>
         <li><a href="sobre.html">Sobre</a> · <a href="contato.html">Contato</a></li>
-        <li>Exibe anúncios do Google AdSense. <a href="privacidade.html">Política de privacidade</a>.</li>
+        <li>Exibe anúncios do Google AdSense. <a href="privacidade.html">Política de privacidade</a>. <a href="#" role="button" data-rever-cookies>Rever escolha de cookies</a>.</li>
         <li>Só material de época ou foto real, com crédito. Nenhuma imagem gerada por IA.</li>
       </ul>
     </div>
@@ -387,6 +387,15 @@
     s.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-'+PUB;
     document.head.appendChild(s);
   }
+  // "Rever escolha de cookies", no rodapé: apaga a escolha salva e recarrega,
+  // e a faixa volta a aparecer.
+  document.querySelectorAll('[data-rever-cookies]').forEach(function(a){
+    a.addEventListener('click',function(ev){
+      ev.preventDefault();
+      try{localStorage.removeItem(CHAVE)}catch(e){}
+      location.reload();
+    });
+  });
   var escolha=ler();
   if(escolha==='aceitar'||(escolha===null&&!BLOQUEIA))carrega();
   var caixa=document.getElementById('consentimento');
