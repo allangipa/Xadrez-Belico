@@ -108,7 +108,7 @@ def falha(msg):
 
 def link_canal(classe, texto, sem_link="Em breve no YouTube"):
     if CANAL:
-        return f'<a class="{classe}" href="{CANAL}" rel="noopener">{e(texto)}</a>'
+        return f'<a class="{classe}" href="{CANAL}" target="_blank" rel="noopener">{e(texto)}</a>'
     return f'<span class="{classe}" aria-disabled="true">{e(sem_link)}</span>'
 
 
@@ -270,7 +270,7 @@ def topo(base, atual=""):
 
 def rodape(base):
     ano = dt.date.today().year
-    canal = f'<p><a href="{CANAL}" rel="noopener">Assista no YouTube</a></p>' if CANAL else ""
+    canal = f'<p><a href="{CANAL}" target="_blank" rel="noopener">Assista no YouTube</a></p>' if CANAL else ""
     return f"""<footer class="rodape">
   <div class="casca">
     <div>
@@ -649,7 +649,7 @@ def pagina_privacidade():
     Adaptada da política do Vestígio Oculto, que tem o mesmo desenho."""
     base = ""
     if CANAL:
-        canal = f'com canal correspondente no YouTube, <a href="{CANAL}" rel="noopener">@XadrezBélico</a>'
+        canal = f'com canal correspondente no YouTube, <a href="{CANAL}" target="_blank" rel="noopener">@XadrezBélico</a>'
     else:
         canal = "com canal correspondente no YouTube"
     corpo = (PRIVACIDADE.replace("{{NOME}}", NOME).replace("{{CANAL_FRASE}}", canal)
@@ -663,7 +663,7 @@ def pagina_privacidade():
 
 def pagina_sobre():
     base = ""
-    canal = f'no YouTube, <a href="{CANAL}" rel="noopener">@XadrezBélico</a>' if CANAL else "no YouTube"
+    canal = f'no YouTube, <a href="{CANAL}" target="_blank" rel="noopener">@XadrezBélico</a>' if CANAL else "no YouTube"
     corpo = f"""<main id="conteudo"><div class="casca privacidade">
   <span class="rotulo">Sobre</span>
   <h1>Sobre o {NOME}</h1>
