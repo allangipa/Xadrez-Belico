@@ -80,10 +80,28 @@ rode o build.
 
 ## Publicar
 
-Site criado na Hostinger em 02/10/2026. Mesmo fluxo do Arquitetura do
-Impossível: repositório no GitHub e o Git do painel (Sites →
-xadrezbelico.com.br → Avançado → Git, branch `main`, diretório = raiz), que
-publica a cada push.
+**No ar desde 02/10/2026** em https://xadrezbelico.com.br, com SSL (o http
+redireciona para https, e o www funciona).
+
+A primeira publicação foi por **pacote**, pelo plugin da Hostinger: zip só
+com o que é servido (`index.html`, `404.html`, `robots.txt`, `sitemap.xml`,
+`.htaccess`, `batalhas/` e `assets/`), envio para `public_html` e "deploy
+static site archive". **Esse deploy apaga a pasta inteira do site antes de
+extrair**: o pacote vai sempre completo.
+
+### GitHub e deploy por push (pendente)
+
+O repositório git local existe (branch `main`), sem remoto. Para ligar, crie o
+repositório vazio `Xadrez-Belico` em github.com e:
+
+```bash
+git remote add origin https://github.com/allangipa/Xadrez-Belico.git
+git push -u origin main
+```
+
+Depois, no painel: Sites → xadrezbelico.com.br → Avançado → Git, branch
+`main`, diretório = raiz. Daí em diante cada push publica, como no
+Arquitetura do Impossível.
 
 Com o deploy por Git o repositório inteiro vai para o servidor; o
 `.htaccess` é o que responde 404 para `_src/`, `.claude/`, `.git/`,
