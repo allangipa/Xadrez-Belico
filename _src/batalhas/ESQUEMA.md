@@ -97,6 +97,7 @@ _src/batalhas/en/NN-slug.json     inglês
 _src/batalhas/es/NN-slug.json     espanhol
 _src/temas.en.json                    temas em inglês (opcional)
 _src/i18n/en.json                     textos da interface em inglês
+_src/paginas/en/sobre.html            Sobre, Contato e Privacidade em inglês (só o <main>)
 ```
 
 **A tradução tem os mesmos campos e as mesmas listas, na mesma ordem e com o

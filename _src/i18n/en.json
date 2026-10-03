@@ -32,7 +32,7 @@
 
     "Aviso de cookies": "Cookie notice",
     "Este site usa cookies do Google AdSense para exibir anúncios e medir audiência. Não pedimos cadastro nem e-mail.": "This site uses Google AdSense cookies to show ads and measure the audience. We do not ask you to sign up or give an e-mail.",
-    "Detalhes na {politica}.": "Details in our {politica} (in Portuguese).",
+    "Detalhes na {politica}.": "Details in our {politica}.",
     "política de privacidade": "privacy policy",
     "Recusar anúncios": "Decline ads",
     "Entendi": "Got it",
@@ -125,6 +125,13 @@
     "O tabuleiro": "The board",
     "Ampliar imagem: {alt}": "Enlarge image: {alt}",
     "Imagem ampliada": "Enlarged image",
-    "Fechar": "Close"
+    "Fechar": "Close",
+
+    "Sobre o {nome}: como cada página é apurada": "About {nome}: how each page is researched",
+    "O que é o {nome}, projeto independente de história militar: como cada página é apurada, o selo de confiança dos números, as imagens e quem faz.": "What {nome} is, an independent military history project: how each page is researched, the confidence seal on numbers, the images and who makes it.",
+    "Contato · {nome}": "Contact · {nome}",
+    "Como falar com o {nome} por e-mail: correções com fonte, créditos e retirada de imagens, pedidos sobre seus dados (LGPD), pautas e imprensa.": "How to reach {nome} by e-mail: corrections with sources, image credits and removals, requests about your data (LGPD), story ideas and press.",
+    "Política de privacidade · {nome}": "Privacy policy · {nome}",
+    "Como o {nome} trata dados, cookies e publicidade do Google AdSense: o que coleta, o que não coleta e quais são os seus direitos sob a LGPD.": "How {nome} handles data, cookies and Google AdSense advertising: what it collects, what it does not and your rights under Brazil's LGPD."
   }
 }

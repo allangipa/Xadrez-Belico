@@ -1,0 +1,265 @@
+{
+  "_nota": "Tradução fiel de ../05-franca-1940.json. Campos fixos (num, slug, estreia, proximo, relacionados, conf, arquivo, licenca, licenca_url, origem_url, tipo, ano, foco, url) vêm do original.",
+  "batalha": "The Fall of France",
+  "nome_busca": "Battle of France",
+  "titulo_video": null,
+  "lugar": "France, Belgium, the Netherlands and Luxembourg; the point of decision at Sedan, on the Meuse River, Ardennes department, France",
+  "data": "10 May to 25 June 1940",
+  "campanha": "World War II, 1940",
+  "pergunta": "If there was no new doctrine in September 1939, what exactly did Germany apply in France in May 1940?",
+  "resumo": "In the fall of France, Germany attacked with fewer tanks and little more than half the Allied artillery. A plan won, not a doctrine: Sedan is the proof.",
+  "abertura": [
+    "On 10 May 1940, when Germany attacks in the west, the Allies have 13,974 guns against 7,378 German ones. France alone has between 3,383 and 4,071 tanks; Germany goes in with 2,445. Six weeks later, France is out of the war.",
+    "The Polish campaign showed that, in 1939, there was no doctrine called Blitzkrieg: the name came from the newspapers. This page carries the question forward. If it was not a doctrine, what was applied eight months later? The answer fits in one distinction: a doctrine is taught to an entire army and serves for any war; a plan serves for one war, against one enemy, on one terrain."
+  ],
+  "numeros": [
+    {
+      "valor": "13,974",
+      "rotulo": "Allied guns on 10 May 1940, against 7,378 German ones"
+    },
+    {
+      "valor": "1,222",
+      "rotulo": "tanks in Panzergruppe von Kleist — half of Germany's 2,445, on a single axis"
+    },
+    {
+      "valor": "4",
+      "rotulo": "roads reserved for the armored group to cross the Ardennes"
+    },
+    {
+      "valor": "56",
+      "rotulo": "French casualties in 8 hours of bombing on Sedan; not one bunker destroyed by a direct hit"
+    },
+    {
+      "valor": "07:20",
+      "rotulo": "on 14 May: the first German tank crosses the Meuse, more than 12 hours after the Bulson panic"
+    },
+    {
+      "valor": "1,756,000",
+      "rotulo": "Allied prisoners at the end of the campaign"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Forces on 10 May",
+      "valor": "Germany: 141 divisions and 3,300,000 men. Allies: 135 divisions and 3,300,000 men",
+      "nota": "English Wikipedia, Battle of France."
+    },
+    {
+      "item": "Artillery and aircraft",
+      "valor": "Germany: 7,378 guns and 5,638 aircraft. Allies: 13,974 guns and fewer than 2,935 aircraft",
+      "nota": "Germany's only clear material superiority was in the air."
+    },
+    {
+      "item": "Tanks",
+      "valor": "Germany: 2,445. France alone: between 3,383 and 4,071",
+      "nota": "The source itself states the discrepancy in the number of French tanks."
+    },
+    {
+      "item": "Panzergruppe von Kleist",
+      "valor": "134,000 men, 1,222 tanks and 378 vehicles, in five armored divisions: XIX Panzerkorps (3 divisions, Sedan axis), XLI Panzerkorps (2, Monthermé axis) and XV Corps (2, upper Ardennes, flank guard). The French Wikipedia, citing Mary (2009) and Frieser (2003), counts 1,250 tanks and 350 armored reconnaissance vehicles",
+      "nota": "These are counts on different bases; both say the same thing: about half of the German tanks in a single group."
+    },
+    {
+      "item": "Commanders and planners",
+      "valor": "Germany: Erich von Manstein (author of the plan), Franz Halder (chief of the general staff), Walther von Brauchitsch (commander-in-chief). France: Maurice Gamelin (commander-in-chief), Alphonse Georges"
+    },
+    {
+      "item": "The Allied advance into Belgium",
+      "valor": "French 7th Army (Giraud), up to Breda; British Expeditionary Force (Gort), 9 divisions, on the Dyle; French 1st Army (Blanchard), 10 divisions, from Wavre to Namur; 9th Army (Corap), south of Namur, along the Meuse",
+      "nota": "English Wikipedia, Dyle Plan."
+    },
+    {
+      "item": "Sedan — French defense",
+      "valor": "55th Infantry Division (General Henri Lafontaine), a Category B division, and the 71st Division, still moving into the line: 20,000 men and 174 artillery pieces"
+    },
+    {
+      "item": "Sedan — German attack",
+      "valor": "1st, 2nd and 10th Panzer Divisions and the Großdeutschland Regiment: 60,000 men, 41,000 vehicles, 788 tanks and 141 guns",
+      "nota": "English Wikipedia, Battle of Sedan (1940)."
+    },
+    {
+      "item": "Terrain",
+      "valor": "the Ardennes forest, considered impassable for armor, with four routes reserved for Kleist's group; beyond it, the Meuse River at Sedan, where the French positions were not covered by the Maginot Line"
+    },
+    {
+      "item": "German objective",
+      "valor": "to cross the Ardennes, cross the Meuse at Sedan, turn west and race for the sea, cutting off the Allied armies that had advanced north into Belgium"
+    },
+    {
+      "item": "Duration",
+      "valor": "from 10 May to 25 June 1940; the armistice is signed on 22 June, at Compiègne. About six weeks"
+    },
+    {
+      "item": "Casualties — Germany",
+      "valor": "27,074 killed, 111,034 wounded and 18,384 missing; between 795 and 822 tanks lost",
+      "nota": "The sources differ on the number of tanks lost."
+    },
+    {
+      "item": "Casualties — Allies",
+      "valor": "73,000 killed, 240,000 wounded and 15,000 missing; 1,749 French and 689 British tanks lost"
+    },
+    {
+      "item": "Prisoners",
+      "valor": "1,756,000 Allied",
+      "nota": "English Wikipedia, Battle of France."
+    },
+    {
+      "item": "Result",
+      "valor": "complete German victory; France signs the armistice on 22 June 1940"
+    },
+    {
+      "item": "Afterwards",
+      "valor": "the German armored spearhead reaches the English Channel and closes the ring around the armies that had gone into Belgium; in front of Dunkirk comes a halt order, and more than 300,000 men get out by sea"
+    }
+  ],
+  "lances": [
+    {
+      "titulo": "The board: the side that lost had more pieces",
+      "paragrafos": [
+        "On 10 May 1940 Germany had 141 divisions; the Allies, 135. Men, 3,300,000 on each side. So far, a draw. The next numbers are not a draw: the Allies had 13,974 guns against 7,378 German ones — almost twice as many — and France alone had between 3,383 and 4,071 tanks, against 2,445 for all of Germany.",
+        "The Germans' only clear material advantage was in the air: 5,638 aircraft against fewer than 2,935. The campaign that would end France's part in the war in six weeks was won by an army with fewer tanks and little more than half the opponent's artillery. If the answer is not in the matériel, it is somewhere else on the board."
+      ]
+    },
+    {
+      "titulo": "The rejected opening: the 1914 plan, an airplane and a sidelined general",
+      "paragrafos": [
+        "The first directive for the west, Aufmarschanweisung N°1 (Fall Gelb, Case Yellow), was drawn up by Franz Halder, chief of the general staff. It pushed the Allies through central Belgium to the Somme River — similar to the 1914 campaign. Pushing is not encircling: an army that is pushed falls back and reorganizes; an army that is encircled is finished. The original plan gained ground, not the war.",
+        "On 10 January 1940 a German airplane carrying documents of the plan comes down in Belgium. It is chance, and should be read as chance. The incident forces a revision, and Halder rewrites the directive.",
+        "The idea that would end up adopted was Erich von Manstein's: go in from the south, through the Ardennes, cross the Meuse at Sedan, turn west and race for the sea. The high command rejected it; Halder and the commander-in-chief Walther von Brauchitsch called it \"too bold\". At the end of January, Halder had Manstein promoted to command XXXVIII Corps in eastern Germany, away from the planning.",
+        "The idea survived by a side route. On 2 February, Hitler heard of it from Rudolf Schmundt; on the 13th, he ordered the plan changed; on the 17th, he received Manstein in person. On 24 February 1940, Halder rewrote the directive as Aufmarschanweisung N°4, now with the main axis through the Ardennes — two and a half months before the attack."
+      ]
+    },
+    {
+      "titulo": "The only thing truly new: where the pieces were placed",
+      "paragrafos": [
+        "It was not the tank: both sides had tanks, and the Allies had more. It was not the airplane, which had already flown over Poland. It was not the word, which the newspapers had already invented. The novelty of May 1940 was concentration.",
+        "Panzergruppe von Kleist crosses the Ardennes with 134,000 men and 1,222 tanks, in five armored divisions — half of the German tanks on a single axis. The Allies had more tanks and spread them along the whole front. The Germans had fewer and piled half of them into a forest.",
+        "And the price of that concentration was an enormous vulnerability. According to the French Wikipedia, citing Mary (2009) and Frieser (2003), the group had only four reserved routes to enter Luxembourg, the Panzerstraßen numbered one to four. Half of Germany's armor on four forest roads is a valuable piece left exposed: the move only works if the opponent does not look at it."
+      ]
+    },
+    {
+      "titulo": "The Allied move: Dyle, Breda and the general who warned",
+      "paragrafos": [
+        "For the German plan to work, the Allies had to go north. They did. On 9 November 1939, Maurice Gamelin adopted the Dyle Plan: at the first sign of invasion, the best Allied armies would advance into Belgium and hold there. On 12 March 1940 he added the Breda variant: the French 7th Army would advance as far as the Dutch city of Breda, to link up with the Dutch — 175 km to cover, against Germans who were 90 km from the same place.",
+        "On 10 May, into Belgium and the Netherlands go the 7th Army (Giraud), the British Expeditionary Force (Gort) with 9 divisions, the French 1st Army (Blanchard) with 10 and the 9th Army (Corap), the last south of Namur, along the Meuse. With them go some of the best divisions of the General Reserve, leaving \"few reserves from the Rhine to the Channel\".",
+        "General Alphonse Georges had warned against sending the bulk of the French mobile forces against an attack on the northern flank that might be a diversion for a German attack through the center. He described the blow before it happened, and the reserve went north anyway. Meanwhile, French intelligence followed the wrong movement: it discovered the transfer of German divisions from the Saar to north of the Moselle, and did not detect the redeployment from the Dutch border to the Eifel–Moselle area, where the blow would come from."
+      ]
+    },
+    {
+      "titulo": "Sedan, 13 May: the bombing that broke the telephone",
+      "paragrafos": [
+        "At Sedan, the French defense was the 55th Infantry Division, under General Henri Lafontaine: a Category B division of reservists, most of them over thirty, poorly trained for combat because it had been assigned to construction work. Beside it, the 71st Division was still moving into the line. In all, 20,000 men and 174 artillery pieces. Across the river, the 1st, 2nd and 10th Panzer Divisions and the Großdeutschland Regiment: 60,000 men, 41,000 vehicles, 788 tanks and 141 guns.",
+        "From 08:00 to 16:00 on 13 May, the Luftwaffe pounds Sedan: about 3,940 bomber sorties by nine Kampfgeschwader, at the cost of six aircraft. And then the fact that reverses the reading: not one of the bunkers was destroyed by a direct hit, and the bombing caused 56 French casualties.",
+        "The damage was indirect. The telecommunication cables broke and the division was left without communications; the gunners abandoned their positions before the ground attack began. The bombing did not break the concrete. It broke the link between the pieces and the will of those who worked them."
+      ]
+    },
+    {
+      "titulo": "Bulson, 19:00: panic over tanks that had not yet crossed",
+      "paragrafos": [
+        "At around 19:00 on 13 May, a French artillery observer's report is passed on wrongly. A rumor spreads that German tanks are approaching the village of Bulson, south of Sedan. The 55th Division abandons its positions, and by the time the mistake is noticed the artillery and infantry have already left their heavy equipment behind.",
+        "The first German tank crossed the Meuse at 07:20 on 14 May, more than twelve hours later. The panic that undid the defense of Sedan was over tanks that had not yet crossed the river: the position was taken by infantry crossing in boats, against a line that fell apart because of a wrong piece of information.",
+        "The French had the means to respond. X Corps was ordered to counterattack at 05:00 on 14 May, with about 300 tanks in the area, 138 of them combat tanks. The French armor only reached the Bulson ridge seventeen hours after the order, and the German vanguard got there first, by a few minutes. The English Wikipedia records the assessment that a quick counter-thrust by just two infantry regiments and two tank battalions would have \"plunged the Germans into crisis\". The means were there; the reaction time was not."
+      ]
+    },
+    {
+      "titulo": "The final score",
+      "paragrafos": [
+        "The campaign runs from 10 May to 25 June 1940, and the armistice is signed on 22 June, at Compiègne. On the German side, 27,074 killed, 111,034 wounded, 18,384 missing and between 795 and 822 tanks lost. On the Allied side, 73,000 killed, 240,000 wounded, 15,000 missing — and 1,756,000 prisoners.",
+        "It was a fast, large and complete victory. France fought: the 73,000 Allied dead in six weeks say so. The question was never whether the plan worked, but what exactly worked."
+      ]
+    }
+  ],
+  "veredito": [
+    "What Germany applied in May 1940 was not a doctrine: it was a specific plan, for one enemy and one terrain, rejected by the high command itself, whose author was removed from the planning, and adopted only on 24 February 1940 through intervention from outside the planning chain. The advantage was not in the matériel — the Allies had more tanks and almost twice as many guns — but in where the pieces were placed: half of the German tanks on a single axis, against the point where the opponent had reservist divisions and no reserve behind them.",
+    "The plan depended on an Allied move, and the move came: the best French mobile forces rushed north, against Alphonse Georges's warning. And the decision at Sedan came from something no plan foresees — a division without telephones abandoning intact positions because of tanks that were more than twelve hours away, and a counterattack that arrived minutes after the opponent.",
+    "None of this was luck: concentrating half the armor, crossing the Ardennes and crossing the Meuse is execution of the highest level. But, in chess terms, it was not a school of play applied from memory. It was home preparation against a specific opponent, which the player decided to use in that game — and which his own coach had rejected."
+  ],
+  "mitos": [
+    {
+      "circula": "In May 1940 Germany applied a doctrine called Blitzkrieg.",
+      "registro": "What was applied was a plan, Manstein's, which the German high command rejected as \"too bold\" and only adopted on 24 February 1940, after Hitler stepped in. Karl-Heinz Frieser argues that the thinking now called Blitzkrieg only took shape after this campaign: a consequence of victory, not its cause."
+    },
+    {
+      "circula": "France fell to a materially superior war machine.",
+      "registro": "On 10 May 1940 the Allies had 13,974 guns against 7,378 German ones, and France alone had between 3,383 and 4,071 tanks against 2,445 German ones. Germany's only clear material superiority was in the air. The difference lay in concentration: 1,222 tanks in a single group, on a single axis."
+    },
+    {
+      "circula": "At Sedan, the Luftwaffe pulverized the French defenses.",
+      "registro": "Eight hours of bombing, about 3,940 sorties, and not one bunker destroyed by a direct hit; 56 French casualties. The damage was to the communication cables and to morale: the gunners abandoned their positions, and that same night the 55th Division fell back because of a rumor about tanks that would only cross the Meuse at 07:20 the next day."
+    }
+  ],
+  "perguntas": [
+    {
+      "p": "How long did the Battle of France last?",
+      "r": "About six weeks: Germany attacked in the west on 10 May 1940, France signed the armistice on 22 June, at Compiègne, and the campaign ended on 25 June."
+    },
+    {
+      "p": "Why did France fall in 1940?",
+      "r": "Not for lack of matériel, but because of where the pieces were placed. Germany concentrated half of its tanks on a single axis, through the Ardennes to Sedan, while the best Allied mobile forces advanced north, into Belgium. At Sedan, the French defense fell apart before the first tank crossed the Meuse."
+    },
+    {
+      "p": "Did Germany have more tanks than France in 1940?",
+      "r": "No. Germany went in with 2,445 tanks; France alone had between 3,383 and 4,071, depending on the count. The Allies also had 13,974 guns against 7,378 German ones; Germany's only clear material superiority was in the air."
+    },
+    {
+      "p": "How many soldiers died in the Battle of France?",
+      "r": "On the German side, 27,074 killed, 111,034 wounded and 18,384 missing. On the Allied side, 73,000 killed, 240,000 wounded and 15,000 missing, plus 1,756,000 prisoners."
+    },
+    {
+      "p": "Who planned the German attack in the Battle of France?",
+      "r": "Erich von Manstein, with the idea of crossing the Ardennes, crossing the Meuse at Sedan and racing for the sea. The high command rejected it as too bold; after Hitler stepped in, Franz Halder rewrote it as a directive on 24 February 1940."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "Battle of France — English Wikipedia."
+    },
+    {
+      "texto": "Manstein Plan — English Wikipedia."
+    },
+    {
+      "texto": "Battle of Sedan (1940) — English Wikipedia."
+    },
+    {
+      "texto": "Dyle Plan — English Wikipedia."
+    },
+    {
+      "texto": "Panzergruppe von Kleist — French Wikipedia, citing Jean-Yves Mary (2009) and Karl-Heinz Frieser (2003)."
+    },
+    {
+      "texto": "Karl-Heinz Frieser, The Blitzkrieg Legend: The 1940 Campaign in the West (cited by the English Wikipedia)."
+    }
+  ],
+  "imagens": [
+    {
+      "alt": "Column of German tanks halted in an open field, with crewmen sitting on the turrets and soldiers on foot alongside",
+      "legenda": "Column of the 6th Panzer Division in France, 1940. In front, a Pzkpfw 35(t) captured from the Czech army; behind, Pzkpfw IV and Pzkpfw II.",
+      "autor": "Erich Borchert · Imperial War Museums, HU 111379"
+    },
+    {
+      "alt": "Color topographic map with the Meuse River in blue looping at Iges, the town of Sedan on the right, Donchery in the center and Wadelincourt and Frénois south of the river",
+      "legenda": "Sedan and the loop of the Meuse on the Army Map Service map, France and Belgium 1:50,000, sheet 134 Mézières (1943 revision). It was on this stretch of the river that the French defense fell apart on 13 May.",
+      "autor": "U.S. Army Map Service · Perry-Castañeda Library, University of Texas"
+    },
+    {
+      "alt": "Canvas-covered British truck passing under raised border barriers, watched by Belgian soldiers and locals in front of a café",
+      "legenda": "British trucks at Herseaux cross the border into Belgium on 10 May 1940: the Dyle Plan under way, exactly as the German plan needed.",
+      "autor": "Lt. Kessell and Lt. E. G. Malindine, official War Office photographers · Imperial War Museums, F 4353"
+    },
+    {
+      "alt": "French tank seen from behind climbing a narrow snow-covered forest track, between tall pines",
+      "legenda": "French D2 tank on a forest road, January 1940. France alone had between 3,383 and 4,071 tanks, more than all of Germany.",
+      "autor": "Unknown author · Le Miroir, no. 20, 14 January 1940"
+    },
+    {
+      "alt": "Topographic map with the villages of Bulson, Chémery, Maisoncelle and Raucourt among woods in green and contour lines in orange",
+      "legenda": "Bulson, Chémery and Maisoncelle, south of Sedan, on the Army Map Service map, France and Belgium 1:50,000, sheet 149 Le Chesne (1943 revision). The Bulson rumor and the race for the ridge on 14 May took place on this ground.",
+      "autor": "U.S. Army Map Service · Perry-Castañeda Library, University of Texas"
+    },
+    {
+      "alt": "French soldiers in greatcoats and helmets walk down a cobbled village street, escorted by armed German soldiers",
+      "legenda": "French prisoners of the 158th Infantry Regiment captured at Thulin, in Belgium, on 23 May 1940. The campaign ended with 1,756,000 Allied prisoners.",
+      "autor": "Erich Borchert"
+    }
+  ]
+}

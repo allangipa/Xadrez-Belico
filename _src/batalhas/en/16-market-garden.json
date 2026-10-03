@@ -1,0 +1,159 @@
+{
+  "_nota": "Tradução fiel de ../16-market-garden.json. Campos fixos (num, slug, estreia, proximo, relacionados, conf, arquivo, licenca, licenca_url, origem_url, tipo, ano, foco, url) vêm do original.",
+  "batalha": "Operation Market Garden",
+  "nome_busca": "Operation Market Garden",
+  "titulo_video": null,
+  "lugar": "The corridor from Eindhoven to Arnhem, in the provinces of North Brabant and Gelderland, the Netherlands, by way of Son, Veghel, Grave and Nijmegen",
+  "data": "17 to 25 September 1944",
+  "campanha": "World War II, 1944",
+  "pergunta": "Why \"a bridge too far\"? A plan that depended on a single road and on every bridge falling intact and on time.",
+  "resumo": "Why did Operation Market Garden fail? About 35,000 airborne troops landed in Holland in 1944; a plan of bridges in series stopped short of the last one.",
+  "abertura": [
+    "On 17 September 1944, about 35,000 American, British and Polish paratroopers and glider troops come down over the Netherlands to seize, in one stroke, the bridges along a road of about 100 km — from Eindhoven to Arnhem, over canals, the Maas, the Waal and the Rhine. Along that road, a British armored corps was to reach the Rhine in two days, four at most, and open the way into Germany.",
+    "Nine days later, the survivors of the division that was waiting at Arnhem cross the river back, at night, in boats. The question on this page is not whether the plan was bold — it was. It is why it stopped exactly before the last bridge, and why the answer that circulates most, that nobody knew about the German tanks, is the least complete."
+  ],
+  "numeros": [
+    {"valor": "≈ 100 km", "rotulo": "of a single road, from the Belgian border to the Arnhem bridge, to be covered in 2 days, 4 at most"},
+    {"valor": "3", "rotulo": "days to deliver the airborne force: there were not enough aircraft to carry everyone at once"},
+    {"valor": "8–13 km", "rotulo": "from the landing zones of the British 1st Airborne Division to the Arnhem bridge, depending on the source"},
+    {"valor": "26", "rotulo": "canvas boats to cross the Waal in daylight at Nijmegen, on 20 September, three days after the drop"},
+    {"valor": "2,398", "rotulo": "men brought back across the Rhine in the withdrawal of 25–26 September; about 300 were left behind"},
+    {"valor": "1,485", "rotulo": "dead among the troops that landed at Arnhem; about 6,400 were taken prisoner"}
+  ],
+  "ficha": [
+    {"item": "Objective", "valor": "to seize with airborne troops the bridges over six waterways between the Belgian-Dutch border and Arnhem (Market) and push the British XXX Corps across them (Garden), crossing the Lower Rhine and going around the northern end of the Siegfried Line"},
+    {"item": "Allies — command", "valor": "Dwight Eisenhower; Bernard Montgomery (21st Army Group); Lewis Brereton (1st Allied Airborne Army); Frederick Browning (I Airborne Corps); Brian Horrocks (XXX Corps)"},
+    {"item": "Allies — forces", "valor": "US 101st Airborne (Maxwell Taylor), Son and Veghel; 82nd Airborne (James Gavin), Grave, Nijmegen and the Groesbeek heights; British 1st Airborne (Roy Urquhart) and the Polish 1st Parachute Brigade (Stanisław Sosabowski), Arnhem. About 35,000 airborne troops; XXX Corps with the Guards Armoured Division in the lead", "nota": "The airborne total appears as more than 34,600 or between 35,000 and 40,000."},
+    {"item": "Germany — command", "valor": "Gerd von Rundstedt (Commander-in-Chief West); Walter Model (Army Group B); Kurt Student (1st Parachute Army); Wilhelm Bittrich (II SS Panzer Corps)"},
+    {"item": "Germany — forces", "valor": "the 9th and 10th SS Panzer Divisions, badly depleted after Normandy, refitting north and east of Arnhem; training, reserve and other-service units gathered in haste; the 1st Parachute Army to the south", "nota": "The strength of the two SS divisions varies: from 6,000–7,000 men in total to more than 13,000, with few operational tanks."},
+    {"item": "Terrain", "valor": "a single two-lane highway, partly raised above polder and floodplain, with ditches and dikes on either side; six waterways, of which the Waal at Nijmegen and the Rhine at Arnhem could not be crossed with an improvised bridge"},
+    {"item": "Timetable", "valor": "reach Arnhem in 2 days, 4 at most; the Arnhem division was to hold out until then"},
+    {"item": "Arnhem bridge", "valor": "John Frost's 2nd Parachute Battalion takes the northern end on the night of 17 September and holds out until the early hours of the 21st, twice as long as planned", "nota": "Frost's strength at the bridge is about 740 men, with brigade and engineers, in one count; about 500, in the US official history."},
+    {"item": "Nijmegen bridge", "valor": "taken only on the night of 20 September, after the US 504th Parachute Infantry Regiment crossed the Waal in 26 boats; the Guards tanks stop on the other side and only resume the advance about 18 hours later"},
+    {"item": "Duration", "valor": "17 to 25 September 1944; the withdrawal from the north bank of the Rhine runs from the night of the 25th to the early hours of the 26th"},
+    {"item": "Allied casualties", "valor": "the airborne phase cost about 11,850 killed, wounded and missing in the US official history's count — 7,212 in the British force at Arnhem alone, 1,432 in the 82nd, 2,110 in the 101st; XXX Corps, about 1,480. The total for the operation ranges from 15,326 to 17,200"},
+    {"item": "German casualties", "valor": "3,300 in the official German count; from about 6,300 to more than 13,000 in historians' estimates"},
+    {"item": "Prisoners", "valor": "about 6,400 British and Polish troops captured at Arnhem, a third of them wounded", "nota": "English Wikipedia, Operation Market Garden."},
+    {"item": "Outcome", "valor": "Eindhoven and Nijmegen liberated and a salient of about 105 km opened in the German lines; the Rhine crossing at Arnhem, the objective that gave meaning to all the others, fails"},
+    {"item": "Aftermath", "valor": "the Allies only cross the Rhine in March 1945; Arnhem is liberated on 14 April 1945. The port of Antwerp, captured on 4 September, only receives ships at the end of November"}
+  ],
+  "lances": [
+    {
+      "titulo": "The plan: a chain of bridges, on a single road",
+      "paragrafos": [
+        "In September 1944, after Normandy, the Allied armies had swept the Germans out of almost all of France and Belgium, and the Allied command believed the German army was falling apart. Montgomery was asking for a single, full-blooded thrust across the Rhine. On 10 September Eisenhower approved a version of it, with limited priority: Market Garden.",
+        "The design was simple to state. Three airborne divisions and a Polish brigade would seize the bridges along a road that ran from the Belgian border to Arnhem, about 100 km to the north: the US 101st at Son and Veghel, the 82nd at Grave and Nijmegen, the British 1st, the farthest away, at Arnhem. Up the road, XXX Corps would advance in two days, four at most. The timetable had Eindhoven by the late afternoon of the first day and Arnhem at 15:00 on the third.",
+        "On the board, this is a chain in series. Every bridge had to fall intact, in order and on time, because the whole armored corps and the bridging equipment came along a two-lane highway, partly raised above the polder, with ditches and dikes on either side. There was no parallel road. A delay at any link passed on to all the following ones, and the last link, Arnhem, was held by the division that depended on all of them."
+      ]
+    },
+    {
+      "titulo": "The farthest piece, delivered in installments and far from the target",
+      "paragrafos": [
+        "The first constraint was one of means. The available aircraft could carry about 60% of the force in a single lift, and the troops were delivered over three days. The 1st Airborne Division landed on 17 September with half its strength, and of that half only the 1st Parachute Brigade could march on the bridge: the rest had to guard the landing zones for the next day's lift.",
+        "The second was one of place. The zones lay on the heaths west of Oosterbeek, 8 to 13 km from the bridge, depending on the source. North of the city was the anti-aircraft defense of Deelen airfield; south of the bridge, the only flat ground, the Malburgsche polder, was small for the gliders of a brigade and lay next to an anti-aircraft battery. After the war Urquhart himself told the British official historian that the air force, rightly, had not wanted to fly into the defended zone. Martin Middlebrook calls the refusal of night drops, of two lifts on the first day and of a coup de main on the bridge fundamental errors; John Frost called the distance a glaring obstacle.",
+        "On the first day, two of the three columns were held up by improvised German units west of Arnhem. Only Frost's 2nd Battalion, along the riverside road, reached the bridge at dusk and took its northern end. The railway bridge at Oosterbeek was blown up as the British reached it. And at a distance of 13 km, the radios between the bridge and division headquarters could not reach each other: John Greenacre's study points to the distance between units, greater than the range of the sets, as the main cause."
+      ]
+    },
+    {
+      "titulo": "The first link breaks at Son, the second jams at Nijmegen",
+      "paragrafos": [
+        "On 17 September, the bridge at Son over the Wilhelmina Canal was blown up by the Germans as the 101st reached it. XXX Corps, which had set off at 14:35 after an artillery barrage, was ambushed just past the border and halted for the night at Valkenswaard, without reaching Eindhoven. It got there on the afternoon of the 18th, a day late, and the engineers put up a Bailey bridge at Son during the night.",
+        "Farther north, the 82nd took Grave and a bridge over the Maas–Waal Canal, but concentrated its effort on the Groesbeek heights, to block an attack coming from the Reichswald forest, in Germany, and only sent troops against the Nijmegen bridge at night. Browning agreed with that priority. When the attack came, units of the 10th SS Panzer Division were already arriving, and the bridge stayed German. The US official history counts four attempts against it before the one that succeeded.",
+        "On 19 September XXX Corps met the 82nd at Grave and the delay seemed to have been made up. But the assault crossing the plan provided for in case a bridge was not taken depended on boats that were far back, on the same road. They arrived on the afternoon of the 20th. At around 15:00, the 3rd Battalion of the 504th Parachute Infantry Regiment crossed the Waal in daylight, in 26 canvas boats, under fire; half the boats survived the first trip. In the early evening, Guards tanks crossed the road bridge. The bridge that was supposed to fall on the first day fell on the fourth."
+      ]
+    },
+    {
+      "titulo": "The night of 20 September: the most debated move",
+      "paragrafos": [
+        "On the far side of the Waal, the tanks stopped. They resumed the advance about 18 hours later, at noon on the 21st, and soon ran into a German line at Ressen, less than 5 km to the north. In Arnhem, 11 km away, Frost's group was still holding out that night.",
+        "It is the scene most often repeated as the explanation, and it deserves to be weighed carefully. Against the halt there is the commander of the 10th SS, Heinz Harmel, who decades later told Robert Kershaw that if those tanks had kept going, it would have been all over for the Germans. In its favor there is the darkness, only five tanks on the other side, hidden anti-tank guns, the city of Nijmegen still being fought over behind them, and what Harmel did not know: three Tiger tanks and two infantry companies were already coming down from Arnhem toward the village of Lent.",
+        "And there is the clock. The Arnhem bridge fell in the early hours of the 21st. Even a night advance would have had to cover 11 km of road raised above the polder — terrain that the commander of the Guards Armoured Division, on seeing it, described as the most unsuitable for tanks that could be imagined. The halt of 20 September was the last delay, not the decisive one. The decisive one came earlier, at Son and at the Nijmegen bridge."
+      ]
+    },
+    {
+      "titulo": "What the opponent did with the time it was given",
+      "paragrafos": [
+        "Allied intelligence knew there was German armor around Arnhem. Ultra located the 9th and 10th SS Panzer Divisions there; Eisenhower's chief of staff, Walter Bedell Smith, took the concern to Montgomery on 15 September and was brushed aside. Browning's intelligence officer, Major Brian Urquhart, showed reports from the Dutch resistance and aerial photographs, and was sent on leave for nervous strain and exhaustion. Montgomery later wrote that the Allies had been wrong to assume that corps could not fight effectively.",
+        "But the two divisions were depleted and almost without tanks, and no German tank fought on the first day. What weighed was something else. Field Marshal Walter Model, commander of Army Group B, was staying at a hotel in Oosterbeek when the British landed a few kilometers away. He left in a hurry, assessed the situation and sent to Arnhem all the armor he could find, while German officers turned leftovers — schools, reserve battalions, air force and navy men — into combat units within hours. John Hackett, a British brigade commander, said after the war that a German headquarters could make a cohesive unit out of stragglers in a time the Allies thought impossible.",
+        "The weather did the rest. From 18 September on, seven of eight days had bad weather: the second lift was delayed by hours, the Polish brigade arrived two days later than planned, and almost all the supplies dropped north of the Rhine fell into German hands. In a plan with slack, that would have been a setback. In a plan in series, every hour lost was charged at the last bridge."
+      ]
+    },
+    {
+      "titulo": "Oosterbeek and the way back across the river",
+      "paragrafos": [
+        "Unable to reach the bridge, the 1st Airborne Division closed itself into a perimeter at Oosterbeek, with about 3,600 men, backed against the Rhine. The Poles finally dropped on 21 September, at Driel, on the south bank, and found that the ferry no longer existed; the improvised night crossings of the following days put only a few hundred men on the other side. On 24 September, an attempt by a British battalion ended with about 200 of 315 men captured.",
+        "On the night of the 25th to the 26th, in the rain, British and Canadian engineers brought back in small boats 2,398 men: 1,741 from the division, 422 glider pilots, 160 Poles and 75 from the Dorset battalion. About 300 were left on the north bank when day broke. Of the troops that landed at Arnhem, 1,485 died and about 6,400 were taken prisoner.",
+        "After the defeat, Montgomery and Browning blamed the Polish brigade and Sosabowski was removed. Historians such as Carlo D'Este treat the accusation as scapegoating, and the Netherlands decorated the brigade in 2006. Montgomery, for his part, called Market Garden 90% successful. Chester Wilmot answered that the sum only adds up if success is measured by the number of bridges taken."
+      ]
+    }
+  ],
+  "veredito": [
+    "Market Garden did not fail because of one mistake. It failed because it was a chain of bets in series — every bridge intact, in order, on time, along a single road — and because the piece that depended on all of them, at Arnhem, was delivered in three installments, kilometers from the target. Discarded intelligence, radios out of range, distant landing zones, the Nijmegen bridge taken on the fourth day and bad weather are not rival explanations: they are the same flaw seen from different places. In a plan in series, failures do not add up, they multiply.",
+    "In chess terms, it is a six-move combination that only works if the opponent does not answer any of them. The opponent answered on the first: it blew the bridge at Son. Model, by chance a few kilometers from the landing zones, answered all the others. The US official history sums it up: by the unrelenting logic of war, Market Garden was a failure.",
+    "And the phrase that gave the defeat its name may never have been said. \"A bridge too far\" appears in writing in 1958, in General Urquhart's memoirs, attributed to Browning; the historian Antony Beevor doubts that Browning said it. It also points to the wrong bridge: the one that jammed the clock was Nijmegen."
+  ],
+  "mitos": [
+    {
+      "circula": "Browning warned Montgomery that Arnhem was a bridge too far.",
+      "registro": "The phrase appears in writing in 1958, in General Roy Urquhart's memoirs, and was popularized by Cornelius Ryan's book in 1974 and by the 1977 film. Antony Beevor disputes it: Browning supported the operation, especially after getting more resources, and does not seem to have met Montgomery that day."
+    },
+    {
+      "circula": "The operation failed because nobody knew there were SS armored divisions at Arnhem.",
+      "registro": "It was known. Ultra located the 9th and 10th SS Panzer Divisions; Bedell Smith warned Montgomery on 15 September, and Major Brian Urquhart warned Browning. The warning was dismissed. But the two divisions were depleted and almost without tanks: what weighed was Model's quick reaction and the German ability to improvise units out of leftovers."
+    },
+    {
+      "circula": "The British radios failed because they came with the wrong crystals.",
+      "registro": "Major John Greenacre's study points to the distance between units, greater than the range of the sets, as the main cause. The wrong crystals affected two sets, those of the American air support team."
+    },
+    {
+      "circula": "XXX Corps stopped at Nijmegen and left the Arnhem paratroopers to die.",
+      "registro": "The halt on the night of 20 September happened and lasted about 18 hours, with only five tanks on the other side of the Waal, hidden anti-tank guns and three Tigers coming down from Arnhem. The Arnhem bridge fell in the early hours of the next day. The decisive delays came earlier: the bridge at Son, blown up on 17 September, and the Nijmegen bridge, which was supposed to fall on the first day and fell on the fourth."
+    }
+  ],
+  "perguntas": [
+    {"p": "What was Operation Market Garden?", "r": "It was the Allied operation of 17 to 25 September 1944 in the Netherlands: about 35,000 airborne troops would seize the bridges along a road of about 100 km, from Eindhoven to Arnhem, so that a British armored corps could reach the Rhine in 2 days, 4 at most."},
+    {"p": "Was Operation Market Garden a failure?", "r": "Yes, in the objective that gave meaning to the others: the Rhine crossing at Arnhem failed. Eindhoven and Nijmegen were liberated and a salient of about 105 km was opened, and Montgomery spoke of 90% success, but the US official history sums it up as a failure."},
+    {"p": "Why did Market Garden fail?", "r": "It was a chain of bridges in series on a single road, and every delay passed on to the next bridge. The bridge at Son was blown up on the first day, the one at Nijmegen only fell on the fourth, and the Arnhem division was delivered over three days, kilometers from the target, against Model's quick reaction and bad weather."},
+    {"p": "What were the casualties of Operation Market Garden?", "r": "Of the troops that landed at Arnhem, 1,485 died and about 6,400 were taken prisoner. Allied casualties for the whole operation range from 15,326 to 17,200, depending on the source; German ones, from 3,300 in the official German count to more than 13,000 in historians' estimates."},
+    {"p": "Who said “a bridge too far”?", "r": "The phrase is attributed to General Frederick Browning and appears in writing in 1958, in General Roy Urquhart's memoirs. The historian Antony Beevor doubts that Browning said it, because he supported the operation."}
+  ],
+  "fontes": [
+    {"texto": "Charles B. MacDonald, The Siegfried Line Campaign, U.S. Army in World War II, Center of Military History, 1963, chapters VII and VIII."},
+    {"texto": "National Army Museum, \"Operation Market Garden\"."},
+    {"texto": "John Greenacre, \"Assessing the Reasons for Failure: 1st British Airborne Division Signal Communications during Operation 'Market Garden'\", Defence Studies, 2004."},
+    {"texto": "Antony Beevor, Arnhem: The Battle for the Bridges, 1944 (cited by English Wikipedia)."},
+    {"texto": "Pegasus Archive, \"Lieutenant-General Frederick Browning\"."},
+    {"texto": "Warfare History Network, \"Operation Market Garden: Montgomery's Bridge Too Far\"."},
+    {"texto": "Battle of Arnhem — \"The closing balance\" and \"Why didn't the British radios work?\"."},
+    {"texto": "Operation Market Garden — English Wikipedia."},
+    {"texto": "Battle of Arnhem — English Wikipedia."},
+    {"texto": "Operation Berlin (Arnhem) — English Wikipedia."}
+  ],
+  "imagens": [
+    {
+      "alt": "Aerial view of a steel arch bridge over a wide river, with houses on the upper bank and destroyed vehicles piled on the ramp at the northern end",
+      "legenda": "The Arnhem road bridge photographed from the air on 19 September 1944, with destroyed German armor at the northern end, the one John Frost's battalion held from the night of the 17th to the early hours of the 21st.",
+      "autor": "Unidentified photographer · Imperial War Museums, MH 2061"
+    },
+    {
+      "alt": "Topographic map with the Rhine in blue running from left to right, green woods to the north with Renkum, Oosterbeek and the city of Arnhem, and to the south a polder plain cut by ditches, with Driel and Elst",
+      "legenda": "Arnhem and the Lower Rhine on the Army Map Service map, Holland 1:25,000, Arnhem sheet, 1st edition of 1944. The British landing zones lay in the woods and heaths west of Oosterbeek, the bridge in the city, on the right; to the south, the polder between the Rhine and Elst, which the tanks would have to drive up through.",
+      "autor": "U.S. Army Map Service · Library of Congress, Geography and Map Division"
+    },
+    {
+      "alt": "Black-and-white aerial photograph: a long line of transport planes in the hazy sky and, below, patchwork fields dotted with open parachutes",
+      "legenda": "Transport planes and parachutes over the Netherlands on 17 September 1944, the first day. The available aircraft could carry about 60% of the force in a single lift, and delivery took three days.",
+      "autor": "U.S. Army Air Forces · National Archives and Records Administration, NARA 531308"
+    },
+    {
+      "alt": "Sherman tank advances across a wide road bridge, with a large steel arch in the background and two cyclists in the foreground, one of them waving",
+      "legenda": "Tanks of the British XXX Corps cross the Nijmegen road bridge over the Waal, in September 1944. The bridge the plan scheduled for the first day was taken on the night of 20 September.",
+      "autor": "Unidentified photographer · Imperial War Museums, EA 44531"
+    },
+    {
+      "alt": "Four armed British paratroopers move through a ruined house, stepping over rubble and reinforcing bars",
+      "legenda": "British paratroopers in a destroyed house in Oosterbeek, on 23 September 1944, after falling back from Arnhem to the perimeter backed against the Rhine.",
+      "autor": "Sergeant D. M. Smith, Army Film and Photographic Unit · Imperial War Museums, BU 1121"
+    }
+  ]
+}

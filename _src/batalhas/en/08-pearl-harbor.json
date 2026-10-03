@@ -1,0 +1,271 @@
+{
+  "_nota": "Tradução fiel de ../08-pearl-harbor.json. Campos fixos (num, slug, estreia, proximo, relacionados, conf, arquivo, licenca, licenca_url, origem_url, tipo, ano, foco, url) vêm do original.",
+  "batalha": "Pearl Harbor",
+  "nome_busca": "Attack on Pearl Harbor",
+  "titulo_video": null,
+  "lugar": "Pearl Harbor, island of Oahu, Hawaii (then a territory of the United States), central Pacific",
+  "data": "7 December 1941",
+  "campanha": "World War II, 1941",
+  "pergunta": "An attack that was perfect tactically and wrong strategically?",
+  "resumo": "In the attack on Pearl Harbor, Japan hit all eight U.S. battleships and left standing what mattered. Why the right move aimed at the wrong piece.",
+  "abertura": [
+    "On the morning of 7 December 1941, 353 aircraft launched from six Japanese carriers attack the Pacific Fleet at Pearl Harbor, in Hawaii. In less than two hours, all eight American battleships in the harbor have been hit, 188 aircraft destroyed and 2,403 Americans killed. Japan loses 29 aircraft.",
+    "As a move, it is almost perfect. But the three American carriers were not in the harbor, the fuel tanks, the repair shops and the submarine base were left standing, and six of the eight battleships would return to the war. The next day, the United States declares war with a single vote against. The question on this page is how such a well-executed attack aimed at the wrong piece."
+  ],
+  "numeros": [
+    {
+      "valor": "353",
+      "rotulo": "Japanese aircraft reached Oahu, in two waves, launched from 6 carriers"
+    },
+    {
+      "valor": "0",
+      "rotulo": "American carriers in the harbor: the Pacific Fleet's three were away"
+    },
+    {
+      "valor": "2,403",
+      "rotulo": "Americans killed — 2,008 Navy, 218 Army, 109 Marines and 68 civilians"
+    },
+    {
+      "valor": "6 of 8",
+      "rotulo": "battleships hit returned to service; only the Arizona and the Oklahoma were lost for good"
+    },
+    {
+      "valor": "4 to 4.5",
+      "rotulo": "million barrels of fuel in tanks in plain sight, left intact — depending on the source"
+    },
+    {
+      "valor": "64",
+      "rotulo": "Japanese killed: 55 airmen and 9 crewmen of midget submarines; 29 aircraft lost"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Japan — force",
+      "valor": "the strike force (Kidō Butai): 6 carriers (Akagi, Kaga, Sōryū, Hiryū, Shōkaku and Zuikaku), 2 battleships, 3 cruisers, 11 destroyers and 8 oilers, with 414 aircraft available; plus 5 fleet submarines carrying 5 midget submarines",
+      "nota": "The six carriers are undisputed; the rest of the composition is from English Wikipedia."
+    },
+    {
+      "item": "Japan — command",
+      "valor": "Admiral Isoroku Yamamoto (Combined Fleet, author of the plan); Vice Admiral Chūichi Nagumo (strike force); Commander Mitsuo Fuchida (air leader, first wave); Lieutenant Commander Shigekazu Shimazaki (second wave). Plan written mainly by Ryūnosuke Kusaka, with Minoru Genda"
+    },
+    {
+      "item": "United States — command",
+      "valor": "Admiral Husband E. Kimmel (Pacific Fleet); General Walter C. Short (Army, defense of Hawaii)"
+    },
+    {
+      "item": "Terrain",
+      "valor": "a shallow, enclosed harbor, with the fleet moored in a row around Ford Island; the shallow depth was believed to protect against aerial torpedoes"
+    },
+    {
+      "item": "Japanese objective",
+      "valor": "to prevent the Pacific Fleet from interfering with the conquest of Southeast Asia and the Dutch East Indies, after the American oil cutoff in July 1941, and to bring the United States to negotiate"
+    },
+    {
+      "item": "Precedent",
+      "valor": "Taranto, Italy, night of 11 to 12 November 1940: 21 Swordfish biplanes from the British carrier Illustrious put three Italian battleships moored in a shallow harbor out of action"
+    },
+    {
+      "item": "Timeline",
+      "valor": "the Opana radar detects the formation at 07:02; first bombs at 07:48 at Kaneohe and at 07:55 over the harbor; the second wave arrives at about 08:50",
+      "nota": "The time of the second wave is from the National Park Service."
+    },
+    {
+      "item": "The waves",
+      "valor": "first, 183 aircraft launched (40 torpedo bombers, 49 level bombers, 51 dive bombers and 43 fighters); second, about 170",
+      "nota": "The second wave appears with 167, 170 or 171 aircraft depending on the source; the total that reached Oahu, 353, is the same in all of them."
+    },
+    {
+      "item": "Ships hit",
+      "valor": "21 sunk or damaged, among them the 8 battleships in the harbor; all but 3 (Arizona, Oklahoma and the former battleship Utah) returned to service"
+    },
+    {
+      "item": "American aircraft",
+      "valor": "188 destroyed and 159 damaged, out of 402 in Hawaii",
+      "nota": "The U.S. Navy museum's fact sheet uses another breakdown: 92 lost by the Navy and 77 by the Army."
+    },
+    {
+      "item": "American casualties",
+      "valor": "2,403 killed (2,008 Navy, 218 Army, 109 Marines, 68 civilians); almost half on the Arizona. Wounded: 1,178 by the U.S. Navy museum's table, 1,104 by the National Park Service's count",
+      "nota": "The dead match in two sources; the discrepancy is only in the wounded."
+    },
+    {
+      "item": "Japanese casualties",
+      "valor": "29 aircraft; 64 killed (55 airmen and 9 crewmen of the midget submarines); the 5 midget submarines lost"
+    },
+    {
+      "item": "Prisoners",
+      "valor": "1: Ensign Kazuo Sakamaki, from a grounded midget submarine, the first Japanese prisoner of the war"
+    },
+    {
+      "item": "What was not hit",
+      "valor": "the three carriers (away from the harbor), the fuel tanks, the repair shops, the dry docks, the navy yard and the submarine base"
+    },
+    {
+      "item": "Outcome",
+      "valor": "Japanese tactical victory: the battle line is out of action for months; repair capacity, fuel and the carriers remain intact"
+    },
+    {
+      "item": "Afterwards",
+      "valor": "8 December: declaration of war on Japan, 82 to 0 in the Senate and 388 to 1 in the House. 11 December: Germany and Italy declare war on the United States"
+    }
+  ],
+  "lances": [
+    {
+      "titulo": "The plan: an opening blow to buy time",
+      "paragrafos": [
+        "In July 1941 the United States cuts off oil exports to Japan, and Tokyo decides to take the oil of the Dutch East Indies. The piece that can get in the way is the Pacific Fleet, which Roosevelt had sent to Pearl Harbor in 1940. Admiral Isoroku Yamamoto, commander of the Combined Fleet, begins sketching the attack in January 1941. The plan is written mainly by Rear Admiral Ryūnosuke Kusaka, with Commander Minoru Genda, who argued for six carriers and three waves.",
+        "The precedent was recent. On the night of 11 to 12 November 1940, 21 Swordfish biplanes from the British carrier Illustrious put three Italian battleships moored in the shallow harbor of Taranto out of action. The lesson was that a shallow harbor no longer protected against aerial torpedoes. The Japanese studied Taranto in depth, but did not start from it: according to the historian Mark Peattie, they had been working on a shallow-water torpedo since 1939, and Taranto confirmed what they were already testing.",
+        "The target list said everything about the minds of those who planned it. According to the historians H. P. Willmott and Haruo Tohmatsu, the order was land-based aircraft, carriers, battleships and other warships, merchant ships, harbor installations and, last, shore installations. The Japanese Navy measured victory in warships sunk. The fuel tanks were at the bottom of the list."
+      ]
+    },
+    {
+      "titulo": "The warnings no one put together",
+      "paragrafos": [
+        "On 24 September 1941, Tokyo asked the consulate in Honolulu for the position of the ships at Pearl Harbor, by zones of the harbor. Washington decrypted the message on 9 October, judged it unimportant and did not pass it on to Kimmel or Short. On 27 November came the formal warning: \"This dispatch is to be considered a war warning.\" But it spoke of the Far East, not Pearl Harbor, and in Hawaii the threat was read mainly as sabotage.",
+        "On the morning of 7 December there were two direct warnings. At 06:37 the destroyer Ward sighted a submarine at the harbor entrance, opened fire at 06:45 and reported to command by radio, according to the report of its own commander. At 07:02 the Army radar at Opana, in northern Oahu, picked up a formation about 132 miles away. The lieutenant on duty at the information center, on his second day at the post and untrained, assumed they were the B-17 bombers expected from California, which were coming from almost the same direction.",
+        "American intelligence was reading the Japanese diplomatic cipher, but the foreign ministry did not discuss the military plan, and the navy code was not readable — a new edition came into force on 1 December. The strike fleet sailed in radio silence. The warnings that existed were loose pieces in a system that did not put them together."
+      ]
+    },
+    {
+      "titulo": "The move: two waves against the battle line",
+      "paragrafos": [
+        "The first wave, 183 aircraft under the command of Mitsuo Fuchida, opens the attack at 07:48 at Kaneohe and at 07:55 over the harbor. The torpedo bombers go first against the battleships, while dive bombers and fighters strike the airfields to prevent a response. The second wave, about 170 aircraft, arrives at about 08:50. In all, 353 aircraft reach Oahu.",
+        "All eight battleships in the harbor are hit. The Arizona explodes when a bomb reaches the forward magazine, and on her alone almost half of the Americans killed that day die. The Oklahoma capsizes, the West Virginia and the California sink in place, the Nevada ends up beached. Of the 402 American aircraft in Hawaii, 188 are destroyed and 159 damaged.",
+        "The defense wakes up late, but it wakes up: of the 29 Japanese losses, 20 happen in the second wave. In the end, the United States has 2,403 dead and 21 ships hit. Japan loses 29 aircraft, the five midget submarines and 64 men. By the yardstick of the plan, it is an almost complete success."
+      ]
+    },
+    {
+      "titulo": "What was left standing",
+      "paragrafos": [
+        "The Pacific Fleet's three carriers were not in the harbor. The Enterprise was returning from delivering fighters to Wake and was delayed by bad weather; the Lexington was carrying aircraft to Midway; the Saratoga was far from Hawaii. The irony is that the former battleship turned target ship Utah, sunk that morning, occupied the berth meant for the Enterprise.",
+        "Left intact were the fuel tanks, above ground and in plain sight, holding 4 to 4.5 million barrels depending on the source; the repair shops, the dry docks and the navy yard; and the submarine base. Hawaii produced no oil: every barrel came from the mainland, and the Pacific Fleet's oilers had a combined capacity of only 760,000 barrels, according to Lieutenant Colonel Patrick Donovan. It was the repair shops that put the damaged ships back to sea, and it was the submarines from that base that strangled Japan's oil imports.",
+        "There is a caveat the historian Jonathan Parshall makes a point of recording: before the attack, no one on the American side treated the tanks as a decisive piece — they had no anti-aircraft defense, no dispersal, and were above ground. Within the doctrine of both navies, the battleship was the most valuable piece on the board. Japan aimed at what the rules of the game said to aim at, at the exact moment the rules were changing."
+      ]
+    },
+    {
+      "titulo": "The third wave: what is known and what is told",
+      "paragrafos": [
+        "There was no third wave — that is fact. The best-known version of why is Fuchida's own, given to Gordon Prange in 1963 and later carried into the film Tora! Tora! Tora!: he supposedly pressed insistently for a new attack on the tanks and the repair shops, and Nagumo supposedly refused. That version is disputed. Questioned by the Americans in 1945 about why there was no new attack, Fuchida spoke of unknown American air power and of eight battleships being enough, without mentioning tanks. Genda denied in his memoirs that the scene took place, and Kusaka called the criticism afterthoughts.",
+        "The reasons for Nagumo that historians record are about the board. The second wave had already cost twice as much as the first; the whereabouts of the American carriers were unknown; there could be land-based bombers ready to strike back; a third wave would require recovering aircraft at night, something only the British navy had mastered; the force's fuel was at its limit. And the main mission, neutralizing the fleet, seemed accomplished. It was Japanese doctrine to preserve the force rather than seek total destruction.",
+        "Even if there had been a third strike, Parshall argues that it would almost certainly have gone against the cruisers, destroyers and submarines left in the harbor, not against the tanks. The mistake, if there was one, was not in an afternoon's decision: it was written into the target list months earlier."
+      ]
+    },
+    {
+      "titulo": "The next move belongs to the opponent",
+      "paragrafos": [
+        "The plan assumed that an opening blow would bring the United States to negotiate. On 8 December 1941 Roosevelt asks Congress for war, and it approves it in less than an hour: 82 to 0 in the Senate, 388 to 1 in the House. The Japanese message breaking off negotiations reached Washington more than an hour after the attack began — and, in any case, it did not declare war. On 11 December Germany and Italy declare war on the United States without the pact with Japan requiring them to.",
+        "Without battleships, the American Navy fought with what it had: carriers and submarines, operating from the base that was left standing. Six months later, four of the six carriers that attacked Pearl Harbor were sunk at Midway. The repaired battleships, too slow to keep up with the carriers, served mainly for shore bombardment."
+      ]
+    }
+  ],
+  "veredito": [
+    "As execution, Pearl Harbor was almost perfect: surprise, concentration and an opponent who saw the signs and did not put them together. As strategy, it aimed at the piece Japanese doctrine considered the most valuable — the battleship — at the moment value was shifting to the carrier, fuel and repair capacity. The two waves barely got to the third item on a list that put the harbor installations at the bottom. It was not an afternoon's oversight, it was the yardstick of the plan.",
+    "And the most costly mistake was not one of target, it was one of premise. The attack assumed that an opening blow would bring the United States to negotiate. In chess terms, it is the player who wins the opponent's queen on the first move and discovers that it was not the piece that decided the game — and that the move woke up, on the other side of the board, someone willing to play to the end. The Japanese Rear Admiral Chūichi Hara summed it up after the war: they won a great tactical victory and, by doing so, lost the war."
+  ],
+  "mitos": [
+    {
+      "circula": "Roosevelt knew about the attack and let it happen to get into the war.",
+      "registro": "No document shows anyone in Washington knowing that the target was Pearl Harbor. The Japanese navy code was not readable before the attack, the diplomatic cipher did not carry the military plan and the fleet sailed in radio silence. Washington knew war was coming and warned on 27 November; what failed was putting the pieces together — the message about the harbor zones not passed on, the radar disregarded. Ten official inquiries, and mainstream historians reject the thesis."
+    },
+    {
+      "circula": "Fuchida begged for a third wave against the fuel tanks, and Nagumo refused.",
+      "registro": "That is the version Fuchida gave Gordon Prange in 1963 and that the film Tora! Tora! Tora! popularized. In 1945, questioned by the Americans, he did not mention the tanks; Genda denied the scene in his memoirs. There was no third wave — that is fact. The dramatic request is late and disputed testimony, and Japanese doctrine put the tanks at the bottom of the target list."
+    },
+    {
+      "circula": "The carriers were taken out of the harbor because Washington knew about the attack.",
+      "registro": "The Enterprise and the Lexington were delivering aircraft to Wake and Midway, and the Enterprise was due back on 6 December, but was delayed by bad weather. In 1941 the capital ship of both navies was still the battleship: anyone wanting to save the most valuable ships would have taken out the eight battleships, which stayed."
+    },
+    {
+      "circula": "Yamamoto said Japan had awakened a sleeping giant.",
+      "registro": "The line is from the 1970 film Tora! Tora! Tora!, and there is no proof Yamamoto ever said it. What is recorded from him is the prediction he made to Prime Minister Konoe in 1941: six months to a year of victories, and no confidence for the second and third years."
+    },
+    {
+      "circula": "The Pacific Fleet was destroyed at Pearl Harbor.",
+      "registro": "Of the 21 ships hit, 18 returned to service; of the 8 battleships, 6. The three carriers were away from the harbor, and the fuel tanks, the repair shops and the submarine base were left intact."
+    }
+  ],
+  "perguntas": [
+    {
+      "p": "When was the attack on Pearl Harbor?",
+      "r": "On the morning of 7 December 1941. The first bombs fell at 07:48 at Kaneohe and at 07:55 over the harbor; the second wave arrived at about 08:50, and the attack lasted less than two hours."
+    },
+    {
+      "p": "How many people died at Pearl Harbor?",
+      "r": "2,403 Americans were killed: 2,008 Navy, 218 Army, 109 Marines and 68 civilians, almost half of them on the Arizona. Japan lost 64 men and 29 aircraft."
+    },
+    {
+      "p": "Why did Japan attack Pearl Harbor?",
+      "r": "After the American oil cutoff in July 1941, Japan decided to take the oil of the Dutch East Indies. The attack was meant to prevent the Pacific Fleet from interfering with that conquest and to bring the United States to negotiate."
+    },
+    {
+      "p": "Did Roosevelt know about Pearl Harbor before the attack?",
+      "r": "No document shows anyone in Washington knowing that the target was Pearl Harbor. The Japanese navy code was not readable before the attack and the fleet sailed in radio silence; Washington knew war was coming, and what failed was putting the warnings together."
+    },
+    {
+      "p": "What happened after the attack on Pearl Harbor?",
+      "r": "On 8 December 1941, the United States declared war on Japan: 82 to 0 in the Senate and 388 to 1 in the House. On 11 December, Germany and Italy declared war on the United States."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "W. W. Outerbridge, USS Ward report on the sinking of a Japanese submarine, 7 December 1941 (enclosure to the CINCPAC report of 15 February 1942; NARA), transcribed by the National Museum of the U.S. Navy."
+    },
+    {
+      "texto": "Naval History and Heritage Command / National Museum of the U.S. Navy, Fact Sheet: Pearl Harbor: Aftermath."
+    },
+    {
+      "texto": "National Park Service, The Pearl Harbor Attack."
+    },
+    {
+      "texto": "Jonathan Parshall, \"Reflecting on Fuchida, or 'A Tale of Three Whoppers'\", Naval War College Review 63:2, 2010."
+    },
+    {
+      "texto": "Patrick H. Donovan, \"Oil Logistics in the Pacific War\", Air Force Journal of Logistics XXVIII:1, 2004."
+    },
+    {
+      "texto": "Frederick D. Parker, Pearl Harbor Revisited: U.S. Navy Communications Intelligence, 1924–1941, NSA Center for Cryptologic History, 1994."
+    },
+    {
+      "texto": "S.J. Res. 116, Declaration of War on Japan, 8 December 1941 — Visit the Capitol."
+    },
+    {
+      "texto": "Attack on Pearl Harbor — English Wikipedia."
+    },
+    {
+      "texto": "Pearl Harbor advance-knowledge conspiracy theory — English Wikipedia."
+    },
+    {
+      "texto": "Radar warning of Pearl Harbor attack — English Wikipedia."
+    },
+    {
+      "texto": "Battle of Taranto — English Wikipedia."
+    }
+  ],
+  "imagens": [
+    {
+      "alt": "Battleship keeled over amid dense black smoke, with the mast and superstructure leaning over the water",
+      "legenda": "The battleship Arizona burning after the attack, on 7 December 1941, with the foremast structure collapsed after the magazine explosion. On her alone almost half of the 2,403 Americans killed that day died.",
+      "autor": "Unidentified U.S. Navy photographer · NARA 195617"
+    },
+    {
+      "alt": "Oblique aerial view of a flat island in the middle of a harbor, with ships moored in a row on the far side and a column of water rising beside one of them",
+      "legenda": "Photo taken from a Japanese aircraft during the torpedo attack: a torpedo has just hit the West Virginia, on the far side of Ford Island. In the background, on the right, the submarine base and the fuel tanks — what neither of the two waves attacked.",
+      "autor": "Imperial Japanese Navy (captured photo) · U.S. Navy NH 50930"
+    },
+    {
+      "alt": "Aerial view of dozens of white cylindrical fuel tanks beside a wharf with ships and submarines moored",
+      "legenda": "The Pearl Harbor submarine base and the fuel tanks seen from the air on 13 October 1941, eight weeks before the attack. Above ground and in plain sight, they held 4 to 4.5 million barrels, depending on the source, and were left intact.",
+      "autor": "U.S. Navy · 80-G-182880"
+    },
+    {
+      "alt": "Hand-drawn plotting sheet with the outline of an island at the bottom and a line of points annotated with times coming down from the north toward it",
+      "legenda": "The original plot from the Opana radar, in northern Oahu, on the morning of 7 December 1941: the track of the Japanese formation coming down from the north, annotated with the times. Detection began at 07:02 and was taken for the B-17 bombers expected from California.",
+      "autor": "Privates Joseph Lockard and George Elliott and others, U.S. Army"
+    },
+    {
+      "alt": "Man in a suit and black armband seated at a desk, signing a document",
+      "legenda": "Roosevelt signs the declaration of war on Japan on 8 December 1941, wearing a black armband. Congress approved it in less than an hour: 82 to 0 in the Senate and 388 to 1 in the House.",
+      "autor": "Abbie Rowe"
+    }
+  ]
+}

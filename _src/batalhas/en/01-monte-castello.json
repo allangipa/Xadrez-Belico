@@ -1,0 +1,168 @@
+{
+  "_nota": "Tradução fiel de ../01-monte-castello.json. Campos fixos (num, slug, estreia, proximo, relacionados, conf, arquivo, licenca, licenca_url, origem_url, tipo, ano, foco, url) vêm do original.",
+  "batalha": "Monte Castello",
+  "nome_busca": "Battle of Monte Castello",
+  "titulo_video": "Why the FEB failed at Monte Castello (and how it finally won)",
+  "lugar": "Monte Castello, Apennines, Emilia-Romagna, Italy",
+  "data": "24 November 1944 to 21 February 1945",
+  "campanha": "The FEB in Italy",
+  "pergunta": "Why did the attacks of November and December 1944 fail, and the one of February 1945 did not?",
+  "resumo": "Why Brazil's FEB failed at the Battle of Monte Castello in 1944 and won on 21 February 1945: the hill was one piece in a system of heights.",
+  "abertura": [
+    "For almost three months, between November 1944 and February 1945, the Brazilian Expeditionary Force attacked the same hill in the Apennines, in northern Italy, and was thrown back. On 21 February it went up once more and took the summit the same day. The hill had not changed, and neither had the German division defending it.",
+    "What changed was the board around it. Monte Castello was the last link in a chain of heights, and as long as the neighboring peaks stayed in German hands, whoever climbed the slope took fire from the front and from the side. The February victory began on the mountains next door."
+  ],
+  "numeros": [
+    {"valor": "17:30", "rotulo": "the Franklin Battalion on the summit, 21 February 1945"},
+    {"valor": "28 Nov", "rotulo": "the night the Germans retook Monte Belvedere, on the eve of the attack of the 29th"},
+    {"valor": "4 or 6", "rotulo": "attacks before the capture, depending on the count"},
+    {"valor": "232nd", "rotulo": "German Infantry Division that defended the sector"},
+    {"valor": "25,000+", "rotulo": "men and women of the FEB in Italy, according to the Brazilian Army"}
+  ],
+  "ficha": [
+    {"item": "Allied side", "valor": "1st Expeditionary Infantry Division (FEB), within the U.S. 5th Army; U.S. Task Force 45 in November; U.S. 10th Mountain Division in Operation Encore, in February"},
+    {"item": "German side", "valor": "232nd Infantry Division, with Regiments 1,043, 1,044 and 1,045"},
+    {"item": "German commander", "valor": "Lieutenant General Eccard Freiherr von Gablenz, 232nd Infantry Division"},
+    {"item": "Brazilian commander", "valor": "J. B. Mascarenhas de Moraes, commander of the FEB", "nota": "author of the account A FEB pelo seu comandante"},
+    {"item": "Units in November", "valor": "Reconnaissance Squadron and 3rd Battalion of the 6th Infantry Regiment of the 1st Expeditionary Infantry Division, with Task Force 45, in the attacks of 24 and 25 November"},
+    {"item": "Units on 21 February", "valor": "Uzeda, Franklin and Siseno Sarmento Battalions (also spelled Sizeno); the Franklin reached the summit"},
+    {"item": "Terrain", "valor": "Chain of heights in the Apennines: Riva Ridge, Monte Belvedere, Gorgolesco, Della Torraccia and, last, Monte Castello; each one covers the next"},
+    {"item": "Objective", "valor": "Monte Castello, which commanded one of the valleys leading to Bologna and the Po Valley"},
+    {"item": "Failed attacks", "valor": "24, 25 and 29 November and 12 December 1944"},
+    {"item": "Number of attacks", "valor": "Six, in the count of the Portuguese Wikipedia; four attempts before the capture, in that of the Brazilian Army Blog", "nota": "the difference comes from counting 24 and 25 November as one attack or two, and from including smaller actions or not"},
+    {"item": "Duration", "valor": "Almost three months, from 24 November 1944 to 21 February 1945; the final attack lasted one day"},
+    {"item": "Allied preparation", "valor": "The 10th Mountain Division trained at Camp Hale, Colorado, from November 1942 to June 1944", "nota": "according to the U.S. National Archives"},
+    {"item": "Result", "valor": "Summit taken by the Franklin Battalion at 17:30 on 21 February 1945"},
+    {"item": "Afterwards", "valor": "The FEB carries on as a veteran force; in April 1945 comes Montese"}
+  ],
+  "lances": [
+    {
+      "titulo": "The position: a piece that does not stand alone",
+      "paragrafos": [
+        "The Brazilian Expeditionary Force arrived in Italy in 1944 and went into the line within the U.S. 5th Army, facing the Gothic Line, the belt of fortifications the Germans had built across the Apennines. The Allied target was Bologna, the gateway to the Po Valley. Monte Castello commanded one of the valleys that led there: whoever held the top saw every truck and every patrol moving below.",
+        "Seen from afar, it looked like an isolated target. It was not. Monte Castello is the last link in a chain of heights — Riva Ridge, Monte Belvedere, Gorgolesco, Della Torraccia and, finally, Castello. Together they form a wall, and each one covers the next. Whoever climbs Castello head-on takes direct fire from above and, at the same time, fire from the peaks alongside, the ones he is not attacking.",
+        "In chess, it is the rook that looks unprotected until the next move, when you discover the bishop on the other side of the board defending the square."
+      ]
+    },
+    {
+      "titulo": "The pieces: the pracinha and the defense as a system",
+      "paragrafos": [
+        "The Brazilian soldier fought with American equipment: the Garand semiautomatic rifle, the Browning automatic rifle in the squad, mortars, and the Brazilian divisional artillery behind. On his shoulder, the badge of the smoking snake, born of a mocking saying that went around the country before the troops shipped out.",
+        "On the other side stood the German 232nd Infantry Division, under Lieutenant General Eccard Freiherr von Gablenz. The defense was not a handful of soldiers on the top, it was an arrangement: observation posts on the heights, which watched more than they fired and passed coordinates to the mortars and artillery; bunkers on the slopes with their machine guns pointed sideways, each one covering the other's approach; mines and wire on the obvious routes up, to hold the attacker still on open ground.",
+        "The machine gun was the MG 42, with an average rate of fire of around 1,200 rounds per minute. The pracinhas called it lurdinha. But the strongest piece in the sector was not the weapon, it was the design: a defense with few men that held because each strongpoint protected its neighbor's flank. The price of that design was also in plain sight — knock out one point, and the others are exposed."
+      ]
+    },
+    {
+      "titulo": "November: attacking the piece with the flank open",
+      "paragrafos": [
+        "On 24 and 25 November 1944, Brazilian troops — the Reconnaissance Squadron and the 3rd Battalion of the 6th Infantry Regiment — attack Monte Castello together with U.S. Task Force 45. The attacks are thrown back.",
+        "On the night of 28 November, the Germans counterattack and retake Monte Belvedere, the peak next door. The following day, the 29th, the FEB attacks Castello again, now with its flank exposed to exactly the height that had just been lost. The fire comes from above, as expected, and from the side, where it should not have come from. There is no cover on the slope against both at once. The attack stops.",
+        "It is the move that defines the campaign: trying to capture a piece whose defense has just been reinforced on the opponent's previous move."
+      ]
+    },
+    {
+      "titulo": "December: the same play, with the weather against it",
+      "paragrafos": [
+        "On 12 December 1944 comes a new attempt, in the rain, with mud taking over the slope and the closed-in weather hampering observation and fire support. The FEB falls back once again.",
+        "After that, the Apennine winter shuts down the front: snow, fog, mud and below-freezing temperatures for weeks, for men who in large part were seeing snow for the first time. Monte Castello stays German."
+      ]
+    },
+    {
+      "titulo": "The diagnosis: the target was wrong",
+      "paragrafos": [
+        "All these attacks tried to take one piece while the ones protecting it stayed on the board. They climbed the hill leaving standing precisely what made the hill difficult. It was an attack on the symptom, not on the system — and with a small force, little preparation time and, on 29 November, an uncovered flank.",
+        "It was not a matter of courage or of the quality of the troops: U.S. Task Force 45 was also thrown back on the same hill, on the same days.",
+        "The defender had read the board better. Retaking Belvedere on the eve of the 29 November attack shows that the Germans knew where the strength of the position lay: in the neighboring peaks, which kept the crossfire on Castello's slope. As long as the attacker looked only at the summit, each assault would be a climb up a corridor swept from two sides."
+      ]
+    },
+    {
+      "titulo": "February: Operation Encore takes the chain apart",
+      "paragrafos": [
+        "The correction comes in February 1945, with Operation Encore. The offensive no longer aims at one hill, it aims at the whole chain, and in the right order. In comes the U.S. 10th Mountain Division, trained at Camp Hale, Colorado, between November 1942 and June 1944, in skiing, rock and ice climbing and high-altitude survival.",
+        "On the night of 18 to 19 February, the men of the 10th climb the cliffs of Riva Ridge in the dark, a face the Germans considered too steep to be climbed — and therefore guarded poorly. They take the crest by surprise. Then Monte Belvedere falls, then Gorgolesco.",
+        "For the first time in almost three months, Monte Castello stands alone on the board."
+      ]
+    },
+    {
+      "titulo": "21 February: check",
+      "paragrafos": [
+        "On 21 February 1945, after the artillery preparation, the Uzeda, Franklin and Siseno Sarmento Battalions climb Monte Castello. The flanking fire that had broken up the earlier attacks no longer exists: the positions that fired from the side are now held by Allied troops.",
+        "Even so, it is not quick. It takes hours of fighting up the slope, bunker by bunker, with the defense holding out all day. At 17:30, the Franklin Battalion reaches the summit. Monte Castello belongs to the FEB.",
+        "What the capture delivered goes beyond the hill. The FEB comes out of February with real experience of mountain combat, and in the following weeks it advances as a veteran force — the same one that, in April 1945, would face Montese."
+      ]
+    }
+  ],
+  "veredito": [
+    "In the mountains, a height is not a target, it is one piece of a system. The November and December attacks lost men to a planning problem, not a troop problem: they went up the piece without touching the ones defending it, and on 29 November they went up right after the opponent had recovered Belvedere.",
+    "The February attack won because the order of the moves changed. First the 10th Mountain Division took the protection apart — Riva Ridge, Belvedere, Gorgolesco — and only then did the FEB climb the hill. The same troops, against the same division, on the same hill, took the summit in one day. The mountain defeated whoever attacked it the wrong way, and it defeated Brazilians and Americans alike."
+  ],
+  "mitos": [
+    {
+      "circula": "The FEB took Monte Castello alone, in an isolated feat of courage.",
+      "registro": "It was a combined operation. The capture on 21 February 1945 depended on what the U.S. 10th Mountain Division did beforehand on the neighboring peaks, starting on the night of 18 to 19 February."
+    },
+    {
+      "circula": "The Brazilians failed in 1944 because they were inferior troops.",
+      "registro": "U.S. Task Force 45 was also thrown back at Monte Castello, in the attacks of 24 and 25 November 1944. What defeated the attackers was the crossfire from the neighboring heights, not the nationality of the troops."
+    },
+    {
+      "circula": "There were exactly six attacks — or exactly four.",
+      "registro": "The sources differ: the Portuguese Wikipedia speaks of six, the Army Blog of four attempts before the capture. The difference depends on counting 24 and 25 November as one attack or two and on including smaller actions. The firm dates are 24, 25 and 29 November and 12 December 1944."
+    },
+    {
+      "circula": "The MG 42 got the nickname lurdinha because its rhythm recalled the chatter of a soldier's jealous fiancée.",
+      "registro": "The nickname lurdinha, given by the pracinhas, is attested. The fiancée explanation is folklore with no firm source."
+    }
+  ],
+  "perguntas": [
+    {"p": "Who won the Battle of Monte Castello?", "r": "The Brazilian Expeditionary Force: at 17:30 on 21 February 1945, the Franklin Battalion reached the summit. The capture depended on the U.S. 10th Mountain Division, which had first taken the neighboring peaks in Operation Encore."},
+    {"p": "When was the Battle of Monte Castello?", "r": "From 24 November 1944 to 21 February 1945, almost three months. The attacks of 24, 25 and 29 November and of 12 December 1944 were thrown back; the final attack lasted one day."},
+    {"p": "Why did the FEB fail in its first attacks on Monte Castello?", "r": "Because the neighboring peaks were still German, and whoever climbed the slope took fire from the front and from the side. On 29 November, the FEB attacked right after the Germans had retaken Monte Belvedere. U.S. Task Force 45 was also thrown back on the same hill."},
+    {"p": "How many attacks did the FEB make on Monte Castello?", "r": "The sources differ: the Portuguese Wikipedia speaks of six; the Brazilian Army Blog, of four attempts before the capture. The difference depends on counting 24 and 25 November as one attack or two and on including smaller actions."},
+    {"p": "Who commanded at the Battle of Monte Castello?", "r": "The commander of the FEB was Mascarenhas de Moraes. On the other side, the sector was defended by the German 232nd Infantry Division, under Lieutenant General Eccard Freiherr von Gablenz."}
+  ],
+  "fontes": [
+    {"texto": "Batalha de Monte Castello, Portuguese Wikipedia"},
+    {"texto": "A Tomada de Monte Castello pela Força Expedicionária Brasileira, Brazilian Army Blog"},
+    {"texto": "Battle of Monte Castello, English Wikipedia"},
+    {"texto": "MG 42, English Wikipedia"},
+    {"texto": "Climb to Glory: The 10th Mountain Division's Ski and Mountain Troops, National WWII Museum"},
+    {"texto": "Camp Hale, Colorado: Training the 10th Mountain Division During World War II, The Unwritten Record, National Archives"},
+    {"texto": "Pracinhas: qual a origem da expressão 'a cobra vai fumar', Aventuras na História"},
+    {"texto": "Mascarenhas de Moraes, J. B. A FEB pelo seu comandante"},
+    {"texto": "Maximiano, C. C. Barbudos, Sujos e Fatigados"},
+    {"texto": "Official history of the United States Army on the North Apennines campaign"}
+  ],
+  "imagens": [
+    {
+      "alt": "Three Brazilian soldiers in helmets and greatcoats, two of them in a trench, talk with an American correspondent taking notes on a pad",
+      "legenda": "An American war correspondent interviews Brazilian infantrymen on the front line in Italy, December 1944.",
+      "autor": "U.S. Army Signal Corps"
+    },
+    {
+      "alt": "Column of FEB soldiers seen from behind, climbing a trail toward a wooded slope; at the top of the photo, the handwritten note Monte Castelo",
+      "legenda": "FEB troops on the march; the handwritten note on the original identifies Monte Castelo in the background.",
+      "autor": "Força Expedicionária Brasileira"
+    },
+    {
+      "alt": "Topographic map of the sector with German positions marked in red, bilingual English and Portuguese legend",
+      "legenda": "Map of enemy defenses no. 6, from the U.S. IV Corps, dated 19 February 1945: German positions surveyed by aerial photography up to 15 February, with a legend in English and Portuguese.",
+      "autor": "U.S. Army, IV Corps (G-2)"
+    },
+    {
+      "alt": "Five soldiers in white snow suits, with skis and rifles on their shoulders, in front of wooden barracks and a snow-covered mountain",
+      "legenda": "Soldiers of the U.S. 10th Mountain Division with ski equipment, 1943, during the training period.",
+      "autor": "U.S. Army"
+    },
+    {
+      "alt": "American soldier walking among wrecked stone houses and two damaged Sherman tanks on a slope",
+      "legenda": "The village of Corona, just below the crest of Monte Belvedere, taken by the 10th Mountain Division in February 1945.",
+      "autor": "U.S. Army Signal Corps"
+    },
+    {
+      "alt": "Two Brazilian soldiers in greatcoats read letters in a straw-lined trench, with rifles propped against the wall",
+      "legenda": "Brazilian infantrymen read their mail in the trenches of the Italian front.",
+      "autor": "U.S. Army Signal Corps"
+    }
+  ]
+}

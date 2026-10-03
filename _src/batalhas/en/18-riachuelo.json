@@ -1,0 +1,260 @@
+{
+  "_nota": "Tradução fiel de ../18-riachuelo.json. Campos fixos (num, slug, estreia, proximo, relacionados, conf, arquivo, licenca, licenca_url, origem_url, tipo, ano, foco, url) vêm do original.",
+  "batalha": "Riachuelo",
+  "nome_busca": "Battle of Riachuelo",
+  "titulo_video": null,
+  "lugar": "The Paraná River off the mouth of the Riachuelo stream, about 15 km below the city of Corrientes, Corrientes Province, Argentina",
+  "data": "11 June 1865",
+  "campanha": "Paraguayan War, 1865",
+  "pergunta": "How a narrow river became a board: why the Paraguayan surprise attack failed, how Barroso turned the battle with a ram, and what the victory really closed off?",
+  "resumo": "At the Battle of Riachuelo, Paraguay meant to board the fleet in the dark and arrived in daylight. How it became a duel, nearly lost, and what it closed.",
+  "abertura": [
+    "In June 1865 the Paraguayan army occupies Corrientes, in Argentina, and a Brazilian squadron of 9 steamers is anchored in the Paraná River, just below the city, to cut its line of communication. Francisco Solano López decides to take it: arrive in the dark, pass the anchored ships, turn and board each one before it could weigh anchor. The Paraguayan steamers were almost all armed merchantmen; in an artillery duel, they would lose.",
+    "This page opens the miniseries on the Paraguayan War — or the War of the Triple Alliance, as the neighboring countries call it — and follows the game of 11 June 1865: a plan that depended on the clock, a squadron that went in column into a narrow channel under a battery it had not seen, and a frigate used as a ram. The question is how the river became a board, and what the Brazilian victory actually closed off — which is less than is usually said."
+  ],
+  "numeros": [
+    {
+      "valor": "9 × 8",
+      "rotulo": "Brazilian steamers against Paraguayan steamers in combat; the ninth Paraguayan, the Yberá, broke down on the way"
+    },
+    {
+      "valor": "59 × 36",
+      "rotulo": "shipborne guns: the Brazilians' against the 30 on the Paraguayan steamers and the 6 on the towed barges. Other Paraguayan counts reach 38 and 44"
+    },
+    {
+      "valor": "22",
+      "rotulo": "field pieces in José María Bruguez's battery on the Riachuelo bluff, without a parapet, from 4- to 18-pounders"
+    },
+    {
+      "valor": "4 + 6",
+      "rotulo": "Paraguayan steamers lost and all 6 barges. Brazil lost one ship, the corvette Jequitinhonha, run aground and abandoned"
+    },
+    {
+      "valor": "≈ 100",
+      "rotulo": "Brazilian dead: 102 in the sum of the combat reports, 87 in Hoonholtz's count, 116 in Garmendia's"
+    },
+    {
+      "valor": "1868",
+      "rotulo": "the year the Paraguay River, upstream, actually passed to Allied control, with the fall of the fortresses"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Context",
+      "valor": "Paraguay invades the Argentine province of Corrientes in April 1865 and occupies its capital; on 25 May the Argentine general Wenceslao Paunero, carried by the imperial squadron, retakes the city for a day and withdraws"
+    },
+    {
+      "item": "Brazil — command",
+      "valor": "Commodore (chefe de divisão) Francisco Manuel Barroso da Silva, aboard the frigate Amazonas, commanded by Commander Theotonio Raymundo de Brito"
+    },
+    {
+      "item": "Paraguay — command",
+      "valor": "Captain Pedro Ignacio Meza, aboard the Tacuarí, and his second in command Remigio Cabral; on land, Lieutenant Colonel José María Bruguez; the order to attack comes from Francisco Solano López"
+    },
+    {
+      "item": "Imperial squadron",
+      "valor": "9 war steamers — the paddle frigate Amazonas and eight screw corvettes and gunboats: Jequitinhonha, Belmonte, Parnaíba, Beberibe, Iguatemi, Araguari, Mearim and Ipiranga; 59 guns; about 2,300 men, of whom about 1,170 from the Army",
+      "nota": "The total of men varies between 2,277 and 2,297 depending on the source."
+    },
+    {
+      "item": "Paraguayan squadron",
+      "valor": "8 steamers — the Tacuarí, the only warship, and seven armed merchantmen: Paraguarí, Igurey, Marqués de Olinda, Salto Oriental, Jejuí, Yporá and Pirabebé —, plus 6 barges in tow with one heavy gun each; about 36 shipborne guns and 500 picked soldiers from the 6th Battalion for the boarding",
+      "nota": "The 500 of the 6th Battalion are George Thompson's figure; José Ignacio Garmendia speaks of 640. Some count 7 barges."
+    },
+    {
+      "item": "On land",
+      "valor": "Bruguez's 22 field pieces on the bluff, north of the mouth of the Riachuelo, without a parapet, with infantry and Congreve rockets along the banks"
+    },
+    {
+      "item": "Terrain",
+      "valor": "below Corrientes the Paraná divides among islands and sandbanks; the main channel runs hard against the bluff on the Corrientes bank, deep but narrow off the Riachuelo, and did not leave room to maneuver seagoing ships like the Brazilian ones"
+    },
+    {
+      "item": "Paraguayan objective",
+      "valor": "arrive before dawn, pass the anchored squadron, turn and board each ship before it could weigh anchor, taking them into the Paraguayan fleet"
+    },
+    {
+      "item": "Duration",
+      "valor": "from the sighting, in the morning, to the Paraguayan withdrawal, at around 16:00; the counts range from about 6 to a little over 9 hours"
+    },
+    {
+      "item": "Material losses",
+      "valor": "Paraguay: the steamers Paraguarí, Marqués de Olinda, Salto Oriental and Jejuí and all 6 barges. Brazil: the corvette Jequitinhonha, run aground off the bluff and abandoned; the Belmonte was beached to keep from sinking and was saved",
+      "nota": "The official Paraguayan newspaper itself, El Semanario, acknowledged the four steamers on 17 June 1865."
+    },
+    {
+      "item": "Brazilian casualties",
+      "valor": "102 dead and 142 wounded in the sum of the combat reports of the 9 ships; 87 dead, 141 wounded and 14 missing in Antônio Luís von Hoonholtz's count; 116 dead and 151 wounded in Garmendia's. The hardest-hit ship was the Parnaíba"
+    },
+    {
+      "item": "Paraguayan casualties",
+      "valor": "the Paraguayan government did not publish a list. Garmendia estimates about 750 in the squadron and 30 in the battery; the British apothecary George Masterman says the Paraguayans declared 750 and that the real number was twice that; Thompson speaks of about 200"
+    },
+    {
+      "item": "Meza",
+      "valor": "wounded in the chest by a rifle bullet during the battle; died days later at Humaitá. Thompson and the Paraguayan major Julián Godoy record that López would have had him shot had he survived",
+      "nota": "The date of death varies among the sources."
+    },
+    {
+      "item": "Outcome",
+      "valor": "Brazilian victory: the Paraguayan squadron ceases to exist as a fighting force. The official press in Asunción proclaimed a Paraguayan victory, adding together the 11th and the 13th of June"
+    },
+    {
+      "item": "Aftermath",
+      "valor": "Paraguay loses its river link with the rest of the world until the end of the war and the offensive through Corrientes loses its river support; but the imperial squadron falls back south and the Paraguay River, upstream, only passes to Allied control in 1868",
+      "nota": "The date of 1868 is Francisco Doratioto's."
+    }
+  ],
+  "lances": [
+    {
+      "titulo": "The board: a seagoing squadron in a river channel",
+      "paragrafos": [
+        "In April 1865 Paraguay invades the Argentine province of Corrientes and occupies its capital. The column moving down the bank of the Paraná depends on the river for supply, and the river is precisely what the Empire of Brazil can close. After supporting the Argentine attack on Corrientes of 25 May, Francisco Manuel Barroso's squadron lies at anchor on the Chaco side, a few kilometers below the city: 9 war steamers, 59 guns, about 2,300 men.",
+        "The position had strength and it had a flaw. It blocked the river, but it lay in territory the enemy controlled, between Corrientes to the north and the bluffs of the Riachuelo to the south. Admiral Francisco Eduardo Alves de Almeida, of the Brazilian Naval War College, puts it this way: the Brazilian force was not in a blockading position, but a blockaded one. Coal was short, and since 3 June the ships had been burning wood from the Chaco to save it for combat.",
+        "The board is the river itself. Below Corrientes the Paraná divides among islands and sandbanks, and the main channel runs hard against the bluff on the Corrientes bank — deep, but narrow and tricky, in the words of a pilot of the time. The Brazilian ships had been built for the sea, with deep draft. On the Paraguayan side, the only warship was the Tacuarí; the others were merchantmen with guns, with engines and boilers above the waterline. In an artillery duel, the outcome was settled. The plan had to be something else."
+      ]
+    },
+    {
+      "titulo": "López's plan depended on the clock",
+      "paragrafos": [
+        "The plan is told the same way by George Thompson, a British engineer in the Paraguayan army, by Juan Crisóstomo Centurión, who fought on the bluff, and by the Paraguayan officers heard after the war: be upon the Brazilians at daybreak, pass the anchored squadron, turn and bring each steamer alongside an imperial ship, fire a broadside and board, before they could weigh anchor. The Paraguayan sailors recommended attacking between 3 and 4 in the morning. On the bank, José María Bruguez took 22 field pieces to the Riachuelo bluff on the night of 10 June, to hit whoever fled downriver.",
+        "Everything depended on arriving in the dark, and everything ran late. The squadron left Humaitá after midnight, for a trip of about 7 hours. It took 6 barges — unpowered lighters, riding low in the water, each with one heavy gun —, included at the suggestion of a foreign colonel, against the opinion of the sailors, according to the memoirs of the officer Pedro Gill. Towing them forced a slow pace. And the steamer Yberá lost the key of its propeller on the way and fell behind. The second in command, Remigio Cabral, later pointed to the late departure as the main cause of the outcome.",
+        "The Paraguayans appeared at around nine in the morning on a Sunday with a clear sky. In the Brazilian squadron, the flag ceremony had already taken place and the lunch table was being laid. The commander, Pedro Ignacio Meza, went ahead. Centurión wrote that the prudent thing would have been to postpone. Without darkness, the boarding plan turned into the artillery duel it existed to avoid."
+      ]
+    },
+    {
+      "titulo": "Meza chooses the square: the Riachuelo bluff",
+      "paragrafos": [
+        "The Paraguayan line went down the channel along the Corrientes bank, about a mile from the Brazilian ships, exchanging fire for a few minutes. The Jejuí had its boiler pierced and dropped out of the fight. Thompson called the maneuver foolish: it gave the Brazilians the time to weigh anchor that the plan meant to deny them.",
+        "But Meza did not turn back to board in midstream. He anchored the line along the Riachuelo bluff, under Bruguez's guns and the infantry hidden in the brush, with the barges — which could only fire when stationary. Surprise lost, he set up a defense: if the Brazilians came down after him, they would fight in the narrow channel, under the bluff. The commander of the gunboat Araguari, Antônio Luís von Hoonholtz, who was on the other side, thought he had fallen into a carefully prepared ambush."
+      ]
+    },
+    {
+      "titulo": "The imperial column goes in under the battery",
+      "paragrafos": [
+        "Barroso ordered the attack and the squadron went down in column through the same channel, hard against the bluff, with the Belmonte in the lead and the flagship Amazonas falling behind. That is when the signal went up that the Brazilian Navy repeats to this day: “Brazil expects that each one will do his duty” (our translation) — an avowed allusion to Nelson's at Trafalgar. The Brazilians had not seen the battery. When the Belmonte drew near the Riachuelo, the bluff opened fire with cannon, musketry and rockets.",
+        "Under fire, the Jequitinhonha turned to go upriver, the ships behind followed her, and the Belmonte went on alone and took the fire of all of them. At around ten in the morning, taking on water, she ran herself aground on an island on purpose so as not to sink. The Jequitinhonha ran aground off the bluff and stayed there, under musketry and two guns brought up to close range. In the report he wrote the next day, Barroso noted the narrowness of the channel and the difficulties of the confused signal regulations. Almeida, himself a Navy officer, concludes that Barroso lost control of his force's movements at the start of the battle.",
+        "There is one consolation for the Brazilians, according to Hoonholtz and the Paraguayan major Julián Godoy: many shots from the bluff passed over the ships and fell on the island opposite. After about two hours, the Amazonas came down between the two lines, Barroso ordered by speaking trumpet that the others follow him, and the squadron rounded the Santa Catalina point, turned in a wider stretch and began to come back upriver."
+      ]
+    },
+    {
+      "titulo": "The boarding that almost worked: the Parnaíba",
+      "paragrafos": [
+        "With her rudder damaged and separated from the group, the gunboat Parnaíba was the ship the Paraguayan plan wanted. Meza sent the Tacuarí, the Salto Oriental and the Marqués de Olinda against her. The Tacuarí came alongside, but the paddle wheel pushed the hull away and only the men on top of the paddle box managed to jump; they went back, because the ships were not made fast to each other. Thompson notes the detail that explains a great deal: through an oversight, no Paraguayan steamer carried grappling hooks.",
+        "The Salto Oriental, a screw steamer, truly came alongside. Some 30 Paraguayans of the 6th Battalion jumped aboard, took the ship from the stern to the mainmast and hauled down the imperial flag. Captain Pedro Afonso Ferreira, of the Army's 9th Battalion, and Midshipman João Guilherme Greenhalgh died in the defense. It was the battle López had planned, fought on a single ship, hours late. The squadron coming back upriver swept the deck with grapeshot, and the crew retook the Parnaíba."
+      ]
+    },
+    {
+      "titulo": "The ram: the frigate against the merchantmen",
+      "paragrafos": [
+        "The move that turned the game was using the heaviest piece as a battering piece. The frigate Amazonas, the largest hull in the battle, went at the Paraguayan steamers bow first. Barroso consulted the Corrientes pilot Bernardino Gustavino about the water — in a narrow channel, running aground meant losing the ship — and, with an affirmative answer, rammed the first. Success led him to repeat it. Which ships and in what order the sources do not settle: Barroso speaks of four; the Argentine Pablo Palermo, cross-checking the Brazilian reports with Centurión, gives the Jejuí, the Salto Oriental, the Marqués de Olinda and the Paraguarí, plus one barge. The result does not differ: four Paraguayan steamers lost.",
+        "At around 16:00 the Tacuarí, the Igurey, the Yporá and the Pirabebé, under Cabral's command — Meza was gravely wounded —, went upriver. The gunboat Araguari pursued them until close to nightfall and was called back. All the barges were lost. The four steamers that returned to Humaitá had all their guns dismounted.",
+        "Barroso was criticized for not pursuing to the end. Thompson wrote that in another country he would have gone before a court-martial. Barroso himself explained that he preferred to destroy the squadron there rather than go up and down a channel where, sooner or later, he would run aground — and he had damaged ships, wounded men, enemy banks and night coming on. Almeida calls the decision questionable, taken in the heat of action. It is a choice with a cost, neither an obvious mistake nor an obvious success."
+      ]
+    }
+  ],
+  "veredito": [
+    "The Paraguayan plan was the right one for the material López had: with armed merchantmen against warships, only a surprise boarding could even the game. It died on the clock — late departure, barges in tow, a broken-down steamer — and in Meza's decision to attack by day anyway. Without darkness and without grappling hooks, the boarding happened only once, on the Parnaíba, and it almost sufficed. On the other side, the imperial squadron made the classic mistake of the player with more pieces: it went in single file into a narrow corridor, under a battery it had not seen, and paid with the Jequitinhonha. The same commander who got the entry wrong repaired the game with the move only he could make: using the largest hull on the river as a ram.",
+    "In chess terms, it is the player who prepared a surprise attack and reaches the table with the clock already running against him, insists on the line, and ends up trading the pieces he could not afford to trade. Riachuelo took from Paraguay the only piece capable of contesting the river. What it closed off was the way out to the sea: from then on, nothing reached Paraguay by the Paraná. The river itself did not change hands that day — the imperial squadron fell back south, Paraguayan steamers still sailed between Asunción and Corrientes, and the Paraguay River was only mastered in 1868. Whoever dominates the banks is master of the river, Almeida wrote. The banks are the next game."
+  ],
+  "mitos": [
+    {
+      "circula": "The Brazilians were caught asleep.",
+      "registro": "It was Sunday, the 8:00 flag ceremony had already taken place and the lunch table was being laid when the lookout on the gunboat Mearim gave the alarm, according to Barroso's report. The Paraguayan surprise failed because it arrived in broad daylight, not because it found anyone asleep."
+    },
+    {
+      "circula": "Barroso hid and it was the pilot Gustavino who commanded.",
+      "registro": "The story comes from George Thompson, the American minister Charles Washburn and the Englishman H. W. Wilson — none of the three was on the river, and Thompson writes that it is what was being said. The reports of five Brazilian commanders put Barroso on the bridge giving orders; in an 1877 inquiry, Gustavino testified that the first ramming was on Barroso's initiative and order, after consulting him about the depth. The Argentine historian Pablo Palermo concludes there is no evidence of cowardice."
+    },
+    {
+      "circula": "It was a clean victory, carried out as planned.",
+      "registro": "Barroso himself noted the narrow channel and the confused signal regulations. The column went in under a battery it had not seen, lost the corvette Jequitinhonha, almost lost the Belmonte and had the Parnaíba boarded with her flag hauled down. Almeida, a Navy officer: Barroso lost control at the start and regained it in the ramming phase."
+    },
+    {
+      "circula": "Riachuelo gave Brazil command of the rivers.",
+      "registro": "It gave the blockade: Paraguay received nothing more by river until the end of the war, and its squadron never again contested the Paraná. But the imperial squadron fell back south soon afterward, Paraguayan steamers kept sailing between Asunción and Corrientes, and the Paraguay River only passed to Allied control in 1868, with the fall of the fortresses, according to Francisco Doratioto."
+    },
+    {
+      "circula": "Paraguay simply lied when it said it had won.",
+      "registro": "The official press in Asunción proclaimed victory, adding to 11 June the 13th, when Brazilian gunboats gave up trying to refloat the Jequitinhonha under the batteries, and López awarded a medal with the legend Riachuelo, 11 y 13 de junio 1865. It was propaganda under government control, but the military result is not in dispute: the same newspaper acknowledged the loss of four steamers."
+    }
+  ],
+  "perguntas": [
+    {
+      "p": "Who won the Battle of Riachuelo?",
+      "r": "Brazil won. The Paraguayan squadron ceased to exist as a fighting force: it lost 4 steamers and all 6 barges, while Brazil lost one ship, the corvette Jequitinhonha, run aground and abandoned."
+    },
+    {
+      "p": "When and where was the Battle of Riachuelo?",
+      "r": "On 11 June 1865, in the Paraguayan War, on the Paraná River off the mouth of the Riachuelo stream, about 15 km below the city of Corrientes, in Argentina."
+    },
+    {
+      "p": "Who commanded at the Battle of Riachuelo?",
+      "r": "On the Brazilian side, Commodore Francisco Manuel Barroso da Silva, aboard the frigate Amazonas. On the Paraguayan side, Captain Pedro Ignacio Meza, aboard the Tacuarí, carrying out Francisco Solano López's order to attack; on land, the battery was Lieutenant Colonel José María Bruguez's."
+    },
+    {
+      "p": "How many died in the Battle of Riachuelo?",
+      "r": "On the Brazilian side, the counts range from 87 to 116 dead; the sum of the combat reports gives 102. The Paraguayan government did not publish a list: Garmendia estimates about 750 casualties in the squadron and 30 in the battery, and George Thompson speaks of about 200."
+    },
+    {
+      "p": "Why was the Battle of Riachuelo important?",
+      "r": "It took from Paraguay the only force capable of contesting the river: from then on, nothing reached the country by the Paraná until the end of the war. But it did not give Brazil command of the rivers, because the imperial squadron fell back south and the Paraguay River only passed to Allied control in 1868."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "George Thompson, The War in Paraguay, London, 1869, ch. VII."
+    },
+    {
+      "texto": "Pablo Palermo, \"La batalla de Riachuelo\", Revista de Historia Naval, no. 160, Madrid, 2023, pp. 109-142."
+    },
+    {
+      "texto": "Francisco Eduardo Alves de Almeida, \"Riachuelo: uma batalha de controvérsias\", Navigator, v. 11, no. 21, 2015, pp. 54-73."
+    },
+    {
+      "texto": "Sergio Willian de Castro Oliveira Filho, \"'La jornada gloriosa del 11 de Junio': a Batalha Naval do Riachuelo como propaganda de guerra nos periódicos paraguaios\" (on the Battle of Riachuelo as war propaganda in Paraguayan newspapers)."
+    },
+    {
+      "texto": "José Miguel Arias Neto, \"Uma batalha naval concentra por si só um século de glórias: Riachuelo na história e na memória\", Revista Brasileira de História Militar, no. 20, 2016."
+    },
+    {
+      "texto": "Francisco Doratioto, Maldita guerra: nova história da Guerra do Paraguai, Companhia das Letras, 2002 (cited by Oliveira Filho)."
+    },
+    {
+      "texto": "Thomas L. Whigham, \"Riachuelo, Battle of the\", Encyclopedia of Latin American History and Culture."
+    },
+    {
+      "texto": "Battle of Riachuelo — English Wikipedia."
+    },
+    {
+      "texto": "Batalha Naval do Riachuelo — Portuguese Wikipedia."
+    }
+  ],
+  "imagens": [
+    {
+      "alt": "Black-and-white engraving: paddle and masted steamers exchanging fire on a wide river, one of them heeling over on the left, in front of a high bluff with palm trees and heavy smoke",
+      "legenda": "The battle of Riachuelo in the French illustrated press of 1865: an engraving made in Paris from a drawing sent from Corrientes by Félix Vogeli. It is an engraving, not a photograph — no photo of the battle exists. In the background, the bluff from which the Paraguayan artillery fired.",
+      "autor": "Joseph Smeeton and Joachim-Jean Cosson, engravers, after a drawing by Félix Vogeli · L'Illustration, vol. XLVI, Paris, 1865"
+    },
+    {
+      "alt": "Printed plan of the battle: at the top, the cliff with the battery and the line of Paraguayan ships close to the bank; in the middle, the channel down which the Brazilian squadron comes in single file; at the bottom, the island and the key with the names of the ships",
+      "legenda": "Plan of the battle published in the Revue maritime et coloniale in 1865: the Paraguayan squadron anchored under the bluff and the battery, and the narrow channel down which the Brazilian squadron came in single file. The gun numbers in the original key are those of the press of the time; the Paraguayan and independent counts give 22 pieces on the bluff.",
+      "autor": "Unidentified author · Revue maritime et coloniale, vol. 15, Paris, 1865"
+    },
+    {
+      "alt": "Drawn plan of the battle: battery and musketry on top of the bluff, line of Paraguayan ships and barges along the bank, sandbanks and Palomera island at the bottom, with a key in Portuguese",
+      "legenda": "Plan drawn up by Antônio Luís von Hoonholtz, commander of the Brazilian gunboat Araguari, and published in the Semana Illustrada in 1865. It shows the barges among the Paraguayan steamers, the Jequitinhonha aground and the channel along the bluff. The battery of \"32 pieces\" and the numbers in the key are the Brazilian version of the time; the Paraguayan and independent counts give 22 pieces.",
+      "autor": "Antônio Luís von Hoonholtz · Semana Illustrada, no. 244, Rio de Janeiro, 1865"
+    },
+    {
+      "alt": "Engraving of three steamers pressed against each other, with men fighting on the decks and falling into the water, torn flags and masts with loose rigging",
+      "legenda": "\"The Parnahyba withstands the shock of three Paraguayan steamers\" (our translation): engraving from Le Monde illustré of August 1865, made from a sketch. The boarding of the Parnaíba was the only moment when the Paraguayan plan happened as planned.",
+      "autor": "Antoine Léon Morel-Fatio, after a sketch by Muller · Le Monde illustré, no. 436, Paris, 19 August 1865"
+    },
+    {
+      "alt": "Grayscale illustration: steamers fighting on the river, in the foreground and in the center, and in the background a continuous line of cannon smoke along the high bank",
+      "legenda": "The battle as seen from Argentina, almost thirty years later: illustration from the Album de la Guerra del Paraguay, published in Buenos Aires between 1893 and 1896. It is an illustration, not a record: the line of smoke along the bank is the Paraguayan artillery on the bluffs.",
+      "autor": "E. S. Z. · Album de la Guerra del Paraguay, ed. José C. Soto, Buenos Aires, 1893-1896"
+    }
+  ]
+}

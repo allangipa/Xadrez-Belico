@@ -1,0 +1,256 @@
+{
+  "_nota": "Tradução fiel de ../10-midway.json. Campos fixos (num, slug, estreia, proximo, relacionados, conf, arquivo, licenca, licenca_url, origem_url, tipo, ano, foco, url) vêm do original.",
+  "batalha": "The Battle of Midway",
+  "nome_busca": "Battle of Midway",
+  "titulo_video": null,
+  "lugar": "Midway Atoll, at the far northwestern end of the Hawaiian archipelago (United States), and the North Pacific to the northwest and northeast of it",
+  "data": "4 to 7 June 1942",
+  "campanha": "World War II, 1942",
+  "pergunta": "How did five minutes turn the war in the Pacific?",
+  "resumo": "At the Battle of Midway, three Japanese carriers burned in minutes. How much was code-breaking, how much luck, and why the 'five minutes' are a myth.",
+  "abertura": [
+    "At 10:20 on 4 June 1942, three squadrons of American dive bombers arrive almost together over Admiral Chūichi Nagumo's carrier force, northwest of Midway. In about five minutes, three of the four Japanese carriers — Kaga, Akagi and Sōryū — are on fire. Six months after Pearl Harbor, the force that had opened the war in the Pacific loses the initiative in a single morning.",
+    "The most often told story says the Japanese were five minutes from launching their own strike, with the flight deck full of aircraft ready to go. The record says something else. This page follows the game from both sides of the board: what the partial breaking of the Japanese code gave the Americans, what Yamamoto's divided plan took away from Nagumo, and how much of the outcome was reading and how much was chance."
+  ],
+  "numeros": [
+    {
+      "valor": "10:20",
+      "rotulo": "the simultaneous, and unplanned, arrival of the three dive-bomber squadrons over the Japanese carriers on 4 June"
+    },
+    {
+      "valor": "3 of 4",
+      "rotulo": "Japanese carriers set on fire in about five minutes: Kaga, Sōryū and Akagi. The fourth, Hiryū, falls in the late afternoon"
+    },
+    {
+      "valor": "0",
+      "rotulo": "strike aircraft on the Japanese flight decks at the moment of the attack, according to the 1971 Japanese official history — they were in the hangar"
+    },
+    {
+      "valor": "10–15%",
+      "rotulo": "of Japanese Navy messages actually read by the Americans, by the NHHC's count: enough to know the target and the date"
+    },
+    {
+      "valor": "4 × 1",
+      "rotulo": "carriers lost: Akagi, Kaga, Sōryū and Hiryū against the Yorktown"
+    },
+    {
+      "valor": "3,057",
+      "rotulo": "Japanese dead by Parshall and Tully's count; on the American side, 307 or 362, depending on the source"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Japan — command",
+      "valor": "Admiral Isoroku Yamamoto (Combined Fleet, aboard the battleship Yamato, hundreds of miles behind); Vice Admiral Chūichi Nagumo (carrier force, Kidō Butai); Rear Admiral Tamon Yamaguchi (Carrier Division 2: Hiryū and Sōryū)"
+    },
+    {
+      "item": "United States — command",
+      "valor": "Admiral Chester Nimitz (Pacific Fleet, at Pearl Harbor); Rear Admiral Frank Jack Fletcher (tactical command, Task Force 17, Yorktown); Rear Admiral Raymond Spruance (Task Force 16, Enterprise and Hornet)"
+    },
+    {
+      "item": "Forces at the point of decision",
+      "valor": "4 Japanese carriers with 248 aircraft and 20 escorts, against 3 American carriers with 233 aircraft and 25 escorts, plus 127 aircraft on the island",
+      "nota": "NHHC figures (Cox). The NHHC's general page counts 229 Japanese carrier aircraft, 234 American carrier aircraft and 110 on the island: the difference is one of counting basis."
+    },
+    {
+      "item": "Japanese objective",
+      "valor": "Operation MI: take Midway to lure out and destroy the American carriers that had escaped Pearl Harbor. In parallel, Operation AL attacks the Aleutians, in Alaska, from 3 June"
+    },
+    {
+      "item": "Terrain",
+      "valor": "open sea; the atoll has two islands, Eastern, with the airstrip, and Sand, with the seaplane base, about 2,100 km from Oahu. The American carriers waited to the northeast, at a spot nicknamed Point Luck"
+    },
+    {
+      "item": "Intelligence",
+      "valor": "the Japanese operational code (JN-25B) was partially broken; Joseph Rochefort's group, at Pearl Harbor, identified Midway as the target AF and, on 25 May, the date: the Aleutians on 3 June, Midway on 4 June"
+    },
+    {
+      "item": "Duration",
+      "valor": "from 3 June, the first attacks west of Midway, to 7 June, when the Yorktown sinks. The decision came between 10:20 and 10:30 on 4 June"
+    },
+    {
+      "item": "Ships lost",
+      "valor": "Japan: the carriers Akagi, Kaga, Sōryū and Hiryū and the heavy cruiser Mikuma. United States: the carrier Yorktown and the destroyer Hammann"
+    },
+    {
+      "item": "Dead",
+      "valor": "Japan: 3,057 by Parshall and Tully's count, adopted by the NHHC, more than 700 of them aviation mechanics and technicians. United States: 307 (NHHC) or about 362 (National WWII Museum)"
+    },
+    {
+      "item": "Prisoners",
+      "valor": "three American airmen picked up from the sea by Japanese destroyers were killed after being interrogated: the pilot Wesley Osmus, of the Yorktown, aboard the Arashi; the pilot Frank O'Flaherty and the machinist Bruno Gaido, of the Enterprise, aboard the Makigumo"
+    },
+    {
+      "item": "Aircraft lost",
+      "valor": "Japan: the 248 aircraft of the four carriers, plus floatplanes from cruisers and battleships. United States: between 144 and about 150, depending on the source",
+      "nota": "Older Japanese counts are higher. In the morning strike of 4 June alone, the American carriers lost 70 aircraft, according to the NHHC."
+    },
+    {
+      "item": "Japanese aviators",
+      "valor": "110 lost, a little under a quarter of those embarked, according to Parshall and Tully. The loss that could not be replaced was that of the carriers and the deck crews"
+    },
+    {
+      "item": "Outcome",
+      "valor": "Yamamoto cancels the invasion of Midway and withdraws the fleet westward. The four carriers lost had attacked Pearl Harbor"
+    },
+    {
+      "item": "Afterwards",
+      "valor": "Japan launches no further major offensive in the Pacific; two months later, the Americans land on Guadalcanal"
+    }
+  ],
+  "lances": [
+    {
+      "titulo": "The opening: a plan built to hide, not to support",
+      "paragrafos": [
+        "After the American air raid on Tokyo on 18 April 1942, Admiral Isoroku Yamamoto imposed his operation on the high command: take Midway, the atoll at the far northwestern end of Hawaii, and force the American carriers that had escaped Pearl Harbor to come out and defend it, where they would be destroyed. At the same time, another force would attack the Aleutians, in Alaska.",
+        "So as not to scare off the opponent, Yamamoto divided the fleet into groups hundreds of miles apart, with the battleships well behind the carriers. The price was that no group could support another. Around Chūichi Nagumo's four carriers — Akagi, Kaga, Hiryū and Sōryū — there were only two fast battleships, three cruisers and twelve destroyers. The Shōkaku and the Zuikaku were missing, one damaged and the other short of aircraft after the Battle of the Coral Sea, a month earlier.",
+        "And the plan rested on two wrong premises: that the Yorktown had sunk in the Coral Sea and that the Americans knew nothing. Japan committed almost its entire operational fleet. At the point of decision, however, there were four carriers with 248 aircraft, against three American carriers with 233 aircraft and an island with 127 more. In the weapon that would decide the battle, the dive bomber, the NHHC speaks of rough parity."
+      ]
+    },
+    {
+      "titulo": "The reading: what the broken code gave, and what it did not",
+      "paragrafos": [
+        "The Japanese Navy's operational code, JN-25B, was only partly broken. According to Samuel Cox, of the NHHC, the Americans intercepted about 60% of the messages and actually read 10% to 15%, often in fragments. Nimitz himself wrote on 26 May that 40% of the copied messages were being decoded. There was no copy of the Japanese operations order at Pearl Harbor. There were fragments, traffic analysis and the experience of two officers who spoke Japanese, Joseph Rochefort, head of the cryptanalysis group, and Edwin Layton, of fleet intelligence.",
+        "Since March the digraph AF had been appearing in the messages as an objective, and at Pearl Harbor AF was read as Midway. Washington had doubts. Between 15 and 21 May, the analysts there spoke of Samoa, the West Coast, even Hawaii itself. It was for them, and not for Nimitz, that the trick was set up: by undersea cable, Midway was ordered to transmit in the clear that its freshwater distillation plant had broken down. Shortly afterward the Americans read a Japanese message reporting that the AF air unit had water for only two weeks. The idea is attributed to Jasper Holmes, of Rochefort's group; some credit it to Rochefort himself.",
+        "On 25 May Rochefort's group broke the date cipher and predicted the Aleutians for 3 June and Midway for 4 June. Nimitz adopted the dates, left the battleships on the West Coast, reinforced the island and sent his three carriers to an ambush northeast of it. The Yorktown, which the Japanese believed sunk, was repaired at Pearl Harbor in about three days and sailed on 30 May. On the Japanese side, the submarine cordon between Hawaii and Midway arrived late, when the American carriers had already passed."
+      ]
+    },
+    {
+      "titulo": "Nagumo's move: attacking the island with the reserve in the hangar",
+      "paragrafos": [
+        "At 04:30 on 4 June, Nagumo launches 108 aircraft against Midway and seven search planes to cover a sector of about 200 degrees — little for so much sea, and with clouds to the northeast, exactly where the Americans were. The strike on the island does damage, but loses 11 aircraft and has another 14 badly damaged, and the leader asks for a second strike. Between 07:10 and 08:30 the attacks by the island-based aircraft arrive one after another: no hits, heavy losses.",
+        "At 07:15, against Yamamoto's order to keep the reserve armed against ships, Nagumo orders it rearmed with bombs for land targets. At 07:40 a floatplane from the cruiser Tone reports American ships to the northeast; Nagumo suspends the rearming and, around 08:20, learns there is a carrier among them. He then decides to recover first the aircraft returning from the island, so as not to lose them in the sea, and then launch a full strike, with torpedoes and escort, as Japanese doctrine required. The aircraft go down to the hangar to be armed and refueled.",
+        "The classic version calls this hesitation. Cox, of the NHHC, says the opposite: Nagumo acted aggressively and according to doctrine, and had already lost the game at 04:30, when he launched the strike against the island without knowing there were American carriers nearby. Spruance had begun launching at 07:00, at extreme range. By the time Nagumo got the news, the aircraft that would decide the battle were already in the air."
+      ]
+    },
+    {
+      "titulo": "The sacrifice of the torpedo bombers and McClusky's search",
+      "paragrafos": [
+        "The American attacks arrived piecemeal. The Hornet's air group did not find the Japanese, and its fighters went into the sea out of fuel. Only John Waldron's torpedo squadron VT-8 found the target: at 09:20 it attacked alone, and all 15 aircraft were shot down without a hit. George Gay was the only survivor of the 30 crewmen. The Enterprise's VT-6 lost 9 of 14; the Yorktown's VT-3, 10 of 12. No torpedo exploded against a carrier.",
+        "They were not useless. For almost three hours, the Japanese carriers maneuvered and launched and recovered fighters nonstop, unable to get the strike against the American fleet onto the deck. And VT-3, which arrived at about 10:00, pulled the Japanese fighter patrol down and to the southeast — at exactly the moment it mattered.",
+        "Meanwhile, the Enterprise's bomber group, led by Wade McClusky, was lost and at the limit of its fuel. At 09:55 McClusky spotted a lone Japanese destroyer, racing northeast: it was the Arashi, which had stayed behind hunting the American submarine Nautilus. McClusky bet that it was heading to the rest of the force, and followed it. Nimitz would later say that this decision sealed the fate of the battle."
+      ]
+    },
+    {
+      "titulo": "Five minutes: 10:22 to 10:26",
+      "paragrafos": [
+        "At around 10:20, from different directions, the Enterprise's two dive-bomber squadrons arrive, along with the Yorktown's, which had taken off an hour later and flown straight in. No one planned the coincidence. The Japanese fighters were low, after the torpedo bombers, and the clouds hid the bombers until it was too late.",
+        "The Enterprise's two squadrons both dived on the Kaga, because of a target-assignment error that the sources attribute sometimes to McClusky, sometimes to Richard Best. The Kaga took at least four bombs; one killed the captain on the bridge. Best noticed the error, pulled out of the dive with his two wingmen and attacked the Akagi. A single bomb, generally attributed to him, went through the deck and exploded in the hangar, among fueled and armed aircraft. At the same time, Maxwell Leslie's squadron from the Yorktown landed three bombs on the Sōryū.",
+        "So little was enough because the hangars were full of fueled aircraft, with bombs and torpedoes out of the magazines because of the change of armament, and because the Japanese carriers had exposed fuel lines and fought fires only with water. At 10:46 Nagumo left the Akagi for the cruiser Nagara. In about five minutes, three carriers had become burning wrecks."
+      ]
+    },
+    {
+      "titulo": "The Hiryū's counterblow and the end",
+      "paragrafos": [
+        "The Hiryū, farther north, came through intact. At around 11:00 — 10:40 by Cox's account, close to 11:00 by the NHHC's — she launched 18 dive bombers and 6 fighters. Only seven bombers got past the American fighters, and they landed three bombs on the Yorktown. Repaired, the carrier got under way again at about 19 knots. At 13:30 the second wave went out, 10 torpedo bombers and 6 fighters, under Joichi Tomonaga, whose aircraft did not have the fuel to return. The pilots thought they were attacking another, undamaged carrier, and hit the Yorktown with two torpedoes; she was abandoned.",
+        "At around 17:00, bombers from the Enterprise, with Yorktown aircraft that had landed on her, hit the Hiryū with four bombs. At night, Spruance withdrew eastward, so as not to be drawn into a night action with Yamamoto's battleships. The four Japanese carriers were scuttled by torpedoes from their own escorts: Kaga and Sōryū on the night of 4 June, Akagi and Hiryū on the morning of the 5th. Yamaguchi went down with the Hiryū.",
+        "On 6 June, dive bombers sank the heavy cruiser Mikuma, damaged in a collision. The same day the submarine I-168 torpedoed the Yorktown, which was under tow, and sank the destroyer Hammann alongside her. The Yorktown sank on the morning of 7 June.",
+        "Not all the American dead fell in combat. Three airmen shot down on the 4th were picked up from the sea by Japanese destroyers and interrogated. Wesley Osmus, a Yorktown torpedo-bomber pilot, was killed aboard the Arashi: according to witnesses heard by the U.S. Navy's postwar investigation, he was struck with a fire axe on the stern and thrown into the sea. Frank O'Flaherty and Bruno Gaido, of the Enterprise, were held aboard the Makigumo and, days later, thrown into the sea with weights tied to their feet. The three are among the American dead of the battle."
+      ]
+    }
+  ],
+  "veredito": [
+    "Midway was neither a miracle nor just luck. The American reading put the pieces in the right place: a code read in fragments that was enough to give the target and the date, Nimitz's bet on concentrating the three carriers in an ambush, and Spruance's decision to launch early, at extreme range. The Japanese side arrived with a plan divided to hide its forces, a weak search and a doctrine that armed and fueled in the hangar — which turned every bomb into a fire.",
+    "Chance decided how many carriers went down at once. The simultaneous arrival of the three squadrons was not planned, and the Akagi was only hit because three aircraft broke away from a targeting error. Historians differ on the weight: for Cox, of the NHHC, the coincidence was pure luck; for Craig Symonds, even the Arashi's wake was the product of decisions, such as the submarine Nautilus's insistence on attacking. In chess terms, Nagumo did not lose on a move at 07:15: he lost in the opening, when he attacked the island without knowing where the opponent's queen was.",
+    "And the five minutes are real, but they are the Americans': from 10:22 to 10:26. The other five minutes — Fuchida's, with the deck full of aircraft ready to take off — do not appear in the Japanese record of the time. The aircraft were in the hangar, and more than forty minutes were still needed."
+  ],
+  "mitos": [
+    {
+      "circula": "The Japanese were five minutes from launching their counterstrike, with the deck full of armed and fueled aircraft, when the bombs fell.",
+      "registro": "The version is Mitsuo Fuchida's, who was aboard the Akagi, in a 1951 book and a 1955 article. The 1971 Japanese official history says there were no strike aircraft on the flight deck at the moment of the attack. Jonathan Parshall and Anthony Tully show from the ships' logs that the Akagi landed three fighters at 10:10, with the deck clear, and that preparing a strike took about 40 minutes; the Hiryū, intact, only launched hers at around 11:00. The NHHC speaks of more than 45 minutes. What is true: the hangars were full of fueled and armed aircraft — and that is what fed the fires."
+    },
+    {
+      "circula": "Midway was a miracle: an American victory against overwhelming odds.",
+      "registro": "Japan had many more ships at sea, but at the point of decision it was 4 carriers and 248 aircraft against 3 carriers, 233 aircraft and the island with 127 more. The NHHC speaks of rough parity in dive bombers and says it was not a miracle — it attributes the victory to intelligence, the commanders' decisions, the courage of the crews and more than a little luck."
+    },
+    {
+      "circula": "The Americans had broken the code and knew the entire Japanese plan.",
+      "registro": "They read 10% to 15% of the messages, according to the NHHC, often in fragments. They knew the target, the date and a good part of Nagumo's forces, but did not detect Yamamoto's battleship group before the battle. The trick of the water shortage at Midway did not serve to convince Nimitz, who was already convinced, but Washington."
+    },
+    {
+      "circula": "The attack on the Aleutians was a decoy to draw the American fleet away from Pearl Harbor.",
+      "registro": "The sources differ. Parshall and Tully treat it as a parallel operation, decided by internal politics, and point out that a decoy would have started earlier, to give the fleet time to react; it began one day before Midway. The NHHC still speaks of a feint. From the code, Nimitz knew the Aleutians were not the main effort."
+    }
+  ],
+  "perguntas": [
+    {
+      "p": "Who won the Battle of Midway?",
+      "r": "The United States. Japan lost the four carriers that had attacked Pearl Harbor, Akagi, Kaga, Sōryū and Hiryū, against one American carrier, the Yorktown, and Yamamoto canceled the invasion of Midway."
+    },
+    {
+      "p": "When was the Battle of Midway?",
+      "r": "From 4 to 7 June 1942, with the first attacks west of Midway on 3 June. The decision came between 10:20 and 10:30 on 4 June, and the Yorktown sank on the morning of 7 June."
+    },
+    {
+      "p": "Why did Japan lose the Battle of Midway?",
+      "r": "The Americans knew the target and the date from the partially broken code and set an ambush with three carriers. Japan arrived with its fleet divided and a weak search, and its hangars full of fueled and armed aircraft turned into fires when the bombs fell."
+    },
+    {
+      "p": "How many died in the Battle of Midway?",
+      "r": "On the Japanese side, 3,057 dead, by Parshall and Tully's count. On the American side, the sources differ: 307 or about 362."
+    },
+    {
+      "p": "Did the US break the Japanese code before Midway?",
+      "r": "Only in part. According to the NHHC, the Americans actually read 10% to 15% of the Japanese Navy's messages, often in fragments. It was enough to know the target and the date, but not the whole plan."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "Samuel J. Cox, H-Gram 006: Battle of Midway 75th Anniversary, Naval History and Heritage Command, 2017."
+    },
+    {
+      "texto": "Frederick D. Parker, A Priceless Advantage: U.S. Navy Communications Intelligence and the Battles of Coral Sea, Midway, and the Aleutians, National Security Agency, Center for Cryptologic History, 1993."
+    },
+    {
+      "texto": "Naval History and Heritage Command, Battle of Midway, 4–7 June 1942."
+    },
+    {
+      "texto": "Jonathan Parshall and Anthony Tully, Shattered Sword: The Untold Story of the Battle of Midway, 2005 (as quoted)."
+    },
+    {
+      "texto": "Jonathan Parshall, \"Reflecting on Fuchida, or 'A Tale of Three Whoppers'\", Naval War College Review 63:2, 2010."
+    },
+    {
+      "texto": "Jonathan Parshall, reply to Martin Bennett on Fuchida's account, combinedfleet.com."
+    },
+    {
+      "texto": "Craig L. Symonds, The Battle of Midway, Oxford University Press, 2011 (via reviews)."
+    },
+    {
+      "texto": "The National WWII Museum, \"The Battle of Midway\"."
+    },
+    {
+      "texto": "Battle of Midway — English Wikipedia."
+    },
+    {
+      "texto": "Mitsuo Fuchida — English Wikipedia."
+    }
+  ],
+  "imagens": [
+    {
+      "alt": "Vertical aerial view of an aircraft carrier making a tight turn, leaving a white arc-shaped wake, with bomb bursts in the water to the right",
+      "legenda": "The carrier Hiryū maneuvers to escape bombs from U.S. Army B-17s on the morning of 4 June 1942, photographed from one of the bombers. None of the B-17s' bombs hit a Japanese ship that day.",
+      "autor": "Unidentified photographer, U.S. Army Air Forces · U.S. Navy, USAF 3725"
+    },
+    {
+      "alt": "Oblique aerial view of an atoll: a triangular island with crossing runways in front and a second island in the background, surrounded by the surf of the reef",
+      "legenda": "Midway Atoll on 24 November 1941: Eastern Island, with the airstrip, in front, and Sand Island, with the seaplane base, in the background. In June 1942 there were 127 American aircraft on the island.",
+      "autor": "Unidentified photographer · U.S. Navy, NARA 80-G-451086"
+    },
+    {
+      "alt": "Single-engine torpedo bombers with wings spread, grouped at the stern of a carrier's flight deck, with crewmen walking in front and escort ships in the background",
+      "legenda": "Douglas TBD Devastator torpedo bombers of squadron VT-6 ready to take off from the Enterprise at around 07:30 on 4 June 1942. The squadron lost 9 of its 14 aircraft in the attack, without landing a single torpedo.",
+      "autor": "Unidentified photographer · U.S. Navy, NARA 80-G-41686"
+    },
+    {
+      "alt": "Flight deck of a carrier with thick black smoke rising behind the island and sailors at work; one of them, crouching, hammers on the deck",
+      "legenda": "The Yorktown's flight deck just after the three bombs of the Hiryū's first attack, on 4 June 1942. The smoke comes from the damaged funnel uptakes; on the right, a sailor covers a bomb hole. Repaired, the ship got under way again before the second attack.",
+      "autor": "William G. Roy, U.S. Navy photographer · NARA 80-G-312018"
+    },
+    {
+      "alt": "Aircraft carrier seen from above off the bow, dead in the water, with the forward part of the flight deck torn open and smoke drifting to the right",
+      "legenda": "The Hiryū adrift and burning at sunrise on 5 June 1942, photographed by an aircraft from the Japanese carrier Hōshō. The front of the flight deck was destroyed by the bombs of the previous late afternoon. The ship sank a few hours later.",
+      "autor": "Oniwa Kiyoshi, Imperial Japanese Navy · U.S. Navy, NH 73065"
+    }
+  ]
+}

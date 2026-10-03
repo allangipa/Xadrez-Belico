@@ -1,0 +1,68 @@
+[
+  {
+    "slug": "feb-na-italia",
+    "nome": "The FEB in Italy",
+    "titulo": "Brazilian Expeditionary Force in WW2: the FEB in Italy",
+    "resumo": "The battles of the Brazilian Expeditionary Force (FEB) in Italy as a chess game: Monte Castello, Montese, Fornovo di Taro, and why it was not at Cassino.",
+    "intro": [
+      "The Brazilian Expeditionary Force fought in the Apennines, in Italy, between 1944 and 1945: more than 25,000 men and women, according to the Brazilian Army. At Monte Castello, the attacks of November and December 1944 failed because they climbed the hill without touching the heights that defended it; in the one of 21 February 1945, the Franklin Battalion reached the summit at 17:30.",
+      "At Montese, on 14 April 1945, the FEB took the town in 2h15; holding it until the 17th cost 426 Brazilian casualties. At the end of April, at Fornovo di Taro, the Brazilians closed the exit of the Taro valley and the German 148th Division surrendered whole, command included: 14,779 prisoners.",
+      "Monte Cassino is here because it too was a mountain battle in Italy, and because of a myth: the FEB did not fight there. The first Brazilian echelon landed in Naples on 16 July 1944, two months after the fall of the abbey."
+    ]
+  },
+  {
+    "slug": "1939-1940",
+    "nome": "World War II, 1939–1940",
+    "titulo": "WW2 1939–1940: from Poland to the Battle of Britain",
+    "resumo": "The invasion of Poland, the fall of France, the Dunkirk evacuation and the Battle of Britain: the start of World War II in Europe as a chess game.",
+    "intro": [
+      "The start of World War II in Europe, read as a chess game. In the invasion of Poland, from 1 September to 6 October 1939, each German infantry division had 3,859 horses, and the word Blitzkrieg came from the newspapers; on 17 September, the Soviet Union invaded from the east.",
+      "In the fall of France, in May 1940, Germany attacked with fewer tanks and little more than half the Allied artillery, and won with a plan, not with a doctrine: the crossing of the Ardennes and the Meuse at Sedan. At Dunkirk, the armor halted less than 20 km from the port, and the evacuation took 338,226 men off by sea.",
+      "In the Battle of Britain, from 10 July to 31 October 1940, the Luftwaffe did not win the sky: it attacked a defense network that saw the whole board, guided by an intelligence service that counted aircraft that had not been shot down."
+    ]
+  },
+  {
+    "slug": "frente-oriental",
+    "nome": "Eastern Front",
+    "titulo": "Eastern Front WW2 battles: Moscow, Stalingrad, Kursk",
+    "resumo": "The Battle of Moscow, the Battle of Stalingrad and the Battle of Kursk as a chess game: why Germany stalled, was encircled and attacked where expected.",
+    "intro": [
+      "Three battles in the east, from 1941 to 1943, read as a chess game. In the Battle of Moscow, Operation Typhoon had already lost its point by 1 December 1941, in the words of the commander of Army Group Centre himself, before the cold wave of 4 to 6 December; the closest point reliably recorded lies about 30 km from the Kremlin.",
+      "At Stalingrad, the 6th Army encircled the city and ended up encircled in it: Operation Uranus broke the weak flanks on the Don, the airlift never reached the 300 t a day calculated as the minimum, and the surrender ended with 91,000 prisoners, of whom between 5,000 and 6,000 came home.",
+      "At Kursk, in July 1943, Germany attacked two months late the point that both sides could see, against a defense lying in wait. The page also takes apart the myth of Prokhorovka."
+    ]
+  },
+  {
+    "slug": "pacifico",
+    "nome": "War in the Pacific",
+    "titulo": "Pacific War battles: Pearl Harbor and Midway",
+    "resumo": "The attack on Pearl Harbor and the Battle of Midway as a chess game: the move aimed at the wrong piece and the code read in fragments that was enough.",
+    "intro": [
+      "On 7 December 1941, 353 Japanese aircraft from 6 aircraft carriers attacked Pearl Harbor. They hit all eight American battleships, but no aircraft carrier was in port, 6 of the 8 battleships hit returned to service, and the fuel tanks in plain sight were left intact.",
+      "In June 1942, at Midway, the Americans were reading part of the Japanese Navy's messages, enough to know the target and the date. On 4 June, three dive-bomber squadrons arrived together, without having arranged it, at 10:20, and three Japanese carriers were set on fire almost at the same time; the fourth went down in the late afternoon.",
+      "The two pages separate what was reading the board from what was chance, and say where the counts differ."
+    ]
+  },
+  {
+    "slug": "frente-ocidental-1944",
+    "nome": "Western Front, 1944",
+    "titulo": "Western Front 1944: D-Day, Market Garden, the Bulge",
+    "resumo": "D-Day, Operation Market Garden and the Battle of the Bulge as a chess game: Normandy, the bridge too far and the last German move in the west.",
+    "intro": [
+      "Three moves in western Europe, from June 1944 to January 1945. On D-Day, 6 June 1944, the Allies landed in Normandy, where Germany was not expecting the main blow: 156,000 soldiers ashore that day, by sea and by air.",
+      "In September, Operation Market Garden dropped about 35,000 airborne troops over the Netherlands to seize a series of bridges along a single road; the plan stopped short of the last one, at Arnhem.",
+      "In December, in the Battle of the Bulge, Hitler repeated the move of 1940 through the same forest, toward Antwerp. St. Vith, Bastogne, the lack of fuel and the clear skies stopped the columns less than 10 km from the Meuse."
+    ]
+  },
+  {
+    "slug": "guerra-do-paraguai",
+    "nome": "Paraguayan War",
+    "titulo": "Paraguayan War battles: Riachuelo, Tuyutí and Humaitá",
+    "resumo": "The Battle of Riachuelo, the Battle of Tuyutí and the fortress of Humaitá as a chess game: the Paraguayan plan, the swamp and the fortress that starved.",
+    "intro": [
+      "Three moments of the Paraguayan War, from 1865 to 1868. At Riachuelo, on 11 June 1865, the Paraguayan plan was to board the Brazilian squadron in the dark, and the Paraguayans arrived with the sun high; Barroso turned the fight around, and Brazil lost a single ship, the corvette Jequitinhonha.",
+      "At Tuyutí, on 24 May 1866, López launched a surprise attack on the Allied camp among the swamps, but the signal went out hours late and the enemy was already under arms. About 6,000 Paraguayans died.",
+      "Humaitá, the fortress on a bend of the Paraguay River, held up the war for almost two years. It did not fall to assault, nor to the passage of the ironclads: it fell to hunger, besieged from upriver and from the Chaco."
+    ]
+  }
+]

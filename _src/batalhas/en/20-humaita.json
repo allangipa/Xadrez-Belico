@@ -1,0 +1,261 @@
+{
+  "_nota": "Tradução fiel de ../20-humaita.json. Campos fixos (num, slug, estreia, proximo, relacionados, conf, arquivo, licenca, licenca_url, origem_url, tipo, ano, foco, url) vêm do original. nome_busca em inglês: Siege of Humaitá (nome do verbete em inglês e o que cabe no título).",
+  "batalha": "Humaitá",
+  "nome_busca": "Siege of Humaitá",
+  "titulo_video": null,
+  "lugar": "Humaitá, Ñeembucú Department, Paraguay, on a bend of the Paraguay River; and the Chaco, on the opposite bank",
+  "data": "22 September 1866 to 5 August 1868",
+  "campanha": "Paraguayan War",
+  "pergunta": "Why did a river-bend fortress, compared to Sevastopol, stall the war for almost two years, and what finally unlocked it?",
+  "resumo": "The Fortress of Humaitá fell neither to assault nor to the ironclads' passage, but to hunger, cut off upriver and in the Chaco. Its fame vs. what it was.",
+  "abertura": [
+    "On 22 September 1866, in front of the trenches of Curupayty, south of Humaitá, the Allies lose more than 4,000 men in a frontal attack; the Paraguayans, 54, in the count of López's engineer. From then on, the war stands still in front of a bend of the Paraguay River. The press of the time compares Humaitá to Sevastopol, to Richmond, to Gibraltar.",
+    "The Allies only enter Humaitá on 25 July 1868 — and they enter without a fight, because the garrison had left the night before, starving. This page closes the miniseries on the Paraguayan War with its longest game: what the fortress really was, why it locked up the board, and which moves unlocked it. Almost none of them was what appears in the paintings."
+  ],
+  "numeros": [
+    {
+      "valor": "22 months",
+      "rotulo": "from Curupayty, on 22 September 1866, to the Allied entry into Humaitá, on 25 July 1868"
+    },
+    {
+      "valor": "54",
+      "rotulo": "Paraguayan casualties at Curupayty, according to George Thompson, López's engineer, against more than 4,000 Allied"
+    },
+    {
+      "valor": "3",
+      "rotulo": "8-inch guns on the river front in August 1867, when the ironclads arrived in front of it, in Thompson's count"
+    },
+    {
+      "valor": "10",
+      "rotulo": "Brazilian wounded in the passage of 19 February 1868; the chain was already on the river bottom"
+    },
+    {
+      "valor": "1,019",
+      "rotulo": "Brazilian casualties in the repulsed assault of 16 July 1868, according to the Army Diary; Thompson says 2,000"
+    },
+    {
+      "valor": "≈ 1,300",
+      "rotulo": "surrendered with Colonel Martínez on 5 August 1868: 1,299, 1,324 or 1,327, depending on the source"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "The terrain",
+      "valor": "a tight bend of the Paraguay River, with the fortress on the concave side, on a bluff of about 30 feet (9 m); by land, a trench of about 14,800 yards (13.5 km) surrounded by marshes and esteros; upstream, marshy bank as far as Pilar, except for the bluff at Tayí",
+      "nota": "From George Thompson, The War in Paraguay, 1869."
+    },
+    {
+      "item": "The fortress",
+      "valor": "barbette batteries along the bluff, only one of them casemated, with 16 guns, and a barrier of chains on canoes and pontoons. There was no wall and no citadel"
+    },
+    {
+      "item": "Artillery",
+      "valor": "90 guns in seven batteries in 1865 and almost 200 in March 1868, counting the land lines, according to Thompson; about 120 in the river batteries, according to other counts"
+    },
+    {
+      "item": "Paraguay — command",
+      "valor": "Francisco Solano López; at Humaitá, Colonel Paulino Alén and, after Alén was wounded, Colonel Francisco Martínez"
+    },
+    {
+      "item": "Allies — command",
+      "valor": "Bartolomé Mitre, commander-in-chief until January 1868; Luís Alves de Lima e Silva, Marquis of Caxias, after him; Joaquim José Inácio, Viscount of Inhaúma (squadron); Delfim Carlos de Carvalho (division that forced the passage); Generals Osório, Argolo Ferrão, Gelly y Obes and Ignacio Rivas"
+    },
+    {
+      "item": "Curupayty",
+      "valor": "22 September 1866: Allied frontal attack repulsed. More than 4,000 Allied casualties — 2,011 Brazilians and 2,082 Argentines, according to Chris Leuchars; about 9,000, according to Thompson. Paraguayans: 54, according to Thompson"
+    },
+    {
+      "item": "Flank march",
+      "valor": "begins on 22 July 1867; the army enters Tuyu-Cuê on 29 July. About 28,000 to 30,500 men march, depending on the source, and 10,000 to 13,000 stay at Tuyutí"
+    },
+    {
+      "item": "Tayí",
+      "valor": "on 2 November 1867 the Brazilians take the bluff at Tayí, upstream of Humaitá, and close the river with artillery and chains. The river link with Asunción is over"
+    },
+    {
+      "item": "The passage",
+      "valor": "19 February 1868: the ironclads Bahia, Barroso and Tamandaré, each with a monitor lashed alongside — Alagoas, Pará and Rio Grande —, pass Humaitá and Timbó on the flood and go on to Tayí",
+      "nota": "Thompson dates the start of the bombardment to 18 February."
+    },
+    {
+      "item": "López's departure",
+      "valor": "on the night of 2 to 3 March 1868, by way of Timbó and the Chaco road; Humaitá is left with the garrison"
+    },
+    {
+      "item": "The ring closed",
+      "valor": "on 21 and 22 March 1868 the outer lines to the south fall; from 30 April to 3 May, Rivas's troops cross to the Chaco and build the Andaí redoubt, cutting the supply road opposite the fortress"
+    },
+    {
+      "item": "The evacuation",
+      "valor": "the wounded and the women cross to the Chaco on the night of 23 July 1868; the garrison, on the night of the 24th. The Allies enter on 25 July. The Paraguayans hold out on Isla Poí, between the bank and the Verá lagoon"
+    },
+    {
+      "item": "Surrender",
+      "valor": "5 August 1868: Colonel Martínez surrenders to Rivas, with the officers keeping their swords. About 1,300 men — 1,299 according to Thompson, 1,327 according to the Brazilian Army"
+    },
+    {
+      "item": "Guns captured",
+      "valor": "about 180: 180 according to Thompson, 177 according to another count, 188 with those of Isla Poí according to the Brazilian Army"
+    },
+    {
+      "item": "Aftermath",
+      "valor": "the war goes on for more than a year and a half, upriver and in the interior of Paraguay"
+    }
+  ],
+  "lances": [
+    {
+      "titulo": "The board: a bend, a bluff and no dry path",
+      "paragrafos": [
+        "Humaitá lies on a horseshoe bend of the Paraguay River, in the southwest of the country, upstream of its confluence with the Paraná. The fortress occupies the concave side of the bend, on a bluff of about 30 feet, and so all the batteries can fire at the same time at any ship passing it. The ship, for its part, has to go up slowly, against the current, making the turn. That was the key to the river to Asunción.",
+        "By land, the picture is worse. George Thompson, the British engineer who built López's works, describes a trench of about 14,800 yards around the village, and beyond it leagues of marshes with thin strips of dry land. Upstream of the fortress, the bank is reed marsh as far as Pilar, with a single exception: the bluff at Tayí, 15 miles upriver. On the other bank, the Chaco, almost everything floods in high water.",
+        "The only reasonable approach was from the south, through the trenches of Curupayty, Sauce, Espinillo and Paso Pucú, where López concentrated his army. In chess terms, the strong piece stood on the only square where the opponent could attack it. The square that mattered lay upriver."
+      ]
+    },
+    {
+      "titulo": "Curupayty: the frontal move that taught not to attack head-on",
+      "paragrafos": [
+        "On 3 September 1866 the Brazilians take Curuzú, the southernmost position. Then they wait: López proposes a conference to Mitre at Yatayty-Corá on 12 September, the Allied commanders argue, it rains from the 17th to the 20th. The attack on Curupayty goes in on 22 September, a day after the Paraguayans finished the new trench — a ditch six feet deep, abatis in front, one flank on the river and the other on a lagoon.",
+        "The squadron bombards for almost four hours, but from the river the effect on such a high bluff cannot be seen. At noon, the Allied columns advance over flooded ground that forces them to bunch up in the few passages between the marshes, right in front of the abatis, under crossing canister. Allied casualties exceed 4,000 — 2,011 Brazilians and 2,082 Argentines, in Chris Leuchars's count; Thompson speaks of about 9,000. The Paraguayans lose 54, according to him.",
+        "The result reshapes the Allied command: Admiral Tamandaré, General Polidoro and the Uruguayan Flores leave their posts, and Caxias takes over the Brazilian corps and the squadron. And it fixes the lesson that holds for the rest of the game: Humaitá is not taken head-on."
+      ]
+    },
+    {
+      "titulo": "Caxias goes around: the flank march and the Tayí square",
+      "paragrafos": [
+        "Caxias arrives at Tuyutí on 18 November 1866 and finds an army with cholera, without horses and with two corps that, in his words, seemed to belong to different nations. He spends eight months reorganizing, fortifies the base, links the positions by telegraph and, from June 1867, sends up tethered balloons to see the Paraguayan lines. Thompson records that from the balloon the Allies counted 106 guns and three mortars, and that the Paraguayans responded by burning grass to screen the trenches.",
+        "The plan is in a letter from Caxias to Osório, of April 1867: do not seek López in the only place where he can resist. On 22 July 1867 the Allied army begins the march around the Paraguayan left and enters Tuyu-Cuê on 29 July. On 15 August ironclads pass Curupayty and anchor below Humaitá, but do not take it on.",
+        "The decisive move comes on 2 November 1867: the Brazilians take the bluff at Tayí, sink two Paraguayan steamers, arm the place with artillery and stretch chains across the river. Humaitá loses its river link with Asunción. The next day López attacks the Allied base at Tuyutí to cut Caxias's rear; he loots the camp, but is repulsed. From then on the fortress is the end of a net with a single exit: the road López opens through the Chaco, from Timbó to Monte Lindo."
+      ]
+    },
+    {
+      "titulo": "The passage of 19 February: the chain was already on the bottom",
+      "paragrafos": [
+        "In February 1868 the river is in an exceptional flood, and is beginning to fall. On 13 February three monitors built in Rio de Janeiro pass Curupayty at night and join the ironclads. The chain barrier, which was part of Humaitá's fame, no longer barred anything: according to Thompson, the ironclads had spent three months sinking the canoes and pontoons that held it up, and it went down to the bottom, under the mud. With the flood, there were 12 to 15 feet of water above it.",
+        "In the early hours of 19 February 1868, the ironclads Bahia, Barroso and Tamandaré, each with a monitor lashed alongside — Alagoas, Pará and Rio Grande —, go upstream under the fire of the batteries, under the command of Delfim Carlos de Carvalho. Thompson, who was on the other side, writes that Humaitá's fire was well sustained and accurate, but that the shot broke up on the armor plates. The lower Timbó battery did more damage. The Alagoas, cut loose from her consort, was swept back by the current and had to pass alone. The same day, on land, Caxias takes the Cierva redoubt.",
+        "The ships go on to Tayí, and three of them go up to Asunción, which López orders evacuated. The passage is the image of the war that endured, in lithographs and on canvas. But Thompson himself points to the move that was missing: the squadron passed and went on ahead. If one or two ironclads had stayed between Timbó and Humaitá, he writes, López would not have got out, and the fortress would have been truly besieged. On the night of 2 to 3 March 1868, López crosses at Timbó and leaves through the Chaco."
+      ]
+    },
+    {
+      "titulo": "Closing the net: the Chaco, hunger and the assault that was not needed",
+      "paragrafos": [
+        "On 21 March 1868 the Allies attack the lines to the south, and on the 22nd the Paraguayans abandon the whole old front, Curupayty included, and shut themselves up in Humaitá. The last supply route ran through the Chaco, opposite the fortress. From 30 April to 3 May, Argentine and Brazilian troops under Ignacio Rivas cross the river and build the Andaí redoubt, protected by an estero. The road is cut.",
+        "On the Allied side, there is debate over whether an assault is worth it. General Argolo writes that Humaitá is now a secondary objective and should be bought as cheaply as possible; Mitre, from Buenos Aires, argues for the attack. Thompson, from the inside, estimates that in April there were 15,000 yards of trench manned by fewer than 3,000 men. On 16 July, after a bombardment of 3,666 rounds, Osório attacks on the San Solano front. The Paraguayan artillery, silent until then, reopens at short range. The assault is repulsed: 1,019 Brazilian casualties according to the Army Diary, 2,000 in Thompson's count.",
+        "It was not the assault that decided it. It was food. On the night of 23 July the wounded and the women cross to the Chaco in canoes; on the night of the 24th, with bands playing to deceive the besiegers, the garrison crosses. The Allies enter Humaitá on 25 July 1868. The Paraguayans still hold out on Isla Poí, between the bank and the Verá lagoon, trying to get across in canoes under continuous fire. On 5 August Colonel Francisco Martínez, barely able to speak from hunger, surrenders to Rivas with about 1,300 men."
+      ]
+    },
+    {
+      "titulo": "What the fortress was, seen up close",
+      "paragrafos": [
+        "Thompson says that in 1865 Humaitá had 90 guns in seven batteries, with parapets no higher than the knee, except in one battery of sixteen guns. In August 1867, when the ironclads arrived in front of it, the river front had, according to him, three 8-inch guns and some six 32-pounders. At the end, he summed up: it took thirteen months to reduce Humaitá, the weakest of all the positions the Paraguayans occupied.",
+        "Richard Burton, the British explorer, visited the place about a month after its fall and wrote, in a letter of 24 August 1868, that he looked for the fortress compared to Sevastopol, Richmond and Gibraltar and found “these poor barbettes, this entrenched camp sans citadel”: Humaitá, he concluded, was “a monstrous ‘hum’” — a humbug. The historian Leandro Gonçalves makes the qualification that balances the account: Burton saw it in passing and did not realize that Humaitá's strength was never in the masonry, but in the high bluff, which made the squadron's fire inaccurate, and in the earthen entrenchments, rebuilt after every bombardment.",
+        "The Allies collected about 180 guns at Humaitá, most of them iron, some of heavy caliber. The church of San Carlos, a target of the ironclads for months, was left standing in ruins, and it is what remains at the site today."
+      ]
+    }
+  ],
+  "veredito": [
+    "Humaitá did not stall the war because it was an impregnable fortress. It stalled it because the board around it put all the advantage with the defender: a river bend dominated from a bluff, marshes by land, mines in the river, and on the other side a squadron afraid of losing ironclads and an Allied command that was divided and sick. Curupayty showed the price of playing against that head-on.",
+    "It came unstuck when the Allies changed their game. Caxias went around by land and took the square that mattered, Tayí, upriver; Rivas cut the last road through the Chaco; and the garrison left out of hunger. The passage of the ironclads opened the river up to Asunción, but, because the squadron went on ahead, it let the king off the board. In chess terms, Humaitá was not taken: it was smothered — hemmed in until it had no moves left, while the direct attacks failed one after another."
+  ],
+  "mitos": [
+    {
+      "circula": "Humaitá was an impregnable fortress, the Sevastopol of the Americas.",
+      "registro": "There was no wall and no citadel: there were barbette batteries on a bluff, a single casemated battery of 16 guns and a camp of earthen trenches. López's engineer, George Thompson, called it the weakest position of all; Richard Burton, who visited it in August 1868, “a monstrous ‘hum’” — a humbug. The strength lay in the bluff, the bend and the marshes."
+    },
+    {
+      "circula": "The ironclads broke the Humaitá chain.",
+      "registro": "The chain was already on the river bottom: the ironclads had sunk the canoes and pontoons that held it up, and it lay under the mud, according to Thompson. On 19 February 1868 the flood put 12 to 15 feet of water above it."
+    },
+    {
+      "circula": "The passage of 19 February 1868 made Humaitá fall.",
+      "registro": "Humaitá fell five months later, on 25 July 1868, to hunger, after the Chaco road was cut. The passage opened the river up to Asunción, but López left the fortress on 3 March, because the ships went on ahead instead of staying between Humaitá and Timbó."
+    },
+    {
+      "circula": "Humaitá was taken by assault.",
+      "registro": "The assault on the fortress on 16 July 1868 was repulsed, with 1,019 Brazilian casualties according to the Army Diary. The garrison left at night, between 23 and 24 July, and the Allies entered on the 25th without a fight."
+    },
+    {
+      "circula": "Two years of siege.",
+      "registro": "It is almost two years from Curupayty, on 22 September 1866, to the fall, on 25 July 1868. The siege proper lasted from 8 to 13 months, depending on whether it is counted from the taking of Tayí, on 2 November 1867, or from the start of the flank march, on 22 July 1867."
+    }
+  ],
+  "perguntas": [
+    {
+      "p": "What was the Fortress of Humaitá?",
+      "r": "It was the Paraguayan position that closed the Paraguay River on the way to Asunción: barbette batteries on a bluff at a tight bend of the river, a single casemated battery, with 16 guns, and earthen trenches surrounded by marshes. There was no wall and no citadel."
+    },
+    {
+      "p": "Where was the Fortress of Humaitá?",
+      "r": "At Humaitá, in Ñeembucú Department, in southwestern Paraguay, on a bend of the Paraguay River upstream of its confluence with the Paraná. What remains of it today is the church of San Carlos, standing in ruins."
+    },
+    {
+      "p": "How did the Fortress of Humaitá fall?",
+      "r": "It fell to hunger, not to assault. With the Chaco road cut, the garrison left at night and the Allies entered without a fight on 25 July 1868; on 5 August Colonel Francisco Martínez surrendered with about 1,300 men."
+    },
+    {
+      "p": "What was the Passage of Humaitá?",
+      "r": "It was the run upstream by three Brazilian ironclads, each with a monitor lashed alongside, under the fire of the batteries, on 19 February 1868, on the flood. It opened the river up to Asunción, but did not bring down the fortress, which only fell five months later."
+    },
+    {
+      "p": "How long did the Siege of Humaitá last?",
+      "r": "It is almost two years from Curupayty, on 22 September 1866, to the Allied entry, on 25 July 1868. The siege proper lasted from 8 to 13 months, depending on whether it is counted from the taking of Tayí or from the start of the flank march, in 1867."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "George Thompson, The War in Paraguay, with a historical sketch of the country and its people and notes upon the military engineering of the war, London, Longmans, Green & Co., 1869."
+    },
+    {
+      "texto": "Leandro José Clemente Gonçalves, \"Da Batalha de Curuzu à queda de Humaitá (1866-1868): questões táticas\", Navigator, v. 14, no. 27, 2018, pp. 31-44 (citing Chris Leuchars, Tasso Fragoso, Juan Beverina, Caxias's Army Diary and Richard Burton)."
+    },
+    {
+      "texto": "Brazilian Army, B Adm QGEx, \"A Tomada de Humaitá\" (The Taking of Humaitá), 2025."
+    },
+    {
+      "texto": "Richard F. Burton, Letters from the Battle-fields of Paraguay, 1870 (letter of 24 August 1868, as quoted)."
+    },
+    {
+      "texto": "Siege of Humaitá — English Wikipedia."
+    },
+    {
+      "texto": "Passage of Humaitá — English Wikipedia."
+    },
+    {
+      "texto": "Fortress of Humaitá — English Wikipedia."
+    },
+    {
+      "texto": "Cerco de Humaitá — Portuguese Wikipedia."
+    }
+  ],
+  "imagens": [
+    {
+      "alt": "Dozens of wheeled cannon lined up on bare earth in front of a long shed with a clay-tile roof, with a church tower on the left",
+      "legenda": "The guns of Humaitá gathered by the Allies to be divided up as trophies, in 1868. There were about 180, most of them iron.",
+      "autor": "Unidentified photographer"
+    },
+    {
+      "alt": "Hand-drawn plan of the bend of the Paraguay River, with the village of Humaitá surrounded by a line of trenches, the batteries marked along the bank and areas of woods and marsh around it",
+      "legenda": "Plan of Humaitá surveyed by the engineer commission of the Brazilian army's 2nd Corps (Major Sebastião de Souza Mello, Lieutenants Guilherme Carlos Lassance and Emilio Carlos Jourdan), published in A Vida Fluminense in 1869. The bend, the batteries on the concave bank, the trench and the marshes.",
+      "autor": "Sebastião de Souza Mello, Guilherme Carlos Lassance and Emilio Carlos Jourdan · A Vida Fluminense, no. 62"
+    },
+    {
+      "alt": "Engraving of a wide river bend with low-hulled ships with funnels going upstream, while a row of batteries on the opposite bank fires wrapped in smoke",
+      "legenda": "The passage of Humaitá in Angelo Agostini's lithograph published in A Vida Fluminense in 1868. It is a press drawing, not a record: the passage took place before dawn, on 19 February 1868.",
+      "autor": "Angelo Agostini · A Vida Fluminense, no. 11"
+    },
+    {
+      "alt": "Engraving seen from above of a winding river between flooded areas and camps, with a balloon held by ropes in the right-hand corner",
+      "legenda": "View of Humaitá presented as taken from the Allied observation balloon, engraving from Harper's Weekly of 9 May 1868. The tethered balloons went up from June 1867 to map the Paraguayan lines.",
+      "autor": "Unidentified author · Harper's Weekly, 9 May 1868"
+    },
+    {
+      "alt": "Interior of a destroyed church, with the roof open in broken beams, the altarpiece in the background and soldiers in hats sitting and standing on the rubble",
+      "legenda": "The interior of the church of San Carlos, at Humaitá, after the Allied occupation, in 1868. The ironclads bombarded the church for months.",
+      "autor": "Unidentified photographer · National Library of Brazil"
+    },
+    {
+      "alt": "Brick ruins of a church, with open arches and a broken tower, on a lawn in late-afternoon light",
+      "legenda": "The ruins of the church of San Carlos Borromeo, at Humaitá, Paraguay, in 2012. It is what still stands of the fortress.",
+      "autor": "Prkprescott"
+    }
+  ]
+}

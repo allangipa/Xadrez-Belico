@@ -1,0 +1,276 @@
+{
+  "_nota": "Tradução fiel de ../09-moscou.json. Campos fixos (num, slug, estreia, proximo, relacionados, conf, arquivo, licenca, licenca_url, origem_url, tipo, ano, foco, url) vêm do original.",
+  "batalha": "The Battle of Moscow",
+  "nome_busca": "Battle of Moscow",
+  "titulo_video": null,
+  "lugar": "The approaches to Moscow, Russia, from Vyazma and Bryansk, to the west, to Kalinin (now Tver), to the north, and Tula, to the south",
+  "data": "30 September 1941 to 7 January 1942",
+  "campanha": "World War II, 1941",
+  "pergunta": "Why did the Blitzkrieg stop at the gates of the capital?",
+  "resumo": "In the Battle of Moscow, the German offensive had lost its purpose by 1 December 1941; the extreme cold came later. What wore down Operation Typhoon.",
+  "abertura": [
+    "In the first week of October 1941, the German Army Group Centre carries out Operation Typhoon with textbook perfection: six Soviet armies encircled at Vyazma, three more at Bryansk, and more than half a million prisoners. In Berlin, the government spokesman announces to the foreign press that the eastern campaign has been decided. Two months later, the same tanks are stopped about 30 km from the Kremlin, and on 5 December the Red Army counterattacks.",
+    "The explanation that circulates most has a proper name: General Winter. The German record of the time tells another story. The offensive lost its strength before the extreme cold, because of a railway that could not carry what the army consumed, armor reduced to a third and an opponent that, instead of running out, replaced its pieces. This page follows the game move by move and weighs each explanation."
+  ],
+  "numeros": [
+    {
+      "valor": "1 December 1941",
+      "rotulo": "the day the commander of Army Group Centre writes that the offensive has lost \"all sense and purpose\" — before the cold wave of 4 to 6 December"
+    },
+    {
+      "valor": "35%",
+      "rotulo": "of the original tank strength in the panzer divisions, according to the chiefs of staff gathered at Orsha on 13 November"
+    },
+    {
+      "valor": "500",
+      "rotulo": "Soviet locomotives captured in all the occupied territory by November, about a tenth of what was needed to run on the Russian gauge"
+    },
+    {
+      "valor": "~30 km",
+      "rotulo": "from the Kremlin: Krasnaya Polyana, occupied on 30 November, the closest point reliably recorded"
+    },
+    {
+      "valor": "514,000 to 763,000",
+      "rotulo": "Soviet prisoners at Vyazma and Bryansk, depending on the count: from recent estimates to the German count of the time"
+    },
+    {
+      "valor": "8 December 1941",
+      "rotulo": "the date of Hitler's directive that blames the winter for the end of the offensive: \"Severe winter weather has come surprisingly early in the east\""
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Germany — forces",
+      "valor": "Army Group Centre: 1,929,000 men, counting a large auxiliary contingent; combat strength of 78 divisions, with three panzer groups",
+      "nota": "English Wikipedia gives the range of 1,184,000 to 1,929,406 men."
+    },
+    {
+      "item": "USSR — forces",
+      "valor": "Western, Bryansk and Reserve Fronts: about 1,250,000 men on 2 October 1941"
+    },
+    {
+      "item": "Tanks",
+      "valor": "from 1,000 to 2,470 German and from 1,044 to 3,232 Soviet at the start, depending on the source"
+    },
+    {
+      "item": "Germany — command",
+      "valor": "Fedor von Bock (Army Group Centre, replaced by Günther von Kluge in December); Heinz Guderian (2nd Panzer Army); Hermann Hoth, then Hans Reinhardt (3rd Panzer Group); Erich Hoepner (4th Panzer Group); Kluge (4th Army); Franz Halder and Walther von Brauchitsch in the army command; Adolf Hitler"
+    },
+    {
+      "item": "USSR — command",
+      "valor": "Georgy Zhukov (Western Front, from 10 October); Ivan Konev (Kalinin Front); Semyon Timoshenko (Southwestern Front); Joseph Stalin and the Stavka"
+    },
+    {
+      "item": "Terrain",
+      "valor": "a plateau of forests and villages, cut by the Volga and Oka rivers and by the Moscow–Volga Canal; dirt roads that the autumn rain turns into mud, and a railway network of wider gauge than the German one"
+    },
+    {
+      "item": "German objective",
+      "valor": "under Directive No. 35, of 6 September 1941, to destroy the Soviet fronts west of Moscow and encircle the city; on 12 October, Hitler orders that no German soldier enter it"
+    },
+    {
+      "item": "Vyazma and Bryansk",
+      "valor": "nine Soviet armies encircled in the first week of October. Prisoners: 663,000 at Vyazma and about 100,000 at Bryansk in the German count; 658,000 in the two pockets in another official German count; about 514,000 in a recent estimate"
+    },
+    {
+      "item": "Closest point",
+      "valor": "Krasnaya Polyana, about 30 km from the Kremlin, occupied by the 2nd Panzer Division on 30 November; the 7th Panzer Division crossed the Moscow–Volga Canal at Yakhroma on 28 November",
+      "nota": "A German patrol at Khimki appears in several accounts, with dates and units that do not match one another."
+    },
+    {
+      "item": "Counteroffensive",
+      "valor": "Kalinin Front on 5 December 1941; Western Front and the right wing of the Southwestern Front on 6 December. Klin is retaken on 15 December, Kalinin on the 16th"
+    },
+    {
+      "item": "Forces on 5 December",
+      "valor": "1,708,000 Germans against 1,100,000 Soviets, in the official Soviet history; 800,000 against 719,000 to 760,000 in earlier Soviet works. The larger German figure counts the whole rear area; the Soviet one does not count the eight reserve armies, about 800,000 men",
+      "nota": "The reading of the bases is by Ziemke and Bauer, official history of the U.S. Army."
+    },
+    {
+      "item": "Soviet casualties",
+      "valor": "658,279 in the defense (30 September to 5 December) and 370,955 in the counteroffensive up to 7 January, by Krivosheev's figures; 653,924 from October to January, for Erickson; 1,806,123 up to 20 April 1942, for Bellamy"
+    },
+    {
+      "item": "German casualties",
+      "valor": "174,194 killed, wounded and missing in Army Group Centre from 1 October to 10 January, according to the official ten-day reports, which historians consider undercounted; about 500,000 up to 20 April 1942, for Bellamy"
+    },
+    {
+      "item": "Frostbite",
+      "valor": "about 100,000 cases in the German army by the turn of the year, more than 14,000 with amputation; more than 250,000 by the end of the winter",
+      "nota": "Allen F. Chew, Fighting the Russians in Winter, U.S. Army, 1981."
+    },
+    {
+      "item": "Outcome",
+      "valor": "the German offensive fails and Army Group Centre is pushed west; it is the German army's first major defeat of the war"
+    },
+    {
+      "item": "Afterwards",
+      "valor": "on 16 December Hitler forbids withdrawals and demands \"fanatical resistance\"; on 19 December he accepts Brauchitsch's resignation and takes command of the army himself. The next Soviet offensive, at Rzhev and Vyazma, lasts until April 1942"
+    }
+  ],
+  "lances": [
+    {
+      "titulo": "The perfect move: Vyazma and Bryansk",
+      "paragrafos": [
+        "On 6 September 1941, Directive No. 35 gives priority back to Army Group Centre, halted east of Smolensk since August. Guderian's 2nd Panzer Group attacks on 30 September; the rest of the army group, on 2 October, under autumn sun. The three panzer groups go around the flanks of the Soviet fronts and pass between them.",
+        "In about a week, six armies are encircled west of Vyazma and almost the entire Bryansk Front, three armies, in pockets near Bryansk. Franz Halder notes in his diary that the execution was \"downright classical\". The German count of the time records 663,000 prisoners at Vyazma and about 100,000 at Bryansk; another official German count gives 658,000 in the two pockets; recent estimates are close to 514,000. In any of them, it exceeds half a million.",
+        "It was perhaps the best execution of the German method in the whole war, and the road to Moscow was practically open. On 9 October, the German government spokesman told the foreign press that the eastern campaign had been decided. The encirclement move worked. The game was not over."
+      ]
+    },
+    {
+      "titulo": "The railway that could not carry the war",
+      "paragrafos": [
+        "Army Group Centre lived on trains, and the Soviet gauge is wider than the European one. A German locomotive could only run on converted track; on the other lines, it depended on captured Russian rolling stock. By the end of September, fewer than 10,000 of the roughly 15,000 miles of railway in use had been converted, according to the 1955 U.S. Army study of the German documents. For the offensive on Moscow, the planners calculated raising the fuel trains from 22 to 29 per day.",
+        "On 13 November, at the Orsha conference, the armies' chiefs of staff told Halder what this meant: in all the occupied territory only 500 locomotives and 21,000 cars had been captured, about a tenth of what was needed. Winter clothing stayed stockpiled in the rear because it could not be brought forward without cutting other supplies. According to the same American study, practically none would be available for distribution before the beginning of January.",
+        "On 27 November, the army's quartermaster general, Eduard Wagner, summed it up: they were at the end of their resources in men and materiel. The army that would reach the gates of Moscow was not going to starve for courage; it was going to starve for fuel, ammunition and warm clothing."
+      ]
+    },
+    {
+      "titulo": "The mud, and what it really did",
+      "paragrafos": [
+        "The first snow falls on the night of 6 October; the autumn rains begin on the 7th. Alternating rain and snow, and with the weight of tanks and trucks, the dirt roads turn into a quagmire. In the third week of October, the leading divisions are strung out over 40 to 50 km of road, the infantry sometimes gets ahead of the tanks, and the 3rd Panzer Group considers carrying on on foot and by horse cart.",
+        "Tied to the road, the Germans can be met head-on, kilometer by kilometer, and the T-34, with its wider track, moves better in the mud. At the end of October the army group is practically at a standstill between Kalinin and the Oka River, about 60 km from Moscow.",
+        "The weight of the mud is debated. The 1955 U.S. Army study puts it among the main reasons for the failure; Jack Radey and Charles Sharp, examining the Wehrmacht records in 2015, conclude that it contributed, but was far from the most important factor. The strongest argument against the mud as the cause comes right after: in mid-November the ground freezes, the armor moves again as if on a paved road, and the offensive stops anyway."
+      ]
+    },
+    {
+      "titulo": "Orsha: playing one more move with two thirds of the pieces",
+      "paragrafos": [
+        "The conference of 13 November, on Halder's special train at Orsha, in Belarus, is the document that weighs most in this story, because it is from the time and because it shows that the command knew. German casualties in the east totaled 686,000 by 1 November. Of half a million vehicles, a third were unusable and only a third fully serviceable. The panzer divisions had 35% of their original tank strength. The command itself rated the 136 divisions in the east as the equivalent of 83 full-strength ones.",
+        "The arguments for attacking are also on record: the Russians seemed to be at their limit, a last blow before winter could bring them down, and the mistake of the Marne in 1914 must not be repeated, when Germany gave up a battle that was not lost. Bock did not want to spend the winter a few dozen kilometers from Moscow with the city and its railways in the opponent's hands. The army command decided to attack, with reduced objectives.",
+        "This is the decisive move of the game, and it is not a Soviet one. The player looks at his own board, sees that he has two thirds of his pieces and little time on the clock, and attacks anyway."
+      ]
+    },
+    {
+      "titulo": "The last offensive: to within 30 km of the Kremlin",
+      "paragrafos": [
+        "The offensive resumes on 15 November, with the ground already hard. The 3rd Panzer Group takes Klin on 23 November; on the 27th, the 7th Panzer Division reaches the Moscow–Volga Canal and the next day crosses it at Yakhroma. On 30 November the 2nd Panzer Division occupies Krasnaya Polyana, about 30 km from the Kremlin — the closest point reliably recorded. To the south, Guderian goes around Tula, which does not fall.",
+        "On the Soviet side, Zhukov had spent little and received a lot: in November, the Western Front gained 100,000 men, 300 tanks and 2,000 artillery pieces, and the Stavka was forming reserve armies behind the Volga. Two of them, the 1st Shock and the 20th, went in exactly at the gap between Yakhroma and Krasnaya Polyana. Stalin held back the rest.",
+        "On 1 December, Bock writes to Brauchitsch that the belief in a Soviet collapse has proved to be a fantasy, that the troops are exhausted and that the offensive has lost all sense and purpose. From 1 to 5 December it bogs down along the whole front, and the halt orders go first to the 4th Army, then to the armored spearheads."
+      ]
+    },
+    {
+      "titulo": "The cold arrives later, and so does the counterattack",
+      "paragrafos": [
+        "On the night of 4 to 5 December, the temperature drops to about −32 °C; on 6 December, it reaches about −39 °C on the Moscow front, according to German records. Tanks will not start, machine guns and cannons will not fire with frozen lubricant. On the morning of 5 December the Kalinin Front attacks across the frozen Volga; on the 6th, Zhukov's Western Front and the right wing of the Southwestern Front.",
+        "The opponent that was supposed to be finished had, in the Moscow sector, a third more rifle divisions, five times as many cavalry divisions and two and a half times as many tank brigades as on 2 October. Klin is retaken on 15 December and Kalinin on the 16th; in ten days the Soviets advance more than 50 km in the north and more than 80 km in the south.",
+        "On 8 December, Hitler signs Directive No. 39: the severe winter has come surprisingly early and forces the abandonment of large offensive operations. The weather explanation is born there, in the same document that ends the offensive. On 16 December he forbids withdrawals; on the 19th he accepts Brauchitsch's resignation and takes command of the army."
+      ]
+    }
+  ],
+  "veredito": [
+    "Typhoon did not stop because of the winter: it reached the winter exhausted. The encirclement at Vyazma and Bryansk worked by the textbook, and it was the last move that worked. After it, Army Group Centre advanced along a railway that did not supply it, through mud that tied it to the road, with tanks reduced to a third, against an opponent that replaced divisions faster than it destroyed them. At Orsha, the German command saw these numbers and decided to attack anyway. The extreme cold arrived after Bock had already written that the offensive had lost its purpose, and it turned the halt into a retreat because it found an army without winter clothing — which had stayed in the rear for the same reason ammunition ran short.",
+    "The detour to Kiev in August weighs less than the generals said after the war: it cost time and wore down armor, but it took off the board a flank of more than half a million men, and Martin van Creveld's logistical analysis concludes that an advance on Moscow at the end of August was not possible. The Siberian divisions also weigh less than the legend: there were troops from the east in the counteroffensive, but the bulk came from the newly formed reserve armies.",
+    "In chess terms, it is the player who wins a rook with a brilliant move and loses the game on the clock, because the opponent pulls another rook out of his pocket. The Blitzkrieg won the move. In front of Moscow, it discovered that the game did not end with the move."
+  ],
+  "mitos": [
+    {
+      "circula": "General Winter defeated the Germans in front of Moscow.",
+      "registro": "On 1 December 1941, Bock writes that the offensive has lost \"all sense and purpose\"; the cold that paralyzes weapons and engines arrives on the night of 4 to 5 December. In November the cold helped the Germans, by freezing the mud. By 1 November the German army in the east had already suffered 686,000 casualties. The weather explanation appears in writing in Hitler's Directive No. 39, of 8 December 1941. The winter made the defeat worse because the winter clothing was sitting in the rear — and that was a supply failure."
+    },
+    {
+      "circula": "The Germans reached Khimki and saw the towers of the Kremlin.",
+      "registro": "The closest point reliably recorded is Krasnaya Polyana, occupied on 30 November 1941, about 30 km from the Kremlin. The accounts of a patrol at Khimki give dates and units that do not match one another, from 16 October to 2 December; the story that the Kremlin could be seen has no record."
+    },
+    {
+      "circula": "Stalin fled Moscow.",
+      "registro": "From 15 October 1941 the government, the general staff and the diplomatic corps were evacuated to Kuibyshev, and Stalin had a train and aircraft at his disposal. But he stayed: he declared a state of siege on 19 October and reviewed the parade of 7 November in Red Square. The account that he walked along the platform beside the train and left without boarding, on 18 October, is from the journalist Andrew Nagorski."
+    },
+    {
+      "circula": "The Siberian divisions saved Moscow.",
+      "registro": "The numbers differ widely: more than 18 divisions from Siberia and the Far East in one count; 70 divisions from the Far East by 1 December in a broad Soviet count cited by the official history of the U.S. Army; few in the Moscow sector, in another analysis. There were Siberian troops in the defense and in the counterattack, but the bulk of the counteroffensive came from the reserve armies formed in the autumn, with many untrained troops."
+    }
+  ],
+  "perguntas": [
+    {
+      "p": "Who won the Battle of Moscow?",
+      "r": "The Soviet Union. The German offensive, Operation Typhoon, failed about 30 km from the Kremlin, and the counteroffensive launched on 5 December 1941 pushed Army Group Centre west: it was the German army's first major defeat of the war."
+    },
+    {
+      "p": "When was the Battle of Moscow?",
+      "r": "From 30 September 1941 to 7 January 1942. The German offensive bogged down from 1 to 5 December, and the Red Army counterattacked on 5 and 6 December 1941."
+    },
+    {
+      "p": "Why did Germany lose the Battle of Moscow?",
+      "r": "The offensive arrived exhausted before the extreme cold. The railway could not carry what the army consumed, the mud tied the columns to the road, the panzer divisions had 35% of their original tanks, and the Soviet Union replaced divisions faster than the Germans destroyed them."
+    },
+    {
+      "p": "Did \"General Winter\" defeat the Germans at Moscow?",
+      "r": "It was not the winter that stopped the offensive. On 1 December 1941, Bock wrote that it had lost all sense and purpose, and the extreme cold only arrived on the night of 4 to 5 December. The weather explanation appears in Hitler's Directive No. 39, of 8 December."
+    },
+    {
+      "p": "What were the casualties of the Battle of Moscow?",
+      "r": "The sources differ, and they count casualties, not only the dead. By Krivosheev's figures, the Soviets suffered 658,279 casualties in the defense and 370,955 in the counteroffensive; German reports record 174,194 in Army Group Centre up to 10 January, a figure considered undercounted."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "Earl F. Ziemke and Magna E. Bauer, Moscow to Stalingrad: Decision in the East, U.S. Army Center of Military History, 1987, chapters II to V."
+    },
+    {
+      "texto": "George E. Blau, The German Campaign in Russia — Planning and Operations (1940–1942), DA Pamphlet 20-261a, Department of the Army, 1955."
+    },
+    {
+      "texto": "Allen F. Chew, Fighting the Russians in Winter: Three Case Studies, Leavenworth Papers No. 5, Combat Studies Institute, 1981."
+    },
+    {
+      "texto": "Richard J. Evans, review of David Stahel, Kiev 1941, The New Republic."
+    },
+    {
+      "texto": "Steven D. Mercatante, review of David Stahel, The Battle for Moscow, Michigan War Studies Review 2016-024."
+    },
+    {
+      "texto": "Jack Radey and Charles Sharp, \"Was It the Mud?\", The Journal of Slavic Military Studies 28/4, 2015."
+    },
+    {
+      "texto": "H. G. W. Davie, \"The Influence of Railways on Military Operations in the Russo-German War 1941–1945\", History of Military Logistics, 2018 (citing Martin van Creveld, Supplying War)."
+    },
+    {
+      "texto": "Jonathan Dimbleby, \"When the German Army Neared Moscow, Millions Fled — But Some Stayed to Fight\", HistoryNet."
+    },
+    {
+      "texto": "Andrew Nagorski, \"Stalin's Tipping Point\", Newsweek, 2007."
+    },
+    {
+      "texto": "Battle of Moscow — English Wikipedia (casualties by source: Glantz and House, Erickson, Bellamy, Heeresarzt reports)."
+    },
+    {
+      "texto": "Khimki and Lobnya — English Wikipedia."
+    },
+    {
+      "texto": "List of Adolf Hitler's directives — English Wikipedia (Directive No. 39)."
+    }
+  ],
+  "imagens": [
+    {
+      "alt": "Military truck covered with a tarpaulin, stopped at the side of a snow-covered road, with a line of other abandoned vehicles in the background",
+      "legenda": "Vehicles abandoned by the German army on the Volokolamsk road, west of Moscow, in December 1941, during the retreat that followed the Soviet counteroffensive. Soviet press photo.",
+      "autor": "Ivan Shagin · RIA Novosti, archive No. 697"
+    },
+    {
+      "alt": "Mud-covered German half-track stopped in a village of wooden houses; one soldier bends down to clean the track while another watches",
+      "legenda": "A German soldier cleans the muddy track of an Sd.Kfz. 250 half-track in a village in the central sector of the front, in October 1941, the month the rains tied the armor to the roads.",
+      "autor": "Götze · Bundesarchiv, Bild 101I-140-1210-26A"
+    },
+    {
+      "alt": "Half-track truck moves along a waterlogged dirt road between the wooden houses of a village, with leafless trees in the background",
+      "legenda": "A muddy road in the Moscow region, in November 1941, in the German photographer's own caption. Weeks later the ground froze and the armor moved again — and the offensive stopped anyway.",
+      "autor": "Britting · Bundesarchiv, Bild 183-B15500"
+    },
+    {
+      "alt": "Map of the eastern front in 1941, with the German advance in red, the Kiev pocket to the south and, in an inset on the left, the positions around Moscow on 5 December",
+      "legenda": "The advance on Moscow from 26 August to 5 December 1941: the detour to Kiev in the south, Operation Typhoon and, in the inset on the left, the situation in front of Moscow on the day the counteroffensive began. Map from the U.S. Military Academy historical atlas, made after the war.",
+      "autor": "Department of History, United States Military Academy (West Point)"
+    },
+    {
+      "alt": "Rows of anti-tank hedgehogs made of crossed rails and a wooden barricade cross a Moscow street in front of a tall building",
+      "legenda": "Anti-tank hedgehogs and a barricade on Bolshaya Dorogomilovskaya Street, in Moscow, in October 1941, the month of panic in the city and of the government's evacuation to Kuibyshev.",
+      "autor": "Arkady Shaikhet · RIA Novosti, archive No. 604273"
+    },
+    {
+      "alt": "German soldier sheltering under a tarpaulin in a position dug into the snow, with his rifle and grenades resting on the edge",
+      "legenda": "A German rifleman's position in the snow near Koryakovo, 66 km southwest of Moscow, on 8 December 1941 — the day Hitler ordered large offensive operations abandoned.",
+      "autor": "Mährlen · Bundesarchiv, Bild 146-1992-055-33"
+    }
+  ]
+}

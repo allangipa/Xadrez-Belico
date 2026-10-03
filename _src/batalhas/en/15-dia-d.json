@@ -1,0 +1,161 @@
+{
+  "_nota": "Tradução fiel de ../15-dia-d.json. Campos fixos (num, slug, estreia, proximo, relacionados, conf, arquivo, licenca, licenca_url, origem_url, tipo, ano, foco, url) vêm do original.",
+  "batalha": "D-Day",
+  "nome_busca": "D-Day and the Normandy Landings",
+  "titulo_video": null,
+  "lugar": "Coast of Lower Normandy, between the Cotentin Peninsula and the Orne River, France",
+  "data": "6 June 1944",
+  "campanha": "World War II, 1944",
+  "pergunta": "Why did the move come in Normandy, and not at Calais?",
+  "resumo": "On D-Day, the Allies landed in Normandy, where Germany did not expect the main blow. The bluff, the panzers and the weather explain the rest.",
+  "abertura": [
+    "In the early hours of 6 June 1944, about 156,000 Allied soldiers come down by sea and by air on the coast of Normandy, in northern France, in five beach sectors: Utah and Omaha, American; Gold and Sword, British; Juno, Canadian. The German command in the West had 58 divisions. Most of its best-placed strength was farther north, in the Pas-de-Calais, waiting for the landing at the shortest crossing of the English Channel.",
+    "The question on this page is not whether the Allies had the strength to land. It is why they chose that place, and why, even after the landing began, the German armored reserve sat still the whole morning. The answer runs through a bluff, through a dispute between German generals that Hitler settled by splitting the pieces, and through a weather forecast that each side read in its own way."
+  ],
+  "numeros": [
+    {"valor": "156,000", "rotulo": "Allied soldiers ashore on the day, by sea and by air; the U.S. Army rounds it up to 160,000"},
+    {"valor": "4 of 10", "rotulo": "armored and mechanized divisions in the West that could only move on Hitler's order; the only one within reach of the beaches, the 21st Panzer, was not among them"},
+    {"valor": "afternoon", "rotulo": "when the 12th SS Panzer and Panzer Lehr were released: 14:30 or 16:00, depending on the source. The request had gone out at 04:45"},
+    {"valor": "2,374", "rotulo": "American casualties at Omaha, killed, wounded and missing, in V Corps' count. At Utah, there were 197"},
+    {"valor": "4,436", "rotulo": "Allied dead on the day in the updated list of the National D-Day Memorial: 2,519 Americans and 1,917 from other Allied countries"},
+    {"valor": "19 June", "rotulo": "the next possible date if the landing were postponed again. A storm in that period destroyed one of the two artificial harbors"}
+  ],
+  "ficha": [
+    {"item": "Allies — command", "valor": "General Dwight D. Eisenhower, Supreme Commander; General Bernard Montgomery, command of the ground forces in the assault"},
+    {"item": "Germany — command", "valor": "Field Marshal Gerd von Rundstedt, Commander-in-Chief West; Field Marshal Erwin Rommel, Army Group B, from the Netherlands to the Loire; General Leo Geyr von Schweppenburg, Panzer Group West. The 7th Army defended Normandy; the 15th, the Pas-de-Calais"},
+    {"item": "Allied forces on the day", "valor": "about 156,000 men: 23,250 at Utah, 34,250 at Omaha, 24,970 at Gold, 21,400 at Juno, 28,845 at Sword, plus 15,500 American and 7,900 British paratroopers. 6,939 vessels and 11,590 aircraft available", "nota": "The U.S. Army rounds the total up to 160,000."},
+    {"item": "German forces", "valor": "58 divisions in the West, 25 of them fit for mobile operations. Facing the beaches, the 709th Static Division (Utah), the 352nd Infantry Division (Omaha, about 12,000 men) and the 716th Static Division (Gold, Juno and Sword), with the 21st Panzer Division south of Caen"},
+    {"item": "The German distribution", "valor": "according to Dennis Showalter, 18 infantry and 2 panzer divisions for about 550 km of coast in the Pas-de-Calais, against 14 infantry and 1 panzer for 1,600 km in Normandy and Brittany"},
+    {"item": "The armor", "valor": "Rommel had 3 panzer divisions (2nd, 21st and 116th). Another 4 — 1st SS Panzer, 12th SS Panzer, 17th SS Panzergrenadier and Panzer Lehr — were the high command's (OKW) reserve and could only move with Hitler's authorization"},
+    {"item": "Terrain", "valor": "open beaches, with the German obstacles concentrated at the high-tide line, where the German command expected the landing. The landing came on a rising low tide, to expose the obstacles"},
+    {"item": "Objective", "valor": "open a five-division beachhead between the Cotentin and the Orne, with Caen as the British objective for the first day, and link the sectors into a single front"},
+    {"item": "The bluff", "valor": "Operation Fortitude invented a 1st U.S. Army Group under George Patton in southeastern England, aimed at Calais, sustained above all by double agents"},
+    {"item": "Allied dead", "valor": "4,414 in the National D-Day Memorial's historical count; 4,436 in the updated list (2,519 Americans and 1,917 from other Allied countries). Total casualties: between more than 9,000 and 10,500, depending on the source"},
+    {"item": "Casualties by sector", "valor": "Omaha: 2,374, in V Corps' count, or about 2,400 to 2,500 in other sources. Utah: 197. Canadians: 1,074, 359 of them killed. Gold and Sword have very different counts across sources"},
+    {"item": "German casualties", "valor": "between 4,000 and 9,000 killed, wounded, missing and captured, depending on the source; another count speaks of about 10,000"},
+    {"item": "Result", "valor": "the five beachheads held. Caen did not fall, and by the end of the day only Gold and Juno were linked; all five joined up on 12 June"},
+    {"item": "Afterwards", "valor": "the German 15th Army stayed in the Pas-de-Calais through June and much of July, waiting for a second landing that never came"}
+  ],
+  "lances": [
+    {
+      "titulo": "The opening: don't attack where the opponent most expects it",
+      "paragrafos": [
+        "The Allied planners of 1943, under General Frederick Morgan, looked first at the Pas-de-Calais, the shortest route from England to France and, from there, to Germany. The German command had done the same math and fortified that coast more than any other. That is what ruled it out.",
+        "Normandy was less defended and close enough for fighter aircraft to cover the beaches from England — at the limit, with little combat time over the area. It had ports within reach, Cherbourg and later Le Havre, and until they fell, the Allies would bring their own harbors: the Mulberries, assembled in pieces off the coast. On 31 December 1943, Eisenhower and Montgomery expanded the initial assault from three to five divisions, and the date moved from May to June 1944.",
+        "In board terms, the choice was almost obvious. The hard part was something else: making the opponent believe, even after the first move, that the real blow was still to come somewhere else."
+      ]
+    },
+    {
+      "titulo": "The bluff: a whole army that did not exist",
+      "paragrafos": [
+        "Operation Fortitude created, in southeastern England, the 1st U.S. Army Group, under the command of George Patton, the Allied general the Germans feared most. The army group did not exist. It was kept alive by fake radio traffic, some inflatable equipment and, above all, double agents controlled by the British. The main one, the Spaniard Juan Pujol García, codenamed Garbo, ran for the Germans a network of 27 informants, all invented.",
+        "The Germans did not ignore Normandy. In March 1944, Hitler began pointing to the Cotentin and Brittany as likely targets, and in May the 91st Division and the 6th Parachute Regiment were sent to the Cotentin. What the bluff did was turn Normandy into one of the blows, and not the blow. At the end of May, according to Showalter, the German command reckoned there were 89 Allied divisions in Britain; there were 47. On 9 June, three days after the landing, Garbo reported that Patton's units had not gone into action and that Normandy should be seen as a diversion.",
+        "How much the bluff weighed is debated. Roger Fleetwood-Hesketh, who wrote the internal history of the operation, found no proof that the radio deception or the inflatable equipment had contributed: what worked were the agents. But the effect on the board is on record. The 15th Army stayed put in the Pas-de-Calais through June and much of July, and the 116th Panzer only received the order to march to Normandy at the end of July."
+      ]
+    },
+    {
+      "titulo": "The armor dispute: three ideas and none",
+      "paragrafos": [
+        "On the German side, the board question was where to put the armored divisions. Rommel wanted them all close to the coast. He thought the decision would come in the first forty-eight hours and that Allied air power would keep any distant reserve from arriving in time. Rundstedt and Geyr von Schweppenburg wanted a reserve concentrated inland, for a massed counterattack once the main blow had been identified. Guderian, inspector of armored troops, argued for a strategic reserve of ten divisions.",
+        "Hitler chose none of the ideas: he split the pieces. Rommel got three panzer divisions — the 2nd, the 21st and the 116th. Four others — the 1st SS Panzer, the 12th SS Panzer, the 17th SS Panzergrenadier and Panzer Lehr — became the high command's reserve and could only move with his express authorization. The result, in the words of the U.S. official history, left both commanders without decisive control.",
+        "On the morning of 6 June, the only panzer division within immediate reach of the beaches was the 21st. The other strong pieces were on the board, but tied to a signature."
+      ]
+    },
+    {
+      "titulo": "The weather clock: a day and a half of opening",
+      "paragrafos": [
+        "The landing needed a moon close to full, for the paratroopers, and a rising low tide at dawn, so the boats could see the obstacles. That gave a window from 5 to 7 June. On 3 and 4 June, Eisenhower's chief meteorologist, Group Captain James Stagg of the RAF, forecast overcast skies and strong wind, and the scheduled day, 5 June, was postponed. On the night of 4 June, Stagg announced a short improvement; at 4:15 on 5 June he confirmed it, and Eisenhower decided on 6 June. The alternative was to wait two weeks, until the next tide — and in that period a storm came that destroyed one of the two Mulberry harbors.",
+        "The German meteorologists, without the Allied observation network in the Atlantic, saw only the bad weather. By the German command's own criteria, reported in the U.S. official history, the conditions for a landing were not being met on 5 June. Rommel went home, to Herrlingen, in Germany: his wife's birthday was on 6 June, and he intended to see Hitler. Division commanders of the 7th Army were on their way to a war game in Rennes.",
+        "The weather improved enough, not much. At Omaha, in heavy waves, 27 of the 29 amphibious tanks of the first wave sank before reaching the beach."
+      ]
+    },
+    {
+      "titulo": "The morning: the request at 04:45 and the idle reserve",
+      "paragrafos": [
+        "The 7th Army went on maximum alert at 02:15, after the first paratrooper drops. During the night, according to the U.S. official history, Rundstedt, Rommel's chief of staff Hans Speidel and Admiral Krancke thought it was probably the diversionary operation. At 04:45, according to the Canadian official history, Rundstedt's chief of staff, Günther Blumentritt, asked General Alfred Jodl, at the high command, to release the armored divisions of the reserve. He had already put the 12th SS, Panzer Lehr and the 17th SS on alert.",
+        "The request was refused. German officers stated after the war that Jodl not only refused but ordered all movement stopped. No one in the high command wanted to commit the reserve in Normandy while the main blow, expected at Calais, had not appeared.",
+        "Meanwhile, the five beaches were being taken. At Utah, casualties were 197. At Omaha, where the 352nd Division was on the coast without Allied intelligence having located it, the U.S. V Corps counted 2,374 casualties, killed, wounded and missing. At the end of the day, there, the beachhead was shallow and far from the planned line."
+      ]
+    },
+    {
+      "titulo": "The afternoon: a division reaches the sea and turns back",
+      "paragrafos": [
+        "The 12th SS Panzer and Panzer Lehr were released in the afternoon — at 14:30 or at 16:00, depending on the source. The first units of the 12th SS reached the assembly area near Évrecy at 22:00, and the division only took up position northwest of Caen on the morning of 7 June. Panzer Lehr marched under air attack and fought from 8 June.",
+        "The 21st Panzer, the only one within reach, spent the morning between orders to attack the paratroopers east of the Orne and orders to attack the beaches. Only in the afternoon did it attack northward. Elements of the 192nd Panzergrenadier Regiment reached the coast at Lion-sur-Mer, in the gap between Juno and Sword, at around 20:00 — that is what English Wikipedia gives; the Canadian official history records that the arrival at the sea was later claimed by the division commander, Edgar Feuchtinger, and that the British evidence does not fully support it.",
+        "At around 21:00, hundreds of British gliders passed over them to reinforce the Orne bridgehead. Fearing encirclement, the Germans pulled back. Caen did not fall that day, and at nightfall only Gold and Juno were linked; all five beachheads joined up on 12 June. But no German counterattack had put the landing at risk."
+      ]
+    }
+  ],
+  "veredito": [
+    "The move came in Normandy because Calais was the obvious place and, for that reason, the most fortified. The Allied choice was the simple play: attack where the defense was thinnest, at the limit of the range of its own air power. What made it decisive was the other side of the board. Fortitude did not hide Normandy — Hitler already suspected it —, but it made the German command treat it as a diversion, and held the 15th Army at Calais for weeks.",
+    "The structure Hitler imposed turned that doubt into delay. With four mobile divisions tied to his authorization, no one in the field could move the reserve, and the request of 04:45 stopped at the high command. When the divisions were released, in the afternoon, they moved at night or under the aircraft Rommel had foreseen, and only fought on 7 and 8 June. The weather weighed as a condition: it took Rommel off the board and lowered the alert, but those who decided on the reserve were not away.",
+    "In chess terms, the Allies did not win by mass at the point of battle. They won because the opponent spent the first day playing against a piece that did not exist."
+  ],
+  "mitos": [
+    {
+      "circula": "Hitler was asleep, no one dared wake him, and that is why the panzers did not arrive in time.",
+      "registro": "Hitler went to bed in the early hours and, in one version, only learned of the invasion around noon. But the release request of 04:45 was refused by the high command, with Jodl, and the reason was the doubt about Calais, not sleep. The Canadian official history records the sleep version and also the opposite: Hitler's valet, Heinz Linge, said he was informed early, and that the operations staff needed until 10:00 to form an opinion. For the historian Dennis Showalter, Hitler was awake early, and what mattered was the uncertainty."
+    },
+    {
+      "circula": "The Germans never thought of Normandy.",
+      "registro": "Hitler pointed to the Cotentin and Brittany as likely targets in March 1944, and in May the 91st Division and the 6th Parachute Regiment were sent to the Cotentin. What the Allied bluff achieved was making Normandy look like a secondary blow, with the main one still to come at Calais."
+    },
+    {
+      "circula": "The inflatable tanks fooled the Germans.",
+      "registro": "Roger Fleetwood-Hesketh, who wrote the internal history of Operation Fortitude, found no proof that the visual or radio deception had contributed. What worked were the double agents, Garbo first among them, whose messages the Germans took to be true."
+    },
+    {
+      "circula": "Omaha was a massacre with thousands of dead.",
+      "registro": "Omaha was the costliest beach: 2,374 casualties in the U.S. V Corps' count, adding killed, wounded and missing. The Allied dead for the whole day, on all the beaches, in the air and at sea, were 4,414 in the National D-Day Memorial's historical count and 4,436 in the updated list. At Utah, next door, casualties were 197."
+    }
+  ],
+  "perguntas": [
+    {"p": "What was D-Day?", "r": "It was the Allied landing in Normandy, in northern France, on 6 June 1944: about 156,000 soldiers came down by sea and by air in five beach sectors — Utah and Omaha, American; Gold and Sword, British; Juno, Canadian."},
+    {"p": "Why was D-Day in Normandy and not Calais?", "r": "Because the Pas-de-Calais, the shortest route across the English Channel, was the obvious place and therefore the most fortified. Normandy was less defended, within range of fighters based in England and had ports nearby, such as Cherbourg."},
+    {"p": "How many died on D-Day?", "r": "On the Allied side, 4,414 dead in the National D-Day Memorial's historical count and 4,436 in the updated list, 2,519 of them Americans. Total Allied casualties were between more than 9,000 and 10,500, and German casualties between 4,000 and 9,000, depending on the source."},
+    {"p": "Who led D-Day?", "r": "On the Allied side, General Dwight D. Eisenhower, Supreme Commander, with Bernard Montgomery in command of the ground forces in the assault. On the German side, Gerd von Rundstedt commanded in the West and Erwin Rommel led Army Group B, but Rommel was at home, in Germany, on the day."},
+    {"p": "Why was D-Day on June 6?", "r": "The landing needed a moon close to full and a rising low tide at dawn, which gave the window from 5 to 7 June. The 5th was postponed because of bad weather; the meteorologist James Stagg forecast a short improvement, and Eisenhower decided on 6 June."}
+  ],
+  "fontes": [
+    {"texto": "Gordon A. Harrison, Cross-Channel Attack (United States Army in World War II), Center of Military History, 1951 — ch. VII, German Defense Measures, 1944."},
+    {"texto": "Gordon A. Harrison, Cross-Channel Attack, ch. VIII, The Sixth of June."},
+    {"texto": "C. P. Stacey, The Victory Campaign: The Operations in North-West Europe, 1944–1945, official history of the Canadian Army, 1960 — ch. 6."},
+    {"texto": "U.S. Army Center of Military History, Normandy (campaign brochure)."},
+    {"texto": "Dennis Showalter, \"The Convenient Opponent: The Wehrmacht and D-Day\", Eisenhower Lecture, Kansas State University."},
+    {"texto": "Robert M. Citino, \"D-Day Through a German Lens\", MHQ, 2017."},
+    {"texto": "John Curatola, \"Pressure: The D-Day Weather Forecast Story\", The National WWII Museum."},
+    {"texto": "National D-Day Memorial Foundation, The Necrology Project."},
+    {"texto": "The D-Day Story, Portsmouth, \"What is D-Day?\"."},
+    {"texto": "Juno Beach Centre, \"Canada on D-Day by the Numbers\"."},
+    {"texto": "Roger Fleetwood-Hesketh, Fortitude: The D-Day Deception Campaign, 2000 (as cited)."},
+    {"texto": "Operation Fortitude — English Wikipedia."},
+    {"texto": "Normandy landings — English Wikipedia."}
+  ],
+  "imagens": [
+    {
+      "alt": "View from inside a landing craft with the ramp lowered: soldiers with packs and helmets wade waist-deep toward a flat beach, under low clouds",
+      "legenda": "American soldiers leave a Coast Guard landing craft for Omaha, on the morning of 6 June 1944. At Omaha, V Corps counted 2,374 casualties on the day, killed, wounded and missing.",
+      "autor": "Robert F. Sargent, U.S. Coast Guard · NARA 26-G-2343"
+    },
+    {
+      "alt": "A general in a peaked cap and dark uniform talks, fist clenched, with paratroopers with blackened faces and full kit, in a camp with tents in the background",
+      "legenda": "Eisenhower talks with paratroopers of the 101st Airborne Division at Greenham Common, England, on the evening of 5 June 1944 — hours after deciding, on James Stagg's forecast, that the landing would go in the next day.",
+      "autor": "Unidentified photographer, U.S. Army Signal Corps · NARA 778813 (SC-194399)"
+    },
+    {
+      "alt": "Long beach with rows of anti-tank obstacles made of crossed steel beams and concrete blocks, with seafront buildings and a cliff in the background",
+      "legenda": "Anti-tank obstacles on a beach in the Pas-de-Calais on 18 April 1944. It was the coast the German command most expected to see attacked, and the most fortified — the reason the Allies ruled it out.",
+      "autor": "Jesse · Bundesarchiv, Bild 101I-719-0240-05"
+    },
+    {
+      "alt": "A field marshal in cap and uniform speaks with soldiers in camouflaged helmets, lined up in front of a self-propelled gun in a wood",
+      "legenda": "Rommel visits the 21st Panzer Division in May 1944. It was the only armored division within reach of the beaches on 6 June; the four of the high command's reserve could only move on Hitler's order.",
+      "autor": "Speck · Bundesarchiv, Bild 101I-300-1865-06"
+    },
+    {
+      "alt": "Hand-drawn military sketch on bluish paper, with the coastline at the top, roads, villages and attack arrows annotated with dates",
+      "legenda": "American sketch from June 1944, on the Isigny sheet of the 1:50,000 map: the stretch from Omaha to Pointe du Hoc, with the defensive perimeter ordered at the end of D-Day and the advances of 8 to 12 June. At the end of the first day, the beachhead at Omaha was far from the planned line.",
+      "autor": "U.S. Army · NARA 18558250"
+    }
+  ]
+}

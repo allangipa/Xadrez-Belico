@@ -1,0 +1,259 @@
+{
+  "_nota": "Tradução fiel de ../03-fornovo-di-taro.json. Campos fixos (num, slug, estreia, proximo, relacionados, conf, arquivo, licenca, licenca_url, origem_url, tipo, ano, foco, url) vêm do original.",
+  "batalha": "Fornovo di Taro",
+  "nome_busca": "Battle of Fornovo di Taro",
+  "titulo_video": "Why the FEB captured an entire German division at Fornovo",
+  "lugar": "Collecchio and Fornovo di Taro, Parma, Emilia-Romagna, Italy",
+  "data": "26 to 29 April 1945",
+  "campanha": "The FEB in Italy",
+  "pergunta": "How did an entire German division, with its command, surrender to the FEB in the Taro valley?",
+  "resumo": "April 1945, Fornovo di Taro: Brazil's FEB blocks the exit of the Taro valley and the German 148th Division surrenders whole, command and all. 14,779 men.",
+  "abertura": [
+    "The last battle of the Brazilian Expeditionary Force in World War II was not an assault on a hill or the capture of a town. Between 26 and 29 April 1945, at Collecchio and Fornovo di Taro, in the province of Parma, northern Italy, the FEB placed itself at the exit of a valley through which a German column had to pass, and waited for the opponent to understand the position.",
+    "He understood slowly. There was contact, a priest carrying messages, an ultimatum with a two-hour deadline left to expire, an attack and a night of negotiation. In the end, the German 148th Infantry Division surrendered unconditionally, with its general and staff: 14,779 men counted, 4,000 horses, 80 guns. In the Italian Campaign, no other German division was captured whole, with its command, by an Allied force."
+  ],
+  "numeros": [
+    {
+      "valor": "14,779",
+      "rotulo": "prisoners in the final count of the surrender"
+    },
+    {
+      "valor": "4,000",
+      "rotulo": "horses handed over"
+    },
+    {
+      "valor": "80",
+      "rotulo": "guns of various calibers"
+    },
+    {
+      "valor": "2 h",
+      "rotulo": "deadline in the ultimatum of 28 April"
+    },
+    {
+      "valor": "31",
+      "rotulo": "staff officers with Fretter-Pico when he gave himself up"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Battle",
+      "valor": "Collecchio–Fornovo: the encirclement closes at Collecchio, the surrender takes place in the Taro valley, around Fornovo di Taro"
+    },
+    {
+      "item": "Brazilian forces",
+      "valor": "1st Expeditionary Infantry Division: 6th Infantry Regiment (Ipiranga Regiment), carrying the weight of the negotiation and the attack; 11th and 1st Infantry Regiments; Captain Pitaluga's Reconnaissance Squadron in the first contact"
+    },
+    {
+      "item": "Brazilian strength committed",
+      "valor": "not recorded in the sources consulted"
+    },
+    {
+      "item": "Allied support",
+      "valor": "American armor in support",
+      "nota": "The sources do not agree on which American armored unit was present; for that reason none is named here."
+    },
+    {
+      "item": "Axis forces",
+      "valor": "German 148th Infantry Division, with elements of the 90th Panzergrenadier Division; 1st Bersaglieri Division \"Italia\" and 4th Alpini Division \"Monterosa\", of Fascist Italy"
+    },
+    {
+      "item": "Brazilian command",
+      "valor": "General Mascarenhas de Moraes (division); Colonel Nelson de Melo (6th Infantry Regiment), who gave the ultimatum and ordered the attack"
+    },
+    {
+      "item": "German command",
+      "valor": "Generalleutnant Otto Fretter-Pico (148th Infantry Division); Major W. Kuhn, chief of staff, who conducted the negotiation"
+    },
+    {
+      "item": "Terrain",
+      "valor": "the valley of the Taro River, a corridor between ridges with the road along the bottom, running down from the Apennines to the Po plain; Collecchio lies at the northern exit, southwest of Parma"
+    },
+    {
+      "item": "Objective",
+      "valor": "to close the 148th's escape route to the north, instead of taking positions one by one"
+    },
+    {
+      "item": "Duration",
+      "valor": "26 to 29 April 1945; the rounding-up of prisoners runs until 18:00 on 30 April"
+    },
+    {
+      "item": "Brazilian casualties",
+      "valor": "there were Brazilian dead; there is no settled, reliable figure for the battle as a whole"
+    },
+    {
+      "item": "German casualties",
+      "valor": "not recorded in the sources consulted"
+    },
+    {
+      "item": "Prisoners",
+      "valor": "14,779, formal count of the surrender (Army General Personnel Department, Brazilian Army Blog, Forças Terrestres, Portuguese Wikipedia)",
+      "nota": "Variants: 14,777 (Jornalismo de Guerra), \"about 15,000\" (note in the Brazilian Army Blog), a range of 14,700 to 15,500 (English Wikipedia)."
+    },
+    {
+      "item": "Matériel captured",
+      "valor": "4,000 horses, 80 guns, a great deal of ammunition and hundreds of horse-drawn vehicles; motor vehicles: 1,500 or 2,500, depending on the source",
+      "nota": "The Brazilian Army Blog and both Wikipedias say 1,500 vehicles; DefesaNet, Forças Terrestres and the General Personnel Department say 2,500. No source explains the difference."
+    },
+    {
+      "item": "Result",
+      "valor": "unconditional surrender of the 148th Division, with its command: the only German division captured whole by an Allied force in the Italian Campaign"
+    },
+    {
+      "item": "Afterwards",
+      "valor": "on 30 April, at 18:00, Fretter-Pico gives himself up with 31 staff officers; Fornovo is the FEB's last battle of the war"
+    }
+  ],
+  "lances": [
+    {
+      "titulo": "The board: a funnel with its exit to the north",
+      "paragrafos": [
+        "In April 1945 the German front in Italy gives way, and the divisions that were in the Apennines have to come down to the Po plain and head north before the roads are cut. In the Parma region, whoever comes down from the mountains has few ways out, and the valley of the Taro River is one of them.",
+        "The valley is a corridor between ridges, with the road along the bottom. It is good for moving fast and terrible for being surprised: whoever is inside has nowhere to turn aside. At the northern mouth of the corridor, already on the plain and southwest of Parma, lies Collecchio.",
+        "That is the fact that decides the episode before a single shot. In a funnel, whoever controls the exit does not need to attack anyone. It is enough to get there first and make it clear that he is staying.",
+        "That is why the battle has two names. It is usually remembered as Fornovo, where the German column ended up cornered, but the more precise name is Collecchio–Fornovo: Collecchio is where the encirclement closes, and Fornovo, upriver, is where the encircled piece is stuck with nowhere to go."
+      ]
+    },
+    {
+      "titulo": "The pieces: a column that cannot maneuver",
+      "paragrafos": [
+        "Inside the funnel comes the German 148th Infantry Division, under Generalleutnant Otto Fretter-Pico, with elements of the 90th Panzergrenadier Division and two divisions of Fascist Italy, the Bersaglieri \"Italia\" and the Alpini \"Monterosa\". The inventory at the end tells what this column was: 4,000 horses, 80 guns of various calibers and hundreds of horse-drawn vehicles.",
+        "A force like that, on a valley road, is long and slow. It does not leave the road, it does not change direction easily. It advances or it stops. From the point of view of the board, it is a powerful piece with very few moves available.",
+        "On the other side comes the 1st Expeditionary Infantry Division, under General Mascarenhas de Moraes, coming down in pursuit. Captain Pitaluga's Reconnaissance Squadron makes the contact; behind it come the infantry regiments, and the one that carries the weight of the next four days is the 6th Infantry Regiment, the Ipiranga Regiment, under Colonel Nelson de Melo. The 11th and 1st Regiments also come in."
+      ]
+    },
+    {
+      "titulo": "26 April: sitting on the exit square",
+      "paragrafos": [
+        "On 26 April, after two days of marching and fighting, the FEB reaches Collecchio and finds the 148th positioned there. There is a clash between the 6th Infantry Regiment and the Germans on that very first day.",
+        "The move is this: the Brazilians do not go after the column to destroy it; they get in front of it and occupy the exit. With American armor in support, the column now has ridges on both sides and Brazilians in the only door that mattered.",
+        "What this move demands is not strength, it is speed and direction. The FEB had to reach the exit before the head of the column and have enough infantry there that going through it would cost dearly. Once in place, every hour played in favor of whoever was at the door: the column inside the valley was using up time, and the German front behind it kept falling back.",
+        "The capturing piece, here, is not the one that strikes. It is the one that occupies the square the opponent needed to reach."
+      ]
+    },
+    {
+      "titulo": "27 and 28 April: the priest, the question and the clock",
+      "paragrafos": [
+        "At around 15:00 on 27 April, the commander of the 6th Infantry Regiment does not order an attack: he sends a message. The envoy is the priest Dom Alessandro Cavalli, who crosses the lines proposing surrender. At 20:30 he comes back with the German command's answer, which does not refuse. It asks for the terms.",
+        "A command that asks for the terms has already read the position. At 9:00 on the 28th the priest crosses again, now with Colonel Nelson de Melo's formal ultimatum and a two-hour deadline. Before noon the answer comes through Major W. Kuhn, the German chief of staff: they are awaiting instructions.",
+        "It is neither yes nor no. It is time. Fretter-Pico had asked for time, been given time, and was using the time to wait for orders that did not come, while the whole German front was collapsing behind him. In chess, he is the player who lets the clock run in a position that only gets worse."
+      ]
+    },
+    {
+      "titulo": "13:00 on 28 April: the attack that proves the encirclement",
+      "paragrafos": [
+        "The ultimatum expired without an answer, and at 13:00 the Brazilian commander orders the attack. It is the only thing that kept the ultimatum standing: an encirclement only works if those inside believe in it, and a deadline that expires without consequence turns the encirclement into a bluff.",
+        "The attack was not meant to take Fornovo. It was meant to show that the exit was truly closed. The fighting that day is described by the sources as fierce, and Brazilians died in it.",
+        "From then on the reckoning on the German side changes in nature. It is no longer a matter of how to escape, but of how much it costs to keep trying.",
+        "The whole sequence is worth a look, because it is what answers those who say there was no battle: proposal at 15:00 on the 27th, request for terms at 20:30, ultimatum at 9:00 on the 28th, evasive answer before noon, attack at 13:00. Nine hours after the attack, the same major who had been asking for instructions comes back asking to negotiate. What changed between one visit and the other was the attack."
+      ]
+    },
+    {
+      "titulo": "From the small hours to the 30th: the surrender",
+      "paragrafos": [
+        "At 22:00 on that same 28th, Major Kuhn reappears, now to negotiate the surrender. The negotiation runs through the night, from midnight to 5:30 on 29 April. At noon there is a new meeting, with General Mascarenhas de Moraes present, and at around 13:00 the surrender begins, with ambulances taking away the German wounded.",
+        "The surrender is unconditional. Rounding up the prisoners takes more than a day and only ends at 18:00 on 30 April, when Fretter-Pico gives himself up with 31 officers of his staff.",
+        "The final count records 14,779 prisoners, 4,000 horses and 80 guns, plus a great deal of ammunition and hundreds of horse-drawn vehicles. This is not a unit falling apart piece by piece: it is a division handed over all at once, command and all.",
+        "The size of the feat lies in its scope, and it must be stated precisely. From the invasion of Sicily, in July 1943, to the spring offensive of 1945, the 148th is the only German division captured whole, with its command, by an Allied force in the Italian Campaign. For the war as a whole, the superlative does not hold up; for the Italian theater, it does."
+      ]
+    }
+  ],
+  "veredito": [
+    "It worked because the FEB played the square, not the piece. From the invasion of Sicily, in July 1943, to the spring offensive of 1945, German divisions were badly beaten in Italy, but all of them managed to fall back north without surrendering. At Fornovo the difference was not the damage inflicted; it was that the Brazilians occupied the escape square before the column reached it.",
+    "The mistake on the other side was one of reading the time. Fretter-Pico understood the position on the night of the 27th, when he asked for the terms, and still treated the deadline as a resource. At 22:00 on the 28th, when Kuhn came back to negotiate, the position was worse than at 9:00 that morning, because in between there had been an attack proving that the door was shut.",
+    "It is the difference between damaging a piece and capturing it. There was no checkmate by assault: there was the position in which the opponent runs out of moves, looks at the board and tips over his king."
+  ],
+  "mitos": [
+    {
+      "circula": "There was no battle at Fornovo: the Germans were already finished and gave themselves up on their own, in a mere encounter of troops.",
+      "registro": "That version comes from the defeated. Lotar Mull, a former German officer, declared that there was no battle of Fornovo, only an encounter of troops, and Fretter-Pico's daughter said her father called the episode \"that thing\" (our translation) and found the Brazilian celebration amusing (accounts gathered by Jornalismo de Guerra). The record shows four days of operations, a clash of troops at Collecchio on 26 April, an ignored ultimatum, an attack ordered at 13:00 on 28 April, Brazilian dead and an unconditional surrender of 14,779 men. A division too finished to fight does not need a deadline, a priest as envoy or a night of negotiation."
+    },
+    {
+      "circula": "About 20,000 Germans surrendered to the FEB at Fornovo.",
+      "registro": "These are three different numbers measuring three different things. The formal count of the surrender at Collecchio–Fornovo is 14,779. The \"about 20,000\" that appears in part of the press describes the men sent to the assembly areas at Ponte Scodogna. And the 20,573 cited in some articles is the total of prisoners taken by the FEB in the whole campaign, not at Fornovo."
+    },
+    {
+      "circula": "It was the only German division captured whole in all of World War II.",
+      "registro": "The superlative has a scope, and the scope is the Italian Campaign: the 148th was the only German division captured whole, with its command, by an Allied force in that theater, from Sicily in 1943 to the final offensive of 1945. Extending it to the whole war is claiming what the sources do not say."
+    }
+  ],
+  "perguntas": [
+    {
+      "p": "What happened at Fornovo di Taro in World War II?",
+      "r": "Between 26 and 29 April 1945, the FEB occupied the exit of the Taro valley and cornered the column of the German 148th Infantry Division. After an ultimatum, an attack and a night of negotiation, the division surrendered unconditionally, with its general and staff."
+    },
+    {
+      "p": "How many Germans surrendered to the FEB at Fornovo di Taro?",
+      "r": "The formal count of the surrender records 14,779 prisoners, plus 4,000 horses and 80 guns. The figure of about 20,000 that circulates describes the men taken to the assembly areas at Ponte Scodogna, and the 20,573 is the FEB's total of prisoners in the whole campaign."
+    },
+    {
+      "p": "When was the surrender at Fornovo di Taro?",
+      "r": "The surrender began at around 13:00 on 29 April 1945, after a negotiation that ran from midnight to 5:30. The rounding-up of prisoners only ended at 18:00 on 30 April, when Fretter-Pico gave himself up with 31 staff officers."
+    },
+    {
+      "p": "Who commanded the FEB at Fornovo di Taro?",
+      "r": "The division was General Mascarenhas de Moraes's; Colonel Nelson de Melo, of the 6th Infantry Regiment, gave the ultimatum and ordered the attack. On the German side, the 148th Division was under Generalleutnant Otto Fretter-Pico, and the one who negotiated was Major W. Kuhn."
+    },
+    {
+      "p": "Was there really a battle at Fornovo di Taro?",
+      "r": "Yes. The version that there was no battle comes from the defeated; the record shows a clash of troops at Collecchio on 26 April, an ignored ultimatum, an attack at 13:00 on 28 April and Brazilian dead before the surrender."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "Brazilian Army General Personnel Department, \"29 April — Capture of Fornovo and surrender of the German 148th Infantry Division\""
+    },
+    {
+      "texto": "Brazilian Army Blog, \"80 years since the surrender of the German 148th Infantry Division\""
+    },
+    {
+      "texto": "Brazilian Army Blog, \"FEB victory at Fornovo — 28 Apr 1945\""
+    },
+    {
+      "texto": "Forças Terrestres, \"73 years ago, the German 148th Infantry Division surrendered to the FEB\""
+    },
+    {
+      "texto": "DefesaNet, \"Surrender of the German 148th Infantry Division to the FEB\""
+    },
+    {
+      "texto": "Jornalismo de Guerra, \"FEB: at Fornovo, the surrender was unconditional, but the defeated made light of it years later\""
+    },
+    {
+      "texto": "Portuguese Wikipedia, \"Batalha de Fornovo di Taro\""
+    },
+    {
+      "texto": "English Wikipedia, \"Battle of Collecchio\""
+    }
+  ],
+  "imagens": [
+    {
+      "alt": "1944 topographic military map with the Taro River in a wide braided bed, the town of Fornovo di Taro and national road 62 running along the valley.",
+      "legenda": "Fornovo di Taro and the Taro valley on the Army Map Service Italy 1:50,000 map, sheet 73-III Salsomaggiore, of 1944. National road 62 runs along the valley floor, toward the Po plain.",
+      "autor": "Army Map Service, U.S. Army (Italy 1:50,000, series 4229, sheet 73-III Salsomaggiore)"
+    },
+    {
+      "alt": "1944 topographic military map of the plain southwest of Parma, with Collecchio in the lower left corner and the city of Parma at upper right.",
+      "legenda": "Collecchio, at the exit of the valley, and Parma on the Army Map Service Italy 1:50,000 map, sheet 73-II Parma, of 1944. It was at Collecchio that the FEB placed itself in front of the German column.",
+      "autor": "Army Map Service, U.S. Army (Italy 1:50,000, series 4229, sheet 73-II Parma)"
+    },
+    {
+      "alt": "Panoramic view of a narrow valley between wooded ridges, with the Taro River running along the bottom.",
+      "legenda": "The Taro valley seen from Pietramogolana, in Berceto, upstream of Fornovo. Photo from 2022: the vegetation and buildings are today's, but the corridor between the ridges is the same.",
+      "autor": "Parma1983"
+    },
+    {
+      "alt": "Teams of horses pulling covered wagons on a road at night, with soldiers in the background.",
+      "legenda": "German horse teams and wagons on an Italian road, at night, in 1944. This is not the 148th nor the Taro valley: it is the kind of horse-drawn column that does not leave the road and cannot maneuver.",
+      "autor": "Bundesarchiv, Bild 101I-315-1111-11 / Lüthge"
+    },
+    {
+      "alt": "German prisoners walking down a dirt road escorted by an American soldier, with armored vehicles parked beside a stone house.",
+      "legenda": "German prisoners taken to the rear of the 5th Army at Campidello, Italy, on 15 April 1945, two weeks before Fornovo. They are not FEB prisoners: the photo shows the same final offensive, in another sector.",
+      "autor": "U.S. Army Signal Corps (SC 205360)"
+    },
+    {
+      "alt": "Profile portrait of an officer in glasses and a side cap, with the smoking-snake badge on his shoulder.",
+      "legenda": "General Mascarenhas de Moraes, commander of the 1st Expeditionary Infantry Division, at Montese. He was present at the meeting of 29 April that opened the surrender of the 148th.",
+      "autor": "unknown author"
+    }
+  ]
+}

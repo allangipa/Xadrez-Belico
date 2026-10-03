@@ -1,0 +1,253 @@
+{
+  "_nota": "Tradução fiel de ../19-tuiuti.json. Campos fixos (num, slug, estreia, proximo, relacionados, conf, arquivo, licenca, licenca_url, origem_url, tipo, ano, foco, url) vêm do original. Em inglês o nome usual é Tuyutí (First Battle of Tuyutí).",
+  "batalha": "Tuyutí",
+  "nome_busca": "Battle of Tuyutí",
+  "titulo_video": null,
+  "lugar": "Tuyutí (Tuiuti), between the Estero Bellaco and the Estero Rojas, Ñeembucú Department, Paraguay, on the road from Paso de Patria to Humaitá",
+  "data": "24 May 1866",
+  "campanha": "Paraguayan War, 1866",
+  "pergunta": "Why did the Paraguayan surprise attack on the Allied camp among the swamps of Tuyutí become the largest pitched battle in South America — and why was surprise not enough?",
+  "resumo": "At the Battle of Tuyutí in 1866, López attacked the Allied camp among the swamps by surprise. The signal came hours late; the enemy was under arms.",
+  "abertura": [
+    "On 20 May 1866 the Allied army — Brazilians, Argentines and Uruguayans — encamps at Tuyutí, a patch of dry high ground surrounded by swamps and brush in southern Paraguay, on the way to the fortress of Humaitá. Riachuelo had given the Allies the river; now they were on land, on the other side of the Paraná. Four days later, Francisco Solano López throws about 24,000 men against them, in a surprise attack on three fronts.",
+    "It has been considered the largest pitched battle in South America, and certainly the bloodiest: about 13,000 Paraguayan casualties in five hours. The question on this page is why a surprise attack, well designed, against an opponent backed up against the swamp, ended this way. The answer lies in the clock and in the terrain."
+  ],
+  "numeros": [
+    {
+      "valor": "~55,000",
+      "rotulo": "men on the field: about 24,000 Paraguayans against 32,000 to 35,000 Allies, depending on the source"
+    },
+    {
+      "valor": "9:00 → noon",
+      "rotulo": "the time the signal was expected, according to the Paraguayan-side witness, and the time it was given"
+    },
+    {
+      "valor": "5 hours",
+      "rotulo": "of combat, from late morning until 16:00 or 16:30"
+    },
+    {
+      "valor": "~6,000",
+      "rotulo": "Paraguayan dead; about 13,000 casualties, more than half of those who attacked"
+    },
+    {
+      "valor": "996",
+      "rotulo": "Allied dead in the official count, out of a total of nearly 4,000 casualties; other counts reach 8,000"
+    },
+    {
+      "valor": "4",
+      "rotulo": "howitzers brought by the Paraguayans to the attack — all four were taken. The Paraguayan artillery stood idle"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Paraguay — forces",
+      "valor": "about 24,000 men in the attack, with strong cavalry; the sources range from 22,000 to 26,000",
+      "nota": "George Thompson, an English engineer in Paraguayan service, counts 23,000 in the attack, out of an army of 25,000."
+    },
+    {
+      "item": "Allies — forces",
+      "valor": "32,000 to 35,000: about 21,000 Brazilians, 10,000 to 12,000 Argentines and 1,200 to 1,400 Uruguayans. A good part of the Allied cavalry was on foot, for lack of horses"
+    },
+    {
+      "item": "Paraguay — command",
+      "valor": "Francisco Solano López, who followed from a distance; on the field, General Vicente Barrios (right), Colonels José Eduvigis Díaz and Hilario Marcó (center) and General Francisco Isidoro Resquín (left)"
+    },
+    {
+      "item": "Allies — command",
+      "valor": "Bartolomé Mitre, Argentine president and commander-in-chief; Manuel Luís Osório (Brazilians); Venancio Flores, Uruguayan president (vanguard, in the center); Lieutenant Colonel Emílio Mallet (1st Horse Artillery Regiment); Brigadier Antônio de Sampaio (3rd Division)"
+    },
+    {
+      "item": "Terrain",
+      "valor": "dry high ground between the Estero Bellaco to the south, the Potrero Piris and the Laguna Piris to the west and the Estero Rojas to the north. The esteros have 1 to 2 meters of water over mud, with dense reeds: they can only be crossed at the fords and by trails through the brush",
+      "nota": "The description of the estero is Thompson's, who built the Paraguayan trenches."
+    },
+    {
+      "item": "Paraguayan plan",
+      "valor": "frontal attack on the center and double envelopment: Barrios through the brush to the Potrero Piris, in the rear of the Allied left; Resquín around the Allied right; the two cavalry forces were to meet behind the Allies"
+    },
+    {
+      "item": "Columns",
+      "valor": "three fronts of attack; four columns in the count that separates Díaz and Marcó in the center",
+      "nota": "Thompson and Osório's combat report speak of three columns."
+    },
+    {
+      "item": "The signal",
+      "valor": "depended on Barrios, who had the longest route. Expected at 9:00 according to Thompson; it came close to noon — 11:30 for Thompson, 11:55 in Brazilian military historiography, \"from 11 to 12\" in Osório's report (our translation)"
+    },
+    {
+      "item": "Duration",
+      "valor": "about five hours; ended at 16:00 (Thompson) or 16:30 (Osório)"
+    },
+    {
+      "item": "Paraguayan casualties",
+      "valor": "about 6,000 dead and 13,000 casualties in total (Thompson, from the Paraguayan side, and the standard count). Osório, two days later, spoke of more than 3,000 dead on the field, 2,200 already buried"
+    },
+    {
+      "item": "Allied casualties",
+      "valor": "996 dead and about 3,000 wounded in the standard count (737 Brazilian dead); Osório, on 26 May, recorded 413 Brazilians dead and 2,094 wounded. Thompson and Thomas Whigham's encyclopedia entry speak of about 8,000 Allied casualties"
+    },
+    {
+      "item": "Prisoners",
+      "valor": "few, almost all wounded: about 350 according to Thompson, 180 in Osório's report"
+    },
+    {
+      "item": "Outcome",
+      "valor": "Paraguayan attack repulsed along the whole line. Brigadier Sampaio, wounded three times, dies on 6 July 1866, aboard the steamer Eponina"
+    },
+    {
+      "item": "Aftermath",
+      "valor": "the Allies do not pursue, having no horses, and stay in the camp until September. Paraguay never again assembles a force of that size and from then on fights mostly from trenches — Curupayty, Humaitá"
+    }
+  ],
+  "lances": [
+    {
+      "titulo": "The board: a camp backed against the swamp",
+      "paragrafos": [
+        "On 11 June 1865, at Riachuelo, the Brazilian squadron took from Paraguay the ability to contest the river. In April 1866 the Allies crossed the Paraná at Paso de Patria and entered Paraguayan territory. On 2 May López attacked Venancio Flores's vanguard at the Estero Bellaco and was repulsed. On 20 May the Allies encamped at Tuyutí; that same day López moved his headquarters to Paso Pucú, a few kilometers to the north.",
+        "Tuyutí was dry high ground between swamps. To the south lay the Estero Bellaco; to the west, the Potrero Piris and the Laguna Piris; to the north, the Estero Rojas and the Paraguayan trenches. George Thompson, the English engineer who built those trenches for López, described the esteros like someone who had measured them: 1 to 2 meters of water over deep mud, reeds taller than a man and so dense they were almost impassable. One could only get through at the fords, where the reeds had been pulled out, and even there with water up to the waist. All around, brush of thorns and creepers where one could barely see twenty meters.",
+        "The swamp protected the Allies and, at the same time, hemmed them in. But it also decided where an attacker could come out: through a few fords and trails, known or still to be cut. That is the board on which López chose to play."
+      ]
+    },
+    {
+      "titulo": "The plan: attack before being attacked",
+      "paragrafos": [
+        "Until 23 May, according to Thompson, the Paraguayan plan was to wait. When the Allies attacked the trenches at Paso Gómez, 10,000 men would come out of the Potrero Sauce along a road already cut through the brush — only a few meters remained to break through — and fall on the Allied rear. López changed his mind on 23 May. A year later, he explained to Thompson that he had learned of Bartolomé Mitre's plan to attack on the 25th, did not like it and decided to prevent it by attacking first.",
+        "The new plan was a frontal attack with a double envelopment. Colonels José Eduvigis Díaz and Hilario Marcó would attack the center, coming out of the brush unseen. General Francisco Isidoro Resquín, formed up before dawn behind the palm groves of Yataity Corá, would attack the Allied right, where the Argentines were. General Vicente Barrios would march along the edge of the swamp to the Potrero Piris and form up there, in the rear of the Allied left, where the Brazilians were. The cavalry of Barrios and of Resquín were to meet behind the camp. It was an encirclement.",
+        "Everything depended on simultaneity, and simultaneity depended on Barrios, who had the longest route. That is why the signal for the general attack would only be given when he was ready: a cannon shot from Paso Gómez, in Thompson's version; a rocket, in others. Barrios's route was a trail cut under the brush, along the edge of the swamp, where the men passed one by one and the horsemen dismounted, leading their horses."
+      ]
+    },
+    {
+      "titulo": "The clock: the signal comes close to noon",
+      "paragrafos": [
+        "Thompson, who spent that day at López's side, wrote that Barrios was expected at the other end of the defile at 9:00. He only got through at 11:30, and only then was the signal given. Brazilian military historiography records 11:55; Osório, in the combat report he sent to Mitre on 26 May, says the attack came \"from 11 to 12 in the morning\" (our translation); the contemporary sketch by Major Conrado Bitancourt starts the positions at 11:15. The versions differ on the minute and agree on the essential: the attack that was supposed to come in the morning went in close to noon.",
+        "And it found the opponent formed up. \"Fortunately for the Allies,\" Thompson wrote, \"they happened to be all under arms\": Mitre was going to carry out a reconnaissance in force against the Paraguayan lines that day. The surprise had two conditions — arrive unseen and arrive before the opponent formed up. The first worked in part: Díaz and Resquín came out of the brush and the palm groves without being noticed. The second stayed behind on Barrios's trail.",
+        "Three minutes after the signal, according to Thompson, the fighting was general along the whole line, and the rifle fire was one continuous sound, broken by the Allied guns."
+      ]
+    },
+    {
+      "titulo": "The center and the artillery",
+      "paragrafos": [
+        "In the center, Díaz attacked Flores's vanguard. To reach it, his men had to cross a deep swamp, under fire from the Allied artillery and rifles from the moment they left the brush; Thompson wrote that the swamp was literally filled with dead. Even so the attack opened a breach where the Uruguayans stood. Brigadier Antônio de Sampaio counterattacked with the 3rd Division and held through hours of back-and-forth — Thompson says that Brazilians and Paraguayans pushed each other back three times between the Bellaco and the brush. Sampaio was wounded three times, on his 56th birthday, and died on 6 July. Osório plugged the breach with Argolo's 1st Division and a brigade of Guilherme's 4th, and the 6th Division closed the gap between Flores and the artillery.",
+        "The artillery is at the center of the explanation. In front of the vanguard stood Lieutenant Colonel Emílio Mallet's 1st Horse Artillery Regiment. According to Brazilian military historiography, Mallet had a wide, deep ditch dug in front of the guns, with the earth spread out so as not to give away the obstacle, and the charges of the Paraguayan cavalry stopped at it, under canister. The sources differ on the number of guns — 24, 28 or 30 — and the phrase the Army's tradition attributes to Mallet, \"they shall not pass through here\" (our translation), appears in three wordings and without any contemporary document. The record from the other side is more general and harsher: Thompson wrote that the Allies had all their artillery in action, almost all of it rifled, while the Paraguayan artillery stood idle. The Paraguayans brought only four howitzers to the attack, and all four were taken.",
+        "Thompson adds the weaponry: almost no rifled musket on the Paraguayan side, most of the weapons still flintlocks, against an Allied army in which there was no small arm that was not rifled."
+      ]
+    },
+    {
+      "titulo": "The flanks: the encirclement that came late",
+      "paragrafos": [
+        "On the Paraguayan left, Resquín's cavalry swept everything before it in the first charge: it scattered the Corrientes cavalry of Generals Cáceres and Hornos, much of which was on foot. Part of it reached the Argentine artillery, and there, without support, was destroyed by the Argentine reserve. Resquín's infantry went in afterward and was broken by the Argentine artillery and infantry. The cavalry reserve tried to go around the Allied right through the palm grove to meet Barrios and was repulsed. Only one officer, Major Olabarrieta, got through the line with some twenty men and reached the meeting point. Barrios had already been beaten. He fought his way back, almost alone and wounded.",
+        "On the Paraguayan right, Barrios finally emerged into the Potrero Piris, in the rear of the Brazilian left. He ran into the light brigade of General Antônio de Souza Netto, and Osório sent there Mena Barreto's 2nd Cavalry Division, with infantry and artillery. The plan of the camp drawn by the engineer André Rebouças in June 1866 shows the Brazilian cavalry fighting on foot in the Potrero Pires. Osório wrote that he personally directed that last fight, and that the Paraguayan remnants only escaped through three trails cut in the brush.",
+        "The title of Bitancourt's sketch sums up what went wrong with the plan: the positions from 11:15 to 3 in the afternoon, and \"from those hours to 4 1/2\", when the enemy, \"making its way through the woods, attacked the left flank with all its forces\" (our translation). The flank blow, which was supposed to close the encirclement at the start, came last, after the center and the Paraguayan left had already broken."
+      ]
+    },
+    {
+      "titulo": "The price and the aftermath",
+      "paragrafos": [
+        "At 16:00, according to Thompson, or at 16:30, according to Osório, it was over. Thompson counts 6,000 Paraguayans dead on the field and 7,000 wounded taken to the Paraguayan hospitals; the standard count stays at the same 13,000, more than half of those who attacked. Osório, two days later, recorded more than 3,000 enemy dead on the field and 2,200 already buried. There were almost no unwounded prisoners: about 350, all wounded, for Thompson; 180, in Osório's report. On the Allied side, the official count gives 996 dead and nearly 4,000 casualties; Thompson and the encyclopedia entry by the historian Thomas Whigham speak of about 8,000.",
+        "López did not see the battle. Thompson, who was with him, says he stayed in a wood from which he could see the smoke and nothing else, and that at night he had the bands play so that his own camp would believe in a victory. He only learned the size of the loss the next day. The 10,000 men who had been neither killed nor wounded took days to be gathered up.",
+        "The Allies did not pursue: they had no horses. They stayed in the camp, which they entrenched, until September. Thompson thought that, after 24 May, they could have gone around the Paraguayan left almost without losses and reached Humaitá from the rear; instead, he wrote, they were paralyzed. Paraguay never again assembled a force of that size, and the war became a war of trenches, with the fortress of Humaitá closing the river."
+      ]
+    }
+  ],
+  "veredito": [
+    "The Paraguayan surprise was real, but it was a synchronized surprise, and the synchronization depended on the piece with the hardest route. The swamp delayed that piece; the delay gave the opponent time to be formed up; and against a formed-up army, deployed in depth, with rifled artillery and reserves that its commander used, attacking through narrow swamp passages, without its own artillery and without committing the reserve, could only end in slaughter. Each column arrived at a different time, and the flank blow that was supposed to close the encirclement came last.",
+    "In chess terms, it is the combination that only works if three pieces arrive together, played on a board where one of them has to cross the brush in single file. López had earlier had a plan of the opposite shape — wait for the Allied attack and fall on its rear by a road already cut, letting the opponent go into the swamp. He swapped it the day before.",
+    "The Allies won without winning the next move. They destroyed the best of the Paraguayan field army and stayed stuck in the same place, with no horses to pursue. The game went on upriver, in front of a fortress."
+  ],
+  "mitos": [
+    {
+      "circula": "The attack was set for dawn and was five hours late.",
+      "registro": "George Thompson, who was in the Paraguayan camp, wrote that Barrios was expected at 9:00 and that the signal came at 11:30; Brazilian military historiography gives 11:55 and Osório, \"from 11 to 12\" (our translation). The delay is certain. Its size depends on which planned time one accepts."
+    },
+    {
+      "circula": "Mallet's ditch won the battle — \"they shall not pass through here\" (our translation).",
+      "registro": "The ditch in front of the 1st Horse Artillery Regiment comes from Brazilian military historiography and is consistent with the result, but the number of guns varies (24, 28 or 30) and the phrase appears in three wordings, without any contemporary document: it is Army tradition. The witness on the Paraguayan side does not mention a ditch and explains the defeat by the Allied artillery, the swamp and the weaponry."
+    },
+    {
+      "circula": "The Paraguayans attacked drunk on cane liquor mixed with gunpowder.",
+      "registro": "It was an Allied accusation of the time. Thompson denies it: the Paraguayan soldiers went into combat on an empty stomach. The looting of food and drink that is told about belongs to another battle, the second at Tuyutí, on 3 November 1867."
+    },
+    {
+      "circula": "There were two Allies for every Paraguayan.",
+      "registro": "The phrase is Thompson's. The sources give about 24,000 Paraguayans against 32,000 to 35,000 Allies: Allied superiority, but not two to one."
+    }
+  ],
+  "perguntas": [
+    {
+      "p": "Who won the Battle of Tuyutí?",
+      "r": "The Allies won — Brazilians, Argentines and Uruguayans. The Paraguayan attack was repulsed along the whole line, and Paraguay never again assembled a force of that size. But the Allies, without horses, did not pursue and stayed in the camp until September."
+    },
+    {
+      "p": "When and where was the Battle of Tuyutí?",
+      "r": "On 24 May 1866, in the Paraguayan War, at Tuyutí, a patch of dry high ground between the Estero Bellaco and the Estero Rojas, in southern Paraguay, on the road from Paso de Patria to Humaitá."
+    },
+    {
+      "p": "How many died in the Battle of Tuyutí?",
+      "r": "About 6,000 Paraguayans died, out of a total of about 13,000 casualties, more than half of those who attacked. On the Allied side, the official count gives 996 dead and nearly 4,000 casualties; other counts reach about 8,000."
+    },
+    {
+      "p": "Why did Paraguay lose the Battle of Tuyutí?",
+      "r": "The surprise attack depended on three fronts arriving together, and Barrios's column, crossing the brush along the swamp, was late: the signal came close to noon and found the Allies already under arms. Against rifled artillery, the Paraguayan artillery stood idle."
+    },
+    {
+      "p": "Who were the commanders at the Battle of Tuyutí?",
+      "r": "On the Allied side, Bartolomé Mitre, commander-in-chief, with Manuel Luís Osório at the head of the Brazilians and Venancio Flores in the vanguard. On the Paraguayan side, Francisco Solano López, who followed from a distance; on the field, Vicente Barrios, José Eduvigis Díaz, Hilario Marcó and Francisco Isidoro Resquín."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "George Thompson, The War in Paraguay, London, Longmans, Green & Co., 1869, ch. XI."
+    },
+    {
+      "texto": "Manuel Luís Osório, combat report to Bartolomé Mitre, Tuiuti, 26 May 1866, transcribed in Cláudio Moreira Bento, A Batalha de Tuiuti, a maior batalha campal da América do Sul (AHIMTB)."
+    },
+    {
+      "texto": "André Rebouças and Bernardino de Sena Madureira, Plan of the camp and of the Battle of Tuyuty on 24 May 1866 (National Library of Brazil)."
+    },
+    {
+      "texto": "Conrado Maria da Silva Bitancourt, Esboço da batalha de Tuyuty (National Library of Brazil)."
+    },
+    {
+      "texto": "Thomas L. Whigham, \"Tuyutí, Battle of\", Encyclopedia of Latin American History and Culture."
+    },
+    {
+      "texto": "Carlos Mário de Souza Santos Rosa, \"Tuiuti, 160 anos\", EBlog of the Brazilian Army, 2026."
+    },
+    {
+      "texto": "Battle of Tuyutí — English Wikipedia."
+    },
+    {
+      "texto": "Batalha de Tuiuti — Portuguese Wikipedia."
+    },
+    {
+      "texto": "Batalla de Tuyutí — Spanish Wikipedia."
+    }
+  ],
+  "imagens": [
+    {
+      "alt": "Color plan of the battlefield with the Estero Bellaco in blue at the bottom, the Potrero Pires surrounded by brush on the left, the road to Humaitá in the center, the Paraguayan trenches at the top and arrows showing the attack columns",
+      "legenda": "Plan of the camp and of the battle of Tuyutí drawn by the engineers André Rebouças and Bernardino de Sena Madureira, dated from the camp on 10 June 1866. The arrows mark the Paraguayan columns; on the left, the Potrero Pires, where Barrios's column arrived.",
+      "autor": "André Rebouças and Bernardino de Sena Madureira · Lit. Mège y Willems, Montevideo · National Library of Brazil"
+    },
+    {
+      "alt": "Painting of a plain with hundreds of horsemen in red charging, gunsmoke in the background and a strip of water and palm trees on the right",
+      "legenda": "Painting by Cándido López, an Argentine officer in the war, made years later from his campaign sketches: an episode of the 2nd Buenos Aires Division at the battle of Tuyutí, 24 May 1866. Museo Histórico Nacional, Buenos Aires.",
+      "autor": "Cándido López · Museo Histórico Nacional (Argentina)"
+    },
+    {
+      "alt": "Lithographed sketch of the battlefield, with the Paraguayan trenches in a zigzag at the top, lines of troops in blocks, dense brush on the left and the Estero Bellaco at the bottom",
+      "legenda": "Sketch of the battle of Tuyutí by Major Conrado Maria da Silva Bitancourt, commander of the vanguard's engineers: the positions from 11:15 to 15:00, and from then to 16:30, when the attack through the brush fell on the Brazilian left flank.",
+      "autor": "Conrado Maria da Silva Bitancourt · Imperial Instituto Artístico, Rio de Janeiro · National Library of Brazil"
+    },
+    {
+      "alt": "Black-and-white map engraving with the Paraguayan camp and the Rojas hills at the top, Paraguayan columns coming down, the Argentine army corps on the right, brush and marsh on the left and a lake in the center",
+      "legenda": "The Tuyutí battlefield in the French magazine L'Illustration of 1 September 1866, engraved from sketches by two officers of the Brazilian army. The engraving marks the ditch in front of the Paraguayan camp and the columns that came down against the Allied line.",
+      "autor": "L. Kautz, engraver, after sketches by Floriano Bravos and Lobos · L'Illustration, vol. XLVIII, no. 1,227"
+    },
+    {
+      "alt": "Black-and-white illustration of infantry in dark uniform advancing at the double in the foreground, gunners on the left and horsemen charging among palm trees and smoke in the background",
+      "legenda": "The Paraguayan attack on the Argentine lines at Tuyutí, in an illustration by Francisco Fortuny made in 1893 for the Álbum de la Guerra del Paraguay, published in Buenos Aires.",
+      "autor": "Francisco Fortuny · Álbum de la Guerra del Paraguay (ed. José C. Soto), Buenos Aires, 1893–1896"
+    }
+  ]
+}

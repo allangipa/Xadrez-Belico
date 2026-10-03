@@ -1,0 +1,165 @@
+{
+  "_nota": "Tradução fiel de ../07-batalha-da-inglaterra.json. Campos fixos (num, slug, estreia, proximo, relacionados, conf, arquivo, licenca, licenca_url, origem_url, tipo, ano, foco, url) vêm do original.",
+  "batalha": "The Battle of Britain",
+  "nome_busca": "Battle of Britain",
+  "titulo_video": null,
+  "lugar": "Southern and southeastern England, United Kingdom, London and the English Channel, against German air bases in northern France, Belgium, the Netherlands and Norway",
+  "data": "10 July to 31 October 1940",
+  "campanha": "World War II, 1940",
+  "pergunta": "Could the air force that failed to close Dunkirk open up England?",
+  "resumo": "Why the Luftwaffe did not win the sky in the Battle of Britain: a network that saw the whole board against a command that believed its own reports.",
+  "abertura": [
+    "On 1 August 1940, Directive No. 17 orders the Luftwaffe to win air superiority over southern England, the precondition for the invasion Hitler called Operation Sea Lion. The plan of 6 August allows four days to destroy Fighter Command in the south. Two months earlier, the same air force had been given the task of finishing off the Dunkirk pocket, and 338,226 men got away by sea.",
+    "The Luftwaffe had more than twice as many aircraft. On 17 September, Hitler postpones the invasion until further notice. This page follows the game from the side the numbers do not show: a network of radar, observers and telephone that told each British squadron where the enemy was, against a command that counted shot-down aircraft that had not come down."
+  ],
+  "numeros": [
+    {"valor": "4 days", "rotulo": "the deadline the German plan of 6 August 1940 gave for destroying Fighter Command in southern England"},
+    {"valor": "496", "rotulo": "new fighters produced in Britain in July 1940; German intelligence estimated 180 to 300 per month, and falling"},
+    {"valor": "185", "rotulo": "German aircraft the RAF announced it had shot down on 15 September 1940; the real loss was about 60"},
+    {"valor": "1,733", "rotulo": "German aircraft destroyed from 10 July to 31 October, according to German records disclosed to the British Parliament in 1947; other counts reach 1,977"},
+    {"valor": "544", "rotulo": "Fighter Command aircrew killed in the battle"},
+    {"valor": "1 in 5", "rotulo": "of the roughly 2,936 RAF aircrew in the battle was not British; 145 were Polish"}
+  ],
+  "ficha": [
+    {"item": "German objective", "valor": "to win air superiority over southern England, the precondition for the invasion (Directives No. 16, of 16 July, and No. 17, of 1 August 1940), or to force Britain to negotiate"},
+    {"item": "Germany — command", "valor": "Hermann Göring; Albert Kesselring (Luftflotte 2, southeast and London), Hugo Sperrle (Luftflotte 3, west), Hans-Jürgen Stumpff (Luftflotte 5, from Norway, north)"},
+    {"item": "United Kingdom — command", "valor": "Hugh Dowding (Fighter Command, Bentley Priory); Keith Park (No. 11 Group, southeast and London); Trafford Leigh-Mallory (No. 12 Group, Midlands); Lord Beaverbrook at the Ministry of Aircraft Production, created on 14 May 1940"},
+    {"item": "Forces — Luftwaffe", "valor": "3,358 aircraft against England on 10 August, 2,550 of them serviceable, of which 805 single-seat fighters and 998 medium bombers", "nota": "Wood and Dempster, The Narrow Margin, cited by English Wikipedia."},
+    {"item": "Forces — Fighter Command", "valor": "754 single-seat and 149 two-seat fighters on 1 July; 1,061 on strength and 708 available on 3 August, rising to 1,161 and 746 on 7 September", "nota": "Bungay for July and Overy for August and September; other counts give about 768 aircraft and 520 ready in July."},
+    {"item": "The network", "valor": "Chain Home radar stations on the coast, the Observer Corps tracking over land, a filter room at Bentley Priory, group and sector operations rooms linked by telephone to the squadrons"},
+    {"item": "Terrain", "valor": "the English Channel between the German bases and the target; the Bf 109 had about 10 minutes of combat over London before turning back"},
+    {"item": "Duration", "valor": "10 July to 31 October 1940 in the British dating; German historians treat July 1940 to May 1941, including the Blitz, as a single campaign"},
+    {"item": "15 September", "valor": "the RAF announced 175 to 185 aircraft shot down; the German loss was about 60. The British loss ranges from 26 to 31 depending on the source"},
+    {"item": "Losses — aircraft", "valor": "Luftwaffe: 1,733 destroyed and 643 damaged according to German records disclosed in 1947; 1,887 or 1,977 in other counts. Fighter Command: from 1,023 to 1,087; with Bomber and Coastal Command, 524 more", "nota": "The first figure is the Air Minister's answer to the British Parliament on 14 May 1947."},
+    {"item": "Losses — people", "valor": "544 Fighter Command aircrew killed; 718 from Bomber Command and 280 from Coastal Command. Luftwaffe: 2,585 killed, 735 wounded and 925 captured in one count; about 2,800, 340 and 750 in another"},
+    {"item": "Foreigners in the RAF", "valor": "595 of the roughly 2,936 aircrew: 145 Poles, 127 New Zealanders, 112 Canadians, 88 Czechoslovaks, 32 Australians, 28 Belgians, 25 South Africans and others", "nota": "RAF roll of honour, via English Wikipedia; the RAF Museum confirms about one fifth."},
+    {"item": "Outcome", "valor": "the Luftwaffe does not win air superiority; on 17 September 1940 Hitler postpones Operation Sea Lion until further notice, and in October pushes it back to the spring of 1941"},
+    {"item": "Afterwards", "valor": "daylight raids give way to night bombing, the Blitz, which lasts until May 1941. Dowding is replaced in November 1940 and Park in December"}
+  ],
+  "lances": [
+    {
+      "titulo": "The board: the side with more pieces was not the side with more fighters",
+      "paragrafos": [
+        "After the fall of France, Germany has air bases from northern Norway to Brittany. On 10 August 1940, the Luftwaffe has 3,358 aircraft against England, 2,550 of them serviceable, divided into three air fleets: Kesselring's, in Belgium and the Pas-de-Calais, against the southeast and London; Sperrle's, in France, against the west; Stumpff's, in Norway, against the north. Hugh Dowding's Fighter Command had 754 single-seat fighters on 1 July.",
+        "The count that decides, however, is a different one. Only the fighter contests the sky, and in ready single-seat fighters the difference was small: 805 German ones on 10 August, according to Wood and Dempster. And the British side was gaining pieces: according to Richard Overy, Fighter Command had 1,061 fighters on strength on 3 August and 1,161 on 7 September, in the middle of the hardest phase.",
+        "The German objective was written down. Directive No. 16, of 16 July, orders preparations for the invasion; No. 17, of 1 August, orders air superiority to be won first. The plan of 6 August allows four days to destroy Fighter Command in the south and four weeks for the rest. The German navy, which would have to cross the Channel under the Royal Navy, had already concluded in November 1939 that the air was not enough: the sea was needed too."
+      ]
+    },
+    {
+      "titulo": "The piece that does not appear on the board: Dowding's network",
+      "paragrafos": [
+        "The British defense was not an aircraft, it was a system. Chain Home radar stations, on the coast and facing the sea, saw the German formations while they were still assembling over France. Once the aircraft crossed the coast, they left the radar's field, and the ones tracking them were the Observer Corps, volunteers at posts scattered across the interior, by eye and ear.",
+        "Everything converged by telephone on the filter room at Bentley Priory, which merged the reports from several stations about the same formation into a single track. From there the information went down to the group operations rooms, which chose which squadron to send, and to the sector rooms, which guided the fighters by radio to the target and controlled the area's anti-aircraft artillery. The result is that the RAF did not need to patrol: it took off when and where it needed to, and spared aircraft and pilots.",
+        "The Germans knew about British radar. What they did not understand was the network. The intelligence report of 16 July 1940, the basis for the commanders' plans, judged British control to be rigid and the fighters tied to their bases. On 12 August, aircraft of Erprobungsgruppe 210 attacked four radar stations; three went off the air and were back within six hours. After 18 August, Göring suspended the attacks on radar, judging them useless. The piece that held up the entire defense stopped being a target."
+      ]
+    },
+    {
+      "titulo": "From the Channel to the airfields: the attack that did not know where to strike",
+      "paragrafos": [
+        "From 4 July, the Luftwaffe attacks the convoys in the English Channel; in August the British navy gives up sending them through there. On 13 August, Adlertag, Eagle Day, opens the main attack on the RAF. On the very first day, German bombers hit Eastchurch, a Coastal Command base, and claim ten Spitfires destroyed on the ground. No Fighter Command fighter was lost there, and the Luftwaffe went back to Eastchurch seven times believing it was a fighter base.",
+        "On 15 August, the air fleet from Norway attacks northern England believing the defense was all in the south. The Bf 109 did not have the range to escort it. Of 115 bombers and 35 fighters, 75 aircraft were destroyed, and it did not return in force. On 18 August, the hardest day, both sides suffer the highest casualties of the campaign, and the Ju 87 dive bomber leaves the battle.",
+        "From 24 August to 6 September, Kesselring concentrates the blow on the airfields of Park, who defends the southeast and London: of 33 heavy attacks, 24 were against airfields. Park recorded extensive damage at five forward airfields and at six of the seven sector stations. From 26 August to 6 September, the RAF loses 248 aircraft and the Luftwaffe 322. This is the phase that Wood and Dempster and Denis Richards's official history call critical. Dowding, in a letter to Trenchard, wrote that in those weeks the Luftwaffe achieved very little: the only sector station put out of action, Biggin Hill, was out of operation for two hours."
+      ]
+    },
+    {
+      "titulo": "The enemy that German intelligence invented",
+      "paragrafos": [
+        "The same report of 16 July estimated that British industry produced 180 to 300 front-line fighters per month, and predicted a decline. Under the ministry created on 14 May 1940 for Lord Beaverbrook, 496 new fighters came out in July, 467 in August and 467 in September, according to Overy — more than the RAF was losing. The civilian repair organization returned 4,955 aircraft to service by December.",
+        "On top of that came the claims. Both sides claimed two to three times what they shot down: from July to September, the RAF claimed 2,698 aircraft and the German fighters 3,198. The Luftwaffe believed it was wearing down Fighter Command three times faster than it really was. On 3 September, Göring decides to bomb London daily on the basis of reports that the British squadrons were down to 5 to 7 fighters out of 12.",
+        "The real bottleneck was something else: trained pilots. Replacements reached the squadrons with nine hours of flying and no gunnery training. Here the sources differ. For Wood and Dempster, the RAF was losing pilots faster than it trained them; for Peter Dye and Richard Overy, the available pilots never decreased, and the Germans had even fewer — Overy sums up that, if Fighter Command were the few, the German fighter pilots were fewer still. And there was an asymmetry of the board: a British pilot shot down over England flew again; a German one became a prisoner, or fell into the Channel."
+      ]
+    },
+    {
+      "titulo": "London, 7 and 15 September",
+      "paragrafos": [
+        "On the night of 24 to 25 August, bombs fall on London. On the following night, Bomber Command attacks Berlin for the first time. On 30 August Hitler lifts the ban on bombing London, and on 4 September he publicly presents the attacks on the capital as reprisal. But London was already in the German plan of 6 August as the final blow of the campaign, and Göring decided believing the RAF was finished. On 7 September, nearly 400 bombers and more than 600 fighters attack the East End docks.",
+        "The change of target took the pressure off the airfields, and lengthened the journey: over London, the Bf 109 had about ten minutes of combat before turning back. On 14 September, Hitler acknowledges that air superiority does not yet exist and postpones the decision to the 17th.",
+        "On 15 September two large waves come against London. Park puts all of No. 11 Group in the air; Churchill, in the Uxbridge operations room, asks about the reserves and is told there are none. The Germans, who believed they were facing the last British fighters, find the sky full. The Air Ministry announced 175 to 185 aircraft shot down; the German loss was about 60. Two days later, Hitler postpones Sea Lion until further notice."
+      ]
+    },
+    {
+      "titulo": "The fight inside the winning side: Park versus Leigh-Mallory",
+      "paragrafos": [
+        "Park sent single squadrons against each raid, early, to break up the formations before the target. Leigh-Mallory, of No. 12 Group, and Douglas Bader advocated the Big Wing, three to five squadrons together. The large formation was slow to assemble — 20 minutes on 7 September — and No. 12 Group, which was supposed to cover Park's airfields while his squadrons were in the air, often arrived late.",
+        "The Big Wing also inflated the numbers: on 15 September it accounted for about a third of the 185 victories announced. A report by Park submitted by Dowding on 15 November counted, from 11 September to 31 October, 10 interceptions and one German aircraft destroyed through extensive use of the tactic. Dowding was replaced in November 1940, also because of the failure of the night defense in the Blitz; Park, in December, by Leigh-Mallory himself. Stephen Bungay considers the strategy of the two men vindicated."
+      ]
+    }
+  ],
+  "veredito": [
+    "The air force that failed to close Dunkirk did not open up England, and the main reason is not the number of aircraft. The Luftwaffe attacked an opponent it could not see: a network that told each British squadron where the enemy was, while German intelligence counted aircraft that had not come down, underestimated factories that produced more than twice the estimate and bombed bases that were not fighter bases. Add to that an escort fighter without the range to stay over the target and a command that switched targets — radar, airfields, factories, London — without persisting with any of them.",
+    "In chess terms, it is the player who attacks piece by piece without seeing the whole board, while the opponent sees every square. The most debated move, the switch to London on 7 September, gave the airfields breathing room, but historians such as Bungay and Alfred Price doubt that the other line would have led to mate: the RAF could fall back to the Midlands, out of the Bf 109's range.",
+    "It is the same mistake as in the Flanders pocket three months earlier. The German command handed the job to the Luftwaffe and believed its own reports. And even the sky was not enough: the German navy had already written that, without the sea, there was no crossing."
+  ],
+  "mitos": [
+    {
+      "circula": "It was the few against the many.",
+      "registro": "Churchill's phrase, of 20 August 1940, is one of gratitude, not arithmetic. In total the Luftwaffe had more than twice as many aircraft, but in ready single-seat fighters the difference was small, and the RAF produced more fighters and, according to Peter Dye and Richard Overy, had more fighter pilots available than the Luftwaffe during the battle. Overy: if Fighter Command were the few, the German fighter pilots were fewer still."
+    },
+    {
+      "circula": "The Spitfire won the Battle of Britain.",
+      "registro": "The Hurricane was the most numerous fighter — 29 squadrons against 19 of Spitfires in July 1940, in one count — and accounted for more than 60% of the victories claimed by the RAF. It was also the most lost: 753 Hurricanes against 467 Spitfires. The percentages are of claims, which both sides inflated."
+    },
+    {
+      "circula": "London was bombed by mistake, Churchill retaliated on Berlin, and Hitler, furious, switched from the airfields to London — the mistake that lost the battle.",
+      "registro": "The bombing of London on the night of 24 to 25 August 1940 is attributed by some historians to aircraft that missed their target, a version disputed by those who see three separate drops that night. The raid on Berlin happened, and Hitler presented London as reprisal. But the capital was already in the German plan of 6 August as the final blow, and Göring decided on 3 September believing the RAF was finished. Whether the switch lost the battle is debated: Dowding wrote that the attacks on the airfields had achieved very little."
+    },
+    {
+      "circula": "On 15 September 1940 the RAF shot down 185 German aircraft.",
+      "registro": "That was the Air Ministry's announcement, 175 to 185. The German loss was about 60. The day mattered because the Luftwaffe, convinced it was facing the last British fighters, found the whole of No. 11 Group in the air — and two days later Hitler postponed the invasion."
+    },
+    {
+      "circula": "The Polish 303 was the squadron that shot down the most aircraft in the battle.",
+      "registro": "It was the one that claimed the most: 126 victories in six weeks, up to 11 October 1940. The verified number differs: about 55 to 60 according to Jerzy Cynk and other Polish historians, which keeps it in first place; 44 according to John Alcorn, which puts it fourth, behind three Spitfire squadrons."
+    }
+  ],
+  "perguntas": [
+    {"p": "Who won the Battle of Britain?", "r": "The United Kingdom. The Luftwaffe did not win air superiority over southern England, the precondition for the invasion, and on 17 September 1940 Hitler postponed Operation Sea Lion until further notice."},
+    {"p": "When was the Battle of Britain?", "r": "From 10 July to 31 October 1940, in the British dating. German historians treat July 1940 to May 1941, including the night bombing of the Blitz, as a single campaign."},
+    {"p": "Why did Germany lose the Battle of Britain?", "r": "Mainly because it attacked an opponent it could not see. Dowding's network of radar, observers and telephone told each squadron where the enemy was, while German intelligence overestimated British losses, underestimated fighter production and switched targets without persisting with any of them."},
+    {"p": "How many planes were lost in the Battle of Britain?", "r": "The counts differ. The Luftwaffe lost 1,733 aircraft according to German records disclosed in 1947, and 1,887 or 1,977 in other counts; Fighter Command lost from 1,023 to 1,087. 544 Fighter Command aircrew were killed."},
+    {"p": "Did the Spitfire win the Battle of Britain?", "r": "Not alone. The Hurricane was the RAF's most numerous fighter and accounted for more than 60% of the victories claimed, although it was also the most lost: 753 Hurricanes against 467 Spitfires."}
+  ],
+  "fontes": [
+    {"texto": "Battle of Britain (Enemy Losses), Hansard, House of Commons, 14 May 1947 — answer by the Air Minister, Philip Noel-Baker."},
+    {"texto": "RAF Museum, History of the Battle of Britain — phase 3 (13 August to 6 September 1940)."},
+    {"texto": "RAF Museum, \"15 September 1940\", podcast transcript, 2015."},
+    {"texto": "Stephen Bungay, The Most Dangerous Enemy: A History of the Battle of Britain, 2000 (cited by English Wikipedia)."},
+    {"texto": "Richard Overy, The Battle of Britain: The Myth and the Reality, 2001 (cited by English Wikipedia)."},
+    {"texto": "Derek Wood and Derek Dempster, The Narrow Margin, 1961 (cited by English Wikipedia)."},
+    {"texto": "John T. Correll, \"How the Luftwaffe Lost the Battle of Britain\", Air & Space Forces Magazine, August 2008."},
+    {"texto": "John Curatola, \"The Battle of Britain: The (Not So) Few\", The National WWII Museum, 2023."},
+    {"texto": "John Lock, \"The Battle of Britain: but for a few misplaced bombs\", Military History Matters, 2022."},
+    {"texto": "Battle of Britain — English Wikipedia."},
+    {"texto": "Battle of Britain Day — English Wikipedia."},
+    {"texto": "Dowding system — English Wikipedia."},
+    {"texto": "No. 303 Squadron RAF — English Wikipedia."},
+    {"texto": "Operation Sea Lion — English Wikipedia."}
+  ],
+  "imagens": [
+    {
+      "alt": "Operations room with men in RAF uniform in front of telephone and radio panels; one officer speaks on the telephone, another wears headphones, and an airman seated in front works at a map table",
+      "legenda": "The Fighter Command Sector G operations room at Duxford, Cambridgeshire, in September 1940: the controller, the telephone operators and, on the right, the army liaison officer who directed the anti-aircraft artillery. This is where the radar track became an order for a squadron.",
+      "autor": "Stanley Devon, official photographer · Imperial War Museums, CH 1401"
+    },
+    {
+      "alt": "Interior of a wooden hut with operators in headphones seated at sets and at a plotting table, a man on the telephone in the background and a clock on the wall",
+      "legenda": "WAAF and RAF operators in the receiver hut of the Chain Home radar station at Ventnor, on the Isle of Wight, during the Battle of Britain. The coastal stations saw the German formations while they were still assembling over France.",
+      "autor": "Royal Air Force official photographer · Imperial War Museums, C 1868"
+    },
+    {
+      "alt": "Four women's air force telephone operators, in headphones, seated in wicker chairs beside a plotting table, with an RAF corporal standing behind them",
+      "legenda": "WAAF telephone operators in the Duxford operations room receive the plots from the Observer Corps posts, in September 1940. Once the aircraft crossed the coast, radar could no longer see them: tracking over land was done by volunteer observers.",
+      "autor": "Stanley Devon, official photographer · Imperial War Museums, CH 1404"
+    },
+    {
+      "alt": "Nine pilots in life jackets and leather jackets walk smiling across the grass toward the camera, with a Hurricane fighter behind them",
+      "legenda": "Pilots of No. 303 (Polish) Squadron with one of their Hurricanes in October 1940. The squadron claimed 126 victories in six weeks; the verified number ranges from 44 to about 60, depending on the historian.",
+      "autor": "Stanley Devon, official photographer · Imperial War Museums, CH 1535"
+    },
+    {
+      "alt": "Seven Hurricane fighters in formation climb above a sea of clouds, photographed from another aircraft whose wing appears in the lower right corner",
+      "legenda": "Hurricane Mk Is of No. 85 Squadron, based at Church Fenton, Yorkshire, led by Squadron Leader Peter Townsend, in 1940. The Hurricane was the RAF's most numerous fighter and accounted for more than 60% of the victories claimed in the battle.",
+      "autor": "B. J. Daventry, Royal Air Force official photographer · Imperial War Museums, CH 1503"
+    }
+  ]
+}

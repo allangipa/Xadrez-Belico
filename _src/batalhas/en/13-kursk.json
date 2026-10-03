@@ -1,0 +1,163 @@
+{
+  "_nota": "Tradução fiel de ../13-kursk.json. Campos fixos (num, slug, estreia, proximo, relacionados, conf, arquivo, licenca, licenca_url, origem_url, tipo, ano, foco, url) vêm do original.",
+  "batalha": "Kursk",
+  "nome_busca": "Battle of Kursk",
+  "titulo_video": null,
+  "lugar": "Kursk salient, between Orel and Belgorod, Kursk, Orel and Belgorod Oblasts, Russia, as far as Kharkov, Ukraine",
+  "data": "5 July to 23 August 1943",
+  "campanha": "World War II, 1943",
+  "pergunta": "Was the largest tank battle of World War II won before it began?",
+  "resumo": "At the Battle of Kursk, Germany attacked the point both sides could see, two months late, against a defense lying in wait. And the myth of Prokhorovka.",
+  "abertura": [
+    "In July 1943 the Eastern Front has a Soviet bulge about 250 km from north to south around Kursk, in Russia, between Orel and Belgorod. It was the target anyone could see on the map. On 5 July Germany attacks exactly there, with two pincers, against an opponent that had decided in April to wait for the blow, dig in and counterattack afterward.",
+    "This page follows the game from Operation Citadel to the counteroffensives that retook Orel, Belgorod and Kharkov. The question is whether the battle was decided before the first shot — and what is left of the day of Prokhorovka, told for decades as the largest tank battle in history, once the archives of both sides are opened."
+  ],
+  "numeros": [
+    {"valor": "2 months", "rotulo": "of delay: the order of 15 April set the attack for 3 May; it went in on 5 July"},
+    {"valor": "> 1,000", "rotulo": "anti-tank mines per kilometer in the first line of the Soviet defense, in both counts that exist"},
+    {"valor": "184", "rotulo": "Panther tanks operational on 5 July; two days later, about 40"},
+    {"valor": "4", "rotulo": "German tanks lost for good at Prokhorovka, on 12 July, in Roman Töppel's count from the German archives"},
+    {"valor": "54,182 × 177,847", "rotulo": "German and Soviet casualties in Citadel, from 5 to 16 July (Frieser; Krivosheev)"},
+    {"valor": "863,303", "rotulo": "Soviet casualties in the whole battle, up to 23 August, according to Krivosheev"}
+  ],
+  "ficha": [
+    {"item": "Forces", "valor": "in Karl-Heinz Frieser's count, 518,271 German soldiers and 2,465 tanks and assault guns against 1,426,352 Soviets and 4,938 tanks — 2.8 Soviets for each German; adding support forces, another count reaches 780,900 Germans and 1,910,361 Soviets", "nota": "The difference on the German side is one of basis: attacking troops against the total strength of the two army groups. David Glantz gives a ratio of 2.5 to 1."},
+    {"item": "Germany — command", "valor": "Adolf Hitler; Günther von Kluge (Army Group Center), Walter Model (9th Army), in the north; Erich von Manstein (Army Group South), Hermann Hoth (4th Panzer Army), in the south"},
+    {"item": "Soviet Union — command", "valor": "Joseph Stalin; Georgy Zhukov and Aleksandr Vasilevsky for the Stavka; Konstantin Rokossovsky (Central Front), Nikolai Vatutin (Voronezh Front), Ivan Konev (Steppe Front, in reserve)"},
+    {"item": "Terrain", "valor": "open, rolling steppe, cut by ravines and small rivers; in the north, the Olkhovatka heights and Ponyri station; in the south, the Psel River and the railway at Prokhorovka"},
+    {"item": "German objective", "valor": "cut off the salient at its base, with one pincer on each side, destroy the forces inside it and shorten the front — attacking, as the order itself said, before the Soviets prepared extensive defenses"},
+    {"item": "Soviet plan", "valor": "defend first, wear down the German armor and counterattack with fresh reserves. Proposed by Zhukov on 8 April 1943 and decided in meetings from 8 to 12 April"},
+    {"item": "Defense", "valor": "six main belts, 130 to 150 km deep on the fronts and close to 300 km counting the reserve; more than 300,000 civilians digging trenches", "nota": "English Wikipedia. David Glantz speaks of about 250 km of total depth."},
+    {"item": "How far it got", "valor": "in the north, the 9th Army is stopped at Ponyri and Olkhovatka by 10 July, after advancing between 8 and 20 km depending on the source; in the south, the 4th Panzer Army breaks through two belts and gets to about 3 km from Prokhorovka on 11 July, an advance of between 30 and 48 km depending on the source"},
+    {"item": "End of Citadel", "valor": "on the night of 12 to 13 July Hitler summons Manstein and Kluge and orders a halt, citing the need to reinforce Italy after the Allied landing in Sicily on 10 July. The offensive ends on 16 and 17 July"},
+    {"item": "Counteroffensives", "valor": "Operation Kutuzov against Orel, from 12 July to 18 August, with Orel retaken on 5 August; Operation Rumyantsev against Belgorod and Kharkov, from 3 to 23 August, with Belgorod on 5 August and Kharkov on the 23rd"},
+    {"item": "Casualties in Citadel", "valor": "54,182 Germans, in Frieser's count; 177,847 Soviets, in Krivosheev's. Tanks destroyed: 252 to 323 German, 1,614 to 1,956 Soviet", "nota": "The tank figures differ depending on the source."},
+    {"item": "Casualties in the whole battle", "valor": "863,303 Soviets up to 23 August, according to Krivosheev — 177,847 in the defense, 429,890 at Orel, 255,566 at Belgorod and Kharkov; on the German side, between 165,314 and 203,000, depending on the source", "nota": "The Soviet sum adds up; the German one varies with the basis (German medical data, Zetterling and Frankson). The estimate of more than 500,000 German casualties is from Bellamy and Hastings."},
+    {"item": "Result", "valor": "the German offensive is stopped before breaking through the defense, and the Soviet counteroffensives that follow take the initiative on the Eastern Front away from Germany for the rest of the war"},
+    {"item": "Afterwards", "valor": "the Germans fall back to the Hagen Line, east of Bryansk, and then to the Dnieper. Kharkov changes hands for the last time in the war"}
+  ],
+  "lances": [
+    {
+      "titulo": "The board: a target both sides could see",
+      "paragrafos": [
+        "After Stalingrad and the German recapture of Kharkov in March 1943, the Eastern Front is left with a Soviet bulge around Kursk, about 250 km from north to south and 160 km from east to west. To the north, the German Orel salient; to the south, Belgorod and Kharkov. On the map, the move offers itself: one pincer from the north, another from the south, a meeting at Kursk, and the armies inside are trapped.",
+        "On 15 April Hitler signs Operations Order No. 6: the attack, Operation Citadel, is to begin on 3 May or soon after, because it is essential to attack before the Soviets prepare extensive defenses or launch an offensive of their own. Walter Model's 9th Army would attack from the north; Hermann Hoth's 4th Panzer Army and Army Detachment Kempf, under Erich von Manstein, from the south.",
+        "A week earlier, on 8 April, Georgy Zhukov had already written to Stalin predicting exactly this double pincer. The most obvious move on the board was obvious to both players."
+      ]
+    },
+    {
+      "titulo": "The defense decided in April",
+      "paragrafos": [
+        "In the same letter of 8 April, Zhukov proposes not attacking first: make the enemy wear himself out against the defenses, destroy his tanks and only then, with fresh reserves, go over to the general offensive. In meetings from 8 to 12 April, Zhukov and the General Staff, with the front commanders, convince Stalin. Konstantin Rokossovsky's Central Front guards the north, Nikolai Vatutin's Voronezh Front the south, and Ivan Konev's Steppe Front stays behind, kept for the counterblow.",
+        "Intelligence came in afterward, and confirmed it. The Lucy ring, in Switzerland, transmitted details of Citadel; John Cairncross, at Bletchley Park, passed raw decrypts of German communications to Moscow; the British warned Stalin officially. But the identity of Lucy's source was never established, and the British warning, according to Dan Zamansky, arrived on 30 April — three weeks after the decision to defend. Geography had already said where; the spies helped say when and with what.",
+        "What the April decision bought was time to dig. Six main belts, 130 to 150 km deep on the fronts and close to 300 km counting the reserve; more than 300,000 civilians digging trenches; strongpoints with anti-tank guns in crossfire. In the first line in the south, Christopher Lawrence counts 1,666 anti-tank and 1,624 anti-personnel mines per kilometer."
+      ]
+    },
+    {
+      "titulo": "Two months waiting for the new weapon",
+      "paragrafos": [
+        "Citadel did not go in on 3 May. On 27 April Model brought Hitler the information that the Soviets were heavily fortifying the shoulders of the salient and recommended dropping or redoing the plan. On 4 May, in Munich, Manstein wanted to attack early and Heinz Guderian said the attack was pointless. Hitler postponed: first to June, waiting for the new tanks — the Panther, more Tigers and the Ferdinand tank destroyer —, then again, with the fear of an Allied landing in the Mediterranean weighing in as well. Only on 1 July did he set the date: 5 July.",
+        "The last batch of Panthers arrived six days before. Two hundred rebuilt tanks were delivered to Lauchert's regiment between 23 and 29 June; on 5 July there were 184 operational, and two days later about 40, between combat losses, breakdowns and engine fires. In the north, most of the Ferdinands of one of the battalions were immobilized by mines before the end of the first day.",
+        "The order of 15 April said it was necessary to attack before the defense was ready. The attack went in two months later, when it was ready, with a weapon that still broke down."
+      ]
+    },
+    {
+      "titulo": "The attack: two pincers that did not get halfway",
+      "paragrafos": [
+        "In the north, Model's 9th Army advances little and at great cost. The fighting concentrates at Ponyri and on the Olkhovatka heights, and on 10 July the advance is completely stopped, after something between 8 and 20 km, depending on the source. Kursk lies more than a hundred kilometers from the start lines.",
+        "In the south, the 4th Panzer Army goes farther. It breaks through the first and second belts, advances about 29 km by 8 July and, on 11 July, the II SS Panzer Corps is about 3 km from Prokhorovka. Even there the southern pincer had not got halfway to the other.",
+        "This is defense in depth doing what it was built to do: each belt broken costs tanks and days, and behind it there is another. The attacker spends in the first phase the strength it needed for the next one."
+      ]
+    },
+    {
+      "titulo": "Prokhorovka, 12 July: the day that became legend",
+      "paragrafos": [
+        "On the morning of 12 July Pavel Rotmistrov's 5th Guards Tank Army counterattacks the II SS Panzer Corps southwest of Prokhorovka. According to Roman Töppel, who studied the German daily situation maps, the approach of the Soviet army was completely hidden from German intelligence, and the corps was taken by surprise. The Germans had 294 tanks and assault guns in the three divisions, 15 of them Tigers; facing them, about 616 Soviet armored vehicles, of which some 500 attacked in two waves.",
+        "The result, from the archives of both sides, is the opposite of the legend. Töppel counts, from the German records, 4 tanks of the II SS Panzer Corps lost for good that day, all Panzer IVs, and about 11 with long-term damage; Karl-Heinz Frieser was already writing that there could not have been more than five. On the Soviet side, the archives cited by Töppel give 382 tanks and self-propelled guns hit and 227 lost for good; Valeriy Zamulin, on another basis, arrives at 194 irrecoverable and 146 damaged. The broadest German counts, which add damaged vehicles or several days, fall between 19 and 80 — none of them near the hundreds of the Soviet version.",
+        "Tactically, the counterattack did not destroy the German force, but it ended the advance in the south: the II SS Panzer Corps did not get past Prokhorovka. The number the legend invented was the one for destruction; what the day really produced was a tactical draw that was very expensive for one side only."
+      ]
+    },
+    {
+      "titulo": "Sicily, Kutuzov and the switch-off",
+      "paragrafos": [
+        "On the night of 9 to 10 July the Allies land in Sicily. On 12 July, while Prokhorovka is happening in the south, Operation Kutuzov begins in the north, against the Orel salient — in the rear of Model's 9th Army, which was already at a standstill. On the night of the 12th to the 13th Hitler summons Manstein and Kluge and orders Citadel stopped, citing the need to send forces to Italy. Manstein wants to continue, saying he is close to breaking through into open ground, and gets only one last local action.",
+        "The weight of Sicily is debated. It was the reason given at the time, and the postponements of May and June had already cited the fear of a landing in the Mediterranean. But in the north the offensive had been stopped since 10 July and attacked from the rear since the 12th; in the south, it was the Soviet offensives on the Mius and the Donets, from 17 July, that pulled the II SS Panzer Corps away. Sicily explains when Hitler switched the machine off; it does not explain why it was not getting through.",
+        "And then the defender becomes the attacker, as Zhukov had written in April. Kutuzov retakes Orel on 5 August and pushes the Germans back to the Hagen Line by 18 August. Operation Rumyantsev, from 3 August, retakes Belgorod on the 5th and Kharkov on 23 August — the last time the city changes hands in the war. Frieser places the turning point of the Eastern Front in these counteroffensives, not in Citadel."
+      ]
+    }
+  ],
+  "veredito": [
+    "Won before it began — too strong as a sentence and right as a question. Germany attacked with the only move geography offered, the same one the opponent had predicted in writing a week before the German order. Then it gave that opponent two months, waiting for new weapons that debuted by breaking down, and he used the two months to bury mines, guns and six defensive belts in the exact path of the pincers.",
+    "In chess terms, it is the player who announces the attack on the square the other has already covered, waits to bring up a new piece and finds the square covered twice. The Soviet defense did not need to win the tank duels — and it did not: at Prokhorovka it lost dozens of times more armor than it destroyed, and in Citadel it had three times the attacker's casualties. It only needed not to let them through, and to have kept its pieces for the counterblow.",
+    "Intelligence confirmed what the map said; Sicily marked the hour of switching off. What decided Kursk was the choice made in April: to let the opponent strike first, at the place and time he himself had made predictable."
+  ],
+  "mitos": [
+    {
+      "circula": "Prokhorovka was the largest tank battle in history, with hundreds of Tigers destroyed.",
+      "registro": "On 12 July 1943 the II SS Panzer Corps had 294 tanks and assault guns, 15 of them Tigers. It lost 4 tanks for good, all Panzer IVs, according to Roman Töppel from the German archives; Frieser said no more than five. The 5th Guards Tank Army lost 227 for good, in the Soviet archives cited by Töppel, or 194, in Zamulin's count. The more than 400 German tanks destroyed come from Rotmistrov's memoirs and from Soviet historiography. And there was a larger tank battle: Brody and Dubno, in June 1941, with up to 3,500 Soviet and 750 German tanks."
+    },
+    {
+      "circula": "The Soviets won because spies handed over the plan.",
+      "registro": "The Lucy ring and John Cairncross passed on real information, and the British warned Stalin on 30 April. But Zhukov predicted the double pincer and proposed the defense on 8 April, and the decision came out of meetings from 8 to 12 April — before the warnings. Lucy's source was never identified. The salient was the target the map showed to both sides."
+    },
+    {
+      "circula": "Hitler stopped Kursk because of the landing in Sicily.",
+      "registro": "It was the reason he gave on 13 July. But the northern attack had already been stopped since 10 July, and Operation Kutuzov had been hitting Model's rear since the 12th. In the south, it was the Soviet offensives on the Mius and the Donets that pulled out the II SS Panzer Corps. Sicily weighed on the timing of the decision; the offensive was no longer getting through."
+    },
+    {
+      "circula": "The Tigers and the Panthers should have decided the battle.",
+      "registro": "The Panthers debuted with 184 operational on 5 July and about 40 two days later, between losses, breakdowns and engine fires. Most of the Ferdinands of one of the northern battalions got stuck in mines on the first day. And waiting for these weapons is what gave the Soviet defense two months to prepare."
+    }
+  ],
+  "perguntas": [
+    {"p": "Who won the Battle of Kursk?", "r": "The Soviet Union won. The German offensive was stopped before breaking through the defense, and the counteroffensives that followed retook Orel and Belgorod on 5 August and Kharkov on 23 August 1943, taking the initiative on the Eastern Front away from Germany for the rest of the war."},
+    {"p": "Why did Germany lose the Battle of Kursk?", "r": "It attacked the target both sides could see on the map: Zhukov predicted the double pincer in writing on 8 April 1943. Then Hitler postponed the attack two months waiting for new tanks, and the Soviet defense used that time to dig six belts in the exact path of the pincers."},
+    {"p": "How many tanks fought at Kursk?", "r": "In Karl-Heinz Frieser's count, 2,465 German tanks and assault guns against 4,938 Soviet tanks. In Operation Citadel, between 252 and 323 German tanks and between 1,614 and 1,956 Soviet tanks were destroyed, depending on the source."},
+    {"p": "How many soldiers died in the Battle of Kursk?", "r": "The counts are of casualties, not only of dead. In Citadel, from 5 to 16 July, there were 54,182 Germans and 177,847 Soviets. In the whole battle, up to 23 August, 863,303 Soviets according to Krivosheev; on the German side, between 165,314 and 203,000, depending on the source."},
+    {"p": "Was Prokhorovka the largest tank battle in history?", "r": "No. On 12 July 1943 the II SS Panzer Corps lost 4 tanks for good, according to Roman Töppel from the German archives, and the Soviets 227 or 194, depending on the count. There was a larger tank battle at Brody and Dubno, in June 1941."}
+  ],
+  "fontes": [
+    {"texto": "Roman Töppel, \"Die Panzerschlacht bei Prochorowka: Fakten gegen Fabeln\", Portal Militärgeschichte, 16 December 2019."},
+    {"texto": "Karl-Heinz Frieser, \"Die Schlacht im Kursker Bogen\", in Das Deutsche Reich und der Zweite Weltkrieg, vol. 8, 2007 (cited by Wikipedia and by Töppel)."},
+    {"texto": "David M. Glantz and Jonathan M. House, The Battle of Kursk, University Press of Kansas, 1999 (as cited)."},
+    {"texto": "Valeriy Zamulin, The Battle of Kursk: Controversial and Neglected Aspects, 2017 (as cited)."},
+    {"texto": "Christopher A. Lawrence, Kursk: The Battle of Prokhorovka, 2015 — mines and losses of 12 July, via the Dupuy Institute."},
+    {"texto": "Ian Hudson, \"Prokhorovka and the Myth of the Largest Tank Battle\", The Tank Museum, 2017."},
+    {"texto": "Dan Zamansky, on Allied intelligence before Kursk, New World Crisis, 2024."},
+    {"texto": "Battle of Kursk — English Wikipedia."},
+    {"texto": "Battle of Prokhorovka — English Wikipedia."},
+    {"texto": "Unternehmen Zitadelle — German Wikipedia."}
+  ],
+  "imagens": [
+    {
+      "alt": "Two destroyed German Ferdinand tank destroyers in an open field, hulls riddled and tracks loose, while Soviet soldiers in greatcoats examine them",
+      "legenda": "Soviet soldiers examine destroyed Ferdinand tank destroyers in the Orel sector, in July 1943. Waiting for this weapon and for the Panther delayed Citadel by two months; in the north, most of one battalion's Ferdinands got stuck in mines on the first day.",
+      "autor": "Pavel Troshkin"
+    },
+    {
+      "alt": "Topographic map in lilac tones with Kursk at the top, Oboyan and Prokhorovka in the center, Belgorod below and Kharkov at the bottom, crossed by rivers and railways",
+      "legenda": "The southern salient and the center of the battlefield on the Army Map Service map, Europe 1:500,000, sheet N.E. 50/34 Kursk (provisional edition of 1945, from the British map of 1944). Ponyri and Olkhovatka are at the top; Oboyan, Prokhorovka and Belgorod in the middle; Kharkov at the bottom.",
+      "autor": "U.S. Army Map Service · Perry-Castañeda Library, University of Texas"
+    },
+    {
+      "alt": "Soviet sapper in a helmet, crouching in the grass at night under a bright light, laying a wooden-box anti-tank mine",
+      "legenda": "A Red Army sapper lays a wooden-box anti-tank mine at night, on the Orel–Kursk axis, in July 1943; photo published in a newspaper in August of that year. In the first line in the south, the defense reached 1,666 anti-tank mines per kilometer, in Christopher Lawrence's count.",
+      "autor": "Kazimir Lishko (TASS)"
+    },
+    {
+      "alt": "Soviet crew of four men around a gun hidden among bushes, one of them holding a shell, with the open steppe in the background",
+      "legenda": "The crew of a Soviet 76 mm ZiS-3 gun fires from a camouflaged position on the Orel–Kursk axis, on 6 July 1943. Guns like this, in strongpoints with crossfire, were the backbone of the defensive belts.",
+      "autor": "Pavel Troshkin"
+    },
+    {
+      "alt": "A German Panzer IV tank in the foreground on the right and other armored vehicles scattered across a wheat field under a clear sky",
+      "legenda": "German tanks in a wheat field at the start of Operation Citadel, in the summer of 1943.",
+      "autor": "Merz · Bundesarchiv, Bild 101III-Merz-014-12A"
+    },
+    {
+      "alt": "View from the top of a slope of the rolling steppe, with a column of vehicles raising dust along a dirt road",
+      "legenda": "German vehicles advance across the rolling steppe during Operation Citadel, in July 1943. Open terrain, without cover, cut by ravines.",
+      "autor": "Kipper · Bundesarchiv, Bild 101I-022-2924-14"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "_nota": "Tradução fiel de ../04-polonia-1939.json. Campos fixos (num, slug, estreia, proximo, relacionados, conf, arquivo, licenca, licenca_url, origem_url, tipo, ano, foco, url) vêm do original.",
+  "batalha": "The Polish campaign",
+  "nome_busca": "Invasion of Poland",
+  "titulo_video": "Blitzkrieg did not exist: what Poland in 1939 shows",
+  "lugar": "Poland, within its 1939 borders",
+  "data": "1 September to 6 October 1939",
+  "campanha": "World War II, 1939",
+  "pergunta": "Did the way of fighting the world called Blitzkrieg already exist in September 1939, or was it written afterwards, by looking at the result?",
+  "resumo": "The German division that invaded Poland had 3,859 horses, and the word Blitzkrieg came from the newspapers. The 1939 invasion read as a chess game.",
+  "abertura": [
+    "On 1 September 1939, a German infantry division had 3,859 horses. The Polish division it was about to face had about 2,000. The army the world would come to associate with lightning war had almost twice as many horses per division as the army it defeated.",
+    "The campaign lasted 35 days and ended in a complete German victory. The question on this page is not whether it was fast — it was. It is another one: was the method written down before the first move, or was it read into the result and only then given a name?"
+  ],
+  "numeros": [
+    {"valor": "3,859", "rotulo": "horses per German infantry division, against about 2,000 in the Polish one"},
+    {"valor": "9", "rotulo": "German armored divisions, out of a total of 60 to 70 divisions"},
+    {"valor": "35 days", "rotulo": "from 1 September to 6 October 1939"},
+    {"valor": "11 September", "rotulo": "the day the march on Warsaw was diverted to the Bzura"},
+    {"valor": "170,000", "rotulo": "Poles captured at the Bzura"},
+    {"valor": "17 September", "rotulo": "the Soviet Union invades from the east"}
+  ],
+  "ficha": [
+    {"item": "Forces — Germany", "valor": "66 divisions and 6 brigades, according to the most cited count; the 1942 U.S. Army study speaks of 60 to 70 divisions and about 1,250,000 men", "nota": "The two counts do not measure the same thing; the range is what both support together."},
+    {"item": "German armored divisions", "valor": "9 — five heavy and four light", "nota": "U.S. Army study, 1942."},
+    {"item": "Tanks — Germany", "valor": "2,750 committed to the operation, according to the English Wikipedia; the 1942 American study says Germany had produced 6,000, three quarters of them in Panzer divisions", "nota": "One number is what went into the campaign; the other, the inventory."},
+    {"item": "Forces — Poland", "valor": "39 divisions, 16 brigades, 4,300 guns, 210 tanks and 670 tankettes, 800 aircraft"},
+    {"item": "Forces — USSR", "valor": "33 divisions or more, 11 brigades or more, 4,736 tanks, 3,300 aircraft"},
+    {"item": "Infantry division, side by side", "valor": "German: 3,859 horses and 1,067 motor vehicles; Polish: about 2,000 horses and about 5 staff cars", "nota": "Comparative table of the U.S. Army study, 1942. The number is per infantry division, not the total for the army."},
+    {"item": "Commanders at the Bzura", "valor": "Poland: Tadeusz Kutrzeba (Poznań Army) and Władysław Bortnowski (Pomorze Army). Germany: Gerd von Rundstedt, Johannes Blaskowitz (8th Army), Walther von Reichenau (10th Army), Günther von Kluge (4th Army)"},
+    {"item": "Terrain", "valor": "open plain, with no river line or mountain range to serve as a continuous defense; Poland surrounded by Germany to the west, East Prussia to the north and occupied Czechoslovakia to the south"},
+    {"item": "German objective", "valor": "to encircle and destroy the Polish army and take Warsaw"},
+    {"item": "Duration", "valor": "35 days, from 1 September to 6 October 1939; Warsaw holds out until the end of September and the last Polish unit capitulates at Kock, in early October"},
+    {"item": "Casualties — Germany", "valor": "16,343 killed, 30,300 wounded, 3,500 missing; 236 tanks and 246 aircraft lost"},
+    {"item": "Casualties — Poland", "valor": "66,000 killed and 133,700 wounded"},
+    {"item": "Casualties — USSR", "valor": "1,475 killed and 2,383 wounded"},
+    {"item": "Prisoners", "valor": "about 690,000 Poles captured in the campaign; 170,000 of them at the Bzura", "nota": "The Bzura figure comes from a single source: English Wikipedia, Battle of the Bzura."},
+    {"item": "Result", "valor": "German victory, with the Soviet invasion from the east starting on 17 September; organized Polish resistance ends at Kock"},
+    {"item": "Afterwards", "valor": "the word Blitzkrieg comes into circulation in the Western press during the campaign; on 10 May 1940 Germany attacks in the west"}
+  ],
+  "lances": [
+    {
+      "titulo": "The board: a horseshoe with no strong square",
+      "paragrafos": [
+        "Poland in 1939 has Germany to the west, East Prussia to the north and Czechoslovakia, already occupied, to the south. The country sits inside a horseshoe. And along that edge there is no river line or mountain range that lets you say \"this is where we stop\": it is plain, and the border runs for thousands of kilometers.",
+        "Whoever defends a board like that chooses between two bad positions. Spread the troops along the whole border and be weak at every point, or fall back to the center and give up without a fight the industrial regions, which lie precisely on the edge. Poland chose the first, and much of what happens in the following five weeks comes out of that opening choice."
+      ]
+    },
+    {
+      "titulo": "The pieces: an armored tip and a shaft on foot",
+      "paragrafos": [
+        "According to the U.S. Army study published in 1942, Germany used or had available about 1,250,000 men in 60 to 70 divisions. Of these, nine were armored: five heavy and four light. More than eight out of every ten German divisions that entered Poland were infantry that moved on foot, with animal-drawn artillery.",
+        "The comparative table in the same study completes the picture. Per infantry division, the German one had 1,067 motor vehicles — and 3,859 horses. The Polish one had about 5 staff cars and about 2,000 horses. The German division had more engines, and it also had more horses.",
+        "The armored tip was real, new and effective. But it was the tip of a spear whose shaft moved at the speed of a man on foot. Any reading of the campaign that starts with the machine and forgets the shaft starts on the wrong side of the board."
+      ]
+    },
+    {
+      "titulo": "The plan: the oldest play in the book",
+      "paragrafos": [
+        "The German plan was not a new doctrine. It was the most traditional idea in German military thinking: go in on the flanks, close two pincers behind the enemy and annihilate whatever was left inside. Encirclement and annihilation, a school much older than 1939.",
+        "What changed was the tool. The same old pincer, now with a tip that ran on tracks and trucks, and with air power striking ahead of it. The novelty lay in the speed of the tip, not in the design of the play.",
+        "In the first week the plan works almost as on paper. The German columns come in from the north, the west and the south, the Polish air force is beaten in the first days, and the links between the Polish armies begin to break down. Without links, an army becomes several pieces that do not know what the others are doing."
+      ]
+    },
+    {
+      "titulo": "Krojanty: the first day and the myth born on it",
+      "paragrafos": [
+        "On 1 September, near the village of Krojanty, in Polish Pomerania, Polish cavalry charges. Out of it comes the most repeated story of the campaign: that of Poles attacking German tanks with lance and saber.",
+        "The record says something else. The charge was against German infantry, in a clearing; it scattered the unit and took the ground. The German armor appeared afterwards, and only then did the cavalry fall back, with heavy casualties. The tactical objective was achieved: the units of Operational Group Czersk withdrew to the south without pursuit, and the Germans took several hours to reorganize.",
+        "The Polish cavalry carried the wz. 35 anti-tank rifle, of 7.92 mm, and was being reorganized into motorized brigades. The horse, there, was transport — as it was for most of the German army."
+      ]
+    },
+    {
+      "titulo": "The Bzura: the piece left alive behind the line",
+      "paragrafos": [
+        "To the west stood the Poznań Army, under General Tadeusz Kutrzeba. It had not been defeated; it had been left behind. The German columns had bypassed it, racing for Warsaw. In board terms, a whole piece was left alive behind the line of advance.",
+        "Kutrzeba and his staff had already proposed an offensive to the south before the invasion, and the proposal had been turned down. With the high command far away and the links cut, he went ahead without authorization. On 9 September, near Kutno, in central Poland, the Poznań Army, together with the Pomorze Army, attacks the German flank along the Bzura River. The battle, from 9 to 19 September, is the largest of the campaign.",
+        "The Germans underestimated the Polish advance, and on 11 September they correct on a large scale: they pull out of the march on Warsaw the bulk of the 10th Army, the 4th Army, the reserves of Army Group South and aircraft of the 4th Air Fleet, including the 1st and 4th Panzer Divisions and a newly formed SS infantry regiment. It is the move that defines the page: on the 11th day, a campaign later described as a machine on rails had to halt the march on the capital and turn two armies sideways.",
+        "The Poles attack toward Stryków between 9 and 12 September, and toward Łowicz between 13 and 15. From 16 to 19, the diverted German mass closes in. At the peak there were 225,000 Poles and 425,000 Germans in the area — but the 425,000 are a consequence of the redirection, not the starting point. The end is harsh: two armies destroyed, between 18,000 and 20,000 Poles killed, 32,000 wounded and 170,000 captured; on the German side, 8,000 killed, 4,000 captured and 50 tanks lost."
+      ]
+    },
+    {
+      "titulo": "17 September: the board turns over",
+      "paragrafos": [
+        "With the front still standing and Warsaw holding out, the Soviet Union invades from the east on 17 September. It is not a footnote: what remained of the Polish plan depended on falling back to the southeast and holding a position until France and Britain acted in the west. With a second army coming in from behind, that corner of the board ceases to exist.",
+        "Warsaw holds out until the end of September; the last Polish unit capitulates at Kock, in early October. The campaign ends on 6 October, 35 days after the first shot, with about 690,000 Poles captured."
+      ]
+    },
+    {
+      "titulo": "The word arrives after the move",
+      "paragrafos": [
+        "The term Blitzkrieg appears in print in 1935, in the German military periodical Deutsche Wehr, linked to the idea of a quick war; similar terms had been circulating in English and other languages since the 1920s. What stuck it to this campaign was the Western press: in September 1939 the American magazine Time described the German action as \"a war of quick penetration and obliteration — Blitzkrieg, lightning war\", and the British press adopted the term for the German successes in Poland.",
+        "The word was never an official military term of the Wehrmacht, except in propaganda, and was never adopted as a concept or doctrine. Hitler called it \"ein ganz blödsinniges Wort\" — a completely idiotic word — and, in November 1941, said he had never used it. The German historian Karl-Heinz Frieser argues that the thinking now called Blitzkrieg only took shape after the campaign in the west, in 1940: a consequence of victory, not its cause."
+      ]
+    }
+  ],
+  "veredito": [
+    "The Polish campaign was won fast, on a large scale and completely, against an opponent invaded from two sides. That is not in dispute. What the board shows is how it was won: by an army in which more than eight out of ten divisions moved on foot, carrying out an encirclement-and-annihilation plan that was traditional, with a new armored tip out in front.",
+    "And it shows that the plan did not run by itself. On the 11th day, the German high command had to divert the march on the capital to contain a counterattack it had not foreseen — and that counterattack was also improvised, launched by a general without authorization. Both sides were improvising.",
+    "The Germans had a doctrine, and a good one: encircle and destroy. What did not exist was the doctrine called Blitzkrieg. The result came first; the name came afterwards, given by the foreign press while the campaign was going on. In chess terms, it was not an opening prepared at home and played from memory — it was a game won over the board and analyzed afterwards, until it became an opening book."
+  ],
+  "mitos": [
+    {
+      "circula": "Polish cavalry charged German tanks with lances and sabers.",
+      "registro": "At Krojanty, on 1 September 1939, the charge was against German infantry, in a clearing, and it achieved its objective: it scattered the unit and covered the withdrawal of Operational Group Czersk. The armor arrived afterwards. The Polish cavalry carried the wz. 35 anti-tank rifle and was being motorized. The lances-against-tanks version was born in the coverage of the time and was used by German propaganda."
+    },
+    {
+      "circula": "Germany invaded Poland with a motorized army, a modern machine against an army on horseback.",
+      "registro": "Of the 60 to 70 German divisions, nine were armored. The German infantry division had 3,859 horses, against about 2,000 in the Polish one — almost twice as many. It was infantry on foot with an armored tip out in front."
+    },
+    {
+      "circula": "The Wehrmacht entered Poland carrying out a new, secret doctrine called Blitzkrieg.",
+      "registro": "The word was never an official Wehrmacht term outside propaganda, nor a doctrine. It was popularized by the Western press during the campaign, and Hitler called it \"a completely idiotic word\". The plan was the traditional encirclement and annihilation; Karl-Heinz Frieser argues that Blitzkrieg thinking only took shape after 1940."
+    }
+  ],
+  "perguntas": [
+    {"p": "When was the invasion of Poland?", "r": "Germany invaded on 1 September 1939, and the Soviet Union came in from the east on 17 September. The campaign lasted 35 days: Warsaw held out until the end of September, and it all ended on 6 October, after the last Polish unit capitulated at Kock."},
+    {"p": "How many soldiers died in the invasion of Poland?", "r": "Poland had 66,000 killed and 133,700 wounded, and about 690,000 Poles were captured. Germany lost 16,343 killed, 30,300 wounded and 3,500 missing; the Soviet Union, 1,475 killed and 2,383 wounded."},
+    {"p": "Was the invasion of Poland a Blitzkrieg?", "r": "Not as a doctrine. The German plan was the traditional encirclement and annihilation, carried out by an army in which only nine of 60 to 70 divisions were armored. The word Blitzkrieg was popularized by the Western press during the campaign and was never Wehrmacht doctrine."},
+    {"p": "Did Polish cavalry charge German tanks with lances?", "r": "No. At Krojanty, on 1 September 1939, the charge was against German infantry and achieved its objective; the armor arrived afterwards. The lances-against-tanks version was born in the coverage of the time and was used by German propaganda."},
+    {"p": "What was the biggest battle of the invasion of Poland?", "r": "The Battle of the Bzura River, from 9 to 19 September 1939. General Tadeusz Kutrzeba's counterattack forced the Germans, on 11 September, to divert from the march on Warsaw; in the end, 170,000 Poles were captured there."}
+  ],
+  "fontes": [
+    {"texto": "Digests and Lessons of Recent Military Operations: The German Campaign in Poland, September 1 to October 5, 1939. United States Government Printing Office, Washington, 1942."},
+    {"texto": "Invasion of Poland — English Wikipedia."},
+    {"texto": "Battle of the Bzura — English Wikipedia."},
+    {"texto": "Charge at Krojanty — English Wikipedia."},
+    {"texto": "Blitzkrieg — English Wikipedia."},
+    {"texto": "Karl-Heinz Frieser, The Blitzkrieg Legend: The 1940 Campaign in the West (cited by the English Wikipedia)."}
+  ],
+  "imagens": [
+    {
+      "alt": "Line of German soldiers in helmets climbing an open hillside on foot, with other groups marching in the background",
+      "legenda": "German infantry marching on foot during the Polish campaign, 1939. More than eight out of every ten German divisions moved like this.",
+      "autor": "Unknown photographer · Narodowe Archiwum Cyfrowe, sygn. 2-39"
+    },
+    {
+      "alt": "Hand-drawn German map with attack arrows converging from the north, west and south on Warsaw, and an encirclement marked around Kutno",
+      "legenda": "Period German map with the directions of attack in Poland in September 1939. The dashed circle around Kutno lies in the Bzura area.",
+      "autor": "Unknown author · Narodowe Archiwum Cyfrowe, sygn. 2-1"
+    },
+    {
+      "alt": "Polish horsemen galloping down a street between ruined houses, under smoke",
+      "legenda": "Polish cavalry in Sochaczew, a town on the banks of the Bzura, 1939.",
+      "autor": "Unknown photographer"
+    },
+    {
+      "alt": "Wooden-wheeled guns and carts abandoned and wrecked on a riverbank",
+      "legenda": "Polish artillery and carts abandoned on the bank of the Bzura, September 1939. Animal traction, on both sides of the river.",
+      "autor": "Unknown photographer · Narodowe Archiwum Cyfrowe, sygn. 2-150"
+    },
+    {
+      "alt": "German officer shaking hands with a Soviet officer, with another Soviet soldier and a German sentry beside them",
+      "legenda": "A German officer and Soviet officers meet in Poland, September 1939. After 17 September, the campaign had two invasion fronts.",
+      "autor": "Unidentified TASS war correspondent"
+    },
+    {
+      "alt": "Dense crowd of seated Polish soldiers, in greatcoats and caps, looking at the camera",
+      "legenda": "Polish prisoners of war, 1939. The campaign ended with about 690,000 captured.",
+      "autor": "Unknown author"
+    }
+  ]
+}

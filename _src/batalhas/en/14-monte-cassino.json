@@ -1,0 +1,173 @@
+{
+  "_nota": "Tradução fiel de ../14-monte-cassino.json. Campos fixos (num, slug, estreia, proximo, relacionados, conf, arquivo, licenca, licenca_url, origem_url, tipo, ano, foco, url) vêm do original. A ressalva sobre as marocchinate (números e punição disputados) foi mantida inteira.",
+  "batalha": "Monte Cassino",
+  "nome_busca": "Battle of Monte Cassino",
+  "titulo_video": null,
+  "lugar": "Cassino, Lazio, Italy: Monte Cassino and the Benedictine abbey, the valleys of the Rapido, the Liri and the Garigliano, and the Aurunci Mountains to the south",
+  "data": "17 January to 18 May 1944",
+  "campanha": "World War II, 1944",
+  "pergunta": "Why did it take four assaults against the same mountain — and what changed in the last one?",
+  "resumo": "Battle of Monte Cassino: three assaults hit head-on. The fourth broke through the Aurunci Mountains, and the abbey the Germans did not occupy fell last.",
+  "abertura": [
+    "In January 1944, the road from Naples to Rome enters the Liri valley through a bottleneck: the Rapido River below, the town of Cassino at the foot and, above it, Monte Cassino with the Benedictine abbey on the summit. This is the Gustav Line, and the Allies attack it four times in four months.",
+    "The first three assaults fail in front of the same point. The most famous move of the game, the bombing of the abbey on 15 February, destroys a building the Germans were not occupying. The fourth assault, in May, changes the whole board — and the breakthrough comes through the corner that not even the Allied commander treated as the main one."
+  ],
+  "numeros": [
+    {"valor": "4", "rotulo": "Allied assaults against the Gustav Line at Cassino, from 17 January to 18 May 1944"},
+    {"valor": "1,681", "rotulo": "casualties of the U.S. 36th Division in 48 hours on the Rapido River, not counting attached units; another count gives 2,100"},
+    {"valor": "576 t", "rotulo": "of bombs on the abbey on 15 February, in the official history of the U.S. Army Air Forces; the most repeated figure is 1,150"},
+    {"valor": "≈ 90,000", "rotulo": "men in Juin's French corps against a German division of about 10,000 in the Monte Majo sector, in May 1944"},
+    {"valor": "13 May", "rotulo": "Monte Majo falls and the Gustav Line breaks in the Aurunci Mountains; the abbey is only occupied on the 18th"},
+    {"valor": "> 900", "rotulo": "Polish soldiers killed and about 3,000 wounded in the assaults on the mountain"}
+  ],
+  "ficha": [
+    {"item": "Allies — command", "valor": "Harold Alexander (Allied Armies in Italy); Mark W. Clark (U.S. 5th Army); Oliver Leese (British 8th Army); Bernard Freyberg (New Zealand Corps, February and March); Alphonse Juin (French Expeditionary Corps); Władysław Anders (Polish II Corps)"},
+    {"item": "Germany — command", "valor": "Albert Kesselring (Italian theater); Heinrich von Vietinghoff (10th Army); Fridolin von Senger und Etterlin (XIV Panzer Corps); Richard Heidrich (1st Parachute Division)"},
+    {"item": "Terrain", "valor": "Monte Cassino dominates the entrance to the Liri valley and Highway 6, the only wide route to Rome; in front, the Rapido and Gari rivers, which flood in winter; south of the Liri, the Aurunci Mountains, without roads"},
+    {"item": "Objective", "valor": "break the Gustav Line and open Highway 6 to Rome; in January, also support the Anzio landing of 22 January 1944"},
+    {"item": "First battle", "valor": "January and early February: the British X Corps crosses the Garigliano on 17 January; the U.S. 36th Division is shattered on the Rapido from 20 to 22; the 34th gets to about 400 yards from the abbey and stops; the French corps advances in the north without reserves", "nota": "Framing dates: 17 January to 11 February in one account; 12 January to 9 February in that of the British Ministry of Defence."},
+    {"item": "Second battle", "valor": "15 to 18 February: bombing of the abbey and attacks by the 4th Indian Division on the mountain and by the 2nd New Zealand Division on Cassino station, repelled"},
+    {"item": "Third battle", "valor": "15 to 23 March: the town of Cassino is flattened from the air; New Zealanders and Indians take part of the town, Castle Hill and Hangman's Hill, but not the abbey"},
+    {"item": "Fourth battle", "valor": "Operation Diadem, from 23:00 on 11 May: the two Allied armies attack on a front of about 30 km between Cassino and the sea; Monte Majo falls on 13 May; the abbey is occupied by the Poles on the morning of the 18th"},
+    {"item": "Forces in May", "valor": "240,000 men, 1,900 tanks and 4,000 Allied aircraft against about 140,000 Germans, in one count; the number of Allied divisions ranges from 13 to 20 depending on the basis"},
+    {"item": "The abbey", "valor": "bombed on 15 February 1944 by 142 B-17s, 47 B-25s and 40 B-26s; 576 tons in the official history of the U.S. Army Air Forces, almost 600 in that of the Army, 1,150 in the most repeated figure. It was not occupied by German troops; the paratroopers set themselves up in the ruins from 17 February"},
+    {"item": "Civilians in the abbey", "valor": "between about 115 and 230 killed in the bombing, depending on the count; no German soldier killed inside was recorded"},
+    {"item": "Polish casualties", "valor": "923 killed, 2,931 wounded and 345 missing, in the most cited Polish count; the IPN rounds it to more than 900 killed and about 3,000 wounded"},
+    {"item": "Total casualties", "valor": "more than 105,000 Allied and at least 80,000 German counting the four battles, Anzio and Rome (Matthew Parker); Diadem alone, 43,746 Allied and 51,754 German (James Holland); other counts are lower"},
+    {"item": "Result", "valor": "Allied victory: the Gustav Line falls in May; the Hitler Line, renamed the Senger Line, gives way on 25 May"},
+    {"item": "Afterwards", "valor": "Clark turns the 6th Corps toward Rome instead of closing off the German retreat at Valmontone; Rome falls on 4 June 1944, two days before Normandy, and the German 10th Army escapes to the north"}
+  ],
+  "lances": [
+    {
+      "titulo": "The board: a bottleneck with a monastery on top",
+      "paragrafos": [
+        "From Naples to Rome there are two roads. The Via Appia, along the coast, runs into the Pontine Marshes, which the Germans had flooded. Highway 6, the Via Casilina, goes in through the Liri valley — the only wide route for armor. At the mouth of the valley, the Rapido River runs in front of the town of Cassino, and above the town rises Monte Cassino, a spur of the Monte Cairo massif, with the Benedictine abbey on the summit. South of the Liri, the Aurunci Mountains close off the detour to the sea.",
+        "That is where Albert Kesselring set up the Gustav Line, the strongest of the German positions south of Rome. The sector belonged to Fridolin von Senger und Etterlin's XIV Panzer Corps. Mark W. Clark's U.S. 5th Army arrived in front of it on 15 January 1944, after six weeks of fighting and about 16,000 casualties to overcome the last positions of the previous line.",
+        "And it arrived in a borrowed hurry. The landing craft would only stay in the Mediterranean until early February, because they were going to the invasion of France. The Anzio landing, behind the German lines, was set for 22 January, and the attack on the Gustav for three days before, to draw the German reserves south. Cassino began as a supporting piece in another combination."
+      ]
+    },
+    {
+      "titulo": "First assault: the river, the town, the mountain",
+      "paragrafos": [
+        "On 17 January the British X Corps crossed the Garigliano near the coast and alarmed Senger enough for Kesselring to send two divisions from Rome, which stabilized the front by 21 January. On 20 January, three hours after sunset, the U.S. 36th Division tried to cross the Gari River at Sant'Angelo, downstream from Cassino, without preparation and without managing to get a single armored vehicle to the other side. The 15th Panzergrenadier Division was waiting for it, dug in.",
+        "In 48 hours the division had 1,681 casualties in its organic units, according to the official history of the U.S. Army — 143 killed, 663 wounded, 875 missing, not counting attached units; another count reaches 2,100. German losses were negligible. The episode became the subject of a congressional inquiry in the United States after the war.",
+        "North of the town, the 34th Division crossed the Rapido where it could be forded and climbed the mountain. It got to about 400 yards from the abbey and stopped in front of Point 593, defended by paratroopers. On the right, Alphonse Juin's French Expeditionary Corps took the Belvedere and asked for reserves to go around Cassino from the north; the only available reserve went to the 34th. On 11 February the Americans were withdrawn, exhausted."
+      ]
+    },
+    {
+      "titulo": "Second assault: the bombing of an empty building",
+      "paragrafos": [
+        "With Anzio under counterattack, Cassino stopped being the attack that Anzio would help and became the attack that had to rescue Anzio. In came Bernard Freyberg's New Zealand Corps, with the 2nd New Zealand Division and the 4th Indian Division. The command of the 4th Indian asked for the abbey to be demolished before the attack: the walls were 150 feet high and 10 thick, and General Francis Tuker argued that, occupied or not, it would be an impregnable shelter. Clark and his corps commanders were against it; Alexander decided in favor.",
+        "In 1943, Kesselring had assured the Church that German troops would not enter the building, and placed military police at the gate. The hill around it, however, was fortified up to near the wall: observation posts, weapons and an ammunition dump in a cave next to the wall. Those below saw fire coming from that direction and had no way of telling the wall from the positions 50 or 200 yards from it.",
+        "On the morning of 15 February, 142 B-17s, 47 B-25s and 40 B-26s bombed the abbey. The official history of the U.S. Army Air Forces records 576 tons; that of the Army, almost 600; the most repeated figure, 1,150. Inside were Abbot Gregorio Diamare, a few monks and civilians who had taken refuge from the valley; between about 115 and 230 died, depending on the count. No German soldier killed inside was recorded. On 17 February, after the abbot came down with the survivors, the German paratroopers set themselves up in the ruins.",
+        "The ground attack was not ready: the Indian troops had taken over the positions two days before, and the German positions on Point 593, above and behind the abbey, were left intact. The attacks from 15 to 18 February failed, and two Māori companies that took Cassino station were driven out by tanks. The most famous move of the game gave the defender a better position than he had before."
+      ]
+    },
+    {
+      "titulo": "Third assault: the flattened town",
+      "paragrafos": [
+        "For March, Freyberg changed the target: the town of Cassino, already empty of civilians, would be flattened from the air and the infantry would go in right behind. The attack needed three dry days and was postponed 21 days in a row. On 15 March, from 8:30 to noon, the town was bombed. The official Air Force history itself notes that no source agrees on the tonnage: the figures range from 988 to 1,463 tons. The abbey was not a target.",
+        "The New Zealand infantry went in slowly; the tanks ran into the craters; at night the rain returned and filled the holes. The paratroopers came out of shelters and a tunnel under the town and regrouped in the ruins. Gurkhas reached Hangman's Hill, about 250 yards from the abbey, and the New Zealanders took the station, but on 23 March, with both divisions exhausted, Freyberg called off the battle.",
+        "Three assaults, the same pattern: the same point of attack — the river, the town, the abbey massif —, where the defense was densest; one or two divisions at a time; winter; and the hurry of another front. The bombing did not replace the move that was missing."
+      ]
+    },
+    {
+      "titulo": "Fourth assault: the whole board",
+      "paragrafos": [
+        "After February, Alexander concluded that he needed at least three infantrymen for each defender at the point of breakthrough. He brought the 8th Army over from the Adriatic to the western side of the Apennines, in small units and at night, in a two-month move. A deception, Operation Nunton, simulated preparations for a new landing north of Rome, and Kesselring held his reserves on the coast. On the second day of the battle he still reckoned six Allied divisions against his four on the Cassino front; there were thirteen.",
+        "The German command was not even in place. When the attack began, Vietinghoff had just left for Germany to receive a decoration, Senger was on 30 days' leave, and Kesselring's chief of staff was convalescing. At 23:00 on 11 May, the artillery opened up along the whole front, and the two Allied armies attacked together, on a front of about 30 km between Cassino and the sea.",
+        "In the Liri valley, the British XIII Corps crossed the Rapido, and the engineers of the 8th Indian Division threw a bridge across that let the Canadian tanks through — what the 36th had lacked in January. On the mountain, Władysław Anders's Polish II Corps attacked the 1st Parachute Division at 1:00 on 12 May and was thrown back; according to the U.S. official history, almost half of the attackers were killed or wounded.",
+        "The breakthrough came from the south. In the Aurunci Mountains, the Monte Majo sector was held by the German 71st Division, about 10,000 men, against a French corps of about 90,000, according to the U.S. official history. The U.S. official history notes that Kesselring seemed to count on the mountain itself as a barrier in that sector. On 13 May the Moroccans took Monte Feuci, intercepted the German order to speed up the general withdrawal and occupied Monte Majo in the afternoon. The Gustav was broken at one of its deepest and most weakly defended points. Only then did Kesselring realize that the danger was the southern front, and not the coast. In the following days, the goumiers advanced through mountains that no one was defending, because no one thought they could be crossed, and outflanked the Liri valley.",
+        "The move that opened the Gustav has another side, and it cannot be left out. After the breakthrough, Moroccan soldiers of the French corps committed rapes and murders of civilians in the villages of the Ciociaria, in southern Lazio, crimes the Italians call the marocchinate. The number of victims is disputed: two to three thousand women, in the 1997 estimate of the Italian Ministry of Defense, and from twelve thousand to tens of thousands, in the counts of victims' associations. How many of those responsible were punished is also disputed: French sources record trials and executions, and Italian sources speak of almost complete impunity."
+      ]
+    },
+    {
+      "titulo": "The abbey falls last",
+      "paragrafos": [
+        "On 17 May, with the British 78th Division cutting Highway 6 southwest of Cassino, the Poles attacked again and took the ridge north of the abbey. Only two escape routes remained. On the night of the 17th, Kesselring ordered the 10th Army to pull the 1st Parachute Division out of Cassino; the message was decrypted by the British within minutes.",
+        "On the morning of 18 May, a patrol of the 12th Podolian Lancers Regiment reached the ruins and found about thirty wounded Germans who could not be moved. At 10:20 the Polish flag was raised over the abbey, and the British one soon after. At noon, Lance Corporal Emil Czech played the Kraków hejnał. The Polish II Corps lost more than 900 killed and about 3,000 wounded on the mountain.",
+        "The abbey did not fall head-on. It fell when the rest of the board made the mountain indefensible: the valley opened by the British and Canadians, the Aurunci opened by the French, and the Poles pinning in place, at a very high price, the best German division in the sector. The Hitler Line, renamed the Senger Line, gave way on 25 May.",
+        "The last move was Clark's. Alexander wanted the 6th Corps, breaking out of Anzio, to close off the German retreat at Valmontone; Clark turned it toward Rome. The city fell on 4 June 1944, two days before Normandy, and the German 10th Army escaped to the north. General Lucian Truscott later wrote that, without the change, the Anzio objectives would have been fully achieved; Clark's motive is still debated."
+      ]
+    }
+  ],
+  "veredito": [
+    "The first three assaults failed because they attacked the point where the defender was strongest — the river, the town and the abbey massif —, with few troops at a time, in winter and with the borrowed hurry of Anzio. The bombing of 15 February tried to solve with explosives what was a problem of planning, and destroyed a building the Germans were not occupying.",
+    "The fourth worked because it changed the game: the attacker began forcing the defender to guard the whole board, hid where his strength was and broke through at the corner the defender had left to the mountain itself. In chess terms, it is the strong square that is never taken head-on: it falls when the pieces around it are exchanged and it is left alone.",
+    "None of this diminishes those who climbed the mountain. The Poles, the Indians, the New Zealanders and the Americans of January paid for the move that did not work; the Poles, in May, paid so that the move that did work had time to happen."
+  ],
+  "mitos": [
+    {
+      "circula": "The abbey was a German fortress, and that is why it was bombed.",
+      "registro": "Kesselring assured the Church, in December 1943, that German troops would not enter the building, and placed military police at the gate; the hill around it, yes, was fortified up to near the wall. The 5th Army counterintelligence service verified on 26 February 1944 that the abbey was unoccupied, the British official history speaks of abundant evidence of no military use before the bombing, and the U.S. Army corrected its own record in 1969. The paratroopers occupied the ruins from 17 February."
+    },
+    {
+      "circula": "The bombing of the abbey cleared the way for the attack.",
+      "registro": "The ground attack was not ready on 15 February, and the German positions on Point 593, above and behind the abbey, were left intact. The attacks from 15 to 18 February failed, and the ruins gave the defender a better position than the intact building."
+    },
+    {
+      "circula": "It was 1,150 tons of bombs on the abbey.",
+      "registro": "That is the most repeated figure. The U.S. official histories give another: 576 tons in the Air Force's, almost 600 in the Army's, dropped by 142 heavy bombers and by the mediums over the course of the day."
+    },
+    {
+      "circula": "The Poles took the abbey in a final assault.",
+      "registro": "The Poles attacked on 12 and 17 May and were thrown back with heavy losses in the first assault, pinning in place the best German division in the sector. With the Liri valley and the Aurunci Mountains open, Kesselring ordered Cassino evacuated on the night of 17 May; on the morning of the 18th, the Polish patrol found about thirty wounded Germans in the ruins and raised the flag at 10:20."
+    },
+    {
+      "circula": "The FEB, the Brazilian Expeditionary Force, fought at Monte Cassino.",
+      "registro": "It did not. The first echelon of the Brazilian Expeditionary Force landed in Naples on 16 July 1944, two months after the fall of the abbey; Monte Castello is from February 1945."
+    }
+  ],
+  "perguntas": [
+    {"p": "Who won the Battle of Monte Cassino?", "r": "The Allies won, in the fourth assault. The Gustav Line broke on 13 May 1944 in the Aurunci Mountains, with the fall of Monte Majo, and the abbey was occupied by the Poles on the morning of 18 May, after the Germans evacuated Cassino."},
+    {"p": "Did Brazil fight at Monte Cassino?", "r": "No. The first echelon of the Brazilian Expeditionary Force (FEB) landed in Naples on 16 July 1944, two months after the fall of the abbey. The FEB's battle is Monte Castello, from February 1945."},
+    {"p": "Why was Monte Cassino bombed?", "r": "The command of the 4th Indian Division asked for the abbey to be demolished, arguing that, occupied or not, it would be an impregnable shelter, and Alexander decided in favor. But the abbey was not occupied by German troops: the paratroopers only set themselves up in the ruins from 17 February 1944."},
+    {"p": "How many soldiers died at Monte Cassino?", "r": "The counts differ and add up casualties, not only dead: more than 105,000 Allied and at least 80,000 German, counting the four battles, Anzio and Rome, according to Matthew Parker; in the May offensive alone, 43,746 Allied and 51,754 German, according to James Holland. The Poles lost 923 killed."},
+    {"p": "How long did the Battle of Monte Cassino last?", "r": "About four months, from 17 January to 18 May 1944. In that period the Allies attacked the Gustav Line at Cassino four times; the first three assaults failed in front of the same point."}
+  ],
+  "fontes": [
+    {"texto": "Martin Blumenson, Salerno to Cassino, U.S. Army in World War II, Center of Military History, 1969 — chs. XIX and XXIII."},
+    {"texto": "Ernest F. Fisher Jr., Cassino to the Alps, U.S. Army in World War II, Center of Military History, 1977 — chs. 1 to 4."},
+    {"texto": "W. F. Craven and J. L. Cate (eds.), The Army Air Forces in World War II, vol. III, ch. 10, 1951."},
+    {"texto": "UK Ministry of Defence, The Battles for Monte Cassino, 12 January – 5 June 1944, 2004."},
+    {"texto": "Institute of National Remembrance (IPN), 81. rocznica zdobycia Monte Cassino przez 2. Korpus Polski, 2025."},
+    {"texto": "dzieje.pl, 74 lata temu żołnierze 2. Korpusu Polskiego zdobyli Monte Cassino."},
+    {"texto": "FEB Virtual Museum, Brazilian Army — 1944 timeline."},
+    {"texto": "Chrissy Gregg, The Destruction of Monte Cassino, The National WWII Museum, 2021."},
+    {"texto": "Fourth battle of Cassino, 11-18 May 1944 (Operation Diadem) — History of War."},
+    {"texto": "Battle of Monte Cassino — English Wikipedia."},
+    {"texto": "Operation Diadem — English Wikipedia."}
+  ],
+  "imagens": [
+    {
+      "alt": "Low aerial view of the ruins of the abbey on top of Monte Cassino: a stone wall still standing on the right, rubble over the rest of the summit and mountains in the background",
+      "legenda": "The ruins of the Monte Cassino abbey seen from an RAF aircraft in May 1944. The building, which the Germans did not occupy before the bombing of 15 February, became a paratrooper position until 18 May.",
+      "autor": "F/O Baker, official Royal Air Force photographer · Imperial War Museums, C 4363"
+    },
+    {
+      "alt": "Section of a topographic map with Cassino and Highway 6 in red at the top right, the Liri valley crossing the center and, below, the mountains with Esperia, Ausonia and Monte Majo",
+      "legenda": "Cassino, the Liri valley and the Aurunci Mountains on the Italy 1:100,000 map, sheet 160, of the British War Office (2nd edition, 1943), reproduced by the Army Map Service. At the top, the front door: Cassino, the Rapido and Highway 6. Below, the path of the fourth assault: Monte Majo, Ausonia, Esperia.",
+      "autor": "Geographical Section, General Staff (GSGS 4164) · U.S. Army Map Service · Perry-Castañeda Library, University of Texas"
+    },
+    {
+      "alt": "American soldiers in helmets haul a wheeled mortar with ropes up a steep slope of earth and stone",
+      "legenda": "A team from Company B of the U.S. 2nd Chemical Mortar Battalion hauls a mortar over the terrain of the Cassino area, on 6 March 1944. On the mountain, ammunition and water went up by mule or on men's backs.",
+      "autor": "Paris, 196th Signal Photo Company · U.S. Army Signal Corps, NARA SC 336793"
+    },
+    {
+      "alt": "Helmeted soldiers crouching in a semicircle in a field listen to an officer sitting on a tree stump, his back to the camera",
+      "legenda": "Infantry of the 2nd Moroccan Division of the French Expeditionary Corps receive instructions before relieving the U.S. 34th Division near Cassino, in the winter of 1943–44. On 13 May 1944, it was this division that took Monte Majo.",
+      "autor": "Sergeant Lambert · Imperial War Museums, NA 9734"
+    },
+    {
+      "alt": "Color photograph: an overturned Sherman tank and the wreckage of an iron bridge in the foreground, white ruins of the town and the mountain with its bare summit in the background",
+      "legenda": "The town of Cassino on 18 May 1944, the day the abbey was occupied: a destroyed Sherman beside a Bailey bridge, with Monastery Ridge and Castle Hill in the background. Original War Office color photograph, not colorized.",
+      "autor": "Captain Tanner, official War Office photographer · Imperial War Museums, TR 1799"
+    },
+    {
+      "alt": "Mound of rubble and broken walls of the abbey with two small flags planted at the highest point",
+      "legenda": "The Polish and British flags over the ruins of the abbey, in May 1944. The Polish one was raised at 10:20 on 18 May by a patrol of the 12th Podolian Lancers Regiment.",
+      "autor": "Unidentified author · Tadeusz Szumański Photographic Archive, National Digital Archive of Poland (NAC 24-452-15)"
+    }
+  ]
+}

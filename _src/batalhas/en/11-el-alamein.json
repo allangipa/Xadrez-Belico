@@ -1,0 +1,277 @@
+{
+  "_nota": "Tradução fiel de ../11-el-alamein.json. Campos fixos (num, slug, estreia, proximo, relacionados, conf, arquivo, licenca, licenca_url, origem_url, tipo, ano, foco, url) vêm do original.",
+  "batalha": "El Alamein",
+  "nome_busca": "Battle of El Alamein",
+  "titulo_video": null,
+  "lugar": "El Alamein, on Egypt's Mediterranean coast, about 106 km from Alexandria",
+  "data": "23 October to 11 November 1942",
+  "campanha": "World War II, 1942",
+  "pergunta": "The desert as a chessboard: logistics against genius — why did the Desert Fox lose?",
+  "resumo": "At the Battle of El Alamein, Rommel had no open flank, no fuel and half the pieces. Why the most famous general of the war lost in Egypt.",
+  "abertura": [
+    "On the night of 23 October 1942, at 21:40, about 900 British guns open fire along the El Alamein line, in Egypt. On the other side are about half a million mines, a German-Italian army with fuel for a few days — and, in command, a stand-in general: Erwin Rommel was on sick leave in Germany. Twelve days later the Axis falls back; by 11 November it will have left behind about 30,000 prisoners.",
+    "The textbook explanation is that Montgomery beat Rommel. But the game had begun months earlier: in a bottleneck of a little over 60 km between the sea and an impassable depression, where the move around the flank — Rommel's weapon — did not exist; and in the Mediterranean, where the ships carrying his gasoline were being sunk. The question on this page is what weighed more: the general or the board."
+  ],
+  "numeros": [
+    {
+      "valor": "~65 km",
+      "rotulo": "between the sea and the Qattara Depression: a front with no open flank"
+    },
+    {
+      "valor": "2 to 1",
+      "rotulo": "the Allied advantage in men and in tanks — more than a thousand tanks against about 550"
+    },
+    {
+      "valor": "500,000",
+      "rotulo": "mines, approximately, in the fields that Axis soldiers called the devil's gardens"
+    },
+    {
+      "valor": "4,500 t",
+      "rotulo": "of fuel aboard the tanker Proserpina, sunk near Tobruk on 26 October"
+    },
+    {
+      "valor": "13,560",
+      "rotulo": "8th Army casualties: 2,350 killed, 8,950 wounded and 2,260 missing"
+    },
+    {
+      "valor": "~30,000",
+      "rotulo": "Axis prisoners by 11 November, most of them Italian infantry without trucks"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "8th Army — forces",
+      "valor": "about 195,000 men, more than 1,000 tanks (among them the first American Shermans), about 900 field and medium guns and about 1,450 anti-tank guns",
+      "nota": "The counts of men range from more than 190,000 (National Army Museum) to 220,000 (Australian War Memorial); 195,000 and 1,029 tanks are the figures of the British official history."
+    },
+    {
+      "item": "Axis — forces",
+      "valor": "the German-Italian Panzer Army: about 116,000 men, about 550 tanks (nearly half of them Italian, mostly obsolete M13/40s) and about 500 guns",
+      "nota": "The men appear as 104,000 (Oxford Companion), 108,000 (Australian War Memorial) or 116,000 (National Army Museum); the tanks between 489 and 550. The ratio of about 2 to 1 holds in every count."
+    },
+    {
+      "item": "Allied command",
+      "valor": "General Harold Alexander (Middle East); Lieutenant-General Bernard Montgomery (8th Army, since 13 August 1942); XXX Corps (Oliver Leese), XIII Corps (Brian Horrocks) and X Corps (Herbert Lumsden)"
+    },
+    {
+      "item": "Axis command",
+      "valor": "Field Marshal Erwin Rommel, on sick leave since 23 September and back only on the night of 25 October; at the start, General Georg Stumme, dead of a heart attack on the morning of 24 October; between the two, Wilhelm von Thoma, captured on 4 November"
+    },
+    {
+      "item": "Terrain",
+      "valor": "a line of about 65 km between the Mediterranean and the Qattara Depression, impassable to armor: every attack had to be frontal. Decisive low ridges: Ruweisat, Tel el Eisa, Alam Halfa, Kidney and Tel el Aqqaqir",
+      "nota": "One source gives 30 miles (about 48 km) for the length of the line."
+    },
+    {
+      "item": "Defense",
+      "valor": "about 500,000 mines, mostly anti-tank, in two belts several kilometers apart, many of them British mines captured at Tobruk"
+    },
+    {
+      "item": "British objective",
+      "valor": "destroy the Axis army in Egypt and remove for good the threat to Alexandria and the Suez Canal"
+    },
+    {
+      "item": "Background",
+      "valor": "First Battle of El Alamein, 1 to 27 July 1942, in which Claude Auchinleck, in personal command of the 8th Army, stops Rommel's advance; Alam Halfa, 30 August to 5 September, Rommel's last offensive in Egypt"
+    },
+    {
+      "item": "Duration",
+      "valor": "23 October to 4 November 1942 (the battle); pursuit until 11 November"
+    },
+    {
+      "item": "Operations",
+      "valor": "Lightfoot, the opening, from 21:40 on 23 October; Supercharge, the breakthrough, on the night of 1 to 2 November; before that, the Bertram deception, with dummy dumps and tanks"
+    },
+    {
+      "item": "Allied casualties",
+      "valor": "13,560: 2,350 killed, 8,950 wounded and 2,260 missing; 22% of them Australian",
+      "nota": "Allied tanks lost: from more than 330 to 500, depending on the source, many recovered later."
+    },
+    {
+      "item": "Axis casualties",
+      "valor": "the counts range from about 30,000 to 90,000, depending on who counts and what is counted; the British figures based on intercepts, cited by the historian Niall Barr, add up to 2,120 killed, 4,819 wounded and 23,602 captured, German and Italian",
+      "nota": "The Australian War Memorial gives about 60,000 in one text and 90,000 in another."
+    },
+    {
+      "item": "Prisoners",
+      "valor": "about 30,000 by 11 November, most of them Italian infantry — 7,802 Germans and 22,071 Italians, according to one count",
+      "nota": "The breakdown by nationality comes from a single source."
+    },
+    {
+      "item": "Result",
+      "valor": "decisive British victory: the Axis falls back from Egypt and never again threatens Suez"
+    },
+    {
+      "item": "Afterwards",
+      "valor": "8 November: Anglo-American landings in Morocco and Algeria (Operation Torch). 10 November: Churchill, in London, speaks of \"the end of the beginning\""
+    }
+  ],
+  "lances": [
+    {
+      "titulo": "The July board: the line with no flank",
+      "paragrafos": [
+        "On 21 June 1942 Rommel takes Tobruk, in Libya, and decides to pursue the British 8th Army into Egypt. The advance he argued for leads the Axis command to postpone the invasion of Malta, planned for July — the island from which British aircraft and submarines attacked the convoys to Africa. The air force that was to cover the invasion is switched to supporting the pursuit.",
+        "The pursuit stops at El Alamein, a railway station about 106 km from Alexandria. There the desert narrows: a little over 60 km separate the sea from the Qattara Depression, impassable to armor. In all his earlier victories Rommel had gone around the opponent to the south, through the open desert. At El Alamein there is no south.",
+        "The one who chooses to stop there is General Claude Auchinleck, Commander-in-Chief Middle East, who takes personal command of the 8th Army. In the First Battle of El Alamein, from 1 to 27 July 1942, he holds Ruweisat Ridge in the center and counterattacks. On 4 July Rommel concludes that he has to go over to the defensive. The Axis advance toward Suez ends there — but Churchill wanted a victory, and on 8 August he decides to change the command. The man chosen, William Gott, dies on the 7th, when his plane is shot down; Bernard Montgomery takes over the 8th Army on 13 August."
+      ]
+    },
+    {
+      "titulo": "The missing piece: fuel",
+      "paragrafos": [
+        "Rommel's problem was not in the line, it was behind it. According to the historian Martin van Creveld, part of the supplies landed at Tripoli and traveled about 1,400 miles overland to the front. Tobruk was small and exposed to air attack; Italian ships preferred safer, more distant ports. In January 1942 Rommel had asked for 8,000 trucks and did not get them. For Van Creveld, advancing beyond Tobruk, with no large port along the way, was a logistical disaster foretold.",
+        "And what came by sea was sunk. At the end of August, before Rommel's offensive at Alam Halfa, more than half of the promised fuel had not arrived. British intelligence — Ultra, the decrypts of Axis communications — identified the supply ships, their routes and cargoes. At the same time, Rommel was losing his own source: the reports of the American military attaché in Cairo, which the Germans were reading, changed code on 29 June, and his radio intercept company was destroyed by the 9th Australian Division at Tel el Eisa, on 10 July.",
+        "At Alam Halfa, from 30 August to 5 September, Rommel tries for the last time to get around the line to the south. Montgomery waits on the ridges, with the armor on the defensive, and the offensive runs out. How much of the defensive plan Montgomery inherited from Auchinleck is debated among historians; the result is not: it was the last time the Axis attacked in Egypt."
+      ]
+    },
+    {
+      "titulo": "October: twice the pieces and half a million mines",
+      "paragrafos": [
+        "In October the 8th Army has about 2 to 1 in men and in tanks — more than a thousand tanks against about 550, nearly half of them Italian and obsolete. Among the British are the first American Shermans, sent after the fall of Tobruk. The absolute numbers vary widely by source; the ratio does not.",
+        "Rommel answers with the only weapon an army without fuel to maneuver can build: about half a million mines, in two belts, which the Axis soldiers called the devil's gardens. Behind them, the German and Italian divisions interleaved. Rommel is ill: he goes on leave on 23 September and leaves General Georg Stumme in command.",
+        "Montgomery does not try to maneuver. On 6 October he rewrites the plan: instead of going first against the armor, the infantry will open corridors through the minefields, at night, and \"crumble\" the infantry holding the line, forcing the Axis armor to counterattack where he chooses. Beforehand, Operation Bertram scatters dummy dumps and tanks in the south and disguises the real ones as trucks in the north. Rommel, not knowing where the blow would come, splits his armor into two groups."
+      ]
+    },
+    {
+      "titulo": "Lightfoot: the opening that stalled",
+      "paragrafos": [
+        "At 21:40 on 23 October the barrage of about 900 guns begins, and four infantry divisions of XXX Corps advance on a front of about 26 km. The next morning, according to the official history of British intelligence, only about half of the infantry had reached its objectives, and no tank had crossed the minefields.",
+        "On the Axis side, the most famous piece is not on the board. Stumme dies of a heart attack on the morning of 24 October, after going to the front and having his car hit; Wilhelm von Thoma takes over. Rommel returns from Germany on the night of the 25th.",
+        "What he finds is a British salient in the north and an army that cannot move. On 25 October, according to the same official history, the Axis had fuel for three days. On 26 October a British torpedo bomber sinks the tanker Proserpina near Tobruk, with 4,500 tons of fuel; other fuel ships go to the bottom in the following days. With no gasoline to retreat or to maneuver, Rommel does what Montgomery's plan wanted: he counterattacks the salient, from 26 to 28 October, and spends his armor against dug-in anti-tank guns."
+      ]
+    },
+    {
+      "titulo": "Attrition: the week no one broke through",
+      "paragrafos": [
+        "Between 24 and 29 October the battle is one of attrition. At Outpost Snipe, on 27 October, a British anti-tank battalion stops an armored counterattack. In the north, the 9th Australian Division pushes toward the sea and draws the Axis reserves there. On 28 October, by British intelligence's count, Rommel had 81 German and 197 Italian tanks in running order.",
+        "In London patience runs out first. According to one biographer, Churchill asks on 26 October whether it is really impossible to find a general who can win a battle. The master plan that Montgomery would later describe did not exist as a straight line: the breakthrough had to be prepared in the middle of the battle, south of the Australian salient, where the Axis had pulled out reserves."
+      ]
+    },
+    {
+      "titulo": "Supercharge and Hitler's order",
+      "paragrafos": [
+        "Operation Supercharge, postponed 24 hours, begins on the night of 1 to 2 November. The 9th Armoured Brigade attacks the line of anti-tank guns at Tel el Aqqaqir at dawn and opens the breach at the cost of most of its tanks. On the night of 2 November Rommel decides to retreat.",
+        "On 3 November Hitler's order arrives: hold to the last, \"victory or death\". That day, according to one count, 35 German tanks remained in running order. Rommel obeys for one day; on 4 November, with the line broken, he orders the retreat, and Hitler authorizes it. Thoma is captured the same day.",
+        "Rommel would blame the order for 24 more hours of fighting and the loss of much of the infantry. Those who pay are above all the Italian infantry, with no trucks to escape: by 11 November the Axis leaves about 30,000 prisoners behind. On 8 November, American and British troops land in Morocco and Algeria, behind Rommel."
+      ]
+    }
+  ],
+  "veredito": [
+    "Rommel did not lose El Alamein in one move; he arrived there already losing. The board of 1942 took from him the two things that made maneuver work: the open flank, which the bottleneck between the sea and Qattara eliminated, and fuel, which the distance from the ports, the lack of trucks and the ships sunk with the help of Ultra strangled. Part of this was his own choice: the advance into Egypt, with no port to sustain it, was what postponed the invasion of Malta.",
+    "Montgomery did not win through genius of maneuver, and he did not win alone. The line and the halt belong to Auchinleck, in July; the 2 to 1 advantage came from factories and convoys. His merit was to play the game this board called for — frontal attrition, with deception to hide where — and to accept the price: 13,560 casualties in twelve days and a week of deadlock before the breakthrough.",
+    "Rommel's absence on the first day, Stumme's death and Hitler's order weighed on the cost of the defeat, not on the outcome. An army that has no gasoline to retreat can only fight where it stands, and ends up surrendering on foot."
+  ],
+  "mitos": [
+    {
+      "circula": "Rommel was an invincible genius, beaten only by numerical superiority.",
+      "registro": "His tactical skill is recognized, but the advance to El Alamein was his choice, against warnings that there was no port and no trucks to sustain it, and that advance postponed the invasion of Malta. His fame was also manufactured: Goebbels noted in November 1941 the \"urgent need\" to make Rommel a popular hero. And when the decisive battle began, he was on sick leave in Germany; he only returned on the night of 25 October."
+    },
+    {
+      "circula": "Montgomery won El Alamein alone; the story begins when he arrives.",
+      "registro": "The one who stopped Rommel at El Alamein was Claude Auchinleck, in the first battle, from 1 to 27 July 1942. Montgomery took over on 13 August, because the man chosen, William Gott, died on 7 August. How much he inherited from Auchinleck's plans for Alam Halfa is debated among historians. His own merit exists — the attrition plan, the Bertram deception, the refusal to attack before he had superiority — but the line and the halt belong to July."
+    },
+    {
+      "circula": "The battle followed Montgomery's master plan to the letter.",
+      "registro": "On the morning of 24 October only about half of the infantry had reached its objectives and no tank had crossed the minefields. The attack stalled until the end of October, and the breakthrough operation was prepared in the middle of the battle and postponed 24 hours. It worked, but corrected along the way."
+    },
+    {
+      "circula": "Before Alamein we never had a victory. After Alamein we never had a defeat.",
+      "registro": "The sentence is Churchill's, written in his memoirs after the war, and he himself introduces it with an \"it may almost be said\". There were British victories in the desert before: Operation Compass, between December 1940 and February 1941, destroyed the Italian 10th Army, and Operation Crusader, at the end of 1941, forced Rommel to retreat."
+    },
+    {
+      "circula": "With twice of everything, it was a cheap victory.",
+      "registro": "The 8th Army had 13,560 casualties in twelve days: 2,350 killed, 8,950 wounded and 2,260 missing. The 9th Armoured Brigade lost most of its tanks in a single morning at Tel el Aqqaqir. Superiority decided who would win, not the price."
+    }
+  ],
+  "perguntas": [
+    {
+      "p": "Who won the Battle of El Alamein?",
+      "r": "The British 8th Army, under Montgomery, won a decisive victory: the Axis fell back from Egypt and never again threatened Suez. By 11 November 1942 it had left behind about 30,000 prisoners, most of them Italian infantry without trucks."
+    },
+    {
+      "p": "Why did Rommel lose El Alamein?",
+      "r": "Because he arrived there already losing. The bottleneck of about 65 km between the sea and the Qattara Depression took away his open flank, and the lack of fuel, with ships sunk with the help of Ultra, took away maneuver. When the battle began, he was still on sick leave in Germany."
+    },
+    {
+      "p": "When was the Battle of El Alamein?",
+      "r": "The Second Battle of El Alamein ran from 23 October to 4 November 1942, with a pursuit until 11 November. Before it came the first, from 1 to 27 July 1942, in which Auchinleck stopped Rommel's advance."
+    },
+    {
+      "p": "How many soldiers died in the Battle of El Alamein?",
+      "r": "The 8th Army had 13,560 casualties: 2,350 killed, 8,950 wounded and 2,260 missing. On the Axis side the sources differ: the counts range from about 30,000 to 90,000, depending on who counts and what is counted."
+    },
+    {
+      "p": "Who led the Battle of El Alamein?",
+      "r": "On the British side, Lieutenant-General Bernard Montgomery, at the head of the 8th Army since 13 August 1942. On the Axis side, Rommel was on leave: General Georg Stumme began in command and died on the morning of 24 October, and Rommel only returned on the night of the 25th."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "Australian War Memorial, El Alamein 80 years on."
+    },
+    {
+      "texto": "Australian War Memorial, Battles of El Alamein."
+    },
+    {
+      "texto": "National Army Museum (London), Second Battle of El Alamein."
+    },
+    {
+      "texto": "Ed Lengel, \"Forgotten Fights: Stopping Rommel at Ruweisat Ridge, July 1942\", The National WWII Museum."
+    },
+    {
+      "texto": "Antulio J. Echevarria II, \"El Alamein, 1942: Rommel's Anti-Climax\", Military Strategy Magazine."
+    },
+    {
+      "texto": "J. Rickard, \"Second battle of El Alamein, 23 October–4 November 1942\", History of War, 2017."
+    },
+    {
+      "texto": "Martin van Creveld, Supplying War: Logistics from Wallenstein to Patton, 1977, ch. 6 (summary of a study by C. Palmer)."
+    },
+    {
+      "texto": "I. S. O. Playfair et al., The Mediterranean and Middle East, vol. IV, HMSO, 1966; F. H. Hinsley, British Intelligence in the Second World War, vol. 2, 1981; Niall Barr, Pendulum of War, 2004."
+    },
+    {
+      "texto": "World History Encyclopedia, Second Battle of El Alamein."
+    },
+    {
+      "texto": "HistoryNet, \"Silent Sentries\" and \"Intercepted Communications for Field Marshal Erwin Rommel\"."
+    },
+    {
+      "texto": "Canadian Letters and Images Project, Sinking of the Proserpina: 26 Oct 1942."
+    },
+    {
+      "texto": "English Wikipedia, Second Battle of El Alamein and First Battle of El Alamein (starting point)."
+    }
+  ],
+  "imagens": [
+    {
+      "alt": "View from the back of a truck with helmeted soldiers seen from behind; ahead, another truck moves through the desert beside a large burst of sand",
+      "legenda": "A British truck carries infantry through minefields and wire at El Alamein, in October 1942, as a mine explodes alongside. The Axis had about half a million mines on the line, in the fields its soldiers called the devil's gardens.",
+      "autor": "Sgt. J. Mapham, No 1 Army Film & Photographic Unit · Imperial War Museums, E 18542"
+    },
+    {
+      "alt": "Map of the Mediterranean basin with Malta, Tripoli, Benghazi, Tobruk, El Alamein and the Qattara Depression marked on the North African coast",
+      "legenda": "The logistics board: from Tripoli and Benghazi to El Alamein, hundreds of kilometers of coast, with Malta in the middle of the Axis convoy route. The dotted area south of El Alamein is the Qattara Depression. Map from the historical atlas of the U.S. Military Academy, made after the war.",
+      "autor": "Department of History, United States Military Academy (West Point)"
+    },
+    {
+      "alt": "Desert at night, with vehicles silhouetted against a band of flashes on the horizon",
+      "legenda": "The barrage that opened the Second Battle of El Alamein, on the night of 23 October 1942: vehicles and ambulances waiting to advance, silhouetted against the glare of about 900 guns.",
+      "autor": "Sgt. Gladstone, No 1 Army Film & Photographic Unit · Imperial War Museums, E 18465"
+    },
+    {
+      "alt": "Tanks advancing in a line through the desert, raising dust, over track marks on the ground",
+      "legenda": "British tanks move up to the fighting after the infantry opened corridors through the minefields, at El Alamein, October 1942. The order — infantry first, armor after — was the core of Montgomery's plan.",
+      "autor": "Sgt. Gladstone, No 1 Army Film & Photographic Unit · Imperial War Museums, E 18481"
+    },
+    {
+      "alt": "Officer in a beret holding binoculars in the turret of a tank, beside another man looking through binoculars",
+      "legenda": "Montgomery in the turret of his command tank, a Grant, on 5 November 1942, the day after the breakthrough, watching the start of the Axis retreat.",
+      "autor": "Capt. G. Keating, No 1 Army Film & Photographic Unit · Imperial War Museums, E 18980"
+    },
+    {
+      "alt": "Line of prisoners of war walking between barbed-wire fences, led by a British soldier with a rifle on his shoulder",
+      "legenda": "Italian prisoners captured in the El Alamein area enter the cage behind the guard, in 1942. The Italian infantry, with no trucks to retreat, made up most of the roughly 30,000 prisoners of the second battle.",
+      "autor": "Official British photo (BO-BM-16010), distributed by the U.S. Office of War Information · Library of Congress"
+    }
+  ]
+}

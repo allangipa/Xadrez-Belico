@@ -1,0 +1,157 @@
+{
+  "_nota": "Tradução fiel de ../02-montese.json. Campos fixos (num, slug, estreia, proximo, relacionados, conf, arquivo, licenca, licenca_url, origem_url, tipo, ano, foco, url) vêm do original.",
+  "batalha": "Montese",
+  "nome_busca": "Battle of Montese",
+  "titulo_video": "Why the FEB won at Montese (and paid the highest price)",
+  "lugar": "Montese, Modena, Emilia-Romagna, Italy",
+  "data": "14 to 17 April 1945",
+  "campanha": "The FEB in Italy",
+  "pergunta": "Why did Montese fall in 2h15 and, even so, cost 426 Brazilian casualties?",
+  "resumo": "Battle of Montese: the town fell in 2h15 on 14 April 1945; holding it cost the FEB 426 casualties, due to a German reading, not a Brazilian mistake.",
+  "abertura": [
+    "On 14 April 1945, the Brazilian Expeditionary Force attacked Montese, a town of stone houses on top of a hill in the Apennines, in the province of Modena, Italy. It began at 13:30. By 15:45 the town was occupied: 2 hours and 15 minutes.",
+    "Even so, the four days of Montese ended with 426 Brazilian casualties. The capture was quick; what cost dearly was staying. And the most likely explanation lies not in the Brazilian plan, but in the way the German command read the move."
+  ],
+  "numeros": [
+    {"valor": "2h15", "rotulo": "to occupy the town, from 13:30 to 15:45 on 14 April"},
+    {"valor": "426", "rotulo": "Brazilian casualties between 14 and 17 April: killed, wounded, captured and missing"},
+    {"valor": "34", "rotulo": "killed within that total, according to the Portuguese Wikipedia"},
+    {"valor": "≈ 2/3", "rotulo": "of the sector's German artillery fell on the Brazilian division — the absolute numbers differ"},
+    {"valor": "4", "rotulo": "days of fighting: the town fell on the first, the mopping-up ended on the last"},
+    {"valor": "19", "rotulo": "volunteers in the patrol of Max Wolff Filho, killed two days before the attack"}
+  ],
+  "ficha": [
+    {"item": "Date", "valor": "14 to 17 April 1945; attack at 13:30 on the 14th"},
+    {"item": "Context", "valor": "Allied spring 1945 offensive in Italy. In the U.S. IV Corps sector, the main attack fell to the 10th Mountain Division; the FEB had a mission on the flank", "nota": "According to the English Wikipedia"},
+    {"item": "Terrain", "valor": "Town on top of a hill, with stone houses, narrow streets, cellars and a bell tower; high ground all around"},
+    {"item": "Objective", "valor": "The triangle Montese – Hill 888 – Montello"},
+    {"item": "Brazilian force", "valor": "11th Infantry Regiment, with three battalions, in the attack on Montese; the 1st Infantry Regiment attacked in the same action", "nota": "The 1st Infantry Regiment appears on the period map signed by Autran (1946) and in the Brazilian Army Blog; the Portuguese Wikipedia cited the 6th Infantry Regiment"},
+    {"item": "Armor", "valor": "The infantry advanced with M8 armored cars and Sherman tanks", "nota": "According to the English Wikipedia"},
+    {"item": "German force", "valor": "114th Light Division (Jägerdivision), troops geared to rough terrain and urban combat"},
+    {"item": "Strength", "valor": "No verified figure for either side"},
+    {"item": "Duration", "valor": "Town occupied at 15:45 on 14 April; counterattacks until 16 April; mopping-up of resistance at Montebuffone on the 17th"},
+    {"item": "German artillery", "valor": "About 1,800 shells on the Brazilian division, out of 2,800 fired against four divisions (64%), per the Portuguese Wikipedia; more than 3,200 shells expended in the battle, per the Brazilian Army Blog. The two numbers do not square with each other"},
+    {"item": "Brazilian casualties", "valor": "426 among killed, wounded, captured and missing; 34 killed, according to the Portuguese Wikipedia"},
+    {"item": "German casualties and prisoners", "valor": "No verified figure"},
+    {"item": "Before", "valor": "On 12 April, Sergeant Max Wolff Filho, 33 years old and with more than 30 patrols behind him, was killed by a machine-gun burst while leading 19 volunteers between Monteforte and Riva di Biscia"},
+    {"item": "Result", "valor": "Montese taken on the first day and held against the counterattacks"},
+    {"item": "Afterwards", "valor": "On 29 April 1945, at Fornovo di Taro, the German 148th Infantry Division surrendered to the FEB: 14,779 men"}
+  ],
+  "lances": [
+    {
+      "titulo": "The position on the board: a flank piece",
+      "paragrafos": [
+        "In April 1945 the Allies mounted the final offensive in Italy, with the aim of breaking the German front in the Apennines and opening the way to the Po Valley. In the U.S. IV Corps sector, where the Brazilian Expeditionary Force stood, the main attack fell to the 10th Mountain Division, according to the English Wikipedia.",
+        "To the FEB fell Montese, on the flank. In the language of the board, it was a supporting piece: the move that mattered was on another axis, and the Brazilian role was to apply pressure beside it. That secondary position is what explains everything that comes after.",
+        "The terrain also changed in nature. Monte Castello was an open slope: you climbed under fire, but you could see where the fire came from. Montese is a town on top of a hill, with stone houses, narrow streets, windows, cellars and a bell tower. The board stops being a ramp and becomes a grid of houses, each one able to hide a piece.",
+        "There is also a difference that does not show on the map. The troops attacking in April had spent a whole winter on the Apennine line after the first attempts against Monte Castello. They are the same men, but they are no longer green troops."
+      ]
+    },
+    {
+      "titulo": "The preparatory move: the patrol of 12 April",
+      "paragrafos": [
+        "Before an attack, someone has to go and look at the ground. On 12 April 1945, Sergeant Max Wolff Filho, 33 years old, who had already carried out more than 30 patrols, set out at the head of 19 volunteers to reconnoiter the area between Monteforte and Riva di Biscia, in the no-man's-land in front of the Brazilian lines.",
+        "He was hit by a machine-gun burst and did not come back. A reconnaissance patrol is not for fighting; it is for bringing back where the enemy is, how many there are and where you cannot get through. Two days later, the division attacked that same ground.",
+        "On the board, this is the move that does not show on the scoreboard. The town that fell in an afternoon fell on ground that patrols like his had been mapping in the dark, one stretch at a time, over weeks of static line."
+      ]
+    },
+    {
+      "titulo": "The opening: 2 hours and 15 minutes",
+      "paragrafos": [
+        "At 13:30 on 14 April, the 11th Infantry Regiment attacked the triangle formed by Montese, Hill 888 and Montello, with three battalions. The 1st Infantry Regiment attacked in the same action: the two directions of attack appear in the legend of the map drawn by Autran in 1946.",
+        "The infantry did not go alone. According to the English Wikipedia, the advance had M8 armored cars and Sherman tanks, which gave the Brazilian attack a visible weight of armor in a flank sector.",
+        "At 15:45, Montese was occupied. It took 2 hours and 15 minutes against a defended town, on ground of stone houses in which every window is a firing position. This is where most versions end the story."
+      ]
+    },
+    {
+      "titulo": "The middlegame: taking is not holding",
+      "paragrafos": [
+        "Urban combat has a rule that the open slope does not: occupying the ground is not the same as being safe on it. On a slope, a machine gun covers a sector; in a street, every door and every cellar opens a new angle, and the building left behind may still have someone inside.",
+        "On the other side was the German 114th Light Division, the Jägerdivision, troops geared to rough terrain and urban combat. The Germans did not accept the loss: they counterattacked and, above all, began to shell the town the Brazilians had just occupied.",
+        "It is at this point that the attacker's advantage is reversed. While advancing, the troops choose where and when to expose themselves. Once they have occupied, they sit still inside a target the opponent knows, because until a few hours before it was his.",
+        "The counterattacks only ceased on 16 April. On the 17th, the troops were still mopping up resistance at Montebuffone. The town fell in an afternoon; holding it took the rest of the four days."
+      ]
+    },
+    {
+      "titulo": "The opponent's reading: the flank taken for the center",
+      "paragrafos": [
+        "The volume of fire is the figure that weighs most, and also the one the sources record least consistently. The Portuguese Wikipedia speaks of about 1,800 shells on the Brazilian division, out of a total of 2,800 fired against the four Allied divisions in the sector, which comes to 64%. The Brazilian Army Blog speaks of more than 3,200 shells expended in the battle. The numbers do not square with each other; what the two versions have in common is the concentration of fire on the FEB, at around two thirds.",
+        "Why did a flank division draw most of the artillery? The English Wikipedia records that the Brazilian advance with armor led the German command to consider Montese a possible real Allied objective in that sector. It is interpretation, not document, but it fits with the rest: on the first day, the main attack of the 10th Mountain was held, while on the flank a force was entering a defended town, with tanks, and not stopping.",
+        "Seen from the German position, the secondary move looked like the main one. And the opponent responded to what he saw, concentrating fire there. Brazilian speed, which was the virtue of the attack, became the signal that drew the artillery."
+      ]
+    },
+    {
+      "titulo": "The bill",
+      "paragrafos": [
+        "Between 14 and 17 April, the FEB suffered 426 casualties, among killed, wounded, captured and missing. The Portuguese Wikipedia details 34 killed within that total.",
+        "The comparison with the opening of the attack is the whole lesson of the episode. The 2h15 measured the quality of the Brazilian move; the four days measured the opponent's response. The two numbers describe different things, and rolling them into a single sentence, as if the casualties had fallen during the capture, is the kind of compression that erases what actually happened.",
+        "The objective was achieved on the first day and the town was held. The price came not from a Brazilian planning error, but from being exactly at the point the opponent chose as the most dangerous. Two weeks later, the same troops would encircle an entire German division at Fornovo di Taro."
+      ]
+    }
+  ],
+  "veredito": [
+    "Montese is the reverse of Monte Castello. There, the Allies attacked one piece without looking at the whole chain of positions, and paid for a misreading of their own. Here, the FEB played the right piece, at the right time, and achieved the objective in 2h15.",
+    "The blood came from the other half of the board. Everything suggests that the German command read the flank attack, fast and with armor, as the main axis of the offensive, and poured most of the sector's artillery onto it. The bill for a wrong reading does not go to whoever got it wrong; it goes to whoever stands on the point that was read."
+  ],
+  "mitos": [
+    {
+      "circula": "Montese was a quick, clean victory: the town fell in two hours.",
+      "registro": "The town was occupied in 2 hours and 15 minutes, from 13:30 to 15:45 on 14 April. But the counterattacks went on until 16 April, the mopping-up until the 17th, and the FEB totaled 426 casualties over those four days."
+    },
+    {
+      "circula": "So many casualties show the Brazilian troops were unprepared.",
+      "registro": "The troops achieved the objective on the first day, against the 114th Light Division, geared to combat in rough terrain and urban areas, and under the most concentrated artillery fire in the sector. The casualties came from holding the town under that fire, not from failing to take it."
+    },
+    {
+      "circula": "The FEB was the only Allied division to reach its planned objective on the first day of the offensive.",
+      "registro": "The claim appears in a single source, the Portuguese Wikipedia, without independent confirmation. What holds up is more modest: the main attack of the 10th Mountain Division was held on the first day, and the FEB achieved its objective."
+    }
+  ],
+  "perguntas": [
+    {"p": "Who won the Battle of Montese?", "r": "The Brazilian Expeditionary Force. The town was occupied at 15:45 on 14 April 1945 and held against the counterattacks of the German 114th Light Division, which went on until 16 April."},
+    {"p": "How many Brazilians died in the Battle of Montese?", "r": "The FEB suffered 426 casualties between 14 and 17 April 1945, counting killed, wounded, captured and missing. Within that total, the Portuguese Wikipedia details 34 killed."},
+    {"p": "How long did the Battle of Montese last?", "r": "Four days, from 14 to 17 April 1945. The town fell in 2 hours and 15 minutes, from 13:30 to 15:45 on the 14th; the counterattacks went on until 16 April, and the mopping-up at Montebuffone ended on the 17th."},
+    {"p": "Why did the Battle of Montese cost so many Brazilian casualties?", "r": "The casualties came from holding the town, not from taking it. Everything suggests that the German command read the flank attack, fast and with armor, as the main axis of the offensive, and concentrated on the FEB around two thirds of the sector's artillery."}
+  ],
+  "fontes": [
+    {"texto": "Batalha de Montese — Portuguese Wikipedia"},
+    {"texto": "Battle of Montese — English Wikipedia"},
+    {"texto": "Spring 1945 offensive in Italy — English Wikipedia"},
+    {"texto": "O dever cívico-militar de exaltar a Batalha de Montese — Brazilian Army Blog"},
+    {"texto": "Max Wolff Filho — Portuguese Wikipedia; and Revista Sociedade Militar, on the \"king of patrols\""},
+    {"texto": "Map \"Combate de Montese\", signed Autran, 1946 (Wikimedia Commons)"},
+    {"texto": "29 April — Capture of Fornovo and surrender of the German 148th Infantry Division — Brazilian Army General Personnel Department"}
+  ],
+  "imagens": [
+    {
+      "alt": "Armored reconnaissance car stopped in a street of Montese, between houses scarred by shrapnel and stone rubble, with soldiers on the right",
+      "legenda": "Brazilian Expeditionary Force in Montese: a reconnaissance car in a street of shrapnel-riddled houses.",
+      "autor": "Força Expedicionária Brasileira"
+    },
+    {
+      "alt": "Perspective drawing of the terrain of Montese, with thick and thin red arrows showing the directions of attack and names such as Montese, Cemitério, Monte Buffone and Montello",
+      "legenda": "\"Combate de Montese, 14-IV-945\", drawing signed by Autran in 1946. The thick arrows are the directions of attack of the 11th Infantry Regiment; the thin ones, of the 1st.",
+      "autor": "Força Expedicionária Brasileira (drawing signed Autran, 1946)"
+    },
+    {
+      "alt": "Brazilian soldiers lying behind an embankment, one of them with a bipod-mounted machine gun, facing stone houses",
+      "legenda": "Brazilian soldiers in position in Montese, with stone houses ahead.",
+      "autor": "Força Expedicionária Brasileira"
+    },
+    {
+      "alt": "Narrow street in Montese with shrapnel-scarred facades, a jeep and a truck, and the town's damaged tower in the background",
+      "legenda": "FEB vehicles in a street of Montese; in the background, the damaged tower.",
+      "autor": "Força Expedicionária Brasileira"
+    },
+    {
+      "alt": "Interior of a church with the roof destroyed and the back wall reduced to rubble, wooden pews on the floor",
+      "legenda": "The church of Castelluccio di Montese after the shelling.",
+      "autor": "Força Expedicionária Brasileira"
+    },
+    {
+      "alt": "American military topographic map of the Fanano sheet, with contour lines, roads in red, rivers in blue and a legend on the right",
+      "legenda": "The map of the Montese area: Army Map Service, Italy 1:50,000, sheet 97-I \"Fanano\", 2nd edition, May 1944.",
+      "autor": "U.S. Army Map Service"
+    }
+  ]
+}

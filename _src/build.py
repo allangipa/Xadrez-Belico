@@ -259,7 +259,8 @@ CAMPOS_FIXOS = {"num", "slug", "estreia", "proximo", "relacionados", "conf",
 EXTRAS_TRAD = {"nome_busca", "_excecoes_numeros", "_nota"}
 # Texto citado (título de obra, de artigo) pode ficar igual ao original.
 PODE_FICAR_IGUAL = re.compile(r"^fontes\[\d+\]\.texto$|\.autor$")
-BASTIDOR_TRAD = re.compile(r"\bTODO\b|\bTBD\b|\bFIXME\b|\[\?\]|\bto (?:check|verify|confirm)\b"
+# "TBD" é bastidor, menos no nome do avião (Douglas TBD Devastator, Midway)
+BASTIDOR_TRAD = re.compile(r"\bTODO\b|\bTBD\b(?!-?\d*\s+Devastator)|\bFIXME\b|\[\?\]|\bto (?:check|verify|confirm)\b"
                            r"|\bpor (?:verificar|confirmar)\b|\bpendiente\b", re.I)
 
 MESES_NOMES = {
@@ -293,7 +294,7 @@ def numeros_do_texto(txt, lg):
     """Multiconjunto dos números do texto, normalizados: 1.000 (pt) = 1,000 (en)
     = 1000; "20 mil" = "20,000"; "250–300 mil" = 250000 e 300000; 3/11/1924 =
     3 + novembro + 1924; o mês por extenso conta como número (M11)."""
-    t = re.sub(r"(?<![\d/])(\d{1,2})/(\d{1,2})/(\d{4})\b", lambda m: f"{m[1]} §M{int(m[2])}§ {m[3]}", txt)
+    t = re.sub(r"(?<![\d/])(\d{1,2})º?/(\d{1,2})/(\d{4})\b", lambda m: f"{m[1]} §M{int(m[2])}§ {m[3]}", txt)
     c = Counter()
     for m in re.finditer(r"§M(\d+)§", t):
         c[f"M{int(m[1])}"] += 1
@@ -1015,20 +1016,46 @@ def seo_fixas():
         "index.html": (tr("{nome}: a batalha explicada como partida", nome=NOME),
                        tr("História militar lida como tabuleiro: terreno, peças, lances e o erro de planejamento. "
                           "Por que o ataque deu certo, ou não deu. Com fonte.")),
-        "sobre.html": (f"Sobre o {NOME}: como cada página é apurada",
-                       f"O que é o {NOME}, projeto independente de história militar: como cada página é apurada, "
-                       "o selo de confiança dos números, as imagens e quem faz."),
-        "contato.html": (f"Contato · {NOME}",
-                         f"Como falar com o {NOME} por e-mail: correções com fonte, créditos e retirada de imagens, "
-                         "pedidos sobre seus dados (LGPD), pautas e imprensa."),
-        "privacidade.html": (f"Política de privacidade · {NOME}",
-                             f"Como o {NOME} trata dados, cookies e publicidade do Google AdSense: o que coleta, o que não "
-                             "coleta e quais são os seus direitos sob a LGPD."),
+        "sobre.html": (tr("Sobre o {nome}: como cada página é apurada", nome=NOME),
+                       tr("O que é o {nome}, projeto independente de história militar: como cada página é apurada, "
+                          "o selo de confiança dos números, as imagens e quem faz.", nome=NOME)),
+        "contato.html": (tr("Contato · {nome}", nome=NOME),
+                         tr("Como falar com o {nome} por e-mail: correções com fonte, créditos e retirada de imagens, "
+                            "pedidos sobre seus dados (LGPD), pautas e imprensa.", nome=NOME)),
+        "privacidade.html": (tr("Política de privacidade · {nome}", nome=NOME),
+                             tr("Como o {nome} trata dados, cookies e publicidade do Google AdSense: o que coleta, o que não "
+                                "coleta e quais são os seus direitos sob a LGPD.", nome=NOME)),
     }
 
 
-# Sobre, contato e privacidade ainda só existem em português (o texto mora
-# aqui no build): nos outros idiomas, os links para elas caem no português.
+# Sobre, contato e privacidade: em português o texto mora aqui no build; nos
+# outros idiomas, em _src/paginas/<id>/<pagina>.html (só o <main>, com os
+# marcadores {{…}} de corpo_fixo()). Sem o arquivo, a página não existe naquele
+# idioma e os links para ela caem no português.
+PAGINAS_FIXAS = ("sobre.html", "contato.html", "privacidade.html")
+
+
+def fixa_traduzida(lg, chave):
+    return SRC / "paginas" / lg / chave
+
+
+def corpo_fixo(pt, chave, marcas):
+    """O <main> da página fixa no idioma atual: o modelo em português (pt) ou o
+    arquivo traduzido, com os marcadores {{…}} trocados. Para se sobrar um."""
+    txt = pt if L == BASE_IDIOMA else fixa_traduzida(L, chave).read_text(encoding="utf-8")
+    for k, v in marcas.items():
+        txt = txt.replace("{{" + k + "}}", v)
+    resto = re.findall(r"\{\{\w*\}\}", txt)
+    if resto:
+        falha(f"{L}/{chave}: marcador sem valor {sorted(set(resto))}")
+    b = BASTIDOR.search(re.sub(r"<[^>]+>", " ", txt)) or (L != BASE_IDIOMA and BASTIDOR_TRAD.search(txt))
+    if b:
+        falha(f"{L}/{chave}: bastidor de produção no texto ({b.group(0)!r})")
+    return txt
+
+
+def canal_a():
+    return f'<a href="{CANAL}" target="_blank" rel="noopener">@XadrezBélico</a>' if CANAL else ""
 
 
 # --- home ------------------------------------------------------------------------
@@ -1392,25 +1419,26 @@ PRIVACIDADE = """<main id="conteudo"><div class="casca privacidade">
 def pagina_privacidade():
     """Escrita para ESTE site, não copiada de modelo: diz só o que ele faz.
     Adaptada da política do Vestígio Oculto, que tem o mesmo desenho."""
-    base = ""
+    base = "" if L == BASE_IDIOMA else "../"
     if CANAL:
-        canal = f'com canal correspondente no YouTube, <a href="{CANAL}" target="_blank" rel="noopener">@XadrezBélico</a>'
+        canal = f'com canal correspondente no YouTube, {canal_a()}'
     else:
         canal = "com canal correspondente no YouTube"
-    corpo = (PRIVACIDADE.replace("{{NOME}}", NOME).replace("{{CANAL_FRASE}}", canal)
-             .replace("{{CHAVE}}", CHAVE_CONSENTIMENTO).replace("{{DOMINIO_NU}}", DOMINIO.split("//")[1]))
-    u = DOMINIO + "/privacidade.html"
+    corpo = corpo_fixo(PRIVACIDADE, "privacidade.html",
+                       {"NOME": NOME, "CANAL_FRASE": canal, "CANAL_A": canal_a(), "CHAVE": CHAVE_CONSENTIMENTO,
+                        "DOMINIO_NU": DOMINIO.split("//")[1]})
+    u = url_de(L, "privacidade.html")
     TITULO_PRIV, DESC_PRIV = seo_fixas()["privacidade.html"]
     return (cabeca(TITULO_PRIV, DESC_PRIV, u, f"{DOMINIO}/assets/img/og-home.jpg", base,
                    [{"@context": "https://schema.org", "@type": "WebPage", "name": TITULO_PRIV, "description": DESC_PRIV,
-                     "url": u, "inLanguage": "pt-BR"},
-                    migalhas((NOME, DOMINIO + "/"), ("Política de privacidade", u))])
+                     "url": u, "inLanguage": cfg("hreflang")},
+                    migalhas((NOME, url_de(L, "index.html")), (tr("Política de privacidade"), u))])
             + topo(base) + corpo + rodape(base) + consentimento(base) + fim())
 
 
 def pagina_sobre():
-    base = ""
-    canal = f'no YouTube, <a href="{CANAL}" target="_blank" rel="noopener">@XadrezBélico</a>' if CANAL else "no YouTube"
+    base = "" if L == BASE_IDIOMA else "../"
+    canal = f'no YouTube, {canal_a()}' if CANAL else "no YouTube"
     corpo = f"""<main id="conteudo"><div class="casca privacidade">
   <span class="rotulo">Sobre</span>
   <h1>Sobre o {NOME}</h1>
@@ -1438,17 +1466,19 @@ def pagina_sobre():
   <p>O site se mantém com anúncios do Google AdSense, descritos na <a href="privacidade.html">política de privacidade</a>. Nenhum anúncio interfere no que é escrito.</p>
 </div></main>
 """
-    u = DOMINIO + "/sobre.html"
+    corpo = corpo_fixo(corpo, "sobre.html", {"NOME": NOME, "CANAL_A": canal_a(),
+                                             "SITE_IRMAO_VO": SITE_IRMAO_VO, "SITE_IRMAO_AI": SITE_IRMAO_AI})
+    u = url_de(L, "sobre.html")
     TITULO_SOBRE, DESC_SOBRE = seo_fixas()["sobre.html"]
     return (cabeca(TITULO_SOBRE, DESC_SOBRE, u, f"{DOMINIO}/assets/img/og-home.jpg", base,
                    [{"@context": "https://schema.org", "@type": "AboutPage", "name": TITULO_SOBRE, "description": DESC_SOBRE,
-                     "url": u, "inLanguage": "pt-BR"},
-                    migalhas((NOME, DOMINIO + "/"), ("Sobre", u))])
+                     "url": u, "inLanguage": cfg("hreflang")},
+                    migalhas((NOME, url_de(L, "index.html")), (tr("Sobre"), u))])
             + topo(base, "sobre") + corpo + rodape(base) + consentimento(base) + fim())
 
 
 def pagina_contato():
-    base = ""
+    base = "" if L == BASE_IDIOMA else "../"
     corpo = f"""<main id="conteudo"><div class="casca privacidade">
   <span class="rotulo">Contato</span>
   <h1>Fale com o {NOME}</h1>
@@ -1467,12 +1497,13 @@ def pagina_contato():
   <p>Não há formulário nem cadastro: a conversa é por e-mail, e o seu endereço não é usado para mais nada além de responder. Correção confirmada entra na página.</p>
 </div></main>
 """
-    u = DOMINIO + "/contato.html"
+    corpo = corpo_fixo(corpo, "contato.html", {"NOME": NOME})
+    u = url_de(L, "contato.html")
     TITULO_CONTATO, DESC_CONTATO = seo_fixas()["contato.html"]
     return (cabeca(TITULO_CONTATO, DESC_CONTATO, u, f"{DOMINIO}/assets/img/og-home.jpg", base,
                    [{"@context": "https://schema.org", "@type": "ContactPage", "name": TITULO_CONTATO, "description": DESC_CONTATO,
-                     "url": u, "inLanguage": "pt-BR"},
-                    migalhas((NOME, DOMINIO + "/"), ("Contato", u))])
+                     "url": u, "inLanguage": cfg("hreflang")},
+                    migalhas((NOME, url_de(L, "index.html")), (tr("Contato"), u))])
             + topo(base, "contato") + corpo + rodape(base) + consentimento(base) + fim())
 
 def sitemap_xml(entradas):
@@ -1507,7 +1538,8 @@ def main():
                            | {f"batalhas/{b['slug']}.html" for b in bs} | {f"temas/{t['slug']}.html" for t in temas_pt})
     for lg in ATIVOS[1:]:
         EXISTE[lg] = ({"index.html"} | {f"batalhas/{s}.html" for s in trads[lg]}
-                      | {f"temas/{t['slug']}.html" for t in temas_por[lg]})
+                      | {f"temas/{t['slug']}.html" for t in temas_por[lg]}
+                      | {c for c in PAGINAS_FIXAS if fixa_traduzida(lg, c).exists()})
 
     def lista_de(lg):
         """Todas as batalhas, na versão do idioma quando existe (links e "Leia também")."""
@@ -1562,12 +1594,14 @@ def main():
             datas[(lg, PAGINA)] = max([d_temas, fixas_data] + [datas[(lg, f"batalhas/{s}.html")] for s in t[CHAVE_MEMBROS]])
         PAGINA = "index.html"
         saida[pre + PAGINA] = home(delas, og_casa, total=len(bs), banner=(ban.width, ban.height))
-        if lg == BASE_IDIOMA:
-            for chave, fn in (("privacidade.html", pagina_privacidade), ("sobre.html", pagina_sobre),
-                              ("contato.html", pagina_contato)):
+        for chave, fn in (("privacidade.html", pagina_privacidade), ("sobre.html", pagina_sobre),
+                          ("contato.html", pagina_contato)):
+            if chave in EXISTE[lg]:
                 PAGINA = chave
-                saida[chave] = fn()
-                datas[(lg, chave)] = fixas_data
+                saida[pre + chave] = fn()
+                datas[(lg, chave)] = (fixas_data if lg == BASE_IDIOMA
+                                      else max(fixas_data, data_git(fixa_traduzida(lg, chave))))
+        if lg == BASE_IDIOMA:
             PAGINA = "404.html"
             saida["404.html"] = pagina_404()
         datas[(lg, "index.html")] = max([fixas_data] + [d for (l2, _), d in datas.items() if l2 == lg])
@@ -1618,7 +1652,7 @@ def main():
     ordem = []
     for lg in ATIVOS:
         chaves = (["index.html"] + [f"batalhas/{b['slug']}.html" for b in bs]
-                  + (["sobre.html", "contato.html", "privacidade.html"] if lg == BASE_IDIOMA else [])
+                  + list(PAGINAS_FIXAS)
                   + [f"temas/{t['slug']}.html" for t in temas_por[lg]])
         ordem += [(lg, c, datas[(lg, c)]) for c in chaves if (lg, c) in datas]
     (RAIZ / "sitemap.xml").write_text(sitemap_xml(ordem), encoding="utf-8")

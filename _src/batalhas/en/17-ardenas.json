@@ -1,0 +1,159 @@
+{
+  "_nota": "Tradução fiel de ../17-ardenas.json. Campos fixos (num, slug, estreia, proximo, relacionados, conf, arquivo, licenca, licenca_url, origem_url, tipo, ano, foco, url) vêm do original.",
+  "batalha": "The Ardennes",
+  "nome_busca": "Battle of the Bulge",
+  "titulo_video": null,
+  "lugar": "The Ardennes, Belgium and Luxembourg — from Monschau and the Elsenborn Ridge, in the north, to Echternach, in the south, and as far as Celles, near Dinant, by the Meuse River",
+  "data": "16 December 1944 to 25 January 1945",
+  "campanha": "World War II, 1944–1945",
+  "pergunta": "Why did the same move as in 1940, through the same forest, not work in 1944?",
+  "resumo": "In the Battle of the Bulge, Hitler repeated his 1940 move toward Antwerp. Why St. Vith, Bastogne, fuel and clear skies stopped him short of the Meuse.",
+  "abertura": [
+    "On 16 September 1944, Hitler interrupted a meeting at his headquarters to announce a counterattack: out of the Ardennes, with Antwerp as the objective. The declared goal was another Dunkirk, and the route was the same as in 1940 — the forest through which German armor had passed to cut France in two. On 16 December, more than 200,000 men attacked four American divisions spread across almost 140 km of front.",
+    "The offensive broke the line, encircled Bastogne and came within less than 10 km of the Meuse. And it stopped there. This page follows the game to answer why the move that had worked once did not work again — and the answer lies neither in fuel alone nor in the clearing sky alone, which are the explanations that circulate most."
+  ],
+  "numeros": [
+    {"valor": "200,000+", "rotulo": "Germans in the first wave, against four American divisions on a front of 88 miles, about 142 km"},
+    {"valor": "3 days", "rotulo": "was what the crossing of the Ardennes took in 1940, without serious resistance, in good weather and on dry roads; the 1944 plan wanted the Meuse in three or four"},
+    {"valor": "4 days", "rotulo": "of delay at St. Vith: the German plan had the town taken by 18:00 on 17 December, and it fell on the night of the 21st"},
+    {"valor": "23 Dec.", "rotulo": "the day the sky cleared and the German columns lost their protection against Allied air power"},
+    {"valor": "< 10 km", "rotulo": "from the Meuse, at Foy-Notre-Dame, near Dinant: the westernmost point, where the 2nd Panzer Division ran out of fuel"},
+    {"valor": "80,987", "rotulo": "American casualties in the Ardennes: 41,315 in December and 39,672 in January, in the count of the U.S. Army Center of Military History"}
+  ],
+  "ficha": [
+    {"item": "The plan", "valor": "Unternehmen Wacht am Rhein: break the American line in the Ardennes, cross the Meuse between Liège and Namur and take Antwerp, separating the British and Canadians from the Americans. Hitler announces the idea on 16 September 1944"},
+    {"item": "Germany — command", "valor": "Adolf Hitler; Gerd von Rundstedt (Commander-in-Chief West); Walter Model (Army Group B); Sepp Dietrich (6th Panzer Army, the main effort, in the north); Hasso von Manteuffel (5th Panzer Army, in the center); Erich Brandenberger (7th Army, southern flank)"},
+    {"item": "Allies — command", "valor": "Dwight Eisenhower; Omar Bradley (12th Army Group); Courtney Hodges (1st Army); George S. Patton (3rd Army); Troy Middleton (VIII Corps); Bernard Montgomery, in command north of the breach from noon on 20 December"},
+    {"item": "Forces at the start", "valor": "in the first wave, more than 200,000 Germans in 13 infantry and 7 armored divisions, with almost 1,000 tanks, against four American divisions on a front of about 142 km. Counting all strength in the sector, 406,342 Germans and 228,741 Allies", "nota": "The first count is from the campaign brochure of the U.S. Army Center of Military History; the second, from the study by Dupuy, Bongard and Anderson (1994). They measure different things: the spearhead and the total in the sector."},
+    {"item": "Units at the key points", "valor": "99th and 2nd Infantry Divisions on the Elsenborn Ridge; 7th Armored Division, CCB of the 9th Armored and remnants of the 106th and the 28th at St. Vith; 101st Airborne and CCB of the 10th Armored at Bastogne; 4th Armored, 26th and 80th Infantry in Patton's counterattack; 2nd Armored at Celles"},
+    {"item": "Terrain", "valor": "ten all-weather roads between Monschau and Wasserbillig, no main highway crossing the forest from east to west; decisive crossroads at St. Vith, Malmedy, Bastogne and Houffalize; the Our, Salm, Amblève and Ourthe rivers, and the Meuse, wide and with an escarpment on its east bank"},
+    {"item": "Objective and timetable", "valor": "the Meuse in three or four days, depending on the source; then about 60 miles to Antwerp", "nota": "English Wikipedia gives the Meuse on the third day and Antwerp on the fourth; the Center of Military History brochure puts the panzers on the Meuse four days after the start."},
+    {"item": "Fuel", "valor": "4,680,000 gallons delivered by 16 December, perhaps half still in depots on the Rhine bank; in the vehicles, enough for 90 to 100 miles of normal running. The plan counted on capturing American fuel", "nota": "Hugh M. Cole, official history of the U.S. Army (1965)."},
+    {"item": "Duration", "valor": "from 16 December 1944 to 25 January 1945; the German offensive proper runs out of steam before the Meuse between 24 and 26 December"},
+    {"item": "American casualties", "valor": "80,987 in the Ardennes, adding up 41,315 in December and 39,672 in January. The dead range from about 8,400 to more than 19,000, depending on the period and the basis of the count", "nota": "Total from the Center of Military History brochure; Wikipedia gives about 81,000. The difference in the dead comes from counting only the Ardennes or the whole Ardennes-Alsace campaign."},
+    {"item": "German casualties", "valor": "there is no official German count; estimates range from about 63,000 to 104,000, and a German academic source cited by the U.S. Army gives 67,200"},
+    {"item": "British and civilians", "valor": "the British XXX Corps loses 1,408 men in the Allied command's count of February 1945; about 3,000 civilians die"},
+    {"item": "Outcome", "valor": "German defeat: no Meuse bridge taken, the original line restored in January. The Germans pull out a good part of the assault force, but with perhaps a third of the armor committed"},
+    {"item": "Aftermath", "valor": "on 1 January the Luftwaffe launches Operation Bodenplatte against Allied airfields and loses more than 230 pilots; on 16 January the American 1st and 3rd Armies meet at Houffalize. It was the last major German offensive in the West"}
+  ],
+  "lances": [
+    {
+      "titulo": "The 1940 move, copied on purpose",
+      "paragrafos": [
+        "In September 1944 Germany was retreating on both fronts. Hitler chose the place where he had won four years earlier: the Ardennes, the forest between Belgium and Luxembourg through which German armor had passed in May 1940. The U.S. Army's official historian, Hugh M. Cole, records that Hitler's proposals that autumn bore more than a casual resemblance to those before the 1940 offensive, and that he believed he could repeat the result. The declared goal was another Dunkirk.",
+        "The target was Antwerp, the great Allied port, which had received its first convoy only on 28 November. Taking it would cut off the British and Canadians in the north from the Americans in the south. The two field marshals charged with carrying out the plan thought the target too big. Walter Model summed it up, according to Cole: the plan did not have a leg to stand on. He and Rundstedt preferred a smaller solution, an encirclement east of the Meuse. Hitler kept Antwerp.",
+        "The plan required three things that in 1940 had come for free: break the line on the first day, reach the Meuse in three or four, and do it all under bad weather, which would stand in for the air force Germany no longer had. Cole records that the planners were counting on up to ten days of overcast skies."
+      ]
+    },
+    {
+      "titulo": "The same board, different pieces",
+      "paragrafos": [
+        "The campaign brochure of the U.S. Army Center of Military History compares the two crossings coolly. Earlier offensives through the Ardennes had followed the main roads, in good weather, against light screens that were easily brushed aside. In 1940, German armor, barely contested, needed three days to cross the easiest ground in the south of the forest, on dry roads. Cole calls that crossing little more than a road march.",
+        "In 1944 the terrain was the same and the pieces were not. There were ten all-weather roads crossing the border between Monschau and Wasserbillig and no main highway crossing the forest from east to west. Everything went through a few crossroads: St. Vith and Malmedy in the north, Bastogne and Houffalize in the south. And at each of them there were, or soon would be, American troops.",
+        "The same brochure writes the sentence that sums up the game: if the Americans fought hard and well, the same terrain that guaranteed surprise would become a trap. On a board with few squares to pass through, every crossroads held stopped an entire column behind it."
+      ]
+    },
+    {
+      "titulo": "16 to 18 December: the northern shoulder does not give",
+      "paragrafos": [
+        "On 16 December more than 200,000 Germans, in 13 infantry and 7 armored divisions, attacked a sector that the American 1st Army was holding with four divisions over about 142 km. The surprise was real: the weather had hidden the buildup, and Allied decryption of German messages had given hints, but no definitive statement of Hitler's intentions.",
+        "The main effort was Sepp Dietrich's 6th Panzer Army, in the north, with the shortest route to Antwerp. It needed the Elsenborn Ridge, which controlled access to two of its advance roads. The green 99th Division and the veteran 2nd held the ridge, reinforced by the 1st and the 9th. It was the only American sector attacked where the Germans did not advance. The strongest move of the plan jammed in the very first days.",
+        "In the center, Manteuffel's 5th Panzer Army had more success: two regiments of the 106th Division were encircled on the Schnee Eifel and surrendered on 19 December. But the 110th Regiment, in front of Bastogne, lost more than 80% of its men and delayed the German armored corps by 48 hours. And Eisenhower acted fast: he sent two armored divisions into the breach on the first day and the theater reserve on the second. Danny Parker writes that by 18 December Rundstedt already considered the offensive a failure."
+      ]
+    },
+    {
+      "titulo": "St. Vith and Bastogne: the squares nobody can go around",
+      "paragrafos": [
+        "The German plan called for taking St. Vith by 18:00 on 17 December. The 7th Armored Division, with CCB of the 9th Armored and remnants of the 106th and the 28th, held the town until the night of the 21st — four days beyond schedule. Montgomery authorized the withdrawal saying they came back with all honor, and on 23 December the defenders crossed the Salm. The U.S. Army brochure says the defense bought five critical days; Manteuffel admitted after the war that it upset the timetable of both panzer armies.",
+        "Bastogne was the other knot. The 101st Airborne arrived on the morning of 19 December, with CCB of the 10th Armored. On the 21st the last road was cut and the town was encircled. At noon on the 22nd came the German ultimatum, and General Anthony McAuliffe answered with one word: Nuts!",
+        "The 2nd Panzer Division went around the town and pushed on toward the Meuse. But an encircled town that does not fall still owns its roads, and the 5th Panzer Army had to divert armor to it instead of sending it forward. It is the same principle as St. Vith: on the Ardennes board, whoever held the crossroads held the opponent's flow."
+      ]
+    },
+    {
+      "titulo": "The fuel ran out where the road ran out",
+      "paragrafos": [
+        "The explanation that circulates most is the lack of gasoline, and it has facts on its side. According to Cole, the Germans had delivered 4,680,000 gallons by 16 December, but perhaps half was still on the Rhine bank; in the vehicles there was enough for 90 to 100 miles. The plan counted on capturing American fuel.",
+        "The northern spearhead, Joachim Peiper's column, refueled with American fuel at Büllingen on the second day, but did not reach the large depots north of Stavelot and Malmedy, with more than two million gallons. An American major burned 124,000 gallons in a ditch to block the road. Bridges were blown in front of the column, and on the night of 23 to 24 December Peiper left La Gleize on foot, with about 800 men, leaving behind 28 tanks, 70 half-tracks and 25 guns.",
+        "In the center, the 2nd Panzer Division reached Foy-Notre-Dame, four or five miles from the Dinant bridges, and ran dry there. Model reported that he had ordered the vanguard to go on foot to the Meuse. Between 25 and 26 December the American 2nd Armored Division destroyed the German spearhead near Celles.",
+        "But Cole himself concludes that the German problem was one of transport, not a general shortage of fuel: the gasoline existed, and did not reach the front because the roads were denied and bombed. Danny Parker disagrees on the weight: with the stock at the start, the Germans might have reached the Meuse, but they certainly would not have crossed it, and Antwerp was impossible. The two readings agree on what matters for the board: the fuel at the front was not enough, and the rest depended on roads the Americans did not hand over."
+      ]
+    },
+    {
+      "titulo": "Patton's turn and the end of the cloud",
+      "paragrafos": [
+        "On 19 December, at Verdun, Eisenhower opened the meeting saying the situation should be seen as an opportunity, not a disaster. Patton's 3rd Army, which was preparing to attack eastward, would turn north. Carlo D'Este records that Patton offered to attack on the morning of the 21st, with three divisions, and Eisenhower set the 22nd. III Corps — 4th Armored, 26th and 80th Infantry — attacked at 6:00 on 22 December. North of the breach, Montgomery had been in command since noon on the 20th.",
+        "The turn was fast, but it was no walkover: the attack set off 12 or 15 miles south of Bastogne, without surprise, and became a frontal assault against infantry on good ground. The 4th Armored only broke through by way of Assenois late in the afternoon of 26 December.",
+        "Bastogne held out until then because the sky had cleared. On 23 December cold, dry winds from the east, in Cole's words, stripped the German armies of their immunity to air attack. The week of bad weather promised to Hitler was over. Supply drops over Bastogne began, and Allied aircraft went on to fly an average of 3,000 sorties a day in good weather. But the clear sky caught a timetable that was already broken: the Meuse, planned for the third or fourth day, was never reached."
+      ]
+    }
+  ],
+  "veredito": [
+    "The 1944 move was the same as in 1940, and it failed because the board was not. In 1940 the forest was practically empty, the weather was good and the opponent was looking the other way; even so, the crossing took three days. In 1944 there were Americans on both shoulders of the breach and at the crossroads, and every crossroads held — Elsenborn, St. Vith, Bastogne — stopped an entire column on terrain with few roads.",
+    "The fuel ran out, but it ran out where the road was denied and where the American depots did not fall. The sky cleared on 23 December, but it cleared over columns that were already late. And the opponent reacted within days: two armored divisions on the first, the reserve on the second, the 3rd Army turned north on the seventh.",
+    "In chess terms, it is repeating an opening that worked against a distracted player in front of one who now defends the central squares. The move is the same; the position is not. And the target was too far to be reached even if everything went right — the very field marshals who carried out the plan said so before it began."
+  ],
+  "mitos": [
+    {
+      "circula": "The Germans lost because they ran out of gasoline.",
+      "registro": "The spearheads ran dry — Peiper at La Gleize, the 2nd Panzer Division a few kilometers from Dinant. But the U.S. Army's official history concludes that the problem was one of transport, not of general shortage: half the fuel delivered was still on the Rhine bank, and the American depots the plan counted on capturing did not fall. Danny Parker disagrees on the weight: even with everything, the Germans would not have got past the Meuse. The fuel ran out where the roads were denied."
+    },
+    {
+      "circula": "Patton turned his army in 48 hours and saved Bastogne single-handedly.",
+      "registro": "The Verdun meeting was on 19 December, and the three-division attack set off at 6:00 on the 22nd. Patton offered to attack on the 21st, and Eisenhower set the 22nd. The attack became a frontal assault and took until late in the afternoon of 26 December to reach Bastogne — which held out until then because it had been receiving supplies by air since the 23rd."
+    },
+    {
+      "circula": "Bad weather is what worked for the Germans, and good weather finished them.",
+      "registro": "The sky cleared on 23 December. By then the northern shoulder had jammed, St. Vith had cost four days beyond the plan and the Meuse, planned for the third or fourth day, had not been reached. Good weather finished off the offensive; it was not what delayed it."
+    },
+    {
+      "circula": "It was a repeat of 1940, and all that was missing was luck.",
+      "registro": "The American official sources themselves list the differences: in 1940 the defense was a light screen, the weather was good and the roads dry, and the crossing took three days. In 1944 there were divisions on the shoulders and at the crossroads, reserves arriving within hours, and a target that Model and Rundstedt considered unreachable before the attack began."
+    }
+  ],
+  "perguntas": [
+    {"p": "Who won the Battle of the Bulge?", "r": "The Allies won. The German offensive took no bridge on the Meuse, and in January 1945 the original line was restored. It was the last major German offensive in the West."},
+    {"p": "Why did Germany lose the Battle of the Bulge?", "r": "It repeated the 1940 move on a different board: on terrain with few roads, the Americans held the crossroads of Elsenborn, St. Vith and Bastogne, and each one stopped an entire column. The fuel did not reach the front, the sky cleared on 23 December and Antwerp was a target too far away."},
+    {"p": "Where was the Battle of the Bulge fought?", "r": "In the Ardennes forest, in Belgium and Luxembourg, from Monschau and the Elsenborn Ridge, in the north, to Echternach, in the south. The westernmost point of the German advance was near Celles and Dinant, less than 10 km from the Meuse River."},
+    {"p": "How many soldiers died in the Battle of the Bulge?", "r": "The Americans had 80,987 casualties; the dead range from about 8,400 to more than 19,000, depending on the period and the basis of the count. There is no official German count, and estimates range from about 63,000 to 104,000 casualties. About 3,000 civilians died."},
+    {"p": "How long did the Battle of the Bulge last?", "r": "From 16 December 1944 to 25 January 1945. The German offensive proper ran out of steam before the Meuse between 24 and 26 December; the rest was the Allied recapture of the lost ground."}
+  ],
+  "fontes": [
+    {"texto": "Hugh M. Cole, The Ardennes: Battle of the Bulge, U.S. Army in World War II series, Office of the Chief of Military History, 1965."},
+    {"texto": "Roger Cirillo, Ardennes-Alsace, U.S. Army Center of Military History, CMH Pub 72-26."},
+    {"texto": "National Archives, Prologue, Winter 2014: \"The Bloodiest Battle\"."},
+    {"texto": "Danny S. Parker, Battle of the Bulge: Hitler's Ardennes Offensive, 1944–1945, via the review by Robert Citino, HistoryNet, 2006."},
+    {"texto": "Carlo D'Este, \"Patton's Finest Hour\", MHQ: The Quarterly Journal of Military History, 2001."},
+    {"texto": "The Tank Museum, \"Battle of the Bulge: Hitler's Plan of Attack\"."},
+    {"texto": "Keith Huxen, \"The Battle of the Bulge\", The National WWII Museum, 2019."},
+    {"texto": "Battle of the Bulge — English Wikipedia."},
+    {"texto": "Battle of St. Vith — English Wikipedia."},
+    {"texto": "Battle of Elsenborn Ridge — English Wikipedia."}
+  ],
+  "imagens": [
+    {
+      "alt": "A German heavy tank advances along a muddy road with snow in the fields, beside a long line of helmeted American soldiers, prisoners",
+      "legenda": "A Tiger II passes soldiers of the American 99th Division captured near Honsfeld and Lanzerath, on the first day of the offensive, 16 December 1944. German photo, from film captured by the U.S. Army.",
+      "autor": "German military photographer; film captured by the U.S. Army Signal Corps · NARA 111-SC-198241"
+    },
+    {
+      "alt": "Cobblestone street in Bastogne with military trucks parked on both sides, soldiers in groups and a civilian couple carrying suitcases in the middle of the street",
+      "legenda": "Troops of the American 10th Armored Division wait for orders to move out in Bastogne, Belgium, on 19 December 1944, the day the 101st Airborne arrives. In the middle of the street, civilians leave the town.",
+      "autor": "T/5 Wesley B. Carolan, 165th Signal Company, U.S. Army · NARA 111-SC-329952"
+    },
+    {
+      "alt": "Black-and-white aerial photograph of a village surrounded by snowy fields, with two columns of vehicles marked by hand on the roads: 22 vehicles and 11 vehicles",
+      "legenda": "American aerial reconnaissance over Mont, at Houffalize, Belgium, on 26 December 1944: two German columns, of 22 and 11 vehicles, tied to the roads. With the sky clear since 23 December, the columns became visible.",
+      "autor": "155th Photo Reconnaissance Squadron, U.S. Army Air Forces · NARA 342-FH-3A05112-56465AC"
+    },
+    {
+      "alt": "Twin-engine transport planes fly over a field with jeeps and trucks, while a cargo parachute comes down and helmeted soldiers look up at the sky",
+      "legenda": "C-47 aircraft drop supplies over Bastogne, watched by soldiers of the 101st Airborne, on 26 December 1944. The drops began on 23 December, when the sky cleared.",
+      "autor": "U.S. Army Signal Corps photographer"
+    },
+    {
+      "alt": "Color military map of Bastogne with the American perimeter in blue in the center, German arrows and units in red around it, and text boxes with the log of each day",
+      "legenda": "Situation at Bastogne from 27 to 31 December 1944, American military map reproduced in January 1945: the perimeter in blue, the corridor opened through Assenois in the south and the German divisions in red around the town.",
+      "autor": "664th Engineer Topographic Company (Corps), U.S. Army"
+    }
+  ]
+}

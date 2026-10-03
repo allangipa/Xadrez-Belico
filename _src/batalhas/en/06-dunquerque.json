@@ -1,0 +1,163 @@
+{
+  "_nota": "Tradução fiel de ../06-dunquerque.json. Campos fixos (num, slug, estreia, proximo, relacionados, conf, arquivo, licenca, licenca_url, origem_url, tipo, ano, foco, url) vêm do original.",
+  "batalha": "Dunkirk",
+  "nome_busca": "Dunkirk Evacuation",
+  "titulo_video": null,
+  "lugar": "Dunkirk, Nord department, France, and the beaches up to La Panne, Belgium; the Flanders pocket between Lille and the English Channel",
+  "data": "24 May to 4 June 1940",
+  "campanha": "World War II, 1940",
+  "pergunta": "Why did the German machine stop in front of Dunkirk when all it had left to do was close its fist?",
+  "resumo": "The halt order of 24 May 1940 did not come from Hitler. Why the panzers stopped, and how the Dunkirk evacuation took 338,226 men off by sea.",
+  "abertura": [
+    "On 24 May 1940, the German armored spearheads are less than 20 km from Dunkirk, the last Allied port in the Flanders pocket. Most of the British Expeditionary Force is still around Lille, farther from the port than the German tanks. That is the moment the halt order arrives.",
+    "The Battle of France showed that in May 1940 Germany applied a plan, not a doctrine. This page follows the game to the next move: with the encirclement closed at the English Channel, the machine stops for three days, and from 26 May to 4 June 338,226 men leave by sea. The question is why it stopped — and the record does not confirm the answer that circulates most."
+  ],
+  "numeros": [
+    {"valor": "3", "rotulo": "German halts in the advance to the sea: 15, 21 and 24 May 1940. The one at Dunkirk was the last"},
+    {"valor": "< 20 km", "rotulo": "from the armored spearheads to Dunkirk on 24 May, when the halt order arrives"},
+    {"valor": "338,226", "rotulo": "men evacuated from 26 May to 4 June 1940"},
+    {"valor": "239,555", "rotulo": "of them left through the port, almost all by the east mole; 98,671 from the beaches"},
+    {"valor": "103,399", "rotulo": "carried by destroyers, according to Admiral Ramsay's dispatch — the largest group by type of ship"},
+    {"valor": "35,000", "rotulo": "prisoners at the end, almost all French rearguard troops; the sources range from 30,000 to 40,000"}
+  ],
+  "ficha": [
+    {"item": "The encirclement", "valor": "the German armored spearhead reaches the sea west of Abbeville on the night of 20 May 1940, cutting off the British Expeditionary Force, the French 1st Army and the Belgian army from the main French forces to the south"},
+    {"item": "Germany — command", "valor": "Gerd von Rundstedt (Army Group A), Günther von Kluge (4th Army), Ewald von Kleist (panzer group), Fedor von Bock (Army Group B); Walther von Brauchitsch and Franz Halder in the army high command; Adolf Hitler"},
+    {"item": "Allies — command", "valor": "Lord Gort (British Expeditionary Force); Vice-Admiral Bertram Ramsay (evacuation, from Dover); Captain William Tennant (naval officer at Dunkirk); General Jean-Baptiste Molinié (encircled at Lille)"},
+    {"item": "The halt order", "valor": "given by Rundstedt, at Kluge's suggestion, on the night of 23 May; confirmed by Hitler at Charleville on the morning of the 24th; lifted at 15:30 on 26 May. The panzers only resume the attack on the morning of the 27th"},
+    {"item": "Distance", "valor": "less than 20 km from Dunkirk on 24 May: 18 km in German Wikipedia's count, 12 miles from the Aa Canal in Edward Lengel's"},
+    {"item": "Terrain", "valor": "the Flanders plain, cut by canals and drainage ditches; the final perimeter ran along canals about 11 km from the coast, in marshy ground. The port was wrecked, but the two protective moles at the harbor entrance were intact"},
+    {"item": "Lille", "valor": "about 40,000 men of the French 1st Army, encircled, hold out from 28 to 31 May and receive the honors of war at the surrender", "nota": "The prisoners taken at Lille range between 34,600 and 35,000 depending on the source; a third speaks of 50,000 men involved."},
+    {"item": "The perimeter", "valor": "a semicircle from Nieuport to Gravelines, through Furnes and Bergues: the French in the western sector, the British in the eastern. The Belgian army capitulates on 28 May", "nota": "English Wikipedia, Battle of Dunkirk."},
+    {"item": "Operation Dynamo", "valor": "planned at Dover since 20 May; the Admiralty orders it to begin at 18:57 on 26 May; it ends on 4 June 1940. The initial expectation was to lift 45,000 men in two days", "nota": "Ramsay's dispatch, London Gazette No. 38017."},
+    {"item": "Evacuated", "valor": "338,226 in total; Ramsay's dispatch speaks of about 330,000 in the text and adds up 338,682 in a table it declares incomplete"},
+    {"item": "British and Allies", "valor": "about 198,000 British and 140,000 French and other Allies, in one count; about 215,000 and 123,000, in another. Ramsay records 123,095 French landed in England, not counting those taken straight to French ports", "nota": "Part of the difference is one of basis: French only, or French plus Poles, Belgians and Dutch."},
+    {"item": "Ships", "valor": "more than 800 vessels; 6 British and 3 French destroyers sunk. The total sunk ranges from more than 200 to 243"},
+    {"item": "Aircraft", "valor": "the RAF lost between 106 and 177 aircraft and the Luftwaffe between about 100 and 240, depending on the source; the ships shot down 35 from 27 May to 1 June", "nota": "The ships' figure is from Ramsay's dispatch."},
+    {"item": "Casualties", "valor": "the British Expeditionary Force loses 68,000 men in the whole campaign, about 3,500 of them dead; in the evacuation about 16,000 French and 1,000 British die"},
+    {"item": "Prisoners", "valor": "about 35,000 in the perimeter on 4 June, almost all French; other counts range from 30,000 to 40,000"},
+    {"item": "Afterwards", "valor": "the British army leaves practically all its heavy equipment in France — enough to equip eight to ten divisions. On 5 June the German offensive to the south, Fall Rot, begins"}
+  ],
+  "lances": [
+    {
+      "titulo": "The board on 24 May: the tanks closer to the port than the opponent",
+      "paragrafos": [
+        "On the night of 20 May 1940 the German armored spearhead reaches the sea west of Abbeville. Manstein's plan is fulfilled: the best Allied armies, which had advanced into Belgium, are trapped north of a German corridor running from the Ardennes to the English Channel. Inside the pocket are the British Expeditionary Force, the French 1st Army and the Belgian army.",
+        "The panzers turn north, along the coast. Boulogne falls by 24 May, Calais is surrounded. On 24 May the German spearheads are less than 20 km from Dunkirk: 18 km, according to German Wikipedia; 12 miles from the Aa Canal, by Edward Lengel's count. English Wikipedia records that a single British battalion barred the way.",
+        "The other half of the board is the one that decides. On 26 May most of the British forces were still around Lille, more than 64 km from Dunkirk, in a corridor about 97 km deep and 24 km wide. The German tanks were closer to the only exit port than the army that needed to leave through it. All that was left was to close the fist."
+      ]
+    },
+    {
+      "titulo": "The machine had already stopped twice",
+      "paragrafos": [
+        "The order of 24 May is the most famous, but not the first. Karl-Heinz Frieser records a halt on 15 May, after the French counterattack at Montcornet, and another on 21 May, after the British counterattack at Arras. At Arras the British attacked with about 2,000 men and 74 tanks, advanced about 10 km and pulled back at night. They failed — and even so, according to Frieser, they had a disproportionate effect on the German command, which feared for the flank of a corridor that at Arras was 40 km wide.",
+        "Ewald von Kleist saw a serious threat and warned Franz Halder that he had to wait. Günther von Kluge, of the 4th Army, ordered the tanks to stop, with Gerd von Rundstedt's support. The advance lost 24 hours. On 22 May, Rundstedt still ordered a wait until the situation at Arras was restored, and only revoked his own order after five hours.",
+        "Frieser draws from this a conclusion that is uncomfortable for the story usually told: if the panzers had moved on 21 May at the speed of the 20th, Boulogne and Calais would have fallen; and without the halts of the 15th and 21st, the order of the 24th would have been irrelevant, because the 10th Panzer Division would already have taken Dunkirk. The hesitation did not begin in front of the port. It had been the pattern of the German high command since Sedan."
+      ]
+    },
+    {
+      "titulo": "The order of 24 May: who gave it, who confirmed it, who kept it",
+      "paragrafos": [
+        "On the night of 23 May, Rundstedt, commander of Army Group A, orders the armored units to halt, at Kluge's suggestion. The same day Kleist reports that his tank strength has fallen to about half — an assessment Lengel considers more pessimistic than reality — and Hermann Göring phones Hitler asking that the Luftwaffe be given the destruction of the encircled forces.",
+        "On the morning of 24 May Hitler goes to Rundstedt's headquarters at Charleville and confirms the halt. There he discovers that the army commander, Walther von Brauchitsch, had transferred the 4th Army and its panzers to Fedor von Bock's Army Group B without consulting him. Hitler cancels the transfer and leaves the conduct of operations with Rundstedt. Around noon the order goes out: the attack is limited to the Lens–Béthune–Aire–Saint-Omer–Gravelines line, and the canal will not be crossed.",
+        "Halder, who was against it, noted in his diary that day that the left wing, armored and motorized, with no enemy in front of it, would be stopped by direct order of the Führer, and that finishing off the encircled army would be left to the Luftwaffe. Hitler only lifts the order at 15:30 on 26 May. The panzers resume the attack on the morning of the 27th.",
+        "After the war, Rundstedt called the halt an incredible blunder and put all the blame on Hitler. Rundstedt's own biographer acknowledges that this is not the whole truth: the initial impulse came from Kleist and from Rundstedt himself. The order was born in Army Group A. Hitler confirmed it and kept it."
+      ]
+    },
+    {
+      "titulo": "Why it stopped: the explanations, with the weight of each",
+      "paragrafos": [
+        "Historians have not settled the question, but the explanations do not weigh the same. The most solid ones have documents from the time. The first is wear and fear for the flank: the panzers needed maintenance, the infantry was days behind, and Arras had shown that the corridor could be cut. It is the same cause as the halts of 15 and 21 May.",
+        "The second is the terrain. Hitler knew the Flanders marshes from the First World War; around Dunkirk the ground is a grid of canals and drainage ditches, and Robert Kershaw counts at least five or six lines of canals before the port. The strongest evidence comes later: on 28 May, with the order already lifted, Heinz Guderian himself advised abandoning the armored assault in favor of artillery and infantry. The third, saving the tanks for the next offensive, Fall Rot, launched on 5 June, is plausible, but it is a historian's inference, not a written motive.",
+        "The fourth is the Luftwaffe: Göring's request on 23 May and Halder's sentence on the 24th show that the destruction of the pocket was handed over to the air. The version that Göring wanted the glory for the Luftwaffe against the army generals, however, comes from postwar testimony. The fifth is Frieser's central thesis: Hitler backed Rundstedt to show the army high command who was in charge, after Brauchitsch had changed the command structure without him. It explains less why the order was born and more why it lasted until 26 May.",
+        "The sixth is the most repeated and the weakest: Hitler supposedly let the British escape in order to negotiate peace. It rests on Rundstedt after the war and on Hitler himself in February 1945, already defeated. Against it there is a document from the same day: Directive No. 13, of 24 May 1940, orders the annihilation of the French, English and Belgian forces in the pocket and charges the Luftwaffe with preventing the escape of the English across the Channel. Brian Bond sums it up: few historians accept it today."
+      ]
+    },
+    {
+      "titulo": "The door the French held",
+      "paragrafos": [
+        "While the British fell back to the sea, about 40,000 men of the French 1st Army were encircled at Lille. Under General Jean-Baptiste Molinié, they held out from 28 to 31 May, against four infantry divisions and three panzer divisions, and surrendered at midnight on 31 May. The German commander granted them the honors of war. How many this saved is an estimate, not a record: William Shirer wrote at least 100,000; Douglas Fermer, that the resistance diverted about seven German divisions.",
+        "Around Dunkirk, the perimeter ran from Nieuport to Gravelines, with the French in the western sector and the British in the eastern. The Belgian army capitulated on 28 May and opened a gap on the eastern flank, which exhausted British divisions went to plug. The last British embarked on the night of 2 to 3 June. The rearguard that stayed behind was French.",
+        "On 4 June, about 35,000 men were captured in the perimeter, almost all French — other counts range from 30,000 to 40,000. The piece sacrificed so the evacuation could work was, for the most part, French: the opposite of the popular memory of the episode."
+      ]
+    },
+    {
+      "titulo": "Operation Dynamo: the mole, not the beach",
+      "paragrafos": [
+        "Vice-Admiral Bertram Ramsay had been planning the evacuation at Dover since 20 May. According to his dispatch, the Admiralty ordered the operation to begin at 18:57 on 26 May — three and a half hours after Hitler lifted the halt order — with the expectation of lifting 45,000 men in two days before the enemy closed the port. 338,226 got out, by 4 June. The best day was 31 May, with 68,014.",
+        "The docks were wrecked, but the protective moles at the harbor entrance were still standing. Captain William Tennant decided to berth the ships at the east mole, which had not been built for that. Through the port, most of them by the mole, 239,555 men got out; from the beaches, 98,671. In the table of Ramsay's dispatch, the destroyers carried 103,399, the passenger ships 74,380, the minesweepers more than 50,000.",
+        "The little ships did a different job, and an indispensable one: shuttles between the sand and the ships anchored offshore, where the big ones could not reach. Many were crewed by Royal Navy sailors and officers, not by their owners. The cost was high: six British and three French destroyers sunk, more than 200 vessels lost and, depending on the source, between 106 and 177 British aircraft.",
+        "Robert Kershaw weighs the halt order against that calendar: of the three days the panzers stood still, only one coincides with the nine days of the evacuation, and only two and a half of those nine days had good flying weather for the Luftwaffe. The halt gave time to organize the defense; what took the men off the beach was the mole, the navy, the low cloud and the rearguard."
+      ]
+    }
+  ],
+  "veredito": [
+    "The machine did not stop because Hitler wanted to let the British go. It stopped because the German high command had been braking its own panzers since 15 May, afraid of a flank the opponent could barely threaten, and because in front of Dunkirk the terrain, the wear and the Luftwaffe's promise made it reasonable to leave the job to others. The order was born with Rundstedt; Hitler confirmed it and kept it, in part to show the army high command who was in charge.",
+    "In chess terms, it is the player who has mate in two and swaps it for a safe move, because three moves earlier he got a scare in one corner of the board. The safe move did not lose the game — France fell three weeks later. But it let the piece that mattered get away: 338,226 men, among them almost the entire professional British army, without their equipment and with their skills intact.",
+    "And the opponent did not save itself alone, nor by a miracle. It got out by a mole that had not been built for ships, on destroyers and ferries, while the French held Lille and the perimeter. Churchill said it in the same speech: wars are not won by evacuations."
+  ],
+  "mitos": [
+    {
+      "circula": "Hitler gave the halt order to let the British escape and negotiate peace.",
+      "registro": "The order was given by Rundstedt, at Kluge's suggestion, on the night of 23 May 1940; Hitler confirmed it on the 24th. The political thesis rests only on postwar testimony, including Hitler's own in February 1945. Directive No. 13, of 24 May 1940, orders the annihilation of the forces in the pocket and the prevention of their escape across the Channel."
+    },
+    {
+      "circula": "The civilian little ships saved the British army.",
+      "registro": "Through the port, almost all by the east mole, 239,555 men got out; from the beaches, 98,671. In Admiral Ramsay's dispatch, the destroyers alone carried 103,399. The little ships were shuttles between the beach and the larger ships — essential on the beaches, but they did not carry the evacuation, and many were crewed by the Royal Navy."
+    },
+    {
+      "circula": "The RAF did not show up at Dunkirk.",
+      "registro": "The complaint existed in 1940, including among the ship commanders quoted in Ramsay's dispatch. But the RAF flew more than 3,500 sorties in support of the operation and lost between 106 and 177 aircraft, depending on the source; most of the fighting happened far from the beaches, out of sight of those waiting on the sand."
+    },
+    {
+      "circula": "It was a miracle.",
+      "registro": "The word dates from 2 June 1940 and comes from the press. The outcome has causes: the intact east mole, the navy, only two and a half days of good flying weather out of nine, the French resistance at Lille and in the perimeter, and the three days of the halt. In the same speech in which he spoke of a miracle of deliverance, Churchill warned that wars are not won by evacuations."
+    }
+  ],
+  "perguntas": [
+    {"p": "How many soldiers were evacuated from Dunkirk?", "r": "338,226 men left by sea, from 26 May to 4 June 1940. Through the port, almost all by the east mole, 239,555 got out; from the beaches, 98,671."},
+    {"p": "What was the date of the Dunkirk evacuation?", "r": "Operation Dynamo began at 18:57 on 26 May 1940 and ended on 4 June. The best day was 31 May, with 68,014 men; the last British embarked on the night of 2 to 3 June."},
+    {"p": "Why did Hitler stop the tanks at Dunkirk?", "r": "The halt order did not come from Hitler: it was given by Rundstedt, at Kluge's suggestion, on the night of 23 May 1940, and Hitler confirmed it and kept it. The wear on the panzers, the fear for the flank, the canal terrain and the Luftwaffe's promise all weighed; the thesis that he let the British escape to negotiate peace is the weakest."},
+    {"p": "Did the little ships save the soldiers at Dunkirk?", "r": "They did not carry the evacuation. Most men left through the port, and the destroyers alone carried 103,399, according to Admiral Ramsay's dispatch. The little ships were shuttles between the beach and the larger ships, and many had Royal Navy crews."},
+    {"p": "How many soldiers died at Dunkirk?", "r": "In the evacuation about 16,000 French and 1,000 British died. On 4 June, about 35,000 men were captured in the perimeter, almost all French rearguard troops; other counts range from 30,000 to 40,000."}
+  ],
+  "fontes": [
+    {"texto": "Bertram H. Ramsay, Operation \"Dynamo\", dispatch of 18 June 1940, supplement No. 38017 to the London Gazette, 17 July 1947."},
+    {"texto": "Karl-Heinz Frieser, The Blitzkrieg Legend: The 1940 Campaign in the West (cited by English Wikipedia)."},
+    {"texto": "Franz Halder, war diary, 24 May 1940 (as quoted)."},
+    {"texto": "Robert Kershaw, \"Was Dunkirk really a miracle?\", Military History Matters, 2022."},
+    {"texto": "Edward G. Lengel, \"Decisions: Hitler's Halt Order\", Military History, November 2011."},
+    {"texto": "Battle of Dunkirk — English Wikipedia."},
+    {"texto": "Dunkirk evacuation — English Wikipedia."},
+    {"texto": "Battle of Arras (1940) — English Wikipedia, citing Frieser."},
+    {"texto": "Siege of Lille (1940) — English Wikipedia."},
+    {"texto": "Schlacht von Dünkirchen — German Wikipedia."}
+  ],
+  "imagens": [
+    {
+      "alt": "Long lines of soldiers cross the wide beach at Dunkirk, from the dunes in the foreground to the water's edge",
+      "legenda": "British soldiers lined up on the beach at Dunkirk awaiting evacuation, between 26 and 29 May 1940. 98,671 men left from the beaches; twice as many left through the port.",
+      "autor": "Unidentified photographer · Imperial War Museums, NYP 68075"
+    },
+    {
+      "alt": "Topographic map of the coast from Dunkirk to La Panne, with the port and the mole on the left, the strip of dunes along the sea and the interior covered by a mesh of canals and ditches in blue",
+      "legenda": "Dunkirk and the beaches up to La Panne on the Army Map Service map, France and Belgium 1:50,000, sheet 29 Dunkerque (1943 revision). The interior is a grid of canals and drainage ditches: the terrain that weighed on the halt order.",
+      "autor": "U.S. Army Map Service · Perry-Castañeda Library, University of Texas"
+    },
+    {
+      "alt": "Helmeted soldiers sitting on the deck of a destroyer moored beside a tall wooden structure, down which others climb by ladders",
+      "legenda": "British troops board the destroyer HMS Vanquisher from the mole at Dunkirk, at low tide, by ladders, in May 1940. Through the port, most of them by the east mole, 239,555 men got out.",
+      "autor": "Unidentified photographer · Imperial War Museums, HU 1153"
+    },
+    {
+      "alt": "Listing destroyer sinking by the bow, with the foredeck covered in soldiers and a smaller vessel alongside",
+      "legenda": "The French destroyer Bourrasque sinks off Dunkirk loaded with troops, on 30 May 1940. It was one of the three French destroyers lost in the operation, alongside six British ones.",
+      "autor": "Unidentified photographer · Imperial War Museums, HU 2280"
+    },
+    {
+      "alt": "Deck of a destroyer crowded with helmeted British soldiers, coming alongside a quay, with boats in the background",
+      "legenda": "Soldiers evacuated from Dunkirk on a destroyer about to berth at Dover, on 31 May 1940, the day 68,014 men got out. The destroyers carried 103,399 by Admiral Ramsay's count.",
+      "autor": "Puttnam and Malindine, official War Office photographers · Imperial War Museums, H 1637"
+    }
+  ]
+}

@@ -205,9 +205,18 @@ Marca no inglês: **"Xadrez Bélico — War as a Chess Game"**
 "La guerra como partida de ajedrez". O `<title>` continua com o nome em português no fim, para caber
 em 60.
 
-Sobre, contato e privacidade **ainda só existem em português** (o texto mora
-no build); nos outros idiomas os links para elas caem no português, e a faixa
-de cookies diz "(in Portuguese)". O 404 é um só, em português.
+Sobre, contato e privacidade: o texto em português mora no build; o de cada
+outro idioma, em `_src/paginas/<id>/sobre.html`, `contato.html` e
+`privacidade.html` (só o `<main>`, com marcadores `{{NOME}}`, `{{CANAL_A}}`,
+`{{CHAVE}}`, `{{DOMINIO_NU}}`, `{{SITE_IRMAO_VO}}`, `{{SITE_IRMAO_AI}}`; o build
+para se sobrar marcador). Título e description vêm do dicionário
+(`"Sobre o {nome}: …"` etc.). Sem o arquivo, a página não existe naquele
+idioma e os links caem no português. **Mudou a política de privacidade em
+português, mude a tradução junto** (e a data no topo das duas). O 404 é um
+só, em português.
+
+Inglês completo desde 03/10/2026: as 20 batalhas, os 6 temas
+(`_src/temas.en.json`), Sobre, Contato e Privacidade.
 
 ### Traduzir uma batalha (o fluxo)
 
