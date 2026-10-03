@@ -1,0 +1,294 @@
+{
+  "num": "02",
+  "slug": "montese",
+  "batalha": "Montese",
+  "titulo_video": "Por que a FEB venceu em Montese (e pagou o preço mais alto)",
+  "lugar": "Montese, Módena, Emília-Romanha, Itália",
+  "data": "14 a 17 de abril de 1945",
+  "campanha": "A FEB na Itália",
+  "estreia": "2026-10-01",
+  "pergunta": "Por que Montese caiu em 2h15 e, ainda assim, custou 426 baixas brasileiras?",
+  "resumo": "Montese caiu em 2h15 no dia 14 de abril de 1945. Segurá-la custou 426 baixas à FEB. A conta veio de uma leitura alemã do tabuleiro, não de erro brasileiro.",
+  "abertura": [
+    "Em 14 de abril de 1945, a Força Expedicionária Brasileira atacou Montese, uma cidade de casario de pedra no alto de um morro dos Apeninos, na província de Módena, Itália. Começou às 13h30. Às 15h45 a cidade estava ocupada: 2 horas e 15 minutos.",
+    "Mesmo assim, os quatro dias de Montese terminaram com 426 baixas brasileiras. A tomada foi rápida; o que custou caro foi ficar. E a explicação mais provável não está no plano brasileiro, mas na forma como o comando alemão leu o lance."
+  ],
+  "numeros": [
+    {
+      "valor": "2h15",
+      "rotulo": "para ocupar a cidade, das 13h30 às 15h45 de 14 de abril",
+      "conf": "2+"
+    },
+    {
+      "valor": "426",
+      "rotulo": "baixas brasileiras entre 14 e 17 de abril: mortos, feridos, prisioneiros e desaparecidos",
+      "conf": "2+"
+    },
+    {
+      "valor": "34",
+      "rotulo": "mortos dentro desse total, segundo a Wikipédia em português",
+      "conf": "1"
+    },
+    {
+      "valor": "≈ 2/3",
+      "rotulo": "da artilharia alemã do setor caiu sobre a divisão brasileira — os números absolutos divergem",
+      "conf": "DIV"
+    },
+    {
+      "valor": "4",
+      "rotulo": "dias de combate: a cidade caiu no primeiro, a limpeza terminou no último",
+      "conf": "2+"
+    },
+    {
+      "valor": "19",
+      "rotulo": "voluntários na patrulha de Max Wolff Filho, morto dois dias antes do ataque",
+      "conf": "2+"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Data",
+      "valor": "14 a 17 de abril de 1945; ataque às 13h30 do dia 14",
+      "conf": "2+"
+    },
+    {
+      "item": "Contexto",
+      "valor": "Ofensiva aliada da primavera de 1945 na Itália. No setor do IV Corpo americano, o ataque principal cabia à 10ª Divisão de Montanha; a FEB tinha uma missão no flanco",
+      "conf": "1",
+      "nota": "Segundo a Wikipédia em inglês"
+    },
+    {
+      "item": "Terreno",
+      "valor": "Cidade no alto de um morro, com casas de pedra, ruas estreitas, porões e campanário; elevações em volta",
+      "conf": "2+"
+    },
+    {
+      "item": "Objetivo",
+      "valor": "O triângulo Montese – cota 888 – Montello",
+      "conf": "2+"
+    },
+    {
+      "item": "Força brasileira",
+      "valor": "11º Regimento de Infantaria, com três batalhões, no ataque a Montese; o 1º Regimento de Infantaria atacou no mesmo combate",
+      "conf": "2+",
+      "nota": "O 1º RI aparece no mapa de época assinado por Autran (1946) e no Blog do Exército Brasileiro; a Wikipédia em português citava o 6º RI"
+    },
+    {
+      "item": "Blindados",
+      "valor": "A infantaria avançou com carros de reconhecimento M8 e tanques Sherman",
+      "conf": "1",
+      "nota": "Segundo a Wikipédia em inglês"
+    },
+    {
+      "item": "Força alemã",
+      "valor": "114ª Divisão Ligeira (Jägerdivision), tropa voltada a terreno acidentado e combate em área urbana",
+      "conf": "2+"
+    },
+    {
+      "item": "Efetivos",
+      "valor": "Sem número conferido para nenhum dos lados",
+      "conf": "sem"
+    },
+    {
+      "item": "Duração",
+      "valor": "Cidade ocupada às 15h45 de 14 de abril; contra-ataques até 16 de abril; limpeza de resistência em Montebuffone no dia 17",
+      "conf": "2+"
+    },
+    {
+      "item": "Artilharia alemã",
+      "valor": "Cerca de 1.800 projéteis sobre a divisão brasileira, de 2.800 disparados contra quatro divisões (64%), pela Wikipédia em português; mais de 3.200 projéteis consumidos na batalha, pelo Blog do Exército Brasileiro. Os dois números não fecham entre si",
+      "conf": "DIV"
+    },
+    {
+      "item": "Baixas brasileiras",
+      "valor": "426 entre mortos, feridos, prisioneiros e desaparecidos; 34 mortos, segundo a Wikipédia em português",
+      "conf": "2+"
+    },
+    {
+      "item": "Baixas alemãs e prisioneiros",
+      "valor": "Sem número conferido",
+      "conf": "sem"
+    },
+    {
+      "item": "Antes",
+      "valor": "Em 12 de abril, o sargento Max Wolff Filho, 33 anos e mais de 30 patrulhas, morreu por rajada de metralhadora comandando 19 voluntários entre Monteforte e Riva di Biscia",
+      "conf": "2+"
+    },
+    {
+      "item": "Resultado",
+      "valor": "Montese tomada no primeiro dia e mantida contra os contra-ataques",
+      "conf": "2+"
+    },
+    {
+      "item": "O depois",
+      "valor": "Em 29 de abril de 1945, em Fornovo di Taro, a 148ª Divisão de Infantaria alemã se rendeu à FEB: 14.779 homens",
+      "conf": "2+"
+    }
+  ],
+  "lances": [
+    {
+      "titulo": "A posição no tabuleiro: uma peça de flanco",
+      "paragrafos": [
+        "Em abril de 1945 os aliados montaram a ofensiva final na Itália, com o objetivo de romper a frente alemã nos Apeninos e abrir caminho para o vale do Pó. No setor do IV Corpo americano, onde estava a Força Expedicionária Brasileira, o ataque principal cabia à 10ª Divisão de Montanha, segundo a Wikipédia em inglês.",
+        "À FEB coube Montese, no flanco. Na linguagem do tabuleiro, era uma peça de apoio: o lance que importava estava em outro eixo, e o papel brasileiro era pressionar ao lado dele. Essa posição secundária é o que explica tudo o que vem depois.",
+        "O terreno também mudou de natureza. Monte Castello era encosta aberta: subia-se debaixo de fogo, mas via-se de onde o fogo vinha. Montese é uma cidade no alto de um morro, com casa de pedra, rua estreita, janela, porão e campanário. O tabuleiro deixa de ser uma rampa e passa a ser uma grade de casas, cada uma capaz de esconder uma peça.",
+        "Há também uma diferença que não aparece no mapa. A tropa que ataca em abril passou um inverno inteiro na linha dos Apeninos depois das primeiras tentativas contra Monte Castello. São os mesmos homens, mas não é mais uma tropa estreante."
+      ]
+    },
+    {
+      "titulo": "O lance preparatório: a patrulha de 12 de abril",
+      "paragrafos": [
+        "Antes de um ataque, alguém precisa ir ver o terreno. Em 12 de abril de 1945, o sargento Max Wolff Filho, de 33 anos, que já havia feito mais de 30 patrulhas, saiu à frente de 19 voluntários para reconhecer a área entre Monteforte e Riva di Biscia, na terra de ninguém diante das linhas brasileiras.",
+        "Foi atingido por uma rajada de metralhadora e não voltou. Patrulha de reconhecimento não serve para combater, serve para trazer de volta onde o inimigo está, quantos são e por onde não se passa. Dois dias depois, a divisão atacou aquele mesmo chão.",
+        "No tabuleiro, esse é o lance que não aparece no placar. A cidade que caiu numa tarde caiu sobre um terreno que patrulhas como a dele vinham mapeando no escuro, um trecho por vez, durante semanas de linha estática."
+      ]
+    },
+    {
+      "titulo": "A abertura: 2 horas e 15 minutos",
+      "paragrafos": [
+        "Às 13h30 de 14 de abril, o 11º Regimento de Infantaria atacou o triângulo formado por Montese, a cota 888 e Montello, com três batalhões. O 1º Regimento de Infantaria atacou no mesmo combate: as duas direções de ataque aparecem na legenda do mapa desenhado por Autran em 1946.",
+        "A infantaria não foi sozinha. Segundo a Wikipédia em inglês, o avanço contou com carros de reconhecimento M8 e tanques Sherman, o que dava ao ataque brasileiro um peso visível de blindados num setor de flanco.",
+        "Às 15h45, Montese estava ocupada. Foram 2 horas e 15 minutos contra uma cidade defendida, num terreno de casas de pedra em que cada janela é uma posição de tiro. É aqui que a maior parte das versões encerra a história."
+      ]
+    },
+    {
+      "titulo": "O meio-jogo: tomar não é segurar",
+      "paragrafos": [
+        "Combate em cidade tem uma regra que a encosta aberta não tem: ocupar o terreno não é o mesmo que estar seguro nele. Numa encosta, uma metralhadora cobre um setor; numa rua, cada porta e cada porão abrem um ângulo novo, e o prédio que ficou para trás pode ainda ter alguém dentro.",
+        "Do outro lado estava a 114ª Divisão Ligeira alemã, a Jägerdivision, tropa voltada a terreno acidentado e a combate em área urbana. Os alemães não aceitaram a perda: contra-atacaram e, sobretudo, passaram a bombardear a cidade que os brasileiros acabavam de ocupar.",
+        "É nesse ponto que a vantagem do atacante se inverte. Enquanto avança, a tropa escolhe onde e quando se expõe. Depois de ocupar, ela fica parada dentro de um alvo que o adversário conhece, porque até poucas horas antes era dele.",
+        "Os contra-ataques só cessaram em 16 de abril. No dia 17, a tropa ainda limpava resistência em Montebuffone. A cidade caiu numa tarde; mantê-la levou o resto dos quatro dias."
+      ]
+    },
+    {
+      "titulo": "A leitura do adversário: o flanco tomado pelo centro",
+      "paragrafos": [
+        "O volume de fogo é o dado que mais pesa, e também o que as fontes registram de forma menos coerente. A Wikipédia em português fala em cerca de 1.800 projéteis sobre a divisão brasileira, de um total de 2.800 disparados contra as quatro divisões aliadas do setor, o que dá 64%. O Blog do Exército Brasileiro fala em mais de 3.200 projéteis consumidos na batalha. Os números não fecham entre si; o que as duas versões têm em comum é a concentração do fogo sobre a FEB, por volta de dois terços.",
+        "Por que uma divisão de flanco atraiu a maior parte da artilharia? A Wikipédia em inglês registra que o avanço brasileiro com blindados levou o comando alemão a considerar Montese um possível objetivo real dos aliados naquele setor. É interpretação, não documento, mas encaixa com o resto: no primeiro dia, o ataque principal da 10ª de Montanha foi contido, enquanto no flanco uma força entrava numa cidade defendida, com tanques, e não parava.",
+        "Visto da posição alemã, o lance secundário parecia o principal. E o adversário respondeu ao que viu, concentrando o fogo ali. A velocidade brasileira, que era a virtude do ataque, virou o sinal que atraiu a artilharia."
+      ]
+    },
+    {
+      "titulo": "A conta",
+      "paragrafos": [
+        "Entre 14 e 17 de abril, a FEB teve 426 baixas, entre mortos, feridos, prisioneiros e desaparecidos. A Wikipédia em português detalha 34 mortos dentro desse total.",
+        "A comparação com a abertura do ataque é a lição inteira do episódio. As 2h15 mediram a qualidade do lance brasileiro; os quatro dias mediram a resposta do adversário. Os dois números descrevem coisas diferentes, e somá-los numa frase só, como se as baixas tivessem caído durante a tomada, é o tipo de compressão que apaga o que de fato aconteceu.",
+        "O objetivo foi cumprido no primeiro dia e a cidade foi mantida. O preço não veio de um erro de planejamento brasileiro, e sim de estar exatamente no ponto que o adversário escolheu como o mais perigoso. Duas semanas depois, a mesma tropa cercaria uma divisão alemã inteira em Fornovo di Taro."
+      ]
+    }
+  ],
+  "veredito": [
+    "Montese é o avesso de Monte Castello. Lá, os aliados atacaram uma peça sem olhar a corrente inteira de posições, e pagaram por um erro de leitura próprio. Aqui, a FEB jogou a peça certa, no tempo certo, e cumpriu o objetivo em 2h15.",
+    "O sangue veio da outra metade do tabuleiro. Tudo indica que o comando alemão leu o ataque de flanco, rápido e com blindados, como o eixo principal da ofensiva, e despejou sobre ele a maior parte da artilharia do setor. A fatura de uma leitura errada não chega para quem errou; chega para quem está no ponto lido."
+  ],
+  "mitos": [
+    {
+      "circula": "Montese foi uma vitória rápida e limpa: a cidade caiu em duas horas.",
+      "registro": "A cidade foi ocupada em 2 horas e 15 minutos, das 13h30 às 15h45 de 14 de abril. Mas os contra-ataques seguiram até 16 de abril, a limpeza até o dia 17, e a FEB somou 426 baixas nesses quatro dias."
+    },
+    {
+      "circula": "Tantas baixas mostram que a tropa brasileira estava despreparada.",
+      "registro": "A tropa cumpriu o objetivo no primeiro dia, contra a 114ª Divisão Ligeira, voltada a combate em terreno acidentado e área urbana, e sob o fogo de artilharia mais concentrado do setor. As baixas vieram de segurar a cidade sob esse fogo, não de falhar em tomá-la."
+    },
+    {
+      "circula": "A FEB foi a única divisão aliada a atingir o objetivo planejado no primeiro dia da ofensiva.",
+      "registro": "A afirmação aparece em uma única fonte, a Wikipédia em português, sem confirmação independente. O que se sustenta é mais modesto: o ataque principal da 10ª Divisão de Montanha foi contido no primeiro dia, e a FEB cumpriu o seu objetivo."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "Batalha de Montese — Wikipédia em português",
+      "url": "https://pt.wikipedia.org/wiki/Batalha_de_Montese"
+    },
+    {
+      "texto": "Battle of Montese — Wikipédia em inglês",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Montese"
+    },
+    {
+      "texto": "Spring 1945 offensive in Italy — Wikipédia em inglês",
+      "url": "https://en.wikipedia.org/wiki/Spring_1945_offensive_in_Italy"
+    },
+    {
+      "texto": "O dever cívico-militar de exaltar a Batalha de Montese — Blog do Exército Brasileiro",
+      "url": null
+    },
+    {
+      "texto": "Max Wolff Filho — Wikipédia em português; e Revista Sociedade Militar, sobre o \"rei das patrulhas\"",
+      "url": "https://pt.wikipedia.org/wiki/Max_Wolff_Filho"
+    },
+    {
+      "texto": "Mapa \"Combate de Montese\", assinado Autran, 1946 (Wikimedia Commons)",
+      "url": "https://commons.wikimedia.org/wiki/File:Combate_de_Montese.jpg"
+    },
+    {
+      "texto": "29 de abril — Conquista de Fornovo e rendição da 148ª Divisão de Infantaria Alemã — Departamento-Geral do Pessoal do Exército",
+      "url": null
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "02-montese-capa.jpg",
+      "alt": "Carro blindado de reconhecimento parado numa rua de Montese, entre casas marcadas por estilhaços e entulho de pedra, com soldados à direita",
+      "legenda": "Força Expedicionária Brasileira em Montese: um carro de reconhecimento numa rua de casas crivadas de estilhaços.",
+      "autor": "Força Expedicionária Brasileira",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:For%C3%A7a_Expedicionaria_Brasileira_a_Montese.jpg",
+      "tipo": "epoca",
+      "foco": "60% 60%"
+    },
+    {
+      "arquivo": "02-montese-autran-1946.jpg",
+      "alt": "Desenho em perspectiva do terreno de Montese, com setas vermelhas grossas e finas indicando as direções de ataque e nomes como Montese, Cemitério, Monte Buffone e Montello",
+      "legenda": "\"Combate de Montese, 14-IV-945\", desenho assinado por Autran em 1946. As setas grossas são as direções de ataque do 11º R.I.; as finas, do 1º R.I.",
+      "autor": "Força Expedicionária Brasileira (desenho assinado Autran, 1946)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Combate_de_Montese.jpg",
+      "tipo": "carta",
+      "ano": "1946"
+    },
+    {
+      "arquivo": "02-montese-pracinhas.jpg",
+      "alt": "Soldados brasileiros deitados atrás de um barranco, um deles com metralhadora em bipé, diante de casas de pedra",
+      "legenda": "Soldados brasileiros em posição em Montese, com casas de pedra à frente.",
+      "autor": "Força Expedicionária Brasileira",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Soldati_brasiliani_a_Montese.jpg",
+      "tipo": "epoca"
+    },
+    {
+      "arquivo": "02-montese-rua.jpg",
+      "alt": "Rua estreita de Montese com fachadas marcadas por estilhaços, um jipe e um caminhão, e a torre da cidade danificada ao fundo",
+      "legenda": "Viaturas da FEB numa rua de Montese; ao fundo, a torre danificada.",
+      "autor": "Força Expedicionária Brasileira",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Mezzi_FEB_a_Montese.jpg",
+      "tipo": "epoca"
+    },
+    {
+      "arquivo": "02-montese-castelluccio.jpg",
+      "alt": "Interior de uma igreja com o teto destruído e a parede do fundo reduzida a entulho, bancos de madeira no chão",
+      "legenda": "A igreja de Castelluccio di Montese depois dos bombardeios.",
+      "autor": "Força Expedicionária Brasileira",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Chiesa_di_Castelluccio_di_Montese_dopo_i_bombardamenti.jpg",
+      "tipo": "epoca"
+    },
+    {
+      "arquivo": "02-montese-carta-ams.jpg",
+      "alt": "Carta topográfica militar americana da folha Fanano, com curvas de nível, estradas em vermelho, rios em azul e legenda à direita",
+      "legenda": "A carta da área de Montese: Army Map Service, Itália 1:50.000, folha 97-I \"Fanano\", 2ª edição, maio de 1944.",
+      "autor": "U.S. Army Map Service",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://maps.lib.utexas.edu/maps/ams/italy_50k/txu-pclmaps-oclc-6540719-fanano-97-i.jpg",
+      "tipo": "carta",
+      "ano": "1944"
+    }
+  ],
+  "proximo": "fornovo-di-taro"
+}

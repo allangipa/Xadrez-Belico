@@ -1,0 +1,93 @@
+# Xadrez Bélico — site
+
+Site do canal **Xadrez Bélico**, em `xadrezbelico.com.br`. Estático, sem
+framework e sem build no servidor — o mesmo desenho do site do Arquitetura do
+Impossível: gera aqui, commit e push no GitHub, e a Hostinger publica.
+
+## Como gerar
+
+```bash
+python _src/build.py
+```
+
+Nunca edite `index.html`, `batalhas/*.html` nem `404.html`: são gerados.
+
+## De onde vem o conteúdo
+
+Cada batalha é um JSON em `_src/batalhas/NN-slug.json` (esquema em
+`_src/batalhas/ESQUEMA.md`). **Nenhum texto de batalha mora em template.**
+O JSON sai da apuração do episódio, que é a fonte:
+
+```
+Canais do YouTube\Xadrez Bélico\Roteiros\NN Tema\VERIFICACAO.md
+Canais do YouTube\Xadrez Bélico\Roteiros\APURACAO NN - Tema.md
+```
+
+e das NOTAS DE VERIFICAÇÃO no fim de cada roteiro. Se o site e o vídeo
+divergirem, quem manda é a apuração.
+
+As imagens saem de `arquivo\` e `cartas\` do episódio, com autor e licença do
+`MANIFESTO.tsv`.
+
+## Regras de imagem — mais duras que as do vídeo
+
+- **Nenhuma imagem gerada por IA no site.** No vídeo elas entram com tarja;
+  aqui não entram. Só material de época (`tipo: epoca`), carta militar
+  (`carta`) ou foto do lugar hoje (`atual`, com `ano` — vira a tarja
+  "FOTO DE AAAA", regra da casa de 01/10/2026). O build para se faltar.
+- Domínio público, CC0, CC BY, CC BY-SA. **NC e "No known copyright
+  restrictions" não entram**, e o build para.
+- **Sem símbolo nazista em destaque**, sem foto de atrocidade, sem
+  reconstituição moderna nem guerra/lugar/década errada (ver o CLAUDE.md do
+  canal, "O símbolo nazista na tela").
+
+## O build é porteiro
+
+Para, sem gerar nada, quando falta campo, quando `proximo` aponta para
+batalha inexistente, quando uma imagem não existe, tem licença recusada, é
+gerada, ou é foto atual sem ano, e quando o texto público carrega bastidor
+de produção ("apuração", "roteiro", "bloco 3", `[2+]`, nome de arquivo…).
+
+## Nova batalha
+
+1. `_src/batalhas/NN-slug.json` seguindo o esquema.
+2. Fotos em `assets/img/NN-nome.jpg` (1600 px, JPEG 82) e `NN-nome-800.jpg`.
+3. No JSON anterior, `proximo` aponta para o novo slug.
+4. Se estava em `EM_PRODUCAO` no `_src/build.py`, tire de lá.
+5. `python _src/build.py`.
+
+## Identidade
+
+Do CLAUDE.md do canal, "mesa de guerra à luz de lampião": fundo `#171310`,
+tinta `#2A1D12`/`#4A3823`, pergaminho `#E3D2AA`/`#C9B384`, âmbar de lampião
+`#D9973F`; vermelho `#8C2F2F` e azul `#3A5A80` são cores de facção. A ficha
+de cada batalha é um dossiê em pergaminho.
+
+Fontes: a marca usa Bookman Old Style e Franklin Gothic, que são da
+Microsoft e **não podem ser servidas** num site. No lugar, todas SIL OFL e
+servidas daqui (`assets/fontes/`): **Libre Baskerville** nos títulos,
+**Archivo Narrow** nos rótulos, **Libre Franklin** no corpo. Cinzel é do
+Vestígio e não entra.
+
+O escudo e o cavalo (`assets/marca/`) são recortes do logo do canal
+(`Youtube Logo Pequena.jpeg`); o fundo da abertura é o banner.
+
+## Canal no YouTube
+
+`CANAL` em `_src/build.py` está `None`: os botões dizem "em breve no
+YouTube", sem link, até o endereço do canal ser confirmado. Ponha a URL ali e
+rode o build.
+
+## Publicar
+
+Site criado na Hostinger em 02/10/2026. Mesmo fluxo do Arquitetura do
+Impossível: repositório no GitHub e o Git do painel (Sites →
+xadrezbelico.com.br → Avançado → Git, branch `main`, diretório = raiz), que
+publica a cada push.
+
+Com o deploy por Git o repositório inteiro vai para o servidor; o
+`.htaccess` é o que responde 404 para `_src/`, `.claude/`, `.git/`,
+`README.md` e `.gitignore`. Arquivo novo na raiz que não seja página fica
+público até entrar nessa lista.
+
+**Rode o build antes do commit** e confira na página no ar, não no terminal.

@@ -1,0 +1,307 @@
+{
+  "num": "01",
+  "slug": "monte-castello",
+  "batalha": "Monte Castello",
+  "titulo_video": "Por que a FEB falhou em Monte Castello (e como finalmente venceu)",
+  "lugar": "Monte Castello, Apeninos, Emília-Romanha, Itália",
+  "data": "24 de novembro de 1944 a 21 de fevereiro de 1945",
+  "campanha": "A FEB na Itália",
+  "estreia": null,
+  "pergunta": "Por que os ataques de novembro e dezembro de 1944 falharam, e o de fevereiro de 1945 não?",
+  "resumo": "Por que a FEB falhou em Monte Castello em 1944 e venceu em 21 de fevereiro de 1945: o morro era uma peça de um sistema de alturas.",
+  "abertura": [
+    "Por quase três meses, entre novembro de 1944 e fevereiro de 1945, a Força Expedicionária Brasileira atacou o mesmo morro nos Apeninos, no norte da Itália, e foi repelida. Em 21 de fevereiro subiu outra vez e tomou o cume no mesmo dia. O morro não tinha mudado, e a divisão alemã que o defendia também não.",
+    "O que mudou foi o tabuleiro em volta. Monte Castello era o último elo de uma corrente de alturas, e enquanto os picos vizinhos ficaram em mãos alemãs, quem subia a encosta levava fogo de frente e de lado. A vitória de fevereiro começou nas montanhas ao lado."
+  ],
+  "numeros": [
+    {
+      "valor": "17h30",
+      "rotulo": "Batalhão Franklin no cume, 21 de fevereiro de 1945",
+      "conf": "2+"
+    },
+    {
+      "valor": "28 nov",
+      "rotulo": "noite em que os alemães retomaram o Monte Belvedere, véspera do ataque de 29",
+      "conf": "2+"
+    },
+    {
+      "valor": "4 ou 6",
+      "rotulo": "ataques antes da conquista, conforme a contagem",
+      "conf": "DIV"
+    },
+    {
+      "valor": "232ª",
+      "rotulo": "Divisão de Infantaria alemã que defendia o setor",
+      "conf": "2+"
+    },
+    {
+      "valor": "+25 mil",
+      "rotulo": "homens e mulheres da FEB na Itália, segundo o Exército Brasileiro",
+      "conf": "1"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Lado aliado",
+      "valor": "1ª Divisão de Infantaria Expedicionária (FEB), dentro do 5º Exército americano; Força-Tarefa 45 americana em novembro; 10ª Divisão de Montanha americana na Operação Encore, em fevereiro",
+      "conf": "2+"
+    },
+    {
+      "item": "Lado alemão",
+      "valor": "232ª Divisão de Infantaria, com os regimentos 1.043, 1.044 e 1.045",
+      "conf": "2+"
+    },
+    {
+      "item": "Comandante alemão",
+      "valor": "Tenente-general Eccard Freiherr von Gablenz, 232ª Divisão de Infantaria",
+      "conf": "2+"
+    },
+    {
+      "item": "Comandante brasileiro",
+      "valor": "J. B. Mascarenhas de Moraes, comandante da FEB",
+      "conf": "1",
+      "nota": "autor do relato A FEB pelo seu comandante"
+    },
+    {
+      "item": "Unidades em novembro",
+      "valor": "Esquadrão de Reconhecimento e 3º Batalhão do 6º Regimento de Infantaria da 1ª DIE, com a Força-Tarefa 45, nos ataques de 24 e 25 de novembro",
+      "conf": "2+"
+    },
+    {
+      "item": "Unidades em 21 de fevereiro",
+      "valor": "Batalhões Uzeda, Franklin e Siseno Sarmento (também grafado Sizeno); o Franklin alcançou o cume",
+      "conf": "2+"
+    },
+    {
+      "item": "Terreno",
+      "valor": "Corrente de alturas nos Apeninos: Riva Ridge, Monte Belvedere, Gorgolesco, Della Torraccia e, por último, Monte Castello; cada uma cobre a seguinte",
+      "conf": "2+"
+    },
+    {
+      "item": "Objetivo",
+      "valor": "Monte Castello, que dominava um dos vales que levavam a Bologna e ao vale do Pó",
+      "conf": "2+"
+    },
+    {
+      "item": "Ataques fracassados",
+      "valor": "24, 25 e 29 de novembro e 12 de dezembro de 1944",
+      "conf": "2+"
+    },
+    {
+      "item": "Número de ataques",
+      "valor": "Seis, na conta da Wikipédia em português; quatro tentativas anteriores à conquista, na do Blog do Exército Brasileiro",
+      "conf": "DIV",
+      "nota": "a diferença vem de contar 24 e 25 de novembro como um ataque ou dois, e de incluir ou não ações menores"
+    },
+    {
+      "item": "Duração",
+      "valor": "Quase três meses, de 24 de novembro de 1944 a 21 de fevereiro de 1945; o ataque final durou um dia",
+      "conf": "2+"
+    },
+    {
+      "item": "Preparação aliada",
+      "valor": "A 10ª Divisão de Montanha treinou em Camp Hale, Colorado, de novembro de 1942 a junho de 1944",
+      "conf": "1",
+      "nota": "segundo o Arquivo Nacional dos Estados Unidos"
+    },
+    {
+      "item": "Resultado",
+      "valor": "Cume tomado pelo Batalhão Franklin às 17h30 de 21 de fevereiro de 1945",
+      "conf": "2+"
+    },
+    {
+      "item": "O depois",
+      "valor": "A FEB segue como tropa veterana; em abril de 1945 vem Montese",
+      "conf": "2+"
+    }
+  ],
+  "lances": [
+    {
+      "titulo": "A posição: uma peça que não está sozinha",
+      "paragrafos": [
+        "A Força Expedicionária Brasileira chegou à Itália em 1944 e entrou na linha dentro do 5º Exército americano, diante da Linha Gótica, a faixa de fortificações que os alemães tinham construído sobre os Apeninos. O alvo aliado era Bologna, a porta do vale do Pó. Monte Castello dominava um dos vales que levavam até lá: quem estava no alto via cada caminhão e cada patrulha que se movia embaixo.",
+        "Visto de longe, parecia um alvo isolado. Não era. Monte Castello é o último elo de uma corrente de alturas — Riva Ridge, Monte Belvedere, Gorgolesco, Della Torraccia e, por fim, Castello. Juntas, elas formam uma muralha, e cada uma cobre a seguinte. Quem sobe Castello de frente leva fogo direto de cima e, ao mesmo tempo, fogo dos picos ao lado, que não está atacando.",
+        "No xadrez, é a torre que parece desprotegida até o lance seguinte, quando se descobre o bispo do outro lado do tabuleiro defendendo a casa."
+      ]
+    },
+    {
+      "titulo": "As peças: o pracinha e a defesa em sistema",
+      "paragrafos": [
+        "O soldado brasileiro lutava com equipamento americano: o fuzil semiautomático Garand, o fuzil-metralhador Browning no grupo de combate, morteiros e a artilharia divisionária brasileira atrás. No ombro, o distintivo da cobra fumando, nascido de uma frase de deboche que corria pelo país antes de a tropa embarcar.",
+        "Do outro lado estava a 232ª Divisão de Infantaria alemã, do tenente-general Eccard Freiherr von Gablenz. A defesa não era um punhado de soldados no topo, era um arranjo: postos de observação no alto, que mais enxergavam do que atiravam e passavam coordenadas para morteiros e artilharia; casamatas nas encostas com as metralhadoras apontadas de lado, cada uma cobrindo o caminho da outra; minas e arame nas rotas óbvias de subida, para segurar o atacante parado em terreno aberto.",
+        "A metralhadora era a MG 42, com cadência média por volta de 1.200 tiros por minuto. Os pracinhas a chamavam de lurdinha. Mas a peça mais forte do setor não era a arma, era o desenho: uma defesa com pouca gente que se sustentava porque cada ponto forte protegia o flanco do vizinho. O preço desse desenho também estava à vista — derrubado um ponto, os outros ficam expostos."
+      ]
+    },
+    {
+      "titulo": "Novembro: atacar a peça com o flanco aberto",
+      "paragrafos": [
+        "Em 24 e 25 de novembro de 1944, tropas brasileiras — o Esquadrão de Reconhecimento e o 3º Batalhão do 6º Regimento de Infantaria — atacam Monte Castello junto com a Força-Tarefa 45 americana. Os ataques são repelidos.",
+        "Na noite de 28 de novembro, os alemães contra-atacam e retomam o Monte Belvedere, o pico ao lado. No dia seguinte, 29, a FEB ataca Castello de novo, agora com o flanco exposto exatamente à altura que acabara de ser perdida. O fogo vem de cima, como esperado, e de lado, de onde não devia vir. Não há abrigo na encosta contra os dois ao mesmo tempo. O ataque para.",
+        "É o lance que define a campanha: tentar capturar uma peça cuja defesa acabou de ser reforçada no lance anterior do adversário."
+      ]
+    },
+    {
+      "titulo": "Dezembro: a mesma jogada, com o tempo contra",
+      "paragrafos": [
+        "Em 12 de dezembro de 1944 vem nova tentativa, sob chuva, com a lama tomando a encosta e o tempo fechado prejudicando observação e apoio de fogo. A FEB recua outra vez.",
+        "Depois disso, o inverno dos Apeninos fecha a frente: neve, neblina, lama e temperatura abaixo de zero por semanas, para homens que em grande parte viam neve pela primeira vez. Monte Castello continua alemão."
+      ]
+    },
+    {
+      "titulo": "O diagnóstico: o alvo estava errado",
+      "paragrafos": [
+        "Todos esses ataques tentavam tomar uma peça enquanto as que a protegiam continuavam no tabuleiro. Subiam o morro deixando de pé justamente o que tornava o morro difícil. Era ataque ao sintoma, não ao sistema — e com força pequena, pouco tempo de preparação e, em 29 de novembro, um flanco descoberto.",
+        "Não foi questão de coragem nem de qualidade de tropa: a Força-Tarefa 45 americana também foi repelida no mesmo morro, nos mesmos dias.",
+        "O defensor tinha lido o tabuleiro melhor. A retomada do Belvedere na véspera do ataque de 29 de novembro mostra que os alemães sabiam onde estava a força da posição: nos picos vizinhos, que mantinham o fogo cruzado sobre a encosta de Castello. Enquanto o atacante olhasse só para o cume, cada assalto seria uma subida por um corredor batido de dois lados."
+      ]
+    },
+    {
+      "titulo": "Fevereiro: a Operação Encore desmonta a corrente",
+      "paragrafos": [
+        "A correção chega em fevereiro de 1945, com a Operação Encore. A ofensiva já não mira um morro, mira a corrente inteira, e na ordem certa. Entra a 10ª Divisão de Montanha americana, treinada em Camp Hale, no Colorado, entre novembro de 1942 e junho de 1944, em esqui, escalada em rocha e gelo e sobrevivência em altitude.",
+        "Na noite de 18 para 19 de fevereiro, os homens da 10ª escalam no escuro os paredões do Riva Ridge, uma face que os alemães consideravam íngreme demais para ser subida — e por isso guardavam mal. Tomam a crista de surpresa. Depois cai o Monte Belvedere, depois o Gorgolesco.",
+        "Pela primeira vez em quase três meses, Monte Castello está sozinho no tabuleiro."
+      ]
+    },
+    {
+      "titulo": "21 de fevereiro: o xeque",
+      "paragrafos": [
+        "Em 21 de fevereiro de 1945, depois da preparação de artilharia, os batalhões Uzeda, Franklin e Siseno Sarmento sobem Monte Castello. O fogo de flanco que tinha desmontado os ataques anteriores não existe mais: as posições que atiravam de lado agora estão ocupadas por tropa aliada.",
+        "Ainda assim não é rápido. São horas de combate encosta acima, casamata por casamata, com a defesa resistindo o dia inteiro. Às 17h30, o Batalhão Franklin alcança o cume. Monte Castello é da FEB.",
+        "O que a conquista entregou vai além do morro. A FEB sai de fevereiro com experiência real de combate em montanha, e nas semanas seguintes avança como tropa veterana — a mesma que, em abril de 1945, enfrentaria Montese."
+      ]
+    }
+  ],
+  "veredito": [
+    "Em montanha, uma altura não é um alvo, é uma peça de um sistema. Os ataques de novembro e dezembro perderam homens por um problema de planejamento, não de tropa: subiam a peça sem tocar nas que a defendiam, e em 29 de novembro subiram logo depois de o adversário ter recuperado o Belvedere.",
+    "O ataque de fevereiro venceu porque a ordem dos lances mudou. Primeiro a 10ª Divisão de Montanha desmontou a proteção — Riva Ridge, Belvedere, Gorgolesco — e só depois a FEB subiu o morro. A mesma tropa, contra a mesma divisão, no mesmo morro, tomou o cume num dia. A montanha derrotava quem a atacasse errado, e derrotou brasileiros e americanos do mesmo jeito."
+  ],
+  "mitos": [
+    {
+      "circula": "A FEB tomou Monte Castello sozinha, num feito isolado de coragem.",
+      "registro": "Foi operação combinada. A conquista de 21 de fevereiro de 1945 dependeu do que a 10ª Divisão de Montanha americana fez antes nos picos vizinhos, a partir da noite de 18 para 19 de fevereiro."
+    },
+    {
+      "circula": "Os brasileiros falharam em 1944 por serem tropa inferior.",
+      "registro": "A Força-Tarefa 45 americana também foi repelida em Monte Castello, nos ataques de 24 e 25 de novembro de 1944. O que derrotava os atacantes era o fogo cruzado das alturas vizinhas, não a nacionalidade da tropa."
+    },
+    {
+      "circula": "Foram exatamente seis ataques — ou exatamente quatro.",
+      "registro": "As fontes divergem: a Wikipédia em português fala em seis, o Blog do Exército em quatro tentativas anteriores à conquista. A diferença depende de contar 24 e 25 de novembro como um ataque ou dois e de incluir ações menores. As datas firmes são 24, 25 e 29 de novembro e 12 de dezembro de 1944."
+    },
+    {
+      "circula": "A MG 42 ganhou o apelido de lurdinha porque o ritmo lembrava a fala da noiva ciumenta de um soldado.",
+      "registro": "O apelido lurdinha, dado pelos pracinhas, é atestado. A explicação da noiva é folclore sem fonte firme."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "Batalha de Monte Castello, Wikipédia em português",
+      "url": "https://pt.wikipedia.org/wiki/Batalha_de_Monte_Castello"
+    },
+    {
+      "texto": "A Tomada de Monte Castello pela Força Expedicionária Brasileira, Blog do Exército Brasileiro",
+      "url": "https://eblog.eb.mil.br/"
+    },
+    {
+      "texto": "Battle of Monte Castello, Wikipédia em inglês",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Monte_Castello"
+    },
+    {
+      "texto": "MG 42, Wikipédia em inglês",
+      "url": "https://en.wikipedia.org/wiki/MG_42"
+    },
+    {
+      "texto": "Climb to Glory: The 10th Mountain Division's Ski and Mountain Troops, National WWII Museum",
+      "url": "https://www.nationalww2museum.org/"
+    },
+    {
+      "texto": "Camp Hale, Colorado: Training the 10th Mountain Division During World War II, The Unwritten Record, National Archives",
+      "url": "https://unwritten-record.blogs.archives.gov/"
+    },
+    {
+      "texto": "Pracinhas: qual a origem da expressão 'a cobra vai fumar', Aventuras na História",
+      "url": "https://aventurasnahistoria.com.br/"
+    },
+    {
+      "texto": "Mascarenhas de Moraes, J. B. A FEB pelo seu comandante",
+      "url": null
+    },
+    {
+      "texto": "Maximiano, C. C. Barbudos, Sujos e Fatigados",
+      "url": null
+    },
+    {
+      "texto": "História oficial do Exército dos Estados Unidos sobre a campanha dos Apeninos do Norte",
+      "url": null
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "01-monte-castello-capa.jpg",
+      "alt": "Três soldados brasileiros de capacete e capote, dois deles dentro de uma trincheira, conversam com um correspondente americano que anota num bloco",
+      "legenda": "Correspondente de guerra americano entrevista infantes brasileiros na linha de frente na Itália, dezembro de 1944.",
+      "autor": "U.S. Army Signal Corps",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:American_war_correspondent_interviews_Brazilian_infantrymen_on_the_front_line_in_Italy,_December_1944_(49369639872).jpg",
+      "tipo": "epoca",
+      "ano": "1944",
+      "foco": "50% 40%"
+    },
+    {
+      "arquivo": "01-monte-castello-avanco.jpg",
+      "alt": "Coluna de soldados da FEB de costas, subindo uma trilha em direção a uma encosta arborizada; no alto da foto, a anotação à mão Monte Castelo",
+      "legenda": "Tropa da FEB em marcha; a anotação à mão no original identifica Monte Castelo ao fundo.",
+      "autor": "Força Expedicionária Brasileira",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Avanco-ao-monte-castelo.jpg",
+      "tipo": "epoca"
+    },
+    {
+      "arquivo": "01-monte-castello-carta-iv-corpo.jpg",
+      "alt": "Carta topográfica do setor com posições alemãs marcadas em vermelho, legenda bilíngue inglês e português",
+      "legenda": "Carta com o dispositivo de defesa do inimigo nº 6, do IV Corpo americano, de 19 de fevereiro de 1945: posições alemãs levantadas por fotografia aérea até 15 de fevereiro, com legenda em inglês e português.",
+      "autor": "U.S. Army, IV Corps (G-2)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Enemy_defence_overprint_no._6_-_DPLA_-_399f49db31a63e676d8960085fbc007b.jpg",
+      "tipo": "carta",
+      "ano": "1945"
+    },
+    {
+      "arquivo": "01-monte-castello-10a-montanha.jpg",
+      "alt": "Cinco soldados de macacão branco de neve, com esquis e fuzis ao ombro, diante de alojamentos de madeira e uma montanha com neve",
+      "legenda": "Soldados da 10ª Divisão de Montanha americana com equipamento de esqui, 1943, no período de treinamento.",
+      "autor": "U.S. Army",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:10th_mountain_1943.jpg",
+      "tipo": "epoca",
+      "ano": "1943"
+    },
+    {
+      "arquivo": "01-monte-castello-corona-belvedere.jpg",
+      "alt": "Soldado americano caminha entre casas de pedra destruídas e dois tanques Sherman avariados numa encosta",
+      "legenda": "A aldeia de Corona, logo abaixo da crista do Monte Belvedere, tomada pela 10ª Divisão de Montanha em fevereiro de 1945.",
+      "autor": "U.S. Army Signal Corps",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Men_of_the_87th_Mtn._Inf.,_10th_Mtn._Div.,_took_the_battered_village_of_Corona_which_lies_just_below_the_crest_of_Mt._Belvedere_on_the_night_of_19-20_Feb,_1945_(49465603562).jpg",
+      "tipo": "epoca",
+      "ano": "1945"
+    },
+    {
+      "arquivo": "01-monte-castello-trincheira.jpg",
+      "alt": "Dois soldados brasileiros de capote leem cartas dentro de uma trincheira forrada de palha, com fuzis encostados",
+      "legenda": "Infantes brasileiros leem a correspondência nas trincheiras da frente italiana.",
+      "autor": "U.S. Army Signal Corps",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Brazilian_infantrymen_take_time_out_to_read_their_mail_in_foxholes_on_the_Italian_front._(52611333156).jpg",
+      "tipo": "epoca"
+    }
+  ],
+  "proximo": "montese"
+}
