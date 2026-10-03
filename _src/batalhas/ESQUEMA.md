@@ -21,7 +21,7 @@ ordem, nunca um número que a apuração não sustente.
   "campanha": "A FEB na Itália",          // fio do episódio
   "estreia": "2026-10-01",                 // ou null se não houver data
   "pergunta": "a pergunta do episódio, uma frase",
-  "resumo": "até 155 caracteres; vira meta description",
+  "resumo": "120 a 155 caracteres (o build para fora disso); vira meta description",
   "abertura": ["2 parágrafos curtos"],
   "numeros": [                             // 4 a 6
     {"valor": "2h15", "rotulo": "para tomar a cidade", "conf": "2+"}

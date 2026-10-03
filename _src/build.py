@@ -24,6 +24,7 @@ import datetime as dt
 import html
 import json
 import re
+import subprocess
 import sys
 from pathlib import Path
 
@@ -211,7 +212,13 @@ def consentimento(base):
 </script>
 """
 
-def cabeca(titulo, descricao, url, imagem, base, jsonld, tipo="website"):
+def cabeca(titulo, descricao, url, imagem, base, jsonld, tipo="website", indexar=True):
+    if indexar:
+        canon = f'<link rel="canonical" href="{e(url)}">'
+    else:
+        canon = '<meta name="robots" content="noindex, follow">'
+    lds = jsonld if isinstance(jsonld, list) else [jsonld]
+    ld = "\n".join(f'<script type="application/ld+json">{json.dumps(j, ensure_ascii=False)}</script>' for j in lds)
     return f"""<!doctype html>
 <html lang="pt-BR">
 <head>
@@ -219,7 +226,7 @@ def cabeca(titulo, descricao, url, imagem, base, jsonld, tipo="website"):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(titulo)}</title>
 <meta name="description" content="{e(descricao)}">
-<link rel="canonical" href="{e(url)}">
+{canon}
 <meta name="theme-color" content="#171310">
 <link rel="icon" href="{base}assets/marca/cavalo-64.png" type="image/png">
 <link rel="apple-touch-icon" href="{base}assets/marca/cavalo-180.png">
@@ -236,7 +243,7 @@ def cabeca(titulo, descricao, url, imagem, base, jsonld, tipo="website"):
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>
+{ld}
 </head>
 <body>
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
@@ -265,19 +272,19 @@ def rodape(base):
     return f"""<footer class="rodape">
   <div class="casca">
     <div>
-      <h4>Xadrez Bélico</h4>
+      <h2>Xadrez Bélico</h2>
       <p>Batalha explicada como partida: terreno, peças, lances e o erro de planejamento. Não é canal de heroísmo, é canal de causa.</p>
       {canal}
     </div>
     <div>
-      <h4>Do mesmo criador</h4>
+      <h2>Do mesmo criador</h2>
       <ul>
         <li><a href="https://vestigiooculto.com.br" rel="noopener">Vestígio Oculto</a> — arqueologia e mistério</li>
         <li><a href="https://arquiteturadoimpossivel.com.br" rel="noopener">Arquitetura do Impossível</a> — como as grandes obras foram erguidas</li>
       </ul>
     </div>
     <div>
-      <h4>Este site</h4>
+      <h2>Este site</h2>
       <ul>
         <li><a href="{base}sobre.html">Sobre</a> · <a href="{base}contato.html">Contato</a></li>
         <li>Exibe anúncios do Google AdSense. <a href="{base}privacidade.html">Política de privacidade</a>.</li>
@@ -371,6 +378,89 @@ def og_home():
     return destino.name
 
 
+# --- SEO -------------------------------------------------------------------------
+TITULO_MAX = 60
+DESCRICAO_MIN, DESCRICAO_MAX = 120, 155
+LOGO = f"{DOMINIO}/assets/marca/cavalo-512.png"
+ORG = {"@type": "Organization", "name": NOME, "url": DOMINIO + "/",
+       "logo": {"@type": "ImageObject", "url": LOGO, "width": 512, "height": 512}}
+
+
+def anos(b):
+    a = sorted(set(re.findall(r"\b(1\d{3})\b", b["data"])))
+    return f"{a[0]}–{a[-1]}" if len(a) > 1 else a[0]
+
+
+def titulo_seo(b):
+    """Assunto primeiro, marca no fim, até 60 caracteres. "Lance a lance" é o
+    que a página entrega (a seção de lances); sai se não couber, e o artigo
+    inicial também, antes de cortar a marca."""
+    nomes = [b["batalha"], re.sub(r"^(A|O|As|Os) ", "", b["batalha"])]
+    for meio in (", lance a lance", ""):
+        for n in nomes:
+            t = f"{n} ({anos(b)}){meio} · {NOME}"
+            if len(t) <= TITULO_MAX:
+                return t
+    falha(f"{b['slug']}: não há título de até {TITULO_MAX} caracteres")
+
+
+def data_git(caminho, primeira=False):
+    """Data (AAAA-MM-DD) do primeiro ou do último commit do arquivo; hoje se
+    ele ainda tem mudança não publicada (ou não está no git)."""
+    rel = str(Path(caminho).relative_to(RAIZ)).replace("\\", "/")
+    try:
+        if not primeira:
+            sujo = subprocess.run(["git", "status", "--porcelain", "--", rel], cwd=RAIZ,
+                                  capture_output=True, text=True).stdout.strip()
+            if sujo:
+                return dt.date.today().isoformat()
+        args = ["git", "log", "--format=%cs", "--", rel]
+        if primeira:
+            args[2:2] = ["--diff-filter=A"]
+        datas = subprocess.run(args, cwd=RAIZ, capture_output=True, text=True).stdout.split()
+        if datas:
+            return datas[-1] if primeira else datas[0]
+    except OSError:
+        pass
+    return dt.date.today().isoformat()
+
+
+def migalhas(*itens):
+    return {"@context": "https://schema.org", "@type": "BreadcrumbList",
+            "itemListElement": [{"@type": "ListItem", "position": i, "name": n, "item": u}
+                                for i, (n, u) in enumerate(itens, start=1)]}
+
+
+def conferir_seo(paginas):
+    """Porteiro: título até 60 e único; descrição de 120 a 155 e única."""
+    erros, vt, vd = [], {}, {}
+    for nome, (t, d) in paginas.items():
+        if len(t) > TITULO_MAX:
+            erros.append(f"{nome}: título com {len(t)} caracteres")
+        if not DESCRICAO_MIN <= len(d) <= DESCRICAO_MAX:
+            erros.append(f"{nome}: descrição com {len(d)} caracteres ({DESCRICAO_MIN}–{DESCRICAO_MAX})")
+        if t in vt:
+            erros.append(f"{nome}: título igual ao de {vt[t]}")
+        if d in vd:
+            erros.append(f"{nome}: descrição igual à de {vd[d]}")
+        vt[t], vd[d] = nome, nome
+    if erros:
+        falha("SEO\n  " + "\n  ".join(erros))
+
+
+TITULO_HOME = f"{NOME}: a batalha explicada como partida"
+DESC_HOME = "História militar lida como tabuleiro: terreno, peças, lances e o erro de planejamento. Por que o ataque deu certo, ou não deu. Com fonte."
+TITULO_SOBRE = f"Sobre o {NOME}: como cada página é apurada"
+DESC_SOBRE = (f"O que é o {NOME}, projeto independente de história militar: como cada página é apurada, "
+              "o selo de confiança dos números, as imagens e quem faz.")
+TITULO_CONTATO = f"Contato · {NOME}"
+DESC_CONTATO = (f"Como falar com o {NOME} por e-mail: correções com fonte, créditos e retirada de imagens, "
+                "pedidos sobre seus dados (LGPD), pautas e imprensa.")
+TITULO_PRIV = f"Política de privacidade · {NOME}"
+DESC_PRIV = (f"Como o {NOME} trata dados, cookies e publicidade do Google AdSense: o que coleta, o que não "
+             "coleta e quais são os seus direitos sob a LGPD.")
+
+
 # --- home ------------------------------------------------------------------------
 def card(b, base):
     capa = b["imagens"][0]
@@ -405,15 +495,17 @@ def home(bs, og):
     base = ""
     nomes = {"2+": "Confirmado", "1": "Fonte única", "DIV": "Divergência", "sem": "Sem registro"}
     graus = "".join(f"<li>{conf_selo(k)}<p><strong>{nomes[k]}</strong>{e(v[2])}</p></li>" for k, v in CONF.items())
-    jsonld = {"@context": "https://schema.org", "@type": "WebSite", "name": NOME, "url": DOMINIO + "/",
-              "inLanguage": "pt-BR", "description": "História militar explicada como partida de xadrez."}
+    org = dict(ORG, sameAs=[CANAL] if CANAL else [])
+    jsonld = {"@context": "https://schema.org", "@graph": [
+        {"@type": "WebSite", "name": NOME, "url": DOMINIO + "/", "inLanguage": "pt-BR",
+         "description": "História militar explicada como partida de xadrez.",
+         "publisher": {"@type": "Organization", "name": NOME, "url": DOMINIO + "/"}},
+        org]}
     cards = "\n".join(card(b, base) for b in bs) + "\n" + "\n".join(card_producao(a) for a in EM_PRODUCAO)
-    return (cabeca(f"{NOME} — a batalha explicada como partida",
-                   "História militar lida como tabuleiro: terreno, peças, lances e o erro de planejamento. Por que o ataque deu certo, ou não deu. Com fonte.",
-                   DOMINIO + "/", f"{DOMINIO}/assets/img/{og}", base, jsonld)
+    return (cabeca(TITULO_HOME, DESC_HOME, DOMINIO + "/", f"{DOMINIO}/assets/img/{og}", base, jsonld)
             + topo(base) + f"""<main id="conteudo">
 <section class="abre">
-  <img src="_src-banner" alt="" aria-hidden="true">
+  <img src="_src-banner" width="{{BANNER_W}}" height="{{BANNER_H}}" alt="" aria-hidden="true">
   <div class="casca">
     <div>
       <div class="filete">Terreno · peças · lances</div>
@@ -505,13 +597,18 @@ def pagina(b, bs, og):
     estreia = ""
     if b["estreia"]:
         estreia = f' · <span data-estreia="{b["estreia"]}" data-no-ar="no ar">estreia {e(data_br(b["estreia"], True))}</span>'
-    jsonld = {
+    arq = SRC / "batalhas" / f"{b['num']}-{b['slug']}.json"
+    jsonld = [{
         "@context": "https://schema.org", "@type": "Article", "headline": f"{b['batalha']}: a partida explicada",
-        "description": b["resumo"], "inLanguage": "pt-BR", "url": url, "image": f"{DOMINIO}/assets/img/{og}",
-        "author": {"@type": "Organization", "name": NOME}, "publisher": {"@type": "Organization", "name": NOME},
+        "description": b["resumo"], "inLanguage": "pt-BR", "url": url,
+        "image": {"@type": "ImageObject", "url": f"{DOMINIO}/assets/img/{og}", "width": 1200, "height": 630},
+        "datePublished": data_git(arq, primeira=True), "dateModified": data_git(arq),
+        "author": {"@type": "Organization", "name": NOME, "url": DOMINIO + "/"}, "publisher": ORG,
+        "mainEntityOfPage": {"@type": "WebPage", "@id": url},
+        "articleSection": b["campanha"],
         "about": {"@type": "Event", "name": b["batalha"], "location": b["lugar"]},
-    }
-    return (cabeca(f"{b['batalha']} ({b['data']}) — {NOME}", b["resumo"], url, f"{DOMINIO}/assets/img/{og}", base, jsonld, "article")
+    }, migalhas((NOME, DOMINIO + "/"), (b["batalha"], url))]
+    return (cabeca(titulo_seo(b), b["resumo"], url, f"{DOMINIO}/assets/img/{og}", base, jsonld, "article")
             + '<div class="progresso" aria-hidden="true"></div>' + topo(base, "batalhas") + f"""<main id="conteudo">
 <header class="capa">
   {img_tag(capa['arquivo'], capa['alt'], base, '100vw', 'eager', foco=capa.get('foco'))}
@@ -576,8 +673,9 @@ def pagina(b, bs, og):
 
 def pagina_404():
     base = "/"
-    return (cabeca(f"Página não encontrada — {NOME}", "Esta página não existe.", DOMINIO + "/404.html",
-                   f"{DOMINIO}/assets/img/og-home.jpg", base, {"@context": "https://schema.org", "@type": "WebPage", "name": "404"})
+    return (cabeca(f"Página não encontrada · {NOME}", "Esta página não existe.", DOMINIO + "/404.html",
+                   f"{DOMINIO}/assets/img/og-home.jpg", base, {"@context": "https://schema.org", "@type": "WebPage", "name": "404"},
+                   indexar=False)
             + topo(base) + """<main id="conteudo" class="simples"><div class="casca">
   <div class="filete">Erro 404</div>
   <h1>Lance <span class="destaque">ilegal</span></h1>
@@ -645,10 +743,11 @@ def pagina_privacidade():
         canal = "com canal correspondente no YouTube"
     corpo = (PRIVACIDADE.replace("{{NOME}}", NOME).replace("{{CANAL_FRASE}}", canal)
              .replace("{{CHAVE}}", CHAVE_CONSENTIMENTO))
-    return (cabeca(f"Política de privacidade — {NOME}",
-                   f"Como o {NOME} trata dados, cookies e publicidade, e quais são os seus direitos sob a LGPD.",
-                   DOMINIO + "/privacidade.html", f"{DOMINIO}/assets/img/og-home.jpg", base,
-                   {"@context": "https://schema.org", "@type": "WebPage", "name": "Política de privacidade"})
+    u = DOMINIO + "/privacidade.html"
+    return (cabeca(TITULO_PRIV, DESC_PRIV, u, f"{DOMINIO}/assets/img/og-home.jpg", base,
+                   [{"@context": "https://schema.org", "@type": "WebPage", "name": TITULO_PRIV, "description": DESC_PRIV,
+                     "url": u, "inLanguage": "pt-BR"},
+                    migalhas((NOME, DOMINIO + "/"), ("Política de privacidade", u))])
             + topo(base) + corpo + rodape(base) + consentimento(base) + fim())
 
 
@@ -682,9 +781,11 @@ def pagina_sobre():
   <p>O site se mantém com anúncios do Google AdSense, descritos na <a href="privacidade.html">política de privacidade</a>. Nenhum anúncio interfere no que é escrito.</p>
 </div></main>
 """
-    return (cabeca(f"Sobre — {NOME}", f"O que é o {NOME}, como cada página é apurada, de onde vêm as imagens e quem faz o projeto.",
-                   DOMINIO + "/sobre.html", f"{DOMINIO}/assets/img/og-home.jpg", base,
-                   {"@context": "https://schema.org", "@type": "AboutPage", "name": f"Sobre — {NOME}"})
+    u = DOMINIO + "/sobre.html"
+    return (cabeca(TITULO_SOBRE, DESC_SOBRE, u, f"{DOMINIO}/assets/img/og-home.jpg", base,
+                   [{"@context": "https://schema.org", "@type": "AboutPage", "name": TITULO_SOBRE, "description": DESC_SOBRE,
+                     "url": u, "inLanguage": "pt-BR"},
+                    migalhas((NOME, DOMINIO + "/"), ("Sobre", u))])
             + topo(base, "sobre") + corpo + rodape(base) + consentimento(base) + fim())
 
 
@@ -708,13 +809,19 @@ def pagina_contato():
   <p>Não há formulário nem cadastro: a conversa é por e-mail, e o seu endereço não é usado para mais nada além de responder. Correção confirmada entra na página.</p>
 </div></main>
 """
-    return (cabeca(f"Contato — {NOME}", f"Como falar com o {NOME}: correções, créditos de imagem, pedidos sobre dados e pautas.",
-                   DOMINIO + "/contato.html", f"{DOMINIO}/assets/img/og-home.jpg", base,
-                   {"@context": "https://schema.org", "@type": "ContactPage", "name": f"Contato — {NOME}"})
+    u = DOMINIO + "/contato.html"
+    return (cabeca(TITULO_CONTATO, DESC_CONTATO, u, f"{DOMINIO}/assets/img/og-home.jpg", base,
+                   [{"@context": "https://schema.org", "@type": "ContactPage", "name": TITULO_CONTATO, "description": DESC_CONTATO,
+                     "url": u, "inLanguage": "pt-BR"},
+                    migalhas((NOME, DOMINIO + "/"), ("Contato", u))])
             + topo(base, "contato") + corpo + rodape(base) + consentimento(base) + fim())
 
 def main():
     bs = carregar()
+    seo = {"home": (TITULO_HOME, DESC_HOME), "sobre": (TITULO_SOBRE, DESC_SOBRE),
+           "contato": (TITULO_CONTATO, DESC_CONTATO), "privacidade": (TITULO_PRIV, DESC_PRIV)}
+    seo.update({b["slug"]: (titulo_seo(b), b["resumo"]) for b in bs})
+    conferir_seo(seo)
     (RAIZ / "batalhas").mkdir(exist_ok=True)
     css = (SRC / "xadrez.css").read_text(encoding="utf-8").replace("url(/assets/fontes/", "url(fontes/")
     (RAIZ / "assets" / "xadrez.css").write_text(css, encoding="utf-8")
@@ -728,7 +835,8 @@ def main():
     ban.save(IMG / "banner.jpg", "JPEG", quality=80, optimize=True, progressive=True)
 
     og = {b["slug"]: og_batalha(b) for b in bs}
-    (RAIZ / "index.html").write_text(home(bs, og_home()).replace('src="_src-banner"', 'src="assets/img/banner.jpg"'), encoding="utf-8")
+    (RAIZ / "index.html").write_text(home(bs, og_home()).replace('src="_src-banner"', 'src="assets/img/banner.jpg"')
+        .replace("{BANNER_W}", str(ban.width)).replace("{BANNER_H}", str(ban.height)), encoding="utf-8")
     gerados = set()
     for b in bs:
         (RAIZ / "batalhas" / f"{b['slug']}.html").write_text(pagina(b, bs, og[b["slug"]]), encoding="utf-8")
@@ -749,11 +857,16 @@ def main():
     elif ads.exists():
         ads.unlink()
 
-    hoje = dt.date.today().isoformat()
-    urls = [DOMINIO + "/", DOMINIO + "/sobre.html", DOMINIO + "/contato.html", DOMINIO + "/privacidade.html"] + [f"{DOMINIO}/batalhas/{b['slug']}.html" for b in bs]
+    # lastmod: batalha = último commit do JSON dela (hoje, se mudou e não foi
+    # publicado); páginas fixas = último commit do build.py; home = a mais nova.
+    fixas = data_git(Path(__file__).resolve())
+    datas = {f"{DOMINIO}/batalhas/{b['slug']}.html": data_git(SRC / "batalhas" / f"{b['num']}-{b['slug']}.json") for b in bs}
+    for pg in ("sobre", "contato", "privacidade"):
+        datas[f"{DOMINIO}/{pg}.html"] = fixas
+    datas = {DOMINIO + "/": max([fixas, *datas.values()]), **datas}
     (RAIZ / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-        + "".join(f"  <url><loc>{u}</loc><lastmod>{hoje}</lastmod></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
+        + "".join(f"  <url><loc>{u}</loc><lastmod>{d}</lastmod></url>\n" for u, d in datas.items()) + "</urlset>\n", encoding="utf-8")
     (RAIZ / "robots.txt").write_text(f"User-agent: *\nAllow: /\nDisallow: /_src/\n\nSitemap: {DOMINIO}/sitemap.xml\n", encoding="utf-8")
 
     print(f"ok: {len(bs)} batalhas, {len(EM_PRODUCAO)} em produção" + ("" if CANAL else " · CANAL do YouTube não definido"))
