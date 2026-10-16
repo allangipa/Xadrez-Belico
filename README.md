@@ -135,7 +135,9 @@ Com o deploy por Git o repositório **inteiro** vai para o servidor. O
 
 - `404.html` como página de erro;
 - 404 para `_src/`, `.claude/`, `.git/`, `README.md` e `.gitignore`;
-- o 301 de domínio (seção "Domínio").
+- o 301 de domínio (seção "Domínio"), **menos o `ads.txt`**, que sai direto
+  em todo host (16/10/2026): o AdSense lê o `ads.txt` de cada domínio
+  cadastrado (.com e .com.br) e marcava "Não encontrado" com o redirecionamento.
 
 Arquivo novo na raiz que não seja página **fica público** até entrar nessa
 lista. Na dúvida, ponha dentro de `_src/`.
