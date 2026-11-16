@@ -1,0 +1,224 @@
+{
+  "_nota": "Faithful translation of ../sherman.json. Fixed fields come from the original.",
+  "nome": "M4 Sherman",
+  "nome_busca": "Sherman tank",
+  "papel": "medium tank",
+  "pais": "United States",
+  "periodo": "1942–1945",
+  "pergunta": "Can a tank with neither the best armor nor the best gun be the right piece?",
+  "resumo": "M4 Sherman with the 75 mm gun: specs, strengths, its reputation for burning and the battles it fought in, from El Alamein to Montese. All sourced.",
+  "abertura": [
+    "The M4 Sherman was the medium tank of the United States and of a good part of the Allies from 1942 on. This page covers the first versions, the M4 and the M4A1, with the 75 mm gun.",
+    "Steven Zaloga, the historian who has written most about it, admits that the Sherman had neither the best armor nor the best gun. The American bet was a different one: a very reliable tank, cheap to build, in quantity. The specs below show what that bet bought and what it cost."
+  ],
+  "numeros": [
+    {
+      "valor": "49,234",
+      "rotulo": "for the whole family, in the English Wikipedia table, attributed to Steven Zaloga; the text of the same article gives 49,324"
+    },
+    {
+      "valor": "≈ 30 t",
+      "rotulo": "combat loaded: from 66,800 to 67,300 pounds, depending on the manual and the track"
+    },
+    {
+      "valor": "24 mph",
+      "rotulo": "top speed on road, about 39 km/h"
+    },
+    {
+      "valor": "252",
+      "rotulo": "Shermans ready for the combat debut, at El Alamein, in October 1942"
+    },
+    {
+      "valor": "60–80%",
+      "rotulo": "of the first Shermans burned when the armor was penetrated, in an American study of 1945"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Designation",
+      "valor": "Tank, Medium, M4 and M4A1. The name General Sherman already appears as being in common use in an American manual of 1943; to the British, they were the Sherman I and the Sherman II"
+    },
+    {
+      "item": "Manufacturers",
+      "valor": "M4: Pressed Steel Car, Baldwin Locomotive Works, American Locomotive, Pullman Standard and Chrysler's Detroit Tank Arsenal. M4A1: Lima Locomotive Works, Pressed Steel Car and Pacific Car and Foundry"
+    },
+    {
+      "item": "Production of the 75 mm M4 and M4A1",
+      "valor": "6,748 of the M4, with the first acceptance in July 1942, and 6,281 of the M4A1, from February 1942",
+      "nota": "R. P. Hunnicutt, via Chris Conners's database."
+    },
+    {
+      "item": "Production of the family",
+      "valor": "49,234, not counting prototypes, in the English Wikipedia table, which attributes it to Steven Zaloga; 49,324 in the opening text of the same article"
+    },
+    {
+      "item": "Crew",
+      "valor": "5: commander, gunner, loader, driver and assistant driver"
+    },
+    {
+      "item": "Weight",
+      "valor": "about 30 t combat loaded",
+      "nota": "66,800 and 66,900 pounds in Hunnicutt, for the M4A1 and the M4; 67,300 pounds in the manual TM 9-2800, of 1943, with another type of track."
+    },
+    {
+      "item": "Dimensions",
+      "valor": "232 inches long (5.89 m), 103 wide (2.62 m) and 108 high (2.74 m)",
+      "nota": "Hunnicutt, via Chris Conners's database. The width matches the drawing in the 1943 manual."
+    },
+    {
+      "item": "Gun",
+      "valor": "75 mm M3, in the turret. The first M4A1 tanks came out with the shorter 75 mm M2"
+    },
+    {
+      "item": "75 mm ammunition",
+      "valor": "90 rounds in the manuals TM 9-731A and TM 9-2800; 97 in Hunnicutt, for the mid-production M4; up to 100 at the Tank Museum"
+    },
+    {
+      "item": "Machine guns",
+      "valor": "one .50 caliber on the turret roof and two .30 caliber, one coaxial and one in the bow"
+    },
+    {
+      "item": "Hull front armor",
+      "valor": "2 inches (51 mm), sloped at 56 degrees from the vertical on the welded-hull M4"
+    },
+    {
+      "item": "Turret",
+      "valor": "3 inches (76 mm) at the front, at 30 degrees; 2 inches (51 mm) on the sides and at the rear"
+    },
+    {
+      "item": "Hull sides",
+      "valor": "1.5 inches (38 mm), vertical. After combat experience, plates of 1 inch were welded over the ammunition racks"
+    },
+    {
+      "item": "Engine",
+      "valor": "Continental R975-C1, a radial of 9 cylinders, gasoline, air-cooled; 400 hp gross, 350 net",
+      "nota": "The manual TM 9-731A gives 380 hp for the same engine."
+    },
+    {
+      "item": "Road speed",
+      "valor": "24 miles per hour maximum (38.6 km/h); 21 sustained"
+    },
+    {
+      "item": "Range",
+      "valor": "120 to 125 miles on road, about 195 to 200 km, with 175 gallons of gasoline",
+      "nota": "About 120 miles in Hunnicutt; 125 in the manual TM 9-2800."
+    }
+  ],
+  "secoes": [
+    {
+      "titulo": "What it was for",
+      "paragrafos": [
+        "The Sherman was the general-purpose medium tank: accompanying the infantry, breaking through positions and exploiting the breakthrough. According to Steven Zaloga, the United States chose to concentrate on a tank that was very reliable and relatively cheap to build; from the point of view of those in command, he says, it was an excellent weapon.",
+        "It debuted with the British 8th Army at the second battle of El Alamein, in October 1942, with 252 tanks ready. The site Tank Archives, based on Pier Paolo Battistelli, puts the first action at dawn on 24 October."
+      ]
+    },
+    {
+      "titulo": "Strengths",
+      "paragrafos": [
+        "It worked. The Tank Museum sums up the Shermans as reliable, durable and easy to maintain, and records that the parts, made by hundreds of factories, were fully interchangeable, a rare thing among the tanks of the war.",
+        "In 1942, the gun was a strength too. For the Tank Museum, at the end of that year the 75 mm was as good as the gun of most tanks, or better, and its high-explosive shell was more powerful than those of the guns that came later. Most of a tank's targets are not another tank.",
+        "There is a counterpoint from the period. A British report from the desert, summarized by Tank Archives, complained about the reliability of the engines and about the rubber on the tracks, which came off after 600 miles."
+      ]
+    },
+    {
+      "titulo": "Weak points",
+      "paragrafos": [
+        "The armor and the gun fell behind when the Tiger and the Panther appeared. Zaloga does not hide it: the Sherman had neither the best armor nor the best gun.",
+        "And there was fire. In a US Army study of 1945, cited by the Tank Museum and by Zaloga, 60% to 80% of the first Shermans burned when the armor was penetrated. The main cause, for Zaloga, for the Tank Museum and for the British report of 1942, was the ammunition stowed in the hull sides, not the gasoline.",
+        "The remedy came in two stages. First, plates welded on the outside, over the ammunition racks. Then, in the new tanks, the ammunition moved to liquid-filled bins in the floor, and the proportion of those that burned fell to 10% to 15%, in the same study. Every 75 mm M4 was built with the old arrangement."
+      ]
+    },
+    {
+      "titulo": "The Sherman and the FEB",
+      "paragrafos": [
+        "The Brazilian Expeditionary Force had no tanks of its own. The magazine of the Army's Armor Instruction Center records that the reconnaissance squadron, with M8 cars, was the only Brazilian unit to use armor in the war.",
+        "The medium tanks that appear alongside the Brazilians were American. A paper from the Agulhas Negras Military Academy, based on Captain Plínio Pitaluga's report, records a platoon of American medium tanks in the consolidation of the capture of Montese. Which unit they came from, the open sources do not allow us to say."
+      ]
+    }
+  ],
+  "batalhas": [
+    {
+      "texto": "Among the 8th Army's more than a thousand tanks in October 1942 were the first American Shermans, sent after the fall of Tobruk. The British had about 2 to 1 in men and in tanks."
+    },
+    {
+      "texto": "According to the English Wikipedia, the Brazilian infantry advanced on 14 April 1945 with M8 armored cars and Sherman tanks. The advance, fast and with armor, led the German command to treat Montese as a possible real Allied objective in the sector."
+    },
+    {
+      "texto": "In the early evening of 20 September 1944, Guards tanks crossed the Nijmegen road bridge, and on the other side they stopped for about 18 hours. The photo on the page shows a Sherman on the bridge. Ahead lay 11 km of road raised above the polder, which the commander of the Guards Armoured Division described as the most unsuitable terrain for tanks that could be imagined."
+    },
+    {
+      "texto": "In the third assault, in March 1944, the tanks ran into the craters of the bombing that flattened the town. A color photograph of 18 May 1944 shows a destroyed Sherman beside a Bailey bridge, in the ruins of Cassino."
+    }
+  ],
+  "veredito": [
+    "On the board, the Sherman is the pawn that arrives in numbers. Piece for piece, it lost to the best German pieces from 1943 on. But it arrived in working order, with spare parts, on any front, and it was replaced when lost.",
+    "It is a planning choice, not an accident: trading the best possible tank for many tanks that were good enough. The cost of that choice shows in the proportion of those that burned, and it was paid by the crews."
+  ],
+  "mitos": [
+    {
+      "circula": "The Sherman caught fire because its engine ran on gasoline.",
+      "registro": "The main cause was the ammunition in the hull sides, according to Steven Zaloga, the Tank Museum and a British report of 1942. Zaloga points out that the German tanks also ran on gasoline."
+    },
+    {
+      "circula": "The soldiers called it the Ronson because of the lighter's slogan, that it always lit first time.",
+      "registro": "The site Tank and AFV News looked for the Ronson advertisements and did not find the slogan in any from the period immediately before the war or from the war itself; the closest one is from 1929. The nickname could well have existed; the explanation by the slogan does not hold up in the advertisements."
+    },
+    {
+      "circula": "It took five Shermans to destroy one Tiger.",
+      "registro": "Steven Zaloga, in a 2015 interview, calls the story totally apocryphal. No source from the period was found for the ratio."
+    }
+  ],
+  "perguntas": [
+    {"p": "How many Sherman tanks were built?", "r": "49,234 in the English Wikipedia table, attributed to Steven Zaloga; the text of the same article gives 49,324. Of the first 75 mm versions, there were 6,748 of the M4 and 6,281 of the M4A1, according to R. P. Hunnicutt."},
+    {"p": "Why did the Sherman catch fire?", "r": "Mainly because of the ammunition stowed in the hull sides, not the gasoline. In an American study of 1945, 60% to 80% of the first Shermans burned when penetrated; with the ammunition in liquid-filled bins, 10% to 15%."},
+    {"p": "Did the FEB have Sherman tanks?", "r": "It had no tanks of its own. According to the magazine of the Armor Instruction Center, the only Brazilian unit to use armor in the war was the reconnaissance squadron, with M8 cars. The medium tanks at Montese were American."},
+    {"p": "Where did the Sherman first see combat?", "r": "At the second battle of El Alamein, in Egypt, in October 1942, with the British 8th Army, which had 252 of them ready."}
+  ],
+  "fontes": [
+    {
+      "texto": "U.S. War Department, TM 9-2800, Standard Military Motor Vehicles, 1 September 1943."
+    },
+    {
+      "texto": "U.S. War Department, TM 9-731A, Medium Tanks M4 and M4A1."
+    },
+    {
+      "texto": "R. P. Hunnicutt, Sherman: A History of the American Medium Tank, 1978, from the data compiled by Chris Conners in the American Fighting Vehicle Database."
+    },
+    {
+      "texto": "Ian Hudson, \"The Sherman: Myths or Reality?\", The Tank Museum, 2025."
+    },
+    {
+      "texto": "Interview with Steven Zaloga, Tank and AFV News, 27 January 2015."
+    },
+    {
+      "texto": "\"Lights First Every Time?\", Tank and AFV News, 28 April 2015, on the Ronson nickname."
+    },
+    {
+      "texto": "\"Sherman's African Debut\", Tank Archives, 2023, based on Pier Paolo Battistelli and on a Canadian military archive."
+    },
+    {
+      "texto": "Steven Zaloga, Armored Thunderbolt, 2008, and Sherman Medium Tank 1942–1945, 1993 (as cited by the English Wikipedia)."
+    },
+    {
+      "texto": "\"O Esquadrão da Força Expedicionária Brasileira\", Ação de Choque magazine No. 19, Centro de Instrução de Blindados."
+    },
+    {
+      "texto": "Danilo Tenório Quintino, O 1º Esquadrão de Reconhecimento Mecanizado da FEB e sua importância durante a Ofensiva da Primavera, Academia Militar das Agulhas Negras."
+    },
+    {
+      "texto": "M4 Sherman — English Wikipedia."
+    }
+  ],
+  "imagens": [
+    {
+      "alt": "Sherman tank advances across a wide road bridge, with a large steel arch in the background and two cyclists in the foreground, one of them waving",
+      "legenda": "A Sherman of the British XXX Corps crosses the Nijmegen road bridge over the Waal, in September 1944.",
+      "autor": "Unidentified photographer · Imperial War Museums, EA 44531"
+    },
+    {
+      "alt": "Color photograph: an overturned Sherman tank and the wreckage of an iron bridge in the foreground, white ruins of the town and the mountain with its bare summit in the background",
+      "legenda": "A destroyed Sherman beside a Bailey bridge in the ruins of Cassino, on 18 May 1944. Original War Office color photograph, not colorized.",
+      "autor": "Captain Tanner, official War Office photographer · Imperial War Museums, TR 1799"
+    }
+  ]
+}

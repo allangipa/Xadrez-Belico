@@ -1,0 +1,224 @@
+{
+  "_nota": "Traducción fiel de ../sherman.json. Los campos fijos vienen del original.",
+  "nome": "M4 Sherman",
+  "nome_busca": "Tanque Sherman",
+  "papel": "tanque medio",
+  "pais": "Estados Unidos",
+  "periodo": "1942–1945",
+  "pergunta": "¿Un tanque sin el mejor blindaje ni el mejor cañón puede ser la pieza correcta?",
+  "resumo": "M4 Sherman de 75 mm: ficha técnica, puntos fuertes, la fama de incendiarse y en qué batallas jugó, de El Alamein a Montese. Con fuente en cada dato.",
+  "abertura": [
+    "El M4 Sherman fue el tanque medio de Estados Unidos y de buena parte de los aliados de 1942 en adelante. Esta ficha trata de las primeras versiones, el M4 y el M4A1, con cañón de 75 mm.",
+    "Steven Zaloga, el historiador que más escribió sobre él, admite que el Sherman no tenía el mejor blindaje ni el mejor cañón. La apuesta estadounidense era otra: un tanque muy confiable y barato de fabricar, en cantidad. La ficha de abajo muestra lo que esa apuesta compró y lo que costó."
+  ],
+  "numeros": [
+    {
+      "valor": "49.234",
+      "rotulo": "de la familia entera, en la tabla de la Wikipedia en inglés, atribuida a Steven Zaloga; el texto del mismo artículo trae 49.324"
+    },
+    {
+      "valor": "≈ 30 t",
+      "rotulo": "en orden de combate: de 66.800 a 67.300 libras, según el manual y la oruga"
+    },
+    {
+      "valor": "24 mph",
+      "rotulo": "de velocidad máxima en carretera, unos 39 km/h"
+    },
+    {
+      "valor": "252",
+      "rotulo": "Sherman listos para el estreno en combate, en El Alamein, en octubre de 1942"
+    },
+    {
+      "valor": "60–80%",
+      "rotulo": "de los primeros Sherman se incendiaban cuando el blindaje era perforado, en un estudio estadounidense de 1945"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Designación",
+      "valor": "Tank, Medium, M4 y M4A1. El nombre General Sherman ya aparece como de uso corriente en un manual estadounidense de 1943; para los británicos, eran el Sherman I y el Sherman II"
+    },
+    {
+      "item": "Fabricantes",
+      "valor": "M4: Pressed Steel Car, Baldwin Locomotive Works, American Locomotive, Pullman Standard y el Detroit Tank Arsenal, de Chrysler. M4A1: Lima Locomotive Works, Pressed Steel Car y Pacific Car and Foundry"
+    },
+    {
+      "item": "Producción del M4 y del M4A1 de 75 mm",
+      "valor": "6.748 M4, con la primera aceptación en julio de 1942, y 6.281 M4A1, desde febrero de 1942",
+      "nota": "R. P. Hunnicutt, por la base de datos de Chris Conners."
+    },
+    {
+      "item": "Producción de la familia",
+      "valor": "49.234, sin contar prototipos, en la tabla de la Wikipedia en inglés, que la atribuye a Steven Zaloga; 49.324 en el texto de apertura del mismo artículo"
+    },
+    {
+      "item": "Tripulación",
+      "valor": "5: comandante, artillero, cargador, conductor y ayudante de conductor"
+    },
+    {
+      "item": "Peso",
+      "valor": "unas 30 t en orden de combate",
+      "nota": "66.800 y 66.900 libras en Hunnicutt, para el M4A1 y el M4; 67.300 libras en el manual TM 9-2800, de 1943, con otro tipo de oruga."
+    },
+    {
+      "item": "Dimensiones",
+      "valor": "232 pulgadas de largo (5,89 m), 103 de ancho (2,62 m) y 108 de alto (2,74 m)",
+      "nota": "Hunnicutt, por la base de datos de Chris Conners. El ancho coincide con el dibujo del manual de 1943."
+    },
+    {
+      "item": "Cañón",
+      "valor": "75 mm M3, en la torreta. Los primeros M4A1 salieron con el 75 mm M2, más corto"
+    },
+    {
+      "item": "Munición de 75 mm",
+      "valor": "90 disparos en los manuales TM 9-731A y TM 9-2800; 97 en Hunnicutt, para el M4 de media producción; hasta 100 en el Tank Museum"
+    },
+    {
+      "item": "Ametralladoras",
+      "valor": "una de calibre .50 en el techo de la torreta y dos de calibre .30, una coaxial y una en la proa"
+    },
+    {
+      "item": "Blindaje frontal del casco",
+      "valor": "2 pulgadas (51 mm), inclinadas a 56 grados de la vertical en el M4 de casco soldado"
+    },
+    {
+      "item": "Torreta",
+      "valor": "3 pulgadas (76 mm) al frente, a 30 grados; 2 pulgadas (51 mm) en los costados y atrás"
+    },
+    {
+      "item": "Costados del casco",
+      "valor": "1,5 pulgadas (38 mm), verticales. Después de la experiencia de combate, se soldaron planchas de 1 pulgada sobre los pañoles de munición"
+    },
+    {
+      "item": "Motor",
+      "valor": "Continental R975-C1, radial de 9 cilindros, de gasolina, refrigerado por aire; 400 hp brutos, 350 netos",
+      "nota": "El manual TM 9-731A da 380 hp para el mismo motor."
+    },
+    {
+      "item": "Velocidad en carretera",
+      "valor": "24 millas por hora como máximo (38,6 km/h); 21 sostenidas"
+    },
+    {
+      "item": "Autonomía",
+      "valor": "120 a 125 millas en carretera, unos 195 a 200 km, con 175 galones de gasolina",
+      "nota": "Unas 120 millas en Hunnicutt; 125 en el manual TM 9-2800."
+    }
+  ],
+  "secoes": [
+    {
+      "titulo": "Para qué servía",
+      "paragrafos": [
+        "El Sherman era el tanque medio de uso general: acompañar a la infantería, romper posiciones y explotar la ruptura. Según Steven Zaloga, Estados Unidos eligió concentrarse en un tanque muy confiable y relativamente barato de construir; desde el punto de vista de quien mandaba, dice, era un arma excelente.",
+        "Se estrenó con el 8.º Ejército británico en la segunda batalla de El Alamein, en octubre de 1942, con 252 tanques listos. El sitio Tank Archives, con base en Pier Paolo Battistelli, pone la primera acción en el amanecer del 24 de octubre."
+      ]
+    },
+    {
+      "titulo": "Puntos fuertes",
+      "paragrafos": [
+        "Funcionaba. El Tank Museum resume a los Sherman como confiables, duraderos y fáciles de mantener, y registra que las piezas, hechas por centenares de fábricas, eran totalmente intercambiables, cosa rara entre los tanques de la guerra.",
+        "En 1942, el cañón también era punto fuerte. Para el Tank Museum, a fines de ese año el 75 mm era tan bueno como el de la mayoría de los tanques, o mejor, y su granada explosiva era más potente que las de los cañones que vinieron después. La mayor parte de los blancos de un tanque no es otro tanque.",
+        "Hay un contrapunto de época. Un informe británico del desierto, resumido por Tank Archives, se quejó de la confiabilidad de los motores y de la goma de las orugas, que se soltaba después de 600 millas."
+      ]
+    },
+    {
+      "titulo": "Puntos débiles",
+      "paragrafos": [
+        "El blindaje y el cañón quedaron atrás cuando aparecieron el Tiger y el Panther. Zaloga no lo disimula: el Sherman no tenía el mejor blindaje ni el mejor cañón.",
+        "Y estaba el fuego. En un estudio del Ejército estadounidense de 1945, citado por el Tank Museum y por Zaloga, del 60% al 80% de los primeros Sherman se incendiaban cuando el blindaje era perforado. La causa principal, para Zaloga, para el Tank Museum y para el informe británico de 1942, era la munición guardada en los costados del casco, no la gasolina.",
+        "El remedio llegó en dos etapas. Primero, planchas soldadas por fuera, sobre los pañoles. Después, en los tanques nuevos, la munición pasó a cajas con líquido en el piso, y la proporción de los que se incendiaban cayó al 10% a 15%, en el mismo estudio. Todos los M4 de 75 mm fueron construidos con la disposición antigua."
+      ]
+    },
+    {
+      "titulo": "El Sherman y la FEB",
+      "paragrafos": [
+        "La Fuerza Expedicionaria Brasileña no tenía tanques propios. La revista del Centro de Instrucción de Blindados del Ejército registra que el escuadrón de reconocimiento, con autos M8, fue la única tropa brasileña que usó blindados en la guerra.",
+        "Los tanques medios que aparecen al lado de los brasileños eran estadounidenses. Un trabajo de la Academia Militar das Agulhas Negras, con base en el informe del capitán Plínio Pitaluga, registra un pelotón de tanques medios estadounidenses en la consolidación de la toma de Montese. De qué unidad eran, las fuentes abiertas no permiten decirlo."
+      ]
+    }
+  ],
+  "batalhas": [
+    {
+      "texto": "Entre los más de mil tanques del 8.º Ejército en octubre de 1942 estaban los primeros Sherman estadounidenses, enviados después de la caída de Tobruk. Los británicos tenían cerca de 2 a 1 en hombres y en tanques."
+    },
+    {
+      "texto": "Según la Wikipedia en inglés, la infantería brasileña avanzó el 14 de abril de 1945 con autos de reconocimiento M8 y tanques Sherman. El avance rápido y con blindados llevó al mando alemán a considerar Montese un posible objetivo real de los aliados en el sector."
+    },
+    {
+      "texto": "Al comienzo de la noche del 20 de septiembre de 1944, tanques de la Guardia cruzaron el puente de carretera de Nimega, y al otro lado se detuvieron unas 18 horas. La foto de la página muestra un Sherman en el puente. Por delante había 11 km de carretera elevada sobre pólder, que el comandante de la División Blindada de la Guardia describió como el terreno más inadecuado para tanques que se pudiera imaginar."
+    },
+    {
+      "texto": "En el tercer asalto, en marzo de 1944, los tanques chocaron con los cráteres del bombardeo que arrasó la ciudad. Una fotografía en color del 18 de mayo de 1944 muestra un Sherman destruido junto a un puente Bailey, en las ruinas de Cassino."
+    }
+  ],
+  "veredito": [
+    "En el tablero, el Sherman es el peón que llega en número. Pieza por pieza, perdía ante las mejores piezas alemanas de 1943 en adelante. Pero llegaba funcionando, con repuestos, a cualquier frente, y era repuesto cuando se perdía.",
+    "Es una elección de planificación, no un accidente: cambiar el mejor tanque posible por muchos tanques suficientemente buenos. El costo de esa elección aparece en la proporción de los que se incendiaban, y lo pagaron las tripulaciones."
+  ],
+  "mitos": [
+    {
+      "circula": "El Sherman se incendiaba porque el motor era de gasolina.",
+      "registro": "La causa principal era la munición en los costados del casco, según Steven Zaloga, el Tank Museum y un informe británico de 1942. Zaloga recuerda que los tanques alemanes también eran de gasolina."
+    },
+    {
+      "circula": "Los soldados lo llamaban Ronson por el eslogan del encendedor, que prendía siempre a la primera.",
+      "registro": "El sitio Tank and AFV News buscó los anuncios de Ronson y no halló el eslogan en ninguno del período inmediatamente anterior a la guerra ni de la guerra; el más parecido es de 1929. El apodo puede haber existido; la explicación por el eslogan no se sostiene en los anuncios."
+    },
+    {
+      "circula": "Hacían falta cinco Sherman para destruir un Tiger.",
+      "registro": "Steven Zaloga, en una entrevista de 2015, llama a la historia totalmente apócrifa. No se encontró fuente de época para la proporción."
+    }
+  ],
+  "perguntas": [
+    {"p": "¿Cuántos tanques Sherman se produjeron?", "r": "49.234 en la tabla de la Wikipedia en inglés, atribuida a Steven Zaloga; el texto del mismo artículo trae 49.324. De las primeras versiones de 75 mm, fueron 6.748 M4 y 6.281 M4A1, según R. P. Hunnicutt."},
+    {"p": "¿Por qué se incendiaba el Sherman?", "r": "Principalmente por la munición guardada en los costados del casco, no por la gasolina. En un estudio estadounidense de 1945, del 60% al 80% de los primeros Sherman se incendiaban al ser perforados; con la munición en cajas con líquido, del 10% al 15%."},
+    {"p": "¿La FEB tenía tanques Sherman?", "r": "No tenía tanques propios. Según la revista del Centro de Instrucción de Blindados, la única tropa brasileña que usó blindados en la guerra fue el escuadrón de reconocimiento, con autos M8. Los tanques medios en Montese eran estadounidenses."},
+    {"p": "¿Dónde se estrenó el Sherman en combate?", "r": "En la segunda batalla de El Alamein, en Egipto, en octubre de 1942, con el 8.º Ejército británico, que tenía 252 de ellos listos."}
+  ],
+  "fontes": [
+    {
+      "texto": "U.S. War Department, TM 9-2800, Standard Military Motor Vehicles, 1 de septiembre de 1943."
+    },
+    {
+      "texto": "U.S. War Department, TM 9-731A, Medium Tanks M4 and M4A1."
+    },
+    {
+      "texto": "R. P. Hunnicutt, Sherman: A History of the American Medium Tank, 1978, por los datos reunidos por Chris Conners en el American Fighting Vehicle Database."
+    },
+    {
+      "texto": "Ian Hudson, \"The Sherman: Myths or Reality?\", The Tank Museum, 2025."
+    },
+    {
+      "texto": "Entrevista con Steven Zaloga, Tank and AFV News, 27 de enero de 2015."
+    },
+    {
+      "texto": "\"Lights First Every Time?\", Tank and AFV News, 28 de abril de 2015, sobre el apodo Ronson."
+    },
+    {
+      "texto": "\"Sherman's African Debut\", Tank Archives, 2023, con base en Pier Paolo Battistelli y en un archivo militar canadiense."
+    },
+    {
+      "texto": "Steven Zaloga, Armored Thunderbolt, 2008, y Sherman Medium Tank 1942–1945, 1993 (citado por la Wikipedia en inglés)."
+    },
+    {
+      "texto": "\"O Esquadrão da Força Expedicionária Brasileira\", revista Ação de Choque n.º 19, Centro de Instrução de Blindados."
+    },
+    {
+      "texto": "Danilo Tenório Quintino, O 1º Esquadrão de Reconhecimento Mecanizado da FEB e sua importância durante a Ofensiva da Primavera, Academia Militar das Agulhas Negras."
+    },
+    {
+      "texto": "M4 Sherman — Wikipedia en inglés."
+    }
+  ],
+  "imagens": [
+    {
+      "alt": "Tanque Sherman avanza por un puente de carretera ancho, con un gran arco de acero al fondo y dos ciclistas en primer plano, uno de ellos saludando con la mano",
+      "legenda": "Un Sherman del XXX Cuerpo británico cruza el puente de carretera de Nimega sobre el Waal, en septiembre de 1944.",
+      "autor": "Fotógrafo no identificado · Imperial War Museums, EA 44531"
+    },
+    {
+      "alt": "Fotografía en color: un tanque Sherman volcado y restos de un puente de hierro en primer plano, ruinas blancas de la ciudad y la montaña con la cumbre pelada al fondo",
+      "legenda": "Un Sherman destruido junto a un puente Bailey en las ruinas de Cassino, el 18 de mayo de 1944. Fotografía en color original del War Office, no coloreada.",
+      "autor": "Capitán Tanner, fotógrafo oficial del War Office · Imperial War Museums, TR 1799"
+    }
+  ]
+}

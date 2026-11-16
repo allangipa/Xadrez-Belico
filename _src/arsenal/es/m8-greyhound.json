@@ -1,0 +1,218 @@
+{
+  "_nota": "Traducción fiel de ../m8-greyhound.json. Los campos fijos vienen del original.",
+  "nome": "M8 Greyhound",
+  "nome_busca": "M8 Greyhound",
+  "papel": "auto blindado ligero de reconocimiento",
+  "pais": "Estados Unidos",
+  "periodo": "1943–1945",
+  "pergunta": "¿Qué podía hacer, en una guerra de tanques, un auto blindado rápido, de cañón pequeño y fondo delgado?",
+  "resumo": "M8 Greyhound, el blindado de la FEB en Italia: ficha técnica, puntos fuertes y débiles y el escuadrón de reconocimiento en Montese. Fuente en cada dato.",
+  "abertura": [
+    "El M8 era un auto blindado de seis ruedas, hecho por Ford, con un cañón de 37 mm en una torreta abierta. En el Ejército estadounidense, era el vehículo de los escuadrones de reconocimiento. Greyhound, el galgo, fue el nombre que le dieron los británicos.",
+    "Para Brasil, tiene un lugar aparte: fue el blindado del 1.er Escuadrón de Reconocimiento de la Fuerza Expedicionaria Brasileña, la única tropa brasileña que usó blindados en la Segunda Guerra, según la revista del Centro de Instrucción de Blindados del Ejército."
+  ],
+  "numeros": [
+    {
+      "valor": "8.523",
+      "rotulo": "M8 producidos por Ford a partir de marzo de 1943"
+    },
+    {
+      "valor": "≈ 90 km/h",
+      "rotulo": "en carretera: 55 o 56 millas por hora, según la fuente"
+    },
+    {
+      "valor": "37 mm",
+      "rotulo": "el calibre del cañón M6, que ya no servía contra el frente de los tanques alemanes"
+    },
+    {
+      "valor": "6,4 mm",
+      "rotulo": "de plancha en el fondo del casco, un cuarto de pulgada: el punto débil ante las minas"
+    },
+    {
+      "valor": "15 o 13",
+      "rotulo": "M8 en el escuadrón de la FEB: 15 de dotación, con 13 en uso, en las fuentes ligadas al Ejército; 13 en la Wikipedia en portugués"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Designación",
+      "valor": "Car, Armored, Light, M8 (6×6), en el manual estadounidense de 1943. Greyhound es el nombre británico"
+    },
+    {
+      "item": "Fabricante",
+      "valor": "Ford Motor Company, en las fábricas de St. Paul y de Chicago",
+      "nota": "J. Rickard da 6.397 en St. Paul y 2.127 en Chicago; la revista Military Vehicles los pone todos en St. Paul."
+    },
+    {
+      "item": "Producción",
+      "valor": "8.523, de marzo de 1943 a mayo de 1945",
+      "nota": "La Wikipedia en inglés, citando a Steven Zaloga, pone el fin de la producción en junio de 1945."
+    },
+    {
+      "item": "Variante M20",
+      "valor": "el M20, sin torreta, usado como vehículo de mando y transporte: 3.791 en la Wikipedia en inglés, citando a Zaloga; 3.790 en J. Rickard",
+      "nota": "Los totales de 11 o 12 mil que circulan suman el M8 y el M20."
+    },
+    {
+      "item": "Tripulación",
+      "valor": "4: comandante, artillero, conductor y ayudante, que operaba la radio"
+    },
+    {
+      "item": "Peso",
+      "valor": "17.400 libras en orden de combate, en R. P. Hunnicutt; 16.500 en el manual TM 9-2800, de 1943; 16.400 en la revista Military Vehicles; 14.500 en J. Rickard",
+      "nota": "En kilos, de unos 6.600 a 7.900. Ninguna fuente explica la diferencia, que debe de ser de estado de carga."
+    },
+    {
+      "item": "Dimensiones",
+      "valor": "197 pulgadas de largo (5,00 m) y 100 de ancho (2,54 m); altura de 88,5 pulgadas (2,25 m)",
+      "nota": "J. Rickard da 90 pulgadas de altura."
+    },
+    {
+      "item": "Cañón",
+      "valor": "37 mm M6, en torreta de giro manual, con 80 disparos"
+    },
+    {
+      "item": "Ametralladoras",
+      "valor": "una de calibre .30 coaxial, con 1.500 disparos; una de calibre .50 en un soporte en la torreta, añadida después",
+      "nota": "La ficha del M8 en el manual de septiembre de 1943 lista solo el cañón y la ametralladora .30."
+    },
+    {
+      "item": "Blindaje del casco",
+      "valor": "0,75 pulgada (19 mm) en el frente superior, a 45 grados; 0,375 pulgada (9,5 mm) en los costados y atrás",
+      "nota": "Hunnicutt, por la base de datos de Chris Conners. Expedito Bastos da el blindaje como de 0,8 a 1,5 cm."
+    },
+    {
+      "item": "Fondo del casco",
+      "valor": "0,25 pulgada (6,4 mm)",
+      "nota": "Hunnicutt, por la base de datos de Chris Conners."
+    },
+    {
+      "item": "Torreta",
+      "valor": "abierta arriba, con cubierta solo en la parte delantera; paredes de 0,75 pulgada (19 mm) y escudo del cañón de 1 pulgada (25 mm)",
+      "nota": "Los espesores vienen solo de Hunnicutt; que la torreta era abierta, de varias fuentes."
+    },
+    {
+      "item": "Motor",
+      "valor": "Hercules JXD, de 6 cilindros en línea, de gasolina, 110 hp"
+    },
+    {
+      "item": "Velocidad en carretera",
+      "valor": "55 millas por hora en Hunnicutt y en el Lewis Army Museum; 56 en el manual TM 9-2800 y en J. Rickard. Unos 90 km/h"
+    },
+    {
+      "item": "Autonomía en carretera",
+      "valor": "400 millas en el manual TM 9-2800; unas 350 en Hunnicutt; 250 en J. Rickard y en la revista Military Vehicles"
+    },
+    {
+      "item": "Estreno en combate",
+      "valor": "en la invasión de Sicilia, en 1943, en la Wikipedia en inglés; en Italia, en 1943, en la presentación del libro de Steven Zaloga; el 17 de enero de 1944, en Italia, con el 91.º Escuadrón de Reconocimiento de Caballería, en J. Rickard"
+    }
+  ],
+  "secoes": [
+    {
+      "titulo": "Para qué servía",
+      "paragrafos": [
+        "El manual estadounidense de 1943 define la finalidad en una línea: dar movilidad a alta velocidad, fuego defensivo y protección a la tripulación para el reconocimiento. El M8 iba adelante para ver, volver y contar. No era pieza de combate.",
+        "Curiosamente, nació para otra cosa. El proyecto empezó como cazacarros ligero sobre ruedas, con el cañón de 37 mm. Cuando estuvo listo, en 1942, ese cañón ya no era visto como arma antitanque eficaz, y el vehículo fue estandarizado como auto blindado de reconocimiento."
+      ]
+    },
+    {
+      "titulo": "Puntos fuertes",
+      "paragrafos": [
+        "La carretera. Con unos 90 km/h en piso firme, el M8 era mucho más rápido que cualquier tanque. El Lewis Army Museum resume: andaba bien en superficie dura y mal en el resto.",
+        "La mecánica. El mismo museo lo describe como mecánicamente sólido, y la revista Military Vehicles, como en general más confiable que los vehículos de oruga del mismo porte. Para una tropa que vive lejos del taller, eso cuenta."
+      ]
+    },
+    {
+      "titulo": "Puntos débiles",
+      "paragrafos": [
+        "El fondo. Con un cuarto de pulgada de plancha por debajo, el M8 era muy vulnerable a las minas, y los alemanes usaban campos minados a gran escala. Las tripulaciones forraban el piso con sacos de arena.",
+        "La torreta abierta, que dejaba a la tripulación expuesta a lo que viniera de arriba, y el cañón. Según Steven Zaloga, citado por la Wikipedia en inglés, el 37 mm no era eficaz contra el blindaje frontal de los tanques alemanes; servía contra vehículos ligeros e infantería.",
+        "Y el terreno. Fuera de carretera, sobre todo en barro y nieve, la movilidad era mala, según Nicholas Moran, citado por la Wikipedia en inglés, y peor que la de los vehículos de oruga y de semioruga, según J. Rickard."
+      ]
+    },
+    {
+      "titulo": "El M8 en la FEB",
+      "paragrafos": [
+        "El 1.er Escuadrón de Reconocimiento de la división brasileña recibió el material estadounidense ya en Italia. Cada pelotón de reconocimiento tenía tres patrullas, y cada patrulla, un M8 y dos jeeps. En el invierno de 1944 a 1945, con el frente detenido en los Apeninos, el escuadrón fue empleado prácticamente como compañía de fusileros; solo a partir de Montese volvió al reconocimiento.",
+        "Los dos puntos débiles de la ficha aparecen en el registro brasileño. Según el capitán Plínio Pitaluga, comandante del escuadrón, un M8 fue inutilizado por una mina antitanque alemana durante un reconocimiento, en la fase que va de Montese al río Panaro. El 28 de abril de 1945, en Felegara, otro fue incendiado por un proyectil de lanzacohetes; la tripulación salió ilesa.",
+        "En Collecchio, el 26 y 27 de abril, fue el escuadrón el que hizo el primer contacto con la vanguardia de la 148.ª División alemana, y el cañón de 37 mm respondió al fuego de autos de reconocimiento enemigos."
+      ]
+    }
+  ],
+  "batalhas": [
+    {
+      "texto": "Según la Wikipedia en inglés, la infantería brasileña avanzó el 14 de abril de 1945 con autos de reconocimiento M8 y tanques Sherman. El avance rápido y con blindados llevó al mando alemán a considerar Montese un posible objetivo real de los aliados, y la FEB recibió alrededor de dos tercios de la artillería del sector."
+    },
+    {
+      "texto": "El Escuadrón de Reconocimiento del capitán Pitaluga, la tropa que usaba el M8 en la FEB, abre el contacto con la columna alemana. Detrás vienen los regimientos de infantería, y el 29 de abril de 1945 la 148.ª División de Infantería alemana se rinde."
+    }
+  ],
+  "veredito": [
+    "En el tablero, el M8 es la pieza que anda lejos y no cambia. Vale por lo que ve, no por lo que destruye: llegar primero, hallar al enemigo, medir y volver.",
+    "Usado así, cumplía. Puesto a luchar, quedaba expuesto en lo que tenía de más débil: el fondo, la torreta abierta, el cañón pequeño. La frase atribuida a Pitaluga por la Wikipedia en inglés va en la misma dirección: el M8 es para reconocimiento, no para combate pesado."
+  ],
+  "mitos": [
+    {
+      "circula": "Greyhound era el nombre estadounidense del vehículo.",
+      "registro": "El nombre es británico. El manual estadounidense de 1943 lo llama apenas auto blindado ligero M8. La razón del nombre diverge: la velocidad, según la revista Military Vehicles; la serie de nombres de perros que los británicos ya les daban a los autos blindados estadounidenses, según la Wikipedia en inglés."
+    },
+    {
+      "circula": "Se hicieron 11 o 12 mil M8.",
+      "registro": "Fueron 8.523. El número mayor suma el M20, la variante sin torreta, con unos 3.790."
+    },
+    {
+      "circula": "Los alemanes llamaban a los M8 fantasmas de Patton, por lo silenciosos.",
+      "registro": "La historia se repite en muchas páginas, siempre sin documento alemán ni registro del ejército de Patton. La mejor fuente encontrada ya la da como alegación."
+    },
+    {
+      "circula": "El M8 fue un cazacarros que no resultó.",
+      "registro": "Es una verdad a medias. El proyecto empezó como cazacarros ligero, pero el vehículo ya fue estandarizado en 1942 como auto blindado de reconocimiento, y para eso lo define el manual."
+    }
+  ],
+  "perguntas": [
+    {"p": "¿Cuántos M8 Greyhound se produjeron?", "r": "8.523, por Ford, a partir de marzo de 1943. Los totales de 11 o 12 mil suman la variante M20, sin torreta."},
+    {"p": "¿Cuál era el cañón del M8 Greyhound?", "r": "Un cañón M6 de 37 mm, en una torreta abierta de giro manual, con 80 disparos. Servía contra vehículos ligeros e infantería, no contra el frente de los tanques alemanes."},
+    {"p": "¿La FEB usó blindados en Italia?", "r": "Sí: el M8, en el 1.er Escuadrón de Reconocimiento. Eran 15 de dotación, con 13 en uso, en las fuentes ligadas al Ejército, y 13 en la Wikipedia en portugués."},
+    {"p": "¿Por qué el M8 se llama Greyhound?", "r": "El nombre se lo dieron los británicos. La razón diverge según la fuente: la velocidad del vehículo o la serie de nombres de perros que ellos les daban a los autos blindados estadounidenses."}
+  ],
+  "fontes": [
+    {
+      "texto": "U.S. War Department, TM 9-2800, Standard Military Motor Vehicles, 1 de septiembre de 1943."
+    },
+    {
+      "texto": "R. P. Hunnicutt, Armored Car: A History of American Wheeled Combat Vehicles, 2002, por los datos reunidos por Chris Conners en el American Fighting Vehicle Database."
+    },
+    {
+      "texto": "J. Rickard, \"M8 Light Armored Car / M8 Greyhound\", History of War, 2022."
+    },
+    {
+      "texto": "Lewis Army Museum, \"M-8 Greyhound Armored Car\"."
+    },
+    {
+      "texto": "Military Vehicles Magazine, \"Military Vehicle Spotlight: WWII Ford M8 Armored Car\", Military Trader."
+    },
+    {
+      "texto": "Steven Zaloga, M8 Greyhound Light Armored Car 1941–91, Osprey, 2002 (por la presentación de la editorial y citado por la Wikipedia en inglés)."
+    },
+    {
+      "texto": "\"O Esquadrão da Força Expedicionária Brasileira\", revista Ação de Choque n.º 19, Centro de Instrução de Blindados, con el informe de Plínio Pitaluga."
+    },
+    {
+      "texto": "Saulo Freire Landgraf, sobre la actuación del capitán Plínio Pitaluga en Collecchio y Fornovo, revista Ação de Choque."
+    },
+    {
+      "texto": "Danilo Tenório Quintino, O 1º Esquadrão de Reconhecimento Mecanizado da FEB e sua importância durante a Ofensiva da Primavera, Academia Militar das Agulhas Negras."
+    },
+    {
+      "texto": "Expedito Carlos Stephani Bastos, \"De sucata a monumento: a restauração de blindados M-8\"."
+    },
+    {
+      "texto": "Beaches of Normandy Tours, \"The M8 Greyhound\"."
+    },
+    {
+      "texto": "M8 Greyhound y Battle of Collecchio — Wikipedia en inglés; 1.º Esquadrão de Cavalaria Leve — Wikipedia en portugués."
+    }
+  ],
+  "imagens": []
+}

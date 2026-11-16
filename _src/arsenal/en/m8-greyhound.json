@@ -1,0 +1,218 @@
+{
+  "_nota": "Faithful translation of ../m8-greyhound.json. Fixed fields come from the original.",
+  "nome": "M8 Greyhound",
+  "nome_busca": "M8 Greyhound armored car",
+  "papel": "light armored reconnaissance car",
+  "pais": "United States",
+  "periodo": "1943–1945",
+  "pergunta": "What could a fast armored car, with a small gun and a thin floor, do in a war of tanks?",
+  "resumo": "M8 Greyhound, the FEB's armored car in Italy: specs, strengths and weak points, and the reconnaissance squadron at Montese. A source for every figure.",
+  "abertura": [
+    "The M8 was a six-wheeled armored car, built by Ford, with a 37 mm gun in an open turret. In the US Army, it was the vehicle of the reconnaissance squadrons. Greyhound, after the racing dog, was the name the British gave it.",
+    "For Brazil, it has a place apart: it was the armored car of the 1st Reconnaissance Squadron of the Brazilian Expeditionary Force, the only Brazilian unit to use armor in the Second World War, according to the magazine of the Army's Armor Instruction Center."
+  ],
+  "numeros": [
+    {
+      "valor": "8,523",
+      "rotulo": "M8 cars built by Ford from March 1943 on"
+    },
+    {
+      "valor": "≈ 90 km/h",
+      "rotulo": "on road: 55 or 56 miles per hour, depending on the source"
+    },
+    {
+      "valor": "37 mm",
+      "rotulo": "the caliber of the M6 gun, which was no longer any use against the front of German tanks"
+    },
+    {
+      "valor": "6.4 mm",
+      "rotulo": "of plate on the hull floor, a quarter of an inch: the weak point against mines"
+    },
+    {
+      "valor": "15 or 13",
+      "rotulo": "M8 cars in the FEB squadron: 15 on establishment, with 13 in use, in the sources linked to the Army; 13 in the Portuguese Wikipedia"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Designation",
+      "valor": "Car, Armored, Light, M8 (6×6), in the American manual of 1943. Greyhound is the British name"
+    },
+    {
+      "item": "Manufacturer",
+      "valor": "Ford Motor Company, at the St. Paul and Chicago plants",
+      "nota": "J. Rickard gives 6,397 at St. Paul and 2,127 at Chicago; Military Vehicles magazine puts them all at St. Paul."
+    },
+    {
+      "item": "Production",
+      "valor": "8,523, from March 1943 to May 1945",
+      "nota": "The English Wikipedia, citing Steven Zaloga, puts the end of production in June 1945."
+    },
+    {
+      "item": "M20 variant",
+      "valor": "the M20, without a turret, used as a command and transport vehicle: 3,791 in the English Wikipedia, citing Zaloga; 3,790 in J. Rickard",
+      "nota": "The totals of 11,000 or 12,000 that circulate add the M8 and the M20 together."
+    },
+    {
+      "item": "Crew",
+      "valor": "4: commander, gunner, driver and assistant driver, who worked the radio"
+    },
+    {
+      "item": "Weight",
+      "valor": "17,400 pounds combat loaded, in R. P. Hunnicutt; 16,500 in the manual TM 9-2800, of 1943; 16,400 in Military Vehicles magazine; 14,500 in J. Rickard",
+      "nota": "In kilograms, from about 6,600 to 7,900. No source explains the difference, which is probably one of load state."
+    },
+    {
+      "item": "Dimensions",
+      "valor": "197 inches long (5.00 m) and 100 wide (2.54 m); height of 88.5 inches (2.25 m)",
+      "nota": "J. Rickard gives 90 inches of height."
+    },
+    {
+      "item": "Gun",
+      "valor": "37 mm M6, in a hand-traversed turret, with 80 rounds"
+    },
+    {
+      "item": "Machine guns",
+      "valor": "one .30 caliber coaxial, with 1,500 rounds; one .50 caliber on a mount on the turret, added later",
+      "nota": "The M8 entry in the manual of September 1943 lists only the gun and the .30 machine gun."
+    },
+    {
+      "item": "Hull armor",
+      "valor": "0.75 inch (19 mm) on the upper front, at 45 degrees; 0.375 inch (9.5 mm) on the sides and at the rear",
+      "nota": "Hunnicutt, via Chris Conners's database. Expedito Bastos gives the armor as 0.8 to 1.5 cm."
+    },
+    {
+      "item": "Hull floor",
+      "valor": "0.25 inch (6.4 mm)",
+      "nota": "Hunnicutt, via Chris Conners's database."
+    },
+    {
+      "item": "Turret",
+      "valor": "open on top, with a cover only over the front part; walls of 0.75 inch (19 mm) and a gun shield of 1 inch (25 mm)",
+      "nota": "The thicknesses come only from Hunnicutt; that the turret was open, from several sources."
+    },
+    {
+      "item": "Engine",
+      "valor": "Hercules JXD, inline with 6 cylinders, gasoline, 110 hp"
+    },
+    {
+      "item": "Road speed",
+      "valor": "55 miles per hour in Hunnicutt and at the Lewis Army Museum; 56 in the manual TM 9-2800 and in J. Rickard. About 90 km/h"
+    },
+    {
+      "item": "Road range",
+      "valor": "400 miles in the manual TM 9-2800; about 350 in Hunnicutt; 250 in J. Rickard and in Military Vehicles magazine"
+    },
+    {
+      "item": "Combat debut",
+      "valor": "in the invasion of Sicily, in 1943, in the English Wikipedia; in Italy, in 1943, in the publisher's presentation of Steven Zaloga's book; on 17 January 1944, in Italy, with the 91st Cavalry Reconnaissance Squadron, in J. Rickard"
+    }
+  ],
+  "secoes": [
+    {
+      "titulo": "What it was for",
+      "paragrafos": [
+        "The American manual of 1943 defines the purpose in one line: to give high-speed mobility, defensive fire and crew protection for reconnaissance. The M8 went ahead to see, come back and report. It was not a fighting piece.",
+        "Curiously, it was born for something else. The design began as a light wheeled tank destroyer, with the 37 mm gun. By the time it was ready, in 1942, that gun was no longer seen as an effective anti-tank weapon, and the vehicle was standardized as an armored reconnaissance car."
+      ]
+    },
+    {
+      "titulo": "Strengths",
+      "paragrafos": [
+        "The road. At about 90 km/h on firm going, the M8 was much faster than any tank. The Lewis Army Museum sums it up: it ran well on a hard surface and badly on everything else.",
+        "The mechanics. The same museum describes it as mechanically sound, and Military Vehicles magazine, as generally more reliable than tracked vehicles of the same size. For a unit that lives far from the workshop, that counts."
+      ]
+    },
+    {
+      "titulo": "Weak points",
+      "paragrafos": [
+        "The floor. With a quarter of an inch of plate underneath, the M8 was very vulnerable to mines, and the Germans used minefields on a large scale. The crews lined the floor with sandbags.",
+        "The open turret, which left the crew exposed to whatever came from above, and the gun. According to Steven Zaloga, as cited by the English Wikipedia, the 37 mm was not effective against the frontal armor of German tanks; it was good against light vehicles and infantry.",
+        "And the terrain. Off road, above all in mud and snow, mobility was poor, according to Nicholas Moran, as cited by the English Wikipedia, and worse than that of tracked and half-tracked vehicles, according to J. Rickard."
+      ]
+    },
+    {
+      "titulo": "The M8 in the FEB",
+      "paragrafos": [
+        "The 1st Reconnaissance Squadron of the Brazilian division received the American equipment once it was in Italy. Each reconnaissance platoon had three patrols, and each patrol, one M8 and two jeeps. In the winter of 1944 to 1945, with the front stalled in the Apennines, the squadron was used practically as a rifle company; only from Montese on did it return to reconnaissance.",
+        "The two weak points on this page show up in the Brazilian record. According to Captain Plínio Pitaluga, the squadron commander, one M8 was put out of action by a German anti-tank mine during a reconnaissance, in the phase that runs from Montese to the Panaro river. On 28 April 1945, at Felegara, another was set on fire by a rocket-launcher projectile; the crew got out unharmed.",
+        "At Collecchio, on 26 and 27 April, it was the squadron that made the first contact with the vanguard of the German 148th Division, and the 37 mm gun answered the fire of enemy reconnaissance cars."
+      ]
+    }
+  ],
+  "batalhas": [
+    {
+      "texto": "According to the English Wikipedia, the Brazilian infantry advanced on 14 April 1945 with M8 armored cars and Sherman tanks. The advance, fast and with armor, led the German command to treat Montese as a possible real Allied objective, and the FEB received around two thirds of the sector's artillery."
+    },
+    {
+      "texto": "Captain Pitaluga's Reconnaissance Squadron, the unit that used the M8 in the FEB, opens the contact with the German column. Behind it come the infantry regiments, and on 29 April 1945 the German 148th Infantry Division surrenders."
+    }
+  ],
+  "veredito": [
+    "On the board, the M8 is the piece that travels far and does not trade. Its worth lies in what it sees, not in what it destroys: getting there first, finding the enemy, measuring and coming back.",
+    "Used that way, it delivered. Put to fight, it was exposed at its weakest: the floor, the open turret, the small gun. The line attributed to Pitaluga by the English Wikipedia points the same way: the M8 is for reconnaissance, not for heavy combat."
+  ],
+  "mitos": [
+    {
+      "circula": "Greyhound was the American name for the vehicle.",
+      "registro": "The name is British. The American manual of 1943 calls it simply the light armored car M8. The reason for the name differs: the speed, according to Military Vehicles magazine; the series of dog names the British were already giving to American armored cars, according to the English Wikipedia."
+    },
+    {
+      "circula": "11,000 or 12,000 of the M8 were built.",
+      "registro": "There were 8,523. The larger number adds in the M20, the turretless variant, with about 3,790."
+    },
+    {
+      "circula": "The Germans called the M8 cars Patton's ghosts, they were so quiet.",
+      "registro": "The story is repeated on many pages, always with no German document and no record from Patton's army. The best source found already gives it as an allegation."
+    },
+    {
+      "circula": "The M8 was a tank destroyer that did not work out.",
+      "registro": "It is a half-truth. The design began as a light tank destroyer, but the vehicle was already standardized in 1942 as an armored reconnaissance car, and that is what the manual defines it for."
+    }
+  ],
+  "perguntas": [
+    {"p": "How many M8 Greyhound cars were built?", "r": "8,523, by Ford, from March 1943 on. The totals of 11,000 or 12,000 add in the M20 variant, without a turret."},
+    {"p": "What gun did the M8 Greyhound carry?", "r": "A 37 mm M6 gun, in an open, hand-traversed turret, with 80 rounds. It was good against light vehicles and infantry, not against the front of German tanks."},
+    {"p": "Did the FEB use armor in Italy?", "r": "Yes: the M8, in the 1st Reconnaissance Squadron. There were 15 on establishment, with 13 in use, in the sources linked to the Army, and 13 in the Portuguese Wikipedia."},
+    {"p": "Why is the M8 called Greyhound?", "r": "The name was given by the British. The reason differs with the source: the vehicle's speed, or the series of dog names they gave to American armored cars."}
+  ],
+  "fontes": [
+    {
+      "texto": "U.S. War Department, TM 9-2800, Standard Military Motor Vehicles, 1 September 1943."
+    },
+    {
+      "texto": "R. P. Hunnicutt, Armored Car: A History of American Wheeled Combat Vehicles, 2002, from the data compiled by Chris Conners in the American Fighting Vehicle Database."
+    },
+    {
+      "texto": "J. Rickard, \"M8 Light Armored Car / M8 Greyhound\", History of War, 2022."
+    },
+    {
+      "texto": "Lewis Army Museum, \"M-8 Greyhound Armored Car\"."
+    },
+    {
+      "texto": "Military Vehicles Magazine, \"Military Vehicle Spotlight: WWII Ford M8 Armored Car\", Military Trader."
+    },
+    {
+      "texto": "Steven Zaloga, M8 Greyhound Light Armored Car 1941–91, Osprey, 2002 (from the publisher's presentation and as cited by the English Wikipedia)."
+    },
+    {
+      "texto": "\"O Esquadrão da Força Expedicionária Brasileira\", Ação de Choque magazine No. 19, Centro de Instrução de Blindados, with Plínio Pitaluga's report."
+    },
+    {
+      "texto": "Saulo Freire Landgraf, on the actions of Captain Plínio Pitaluga at Collecchio and Fornovo, Ação de Choque magazine."
+    },
+    {
+      "texto": "Danilo Tenório Quintino, O 1º Esquadrão de Reconhecimento Mecanizado da FEB e sua importância durante a Ofensiva da Primavera, Academia Militar das Agulhas Negras."
+    },
+    {
+      "texto": "Expedito Carlos Stephani Bastos, \"De sucata a monumento: a restauração de blindados M-8\"."
+    },
+    {
+      "texto": "Beaches of Normandy Tours, \"The M8 Greyhound\"."
+    },
+    {
+      "texto": "M8 Greyhound and Battle of Collecchio — English Wikipedia; 1.º Esquadrão de Cavalaria Leve — Portuguese Wikipedia."
+    }
+  ],
+  "imagens": []
+}

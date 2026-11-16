@@ -1,0 +1,212 @@
+{
+  "_nota": "Traducción fiel de ../panzer-iv.json. Los campos fijos vienen del original.",
+  "nome": "Panzer IV",
+  "nome_busca": "Panzer IV",
+  "papel": "tanque medio",
+  "pais": "Alemania",
+  "periodo": "1939–1945",
+  "pergunta": "¿Cómo un tanque pensado para apoyar a la infantería se volvió el caballo de batalla de las divisiones blindadas alemanas?",
+  "resumo": "Panzer IV: el único tanque alemán producido toda la guerra. Ficha técnica de las versiones G y H, puntos débiles y su papel en Kursk. Fuente en cada dato.",
+  "abertura": [
+    "El Panzerkampfwagen IV empezó la guerra como pieza de apoyo: un cañón corto de 75 mm para callar nidos de ametralladora y cañones antitanque, detrás de los tanques que librarían la lucha contra otros tanques. En septiembre de 1939 eran 211, cerca del 7% de los blindados alemanes.",
+    "En 1942 recibió un cañón largo y cambió de función. Fue el único tanque alemán fabricado del comienzo al fin de la guerra, y en 1943, mientras el Panther debutaba averiándose en Kursk, era él quien estaba en la línea. Esta ficha trata sobre todo de las versiones G y H, las de cañón largo."
+  ],
+  "numeros": [
+    {
+      "valor": "8.553",
+      "rotulo": "tanques producidos de 1937 a abril de 1945, en el Tank Museum y en Jentz y Doyle"
+    },
+    {
+      "valor": "211",
+      "rotulo": "en servicio el 1 de septiembre de 1939: cerca del 7% de los tanques alemanes"
+    },
+    {
+      "valor": "80 mm",
+      "rotulo": "de blindaje en el frente del casco de la versión H, contra 50 mm en el frente de la torreta en la mayoría de las fuentes"
+    },
+    {
+      "valor": "25 t",
+      "rotulo": "en la versión H, de 1943: el chasis de 1937 cerca del límite"
+    },
+    {
+      "valor": "38–42 km/h",
+      "rotulo": "de velocidad máxima en carretera, según la fuente y la versión"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Designación",
+      "valor": "Panzerkampfwagen IV, Sd.Kfz. 161. Las versiones se identifican por letra (Ausführung, abreviada Ausf.), de la A a la J",
+      "nota": "El manual estadounidense TM-E 30-451, de marzo de 1945, da Sd.Kfz. 161/1 para la versión G y 161/2 para la H."
+    },
+    {
+      "item": "Fabricantes",
+      "valor": "Krupp-Gruson, en Magdeburgo; Vomag; Nibelungenwerk"
+    },
+    {
+      "item": "Producción total",
+      "valor": "8.553 tanques, desde 1937 hasta abril de 1945",
+      "nota": "Tank Museum; Jentz y Doyle, Panzer Tracts n.º 23, citados por la Wikipedia. La Wikipedia en alemán redondea a 8.500."
+    },
+    {
+      "item": "Producción por versión",
+      "valor": "Ausf. H: cerca de 2.322, en la Tank Encyclopedia y en Jentz y Doyle (citados por la Wikipedia), o 3.774, en Hjermstad y Nešić (citados por la Tank Encyclopedia) y en J. Rickard. Ausf. J: cerca de 3.160 en Jentz y Doyle, 3.420 en Yuri Pasholok o 1.758 en Rickard",
+      "nota": "Quien da el número mayor para la H da el menor para la J."
+    },
+    {
+      "item": "Tripulación",
+      "valor": "5: comandante, artillero, cargador, operador de radio y conductor"
+    },
+    {
+      "item": "Peso",
+      "valor": "23,5 t en la versión G; 25 t en la versión H",
+      "nota": "El manual estadounidense de 1945 da 26 tons para la versión G, sin decir qué tonelada."
+    },
+    {
+      "item": "Dimensiones (Ausf. H)",
+      "valor": "7,02 m de largo con el cañón, 2,88 m de ancho, 2,68 m de alto",
+      "nota": "J. Rickard y Tank Encyclopedia. El manual estadounidense de 1945 da 9 pies y 7 pulgadas de ancho y 8 pies y 6 pulgadas de alto."
+    },
+    {
+      "item": "Cañón",
+      "valor": "7,5 cm KwK 37 L/24, de cañón corto, hasta la versión F1; 7,5 cm KwK 40 L/43 a partir de 1942 (F2 y G); 7,5 cm KwK 40 L/48 en las G tardías y en la H",
+      "nota": "El cambio del L/43 por el L/48 es de marzo de 1943 en J. Rickard y de abril en las Wikipedias en inglés y en alemán."
+    },
+    {
+      "item": "Munición y ametralladoras",
+      "valor": "87 disparos para el cañón; dos ametralladoras MG 34 de 7,92 mm, una coaxial y una en el casco",
+      "nota": "La Tank Encyclopedia da 3.150 disparos para las ametralladoras; es la única fuente para ese número."
+    },
+    {
+      "item": "Blindaje frontal del casco",
+      "valor": "80 mm en la versión H; en la G, 50 mm, con 30 mm más atornillados o soldados en parte de los tanques"
+    },
+    {
+      "item": "Frente de la torreta",
+      "valor": "50 mm en J. Rickard, en Yuri Pasholok y en la Wikipedia en inglés; 80 mm en la tabla de la Tank Encyclopedia",
+      "nota": "Pasholok: el frente de la torreta quedó en 50 mm porque el chasis llegaba al límite de peso."
+    },
+    {
+      "item": "Costados y parte trasera",
+      "valor": "30 mm en los costados del casco y de la torreta; 20 mm en la parte trasera del casco"
+    },
+    {
+      "item": "Faldones (Schürzen)",
+      "valor": "planchas de 5 mm a lo largo del casco y de 8 mm alrededor de la torreta, a partir de 1943, contra los fusiles antitanque soviéticos de 14,5 mm",
+      "nota": "La fecha es marzo de 1943 en J. Rickard y mayo en la Tank Encyclopedia."
+    },
+    {
+      "item": "Motor",
+      "valor": "Maybach HL 120 TRM, V-12 de gasolina, 11,9 litros; 300 PS de potencia máxima a 3.000 rpm, 265 PS de potencia continua a 2.600 rpm"
+    },
+    {
+      "item": "Velocidad en carretera",
+      "valor": "38 km/h en J. Rickard y en la Tank Encyclopedia, para la versión H; 40 km/h en el Tank Museum; 42 km/h en la Tank Encyclopedia, para la G. El manual estadounidense de 1945 da 25 millas por hora"
+    },
+    {
+      "item": "Autonomía",
+      "valor": "unos 210 km en carretera y 130 km fuera de ella",
+      "nota": "J. Rickard y Tank Encyclopedia; el manual estadounidense de 1945 da 130 millas en carretera y 80 fuera. El cuadro de la Wikipedia en inglés trae 235 a 360 km, desentonando de las demás."
+    }
+  ],
+  "secoes": [
+    {
+      "titulo": "Para qué servía: de pieza de apoyo a tanque de combate",
+      "paragrafos": [
+        "El Tank Museum describe el Panzer IV de origen como tanque de apoyo cercano de los regimientos blindados: el cañón corto de 75 mm disparaba granada explosiva a baja velocidad, buena contra posiciones y mala contra blindaje. La lucha contra tanques le tocaba al Panzer III. En Polonia, en septiembre de 1939, había 211 Panzer IV; según J. Rickard, 76 fueron puestos fuera de acción hasta el 10 de octubre, 19 de ellos con pérdida total.",
+        "El encuentro con el T-34, en 1941, invirtió los papeles. El chasis del Panzer IV aceptaba un cañón mayor; el del Panzer III, no. En 1942 el Panzer IV recibió el KwK 40 de cañón largo, y, en palabras de Rickard, dejó de ser tanque de apoyo para ser el mejor tanque de combate del ejército alemán. El manual estadounidense de 1945 registra el mismo paso: empezó la guerra con cañón corto, como vehículo de apoyo, y terminó como el tanque medio estándar."
+      ]
+    },
+    {
+      "titulo": "Puntos fuertes",
+      "paragrafos": [
+        "El primero es haber existido todo el tiempo. Fue el único tanque alemán en producción del inicio al fin de la guerra, lo que significa repuestos, tripulaciones entrenadas y talleres que lo conocían, en todos los frentes.",
+        "El segundo es el cañón largo. Según Thomas Jentz, citado por la Wikipedia en inglés, con él el Panzer IV pasó a perforar el T-34 a hasta 1.200 metros, en cualquier ángulo. Un informe de la 9.ª División Panzer, citado por la Tank Encyclopedia, dice que el blindaje del T-34 era fácilmente perforado por el cañón largo de 75 mm.",
+        "Contra el Sherman, la comparación es de historiador a historiador. Para J. Rickard, en 1944 el Panzer IV era superior al Sherman M4A2 en las distancias normales de combate. Max Hastings, citado por la Wikipedia en inglés, escribe que el Sherman de 75 mm tenía dificultad contra el Panzer IV de las versiones finales."
+      ]
+    },
+    {
+      "titulo": "Puntos débiles",
+      "paragrafos": [
+        "El chasis era de 1937 y ya no crecía. Según Yuri Pasholok, la versión H llegó a 25 toneladas, lo que obligó a cambiar la transmisión final, y el frente de la torreta quedó en 50 mm porque no había margen de peso. La versión J, la última, perdió el giro eléctrico de la torreta y quedó solo con el manual.",
+        "Los costados tenían 30 mm, y los faldones que los protegían de los fusiles antitanque, según Hastings, citado por la Wikipedia en inglés, se arrancaban con facilidad en el monte y en terreno accidentado.",
+        "Y estaba su lugar en el plan alemán. El manual estadounidense de 1945 trata el Panzer IV como solución provisional, mantenida hasta que hubiera Panther en número suficiente. El Panther nunca llegó a ese número."
+      ]
+    }
+  ],
+  "batalhas": [
+    {
+      "texto": "Mientras los Panther debutaban con 184 operativos el 5 de julio de 1943 y unos 40 dos días después, el Panzer IV estaba en la línea. En Prójorovka, el 12 de julio, el II Cuerpo Panzer SS tenía 294 tanques y cañones de asalto, 15 de ellos Tiger, y perdió definitivamente 4 tanques, todos Panzer IV, según la cuenta de Roman Töppel con los archivos alemanes."
+    }
+  ],
+  "veredito": [
+    "En el tablero, el Panzer IV es la pieza que no fue diseñada para el papel que terminó jugando. Entró como apoyo y, por tener un chasis que aceptaba un cañón mayor, se volvió la pieza de combate cuando el adversario apareció con mejor blindaje.",
+    "El precio de esa adaptación fue el límite. Cada mejora, cañón más largo, más blindaje al frente, faldones, gastaba el margen de un proyecto de 1937, y en 1943 se había acabado. Alemania siguió fabricándolo hasta abril de 1945 porque el sustituto no llegaba en cantidad."
+  ],
+  "mitos": [
+    {
+      "circula": "Los faldones laterales del Panzer IV se hicieron contra la bazuca y el PIAT.",
+      "registro": "Los documentos alemanes de 1943 reunidos por el sitio Panzerworld hablan de protección contra fusiles antitanque, los soviéticos de 14,5 mm; la Tank Encyclopedia dice lo mismo. La versión de la carga hueca existe en libro: Bryan Perrett, citado por la Wikipedia en inglés, escribe que los faldones podían detonar antes de tiempo armas como el PIAT británico. Las fuentes divergen, con los documentos de época del lado del fusil antitanque."
+    },
+    {
+      "circula": "El Panzer IV era el tanque principal de Alemania desde 1939.",
+      "registro": "El 1 de septiembre de 1939 eran 211, cerca del 7% de la fuerza blindada alemana, y el papel era de apoyo, con cañón corto. Solo en 1942, con el cañón largo, asumió la lucha contra tanques."
+    },
+    {
+      "circula": "La versión H fue la más producida, con 3.774 tanques.",
+      "registro": "Es una de las cuentas. Jentz y Doyle, citados por la Wikipedia, y la Tank Encyclopedia dan cerca de 2.322 para la H, y en esa cuenta la más numerosa es la J, con cerca de 3.160."
+    },
+    {
+      "circula": "La F2 es una versión aparte.",
+      "registro": "F2 fue el nombre provisional de los primeros Panzer IV de cañón largo, después rebautizados como G. La fecha del cambio diverge: junio de 1942 en J. Rickard, julio en la Tank Encyclopedia, septiembre en la Wikipedia en alemán."
+    }
+  ],
+  "perguntas": [
+    {"p": "¿Cuántos Panzer IV se produjeron?", "r": "8.553 tanques, de 1937 a abril de 1945, según la cuenta del Tank Museum y de Jentz y Doyle. La división por versión diverge: la H aparece con cerca de 2.322 o con 3.774, según el autor."},
+    {"p": "¿Cuál era el cañón del Panzer IV?", "r": "Un cañón de 75 mm en tres formas: el KwK 37 L/24, de cañón corto, hasta la versión F1; el KwK 40 L/43 a partir de 1942; y el KwK 40 L/48 en las G tardías y en la H."},
+    {"p": "¿Para qué servían los faldones del Panzer IV?", "r": "Según los documentos alemanes de 1943, para proteger los costados contra los fusiles antitanque soviéticos de 14,5 mm. Hay una versión en libro que los vincula con las armas de carga hueca; las fuentes divergen."},
+    {"p": "¿El Panzer IV luchó en Kursk?", "r": "Sí. En Prójorovka, el 12 de julio de 1943, los 4 tanques que el II Cuerpo Panzer SS perdió definitivamente eran todos Panzer IV, según la cuenta de Roman Töppel con los archivos alemanes."}
+  ],
+  "fontes": [
+    {
+      "texto": "The Tank Museum, ficha del Panzer IV de la colección (Ausf. D)."
+    },
+    {
+      "texto": "U.S. War Department, TM-E 30-451, Handbook on German Military Forces, marzo de 1945, capítulo VII (transcripción de Lone Sentry)."
+    },
+    {
+      "texto": "Thomas L. Jentz y Hilary L. Doyle, Panzer Tracts n.º 23: Panzer Production from 1933 to 1945, 2011; y Thomas L. Jentz, Panzertruppen, 1996 (citado por la Wikipedia en inglés)."
+    },
+    {
+      "texto": "J. Rickard, \"Panzer IV Medium Tank\", \"Panzerkampfwagen IV Ausf G\" y \"Panzerkampfwagen IV Ausf H\", History of War, 2008."
+    },
+    {
+      "texto": "Tank Encyclopedia, \"Panzerkampfwagen IV Ausf.H\" y \"Ausf.G\"."
+    },
+    {
+      "texto": "Yuri Pasholok, \"In Panther's Shadow\", traducción de Tank Archives, 2021."
+    },
+    {
+      "texto": "Panzerworld, \"Add-on armor\", con documentos alemanes de 1943 y 1944 sobre los faldones."
+    },
+    {
+      "texto": "Max Hastings, Overlord, y Bryan Perrett, Panzerkampfwagen IV Medium Tank 1936–45 (citados por la Wikipedia en inglés)."
+    },
+    {
+      "texto": "Panzer IV — Wikipedia en inglés."
+    },
+    {
+      "texto": "Panzerkampfwagen IV — Wikipedia en alemán."
+    },
+    {
+      "texto": "Roman Töppel, \"Die Panzerschlacht bei Prochorowka: Fakten gegen Fabeln\", Portal Militärgeschichte, 2019 (para Kursk)."
+    }
+  ],
+  "imagens": [
+    {
+      "alt": "Un tanque alemán Panzer IV en primer plano a la derecha y otros blindados dispersos en un campo de trigo bajo un cielo claro",
+      "legenda": "Un Panzer IV y otros blindados alemanes en un campo de trigo al comienzo de la Operación Ciudadela, la ofensiva de Kursk, en el verano de 1943.",
+      "autor": "Merz · Bundesarchiv, Bild 101III-Merz-014-12A"
+    }
+  ]
+}

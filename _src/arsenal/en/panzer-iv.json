@@ -1,0 +1,212 @@
+{
+  "_nota": "Faithful translation of ../panzer-iv.json. Fixed fields come from the original.",
+  "nome": "Panzer IV",
+  "nome_busca": "Panzer IV tank",
+  "papel": "medium tank",
+  "pais": "Germany",
+  "periodo": "1939–1945",
+  "pergunta": "How did a tank designed to support the infantry become the workhorse of the German armored divisions?",
+  "resumo": "Panzer IV: the only German tank built all through the war. Specs for the G and H versions, weak points and its part at Kursk, every figure sourced.",
+  "abertura": [
+    "The Panzerkampfwagen IV began the war as a support piece: a short 75 mm gun to silence machine-gun nests and anti-tank guns, behind the tanks that would do the fighting against other tanks. In September 1939 there were 211, about 7% of German armor.",
+    "In 1942 it received a long gun and changed jobs. It was the only German tank built from the beginning to the end of the war, and in 1943, while the Panther was debuting by breaking down at Kursk, it was the one in the line. This page deals above all with the G and H versions, the long-barreled ones."
+  ],
+  "numeros": [
+    {
+      "valor": "8,553",
+      "rotulo": "tanks built from 1937 to April 1945, at the Tank Museum and in Jentz and Doyle"
+    },
+    {
+      "valor": "211",
+      "rotulo": "in service on 1 September 1939: about 7% of German tanks"
+    },
+    {
+      "valor": "80 mm",
+      "rotulo": "of armor on the hull front of the H version, against 50 mm on the turret front in most sources"
+    },
+    {
+      "valor": "25 t",
+      "rotulo": "in the H version, of 1943: the 1937 chassis close to its limit"
+    },
+    {
+      "valor": "38–42 km/h",
+      "rotulo": "top speed on road, depending on the source and the version"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Designation",
+      "valor": "Panzerkampfwagen IV, Sd.Kfz. 161. The versions are identified by letter (Ausführung, abbreviated Ausf.), from A to J",
+      "nota": "The American manual TM-E 30-451, of March 1945, gives Sd.Kfz. 161/1 for the G version and 161/2 for the H."
+    },
+    {
+      "item": "Manufacturers",
+      "valor": "Krupp-Gruson, in Magdeburg; Vomag; Nibelungenwerk"
+    },
+    {
+      "item": "Total production",
+      "valor": "8,553 tanks, from 1937 to April 1945",
+      "nota": "Tank Museum; Jentz and Doyle, Panzer Tracts No. 23, as cited by Wikipedia. The German Wikipedia rounds it to 8,500."
+    },
+    {
+      "item": "Production by version",
+      "valor": "Ausf. H: about 2,322, in Tank Encyclopedia and in Jentz and Doyle (as cited by Wikipedia), or 3,774, in Hjermstad and Nešić (as cited by Tank Encyclopedia) and in J. Rickard. Ausf. J: about 3,160 in Jentz and Doyle, 3,420 in Yuri Pasholok or 1,758 in Rickard",
+      "nota": "Whoever gives the larger number for the H gives the smaller one for the J."
+    },
+    {
+      "item": "Crew",
+      "valor": "5: commander, gunner, loader, radio operator and driver"
+    },
+    {
+      "item": "Weight",
+      "valor": "23.5 t in the G version; 25 t in the H version",
+      "nota": "The American manual of 1945 gives 26 tons for the G version, without saying which ton."
+    },
+    {
+      "item": "Dimensions (Ausf. H)",
+      "valor": "7.02 m long with the gun, 2.88 m wide, 2.68 m high",
+      "nota": "J. Rickard and Tank Encyclopedia. The American manual of 1945 gives 9 feet 7 inches of width and 8 feet 6 inches of height."
+    },
+    {
+      "item": "Gun",
+      "valor": "7.5 cm KwK 37 L/24, short-barreled, up to the F1 version; 7.5 cm KwK 40 L/43 from 1942 on (F2 and G); 7.5 cm KwK 40 L/48 on the late G and on the H",
+      "nota": "The switch from the L/43 to the L/48 is dated March 1943 in J. Rickard and April in the English and German Wikipedias."
+    },
+    {
+      "item": "Ammunition and machine guns",
+      "valor": "87 rounds for the gun; two MG 34 machine guns of 7.92 mm, one coaxial and one in the hull",
+      "nota": "Tank Encyclopedia gives 3,150 rounds for the machine guns; it is the only source for that number."
+    },
+    {
+      "item": "Hull front armor",
+      "valor": "80 mm on the H version; on the G, 50 mm, with a further 30 mm bolted or welded on some of the tanks"
+    },
+    {
+      "item": "Turret front",
+      "valor": "50 mm in J. Rickard, in Yuri Pasholok and in the English Wikipedia; 80 mm in the Tank Encyclopedia table",
+      "nota": "Pasholok: the turret front stayed at 50 mm because the chassis was reaching its weight limit."
+    },
+    {
+      "item": "Sides and rear",
+      "valor": "30 mm on the sides of the hull and of the turret; 20 mm on the hull rear"
+    },
+    {
+      "item": "Skirts (Schürzen)",
+      "valor": "plates of 5 mm along the hull and of 8 mm around the turret, from 1943 on, against the Soviet 14.5 mm anti-tank rifles",
+      "nota": "The date is March 1943 in J. Rickard and May in Tank Encyclopedia."
+    },
+    {
+      "item": "Engine",
+      "valor": "Maybach HL 120 TRM, gasoline V-12, 11.9 liters; 300 PS maximum output at 3,000 rpm, 265 PS continuous output at 2,600 rpm"
+    },
+    {
+      "item": "Road speed",
+      "valor": "38 km/h in J. Rickard and in Tank Encyclopedia, for the H version; 40 km/h at the Tank Museum; 42 km/h in Tank Encyclopedia, for the G. The American manual of 1945 gives 25 miles per hour"
+    },
+    {
+      "item": "Range",
+      "valor": "about 210 km on road and 130 km off it",
+      "nota": "J. Rickard and Tank Encyclopedia; the American manual of 1945 gives 130 miles on road and 80 off. The English Wikipedia infobox has 235 to 360 km, out of line with the others."
+    }
+  ],
+  "secoes": [
+    {
+      "titulo": "What it was for: from support piece to battle tank",
+      "paragrafos": [
+        "The Tank Museum describes the original Panzer IV as the close support tank of the armored regiments: the short 75 mm gun fired a high-explosive shell at low velocity, good against positions and poor against armor. Fighting tanks was the job of the Panzer III. In Poland, in September 1939, there were 211 Panzer IVs; according to J. Rickard, 76 were put out of action by 10 October, 19 of them total losses.",
+        "The encounter with the T-34, in 1941, reversed the roles. The Panzer IV chassis could take a bigger gun; the Panzer III chassis could not. In 1942 the Panzer IV received the long-barreled KwK 40, and, in Rickard's words, went from being a support tank to being the best battle tank in the German army. The American manual of 1945 records the same passage: it began the war with a short gun, as a support vehicle, and ended it as the standard medium tank."
+      ]
+    },
+    {
+      "titulo": "Strengths",
+      "paragrafos": [
+        "The first is having been there the whole time. It was the only German tank in production from the start to the end of the war, which means spare parts, trained crews and workshops that knew it, on every front.",
+        "The second is the long gun. According to Thomas Jentz, as cited by the English Wikipedia, with it the Panzer IV could penetrate the T-34 at up to 1,200 meters, at any angle. A report from the 9th Panzer Division, cited by Tank Encyclopedia, says the T-34's armor was easily penetrated by the long 75 mm gun.",
+        "Against the Sherman, the comparison varies from historian to historian. For J. Rickard, in 1944 the Panzer IV was superior to the Sherman M4A2 at normal combat ranges. Max Hastings, as cited by the English Wikipedia, writes that the 75 mm Sherman had difficulty against the Panzer IV of the final versions."
+      ]
+    },
+    {
+      "titulo": "Weak points",
+      "paragrafos": [
+        "The chassis dated from 1937 and could grow no further. According to Yuri Pasholok, the H version reached 25 tonnes, which forced a change to the final drive, and the turret front stayed at 50 mm because there was no weight margin. The J version, the last, lost the electric turret traverse and was left with the manual one only.",
+        "The sides had 30 mm, and the skirts that protected them from anti-tank rifles, according to Hastings, as cited by the English Wikipedia, were easily torn off in scrub and on rough ground.",
+        "And there was its place in the German plan. The American manual of 1945 treats the Panzer IV as a stopgap, kept until there were enough Panthers. The Panther never reached that number."
+      ]
+    }
+  ],
+  "batalhas": [
+    {
+      "texto": "While the Panthers debuted with 184 operational on 5 July 1943 and about 40 two days later, the Panzer IV was in the line. At Prokhorovka, on 12 July, II SS Panzer Corps had 294 tanks and assault guns, 15 of them Tigers, and lost 4 tanks for good, all Panzer IVs, according to Roman Töppel from the German archives."
+    }
+  ],
+  "veredito": [
+    "On the board, the Panzer IV is the piece that was not designed for the role it ended up playing. It came in as support and, because its chassis could take a bigger gun, became the fighting piece when the opponent turned up with better armor.",
+    "The price of that adaptation was the limit. Each improvement, a longer gun, more armor at the front, skirts, used up the margin of a 1937 design, and by 1943 it was gone. Germany went on building it until April 1945 because the replacement did not come in quantity."
+  ],
+  "mitos": [
+    {
+      "circula": "The Panzer IV's side skirts were made against the bazooka and the PIAT.",
+      "registro": "The German documents of 1943 gathered by the site Panzerworld speak of protection against anti-tank rifles, the Soviet 14.5 mm ones; Tank Encyclopedia says the same. The shaped-charge version exists in print: Bryan Perrett, as cited by the English Wikipedia, writes that the skirts could set off weapons such as the British PIAT prematurely. The sources disagree, with the documents of the period on the side of the anti-tank rifle."
+    },
+    {
+      "circula": "The Panzer IV was Germany's main tank from 1939.",
+      "registro": "On 1 September 1939 there were 211, about 7% of the German armored force, and the role was support, with a short gun. Only in 1942, with the long gun, did it take on the fight against tanks."
+    },
+    {
+      "circula": "The H version was the most produced, with 3,774 tanks.",
+      "registro": "That is one of the counts. Jentz and Doyle, as cited by Wikipedia, and Tank Encyclopedia give about 2,322 for the H, and in that count the most numerous is the J, with about 3,160."
+    },
+    {
+      "circula": "The F2 is a separate version.",
+      "registro": "F2 was the provisional name of the first long-barreled Panzer IVs, later renamed G. The date of the change differs: June 1942 in J. Rickard, July in Tank Encyclopedia, September in the German Wikipedia."
+    }
+  ],
+  "perguntas": [
+    {"p": "How many Panzer IVs were built?", "r": "8,553 tanks, from 1937 to April 1945, by the count of the Tank Museum and of Jentz and Doyle. The breakdown by version differs: the H appears with about 2,322 or with 3,774, depending on the author."},
+    {"p": "What gun did the Panzer IV carry?", "r": "A 75 mm gun in three forms: the short-barreled KwK 37 L/24, up to the F1 version; the KwK 40 L/43 from 1942 on; and the KwK 40 L/48 on the late G and on the H."},
+    {"p": "What were the Panzer IV's skirts for?", "r": "By the German documents of 1943, to protect the sides against the Soviet 14.5 mm anti-tank rifles. There is a version in print that ties them to shaped-charge weapons; the sources disagree."},
+    {"p": "Did the Panzer IV fight at Kursk?", "r": "Yes. At Prokhorovka, on 12 July 1943, the 4 tanks that II SS Panzer Corps lost for good were all Panzer IVs, according to Roman Töppel from the German archives."}
+  ],
+  "fontes": [
+    {
+      "texto": "The Tank Museum, collection entry for the Panzer IV (Ausf. D)."
+    },
+    {
+      "texto": "U.S. War Department, TM-E 30-451, Handbook on German Military Forces, March 1945, chapter VII (Lone Sentry transcription)."
+    },
+    {
+      "texto": "Thomas L. Jentz and Hilary L. Doyle, Panzer Tracts No. 23: Panzer Production from 1933 to 1945, 2011; and Thomas L. Jentz, Panzertruppen, 1996 (as cited by the English Wikipedia)."
+    },
+    {
+      "texto": "J. Rickard, \"Panzer IV Medium Tank\", \"Panzerkampfwagen IV Ausf G\" and \"Panzerkampfwagen IV Ausf H\", History of War, 2008."
+    },
+    {
+      "texto": "Tank Encyclopedia, \"Panzerkampfwagen IV Ausf.H\" and \"Ausf.G\"."
+    },
+    {
+      "texto": "Yuri Pasholok, \"In Panther's Shadow\", translation by Tank Archives, 2021."
+    },
+    {
+      "texto": "Panzerworld, \"Add-on armor\", with German documents of 1943 and 1944 on the skirts."
+    },
+    {
+      "texto": "Max Hastings, Overlord, and Bryan Perrett, Panzerkampfwagen IV Medium Tank 1936–45 (as cited by the English Wikipedia)."
+    },
+    {
+      "texto": "Panzer IV — English Wikipedia."
+    },
+    {
+      "texto": "Panzerkampfwagen IV — German Wikipedia."
+    },
+    {
+      "texto": "Roman Töppel, \"Die Panzerschlacht bei Prochorowka: Fakten gegen Fabeln\", Portal Militärgeschichte, 2019 (for Kursk)."
+    }
+  ],
+  "imagens": [
+    {
+      "alt": "A German Panzer IV tank in the foreground on the right and other armored vehicles scattered across a wheat field under a clear sky",
+      "legenda": "A Panzer IV and other German armor in a wheat field at the start of Operation Citadel, the Kursk offensive, in the summer of 1943.",
+      "autor": "Merz · Bundesarchiv, Bild 101III-Merz-014-12A"
+    }
+  ]
+}

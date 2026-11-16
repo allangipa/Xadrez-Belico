@@ -1,0 +1,204 @@
+{
+  "_nota": "Traducción fiel de ../spitfire.json. Los campos fijos vienen del original.",
+  "nome": "Supermarine Spitfire",
+  "nome_busca": "Supermarine Spitfire",
+  "papel": "caza monoplaza",
+  "pais": "Reino Unido",
+  "periodo": "1938–1945",
+  "pergunta": "El caza más famoso de la Batalla de Inglaterra era también el más difícil de fabricar. ¿Cuánto pesó eso?",
+  "resumo": "Supermarine Spitfire Mk I: ficha técnica, puntos fuertes y débiles del caza de 1940, del ala elíptica al carburador que fallaba. Con fuente en cada dato.",
+  "abertura": [
+    "El Spitfire entró en servicio el 4 de agosto de 1938 y estuvo en producción diez años. Esta ficha trata del Mk I, el de ocho ametralladoras, que voló en la Batalla de Inglaterra.",
+    "En 1940 era el caza británico capaz de enfrentar al Bf 109 de igual a igual. Era también un avión todo de metal, de ala delgada y curvas compuestas, que costaba la mitad más de trabajo que un Hurricane, y por eso existía en menos escuadrones."
+  ],
+  "numeros": [
+    {
+      "valor": "20.351",
+      "rotulo": "construidos, en el Smithsonian y en Jeffrey Ethell; la Royal Air Force da 20.341"
+    },
+    {
+      "valor": "19",
+      "rotulo": "escuadrones de Spitfire en julio de 1940, contra 25 a 29 de Hurricane, según la cuenta"
+    },
+    {
+      "valor": "353 mph",
+      "rotulo": "a 20.000 pies como voló en 1940, unos 568 km/h; los Mk I de 1938 y 1939, más livianos, daban 362 y 367"
+    },
+    {
+      "valor": "15.200 h",
+      "rotulo": "de trabajo por célula, contra 10.300 del Hurricane, en la estimación oficial de enero de 1940"
+    },
+    {
+      "valor": "696 × 885 pies",
+      "rotulo": "radio mínimo de viraje del Spitfire y del Bf 109 E en el ensayo británico de 1940 con un caza alemán capturado"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Designación",
+      "valor": "Supermarine Spitfire Mk I, proyecto Type 300, de Reginald J. Mitchell",
+      "nota": "Mk IA es el nombre dado después a los de ametralladora, según Alfred Price, citado por la Wikipedia en inglés."
+    },
+    {
+      "item": "Fabricante",
+      "valor": "Supermarine, del grupo Vickers-Armstrongs, en Southampton; 50 de los Mk I fueron hechos por Westland",
+      "nota": "Revista Air International, 1985, citada por la Wikipedia en inglés."
+    },
+    {
+      "item": "Primer vuelo",
+      "valor": "5 de marzo de 1936, con el prototipo K5054, en Eastleigh, pilotado por Joseph Summers"
+    },
+    {
+      "item": "Entrada en servicio",
+      "valor": "4 de agosto de 1938, en el Escuadrón 19, en Duxford"
+    },
+    {
+      "item": "Producción total",
+      "valor": "20.351 en el Smithsonian y en Jeffrey Ethell, citado por la Wikipedia en inglés; 20.341 en la Royal Air Force"
+    },
+    {
+      "item": "Cuántos Mk I",
+      "valor": "1.567 en la revista Air International, citada por la Wikipedia en inglés; 1.566 en J. Rickard"
+    },
+    {
+      "item": "Dimensiones",
+      "valor": "36 pies y 10 pulgadas de envergadura (11,23 m); 29 pies y 11 pulgadas de largo (9,12 m)"
+    },
+    {
+      "item": "Peso",
+      "valor": "4.810 libras vacío y 6.200 libras cargado, unos 2.180 y 2.810 kg",
+      "nota": "J. Rickard."
+    },
+    {
+      "item": "Armamento",
+      "valor": "ocho ametralladoras Browning de .303 pulgada (7,7 mm) en las alas",
+      "nota": "La munición por arma diverge: 300 disparos en J. Rickard, 350 en Morgan y Shacklady, citados por la Wikipedia en inglés."
+    },
+    {
+      "item": "Cañón de 20 mm",
+      "valor": "el Escuadrón 19 recibió Spitfires con dos cañones Hispano a partir de junio de 1940. Los cañones se trababan, y en septiembre los aviones fueron cambiados por otros de ametralladora"
+    },
+    {
+      "item": "Motor",
+      "valor": "Rolls-Royce Merlin II, de 1.030 hp, y Merlin III a partir del avión número 175",
+      "nota": "J. Rickard."
+    },
+    {
+      "item": "Gasolina de 100 octanos",
+      "valor": "permitía sobrepresión de emergencia por cinco minutos y 1.310 hp a 3.000 rpm, según Alec Harvey-Bailey, citado por la Wikipedia en inglés; John Correll habla de unos 1.300 hp"
+    },
+    {
+      "item": "Hélice",
+      "valor": "de madera, dos palas y paso fijo en los primeros; de Havilland de tres palas y dos pasos a partir del avión número 78; de velocidad constante a partir de la conversión iniciada el 24 de junio de 1940",
+      "nota": "Las fechas de 1940 vienen solo de la Wikipedia en inglés."
+    },
+    {
+      "item": "Velocidad máxima",
+      "valor": "362 millas por hora a 18.500 pies en los primeros Mk I, de 1938; 367 en los de 1939; 353 a 20.000 pies como voló en la batalla, con blindaje, parabrisas blindado y hélice de velocidad constante",
+      "nota": "Alfred Price, citado por la Wikipedia en inglés, y J. Rickard. La diferencia es de configuración del avión."
+    },
+    {
+      "item": "Techo y ascenso",
+      "valor": "techo de servicio de 31.900 pies en los primeros Mk I; ascenso de 2.530 pies por minuto",
+      "nota": "Alfred Price, citado por la Wikipedia en inglés, y J. Rickard, que repite el techo."
+    },
+    {
+      "item": "Alcance",
+      "valor": "no se encontró, para el Mk I, número en fuente abierta"
+    }
+  ],
+  "secoes": [
+    {
+      "titulo": "Para qué servía",
+      "paragrafos": [
+        "El Spitfire era un interceptor: subir rápido, alcanzar al enemigo y tener rendimiento para luchar con el caza de él. En 1940, la división ideal de trabajo del Fighter Command, según el Smithsonian y John Correll, ponía a los Spitfires contra la escolta de Bf 109 y a los Hurricanes contra los bombarderos.",
+        "El primer combate contra el enemigo, según Alfred Price, citado por la Wikipedia en inglés, fue el 16 de octubre de 1939, sobre el estuario del Forth, en Escocia, contra bombarderos Ju 88."
+      ]
+    },
+    {
+      "titulo": "Puntos fuertes",
+      "paragrafos": [
+        "El diseño. Era un monoplano todo de metal, con un revestimiento que formaba parte de la estructura, y el ala elíptica que se volvió la marca del avión. Beverley Shenstone, el aerodinamicista del proyecto, citado por Alfred Price, explicó la elección sin romance: la elipse era la forma que daba el ala más delgada posible con espacio adentro para el tren de aterrizaje y las armas.",
+        "El viraje. En el ensayo británico de 1940 con un Bf 109 E capturado, a 12.000 pies, el radio mínimo del Spitfire fue de 696 pies, contra 885 del caza alemán.",
+        "Y la velocidad: era más rápido que el Hurricane, y por eso era la pieza que el Fighter Command prefería mandar contra los cazas."
+      ]
+    },
+    {
+      "titulo": "Puntos débiles",
+      "paragrafos": [
+        "El carburador. El Merlin de 1940 tenía carburador de flotador, que cortaba la alimentación bajo aceleración negativa; el motor del Bf 109 tenía inyección directa y no cortaba. Un piloto alemán podía empujar la nariz y picar; el británico que hiciera lo mismo perdía el motor por un instante. El remedio provisional, un restrictor diseñado por la ingeniera Beatrice Shilling, solo estuvo en todo el Fighter Command en marzo de 1941.",
+        "La fábrica. En la estimación oficial de enero de 1940, una célula de Spitfire costaba 15.200 horas de trabajo, contra 10.300 de un Hurricane. La gran fábrica de Castle Bromwich, que debía entregar 60 aviones por semana a partir de abril de 1940, en mayo todavía no había hecho ninguno, según Leo McKinstry, citado por la Wikipedia en inglés. En las tablas de Richard Overy, de junio a noviembre de 1940 salieron 724 Spitfires y 1.367 Hurricanes.",
+        "Y el cañón que no llegó a tiempo. Los Spitfires de cañón de 20 mm del Escuadrón 19 se trababan en combate y fueron devueltos en septiembre de 1940. La batalla se libró con ametralladoras de calibre de fusil."
+      ]
+    }
+  ],
+  "batalhas": [
+    {
+      "texto": "Eran 19 escuadrones de Spitfire contra 29 de Hurricane en julio de 1940, según una cuenta. El 13 de agosto, bombarderos alemanes atacaron Eastchurch, base del Coastal Command, y declararon diez Spitfires destruidos en tierra; ningún caza del Fighter Command se perdió allí. En la batalla se perdieron 467 Spitfires contra 753 Hurricanes."
+    }
+  ],
+  "veredito": [
+    "En el tablero, el Spitfire es la pieza fuerte y escasa. En rendimiento, era lo mejor que tenía el Fighter Command, y el único caza británico que no le cedía nada importante al Bf 109 además del picado con la nariz hacia abajo.",
+    "Pero una batalla de desgaste se cuenta en piezas sobre el tablero, y en 1940 la industria británica hacía casi dos Hurricanes por cada Spitfire. La fama vino del rendimiento; el número, del otro avión."
+  ],
+  "mitos": [
+    {
+      "circula": "El Spitfire ganó la Batalla de Inglaterra.",
+      "registro": "El Hurricane era más numeroso y se llevó la mayor parte de las victorias reivindicadas por el Fighter Command: 55% según BAE Systems, contra 42% del Spitfire; más del 60% según el RAF Museum. Son reivindicaciones, que los dos bandos inflaban."
+    },
+    {
+      "circula": "El ala elíptica del Spitfire fue copiada del Heinkel He 70.",
+      "registro": "Beverley Shenstone, el aerodinamicista del proyecto, lo negó: el ala del Spitfire era mucho más delgada y tenía un perfil bien distinto del de la del Heinkel. La declaración está en Alfred Price, citado por la Wikipedia en inglés."
+    },
+    {
+      "circula": "El Spitfire de la Batalla de Inglaterra volaba a 367 millas por hora.",
+      "registro": "Ese es el número del avión de 1939, sin blindaje. Con el blindaje, el parabrisas blindado y la hélice de velocidad constante de 1940, el Mk I hacía unas 353 millas por hora a 20.000 pies."
+    },
+    {
+      "circula": "El Spitfire ya tenía cañones en 1940.",
+      "registro": "Los tenía, en un solo escuadrón, y no resultó. El Escuadrón 19 recibió Spitfires con cañones Hispano de 20 mm a partir de junio de 1940; los cañones se trababan, y en septiembre los aviones fueron cambiados por Mk I de ametralladora."
+    }
+  ],
+  "perguntas": [
+    {"p": "¿Cuántos Spitfires se construyeron?", "r": "20.351, según el Smithsonian y Jeffrey Ethell; la Royal Air Force da 20.341. Del Mk I, la versión de 1940, fueron 1.567 o 1.566, según la fuente."},
+    {"p": "¿Cuál era la velocidad del Spitfire en la Batalla de Inglaterra?", "r": "Unas 353 millas por hora a 20.000 pies, cerca de 568 km/h. Los números de 362 y 367 millas por hora son de los Mk I de 1938 y 1939, más livianos."},
+    {"p": "¿Por qué el motor del Spitfire fallaba en el picado?", "r": "Porque el Merlin de 1940 tenía carburador de flotador, que cortaba la alimentación bajo aceleración negativa. El Bf 109 tenía inyección directa y no sufría de eso."},
+    {"p": "¿El Spitfire era mejor que el Bf 109?", "r": "Dependía de la maniobra. En el ensayo británico de 1940, el Spitfire viraba más cerrado, con radio de 696 pies contra 885; el Bf 109 subía más rápido y picaba sin que el motor fallara."}
+  ],
+  "fontes": [
+    {
+      "texto": "Smithsonian National Air and Space Museum, ficha del Supermarine Spitfire HF. Mk. VIIc."
+    },
+    {
+      "texto": "Kris Hendrix, \"The first flight of the Spitfire\", RAF Museum, 2021."
+    },
+    {
+      "texto": "Royal Air Force, Battle of Britain Memorial Flight, \"Spitfire\"."
+    },
+    {
+      "texto": "J. Rickard, \"Supermarine Spitfire Mk I\" y artículo sobre las alas del Spitfire, History of War, 2007."
+    },
+    {
+      "texto": "M. M. Postan, British War Production, History of the Second World War, 1952, capítulo IV (HyperWar)."
+    },
+    {
+      "texto": "Richard Overy, The Battle of Britain: Myth and Reality, tablas de escuadrones, producción y pérdidas."
+    },
+    {
+      "texto": "John T. Correll, \"How the Luftwaffe Lost the Battle of Britain\", Air Force Magazine, agosto de 2008."
+    },
+    {
+      "texto": "Ensayo del Royal Aircraft Establishment con el Bf 109 E capturado, 1940, por transcripción: \"Spitfire Mk I versus Me 109 E\"."
+    },
+    {
+      "texto": "BAE Systems Heritage, \"Hawker Hurricane\", y RAF Museum, ficha del Hurricane Mk I (para la parte de cada caza en las victorias)."
+    },
+    {
+      "texto": "Alfred Price, The Spitfire Story, 2002; Eric Morgan y Edward Shacklady, Spitfire: The History; Leo McKinstry, Spitfire: Portrait of a Legend, 2007; Jeffrey Ethell; Alec Harvey-Bailey, 1995 (citados por la Wikipedia en inglés)."
+    },
+    {
+      "texto": "Supermarine Spitfire, Supermarine Spitfire (early Merlin-powered variants) y Supermarine Spitfire operational history — Wikipedia en inglés."
+    }
+  ],
+  "imagens": []
+}

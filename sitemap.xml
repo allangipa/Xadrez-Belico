@@ -180,13 +180,48 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://xadrezbelico.com/es/temas/guerra-do-paraguai.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://xadrezbelico.com/en/temas/guerra-do-paraguai.html"/>
   </url>
-  <url><loc>https://xadrezbelico.com/arsenal/</loc><lastmod>2026-11-16</lastmod></url>
-  <url><loc>https://xadrezbelico.com/arsenal/sherman.html</loc><lastmod>2026-11-16</lastmod></url>
-  <url><loc>https://xadrezbelico.com/arsenal/panzer-iv.html</loc><lastmod>2026-11-16</lastmod></url>
-  <url><loc>https://xadrezbelico.com/arsenal/m8-greyhound.html</loc><lastmod>2026-11-16</lastmod></url>
-  <url><loc>https://xadrezbelico.com/arsenal/hurricane.html</loc><lastmod>2026-11-16</lastmod></url>
-  <url><loc>https://xadrezbelico.com/arsenal/bf-109.html</loc><lastmod>2026-11-16</lastmod></url>
-  <url><loc>https://xadrezbelico.com/arsenal/spitfire.html</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://xadrezbelico.com/arsenal/</loc><lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://xadrezbelico.com/arsenal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xadrezbelico.com/en/arsenal/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xadrezbelico.com/es/arsenal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xadrezbelico.com/en/arsenal/"/>
+  </url>
+  <url><loc>https://xadrezbelico.com/arsenal/sherman.html</loc><lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://xadrezbelico.com/arsenal/sherman.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xadrezbelico.com/en/arsenal/sherman.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xadrezbelico.com/es/arsenal/sherman.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xadrezbelico.com/en/arsenal/sherman.html"/>
+  </url>
+  <url><loc>https://xadrezbelico.com/arsenal/panzer-iv.html</loc><lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://xadrezbelico.com/arsenal/panzer-iv.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xadrezbelico.com/en/arsenal/panzer-iv.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xadrezbelico.com/es/arsenal/panzer-iv.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xadrezbelico.com/en/arsenal/panzer-iv.html"/>
+  </url>
+  <url><loc>https://xadrezbelico.com/arsenal/m8-greyhound.html</loc><lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://xadrezbelico.com/arsenal/m8-greyhound.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xadrezbelico.com/en/arsenal/m8-greyhound.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xadrezbelico.com/es/arsenal/m8-greyhound.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xadrezbelico.com/en/arsenal/m8-greyhound.html"/>
+  </url>
+  <url><loc>https://xadrezbelico.com/arsenal/hurricane.html</loc><lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://xadrezbelico.com/arsenal/hurricane.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xadrezbelico.com/en/arsenal/hurricane.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xadrezbelico.com/es/arsenal/hurricane.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xadrezbelico.com/en/arsenal/hurricane.html"/>
+  </url>
+  <url><loc>https://xadrezbelico.com/arsenal/bf-109.html</loc><lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://xadrezbelico.com/arsenal/bf-109.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xadrezbelico.com/en/arsenal/bf-109.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xadrezbelico.com/es/arsenal/bf-109.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xadrezbelico.com/en/arsenal/bf-109.html"/>
+  </url>
+  <url><loc>https://xadrezbelico.com/arsenal/spitfire.html</loc><lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://xadrezbelico.com/arsenal/spitfire.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xadrezbelico.com/en/arsenal/spitfire.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xadrezbelico.com/es/arsenal/spitfire.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xadrezbelico.com/en/arsenal/spitfire.html"/>
+  </url>
   <url><loc>https://xadrezbelico.com/en/</loc><lastmod>2026-11-16</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://xadrezbelico.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://xadrezbelico.com/en/"/>
@@ -367,6 +402,48 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://xadrezbelico.com/es/temas/guerra-do-paraguai.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://xadrezbelico.com/en/temas/guerra-do-paraguai.html"/>
   </url>
+  <url><loc>https://xadrezbelico.com/en/arsenal/</loc><lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://xadrezbelico.com/arsenal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xadrezbelico.com/en/arsenal/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xadrezbelico.com/es/arsenal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xadrezbelico.com/en/arsenal/"/>
+  </url>
+  <url><loc>https://xadrezbelico.com/en/arsenal/sherman.html</loc><lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://xadrezbelico.com/arsenal/sherman.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xadrezbelico.com/en/arsenal/sherman.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xadrezbelico.com/es/arsenal/sherman.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xadrezbelico.com/en/arsenal/sherman.html"/>
+  </url>
+  <url><loc>https://xadrezbelico.com/en/arsenal/panzer-iv.html</loc><lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://xadrezbelico.com/arsenal/panzer-iv.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xadrezbelico.com/en/arsenal/panzer-iv.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xadrezbelico.com/es/arsenal/panzer-iv.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xadrezbelico.com/en/arsenal/panzer-iv.html"/>
+  </url>
+  <url><loc>https://xadrezbelico.com/en/arsenal/m8-greyhound.html</loc><lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://xadrezbelico.com/arsenal/m8-greyhound.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xadrezbelico.com/en/arsenal/m8-greyhound.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xadrezbelico.com/es/arsenal/m8-greyhound.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xadrezbelico.com/en/arsenal/m8-greyhound.html"/>
+  </url>
+  <url><loc>https://xadrezbelico.com/en/arsenal/hurricane.html</loc><lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://xadrezbelico.com/arsenal/hurricane.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xadrezbelico.com/en/arsenal/hurricane.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xadrezbelico.com/es/arsenal/hurricane.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xadrezbelico.com/en/arsenal/hurricane.html"/>
+  </url>
+  <url><loc>https://xadrezbelico.com/en/arsenal/bf-109.html</loc><lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://xadrezbelico.com/arsenal/bf-109.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xadrezbelico.com/en/arsenal/bf-109.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xadrezbelico.com/es/arsenal/bf-109.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xadrezbelico.com/en/arsenal/bf-109.html"/>
+  </url>
+  <url><loc>https://xadrezbelico.com/en/arsenal/spitfire.html</loc><lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://xadrezbelico.com/arsenal/spitfire.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xadrezbelico.com/en/arsenal/spitfire.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xadrezbelico.com/es/arsenal/spitfire.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xadrezbelico.com/en/arsenal/spitfire.html"/>
+  </url>
   <url><loc>https://xadrezbelico.com/es/</loc><lastmod>2026-11-16</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://xadrezbelico.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://xadrezbelico.com/en/"/>
@@ -546,5 +623,47 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://xadrezbelico.com/en/temas/guerra-do-paraguai.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://xadrezbelico.com/es/temas/guerra-do-paraguai.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://xadrezbelico.com/en/temas/guerra-do-paraguai.html"/>
+  </url>
+  <url><loc>https://xadrezbelico.com/es/arsenal/</loc><lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://xadrezbelico.com/arsenal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xadrezbelico.com/en/arsenal/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xadrezbelico.com/es/arsenal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xadrezbelico.com/en/arsenal/"/>
+  </url>
+  <url><loc>https://xadrezbelico.com/es/arsenal/sherman.html</loc><lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://xadrezbelico.com/arsenal/sherman.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xadrezbelico.com/en/arsenal/sherman.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xadrezbelico.com/es/arsenal/sherman.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xadrezbelico.com/en/arsenal/sherman.html"/>
+  </url>
+  <url><loc>https://xadrezbelico.com/es/arsenal/panzer-iv.html</loc><lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://xadrezbelico.com/arsenal/panzer-iv.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xadrezbelico.com/en/arsenal/panzer-iv.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xadrezbelico.com/es/arsenal/panzer-iv.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xadrezbelico.com/en/arsenal/panzer-iv.html"/>
+  </url>
+  <url><loc>https://xadrezbelico.com/es/arsenal/m8-greyhound.html</loc><lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://xadrezbelico.com/arsenal/m8-greyhound.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xadrezbelico.com/en/arsenal/m8-greyhound.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xadrezbelico.com/es/arsenal/m8-greyhound.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xadrezbelico.com/en/arsenal/m8-greyhound.html"/>
+  </url>
+  <url><loc>https://xadrezbelico.com/es/arsenal/hurricane.html</loc><lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://xadrezbelico.com/arsenal/hurricane.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xadrezbelico.com/en/arsenal/hurricane.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xadrezbelico.com/es/arsenal/hurricane.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xadrezbelico.com/en/arsenal/hurricane.html"/>
+  </url>
+  <url><loc>https://xadrezbelico.com/es/arsenal/bf-109.html</loc><lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://xadrezbelico.com/arsenal/bf-109.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xadrezbelico.com/en/arsenal/bf-109.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xadrezbelico.com/es/arsenal/bf-109.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xadrezbelico.com/en/arsenal/bf-109.html"/>
+  </url>
+  <url><loc>https://xadrezbelico.com/es/arsenal/spitfire.html</loc><lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://xadrezbelico.com/arsenal/spitfire.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xadrezbelico.com/en/arsenal/spitfire.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xadrezbelico.com/es/arsenal/spitfire.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xadrezbelico.com/en/arsenal/spitfire.html"/>
   </url>
 </urlset>
