@@ -1,0 +1,241 @@
+{
+  "slug": "bf-109",
+  "nome": "Messerschmitt Bf 109",
+  "nome_busca": "Messerschmitt Bf 109",
+  "classe": "aviao",
+  "papel": "caça monoposto",
+  "pais": "Alemanha",
+  "periodo": "1937–1945",
+  "relacionados": ["spitfire", "hurricane"],
+  "pergunta": "Como um caça que subia e mergulhava melhor que os rivais ficou sem tempo para lutar sobre a Inglaterra?",
+  "resumo": "Messerschmitt Bf 109 E, o caça alemão da Batalha da Inglaterra: ficha técnica, canhões, motor de injeção e o alcance curto. Com fonte em cada dado.",
+  "abertura": [
+    "O Bf 109 foi o caça da Luftwaffe do começo ao fim da guerra. Esta ficha trata da versão E, o Emil, dos subtipos E-3 e E-4: a que atravessou o Canal da Mancha em 1940.",
+    "Era um avião pequeno em volta de um motor grande. Subia bem, mergulhava sem o motor falhar e levava canhões de 20 mm quando os caças britânicos tinham só metralhadoras. E carregava combustível para pouco: na Batalha da Inglaterra, o caça de escolta alemão chegava ao alvo já contando os minutos para voltar."
+  ],
+  "numeros": [
+    {
+      "valor": "33–34 mil",
+      "rotulo": "produzidos de 1936 a 1945: 33.984, 34.248 ou cerca de 33.300, conforme a conta",
+      "conf": "DIV"
+    },
+    {
+      "valor": "2 × 20 mm",
+      "rotulo": "canhões MG FF nas asas do E-3, mais duas metralhadoras MG 17 sobre o motor",
+      "conf": "2+"
+    },
+    {
+      "valor": "660 km",
+      "rotulo": "de alcance só com o tanque interno, em duas fontes; a Wikipédia em alemão dá 800 km",
+      "conf": "DIV"
+    },
+    {
+      "valor": "10 ou 20 min",
+      "rotulo": "de combate: cerca de 10 minutos sobre Londres numa fonte, 20 minutos sobre o sudeste da Inglaterra em dois museus",
+      "conf": "DIV"
+    },
+    {
+      "valor": "885 × 696 pés",
+      "rotulo": "raio mínimo de curva do Bf 109 E e do Spitfire no ensaio britânico de 1940 com um Emil capturado",
+      "conf": "1"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Designação",
+      "valor": "Bf 109, de Bayerische Flugzeugwerke, a fábrica onde o projeto começou em 1934. \"Me 109\" era o nome corrente na própria Alemanha e entre os britânicos",
+      "conf": "2+",
+      "nota": "A placa de um E-4 capturado em 1940, hoje no RAF Museum, dizia Me 109."
+    },
+    {
+      "item": "Fabricantes",
+      "valor": "Messerschmitt, em Regensburg; Erla, em Leipzig; WNF, em Wiener Neustadt; e outras quatro fábricas menores",
+      "conf": "1",
+      "nota": "Tabela da Wikipédia em inglês. O relatório britânico sobre o exemplar capturado confirma a Erla como fabricante de células em 1940."
+    },
+    {
+      "item": "Primeiro voo",
+      "valor": "29 de maio de 1935, na Wikipédia em inglês; setembro de 1935, no Smithsonian e em Jon Guttman",
+      "conf": "DIV"
+    },
+    {
+      "item": "Produção total",
+      "valor": "33.984 no texto da Wikipédia em inglês; 34.248 células, de 1936 a abril de 1945, na tabela do mesmo artigo, atribuída ao levantamento americano de bombardeio estratégico e a Heinz Nowarra; cerca de 33.300 na Wikipédia em alemão",
+      "conf": "DIV",
+      "nota": "Para o Smithsonian, só o Il-2 soviético foi mais produzido entre os aviões de combate."
+    },
+    {
+      "item": "Produção da série E",
+      "valor": "E-1: 1.183; E-3: 1.276; E-4: 561; E-7: 438",
+      "conf": "1",
+      "nota": "Tabela de variantes da Wikipédia em inglês."
+    },
+    {
+      "item": "Dimensões (E-3)",
+      "valor": "9,87 m de envergadura; 8,64 m de comprimento em J. Rickard e na Wikipédia em alemão, 8,55 m no site Battle of Britain 1940",
+      "conf": "DIV"
+    },
+    {
+      "item": "Peso (E-3)",
+      "valor": "2.010 kg vazio e 2.505 kg na decolagem",
+      "conf": "1",
+      "nota": "Wikipédia em alemão, sem indicação de origem."
+    },
+    {
+      "item": "Armamento",
+      "valor": "E-3: duas metralhadoras MG 17 de 7,92 mm sobre o motor, sincronizadas com a hélice, e dois canhões MG FF de 20 mm, um em cada asa. E-4: os mesmos, com o canhão MG FF/M, de munição de parede fina e mais explosivo. E-1: quatro MG 17",
+      "conf": "2+",
+      "nota": "O relatório de inteligência britânico sobre o E-4 capturado em novembro de 1940 lista duas MG 17 e dois canhões de 20 mm."
+    },
+    {
+      "item": "Munição",
+      "valor": "1.000 tiros por metralhadora de fuselagem; 60 tiros por canhão, em tambor",
+      "conf": "2+",
+      "nota": "Wikipédia em alemão e Dinger's Aviation Pages; nenhuma das duas é documento de fábrica."
+    },
+    {
+      "item": "Motor",
+      "valor": "Daimler-Benz DB 601 A, V-12 invertido, refrigerado a líquido, com injeção direta de combustível",
+      "conf": "2+"
+    },
+    {
+      "item": "Potência",
+      "valor": "1.100 PS para o DB 601 A-1, na Wikipédia em inglês; 1.175 hp na decolagem para o DB 601 Aa, em J. Rickard; 990 PS na decolagem, na Wikipédia em alemão",
+      "conf": "DIV",
+      "nota": "Parte da diferença é de subtipo do motor e de regime, não de erro."
+    },
+    {
+      "item": "Velocidade máxima (E-3)",
+      "valor": "570 km/h a 5.000 m, na Wikipédia em alemão; 354 milhas por hora a 12.000 pés, em J. Rickard; 348 milhas por hora (560 km/h) a 12.300 pés, no site Battle of Britain 1940",
+      "conf": "DIV"
+    },
+    {
+      "item": "Teto",
+      "valor": "10.500 m",
+      "conf": "1",
+      "nota": "J. Rickard; a Wikipédia em alemão repete o número."
+    },
+    {
+      "item": "Razão de subida",
+      "valor": "3.280 pés por minuto (17,83 m/s)",
+      "conf": "1",
+      "nota": "J. Rickard."
+    },
+    {
+      "item": "Alcance",
+      "valor": "660 km só com o tanque interno, em Wagner e Nowarra (citados pela Wikipédia em inglês) e em J. Rickard, que dá 410 milhas; 800 km na Wikipédia em alemão",
+      "conf": "DIV"
+    },
+    {
+      "item": "Tanque descartável",
+      "valor": "só a partir do E-7, com tanque de 300 litros. Segundo Francis Mason, citado pela Wikipédia em inglês, o E-7 entrou em serviço no fim de agosto de 1940, e em 31 de agosto havia 32 deles em linha",
+      "conf": "1"
+    }
+  ],
+  "secoes": [
+    {
+      "titulo": "Para que servia",
+      "paragrafos": [
+        "O Bf 109 nasceu como caça de interceptação e de superioridade aérea, e estreou na Guerra Civil Espanhola com a Legião Condor. Segundo Jon Guttman, os primeiros Bf 109 B de série entraram em serviço na Espanha em março de 1937, e a primeira vitória foi em 6 de abril daquele ano, do tenente Günther Lützow.",
+        "Em 1940, sobre a Inglaterra, o papel mudou sem que o avião mudasse: de caçador livre, passou a escolta de bombardeiros, longe das bases e amarrado à velocidade deles. Era o único caça monomotor que a Luftwaffe tinha para enfrentar o Spitfire e o Hurricane."
+      ]
+    },
+    {
+      "titulo": "Pontos fortes",
+      "paragrafos": [
+        "O RAF Museum resume em uma frase: o Bf 109 E subia mais depressa e tinha armamento mais pesado que o Hurricane e o Spitfire. Os canhões de 20 mm disparavam granada explosiva; os caças britânicos de 1940 tinham oito metralhadoras de calibre de fuzil.",
+        "O motor de injeção direta dava uma vantagem de manobra. O ensaio britânico com um Emil capturado lista entre os pontos bons que o motor não corta de imediato sob aceleração negativa. No Merlin de carburador, cortava: Werner Mölders, depois de voar um Spitfire capturado, anotou que um empurrão brusco no manche fazia o motor falhar. Um piloto alemão perseguido podia empurrar o nariz e mergulhar; o britânico que tentasse segui-lo do mesmo jeito perdia potência por um instante."
+      ]
+    },
+    {
+      "titulo": "Pontos fracos",
+      "paragrafos": [
+        "O primeiro é o alcance, e foi ele que pesou em 1940. Com cerca de 660 km só com o tanque interno, o Emil saía do Pas-de-Calais, cruzava o Canal e tinha minutos sobre o alvo. O RAF Museum fala em 20 minutos de voo sobre o sudeste da Inglaterra; o Smithsonian, em cerca de 20 minutos sobre a Grã-Bretanha, e acrescenta que muitos pilotos ficaram sem combustível e caíram no Canal. Para Londres, mais longe, Wagner e Nowarra, citados pela Wikipédia em inglês, dão 10 minutos.",
+        "O segundo é a curva. No ensaio britânico de 1940, a 12.000 pés, o raio mínimo do Bf 109 E foi de 885 pés, contra 696 do Spitfire, e a volta completa levava cerca de 25 segundos contra 19. O mesmo ensaio registra comandos pesados demais acima de 250 milhas por hora e uma cabine apertada, em que o piloto mal conseguia fazer força lateral no manche.",
+        "O terceiro é o chão. O trem de pouso de bitola estreita, somado ao torque do motor, tornava pouso e decolagem mais difíceis do que nos caças britânicos, segundo o mesmo ensaio. Walter Boyne, citado pela Wikipédia em inglês, escreve que pelo menos 10% dos Bf 109 se perderam em acidentes de pouso e decolagem, 1.500 deles entre 1939 e 1941."
+      ]
+    }
+  ],
+  "batalhas": [
+    {
+      "slug": "batalha-da-inglaterra",
+      "texto": "Era o caça de escolta da Luftwaffe, e não tinha alcance para ficar sobre o alvo. Em 15 de agosto de 1940, a frota aérea da Noruega atacou o norte da Inglaterra sem ele: de 115 bombardeiros e 35 caças, 75 aviões foram destruídos. Depois da troca de alvo para Londres, em 7 de setembro, a viagem ficou mais longa, e sobre a capital o Bf 109 tinha cerca de dez minutos de combate antes de voltar."
+    }
+  ],
+  "veredito": [
+    "No tabuleiro, o Bf 109 E é uma peça forte de alcance curto. Nos encontros caça contra caça, o registro britânico da época o trata como rival à altura: mais rápido na subida, mais bem armado, pior na curva.",
+    "O que o limitou em 1940 foi a casa em que foi posto. Um caça desenhado para defender o próprio céu teve de escoltar bombardeiros do outro lado de um braço de mar, e o plano dependia de ele ficar onde o combustível não deixava. O tanque descartável que resolveria isso só apareceu no E-7, quando a batalha já estava no fim de agosto."
+  ],
+  "mitos": [
+    {
+      "circula": "O nome certo é Me 109; Bf 109 é erro.",
+      "registro": "A designação oficial é Bf 109, da Bayerische Flugzeugwerke, onde o projeto começou em 1934. Mas Me 109 era corrente na própria Alemanha: aparece nas legendas dos fotógrafos militares guardadas no Bundesarchiv e na placa de um E-4 capturado em 1940."
+    },
+    {
+      "circula": "Um terço dos Bf 109 foi destruído em acidentes de pouso e decolagem.",
+      "registro": "A cifra com livro por trás é bem menor: pelo menos 10%, segundo Walter Boyne, citado pela Wikipédia em inglês. Para a versão de um terço não foi encontrada fonte primária. Nenhum dos dois números foi confrontado aqui com registros de perdas da Luftwaffe."
+    },
+    {
+      "circula": "O Bf 109 tinha exatamente dez minutos de combate sobre a Inglaterra.",
+      "registro": "Os 10 minutos se referem a Londres e vêm de Wagner e Nowarra, citados pela Wikipédia em inglês. O RAF Museum e o Smithsonian escrevem 20 minutos, sobre o sudeste da Inglaterra e sobre a Grã-Bretanha. As duas contas podem conviver, porque falam de distâncias diferentes; o que não há é um número único."
+    },
+    {
+      "circula": "Não existia tanque descartável para o Bf 109 na Batalha da Inglaterra.",
+      "registro": "Existia, no fim. O E-7, primeira versão a levar um tanque de 300 litros, entrou em serviço no fim de agosto de 1940 segundo Francis Mason, citado pela Wikipédia em inglês, com 32 aparelhos em linha em 31 de agosto, contra 339 E-4 e 375 E-1 na mesma data."
+    }
+  ],
+  "perguntas": [
+    {"p": "Qual a diferença entre Bf 109 e Me 109?", "r": "É o mesmo avião. Bf 109 é a designação oficial, da Bayerische Flugzeugwerke; Me 109 era o nome corrente na Alemanha e entre os britânicos."},
+    {"p": "Quantos Bf 109 foram produzidos?", "r": "Entre 33 e 34 mil, de 1936 a 1945. As contas divergem: 33.984, 34.248 ou cerca de 33.300, conforme a fonte."},
+    {"p": "Qual era o armamento do Bf 109 na Batalha da Inglaterra?", "r": "No E-3 e no E-4, duas metralhadoras MG 17 de 7,92 mm sobre o motor e dois canhões de 20 mm, um em cada asa. O E-1 levava quatro metralhadoras MG 17."},
+    {"p": "Quanto tempo o Bf 109 podia combater sobre a Inglaterra?", "r": "As fontes divergem. Cerca de 10 minutos sobre Londres, segundo Wagner e Nowarra; 20 minutos sobre o sudeste da Inglaterra, segundo o RAF Museum e o Smithsonian."},
+    {"p": "O Bf 109 era melhor que o Spitfire?", "r": "Dependia da manobra. Pelo RAF Museum, o Bf 109 E subia mais depressa e era mais bem armado; no ensaio britânico de 1940, o Spitfire curvava mais fechado, com raio de 696 pés contra 885."}
+  ],
+  "fontes": [
+    {
+      "texto": "Andrew Simpson, Individual History: Messerschmitt Bf109E-4/B W/Nr. 4101, RAF Museum, 2013, com o relatório de inteligência britânico de 1940 sobre o avião capturado.",
+      "url": "https://www.rafmuseum.org.uk/documents/collections/78-AF-624-Bf109E-4101.pdf"
+    },
+    {
+      "texto": "RAF Museum, ficha de acervo do Messerschmitt Bf 109E.",
+      "url": "https://collections.rafmuseum.org.uk/collection/object/object-1804/"
+    },
+    {
+      "texto": "Smithsonian National Air and Space Museum, ficha do Messerschmitt Bf 109 G-6/R3.",
+      "url": "https://airandspace.si.edu/collection-objects/messerschmitt-bf-109-g-6r3/nasm_A19600327000"
+    },
+    {
+      "texto": "Ensaio do Royal Aircraft Establishment com o Bf 109 E capturado, 1940 (relatório B.A.1640; M. B. Morgan e R. Smelt, 1944), por duas transcrições: \"Spitfire Mk I versus Me 109 E\" e Pilotfriend.",
+      "url": "https://www.rafjever.org/spitfire.htm"
+    },
+    {
+      "texto": "J. Rickard, \"Messerschmitt Bf 109E 'Emil'\", History of War, 2007.",
+      "url": "https://www.historyofwar.org/articles/weapons_bf_109E.html"
+    },
+    {
+      "texto": "Jon Guttman, \"Messerschmitt Bf 109\", HistoryNet, 2015.",
+      "url": "https://www.historynet.com/messerschmitt-bf-109/"
+    },
+    {
+      "texto": "Dinger's Aviation Pages, armamento do Bf 109.",
+      "url": "https://dingeraviation.net/bf109/bf109armament.htm"
+    },
+    {
+      "texto": "Battle of Britain 1940, especificações do Bf 109 E-3.",
+      "url": "https://battleofbritain1940.com/messerschmitt-bf-109/"
+    },
+    {
+      "texto": "Ray Wagner e Heinz Nowarra, German Combat Planes, 1971; Francis K. Mason, Messerschmitt Bf 109B, C, D, E in Luftwaffe & Foreign Service, 1973; Walter J. Boyne, Clash of Wings, 1994 (por citação da Wikipédia em inglês).",
+      "url": null
+    },
+    {
+      "texto": "Messerschmitt Bf 109, Bf 109 variants e Bf 109 operational history — Wikipédia em inglês.",
+      "url": "https://en.wikipedia.org/wiki/Messerschmitt_Bf_109"
+    },
+    {
+      "texto": "Messerschmitt Bf 109 — Wikipédia em alemão.",
+      "url": "https://de.wikipedia.org/wiki/Messerschmitt_Bf_109"
+    }
+  ],
+  "imagens": []
+}

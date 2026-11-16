@@ -311,6 +311,28 @@ picture{display:contents}
 .tema-abre h1{margin:.6rem 0 1.4rem}
 .tema-abre .intro{max-width:var(--texto)}
 .tema-abre .intro p{color:var(--perg-2);font-size:1.05rem;margin:0 0 1.1em}
+.card.sem-foto .foto{aspect-ratio:16/5;background:conic-gradient(var(--mesa-3) 25%,var(--mesa-2) 0 50%,var(--mesa-3) 0 75%,var(--mesa-2) 0) 0 0/48px 48px}
+.card.sem-foto .foto::after{display:none}
+.arsenal{padding-top:0}
+.arsenal-grupo{margin-top:clamp(2rem,5vw,3.2rem)}
+.arsenal-grupo:first-child{margin-top:0}
+.arsenal-grupo h2{display:flex;align-items:baseline;gap:.8rem;margin-bottom:1.4rem;padding-bottom:.8rem;border-bottom:1px solid var(--madeira)}
+.arsenal-grupo h2 .n{font:700 .9rem/1 var(--f-rotulo);letter-spacing:.16em;color:var(--ambar)}
+.secao.temas>.casca>header .botao{flex:none}
+.arma-abre{border-bottom:1px solid var(--madeira);padding-bottom:clamp(2rem,5vw,3.5rem)}
+.arma-abre h1{margin:.7rem 0 .8rem;font-size:clamp(1.7rem,6vw,4.4rem);overflow-wrap:break-word}
+.capa h1{overflow-wrap:break-word}
+.arma-abre .sub{font:500 clamp(.85rem,1.5vw,1rem)/1.5 var(--f-rotulo);letter-spacing:.12em;color:var(--perg-2);text-transform:uppercase}
+.arma-abre .perg{font-family:var(--f-titulo);font-style:italic;font-size:clamp(1.1rem,2vw,1.4rem);max-width:44ch;margin:1.2rem 0 0;color:var(--perg)}
+.capa .migalhas{margin-bottom:1rem}
+.pecas>p{margin:0;font-size:.95rem}
+.jogou{list-style:none;margin:1.2rem 0 0;padding:0;display:grid;gap:.8rem}
+.jogou a{display:block;padding:1.1rem 1.2rem;border:1px solid var(--madeira);background:var(--mesa-2);text-decoration:none;color:var(--perg);transition:border-color .25s,background .25s}
+.jogou a:hover{border-color:var(--ambar);background:var(--mesa-3);color:var(--perg)}
+.jogou strong{display:block;font:700 1.25rem/1.2 var(--f-titulo);margin:.45rem 0 .5rem}
+.jogou a:hover strong{color:var(--ambar)}
+.jogou p{margin:0 0 .7rem;font-size:.97rem;color:var(--perg-2)}
+.jogou .ir{font:500 .78rem/1 var(--f-rotulo);letter-spacing:.12em;text-transform:uppercase;color:var(--ambar)}
 .migalhas{font:500 .8rem/1.4 var(--f-rotulo);letter-spacing:.08em;text-transform:uppercase;color:var(--perg-3);margin-bottom:1.4rem}
 .migalhas a{color:var(--perg-3)}
 .migalhas span{color:var(--perg-2)}</style>
@@ -358,7 +380,7 @@ picture{display:contents}
 <li class="card revela">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/15-dia-d-capa-800.webp 800w, ../../assets/img/15-dia-d-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/15-dia-d-capa.jpg" srcset="../../assets/img/15-dia-d-capa-800.jpg 800w, ../../assets/img/15-dia-d-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1288" alt="View from inside a landing craft with the ramp lowered: soldiers with packs and helmets wade waist-deep toward a flat beach, under low clouds" loading="lazy" decoding="async" style="object-position:50% 55%"></picture>
     <span class="num">15</span>
-    <span class="selo" data-estreia="2026-12-31" data-no-ar="Out now">Premieres Dec 31, 2026</span>
+    <span class="selo" data-estreia="2027-01-07" data-no-ar="Out now">Premieres Jan 07, 2027</span>
   </div>
   <div class="corpo">
     <span class="rotulo">World War II, 1944</span>
@@ -371,7 +393,7 @@ picture{display:contents}
 <li class="card revela">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/16-market-garden-capa-800.webp 800w, ../../assets/img/16-market-garden-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/16-market-garden-capa.jpg" srcset="../../assets/img/16-market-garden-capa-800.jpg 800w, ../../assets/img/16-market-garden-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1099" alt="Aerial view of a steel arch bridge over a wide river, with houses on the upper bank and destroyed vehicles piled on the ramp at the northern end" loading="lazy" decoding="async" style="object-position:55% 45%"></picture>
     <span class="num">16</span>
-    <span class="selo" data-estreia="2027-01-07" data-no-ar="Out now">Premieres Jan 07, 2027</span>
+    <span class="selo" data-estreia="2027-01-14" data-no-ar="Out now">Premieres Jan 14, 2027</span>
   </div>
   <div class="corpo">
     <span class="rotulo">World War II, 1944</span>
@@ -384,7 +406,7 @@ picture{display:contents}
 <li class="card revela">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/17-ardenas-capa-800.webp 800w, ../../assets/img/17-ardenas-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/17-ardenas-capa.jpg" srcset="../../assets/img/17-ardenas-capa-800.jpg 800w, ../../assets/img/17-ardenas-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1217" alt="A German heavy tank advances along a muddy road with snow in the fields, beside a long line of helmeted American soldiers, prisoners" loading="lazy" decoding="async" style="object-position:45% 55%"></picture>
     <span class="num">17</span>
-    <span class="selo" data-estreia="2027-01-14" data-no-ar="Out now">Premieres Jan 14, 2027</span>
+    <span class="selo" data-estreia="2027-01-21" data-no-ar="Out now">Premieres Jan 21, 2027</span>
   </div>
   <div class="corpo">
     <span class="rotulo">World War II, 1944–1945</span>
@@ -423,7 +445,7 @@ picture{display:contents}
     <div>
       <h2>This site</h2>
       <ul>
-        <li><a href="../../en/sobre.html">About</a> · <a href="../../en/contato.html">Contact</a></li>
+        <li><a href="../../en/sobre.html">About</a> ·<a href="../../en/contato.html">Contact</a></li>
         <li>Shows Google AdSense ads. <a href="../../en/privacidade.html">Privacy policy</a>. <a href="#" role="button" data-rever-cookies>Review cookie choice</a>.</li>
         <li>Only period material or real photos, credited. No AI-generated images.</li>
       </ul>

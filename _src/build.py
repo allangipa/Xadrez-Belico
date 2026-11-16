@@ -7,6 +7,8 @@ Lê cada batalha de `_src/batalhas/NN-slug.json` (esquema em
 `_src/batalhas/ESQUEMA.md`) e escreve, na raiz:
 
     index.html  batalhas/<slug>.html  404.html
+    arsenal/index.html  arsenal/<slug>.html   (de `_src/arsenal/<slug>.json`,
+                                               esquema em `_src/arsenal/ESQUEMA.md`)
     sitemap.xml  robots.txt  assets/xadrez.css  assets/img/og-*.jpg
 
 Nunca edite os .html gerados: o próximo build apaga a mudança.
@@ -195,7 +197,9 @@ def prefixo(lg):
 
 def url_de(lg, chave):
     """Endereço absoluto da página `chave` (caminho em português) no idioma lg."""
-    return f"{DOMINIO}/{prefixo(lg)}{'' if chave == 'index.html' else chave}"
+    # index.html some do endereço: "/" e "/arsenal/"
+    limpa = chave[:-len("index.html")] if chave.endswith("index.html") else chave
+    return f"{DOMINIO}/{prefixo(lg)}{limpa}"
 
 
 def link(base, chave, ancora=""):
@@ -253,7 +257,7 @@ def licenca_rotulo(lic):
 # --- tradução de conteúdo: travas -----------------------------------------------
 # Campos que não se traduzem: se a tradução os trouxer, têm de ser idênticos;
 # se omitir, vêm do original.
-CAMPOS_FIXOS = {"num", "slug", "estreia", "proximo", "relacionados", "conf",
+CAMPOS_FIXOS = {"num", "slug", "estreia", "proximo", "relacionados", "conf", "classe",
                 "arquivo", "licenca", "licenca_url", "origem_url", "tipo", "ano", "foco", "url"}
 # Campos que a tradução pode ter mesmo que o original não tenha.
 EXTRAS_TRAD = {"nome_busca", "_excecoes_numeros", "_nota"}
@@ -392,20 +396,22 @@ def fundir_traducao(orig, trad, lg, onde="", excecoes=(), erros=None):
     return orig
 
 
-def carregar_traducoes(itens, campos_obrigatorios, nome_item):
-    """{idioma: {slug: item traduzido}} a partir de _src/<pasta>/<id>/NN-slug.json."""
-    por_slug = {x["slug"]: x for x in itens}
+def carregar_traducoes(itens, campos_obrigatorios, nome_item, pasta=None, padrao="[0-9][0-9]-*.json",
+                       nome_de=lambda x: f"{x['num']}-{x['slug']}.json"):
+    """{idioma: {slug: item traduzido}} a partir de _src/<pasta>/<id>/NN-slug.json
+    (batalhas) ou _src/arsenal/<id>/<slug>.json (`pasta`, `padrao` e `nome_de`)."""
+    PASTA_ITENS = pasta or globals()["PASTA_ITENS"]
     trads = {}
     for lg in ATIVOS:
         if lg == BASE_IDIOMA:
             continue
         trads[lg] = {}
-        for f in sorted((SRC / PASTA_ITENS / lg).glob("[0-9][0-9]-*.json")):
+        for f in sorted((SRC / PASTA_ITENS / lg).glob(padrao)):
             try:
                 t = json.loads(f.read_text(encoding="utf-8"))
             except json.JSONDecodeError as ex:
                 falha(f"{PASTA_ITENS}/{lg}/{f.name} não é JSON válido: {ex}")
-            orig = next((x for x in itens if f.name == f"{x['num']}-{x['slug']}.json"), None)
+            orig = next((x for x in itens if f.name == nome_de(x)), None)
             if orig is None:
                 falha(f"{PASTA_ITENS}/{lg}/{f.name}: não há {nome_item} com esse nome em _src/{PASTA_ITENS}/")
             erros = []
@@ -587,6 +593,22 @@ def temas_de(slug):
     return [t for t in TEMAS if slug in t[CHAVE_MEMBROS]]
 
 
+def conferir_imagem(nome, im):
+    """As regras de imagem do site (README): campos, tipo real, ano na foto
+    de hoje, arquivo existente e licença aceita. Vale para batalha e arsenal."""
+    for k in ("arquivo", "alt", "legenda", "autor", "licenca", "tipo"):
+        if not im.get(k):
+            falha(f"{nome}: imagem sem '{k}': {im.get('arquivo')}")
+    if im["tipo"] not in TIPOS:
+        falha(f"{nome}: tipo de imagem inválido {im['tipo']!r} (gerada por IA não entra no site)")
+    if im["tipo"] == "atual" and not re.fullmatch(r"\d{4}", str(im.get("ano", ""))):
+        falha(f"{nome}: foto atual sem 'ano' em {im['arquivo']} — a tarja precisa dele")
+    if not (IMG / im["arquivo"]).exists():
+        falha(f"{nome}: imagem inexistente assets/img/{im['arquivo']}")
+    if re.search(r"\bNC\b|no known copyright", im["licenca"], re.I) or not LICENCAS_OK.match(im["licenca"].strip()):
+        falha(f"{nome}: licença não aceita em {im['arquivo']}: {im['licenca']!r}")
+
+
 def carregar():
     bs = []
     for f in sorted((SRC / "batalhas").glob("[0-9][0-9]-*.json")):
@@ -604,17 +626,7 @@ def carregar():
         if not b["imagens"]:
             falha(f"{f.name}: precisa de pelo menos uma imagem (a capa)")
         for im in b["imagens"]:
-            for k in ("arquivo", "alt", "legenda", "autor", "licenca", "tipo"):
-                if not im.get(k):
-                    falha(f"{f.name}: imagem sem '{k}': {im.get('arquivo')}")
-            if im["tipo"] not in TIPOS:
-                falha(f"{f.name}: tipo de imagem inválido {im['tipo']!r} (gerada por IA não entra no site)")
-            if im["tipo"] == "atual" and not re.fullmatch(r"\d{4}", str(im.get("ano", ""))):
-                falha(f"{f.name}: foto atual sem 'ano' em {im['arquivo']} — a tarja precisa dele")
-            if not (IMG / im["arquivo"]).exists():
-                falha(f"{f.name}: imagem inexistente assets/img/{im['arquivo']}")
-            if re.search(r"\bNC\b|no known copyright", im["licenca"], re.I) or not LICENCAS_OK.match(im["licenca"].strip()):
-                falha(f"{f.name}: licença não aceita em {im['arquivo']}: {im['licenca']!r}")
+            conferir_imagem(f.name, im)
         for n in b["numeros"] + b["ficha"]:
             if n.get("conf") not in CONF:
                 falha(f"{f.name}: conf inválido {n.get('conf')!r} em {n}")
@@ -768,6 +780,13 @@ def cabeca(titulo, descricao, url, imagem, base, jsonld, tipo="website", indexar
 """
 
 
+def nav_arsenal(base, cur):
+    """Link "Arsenal" no menu, só no idioma em que a seção existe."""
+    if INDICE_ARSENAL not in EXISTE[L]:
+        return ""
+    return f'\n      <a href="{link(base, INDICE_ARSENAL)}"{cur("arsenal")}>{e(tr("Arsenal"))}</a>'
+
+
 def topo(base, atual=""):
     cur = lambda k: ' aria-current="page"' if k == atual else ""
     sub = f'<small class="marca-sub" lang="{cfg("hreflang")}">{e(cfg("marca_sub"))}</small>' if cfg("marca_sub") else ""
@@ -775,7 +794,7 @@ def topo(base, atual=""):
   <div class="casca">
     <a class="marca" href="{link(base, 'index.html')}"{'' if L == BASE_IDIOMA else ' lang="pt-BR"'}><img src="{base}assets/marca/cavalo-128.png" width="40" height="40" alt=""><span>Xadrez Bélico{sub}</span></a>
     <nav class="nav" aria-label="{e(tr('Principal'))}">
-      <a href="{link(base, 'index.html', '#batalhas')}"{cur('batalhas')}>{e(tr('Batalhas'))}</a>
+      <a href="{link(base, 'index.html', '#batalhas')}"{cur('batalhas')}>{e(tr('Batalhas'))}</a>{nav_arsenal(base, cur)}
       <a href="{link(base, 'index.html', '#metodo')}"{cur('metodo')}>{e(tr('Método'))}</a>
       <a href="{link(base, 'sobre.html')}"{hreflang_de('sobre.html')}{cur('sobre')}>{e(tr('Sobre'))}</a>
       {link_canal('yt', 'YouTube', 'YouTube em breve')}{seletor_idioma(base)}
@@ -790,6 +809,7 @@ def rodape(base):
     canal = f'<p><a href="{CANAL}" target="_blank" rel="noopener">{e(tr("Assista no YouTube"))}</a></p>' if CANAL else ""
     rever = f' <a href="#" role="button" data-rever-cookies>{e(tr("Rever escolha de cookies"))}</a>.' if ADSENSE_LIGADO else ""
     priv = f'<a href="{link(base, "privacidade.html")}"{hreflang_de("privacidade.html")}>{e(tr("Política de privacidade"))}</a>'
+    arsenal = f'<a href="{link(base, INDICE_ARSENAL)}">{e(tr("Arsenal"))}</a> · ' if INDICE_ARSENAL in EXISTE[L] else ""
     return f"""<footer class="rodape">
   <div class="casca">
     <div>
@@ -807,7 +827,7 @@ def rodape(base):
     <div>
       <h2>{e(tr("Este site"))}</h2>
       <ul>
-        <li><a href="{link(base, 'sobre.html')}"{hreflang_de('sobre.html')}>{e(tr("Sobre"))}</a> · <a href="{link(base, 'contato.html')}"{hreflang_de('contato.html')}>{e(tr("Contato"))}</a></li>
+        <li>{arsenal}<a href="{link(base, 'sobre.html')}"{hreflang_de('sobre.html')}>{e(tr("Sobre"))}</a> ·<a href="{link(base, 'contato.html')}"{hreflang_de('contato.html')}>{e(tr("Contato"))}</a></li>
         <li>{e(tr("Exibe anúncios do Google AdSense."))} {priv}.{rever}</li>
         <li>{e(tr("Só material de época ou foto real, com crédito. Nenhuma imagem gerada por IA."))}</li>
       </ul>
@@ -1152,7 +1172,7 @@ def home(bs, og, total=None, banner=(0, 0)):
   </div>
 </section>
 
-{secao_temas(base)}
+{secao_arsenal(base)}{secao_temas(base)}
 <section class="secao metodo" id="metodo">
   <div class="casca">
     <div>
@@ -1259,7 +1279,9 @@ def pagina(b, bs, og):
         f'<li>{para(f["texto"])}' + (f' — <a href="{e(f["url"])}" rel="noopener">{e(re.sub(r"^https?://(www[.])?", "", f["url"]).split("/")[0])}</a>' if f.get("url") else "") + "</li>"
         for f in b["fontes"])
     creditos = "".join(f'<li>Fig. {i+1:02d} — {e(im["legenda"])}: {credito(im)}</li>' for i, im in enumerate(b["imagens"]))
-    indice = ([("ficha", tr("Ficha da batalha"))] + [(sid, t) for sid, t, _ in secoes] + [("veredito", tr("Veredito")), ("mitos", tr("Mitos e registro"))]
+    pecas = pecas_html(b, base)
+    indice = ([("ficha", tr("Ficha da batalha"))] + ([("pecas", tr("As peças"))] if pecas else [])
+              + [(sid, t) for sid, t, _ in secoes] + [("veredito", tr("Veredito")), ("mitos", tr("Mitos e registro"))]
               + ([("perguntas", tr("Perguntas frequentes"))] if b.get("perguntas") else []) + [("fontes", tr("Fontes"))])
     indice_html = "".join(f'<li><a href="#{a}">{e(t)}</a></li>' for a, t in indice)
 
@@ -1309,6 +1331,7 @@ def pagina(b, bs, og):
     <h2 id="ficha"><span class="n">{e(tr('Ficha'))}</span>{e(tr('Ficha da batalha'))}</h2>
     <div class="dossie"><table class="ficha"><tbody>{ficha}</tbody></table></div>
     <div class="legenda-conf">{legenda_conf}</div>
+    {pecas}
 
     {''.join(h for _, _, h in secoes)}
     {sobra}
@@ -1353,6 +1376,378 @@ def pagina(b, bs, og):
 </main>
 <div class="lupa" role="dialog" aria-modal="true" aria-label="{e(tr('Imagem ampliada'))}"><button type="button">{e(tr('Fechar'))}</button><img alt=""><p></p></div>
 """ + rodape(base) + consentimento(base) + fim())
+
+
+# --- arsenal ---------------------------------------------------------------------
+# Uma ficha por peça (tanque, avião, blindado…) em _src/arsenal/<slug>.json;
+# sai em arsenal/<slug>.html, com o índice em arsenal/index.html. Esquema em
+# _src/arsenal/ESQUEMA.md. A ficha aponta para as batalhas em que a peça jogou
+# (`batalhas`), e a página da batalha ganha sozinha o bloco "As peças" com o
+# caminho de volta. Mesmas travas das batalhas: selo em cada número, licença
+# de imagem, bastidor, SEO. A imagem é opcional: sem foto dentro das regras, a
+# ficha sai sem foto.
+PASTA_ARSENAL = "arsenal"
+INDICE_ARSENAL = "arsenal/index.html"
+CLASSES = {  # classe -> (singular, plural); a ordem é a do índice
+    "tanque": ("Tanque", "Tanques"),
+    "blindado": ("Blindado", "Blindados"),
+    "aviao": ("Avião", "Aviões"),
+    "navio": ("Navio", "Navios"),
+    "canhao": ("Canhão", "Canhões"),
+}
+OBRIG_ARSENAL = ["slug", "nome", "classe", "papel", "pais", "periodo", "pergunta", "resumo", "abertura",
+                 "numeros", "ficha", "secoes", "batalhas", "veredito", "mitos", "fontes", "imagens"]
+ARSENAL = []                     # as fichas que existem no idioma da página atual
+
+
+def chave_arma(a):
+    return f"{PASTA_ARSENAL}/{a['slug']}.html"
+
+
+def ordem_arsenal(fichas):
+    ordem = list(CLASSES)
+    return sorted(fichas, key=lambda a: (ordem.index(a["classe"]), a["nome"].lower()))
+
+
+def carregar_arsenal(bs):
+    pasta = SRC / PASTA_ARSENAL
+    if not pasta.is_dir():
+        return []
+    batalhas = {b["slug"] for b in bs}
+    fichas = []
+    for f in sorted(pasta.glob("*.json")):
+        try:
+            a = json.loads(f.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as ex:
+            falha(f"arsenal/{f.name} não é JSON válido: {ex}")
+        nome = f"arsenal/{f.name}"
+        falta = [c for c in OBRIG_ARSENAL if c not in a]
+        if falta:
+            falha(f"{nome} sem os campos {falta}")
+        if not re.fullmatch(r"[a-z0-9-]+", a["slug"]) or f.name != f"{a['slug']}.json" or a["slug"] == "index":
+            falha(f"{nome}: nome do arquivo não bate com o slug (ou slug inválido)")
+        if a["classe"] not in CLASSES:
+            falha(f"{nome}: classe inválida {a['classe']!r} (use {', '.join(CLASSES)})")
+        for campo, lo, hi in (("numeros", 4, 6), ("ficha", 8, 16), ("secoes", 2, 5), ("mitos", 1, 5),
+                              ("abertura", 1, 3), ("veredito", 1, 3), ("fontes", 3, 40)):
+            if not isinstance(a[campo], list) or not lo <= len(a[campo]) <= hi:
+                falha(f"{nome}: '{campo}' deve ter de {lo} a {hi} itens")
+        for n in a["numeros"] + a["ficha"]:
+            if n.get("conf") not in CONF:
+                falha(f"{nome}: conf inválido {n.get('conf')!r} em {n}")
+        for s in a["secoes"]:
+            if not s.get("titulo") or not s.get("paragrafos"):
+                falha(f"{nome}: seção sem título ou sem parágrafos: {s.get('titulo')!r}")
+        for fo in a["fontes"]:
+            if not fo.get("texto") or "url" not in fo:
+                falha(f"{nome}: fonte sem 'texto' ou sem 'url' (use null): {fo}")
+        if not a["batalhas"]:
+            falha(f"{nome}: precisa de pelo menos uma batalha do site em 'batalhas'")
+        vistos = set()
+        for x in a["batalhas"]:
+            if set(x) != {"slug", "texto"} or not x["texto"].strip():
+                falha(f"{nome}: item de 'batalhas' malformado (slug e texto): {x!r}")
+            if x["slug"] not in batalhas:
+                falha(f"{nome}: batalha '{x['slug']}' não existe")
+            if x["slug"] in vistos:
+                falha(f"{nome}: batalha '{x['slug']}' repetida")
+            vistos.add(x["slug"])
+        for im in a["imagens"]:
+            conferir_imagem(nome, im)
+        conferir_perguntas(nome, a)
+        texto = json.dumps({k: v for k, v in a.items() if k not in ("imagens", "fontes")}, ensure_ascii=False)
+        texto += " ".join(i["legenda"] + " " + i["alt"] for i in a["imagens"])
+        m = BASTIDOR.search(texto)
+        if m:
+            ctx = texto[max(0, m.start() - 60):m.end() + 60]
+            falha(f"{nome}: bastidor de produção no texto público ({m.group(0)!r}): …{ctx}…")
+        fichas.append(a)
+    slugs = {a["slug"] for a in fichas}
+    for a in fichas:
+        rel = a.get("relacionados")
+        if rel is None:
+            continue
+        if not isinstance(rel, list) or not 1 <= len(rel) <= 3 or len(set(rel)) != len(rel):
+            falha(f"arsenal/{a['slug']}: relacionados deve ter de 1 a 3 slugs diferentes: {rel!r}")
+        for s in rel:
+            if s not in slugs or s == a["slug"]:
+                falha(f"arsenal/{a['slug']}: relacionado '{s}' não existe no arsenal (ou é a própria ficha)")
+    return ordem_arsenal(fichas)
+
+
+def titulo_arma(a):
+    """Nome primeiro, o que a página entrega depois, marca no fim, até 60."""
+    n = a.get("nome_busca") or a["nome"]
+    for meio in (tr(": ficha técnica, pontos fracos e batalhas"), tr(": ficha técnica e batalhas"),
+                 tr(": ficha técnica"), ""):
+        t = f"{n}{meio} · {NOME}"
+        if len(t) <= TITULO_MAX:
+            return t
+    falha(f"arsenal/{a['slug']}: não há título de até {TITULO_MAX} caracteres")
+
+
+def seo_arsenal():
+    return (tr("Arsenal: os tanques e aviões das batalhas · {nome}", nome=NOME),
+            tr("Ficha técnica de tanques, aviões e blindados: pontos fortes, pontos fracos e em quais batalhas cada "
+               "peça jogou. Cada número com fonte e selo."))
+
+
+def rotulo_arma(a):
+    return f"{tr(CLASSES[a['classe']][0])} · {a['pais']}"
+
+
+def og_arma(a):
+    """Imagem de compartilhamento da ficha; sem foto, vale a da home."""
+    if not a["imagens"]:
+        return "og-home.jpg"
+    return og_batalha({"imagens": a["imagens"]}, f"og-{prefixo(L).replace('/', '-')}arsenal-{a['slug']}.jpg",
+                      f"ARSENAL  ·  {rotulo_arma(a).upper()}", a["nome"])
+
+
+def card_arma(a, base):
+    ch = chave_arma(a)
+    if a["imagens"]:
+        capa = a["imagens"][0]
+        foto = img_tag(capa["arquivo"], capa["alt"], base, "(max-width:720px) 100vw, 400px", foco=capa.get("foco"))
+        cls = ""
+    else:
+        foto, cls = "", " sem-foto"
+    n = len(a["batalhas"])
+    return f"""<li class="card revela{cls}">
+  <div class="foto">{foto}
+    <span class="selo">{e(tr(CLASSES[a['classe']][0]))}</span>
+  </div>
+  <div class="corpo">
+    <span class="rotulo">{e(a['pais'])} · {e(a['periodo'])}</span>
+    <h3><a href="{link(base, ch)}">{e(a['nome'])}</a></h3>
+    <div class="quando">{e(a['papel'])}</div>
+    <p class="perg">{para(a['pergunta'])}</p>
+    <div class="pe"><span>{n:02d} {e(tr('batalha') if n == 1 else tr('batalhas'))}</span><span>{e(tr('Abrir a ficha →'))}</span></div>
+  </div>
+</li>"""
+
+
+def item_arma(a, base):
+    """Cartão curto de uma peça: na batalha ("As peças"), na home e em "Outras peças"."""
+    return (f'<li><a href="{link(base, chave_arma(a))}"><span class="rotulo">{e(rotulo_arma(a))}</span>'
+            f'<strong>{e(a["nome"])}</strong><span class="onde">{e(a["papel"])}</span></a></li>')
+
+
+def pecas_de(slug):
+    return [a for a in ARSENAL if any(x["slug"] == slug for x in a["batalhas"])]
+
+
+def pecas_html(b, base):
+    """Bloco "As peças" da página de batalha: as fichas do arsenal que citam
+    esta batalha. Sai sozinho, do inverso de `batalhas` de cada ficha — e só
+    no idioma em que a ficha existe."""
+    ps = pecas_de(b["slug"])
+    if not ps:
+        return ""
+    return (f'<section class="leia pecas" aria-labelledby="pecas"><h2 id="pecas"><span class="n">{e(tr("Arsenal"))}</span>{e(tr("As peças"))}</h2>'
+            f'<p>{e(tr("As peças desta partida que têm ficha própria: números com fonte, pontos fortes e pontos fracos."))}</p>'
+            f'<ul>{"".join(item_arma(a, base) for a in ps)}</ul></section>')
+
+
+def secao_arsenal(base):
+    """Seção da home: as fichas do arsenal (o menu some no celular)."""
+    if INDICE_ARSENAL not in EXISTE[L] or not ARSENAL:
+        return ""
+    return f"""<section class="secao temas" id="arsenal">
+  <div class="casca">
+    <header><div><span class="rotulo">{e(tr('As peças'))} · <b>{len(ARSENAL):02d}</b> {e(tr('fichas'))}</span><h2>{e(tr('Arsenal'))}</h2>
+      <p>{e(tr('Os tanques, aviões e blindados que aparecem nas batalhas: ficha técnica, pontos fracos e onde cada peça jogou.'))}</p></div>
+      <a class="botao" href="{link(base, INDICE_ARSENAL)}">{e(tr('Ver o arsenal'))}</a></header>
+    <ul class="temas-lista">{''.join(item_arma(a, base) for a in ARSENAL)}</ul>
+  </div>
+</section>
+"""
+
+
+def pagina_arsenal(og):
+    """Índice do arsenal: as fichas agrupadas por classe."""
+    base = "../../" if L != BASE_IDIOMA else "../"
+    url = url_de(L, INDICE_ARSENAL)
+    titulo, desc = seo_arsenal()
+    inicio = url_de(L, "index.html")
+    grupos = ""
+    for c, (_, plural) in CLASSES.items():
+        delas = [a for a in ARSENAL if a["classe"] == c]
+        if delas:
+            cards = "\n".join(card_arma(a, base) for a in delas)
+            grupos += (f'<div class="arsenal-grupo"><h2><span class="n">{len(delas):02d}</span>{e(tr(plural))}</h2>\n'
+                       f'<ul class="batalhas">\n{cards}\n</ul></div>\n')
+    jsonld = [{
+        "@context": "https://schema.org", "@type": "CollectionPage", "name": tr("Arsenal"), "headline": titulo,
+        "description": desc, "url": url, "inLanguage": cfg("hreflang"),
+        "isPartOf": {"@type": "WebSite", "name": NOME, "url": DOMINIO + "/"},
+        "image": {"@type": "ImageObject", "url": f"{DOMINIO}/assets/img/{og}", "width": 1200, "height": 630},
+        "mainEntity": {"@type": "ItemList", "numberOfItems": len(ARSENAL), "itemListElement": [
+            {"@type": "ListItem", "position": i, "url": url_de(L, chave_arma(a)), "name": a["nome"]}
+            for i, a in enumerate(ARSENAL, start=1)]},
+    }, migalhas((NOME, inicio), (tr("Arsenal"), url))]
+    return (cabeca(titulo, desc, url, f"{DOMINIO}/assets/img/{og}", base, jsonld)
+            + topo(base, "arsenal") + f"""<main id="conteudo">
+<section class="tema-abre">
+  <div class="casca">
+    <nav class="migalhas" aria-label="{e(tr('Você está em'))}"><a href="{link(base, 'index.html')}">{e(tr('Início'))}</a> / <span>{e(tr('Arsenal'))}</span></nav>
+    <span class="rotulo">{e(tr('As peças'))} · <b>{len(ARSENAL):02d}</b> {e(tr('fichas'))}</span>
+    <h1>{e(tr('Arsenal'))}</h1>
+    <div class="intro">
+      <p>{e(tr('Toda batalha deste site é contada como partida. Aqui ficam as peças: o tanque, o avião, o carro blindado. O que cada uma fazia bem, onde falhava e em quais batalhas jogou.'))}</p>
+      <p>{e(tr('Vale a mesma regra das batalhas: cada número leva um selo dizendo quanto se pode confiar nele, as fontes ficam no fim da página e, quando elas divergem, as versões aparecem lado a lado.'))}</p>
+    </div>
+  </div>
+</section>
+<section class="secao arsenal" id="fichas">
+  <div class="casca">
+{grupos}  </div>
+</section>
+</main>
+""" + rodape(base) + consentimento(base) + fim())
+
+
+def pagina_arma(a, bs, og):
+    base = "../../" if L != BASE_IDIOMA else "../"
+    ch = chave_arma(a)
+    url = url_de(L, ch)
+    capa = a["imagens"][0] if a["imagens"] else None
+    resto = a["imagens"][1:]
+    secoes = []
+    for i, s in enumerate(a["secoes"]):
+        sid = f"s{i+1}"
+        corpo = "".join(f"<p>{para(p)}</p>" for p in s["paragrafos"])
+        fig = figura(resto[i], i + 2, base) if i < len(resto) else ""
+        secoes.append((sid, s["titulo"], f'<h2 id="{sid}"><span class="n">{e(tr("No tabuleiro"))} {i+1}</span>{e(s["titulo"])}</h2>{corpo}{fig}'))
+    sobra = "".join(figura(im, len(a["secoes"]) + 2 + k, base) for k, im in enumerate(resto[len(a["secoes"]):]))
+
+    numeros = "".join(f'<li><span class="valor">{e(n["valor"])}</span><span class="rot">{e(n["rotulo"])}</span>{conf_selo(n["conf"])}</li>' for n in a["numeros"])
+    ficha = "".join(
+        f'<tr><th scope="row">{e(f["item"])}</th><td class="v">{para(f["valor"])}'
+        + (f'<span class="nota">{para(f["nota"])}</span>' if f.get("nota") else "")
+        + f'</td><td class="c">{conf_selo(f["conf"])}</td></tr>' for f in a["ficha"])
+    legenda_conf = "".join(f"<span>{conf_selo(k)} {e(tr(v[2]))}</span>" for k, v in CONF.items())
+    por_slug = {b["slug"]: b for b in bs}
+    jogou = ""
+    for x in a["batalhas"]:
+        b = por_slug[x["slug"]]
+        cb = f"batalhas/{b['slug']}.html"
+        jogou += (f'<li><a href="{link(base, cb)}"{hreflang_de(cb)}><span class="rotulo">{e(tr("Episódio"))} <b>{e(b["num"])}</b> · {e(b["data"])}</span>'
+                  f'<strong>{e(b["batalha"])}</strong><p>{para(x["texto"])}</p><span class="ir">{e(tr("Ler a partida →"))}</span></a></li>')
+    mitos = "".join(f'<li><div><span class="rotulo">{e(tr("O que se conta"))}</span><p>{para(m["circula"])}</p></div><div><span class="rotulo"><b>{e(tr("O que o registro mostra"))}</b></span><p>{para(m["registro"])}</p></div></li>' for m in a["mitos"])
+    fontes = "".join(
+        f'<li>{para(f["texto"])}' + (f' — <a href="{e(f["url"])}" rel="noopener">{e(re.sub(r"^https?://(www[.])?", "", f["url"]).split("/")[0])}</a>' if f.get("url") else "") + "</li>"
+        for f in a["fontes"])
+    creditos = ""
+    if a["imagens"]:
+        creditos = (f'<h3 style="margin-top:2rem">{e(tr("Imagens"))}</h3><ul class="creditos">'
+                    + "".join(f'<li>Fig. {i+1:02d} — {e(im["legenda"])}: {credito(im)}</li>' for i, im in enumerate(a["imagens"])) + "</ul>")
+    indice = ([("ficha", tr("Ficha técnica"))] + [(sid, t) for sid, t, _ in secoes]
+              + [("batalhas", tr("Em quais batalhas jogou")), ("veredito", tr("Veredito")), ("mitos", tr("Mitos e registro"))]
+              + ([("perguntas", tr("Perguntas frequentes"))] if a.get("perguntas") else []) + [("fontes", tr("Fontes"))])
+    indice_html = "".join(f'<li><a href="#{k}">{e(t)}</a></li>' for k, t in indice)
+
+    outras = ""
+    rel = [x for x in ARSENAL if x["slug"] in (a.get("relacionados") or [])]
+    if rel:
+        outras = (f'<section class="leia" aria-labelledby="outras"><h2 id="outras"><span class="n">{e(tr("Arsenal"))}</span>{e(tr("Outras peças"))}</h2>'
+                  f'<ul>{"".join(item_arma(x, base) for x in rel)}</ul></section>')
+
+    i_atual = [x["slug"] for x in ARSENAL].index(a["slug"])
+    ant = ARSENAL[i_atual - 1] if i_atual > 0 else None
+    prox = ARSENAL[i_atual + 1] if i_atual + 1 < len(ARSENAL) else None
+    nav = f'<nav class="seguinte" aria-label="{e(tr("Outras peças"))}">'
+    nav += (f'<a href="{link(base, chave_arma(ant))}"><span class="rotulo">← {e(rotulo_arma(ant))}</span><strong>{e(ant["nome"])}</strong></a>' if ant
+            else f'<a href="{link(base, INDICE_ARSENAL)}"><span class="rotulo">← {e(tr("Todas as fichas"))}</span><strong>{e(tr("Arsenal"))}</strong></a>')
+    nav += (f'<a href="{link(base, chave_arma(prox))}"><span class="rotulo">{e(rotulo_arma(prox))} →</span><strong>{e(prox["nome"])}</strong></a>' if prox
+            else f'<a href="{link(base, INDICE_ARSENAL)}"><span class="rotulo">{e(tr("Todas as fichas"))} →</span><strong>{e(tr("Arsenal"))}</strong></a>')
+    nav += "</nav>"
+
+    arq = a.get("_arquivo") or SRC / PASTA_ARSENAL / f"{a['slug']}.json"
+    jsonld = [{
+        "@context": "https://schema.org", "@type": "Article", "headline": tr("{nome}: a peça explicada", nome=a["nome"]),
+        "description": a["resumo"], "inLanguage": cfg("hreflang"), "url": url,
+        "image": {"@type": "ImageObject", "url": f"{DOMINIO}/assets/img/{og}", "width": 1200, "height": 630},
+        "datePublished": data_git(arq, primeira=True), "dateModified": data_git(arq),
+        "author": {"@type": "Organization", "name": NOME, "url": DOMINIO + "/"}, "publisher": ORG,
+        "mainEntityOfPage": {"@type": "WebPage", "@id": url},
+        "articleSection": tr("Arsenal"),
+        "about": {"@type": "Thing", "name": a["nome"], "description": f"{a['papel']} · {a['pais']}"},
+    }, migalhas((NOME, url_de(L, "index.html")), (tr("Arsenal"), url_de(L, INDICE_ARSENAL)), (a["nome"], url))]
+    migalha = (f'<nav class="migalhas" aria-label="{e(tr("Você está em"))}"><a href="{link(base, "index.html")}">{e(tr("Início"))}</a> / '
+               f'<a href="{link(base, INDICE_ARSENAL)}">{e(tr("Arsenal"))}</a> / <span>{e(a["nome"])}</span></nav>')
+    miolo = f"""{migalha}
+    <span class="rotulo">{e(tr('Arsenal'))} · <b>{e(tr(CLASSES[a['classe']][0]))}</b> · {e(a['pais'])}</span>
+    <h1>{e(a['nome'])}</h1>
+    <div class="sub">{e(a['papel'])} · {e(a['periodo'])}</div>
+    <p class="perg">{para(a['pergunta'])}</p>"""
+    if capa:
+        abre = f"""<header class="capa">
+  {img_tag(capa['arquivo'], capa['alt'], base, '100vw', 'eager', foco=capa.get('foco'))}
+  {tarja(capa)}
+  <span class="credito-capa">{e(capa['legenda'])} — {credito(capa)}</span>
+  <div class="casca">
+    {miolo}
+  </div>
+</header>"""
+        extra = preload_capa(capa["arquivo"], base)
+    else:
+        abre = f"""<header class="tema-abre arma-abre">
+  <div class="casca">
+    {miolo}
+  </div>
+</header>"""
+        extra = ""
+    lupa = (f'<div class="lupa" role="dialog" aria-modal="true" aria-label="{e(tr("Imagem ampliada"))}"><button type="button">{e(tr("Fechar"))}</button><img alt=""><p></p></div>\n'
+            if resto else "")
+    return (cabeca(titulo_arma(a), a["resumo"], url, f"{DOMINIO}/assets/img/{og}", base, jsonld, "article", extra=extra)
+            + '<div class="progresso" aria-hidden="true"></div>' + topo(base, "arsenal") + f"""<main id="conteudo">
+{abre}
+<section class="placar" aria-label="{e(tr('A peça em números'))}"><ul>{numeros}</ul></section>
+<div class="casca layout">
+  <article class="texto">
+    <div class="abertura">{''.join(f'<p>{para(p)}</p>' for p in a['abertura'])}</div>
+
+    <h2 id="ficha"><span class="n">{e(tr('Ficha'))}</span>{e(tr('Ficha técnica'))}</h2>
+    <div class="dossie"><table class="ficha"><tbody>{ficha}</tbody></table></div>
+    <div class="legenda-conf">{legenda_conf}</div>
+
+    {''.join(h for _, _, h in secoes)}
+    {sobra}
+
+    <h2 id="batalhas"><span class="n">{e(tr('Batalhas'))}</span>{e(tr('Em quais batalhas jogou'))}</h2>
+    <ul class="jogou">{jogou}</ul>
+
+    <h2 id="veredito"><span class="n">{e(tr('Veredito'))}</span>{e(tr('O que a peça valia no tabuleiro'))}</h2>
+    <div class="veredito">{''.join(f'<p>{para(p)}</p>' for p in a['veredito'])}</div>
+
+    <h2 id="mitos"><span class="n">{e(tr('Mitos'))}</span>{e(tr('O que se conta e o que o registro mostra'))}</h2>
+    <ul class="mitos">{mitos}</ul>
+
+    {perguntas_html(a)}
+
+    {outras}
+
+    <h2 id="fontes"><span class="n">{e(tr('Fontes'))}</span>{e(tr('Fontes'))}</h2>
+    <ol class="fontes">{fontes}</ol>
+    {creditos}
+  </article>
+  <aside class="indice" aria-label="{e(tr('Nesta página'))}">
+    <div class="lado-card">
+      <span class="rotulo">{e(tr('Ficha rápida'))}</span>
+      <dl>
+        <div><dt>{e(tr('Classe'))}</dt><dd>{e(a['papel'])}</dd></div>
+        <div><dt>{e(tr('País'))}</dt><dd>{e(a['pais'])}</dd></div>
+        <div><dt>{e(tr('Em serviço'))}</dt><dd>{e(a['periodo'])}</dd></div>
+      </dl>
+    </div>
+    <span class="rotulo">{e(tr('Nesta página'))}</span>
+    <ol>{indice_html}</ol>
+  </aside>
+</div>
+{nav}
+</main>
+{lupa}""" + rodape(base) + consentimento(base) + fim())
 
 
 def pagina_404():
@@ -1519,11 +1914,25 @@ def sitemap_xml(entradas):
 
 
 def main():
-    global TEMAS, L, PAGINA
+    global TEMAS, ARSENAL, L, PAGINA
     bs = carregar()
     temas_pt = carregar_temas(bs)
+    arsenal_pt = carregar_arsenal(bs)
     carregar_idiomas()
     trads = carregar_traducoes(bs, OBRIGATORIOS, "batalha")
+    trads_ars = carregar_traducoes(arsenal_pt, OBRIG_ARSENAL, "ficha", pasta=PASTA_ARSENAL, padrao="*.json",
+                                   nome_de=lambda x: f"{x['slug']}.json")
+    for lg, d in trads_ars.items():
+        for a in d.values():
+            conferir_perguntas(f"{PASTA_ARSENAL}/{lg}/{a['_arquivo'].name}", a)
+    # as fichas do arsenal em cada idioma: só as traduzidas (sem cair no português)
+    arsenal_por = {BASE_IDIOMA: arsenal_pt}
+    for lg, d in trads_ars.items():
+        arsenal_por[lg] = ordem_arsenal([d[a["slug"]] for a in arsenal_pt if a["slug"] in d])
+
+    def chaves_arsenal(lg):
+        fichas = arsenal_por.get(lg) or []
+        return ([INDICE_ARSENAL] + [chave_arma(a) for a in fichas]) if fichas else []
     for lg, d in trads.items():
         for b in d.values():
             conferir_perguntas(f"{PASTA_ITENS}/{lg}/{b['_arquivo'].name}", b)
@@ -1536,9 +1945,10 @@ def main():
 
     # o que existe em cada idioma (decide links, hreflang e seletor)
     EXISTE[BASE_IDIOMA] = ({"index.html", "sobre.html", "contato.html", "privacidade.html"}
-                           | {f"batalhas/{b['slug']}.html" for b in bs} | {f"temas/{t['slug']}.html" for t in temas_pt})
+                           | {f"batalhas/{b['slug']}.html" for b in bs} | {f"temas/{t['slug']}.html" for t in temas_pt}
+                           | set(chaves_arsenal(BASE_IDIOMA)))
     for lg in ATIVOS[1:]:
-        EXISTE[lg] = ({"index.html"} | {f"batalhas/{s}.html" for s in trads[lg]}
+        EXISTE[lg] = ({"index.html"} | {f"batalhas/{s}.html" for s in trads[lg]} | set(chaves_arsenal(lg))
                       | {f"temas/{t['slug']}.html" for t in temas_por[lg]}
                       | {c for c in PAGINAS_FIXAS if fixa_traduzida(lg, c).exists()})
 
@@ -1556,6 +1966,9 @@ def main():
         seo = {k: v for k, v in fixas.items() if k in EXISTE[lg]}
         seo.update({f"batalhas/{b['slug']}": (titulo_seo(b), b["resumo"]) for b in traduzidas(lg)})
         seo.update({f"temas/{t['slug']}": (titulo_tema(t), t["resumo"]) for t in TEMAS})
+        if chaves_arsenal(lg):
+            seo[INDICE_ARSENAL] = seo_arsenal()
+            seo.update({f"arsenal/{a['slug']}": (titulo_arma(a), a["resumo"]) for a in arsenal_por[lg]})
         conferir_seo(seo, lg)
 
     css = (SRC / "xadrez.css").read_text(encoding="utf-8").replace("url(/assets/fontes/", "url(fontes/")
@@ -1577,9 +1990,21 @@ def main():
     for lg in ATIVOS:
         L = lg
         TEMAS = temas_por[lg]
+        ARSENAL = arsenal_por.get(lg) or []
         pre = prefixo(lg)
         todas = lista_de(lg)
         delas = traduzidas(lg)
+        if ARSENAL:
+            for a in ARSENAL:
+                PAGINA = chave_arma(a)
+                saida[pre + PAGINA] = pagina_arma(a, todas, og_arma(a))
+                datas[(lg, PAGINA)] = max(fixas_data, data_git(a.get("_arquivo") or SRC / PASTA_ARSENAL / f"{a['slug']}.json"))
+            PAGINA = INDICE_ARSENAL
+            com_foto = next((a for a in ARSENAL if a["imagens"]), None)
+            og_ars = (og_batalha({"imagens": com_foto["imagens"]}, f"og-{pre.replace('/', '-')}arsenal.jpg",
+                                 tr("ARSENAL  ·  {n} FICHAS", n=len(ARSENAL)), tr("Arsenal")) if com_foto else og_casa)
+            saida[pre + PAGINA] = pagina_arsenal(og_ars)
+            datas[(lg, PAGINA)] = max([fixas_data] + [datas[(lg, chave_arma(a))] for a in ARSENAL])
         for b in delas:
             PAGINA = f"batalhas/{b['slug']}.html"
             saida[pre + PAGINA] = pagina(b, todas, og_batalha(b))
@@ -1625,8 +2050,8 @@ def main():
         destino = RAIZ / rel
         destino.parent.mkdir(parents=True, exist_ok=True)
         destino.write_text(txt, encoding="utf-8")
-    pastas = [RAIZ / "batalhas", RAIZ / "temas"] + [RAIZ / lg / sub for lg in IDIOMAS if lg != BASE_IDIOMA
-                                                   for sub in ("batalhas", "temas", "")]
+    pastas = [RAIZ / "batalhas", RAIZ / "temas", RAIZ / PASTA_ARSENAL] + [
+        RAIZ / lg / sub for lg in IDIOMAS if lg != BASE_IDIOMA for sub in ("batalhas", "temas", PASTA_ARSENAL, "")]
     for pasta in pastas:
         if pasta.is_dir():
             for velho in pasta.glob("*.html"):
@@ -1636,7 +2061,7 @@ def main():
                     print("removido (fora do build):", rel)
     for lg in IDIOMAS:
         if lg != BASE_IDIOMA:
-            for sub in ("batalhas", "temas", ""):
+            for sub in ("batalhas", "temas", PASTA_ARSENAL, ""):
                 d = RAIZ / lg / sub
                 if d.is_dir() and not any(d.iterdir()):
                     d.rmdir()
@@ -1654,7 +2079,8 @@ def main():
     for lg in ATIVOS:
         chaves = (["index.html"] + [f"batalhas/{b['slug']}.html" for b in bs]
                   + list(PAGINAS_FIXAS)
-                  + [f"temas/{t['slug']}.html" for t in temas_por[lg]])
+                  + [f"temas/{t['slug']}.html" for t in temas_por[lg]]
+                  + chaves_arsenal(lg))
         ordem += [(lg, c, datas[(lg, c)]) for c in chaves if (lg, c) in datas]
     (RAIZ / "sitemap.xml").write_text(sitemap_xml(ordem), encoding="utf-8")
     (RAIZ / "robots.txt").write_text(f"User-agent: *\nAllow: /\nDisallow: /_src/\n\nSitemap: {DOMINIO}/sitemap.xml\n", encoding="utf-8")
@@ -1666,6 +2092,11 @@ def main():
         print(f"  [{lg}] {len(trads[lg])} batalha(s) traduzida(s): {', '.join(sorted(trads[lg]))}; {len(temas_por[lg])} tema(s)")
     for b in bs:
         print(f"  {b['num']} {b['batalha']}: {len(b['ficha'])} linhas de ficha, {len(b['lances'])} lances, {len(b['imagens'])} imagens")
+    if arsenal_pt:
+        print(f"arsenal: {len(arsenal_pt)} fichas" + "".join(
+            f" · [{lg}] {len(v)}" for lg, v in arsenal_por.items() if lg != BASE_IDIOMA and v))
+        for a in arsenal_pt:
+            print(f"  {a['nome']}: {len(a['ficha'])} linhas de ficha, {len(a['batalhas'])} batalha(s), {len(a['imagens'])} imagens")
 
 
 if __name__ == "__main__":

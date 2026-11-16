@@ -56,6 +56,18 @@ de produção ("apuração", "roteiro", "bloco 3", `[2+]`, nome de arquivo…).
 4. Se estava em `EM_PRODUCAO` no `_src/build.py`, tire de lá.
 5. `python _src/build.py`.
 
+## Arsenal
+
+Uma ficha por peça (tanque, avião, blindado…) em `_src/arsenal/<slug>.json`,
+esquema em `_src/arsenal/ESQUEMA.md`. O build gera `arsenal/<slug>.html`, o
+índice `arsenal/index.html` (`/arsenal/`), a seção "Arsenal" da home, o link
+no menu e, em cada batalha citada numa ficha, o bloco "As peças". Mesmas
+travas das batalhas (selo em cada número, licença de imagem, bastidor, SEO);
+a imagem é opcional. Dado técnico entra com fonte própria — livro, manual ou
+museu antes de Wikipédia; o que a ficha diz de uma batalha só repete a
+página da batalha. Por ora só em português: em inglês e espanhol a seção
+aparece quando houver `_src/arsenal/en|es/<slug>.json`.
+
 ## Identidade
 
 Do CLAUDE.md do canal, "mesa de guerra à luz de lampião": fundo `#171310`,

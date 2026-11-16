@@ -1,0 +1,266 @@
+{
+  "slug": "hurricane",
+  "nome": "Hawker Hurricane",
+  "nome_busca": "Hawker Hurricane",
+  "classe": "aviao",
+  "papel": "caça monoposto",
+  "pais": "Reino Unido",
+  "periodo": "1937–1945",
+  "relacionados": ["spitfire", "bf-109"],
+  "pergunta": "Por que o caça mais lento da Batalha da Inglaterra foi o que mais derrubou aviões alemães?",
+  "resumo": "Hawker Hurricane Mk I: ficha técnica, pontos fortes e fracos do caça mais numeroso da RAF na Batalha da Inglaterra em 1940. Com fonte e selo em cada dado.",
+  "abertura": [
+    "O Hurricane foi o primeiro caça monoplano de oito metralhadoras da RAF, em serviço desde dezembro de 1937. Em 1940 era mais lento que o Spitfire e que o Bf 109, e tinha metade da fama.",
+    "Tinha também o que a fama não mostra: era mais barato de construir, mais fácil de consertar e estava em mais esquadrões. Esta ficha trata do Mk I, a versão que voou na Batalha da Inglaterra."
+  ],
+  "numeros": [
+    {
+      "valor": "≈ 14.500",
+      "rotulo": "construídos até 1944: as fontes vão de 14.233 a 14.533",
+      "conf": "DIV"
+    },
+    {
+      "valor": "316–320 mph",
+      "rotulo": "de velocidade máxima do Mk I nos ensaios oficiais britânicos de 1938 e 1940, cerca de 510 a 515 km/h",
+      "conf": "1"
+    },
+    {
+      "valor": "10.300 h",
+      "rotulo": "de trabalho por célula, contra 15.200 do Spitfire, na estimativa oficial de janeiro de 1940",
+      "conf": "1"
+    },
+    {
+      "valor": "55–60%",
+      "rotulo": "das vitórias reivindicadas pelo Fighter Command na Batalha da Inglaterra, conforme a fonte",
+      "conf": "DIV"
+    },
+    {
+      "valor": "1.715",
+      "rotulo": "Hurricanes voaram com o Fighter Command durante a batalha, segundo a BAE Systems",
+      "conf": "1"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Designação",
+      "valor": "Hawker Hurricane Mk I, projeto de Sydney Camm para a Hawker Aircraft",
+      "conf": "2+"
+    },
+    {
+      "item": "Fabricantes",
+      "valor": "Hawker; também Gloster, com cerca de 2.750; Austin, com 300; e Canadian Car and Foundry, com 1.451",
+      "conf": "1",
+      "nota": "BAE Systems Heritage."
+    },
+    {
+      "item": "Primeiro voo",
+      "valor": "6 de novembro de 1935, com o protótipo K5083, pilotado por George Bulman",
+      "conf": "2+"
+    },
+    {
+      "item": "Entrada em serviço",
+      "valor": "dezembro de 1937, no 111º Esquadrão, em Northolt",
+      "conf": "2+"
+    },
+    {
+      "item": "Produção total",
+      "valor": "14.233 no Smithsonian; cerca de 14.483 na BAE Systems; 14.487 em Owen Thetford, citado pela Wikipédia em inglês; 14.533 na Royal Air Force. O último saiu da fábrica em julho de 1944, segundo a BAE, ou em setembro, segundo o Smithsonian",
+      "conf": "DIV"
+    },
+    {
+      "item": "Quantos Mk I",
+      "valor": "não foi encontrado número em fonte aberta. A encomenda inicial, de junho de 1936, foi de 600 aviões",
+      "conf": "sem"
+    },
+    {
+      "item": "Dimensões",
+      "valor": "12,19 m de envergadura (40 pés), 9,58 m de comprimento, 3,99 m de altura",
+      "conf": "1",
+      "nota": "Força Aérea do Canadá. A envergadura bate com a da BAE Systems."
+    },
+    {
+      "item": "Peso carregado",
+      "valor": "de 6.316 a 6.750 libras nos ensaios oficiais de 1938 e 1940, conforme a carga; 6.600 libras (2.994 kg) na Força Aérea do Canadá",
+      "conf": "2+",
+      "nota": "Peso vazio de 4.670 libras (2.118 kg), na Força Aérea do Canadá."
+    },
+    {
+      "item": "Armamento",
+      "valor": "oito metralhadoras Browning de .303 polegada (7,7 mm), quatro em cada asa, agrupadas",
+      "conf": "2+",
+      "nota": "Williams e Gustin, citados pela Wikipédia em inglês, dão 334 tiros por arma."
+    },
+    {
+      "item": "Motor",
+      "valor": "Rolls-Royce Merlin II e depois Merlin III, de 1.030 hp",
+      "conf": "2+"
+    },
+    {
+      "item": "Gasolina de 100 octanas",
+      "valor": "permitia sobrepressão de emergência e cerca de 1.300 hp por cinco minutos. A data diverge: fevereiro de 1940 nos livros de registro dos esquadrões 111 e 151; a partir de maio de 1940 em John Correll",
+      "conf": "DIV"
+    },
+    {
+      "item": "Hélice",
+      "valor": "de madeira, duas pás e passo fixo nos primeiros; de Havilland metálica de dois passos em seguida; Rotol de velocidade constante, nos esquadrões a partir de abril de 1940",
+      "conf": "2+"
+    },
+    {
+      "item": "Velocidade máxima",
+      "valor": "320 milhas por hora a 17.500 pés no ensaio oficial de 1938; 316 no de 1940, com hélice Rotol; 318 (512 km/h) na Força Aérea do Canadá; 328 no site Battle of Britain 1940",
+      "conf": "DIV",
+      "nota": "Os dois primeiros são relatórios do estabelecimento de ensaios da RAF, lidos por transcrição."
+    },
+    {
+      "item": "Teto e subida",
+      "valor": "teto de serviço de 33.750 pés, estimado no ensaio de 1940, ou 33.400 pés (10.180 m) na Força Aérea do Canadá; subida de 2.610 pés por minuto ao nível do mar",
+      "conf": "2+",
+      "nota": "A razão de subida vem só do ensaio de 1940."
+    },
+    {
+      "item": "Alcance",
+      "valor": "440 milhas (708 km)",
+      "conf": "1",
+      "nota": "Força Aérea do Canadá."
+    },
+    {
+      "item": "Construção",
+      "valor": "fuselagem em treliça de tubos de aço, com formas de madeira e revestimento de linho na parte traseira; asas enteladas nos primeiros Mk I e metálicas a partir de 1939",
+      "conf": "2+",
+      "nota": "A asa metálica é de abril de 1939 em Cacutt e do fim de 1939 em Francis Mason, os dois citados pela Wikipédia em inglês."
+    }
+  ],
+  "secoes": [
+    {
+      "titulo": "Para que servia",
+      "paragrafos": [
+        "O Hurricane era o caça de defesa do território britânico, feito para subir, alcançar bombardeiros e derrubá-los com oito metralhadoras. Quando a guerra começou, era a espinha do Fighter Command, e foi ele que a RAF mandou para a França em 1940.",
+        "Na Batalha da Inglaterra, a divisão ideal de trabalho, segundo o Smithsonian e John Correll, era esta: os esquadrões de Hurricane iam nos bombardeiros, e os Spitfires, mais rápidos, seguravam a escolta. Era o ideal. Correll lembra que os Hurricanes também derrubaram a sua parte dos caças."
+      ]
+    },
+    {
+      "titulo": "Pontos fortes",
+      "paragrafos": [
+        "O primeiro é a fábrica. Pela história oficial britânica da produção de guerra, de M. M. Postan, uma célula de Hurricane custava 10.300 horas de trabalho na estimativa de janeiro de 1940, contra 15.200 de um Spitfire. Nas tabelas de Richard Overy, de junho a novembro de 1940 saíram 1.367 Hurricanes e 724 Spitfires.",
+        "O segundo é a oficina. A estrutura de tubos de aço aguentava dano, e, segundo o Smithsonian, deixou muitos aviões sobreviverem ao combate. O Battle of Britain Memorial Trust registra que não era raro um Hurricane avariado voltar à ação no mesmo dia.",
+        "O terceiro é o tiro. As quatro metralhadoras de cada asa ficavam juntas, o que concentrava o fogo, e o avião era estável ao atirar. E virava bem: para o Smithsonian, o Hurricane fazia curva mais fechada que o caça alemão em todas as altitudes de operação."
+      ]
+    },
+    {
+      "titulo": "Pontos fracos",
+      "paragrafos": [
+        "Era mais lento. O Smithsonian escreve que o Bf 109 superava o Hurricane em velocidade e em armamento; Stephen Bungay, citado pela Wikipédia em inglês, dá uma diferença de 10 a 30 milhas por hora conforme a altitude, e acrescenta que, numa perseguição pela cauda, o 109 escapava.",
+        "O motor era o mesmo Merlin do Spitfire, com o mesmo defeito: o carburador de boia cortava a alimentação quando o piloto empurrava o nariz para baixo de repente.",
+        "E havia o fogo. Um tanque de combustível ficava na fuselagem, logo à frente do painel de instrumentos, e muitos pilotos de Hurricane sofreram queimaduras graves. Geoffrey Page, um deles, comparou a experiência a estar sentado diante de um maçarico gigante. Dowding mandou revestir os tanques com um material autosselante."
+      ]
+    }
+  ],
+  "batalhas": [
+    {
+      "slug": "batalha-da-inglaterra",
+      "texto": "Era o caça mais numeroso da RAF: 29 esquadrões contra 19 de Spitfire em julho de 1940, numa conta. Respondeu por mais de 60% das vitórias reivindicadas e foi também o mais perdido, com 753 Hurricanes contra 467 Spitfires. O 303º Esquadrão, polonês, que voava Hurricanes, reivindicou 126 vitórias em seis semanas."
+    }
+  ],
+  "veredito": [
+    "No tabuleiro, o Hurricane é a peça comum que decide por estar em toda parte. Não era a melhor peça do lado britânico, e ninguém da época dizia que era. Era a que existia em quantidade, a que voltava da oficina e a que a fábrica repunha.",
+    "Numa batalha de desgaste como a de 1940, em que a pergunta era quantos caças cada lado conseguia manter no ar, essas três coisas valeram mais que 30 milhas por hora."
+  ],
+  "mitos": [
+    {
+      "circula": "O Spitfire ganhou a Batalha da Inglaterra.",
+      "registro": "O Hurricane era mais numeroso e levou a maior parte das vitórias reivindicadas pelo Fighter Command: 55% segundo a BAE Systems, contra 42% do Spitfire; mais de 60% segundo o RAF Museum. São reivindicações, que os dois lados inflavam, não perdas alemãs confirmadas."
+    },
+    {
+      "circula": "O Hurricane era um avião de madeira e lona.",
+      "registro": "A estrutura era uma treliça de tubos de aço. Madeira e linho davam só a forma e o revestimento da parte traseira da fuselagem, e as asas, enteladas nos primeiros Mk I, passaram a ser metálicas em 1939."
+    },
+    {
+      "circula": "Os Hurricanes atacavam os bombardeiros e os Spitfires cuidavam dos caças.",
+      "registro": "Era a divisão ideal, descrita pelo Smithsonian e por John Correll. Vincent Orange, citado pela Wikipédia em inglês, escreve que o ideal nem sempre foi alcançado e que houve ocasiões em que os papéis se inverteram."
+    },
+    {
+      "circula": "O Hurricane de 1940 chegava a 340 milhas por hora.",
+      "registro": "Esse é o número do Mk IIC, de motor mais potente, na BAE Systems. Os ensaios oficiais do Mk I deram 320 milhas por hora em 1938 e 316 em 1940."
+    }
+  ],
+  "perguntas": [
+    {"p": "Quantos Hurricanes foram construídos?", "r": "Cerca de 14.500. As fontes divergem: 14.233 no Smithsonian, cerca de 14.483 na BAE Systems, 14.487 em Owen Thetford e 14.533 na Royal Air Force."},
+    {"p": "O Hurricane era melhor que o Spitfire?", "r": "Não em desempenho: era mais lento. Era mais barato de construir, com 10.300 horas de trabalho por célula contra 15.200, mais fácil de consertar e mais numeroso."},
+    {"p": "Qual era o armamento do Hurricane?", "r": "No Mk I, oito metralhadoras Browning de .303 polegada, quatro em cada asa, agrupadas."},
+    {"p": "Qual era a velocidade máxima do Hurricane?", "r": "As fontes divergem. Os ensaios oficiais britânicos do Mk I deram 320 milhas por hora em 1938 e 316 em 1940; a Força Aérea do Canadá dá 318, cerca de 512 km/h."}
+  ],
+  "fontes": [
+    {
+      "texto": "Relatórios de ensaio do Aeroplane and Armament Experimental Establishment com os Hurricanes L1547 (1938) e L2026 (1940), e livros de registro de esquadrões, transcritos em WWII Aircraft Performance.",
+      "url": "http://www.wwiiaircraftperformance.org/hurricane/hurricane-I.html"
+    },
+    {
+      "texto": "BAE Systems Heritage, \"Hawker Hurricane\".",
+      "url": "https://heritage.baesystems.com/page/hawker-hurricane"
+    },
+    {
+      "texto": "Smithsonian National Air and Space Museum, ficha do Hawker Hurricane Mk. IIC.",
+      "url": "https://airandspace.si.edu/collection-objects/hawker-hurricane-mk-iic/nasm_A19700066000"
+    },
+    {
+      "texto": "RAF Museum, ficha de acervo do Hawker Hurricane Mk I.",
+      "url": "https://collections.rafmuseum.org.uk/collection/object/object-1533/"
+    },
+    {
+      "texto": "Royal Air Force, Battle of Britain Memorial Flight, \"Hurricane\".",
+      "url": "https://www.raf.mod.uk/aircraft/hurricane/"
+    },
+    {
+      "texto": "Governo do Canadá, Força Aérea do Canadá, \"Hawker Hurricane\".",
+      "url": "https://www.canada.ca/en/air-force/services/aircraft/hawker-hurricane.html"
+    },
+    {
+      "texto": "M. M. Postan, British War Production, History of the Second World War, 1952, capítulo IV (HyperWar).",
+      "url": "https://www.ibiblio.org/hyperwar/UN/UK/UK-Civil-WarProduction/UK-Civil-WarProduction-4.html"
+    },
+    {
+      "texto": "Richard Overy, The Battle of Britain: Myth and Reality, tabelas de produção e de perdas.",
+      "url": "https://erenow.org/ww/the-battle-of-britain-myth-and-reality/6.php"
+    },
+    {
+      "texto": "John T. Correll, \"How the Luftwaffe Lost the Battle of Britain\", Air Force Magazine, agosto de 2008.",
+      "url": "https://www.airandspaceforces.com/article/0808battle/"
+    },
+    {
+      "texto": "Battle of Britain Memorial Trust, \"The Hawker Hurricane – a personal view\".",
+      "url": "https://www.battleofbritainmemorial.org/the-hawker-hurricane-a-personal-view/"
+    },
+    {
+      "texto": "Stephen Bungay, The Most Dangerous Enemy, 2000; Owen Thetford, Aircraft of the Royal Air Force since 1918, 1994; Vincent Orange, Park, 2001; Anthony Williams e Emmanuel Gustin, Flying Guns: World War II, 2003 (por citação da Wikipédia em inglês).",
+      "url": null
+    },
+    {
+      "texto": "Hawker Hurricane — Wikipédia em inglês.",
+      "url": "https://en.wikipedia.org/wiki/Hawker_Hurricane"
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "07-batalha-da-inglaterra-hurricanes.jpg",
+      "alt": "Sete caças Hurricane em formação sobem acima de um mar de nuvens, fotografados de outro avião cuja asa aparece no canto inferior direito",
+      "legenda": "Hurricanes Mk I do 85º Esquadrão, baseado em Church Fenton, Yorkshire, liderados pelo Squadron Leader Peter Townsend, em 1940.",
+      "autor": "B. J. Daventry, fotógrafo oficial da Royal Air Force · Imperial War Museums, CH 1503",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Hawker_Hurricanes_-_Royal_Air_Force_Fighter_Command,_1939-1945_CH1503.jpg",
+      "tipo": "epoca",
+      "ano": "1940"
+    },
+    {
+      "arquivo": "07-batalha-da-inglaterra-303.jpg",
+      "alt": "Nove pilotos de colete salva-vidas e jaqueta de couro caminham sorrindo pela grama em direção à câmera, com um caça Hurricane atrás deles",
+      "legenda": "Pilotos do 303º Esquadrão (polonês) com um de seus Hurricanes em outubro de 1940.",
+      "autor": "Stanley Devon, fotógrafo oficial · Imperial War Museums, CH 1535",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Pilots_of_No._303_(Polish)_Squadron_RAF_with_one_of_their_Hawker_Hurricanes,_October_1940._CH1535.jpg",
+      "tipo": "epoca",
+      "ano": "1940"
+    }
+  ]
+}
