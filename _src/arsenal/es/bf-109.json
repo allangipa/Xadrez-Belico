@@ -202,5 +202,11 @@
       "texto": "Messerschmitt Bf 109 — Wikipedia en alemán."
     }
   ],
-  "imagens": []
+  "imagens": [
+    {
+      "alt": "Morro y hélice de un caza Bf 109 en primer plano, con el estrecho tren de aterrizaje a la vista; al fondo, soldados sentados en el césped, un camión y otros cazas alineados",
+      "legenda": "Cazas Bf 109 E en un campo de aterrizaje en Marquise, en el Paso de Calais, norte de Francia, en agosto de 1940, durante la Batalla de Inglaterra.",
+      "autor": "Erhardt Eckert · Bundesarchiv, Bild 101I-058-1784A-14"
+    }
+  ]
 }

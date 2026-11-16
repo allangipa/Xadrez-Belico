@@ -237,5 +237,18 @@
       "url": "https://de.wikipedia.org/wiki/Messerschmitt_Bf_109"
     }
   ],
-  "imagens": []
+  "imagens": [
+    {
+      "arquivo": "arsenal-bf-109.jpg",
+      "alt": "Nariz e hélice de um caça Bf 109 em primeiro plano, com o trem de pouso estreito à mostra; ao fundo, soldados sentados na grama, um caminhão e outros caças alinhados",
+      "legenda": "Caças Bf 109 E num campo de pouso em Marquise, no Pas-de-Calais, norte da França, em agosto de 1940, durante a Batalha da Inglaterra.",
+      "autor": "Erhardt Eckert · Bundesarchiv, Bild 101I-058-1784A-14",
+      "licenca": "CC BY-SA 3.0 DE",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.pt_BR",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-058-1784A-14,_Frankreich,_Jagdflugzeuge_Me_109_auf_Feldflugplatz.jpg",
+      "tipo": "epoca",
+      "ano": "1940",
+      "foco": "70% 50%"
+    }
+  ]
 }

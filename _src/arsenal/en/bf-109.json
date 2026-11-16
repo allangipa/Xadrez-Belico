@@ -202,5 +202,11 @@
       "texto": "Messerschmitt Bf 109 — German Wikipedia."
     }
   ],
-  "imagens": []
+  "imagens": [
+    {
+      "alt": "Nose and propeller of a Bf 109 fighter in the foreground, with its narrow landing gear in view; in the background, soldiers sitting on the grass, a truck and other fighters lined up",
+      "legenda": "Bf 109 E fighters on an airfield at Marquise, in the Pas-de-Calais, northern France, in August 1940, during the Battle of Britain.",
+      "autor": "Erhardt Eckert · Bundesarchiv, Bild 101I-058-1784A-14"
+    }
+  ]
 }

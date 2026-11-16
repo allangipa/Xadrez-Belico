@@ -1398,6 +1398,7 @@ CLASSES = {  # classe -> (singular, plural); a ordem é a do índice
 OBRIG_ARSENAL = ["slug", "nome", "classe", "papel", "pais", "periodo", "pergunta", "resumo", "abertura",
                  "numeros", "ficha", "secoes", "batalhas", "veredito", "mitos", "fontes", "imagens"]
 ARSENAL = []                     # as fichas que existem no idioma da página atual
+CAPA_MIN = 1200                  # largura mínima (px) para a primeira imagem abrir a ficha em tela cheia
 
 
 def chave_arma(a):
@@ -1611,15 +1612,18 @@ def pagina_arma(a, bs, og):
     base = "../../" if L != BASE_IDIOMA else "../"
     ch = chave_arma(a)
     url = url_de(L, ch)
-    capa = a["imagens"][0] if a["imagens"] else None
-    resto = a["imagens"][1:]
+    # a primeira imagem só vira capa de tela cheia se tiver largura para isso;
+    # foto pequena (menos de CAPA_MIN px) entra como figura, e a ficha abre sem capa
+    capa = a["imagens"][0] if a["imagens"] and Image.open(IMG / a["imagens"][0]["arquivo"]).size[0] >= CAPA_MIN else None
+    resto = a["imagens"][1:] if capa else a["imagens"]
+    n0 = 2 if capa else 1        # número da primeira figura do corpo (a capa é a FIG. 01)
     secoes = []
     for i, s in enumerate(a["secoes"]):
         sid = f"s{i+1}"
         corpo = "".join(f"<p>{para(p)}</p>" for p in s["paragrafos"])
-        fig = figura(resto[i], i + 2, base) if i < len(resto) else ""
+        fig = figura(resto[i], i + n0, base) if i < len(resto) else ""
         secoes.append((sid, s["titulo"], f'<h2 id="{sid}"><span class="n">{e(tr("No tabuleiro"))} {i+1}</span>{e(s["titulo"])}</h2>{corpo}{fig}'))
-    sobra = "".join(figura(im, len(a["secoes"]) + 2 + k, base) for k, im in enumerate(resto[len(a["secoes"]):]))
+    sobra = "".join(figura(im, len(a["secoes"]) + n0 + k, base) for k, im in enumerate(resto[len(a["secoes"]):]))
 
     numeros = "".join(f'<li><span class="valor">{e(n["valor"])}</span><span class="rot">{e(n["rotulo"])}</span>{conf_selo(n["conf"])}</li>' for n in a["numeros"])
     ficha = "".join(

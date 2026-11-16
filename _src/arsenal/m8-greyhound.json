@@ -251,5 +251,17 @@
       "url": "https://en.wikipedia.org/wiki/M8_Greyhound"
     }
   ],
-  "imagens": []
+  "imagens": [
+    {
+      "arquivo": "arsenal-m8-greyhound.jpg",
+      "alt": "Carro blindado M8 de seis rodas avança por uma rua enlameada entre casas de pedra danificadas, com quatro soldados americanos de capacete a bordo; à esquerda, um blindado alemão tombado numa vala",
+      "legenda": "Um M8 da 30ª Divisão de Infantaria americana atravessa Kinzweiler, na Alemanha, em 21 de novembro de 1944.",
+      "autor": "U.S. Army Signal Corps, SC 196666 · U.S. National Archives",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:SC_196666_-_An_M8_reconnaissance_armored_car_of_the_30th_Infantry_Div.,_rolls_through_the_streets_of_Kinzweiler,_November_21,_1944.jpg",
+      "tipo": "epoca",
+      "ano": "1944"
+    }
+  ]
 }

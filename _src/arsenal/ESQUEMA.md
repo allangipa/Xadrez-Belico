@@ -55,7 +55,10 @@ com fonte própria.
 `_src/batalhas/ESQUEMA.md` (a primeira imagem é a capa; `tipo` `epoca`,
 `carta` ou `atual` com `ano`; licença domínio público, CC0, CC BY ou CC BY-SA).
 Imagem já usada numa batalha pode ser reaproveitada, com a mesma ficha de
-crédito e legenda própria.
+crédito e legenda própria. Fotos novas ficam em `assets/img/arsenal-<slug>.jpg`
+(1600 px, JPEG 82) e `arsenal-<slug>-800.jpg`. Se a primeira imagem tiver
+menos de 1200 px de largura, ela não vira capa de tela cheia: a ficha abre
+sem capa e a foto entra como figura no corpo.
 
 ## O build para quando
 

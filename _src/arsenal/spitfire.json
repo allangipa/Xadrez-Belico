@@ -235,5 +235,18 @@
       "url": "https://en.wikipedia.org/wiki/Supermarine_Spitfire"
     }
   ],
-  "imagens": []
+  "imagens": [
+    {
+      "arquivo": "arsenal-spitfire.jpg",
+      "alt": "Caça Spitfire parado na grama, com armeiros ajoelhados sob a asa recarregando as metralhadoras e outros homens junto ao trem de pouso; à direita, um caminhão de combustível",
+      "legenda": "Um Spitfire Mk I do 19º Esquadrão é remuniciado entre duas saídas em Fowlmere, perto de Duxford, em setembro de 1940.",
+      "autor": "Stanley Devon, fotógrafo oficial da Royal Air Force · Imperial War Museums, CH 1367",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:A_Supermarine_Spitfire_Mk_1_of_No._19_Squadron_RAF_being_re-armed_between_sorties_at_Fowlmere,_near_Duxford,_September_1940._CH1367.jpg",
+      "tipo": "epoca",
+      "ano": "1940",
+      "foco": "50% 60%"
+    }
+  ]
 }
