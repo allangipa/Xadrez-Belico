@@ -77,9 +77,9 @@
     },
     {
       "item": "Blindados",
-      "valor": "A infantaria avançou com carros de reconhecimento M8 e tanques Sherman",
-      "conf": "1",
-      "nota": "Segundo a Wikipédia em inglês"
+      "valor": "Carros de reconhecimento M8 do esquadrão de reconhecimento brasileiro e tanques médios em apoio. A Wikipédia em inglês dá os tanques Sherman como da própria divisão brasileira; fontes ligadas ao Exército registram um pelotão de tanques médios americanos",
+      "conf": "DIV",
+      "nota": "A revista do Centro de Instrução de Blindados diz que o esquadrão de M8 foi a única tropa brasileira a usar blindados na guerra; o pelotão americano está num trabalho da Academia Militar das Agulhas Negras, com base no relatório do capitão Plínio Pitaluga."
     },
     {
       "item": "Força alemã",
@@ -149,7 +149,7 @@
       "titulo": "A abertura: 2 horas e 15 minutos",
       "paragrafos": [
         "Às 13h30 de 14 de abril, o 11º Regimento de Infantaria atacou o triângulo formado por Montese, a cota 888 e Montello, com três batalhões. O 1º Regimento de Infantaria atacou no mesmo combate: as duas direções de ataque aparecem na legenda do mapa desenhado por Autran em 1946.",
-        "A infantaria não foi sozinha. Segundo a Wikipédia em inglês, o avanço contou com carros de reconhecimento M8 e tanques Sherman, o que dava ao ataque brasileiro um peso visível de blindados num setor de flanco.",
+        "A infantaria não foi sozinha, mas as fontes divergem sobre de quem eram os blindados. A Wikipédia em inglês diz que a divisão brasileira empregou os seus próprios carros M8 e tanques Sherman. A revista do Centro de Instrução de Blindados do Exército registra o esquadrão de reconhecimento, com os M8, como a única tropa brasileira a usar blindados na guerra, e um trabalho da Academia Militar das Agulhas Negras, com base no relatório do capitão Plínio Pitaluga, fala em um pelotão de tanques médios americanos na consolidação da tomada da cidade. De um jeito ou de outro, havia um peso visível de blindados num setor de flanco.",
         "Às 15h45, Montese estava ocupada. Foram 2 horas e 15 minutos contra uma cidade defendida, num terreno de casas de pedra em que cada janela é uma posição de tiro. É aqui que a maior parte das versões encerra a história."
       ]
     },
@@ -231,7 +231,9 @@
     {
       "texto": "29 de abril — Conquista de Fornovo e rendição da 148ª Divisão de Infantaria Alemã — Departamento-Geral do Pessoal do Exército",
       "url": null
-    }
+    },
+    {"texto": "\"O Esquadrão da Força Expedicionária Brasileira\", revista Ação de Choque nº 19, Centro de Instrução de Blindados.", "url": "https://ebrevistas.eb.mil.br/AC/article/download/8746/7548/17160"},
+    {"texto": "Danilo Tenório Quintino, O 1º Esquadrão de Reconhecimento Mecanizado da FEB e sua importância durante a Ofensiva da Primavera, Academia Militar das Agulhas Negras.", "url": "https://bdex.eb.mil.br/jspui/bitstream/123456789/7767/1/TCC%20-%207367%20Ten%c3%b3rio.pdf"}
   ],
   "imagens": [
     {

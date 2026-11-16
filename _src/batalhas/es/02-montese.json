@@ -62,8 +62,8 @@
     },
     {
       "item": "Blindados",
-      "valor": "La infantería avanzó con autos de reconocimiento M8 y tanques Sherman",
-      "nota": "Según la Wikipedia en inglés"
+      "valor": "Autos de reconocimiento M8 del escuadrón de reconocimiento brasileño y tanques medios en apoyo. La Wikipedia en inglés da los tanques Sherman como de la propia división brasileña; fuentes vinculadas al Ejército registran un pelotón de tanques medios estadounidenses",
+      "nota": "La revista del Centro de Instrucción de Blindados dice que el escuadrón de M8 fue la única tropa brasileña que usó blindados en la guerra; el pelotón estadounidense aparece en un trabajo de la Academia Militar das Agulhas Negras, basado en el informe del capitán Plínio Pitaluga."
     },
     {
       "item": "Fuerza alemana",
@@ -124,7 +124,7 @@
       "titulo": "La apertura: 2 horas y 15 minutos",
       "paragrafos": [
         "A las 13:30 del 14 de abril, el 11.º Regimiento de Infantería atacó el triángulo formado por Montese, la cota 888 y Montello, con tres batallones. El 1.º Regimiento de Infantería atacó en el mismo combate: las dos direcciones de ataque aparecen en la leyenda del mapa dibujado por Autran en 1946.",
-        "La infantería no fue sola. Según la Wikipedia en inglés, el avance contó con autos de reconocimiento M8 y tanques Sherman, lo que le daba al ataque brasileño un peso visible de blindados en un sector de flanco.",
+        "La infantería no fue sola, pero las fuentes discrepan sobre de quién eran los blindados. La Wikipedia en inglés dice que la división brasileña empleó sus propios autos M8 y tanques Sherman. La revista del Centro de Instrucción de Blindados del Ejército registra al escuadrón de reconocimiento, con los M8, como la única tropa brasileña que usó blindados en la guerra, y un trabajo de la Academia Militar das Agulhas Negras, basado en el informe del capitán Plínio Pitaluga, habla de un pelotón de tanques medios estadounidenses en la consolidación de la toma de la ciudad. De un modo u otro, había un peso visible de blindados en un sector de flanco.",
         "A las 15:45, Montese estaba ocupada. Fueron 2 horas y 15 minutos contra una ciudad defendida, en un terreno de casas de piedra donde cada ventana es una posición de tiro. Es aquí donde la mayor parte de las versiones cierra la historia."
       ]
     },
@@ -199,7 +199,9 @@
     },
     {
       "texto": "29 de abril — Conquista de Fornovo e rendição da 148ª Divisão de Infantaria Alemã — Departamento-Geral do Pessoal do Exército"
-    }
+    },
+    {"texto": "\"O Esquadrão da Força Expedicionária Brasileira\", revista Ação de Choque n.º 19, Centro de Instrucción de Blindados del Ejército brasileño."},
+    {"texto": "Danilo Tenório Quintino, O 1º Esquadrão de Reconhecimento Mecanizado da FEB e sua importância durante a Ofensiva da Primavera, Academia Militar das Agulhas Negras."}
   ],
   "imagens": [
     {

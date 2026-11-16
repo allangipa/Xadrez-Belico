@@ -27,7 +27,7 @@
     {"item": "Forces — Luftwaffe", "valor": "3,358 aircraft against England on 10 August, 2,550 of them serviceable, of which 805 single-seat fighters and 998 medium bombers", "nota": "Wood and Dempster, The Narrow Margin, cited by English Wikipedia."},
     {"item": "Forces — Fighter Command", "valor": "754 single-seat and 149 two-seat fighters on 1 July; 1,061 on strength and 708 available on 3 August, rising to 1,161 and 746 on 7 September", "nota": "Bungay for July and Overy for August and September; other counts give about 768 aircraft and 520 ready in July."},
     {"item": "The network", "valor": "Chain Home radar stations on the coast, the Observer Corps tracking over land, a filter room at Bentley Priory, group and sector operations rooms linked by telephone to the squadrons"},
-    {"item": "Terrain", "valor": "the English Channel between the German bases and the target; the Bf 109 had about 10 minutes of combat over London before turning back"},
+    {"item": "Terrain", "valor": "the English Channel between the German bases and the target; the Bf 109 had about 10 minutes of combat over London before turning back, or about 20 minutes over south-east England, according to the RAF Museum and the Smithsonian"},
     {"item": "Duration", "valor": "10 July to 31 October 1940 in the British dating; German historians treat July 1940 to May 1941, including the Blitz, as a single campaign"},
     {"item": "15 September", "valor": "the RAF announced 175 to 185 aircraft shot down; the German loss was about 60. The British loss ranges from 26 to 31 depending on the source"},
     {"item": "Losses — aircraft", "valor": "Luftwaffe: 1,733 destroyed and 643 damaged according to German records disclosed in 1947; 1,887 or 1,977 in other counts. Fighter Command: from 1,023 to 1,087; with Bomber and Coastal Command, 524 more", "nota": "The first figure is the Air Minister's answer to the British Parliament on 14 May 1947."},
@@ -97,7 +97,7 @@
     },
     {
       "circula": "The Spitfire won the Battle of Britain.",
-      "registro": "The Hurricane was the most numerous fighter — 29 squadrons against 19 of Spitfires in July 1940, in one count — and accounted for more than 60% of the victories claimed by the RAF. It was also the most lost: 753 Hurricanes against 467 Spitfires. The percentages are of claims, which both sides inflated."
+      "registro": "The Hurricane was the most numerous fighter — 29 squadrons against 19 of Spitfires in July 1940, in John Correll's count; 25 against 19 on 14 July, in Richard Overy's tables — and accounted for more than half of the victories claimed by the RAF: 55% in Fighter Command's accounts, cited by BAE Systems, or more than 60%, according to the RAF Museum. It was also the most lost: 753 Hurricanes against 467 Spitfires, in Overy's tables, which run from May to November 1940. The percentages are of claims, which both sides inflated."
     },
     {
       "circula": "London was bombed by mistake, Churchill retaliated on Berlin, and Hitler, furious, switched from the airfields to London — the mistake that lost the battle.",
@@ -117,7 +117,7 @@
     {"p": "When was the Battle of Britain?", "r": "From 10 July to 31 October 1940, in the British dating. German historians treat July 1940 to May 1941, including the night bombing of the Blitz, as a single campaign."},
     {"p": "Why did Germany lose the Battle of Britain?", "r": "Mainly because it attacked an opponent it could not see. Dowding's network of radar, observers and telephone told each squadron where the enemy was, while German intelligence overestimated British losses, underestimated fighter production and switched targets without persisting with any of them."},
     {"p": "How many planes were lost in the Battle of Britain?", "r": "The counts differ. The Luftwaffe lost 1,733 aircraft according to German records disclosed in 1947, and 1,887 or 1,977 in other counts; Fighter Command lost from 1,023 to 1,087. 544 Fighter Command aircrew were killed."},
-    {"p": "Did the Spitfire win the Battle of Britain?", "r": "Not alone. The Hurricane was the RAF's most numerous fighter and accounted for more than 60% of the victories claimed, although it was also the most lost: 753 Hurricanes against 467 Spitfires."}
+    {"p": "Did the Spitfire win the Battle of Britain?", "r": "Not alone. The Hurricane was the RAF's most numerous fighter and accounted for more than half of the victories claimed, 55% or more than 60% depending on the source, although it was also the most lost: 753 Hurricanes against 467 Spitfires."}
   ],
   "fontes": [
     {"texto": "Battle of Britain (Enemy Losses), Hansard, House of Commons, 14 May 1947 — answer by the Air Minister, Philip Noel-Baker."},
@@ -133,7 +133,11 @@
     {"texto": "Battle of Britain Day — English Wikipedia."},
     {"texto": "Dowding system — English Wikipedia."},
     {"texto": "No. 303 Squadron RAF — English Wikipedia."},
-    {"texto": "Operation Sea Lion — English Wikipedia."}
+    {"texto": "Operation Sea Lion — English Wikipedia."},
+    {"texto": "BAE Systems Heritage, \"Hawker Hurricane\"."},
+    {"texto": "RAF Museum, collection records for the Hawker Hurricane Mk I and the Messerschmitt Bf 109E."},
+    {"texto": "Smithsonian National Air and Space Museum, record for the Messerschmitt Bf 109 G-6/R3."},
+    {"texto": "Richard Overy, The Battle of Britain: Myth and Reality, tables of squadrons and losses."}
   ],
   "imagens": [
     {
@@ -158,7 +162,7 @@
     },
     {
       "alt": "Seven Hurricane fighters in formation climb above a sea of clouds, photographed from another aircraft whose wing appears in the lower right corner",
-      "legenda": "Hurricane Mk Is of No. 85 Squadron, based at Church Fenton, Yorkshire, led by Squadron Leader Peter Townsend, in 1940. The Hurricane was the RAF's most numerous fighter and accounted for more than 60% of the victories claimed in the battle.",
+      "legenda": "Hurricane Mk Is of No. 85 Squadron, based at Church Fenton, Yorkshire, led by Squadron Leader Peter Townsend, in 1940. The Hurricane was the RAF's most numerous fighter and accounted for more than half of the victories claimed in the battle.",
       "autor": "B. J. Daventry, Royal Air Force official photographer · Imperial War Museums, CH 1503"
     }
   ]

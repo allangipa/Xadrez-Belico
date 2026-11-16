@@ -26,7 +26,7 @@
     {"item": "Terrain", "valor": "Town on top of a hill, with stone houses, narrow streets, cellars and a bell tower; high ground all around"},
     {"item": "Objective", "valor": "The triangle Montese – Hill 888 – Montello"},
     {"item": "Brazilian force", "valor": "11th Infantry Regiment, with three battalions, in the attack on Montese; the 1st Infantry Regiment attacked in the same action", "nota": "The 1st Infantry Regiment appears on the period map signed by Autran (1946) and in the Brazilian Army Blog; the Portuguese Wikipedia cited the 6th Infantry Regiment"},
-    {"item": "Armor", "valor": "The infantry advanced with M8 armored cars and Sherman tanks", "nota": "According to the English Wikipedia"},
+    {"item": "Armor", "valor": "M8 armored cars of the Brazilian reconnaissance squadron and medium tanks in support. The English Wikipedia gives the Sherman tanks as the Brazilian division's own; sources linked to the Brazilian Army record a platoon of American medium tanks", "nota": "The journal of the Armor Instruction Center says the M8 squadron was the only Brazilian unit to use armor in the war; the American platoon is in a paper from the Agulhas Negras Military Academy, based on the report by Captain Plínio Pitaluga."},
     {"item": "German force", "valor": "114th Light Division (Jägerdivision), troops geared to rough terrain and urban combat"},
     {"item": "Strength", "valor": "No verified figure for either side"},
     {"item": "Duration", "valor": "Town occupied at 15:45 on 14 April; counterattacks until 16 April; mopping-up of resistance at Montebuffone on the 17th"},
@@ -59,7 +59,7 @@
       "titulo": "The opening: 2 hours and 15 minutes",
       "paragrafos": [
         "At 13:30 on 14 April, the 11th Infantry Regiment attacked the triangle formed by Montese, Hill 888 and Montello, with three battalions. The 1st Infantry Regiment attacked in the same action: the two directions of attack appear in the legend of the map drawn by Autran in 1946.",
-        "The infantry did not go alone. According to the English Wikipedia, the advance had M8 armored cars and Sherman tanks, which gave the Brazilian attack a visible weight of armor in a flank sector.",
+        "The infantry did not go alone, but the sources disagree about whose armor it was. The English Wikipedia says the Brazilian division used its own M8 cars and Sherman tanks. The journal of the Brazilian Army's Armor Instruction Center records the reconnaissance squadron, with its M8 cars, as the only Brazilian unit to use armor in the war, and a paper from the Agulhas Negras Military Academy, based on the report by Captain Plínio Pitaluga, speaks of a platoon of American medium tanks in the consolidation of the capture of the town. Either way, there was a visible weight of armor in a flank sector.",
         "At 15:45, Montese was occupied. It took 2 hours and 15 minutes against a defended town, on ground of stone houses in which every window is a firing position. This is where most versions end the story."
       ]
     },
@@ -120,7 +120,9 @@
     {"texto": "O dever cívico-militar de exaltar a Batalha de Montese — Brazilian Army Blog"},
     {"texto": "Max Wolff Filho — Portuguese Wikipedia; and Revista Sociedade Militar, on the \"king of patrols\""},
     {"texto": "Map \"Combate de Montese\", signed Autran, 1946 (Wikimedia Commons)"},
-    {"texto": "29 April — Capture of Fornovo and surrender of the German 148th Infantry Division — Brazilian Army General Personnel Department"}
+    {"texto": "29 April — Capture of Fornovo and surrender of the German 148th Infantry Division — Brazilian Army General Personnel Department"},
+    {"texto": "\"O Esquadrão da Força Expedicionária Brasileira\", Ação de Choque journal no. 19, Brazilian Army Armor Instruction Center."},
+    {"texto": "Danilo Tenório Quintino, O 1º Esquadrão de Reconhecimento Mecanizado da FEB e sua importância durante a Ofensiva da Primavera, Agulhas Negras Military Academy."}
   ],
   "imagens": [
     {

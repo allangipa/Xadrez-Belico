@@ -67,7 +67,7 @@
     },
     {
       "item": "Terreno",
-      "valor": "el Canal de la Mancha entre las bases alemanas y el objetivo; el Bf 109 tenía unos 10 minutos de combate sobre Londres antes de regresar"
+      "valor": "el Canal de la Mancha entre las bases alemanas y el objetivo; el Bf 109 tenía unos 10 minutos de combate sobre Londres antes de regresar, o unos 20 minutos sobre el sudeste de Inglaterra, según el RAF Museum y el Smithsonian"
     },
     {
       "item": "Duración",
@@ -161,7 +161,7 @@
     },
     {
       "circula": "El Spitfire ganó la Batalla de Inglaterra.",
-      "registro": "El Hurricane era el caza más numeroso — 29 escuadrones contra 19 de Spitfire en julio de 1940, según una cuenta — y respondió por más del 60% de las victorias reivindicadas por la RAF. También fue el más perdido: 753 Hurricanes contra 467 Spitfires. Los porcentajes son de reivindicaciones, que los dos bandos inflaban."
+      "registro": "El Hurricane era el caza más numeroso — 29 escuadrones contra 19 de Spitfire en julio de 1940, según la cuenta de John Correll; 25 contra 19 el 14 de julio, en las tablas de Richard Overy — y respondió por más de la mitad de las victorias reivindicadas por la RAF: 55% en las cuentas del Fighter Command, citadas por BAE Systems, o más del 60%, según el RAF Museum. También fue el más perdido: 753 Hurricanes contra 467 Spitfires, en las tablas de Overy, que van de mayo a noviembre de 1940. Los porcentajes son de reivindicaciones, que los dos bandos inflaban."
     },
     {
       "circula": "Londres fue bombardeada por error, Churchill tomó represalias sobre Berlín, y Hitler, furioso, cambió los aeródromos por Londres — el error que perdió la batalla.",
@@ -181,7 +181,7 @@
     {"p": "¿Cuándo fue la Batalla de Inglaterra?", "r": "Del 10 de julio al 31 de octubre de 1940, en la datación británica. Los historiadores alemanes tratan de julio de 1940 a mayo de 1941, incluido el bombardeo nocturno del Blitz, como una sola campaña."},
     {"p": "¿Por qué Alemania perdió la Batalla de Inglaterra?", "r": "Principalmente porque atacó a un adversario que no veía. La red de radar, observadores y teléfono de Dowding le decía a cada escuadrón dónde estaba el enemigo, mientras la inteligencia alemana sobreestimaba las pérdidas británicas, subestimaba la producción de cazas y cambiaba de objetivo sin insistir en ninguno."},
     {"p": "¿Cuántos aviones fueron derribados en la Batalla de Inglaterra?", "r": "Las cuentas divergen. La Luftwaffe perdió 1.733 aviones según los registros alemanes divulgados en 1947, y 1.887 o 1.977 en otras cuentas; el Fighter Command perdió de 1.023 a 1.087. Murieron 544 aviadores del Fighter Command."},
-    {"p": "¿El Spitfire ganó la Batalla de Inglaterra?", "r": "No solo. El Hurricane era el caza más numeroso de la RAF y respondió por más del 60% de las victorias reivindicadas, aunque también fue el más perdido: 753 Hurricanes contra 467 Spitfires."}
+    {"p": "¿El Spitfire ganó la Batalla de Inglaterra?", "r": "No solo. El Hurricane era el caza más numeroso de la RAF y respondió por más de la mitad de las victorias reivindicadas, 55% o más del 60% según la fuente, aunque también fue el más perdido: 753 Hurricanes contra 467 Spitfires."}
   ],
   "fontes": [
     {"texto": "Battle of Britain (Enemy Losses), Hansard, Cámara de los Comunes, 14 de mayo de 1947 — respuesta del ministro del Aire, Philip Noel-Baker."},
@@ -197,7 +197,11 @@
     {"texto": "Battle of Britain Day — Wikipedia en inglés."},
     {"texto": "Dowding system — Wikipedia en inglés."},
     {"texto": "No. 303 Squadron RAF — Wikipedia en inglés."},
-    {"texto": "Operation Sea Lion — Wikipedia en inglés."}
+    {"texto": "Operation Sea Lion — Wikipedia en inglés."},
+    {"texto": "BAE Systems Heritage, \"Hawker Hurricane\"."},
+    {"texto": "RAF Museum, fichas de colección del Hawker Hurricane Mk I y del Messerschmitt Bf 109E."},
+    {"texto": "Smithsonian National Air and Space Museum, ficha del Messerschmitt Bf 109 G-6/R3."},
+    {"texto": "Richard Overy, The Battle of Britain: Myth and Reality, tablas de escuadrones y de pérdidas."}
   ],
   "imagens": [
     {
@@ -222,7 +226,7 @@
     },
     {
       "alt": "Siete cazas Hurricane en formación ascienden sobre un mar de nubes, fotografiados desde otro avión cuya ala aparece en la esquina inferior derecha",
-      "legenda": "Hurricanes Mk I del Escuadrón 85, con base en Church Fenton, Yorkshire, liderados por el Squadron Leader Peter Townsend, en 1940. El Hurricane era el caza más numeroso de la RAF y respondió por más del 60% de las victorias reivindicadas en la batalla.",
+      "legenda": "Hurricanes Mk I del Escuadrón 85, con base en Church Fenton, Yorkshire, liderados por el Squadron Leader Peter Townsend, en 1940. El Hurricane era el caza más numeroso de la RAF y respondió por más de la mitad de las victorias reivindicadas en la batalla.",
       "autor": "B. J. Daventry, fotógrafo oficial de la Royal Air Force · Imperial War Museums, CH 1503"
     }
   ]
